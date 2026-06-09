@@ -1,5 +1,6 @@
 const GITHUB_API = "/api/github";
 const RAW_GITHUB = "https://raw.githubusercontent.com";
+const STATIC_LEADERBOARD_BASE = "./data/leaderboards";
 const CACHE_VERSION = "v20";
 const CACHE_TTL_MS = 15 * 60 * 1000;
 const README_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
@@ -1092,11 +1093,7 @@ async function loadServerAccounts() {
       sortKey: "stars",
       sortDirection: "desc"
     });
-    const response = await fetch(`/api/leaderboard/accounts?${params}`);
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || `Leaderboard request failed: ${response.status}`);
-    }
+    const data = await fetchLeaderboardData("accounts", state.period, params);
 
     store.serverAccounts = data.rows || [];
     store.serverAccountTotal = data.total || store.serverAccounts.length;
@@ -1130,11 +1127,7 @@ async function loadServerRepositories() {
       sortKey: "stars",
       sortDirection: "desc"
     });
-    const response = await fetch(`/api/leaderboard/repositories?${params}`);
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.error || `Leaderboard request failed: ${response.status}`);
-    }
+    const data = await fetchLeaderboardData("repositories", state.period, params);
 
     store.fetchedRepos = data.rows || [];
     store.totalCount = data.totalIndexedCount || data.total || store.fetchedRepos.length;
@@ -1151,6 +1144,24 @@ async function loadServerRepositories() {
   } finally {
     store.serverReposLoading = false;
     render();
+  }
+}
+
+async function fetchLeaderboardData(view, period, params) {
+  const apiPath = view === "accounts" ? "accounts" : "repositories";
+  try {
+    const response = await fetch(`/api/leaderboard/${apiPath}?${params}`);
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.error || `Leaderboard request failed: ${response.status}`);
+    }
+    return data;
+  } catch {
+    const response = await fetch(`${STATIC_LEADERBOARD_BASE}/${view}-${period}.json`);
+    if (!response.ok) {
+      throw new Error(`No cached ${view} data is available for ${period}.`);
+    }
+    return response.json();
   }
 }
 

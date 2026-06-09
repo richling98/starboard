@@ -73,25 +73,32 @@ select {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   min-width: 0;
 }
 
 .brand-mark {
   display: grid;
-  width: 42px;
-  height: 42px;
+  width: 28px;
+  height: 28px;
   place-items: center;
-  border: 1px solid var(--inverse);
-  border-radius: var(--radius);
+  border: 0;
+  border-radius: 0;
   background: var(--page);
   color: var(--inverse);
 }
 
 .brand-mark svg {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   fill: currentColor;
+}
+
+.brand-separator {
+  color: var(--line-strong);
+  font-family: var(--mono);
+  font-size: 1.15rem;
+  font-weight: 500;
 }
 
 .brand-copy {
@@ -100,8 +107,7 @@ select {
   min-width: 0;
 }
 
-.brand-name,
-.brand-kicker {
+.brand-name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -119,7 +125,6 @@ select {
   font-weight: 850;
 }
 
-.brand-kicker,
 .eyebrow,
 .repo-owner,
 .repo-table-header,
@@ -993,10 +998,6 @@ h1 {
 }
 
 @media (max-width: 420px) {
-  .brand-kicker {
-    display: none;
-  }
-
   main {
     padding-inline: 12px;
   }

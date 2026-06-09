@@ -2,16 +2,29 @@ name: Starboard Index
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "17 */6 * * *"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  index:
+  index-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
-      GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
-      DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       STARBOARD_MAX_QUERIES: "18"
       STARBOARD_MAX_PAGES: "1"
     steps:
@@ -22,6 +35,26 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run setup:db
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run discover:repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run refresh:all-time-accounts
+        env:
+          GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run build:snapshots
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run export:static-data
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run build:pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
