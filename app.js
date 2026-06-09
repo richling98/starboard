@@ -533,6 +533,80 @@ function metricNode(template, value) {
   return node;
 }
 
+function externalLinkButton(url, label) {
+  const link = document.createElement("a");
+  link.className = "title-popout";
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noreferrer";
+  link.setAttribute("aria-label", label);
+  link.title = label;
+  link.innerHTML = `
+    <svg viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M3.75 2A1.75 1.75 0 0 0 2 3.75v8.5C2 13.216 2.784 14 3.75 14h8.5A1.75 1.75 0 0 0 14 12.25v-3a.75.75 0 0 0-1.5 0v3a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5a.25.25 0 0 1 .25-.25h3a.75.75 0 0 0 0-1.5h-3Zm5 0a.75.75 0 0 0 0 1.5h2.69L7.22 7.72a.75.75 0 0 0 1.06 1.06l4.22-4.22v2.69a.75.75 0 0 0 1.5 0V2.75A.75.75 0 0 0 13.25 2h-4.5Z" />
+    </svg>
+  `;
+  return link;
+}
+
+function setTitleWithPopout(titleNode, text, url, label) {
+  const titleText = document.createElement("span");
+  titleText.className = "repo-title-text";
+  titleText.textContent = text;
+  titleNode.replaceChildren(titleText, externalLinkButton(url, label));
+}
+
+function cloneMenu(repo) {
+  const details = document.createElement("details");
+  details.className = "clone-menu";
+
+  const summary = document.createElement("summary");
+  summary.className = "clone-summary";
+  summary.innerHTML = `
+    <span>Clone</span>
+    <svg viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" />
+    </svg>
+  `;
+  details.append(summary);
+
+  const fullName = repo.fullName || `${repo.owner}/${repo.name}`;
+  const values = [
+    ["HTTPS", `${repo.repoUrl || `https://github.com/${fullName}`}.git`],
+    ["GitHub CLI", `gh repo clone ${fullName}`],
+    ["SSH", `git@github.com:${fullName}.git`]
+  ];
+
+  const panel = document.createElement("div");
+  panel.className = "clone-panel";
+  values.forEach(([label, value]) => panel.append(cloneOption(label, value)));
+  details.append(panel);
+  return details;
+}
+
+function cloneOption(label, value) {
+  const row = document.createElement("div");
+  row.className = "clone-option";
+
+  const copy = document.createElement("div");
+  copy.className = "clone-option-copy";
+  const labelNode = document.createElement("span");
+  labelNode.className = "clone-option-label";
+  labelNode.textContent = label;
+  const valueNode = document.createElement("code");
+  valueNode.textContent = value;
+  copy.append(labelNode, valueNode);
+
+  const button = document.createElement("button");
+  button.className = "copy-clone-button";
+  button.type = "button";
+  button.dataset.copyValue = value;
+  button.textContent = "Copy";
+
+  row.append(copy, button);
+  return row;
+}
+
 function renderLeaderboard() {
   const store = currentStore();
   const rows = getCurrentRows();
@@ -576,27 +650,21 @@ function renderLeaderboard() {
 }
 
 function renderRepoRow(repo, index) {
-    const node = repoTemplate.content.cloneNode(true);
-    const row = node.querySelector(".repo-row");
-    row.dataset.repoId = repo.id;
-    node.querySelector(".repo-rank").textContent = String(index + 1);
-    node.querySelector(".repo-avatar").src = repo.avatar;
-    node.querySelector(".repo-avatar").alt = `${repo.owner} avatar`;
-    node.querySelector(".repo-owner").textContent = repo.owner;
-    node.querySelector(".repo-name").textContent = repo.name;
-    node.querySelector(".repo-description").textContent = repo.description;
-    node.querySelector(".repo-stars").append(metricNode(starMetricTemplate, repo.stars));
-    node.querySelector(".repo-forks").append(metricNode(forkMetricTemplate, repo.forks));
+  const node = repoTemplate.content.cloneNode(true);
+  const row = node.querySelector(".repo-row");
+  row.dataset.repoId = repo.id;
+  node.querySelector(".repo-rank").textContent = String(index + 1);
+  node.querySelector(".repo-avatar").src = repo.avatar;
+  node.querySelector(".repo-avatar").alt = `${repo.owner} avatar`;
+  node.querySelector(".repo-owner").textContent = repo.owner;
+  setTitleWithPopout(node.querySelector(".repo-name"), repo.name, repo.repoUrl, `Open ${repo.fullName || repo.name} on GitHub`);
+  node.querySelector(".repo-description").textContent = repo.description;
+  node.querySelector(".repo-stars").append(metricNode(starMetricTemplate, repo.stars));
+  node.querySelector(".repo-forks").append(metricNode(forkMetricTemplate, repo.forks));
 
-    const repoLink = document.createElement("a");
-    repoLink.className = "action primary";
-    repoLink.href = repo.repoUrl;
-    repoLink.target = "_blank";
-    repoLink.rel = "noreferrer";
-    repoLink.textContent = "Visit repo";
-    node.querySelector(".repo-actions").append(repoLink);
+  node.querySelector(".repo-actions").append(cloneMenu(repo));
 
-    repoList.append(node);
+  repoList.append(node);
 }
 
 function renderAccountRow(account, index) {
@@ -610,7 +678,7 @@ function renderAccountRow(account, index) {
   node.querySelector(".repo-avatar").src = account.avatarUrl;
   node.querySelector(".repo-avatar").alt = `${account.login} avatar`;
   node.querySelector(".repo-owner").textContent = account.type === "Organization" ? "Organization" : "User";
-  node.querySelector(".repo-name").textContent = account.login;
+  setTitleWithPopout(node.querySelector(".repo-name"), account.login, account.htmlUrl, `Open ${account.login} on GitHub`);
   node.querySelector(".repo-description").remove();
   node.querySelector(".account-type").textContent = account.type === "Organization" ? "Org" : "User";
   node.querySelector(".account-stars").append(metricNode(starMetricTemplate, account.starScore));
@@ -632,12 +700,6 @@ function renderAccountRow(account, index) {
     node.querySelector(".account-top-repo").textContent = "No starred repos";
   }
 
-  const accountLink = document.createElement("a");
-  accountLink.className = "action primary";
-  accountLink.href = account.htmlUrl;
-  accountLink.target = "_blank";
-  accountLink.rel = "noreferrer";
-  accountLink.textContent = "Visit";
   const expandButton = document.createElement("button");
   expandButton.className = "account-expand-button";
   expandButton.type = "button";
@@ -647,7 +709,7 @@ function renderAccountRow(account, index) {
   expandButton.setAttribute("aria-label", `${isExpanded ? "Hide" : "Show"} repositories for ${account.login}`);
   expandButton.textContent = isExpanded ? "Hide repos" : "Show repos";
 
-  node.querySelector(".repo-actions").append(expandButton, accountLink);
+  node.querySelector(".repo-actions").append(expandButton);
 
   repoList.append(node);
 
@@ -1191,6 +1253,12 @@ densityToggle.addEventListener("click", () => {
 loadMoreButton.addEventListener("click", loadMore);
 
 repoList.addEventListener("click", (event) => {
+  const copyButton = event.target.closest(".copy-clone-button");
+  if (copyButton) {
+    copyCloneValue(copyButton);
+    return;
+  }
+
   const button = event.target.closest(".account-expand-button");
   if (!button) return;
 
@@ -1202,6 +1270,63 @@ repoList.addEventListener("click", (event) => {
   }
   render();
 });
+
+repoList.addEventListener("toggle", (event) => {
+  const menu = event.target.closest(".clone-menu");
+  if (!menu || !menu.open) return;
+  document.querySelectorAll(".clone-menu[open]").forEach((openMenu) => {
+    if (openMenu !== menu) openMenu.removeAttribute("open");
+  });
+}, true);
+
+document.addEventListener("click", (event) => {
+  if (event.target.closest(".clone-menu")) return;
+  document.querySelectorAll(".clone-menu[open]").forEach((menu) => menu.removeAttribute("open"));
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  document.querySelectorAll(".clone-menu[open]").forEach((menu) => menu.removeAttribute("open"));
+});
+
+async function copyCloneValue(button) {
+  const value = button.dataset.copyValue || "";
+  if (!value) return;
+
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(value);
+    } else {
+      fallbackCopy(value);
+    }
+    flashCopyButton(button, "Copied");
+  } catch {
+    fallbackCopy(value);
+    flashCopyButton(button, "Copied");
+  }
+}
+
+function fallbackCopy(value) {
+  const input = document.createElement("textarea");
+  input.value = value;
+  input.setAttribute("readonly", "");
+  input.style.position = "fixed";
+  input.style.opacity = "0";
+  document.body.append(input);
+  input.select();
+  document.execCommand("copy");
+  input.remove();
+}
+
+function flashCopyButton(button, label) {
+  const original = button.textContent;
+  button.textContent = label;
+  button.disabled = true;
+  setTimeout(() => {
+    button.textContent = original;
+    button.disabled = false;
+  }, 1100);
+}
 
 function setView(view) {
   if (state.view === view) return;

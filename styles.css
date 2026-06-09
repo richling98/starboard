@@ -424,12 +424,12 @@ h1 {
 
 .repo-table-header,
 .repo-row {
-  grid-template-columns: 72px minmax(0, 1fr) 120px 120px 160px;
+  grid-template-columns: 72px minmax(0, 1fr) 120px 120px 128px;
 }
 
 .account-table-header,
 .account-row {
-  grid-template-columns: 72px minmax(0, 1fr) 92px 120px 92px minmax(180px, 260px) 190px;
+  grid-template-columns: 72px minmax(0, 1fr) 92px 120px 92px minmax(180px, 260px) 128px;
 }
 
 .table-header {
@@ -521,10 +521,43 @@ h1 {
 }
 
 .repo-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
   margin: 0;
   color: var(--ink);
   font-size: clamp(1rem, 1.4vw, 1.18rem);
   line-height: 1.2;
+}
+
+.repo-title-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-popout {
+  display: inline-grid;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+}
+
+.title-popout svg {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+}
+
+.title-popout:hover {
+  border-color: var(--inverse);
+  color: var(--inverse);
 }
 
 .repo-description {
@@ -553,6 +586,7 @@ h1 {
 }
 
 .repo-actions {
+  position: relative;
   display: flex;
   gap: 8px;
   justify-content: flex-end;
@@ -717,6 +751,123 @@ h1 {
   filter: none;
 }
 
+.clone-menu {
+  position: relative;
+  width: 100%;
+}
+
+.clone-summary {
+  display: inline-flex;
+  width: 100%;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--inverse);
+  border-radius: var(--radius);
+  background: var(--inverse);
+  color: var(--inverse-ink);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 860;
+  list-style: none;
+  padding: 0 12px;
+  white-space: nowrap;
+}
+
+.clone-summary::-webkit-details-marker {
+  display: none;
+}
+
+.clone-summary svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.clone-menu[open] .clone-summary,
+.clone-summary:hover {
+  border-color: var(--inverse);
+  background: var(--page);
+  color: var(--inverse);
+}
+
+.clone-menu[open] .clone-summary svg {
+  transform: rotate(180deg);
+}
+
+.clone-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  display: grid;
+  width: min(420px, calc(100vw - 32px));
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: #050505;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.55);
+  padding: 8px;
+}
+
+.clone-option {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.clone-option + .clone-option {
+  border-top: 1px solid var(--line);
+}
+
+.clone-option-copy {
+  min-width: 0;
+}
+
+.clone-option-label {
+  display: block;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 850;
+  margin-bottom: 5px;
+}
+
+.clone-option code {
+  display: block;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copy-clone-button {
+  min-height: 32px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--page);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 0 10px;
+}
+
+.copy-clone-button:hover:not(:disabled) {
+  border-color: var(--inverse);
+  background: var(--inverse);
+  color: var(--inverse-ink);
+}
+
+.copy-clone-button:disabled {
+  cursor: default;
+  opacity: 0.72;
+}
+
 .load-more-row {
   display: flex;
   align-items: center;
@@ -860,12 +1011,12 @@ h1 {
 
   .repo-table-header,
   .repo-row {
-    grid-template-columns: 56px minmax(0, 1fr) 100px 100px 140px;
+    grid-template-columns: 56px minmax(0, 1fr) 100px 100px 118px;
   }
 
   .account-table-header,
   .account-row {
-    grid-template-columns: 56px minmax(0, 1fr) 72px 100px 72px minmax(150px, 1fr) 166px;
+    grid-template-columns: 56px minmax(0, 1fr) 72px 100px 72px minmax(150px, 1fr) 128px;
     gap: 12px;
   }
 }
@@ -959,10 +1110,17 @@ h1 {
     justify-content: stretch;
   }
 
-  .action,
+  .clone-summary,
+  .clone-menu,
   .account-expand-button,
   .skeleton-button,
   .load-more-button {
+    width: 100%;
+  }
+
+  .clone-panel {
+    left: 0;
+    right: auto;
     width: 100%;
   }
 
