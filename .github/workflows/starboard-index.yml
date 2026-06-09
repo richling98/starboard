@@ -27,6 +27,7 @@ jobs:
     env:
       STARBOARD_MAX_QUERIES: "18"
       STARBOARD_MAX_PAGES: "1"
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -53,6 +54,8 @@ jobs:
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run build:pages
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
