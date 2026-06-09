@@ -27,6 +27,8 @@ jobs:
     env:
       STARBOARD_MAX_QUERIES: "18"
       STARBOARD_MAX_PAGES: "1"
+      STARBOARD_README_LIMIT: "0"
+      STARBOARD_LANGUAGE_LIMIT: "500"
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - uses: actions/checkout@v4
