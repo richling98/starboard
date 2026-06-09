@@ -13,6 +13,7 @@ import {
   SEARCH_REQUEST_SPACING_MS,
   loadLocalEnv
 } from "../backend-cache.mjs";
+import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../language-gate.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const args = parseArgs(process.argv.slice(2));
@@ -26,6 +27,7 @@ if (!process.env.GITHUB_TOKEN) {
 
 const maxQueries = Number(args["max-queries"] || process.env.STARBOARD_MAX_QUERIES || 20);
 const maxPages = Math.min(Number(args["max-pages"] || process.env.STARBOARD_MAX_PAGES || 2), MAX_GITHUB_PAGE);
+const readmeLimit = Number(args["readme-limit"] || process.env.STARBOARD_README_LIMIT || 240);
 const period = args.period || process.env.STARBOARD_PERIOD || "";
 const forceSeed = args.seed !== "false";
 
@@ -46,7 +48,7 @@ try {
   for (const queryConfig of queries) {
     summary.queries += 1;
     try {
-      const result = await runDiscoveryQuery(queryConfig, maxPages);
+      const result = await runDiscoveryQuery(queryConfig, maxPages, readmeLimit);
       summary.githubRequests += result.githubRequests;
       summary.reposDiscovered += result.reposDiscovered;
       summary.accountsDiscovered += result.accountsDiscovered;
@@ -86,9 +88,10 @@ try {
   await closePool();
 }
 
-async function runDiscoveryQuery(queryConfig, maxPagesForQuery) {
+async function runDiscoveryQuery(queryConfig, maxPagesForQuery, readmeLimitForQuery) {
   const reposById = new Map();
   let githubRequests = 0;
+  let readmeRequests = 0;
 
   for (let page = 1; page <= maxPagesForQuery; page += 1) {
     const query = expandRollingQuery(queryConfig.query, queryConfig.period);
@@ -100,6 +103,15 @@ async function runDiscoveryQuery(queryConfig, maxPagesForQuery) {
       .map(normalizeRepo)
       .filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived);
 
+    for (const repo of repos.slice(0, readmeLimitForQuery)) {
+      const readme = await fetchReadme(repo);
+      readmeRequests += 1;
+      const english = assessEnglishContent(repo.description, readme);
+      repo.englishCheckStatus = english.status;
+      repo.englishCheckConfidence = english.confidence;
+      repo.englishCheckedAt = new Date().toISOString();
+    }
+
     repos.forEach((repo) => reposById.set(String(repo.id), repo));
     await upsertRepositories(repos, { sourceQueryKey: queryConfig.queryKey });
     await waitForSearchBudget(headers);
@@ -109,7 +121,7 @@ async function runDiscoveryQuery(queryConfig, maxPagesForQuery) {
 
   const repos = [...reposById.values()];
   return {
-    githubRequests,
+    githubRequests: githubRequests + readmeRequests,
     reposDiscovered: repos.length,
     accountsDiscovered: new Set(repos.map((repo) => String(repo.ownerId))).size
   };
@@ -140,7 +152,7 @@ async function githubFetch(pathname) {
 function normalizeRepo(item) {
   const owner = item.owner?.login || "unknown";
   const description = item.description || "";
-  const english = englishGate(description);
+  const english = assessEnglishContent(description);
   return {
     id: item.id,
     fullName: item.full_name || `${owner}/${item.name}`,
@@ -180,23 +192,22 @@ function cutoffDate(period) {
   return date.toISOString().slice(0, 10);
 }
 
-function englishGate(text) {
-  if (!text || typeof text !== "string") {
-    return { status: "unknown", confidence: null };
+async function fetchReadme(repo) {
+  const owner = encodeURIComponent(repo.owner);
+  const name = encodeURIComponent(repo.name);
+  const endpoint = `/repos/${owner}/${name}/readme`;
+
+  try {
+    const { data } = await githubFetch(endpoint);
+    if (!data?.download_url) return "";
+    const response = await fetch(data.download_url, {
+      headers: { "user-agent": "starboard-language-job" }
+    });
+    if (!response.ok) return "";
+    return cleanMarkdownForLanguageCheck(await response.text()).slice(0, 20000);
+  } catch {
+    return "";
   }
-
-  const blockedScripts =
-    /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}\p{Script=Cyrillic}\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Devanagari}\p{Script=Thai}]/u;
-  if (blockedScripts.test(text)) return { status: "rejected", confidence: 0 };
-
-  const letters = text.match(/\p{Letter}/gu) || [];
-  if (letters.length < 12) return { status: "unknown", confidence: null };
-
-  const latinLetters = text.match(/\p{Script=Latin}/gu) || [];
-  const confidence = latinLetters.length / letters.length;
-  return confidence >= 0.96
-    ? { status: "accepted", confidence }
-    : { status: "rejected", confidence };
 }
 
 function hasNextLink(headers) {

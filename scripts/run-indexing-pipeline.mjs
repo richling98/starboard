@@ -11,6 +11,7 @@ const discoverArgs = passthroughArgs.filter((arg) => arg.startsWith("--max-") ||
 const steps = [
   ["setup-db", ["scripts/setup-db.mjs"]],
   ["discover-repositories", ["scripts/discover-repositories.mjs", ...discoverArgs]],
+  ["refine-repository-language", ["scripts/refine-repository-language.mjs"]],
   ["refresh-all-time-accounts", ["scripts/refresh-all-time-accounts.mjs"]],
   ["build-leaderboard-snapshots", ["scripts/build-leaderboard-snapshots.mjs"]]
 ];

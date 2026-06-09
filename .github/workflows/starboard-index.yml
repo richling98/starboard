@@ -42,6 +42,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run refine:language
+        env:
+          GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run refresh:all-time-accounts
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}

@@ -95,7 +95,7 @@ Run the full local indexing pipeline with:
 npm run index:github
 ```
 
-The pipeline runs setup, repository discovery, all-time account enrichment, and snapshot generation. For the first pass, keep `STARBOARD_MAX_PAGES=1` or pass `-- --max-pages=1` so the index grows safely without heavy GitHub API usage.
+The pipeline runs setup, repository discovery, README language refinement, all-time account enrichment, and snapshot generation. For the first pass, keep `STARBOARD_MAX_PAGES=1` or pass `-- --max-pages=1` so the index grows safely without heavy GitHub API usage.
 
 Check the cache status with:
 
@@ -110,7 +110,7 @@ The MVP period definitions are:
 - Month: starred repositories created in the last 30 days
 - All time: starred repositories overall
 
-Repository discovery stores an English-script heuristic status. Snapshot generation excludes repos that are confidently rejected as non-English. The browser still performs the stricter README refinement on live fallback results.
+Repository discovery stores an English-script heuristic status using the GitHub description and README text. A stray non-English character is allowed, but repos whose README/description are predominantly Chinese, Japanese, Korean, Cyrillic, Arabic, Hebrew, Devanagari, or Thai are rejected. Snapshot generation excludes repos that are confidently rejected as non-English.
 
 ## Scheduled Indexing
 
@@ -126,13 +126,14 @@ The workflow runs every 6 hours and can also be started manually from GitHub Act
 ```bash
 npm run setup:db
 npm run discover:repos
+npm run refine:language
 npm run refresh:all-time-accounts
 npm run build:snapshots
 ```
 
 ## Next Build Step
 
-Deploy the local server or move the API routes into a production backend. After that, increase `STARBOARD_MAX_PAGES`, add more query partitions, and add a deeper README language check inside the backend enrichment job.
+Deploy the local server or move the API routes into a production backend. After that, increase `STARBOARD_MAX_PAGES`, add more query partitions, and add semantic search over indexed descriptions and README summaries.
 
 ## Font Attribution
 
