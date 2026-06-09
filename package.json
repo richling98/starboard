@@ -1,0 +1,18 @@
+{
+  "name": "starboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "refresh:all-time-accounts": "node scripts/refresh-all-time-accounts.mjs",
+    "import:cache": "node scripts/import-cache-to-db.mjs",
+    "setup:db": "node scripts/setup-db.mjs",
+    "discover:repos": "node scripts/discover-repositories.mjs",
+    "build:snapshots": "node scripts/build-leaderboard-snapshots.mjs",
+    "index:github": "node scripts/run-indexing-pipeline.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.21.0"
+  }
+}

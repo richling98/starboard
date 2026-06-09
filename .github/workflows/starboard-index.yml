@@ -1,0 +1,27 @@
+name: Starboard Index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
+      DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      STARBOARD_MAX_QUERIES: "18"
+      STARBOARD_MAX_PAGES: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      - run: npm run setup:db
+      - run: npm run discover:repos
+      - run: npm run refresh:all-time-accounts
+      - run: npm run build:snapshots

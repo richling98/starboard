@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Starboard</title>
+    <meta
+      name="description"
+      content="A polished discovery dashboard for trending open source repositories."
+    />
+    <meta name="color-scheme" content="dark" />
+    <link
+      rel="preload"
+      href="./fonts/FiraMono-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Starboard home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M12 2.8 14.9 8.7l6.5 1-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5-4.7-4.6 6.5-1L12 2.8Z" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Starboard</span>
+          <span class="brand-kicker">Open source radar</span>
+        </span>
+      </a>
+      <nav class="topbar-actions" aria-label="View options">
+        <button class="view-toggle" type="button" id="density-toggle" aria-pressed="false">
+          Compact
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-head" aria-labelledby="page-title">
+        <div class="title-block">
+          <h1 id="page-title" class="visually-hidden">STARBOARD</h1>
+          <div class="ascii-title" aria-hidden="true">
+            <pre class="ascii-title-layer ascii-title-shadow">███████╗████████╗ █████╗ ██████╗ ██████╗  ██████╗  █████╗ ██████╗ ██████╗ 
+██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗
+███████╗   ██║   ███████║██████╔╝██████╔╝██║   ██║███████║██████╔╝██║  ██║
+╚════██║   ██║   ██╔══██║██╔══██╗██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
+███████║   ██║   ██║  ██║██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ </pre>
+            <pre class="ascii-title-layer ascii-title-face">███████ ████████  █████  ██████  ██████   ██████   █████  ██████  ██████  
+██         ██    ██   ██ ██   ██ ██   ██ ██    ██ ██   ██ ██   ██ ██   ██ 
+███████    ██    ███████ ██████  ██████  ██    ██ ███████ ██████  ██   ██ 
+     ██    ██    ██   ██ ██   ██ ██   ██ ██    ██ ██   ██ ██   ██ ██   ██ 
+███████    ██    ██   ██ ██   ██ ██████   ██████  ██   ██ ██   ██ ██████  
+                                                                          </pre>
+          </div>
+          <p class="terminal-subtitle">Discover The Open Source Ecosystem</p>
+        </div>
+      </section>
+
+      <section class="controls-band" aria-label="Dashboard controls">
+        <div class="period-tabs" role="tablist" aria-label="Time period">
+          <button class="tab is-active" type="button" data-period="today" role="tab" aria-selected="true">
+            Today
+          </button>
+          <button class="tab" type="button" data-period="week" role="tab" aria-selected="false">
+            Week
+          </button>
+          <button class="tab" type="button" data-period="month" role="tab" aria-selected="false">
+            Month
+          </button>
+          <button class="tab" type="button" data-period="all" role="tab" aria-selected="false">
+            All time
+          </button>
+        </div>
+
+        <div class="filters">
+          <label class="search-field" for="search-input">
+            <span aria-hidden="true">/</span>
+            <input id="search-input" type="search" placeholder="Search repos, topics, owners" />
+          </label>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <section class="repo-panel" id="repositories" aria-labelledby="repo-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Leaderboard</p>
+              <h2 id="repo-title" class="visually-hidden">Repository leaderboard</h2>
+            </div>
+            <div class="view-tabs" role="tablist" aria-label="Leaderboard view">
+              <button class="view-tab is-active" type="button" data-view="repos" role="tab" aria-selected="true">
+                Repos
+              </button>
+              <button class="view-tab" type="button" data-view="accounts" role="tab" aria-selected="false">
+                Accounts
+              </button>
+            </div>
+          </div>
+
+          <div class="repo-table-header table-header is-active" data-view="repos" aria-label="Repository table columns">
+            <span>#</span>
+            <span>Repo</span>
+            <button class="sort-button" type="button" data-sort-key="stars">Stars</button>
+            <button class="sort-button" type="button" data-sort-key="forks">Forks</button>
+            <span></span>
+          </div>
+          <div class="account-table-header table-header" data-view="accounts" aria-label="Account table columns">
+            <span>#</span>
+            <span>Account</span>
+            <span>Type</span>
+            <button class="sort-button" type="button" data-sort-key="stars">Stars</button>
+            <button class="sort-button" type="button" data-sort-key="repos">Repos</button>
+            <span>Top repo</span>
+            <span></span>
+          </div>
+          <div class="repo-list" id="repo-list" aria-live="polite"></div>
+          <div class="load-more-row">
+            <p class="pagination-status" id="pagination-status"></p>
+            <button class="load-more-button" type="button" id="load-more-button">Load more</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <template id="repo-template">
+      <article class="repo-row">
+        <div class="repo-rank"></div>
+        <div class="repo-identity">
+          <img class="repo-avatar" alt="" loading="eager" />
+          <div class="repo-copy">
+            <p class="repo-owner"></p>
+            <h3 class="repo-name"></h3>
+            <p class="repo-description"></p>
+          </div>
+        </div>
+        <div class="repo-stars"></div>
+        <div class="repo-forks"></div>
+        <div class="repo-actions"></div>
+      </article>
+    </template>
+
+    <template id="account-template">
+      <article class="account-row">
+        <div class="repo-rank"></div>
+        <div class="repo-identity">
+          <img class="repo-avatar" alt="" loading="eager" />
+          <div class="repo-copy">
+            <p class="repo-owner"></p>
+            <h3 class="repo-name"></h3>
+            <p class="repo-description"></p>
+          </div>
+        </div>
+        <div class="account-type"></div>
+        <div class="account-stars"></div>
+        <div class="account-repos"></div>
+        <div class="account-top-repo"></div>
+        <div class="repo-actions"></div>
+      </article>
+    </template>
+
+    <template id="star-metric-template">
+      <span class="metric-cell">
+        <svg class="metric-icon" viewBox="0 0 16 16" aria-hidden="true">
+          <path
+            d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.211.612a.75.75 0 0 1 .416 1.279l-3.047 2.97.72 4.194a.75.75 0 0 1-1.088.791L8 12.347l-3.767 1.982a.75.75 0 0 1-1.088-.79l.72-4.195-3.047-2.97a.75.75 0 0 1 .416-1.28l4.211-.611L7.327.668A.75.75 0 0 1 8 .25Z"
+          />
+        </svg>
+        <span></span>
+      </span>
+    </template>
+
+    <template id="fork-metric-template">
+      <span class="metric-cell">
+        <svg class="metric-icon" viewBox="0 0 16 16" aria-hidden="true">
+          <path
+            d="M5 3.25a1.75 1.75 0 1 1-2.5-1.58 1.75 1.75 0 0 1 2.5 1.58Zm6 0a1.75 1.75 0 1 1 2.5 1.58v.92A2.75 2.75 0 0 1 10.75 8.5h-2v2.67a1.75 1.75 0 1 1-1.5 0V8.5h-2A2.75 2.75 0 0 1 2.5 5.75v-.92a1.75 1.75 0 1 1 1.5 0v.92c0 .69.56 1.25 1.25 1.25h5.5c.69 0 1.25-.56 1.25-1.25v-.92A1.75 1.75 0 0 1 11 3.25ZM3.25 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm9.5 0a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM8 12a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 12Z"
+          />
+        </svg>
+        <span></span>
+      </span>
+    </template>
+
+    <script src="./app.js?v=20"></script>
+  </body>
+</html>
