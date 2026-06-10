@@ -9,22 +9,32 @@ export function embeddingDimensions() {
 }
 
 export async function createEmbeddings(inputs, options = {}) {
-  if (!process.env.OPENAI_API_KEY) {
-    throw new Error("OPENAI_API_KEY is not configured.");
+  const apiKey = process.env.OPENAI_API_KEY || process.env.STARBOARD_OPENAI_API_KEY;
+  if (!apiKey) {
+    throw new Error("OPENAI_API_KEY or STARBOARD_OPENAI_API_KEY is not configured.");
   }
   const input = Array.isArray(inputs) ? inputs : [inputs];
-  if (!input.length) return [];
+  const model = options.model || embeddingModel();
+  const dimensions = Number(options.dimensions || embeddingDimensions());
+  if (!input.length) {
+    return {
+      embeddings: [],
+      usage: { prompt_tokens: 0, total_tokens: 0 },
+      model,
+      dimensions
+    };
+  }
 
   const response = await fetch(OPENAI_EMBEDDINGS_URL, {
     method: "POST",
     headers: {
-      authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      authorization: `Bearer ${apiKey}`,
       "content-type": "application/json"
     },
     body: JSON.stringify({
       input,
-      model: options.model || embeddingModel(),
-      dimensions: Number(options.dimensions || embeddingDimensions())
+      model,
+      dimensions
     })
   });
 
@@ -33,12 +43,21 @@ export async function createEmbeddings(inputs, options = {}) {
     throw new Error(data.error?.message || `OpenAI embeddings request failed: ${response.status}`);
   }
 
-  return (data.data || [])
-    .sort((a, b) => a.index - b.index)
-    .map((item) => item.embedding);
+  return {
+    embeddings: (data.data || [])
+      .sort((a, b) => a.index - b.index)
+      .map((item) => item.embedding),
+    usage: {
+      prompt_tokens: Number(data.usage?.prompt_tokens || 0),
+      total_tokens: Number(data.usage?.total_tokens || 0)
+    },
+    model,
+    dimensions
+  };
 }
 
 export async function createEmbedding(input, options = {}) {
-  const [embedding] = await createEmbeddings([input], options);
+  const { embeddings } = await createEmbeddings([input], options);
+  const [embedding] = embeddings;
   return embedding;
 }

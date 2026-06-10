@@ -152,6 +152,14 @@ export async function ensureSchema() {
         embedded_at timestamptz not null default now()
       );
     `);
+    await client.query(`
+      create table if not exists repository_semantic_rejections (
+        repo_github_id bigint primary key references repositories(github_id) on delete cascade,
+        embedding_model text not null,
+        reason text not null,
+        rejected_at timestamptz not null default now()
+      );
+    `);
     await addColumnIfMissing(client, "repositories", "owner_type", "text");
     await addColumnIfMissing(client, "repositories", "owner_html_url", "text");
     await addColumnIfMissing(client, "repositories", "repo_created_at", "timestamptz");
@@ -176,6 +184,7 @@ export async function ensureSchema() {
     await client.query("create index if not exists discovery_queries_enabled_idx on discovery_queries (enabled, period);");
     await client.query("create index if not exists repository_search_documents_full_name_idx on repository_search_documents (full_name);");
     await client.query("create index if not exists repository_embeddings_model_idx on repository_embeddings (embedding_model);");
+    await client.query("create index if not exists repository_semantic_rejections_model_idx on repository_semantic_rejections (embedding_model);");
     await client.query(`
       create or replace function match_semantic_repositories(
         query_embedding extensions.vector(1024),
@@ -732,16 +741,28 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
     `
       select
         r.*,
+        exists (
+          select 1
+          from leaderboard_snapshots ls
+          where ls.view = 'repositories'
+            and ls.subject_id = r.github_id::text
+        ) as in_repository_snapshot,
         d.content_hash as document_hash,
         e.content_hash as embedding_hash,
         e.embedding_model
       from repositories r
       left join repository_search_documents d on d.repo_github_id = r.github_id
       left join repository_embeddings e on e.repo_github_id = r.github_id
+      left join repository_semantic_rejections sr on sr.repo_github_id = r.github_id
       where r.stars >= 1
         and r.fork = false
         and r.archived = false
         and r.english_check_status <> 'rejected'
+        and (
+          sr.repo_github_id is null
+          or sr.embedding_model <> $2
+          or sr.rejected_at < r.updated_at
+        )
         and (
           d.repo_github_id is null
           or e.repo_github_id is null
@@ -751,8 +772,14 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
         )
       order by
         case when d.repo_github_id is null or e.repo_github_id is null then 0 else 1 end,
-        r.repo_created_at desc nulls last,
+        case when exists (
+          select 1
+          from leaderboard_snapshots ls
+          where ls.view = 'repositories'
+            and ls.subject_id = r.github_id::text
+        ) then 0 else 1 end,
         r.stars desc,
+        r.repo_created_at desc nulls last,
         r.full_name asc
       limit $1
     `,
@@ -763,7 +790,10 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
     ...repositoryRowFromDb(row),
     documentHash: row.document_hash,
     embeddingHash: row.embedding_hash,
-    embeddingModel: row.embedding_model
+    embeddingModel: row.embedding_model,
+    englishCheckStatus: row.english_check_status,
+    englishCheckConfidence: row.english_check_confidence,
+    inRepositorySnapshot: Boolean(row.in_repository_snapshot)
   }));
 }
 
@@ -818,6 +848,27 @@ export async function upsertRepositoryEmbedding(embedding) {
       vectorLiteral(embedding.vector),
       embedding.embeddingModel,
       embedding.contentHash
+    ]
+  );
+}
+
+export async function upsertRepositorySemanticRejection(rejection) {
+  await ensureSchema();
+  await getPool().query(
+    `
+      insert into repository_semantic_rejections (
+        repo_github_id, embedding_model, reason, rejected_at
+      )
+      values ($1, $2, $3, now())
+      on conflict (repo_github_id) do update set
+        embedding_model = excluded.embedding_model,
+        reason = excluded.reason,
+        rejected_at = now()
+    `,
+    [
+      rejection.repoGithubId,
+      rejection.embeddingModel || "text-embedding-3-small",
+      rejection.reason || "unknown"
     ]
   );
 }

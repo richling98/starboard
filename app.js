@@ -396,11 +396,16 @@ function formatNumber(value) {
 }
 
 function getFilteredRepos() {
+  const keywordRows = getKeywordFilteredRepos();
   const semantic = currentSemanticStore();
   if (isSemanticSearchActive() && semantic.loaded && !semantic.error) {
-    return sortRepos(semantic.rows);
+    return mergeSemanticAndKeywordRows(semantic.rows, keywordRows);
   }
 
+  return sortRepos(keywordRows);
+}
+
+function getKeywordFilteredRepos() {
   const store = currentStore();
   const query = state.query.trim().toLowerCase();
   const filtered = store.fetchedRepos.filter((repo) => {
@@ -410,21 +415,53 @@ function getFilteredRepos() {
     return !query || searchText.includes(query);
   });
 
-  return sortRepos(filtered);
+  return filtered;
 }
 
 function getFilteredAccounts() {
+  const keywordRows = getKeywordFilteredAccounts();
   const semantic = currentSemanticStore();
   if (isSemanticSearchActive() && semantic.loaded && !semantic.error) {
-    return sortAccounts(semantic.rows);
+    return mergeSemanticAndKeywordRows(semantic.rows, keywordRows);
   }
 
+  return sortAccounts(keywordRows);
+}
+
+function getKeywordFilteredAccounts() {
   if (usesServerAccounts()) {
     const rows = currentStore().serverAccounts;
-    return sortAccounts(filterAccountRows(rows));
+    return filterAccountRows(rows);
   }
 
-  return sortAccounts(filterAccountRows(getAllAccountRows()));
+  return filterAccountRows(getAllAccountRows());
+}
+
+function mergeSemanticAndKeywordRows(semanticRows, keywordRows) {
+  const byId = new Set();
+  const merged = [];
+
+  semanticRows.forEach((row) => {
+    const key = rowKey(row);
+    if (!key || byId.has(key)) return;
+    byId.add(key);
+    merged.push(row);
+  });
+
+  const sortedKeywordRows = state.view === "accounts" ? sortAccounts(keywordRows) : sortRepos(keywordRows);
+  sortedKeywordRows.forEach((row) => {
+    const key = rowKey(row);
+    if (!key || byId.has(key)) return;
+    byId.add(key);
+    merged.push({ ...row, keywordOnly: true });
+  });
+
+  return merged;
+}
+
+function rowKey(row) {
+  if (!row) return "";
+  return String(row.id || row.fullName || row.login || "");
 }
 
 function isSemanticSearchActive() {
@@ -845,7 +882,11 @@ function renderPagination(filteredRows, visibleRows) {
     } else if (semantic.error) {
       paginationStatus.textContent = `Semantic search unavailable. Showing keyword matches for "${state.query.trim()}".`;
     } else if (semantic.loaded) {
-      paginationStatus.textContent = `Showing ${formatPlainNumber(visibleRows.length)} of ${formatPlainNumber(semantic.total || filteredRows.length)} semantic matches for "${state.query.trim()}".`;
+      const keywordFallbackCount = Math.max(filteredRows.length - semantic.rows.length, 0);
+      const totalLabel = keywordFallbackCount
+        ? `${formatPlainNumber(semantic.total || semantic.rows.length)} semantic matches plus ${formatPlainNumber(keywordFallbackCount)} keyword matches`
+        : `${formatPlainNumber(semantic.total || filteredRows.length)} semantic matches`;
+      paginationStatus.textContent = `Showing ${formatPlainNumber(visibleRows.length)} of ${totalLabel} for "${state.query.trim()}".`;
     } else {
       paginationStatus.textContent = `Preparing semantic search for "${state.query.trim()}".`;
     }
