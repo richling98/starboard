@@ -15,6 +15,7 @@ Create `.env.local` with:
 ```bash
 GITHUB_TOKEN=your_github_token
 DATABASE_URL=your_supabase_postgres_uri
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 ## Current Prototype
@@ -22,12 +23,14 @@ DATABASE_URL=your_supabase_postgres_uri
 - Period toggles for Today, Week, Month, and All time
 - Supabase-backed repository and account snapshots for Today, Week, Month, and All time
 - GitHub-backed discovery jobs that expand the Supabase index over time
+- AI semantic search over repository names, descriptions, and cleaned README text
 - `Load more` pagination that shows 20 repositories at a time
 - GitHub Search requests batched at 100 repositories per page to reduce rate-limit pressure
 - `Repos | Accounts` leaderboard switch
 - Account leaderboard aggregates fetched repositories by GitHub owner
 - Expandable account rows that show the fetched repositories contributing to each account score
 - English-only repository gate based on description and README text
+- Supabase Edge Function search endpoint backed by `pgvector`
 - Black-and-white table layout with rank, repository, stars, forks, and one `Visit repo` action
 - Search and compact-view controls
 - Sortable Stars and Forks columns
@@ -97,6 +100,14 @@ npm run index:github
 
 The pipeline runs setup, repository discovery, README language refinement, all-time account enrichment, and snapshot generation. For the first pass, keep `STARBOARD_MAX_PAGES=1` or pass `-- --max-pages=1` so the index grows safely without heavy GitHub API usage.
 
+Build semantic search documents and embeddings with:
+
+```bash
+npm run build:semantic-index
+```
+
+The semantic index stores one embedding per repository in Supabase `pgvector`. It uses `text-embedding-3-small` with 1024 dimensions by default and skips unchanged documents using a content hash.
+
 Check the cache status with:
 
 ```bash
@@ -119,6 +130,7 @@ The repository includes `.github/workflows/starboard-index.yml`. Once this proje
 ```bash
 STARBOARD_GITHUB_TOKEN=your_github_token
 STARBOARD_DATABASE_URL=your_supabase_postgres_uri
+STARBOARD_OPENAI_API_KEY=your_openai_api_key
 ```
 
 The workflow runs every 6 hours and can also be started manually from GitHub Actions. It runs:
@@ -127,13 +139,34 @@ The workflow runs every 6 hours and can also be started manually from GitHub Act
 npm run setup:db
 npm run discover:repos
 npm run refine:language
+npm run build:semantic-index
 npm run refresh:all-time-accounts
 npm run build:snapshots
 ```
 
+## Semantic Search Edge Function
+
+The production GitHub Pages site calls a Supabase Edge Function for semantic search:
+
+```bash
+supabase functions deploy starboard-semantic-search --no-verify-jwt
+```
+
+Required Supabase function secrets:
+
+```bash
+STARBOARD_OPENAI_API_KEY
+STARBOARD_SUPABASE_URL
+STARBOARD_ALLOWED_ORIGIN
+STARBOARD_EMBEDDING_MODEL
+STARBOARD_EMBEDDING_DIMENSIONS
+```
+
+The function embeds the user query server-side, calls the `match_semantic_repositories` RPC, and returns matching repository or account rows for the active period.
+
 ## Next Build Step
 
-Deploy the local server or move the API routes into a production backend. After that, increase `STARBOARD_MAX_PAGES`, add more query partitions, and add semantic search over indexed descriptions and README summaries.
+Increase semantic index coverage gradually, tune similarity thresholds with real searches, and consider README chunk embeddings if repo-level embeddings miss specific README-only matches.
 
 ## Font Attribution
 

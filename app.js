@@ -1,7 +1,10 @@
 const GITHUB_API = "/api/github";
 const RAW_GITHUB = "https://raw.githubusercontent.com";
 const STATIC_LEADERBOARD_BASE = "./data/leaderboards";
-const CACHE_VERSION = "v20";
+const SEMANTIC_SEARCH_ENDPOINT = location.hostname.endsWith("github.io")
+  ? "https://lirwttbgkuaitsppisas.supabase.co/functions/v1/starboard-semantic-search"
+  : "/api/semantic-search";
+const CACHE_VERSION = "v21";
 const CACHE_TTL_MS = 15 * 60 * 1000;
 const README_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const UI_REVEAL_SIZE = 20;
@@ -13,9 +16,14 @@ const README_TIMEOUT_MS = 3500;
 const GITHUB_TIMEOUT_MS = 10000;
 const OWNER_ENRICHMENT_BATCH_SIZE = 1;
 const ACCOUNT_SEED_PREFETCH_PAGES = 2;
+const SEMANTIC_QUERY_MIN_LENGTH = 3;
+const SEMANTIC_PAGE_SIZE = 100;
+const SEARCH_DEBOUNCE_MS = 450;
 
 let lastVisibleRepositories = [];
 const expandedAccounts = new Set();
+let semanticSearchTimer;
+let semanticRequestId = 0;
 
 const periodStores = {
   today: createPeriodStore(),
@@ -76,7 +84,24 @@ function createPeriodStore() {
     serverReposLoaded: false,
     serverReposLoading: false,
     serverReposError: "",
-    serverReposMeta: null
+    serverReposMeta: null,
+    semantic: {
+      repositories: createSemanticStore(),
+      accounts: createSemanticStore()
+    }
+  };
+}
+
+function createSemanticStore() {
+  return {
+    rows: [],
+    total: 0,
+    query: "",
+    sortKey: "relevance",
+    sortDirection: "desc",
+    loading: false,
+    loaded: false,
+    error: ""
   };
 }
 
@@ -371,6 +396,11 @@ function formatNumber(value) {
 }
 
 function getFilteredRepos() {
+  const semantic = currentSemanticStore();
+  if (isSemanticSearchActive() && semantic.loaded && !semantic.error) {
+    return sortRepos(semantic.rows);
+  }
+
   const store = currentStore();
   const query = state.query.trim().toLowerCase();
   const filtered = store.fetchedRepos.filter((repo) => {
@@ -384,12 +414,41 @@ function getFilteredRepos() {
 }
 
 function getFilteredAccounts() {
+  const semantic = currentSemanticStore();
+  if (isSemanticSearchActive() && semantic.loaded && !semantic.error) {
+    return sortAccounts(semantic.rows);
+  }
+
   if (usesServerAccounts()) {
     const rows = currentStore().serverAccounts;
     return sortAccounts(filterAccountRows(rows));
   }
 
   return sortAccounts(filterAccountRows(getAllAccountRows()));
+}
+
+function isSemanticSearchActive() {
+  return state.query.trim().length >= SEMANTIC_QUERY_MIN_LENGTH;
+}
+
+function semanticViewKey() {
+  return state.view === "accounts" ? "accounts" : "repositories";
+}
+
+function currentSemanticStore() {
+  return currentStore().semantic[semanticViewKey()];
+}
+
+function semanticSortKey() {
+  if (!isSemanticSearchActive()) return state.sortKey;
+  if (state.sortKey === "default") return "relevance";
+  return state.sortKey;
+}
+
+function semanticStoreIsCurrent(store = currentSemanticStore()) {
+  return store.query === state.query.trim()
+    && store.sortKey === semanticSortKey()
+    && store.sortDirection === state.sortDirection;
 }
 
 function filterAccountRows(accounts) {
@@ -499,6 +558,9 @@ function sortRepos(repos) {
 
 function sortAccounts(accounts) {
   const sorted = [...accounts];
+  if (isSemanticSearchActive() && currentSemanticStore().loaded && state.sortKey === "default") {
+    return sorted;
+  }
   const sortKey = state.sortKey === "repos" ? "repos" : "stars";
 
   if (sortKey === "stars") {
@@ -609,22 +671,27 @@ function cloneOption(label, value) {
 
 function renderLeaderboard() {
   const store = currentStore();
+  const semantic = currentSemanticStore();
   const rows = getCurrentRows();
   const visibleRows = rows.slice(0, store.visibleCount);
   const isLoading = store.isLoading || state.loading;
   const serverLoading = state.view === "accounts" && store.serverAccountsLoading && !store.serverAccountsLoaded;
+  const semanticLoading = isSemanticSearchActive() && semantic.loading && !semantic.rows.length;
   const error = (usesServerAccounts() && store.serverAccountsError) || store.error || state.error;
 
   repoList.classList.toggle("is-compact", state.compact);
   repoList.classList.toggle("is-account-view", state.view === "accounts");
   repoList.replaceChildren();
 
-  if ((isLoading && !store.fetchedRepos.length) || serverLoading) {
+  if ((isLoading && !store.fetchedRepos.length) || serverLoading || semanticLoading) {
     repoList.append(...skeletonRows(4));
   } else if (error && (!store.fetchedRepos.length || usesServerAccounts())) {
     repoList.append(statusBlock(error));
   } else if (!visibleRows.length) {
-    repoList.append(statusBlock(state.view === "accounts" ? "No accounts match the current view." : "No repositories match the current view."));
+    const message = isSemanticSearchActive() && semantic.loaded && !semantic.error
+      ? "No semantic matches found."
+      : state.view === "accounts" ? "No accounts match the current view." : "No repositories match the current view.";
+    repoList.append(statusBlock(message));
   }
 
   if (state.view === "accounts") {
@@ -771,6 +838,21 @@ function accountReposPanel(account) {
 
 function renderPagination(filteredRows, visibleRows) {
   const store = currentStore();
+  const semantic = currentSemanticStore();
+  if (isSemanticSearchActive()) {
+    if (semantic.loading && !semantic.rows.length) {
+      paginationStatus.textContent = `Searching semantically for "${state.query.trim()}".`;
+    } else if (semantic.error) {
+      paginationStatus.textContent = `Semantic search unavailable. Showing keyword matches for "${state.query.trim()}".`;
+    } else if (semantic.loaded) {
+      paginationStatus.textContent = `Showing ${formatPlainNumber(visibleRows.length)} of ${formatPlainNumber(semantic.total || filteredRows.length)} semantic matches for "${state.query.trim()}".`;
+    } else {
+      paginationStatus.textContent = `Preparing semantic search for "${state.query.trim()}".`;
+    }
+    renderSemanticLoadMore(filteredRows.length, store, semantic);
+    return;
+  }
+
   if (usesServerRepositories()) {
     const meta = store.serverReposMeta;
     if (store.serverReposLoading && !store.serverReposLoaded) {
@@ -825,6 +907,14 @@ function renderPagination(filteredRows, visibleRows) {
   loadMoreButton.hidden = !canLoadMore && !store.isLoading;
   loadMoreButton.disabled = store.isLoading;
   loadMoreButton.textContent = store.isLoading ? "Loading" : "Load more";
+}
+
+function renderSemanticLoadMore(filteredCount, store, semantic) {
+  const canRevealCached = filteredCount > store.visibleCount;
+  const canFetchMore = semantic.loaded && !semantic.loading && !semantic.error && semantic.rows.length < semantic.total;
+  loadMoreButton.hidden = !canRevealCached && !canFetchMore;
+  loadMoreButton.disabled = semantic.loading;
+  loadMoreButton.textContent = semantic.loading ? "Loading" : "Load more";
 }
 
 function renderLoadMore(filteredCount, store) {
@@ -1032,6 +1122,7 @@ async function setPeriod(period) {
     tab.setAttribute("aria-selected", String(active));
   });
   await loadPeriod();
+  scheduleSemanticSearch(0);
 }
 
 async function loadPeriod() {
@@ -1062,12 +1153,26 @@ async function loadPeriod() {
     state.loading = false;
     render();
   }
+  scheduleSemanticSearch(0);
 }
 
 async function loadMore() {
   const store = currentStore();
   const filteredRows = getCurrentRows();
   const hiddenCachedRows = filteredRows.length - store.visibleCount;
+
+  if (isSemanticSearchActive()) {
+    const semantic = currentSemanticStore();
+    if (hiddenCachedRows >= UI_REVEAL_SIZE || semantic.rows.length >= semantic.total) {
+      store.visibleCount += UI_REVEAL_SIZE;
+      render();
+      return;
+    }
+    await fetchSemanticSearch({ append: true });
+    store.visibleCount += UI_REVEAL_SIZE;
+    render();
+    return;
+  }
 
   if (usesServerAccounts()) {
     store.visibleCount += UI_REVEAL_SIZE;
@@ -1098,6 +1203,7 @@ function toggleSort(sortKey) {
   }
   renderSortHeaders();
   render();
+  scheduleSemanticSearch(0);
 }
 
 function renderSortHeaders() {
@@ -1227,6 +1333,80 @@ async function fetchLeaderboardData(view, period, params) {
   }
 }
 
+function scheduleSemanticSearch(delay = SEARCH_DEBOUNCE_MS) {
+  clearTimeout(semanticSearchTimer);
+  if (!isSemanticSearchActive()) {
+    render();
+    return;
+  }
+  semanticSearchTimer = setTimeout(() => {
+    fetchSemanticSearch().catch(() => {});
+  }, delay);
+}
+
+async function fetchSemanticSearch(options = {}) {
+  if (!isSemanticSearchActive()) return;
+  const requestId = ++semanticRequestId;
+  const store = currentStore();
+  const semantic = currentSemanticStore();
+  const query = state.query.trim();
+  const sortKey = semanticSortKey();
+  const sortDirection = state.sortDirection;
+  const append = Boolean(options.append) && semanticStoreIsCurrent(semantic);
+  const offset = append ? semantic.rows.length : 0;
+
+  semantic.loading = true;
+  semantic.error = "";
+  if (!append) {
+    semantic.rows = [];
+    semantic.total = 0;
+    semantic.loaded = false;
+    semantic.query = query;
+    semantic.sortKey = sortKey;
+    semantic.sortDirection = sortDirection;
+    store.visibleCount = UI_REVEAL_SIZE;
+  }
+  render();
+
+  try {
+    const response = await fetch(SEMANTIC_SEARCH_ENDPOINT, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        query,
+        period: state.period,
+        view: semanticViewKey(),
+        limit: SEMANTIC_PAGE_SIZE,
+        offset,
+        sortKey,
+        sortDirection,
+        matchLimit: 1000
+      })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(data.error || `Semantic search failed: ${response.status}`);
+    }
+    if (requestId !== semanticRequestId) return;
+
+    semantic.rows = append ? [...semantic.rows, ...(data.rows || [])] : data.rows || [];
+    semantic.total = data.total || semantic.rows.length;
+    semantic.loaded = true;
+    semantic.query = query;
+    semantic.sortKey = sortKey;
+    semantic.sortDirection = sortDirection;
+  } catch (error) {
+    if (requestId !== semanticRequestId) return;
+    semantic.error = error.message || "Semantic search unavailable.";
+    semantic.loaded = false;
+  } finally {
+    if (requestId === semanticRequestId) {
+      semantic.loading = false;
+      render();
+    }
+  }
+}
+
 document.querySelectorAll(".tab").forEach((tab) => {
   tab.addEventListener("click", () => setPeriod(tab.dataset.period));
 });
@@ -1240,8 +1420,15 @@ viewTabs.forEach((button) => {
 });
 
 searchInput.addEventListener("input", (event) => {
+  const wasSemantic = isSemanticSearchActive();
   state.query = event.target.value;
+  if (!wasSemantic && isSemanticSearchActive()) {
+    state.sortKey = "default";
+    state.sortDirection = "desc";
+  }
+  currentStore().visibleCount = UI_REVEAL_SIZE;
   render();
+  scheduleSemanticSearch();
 });
 
 densityToggle.addEventListener("click", () => {
@@ -1331,9 +1518,10 @@ function flashCopyButton(button, label) {
 function setView(view) {
   if (state.view === view) return;
   state.view = view;
-  state.sortKey = view === "accounts" ? "stars" : "default";
+  state.sortKey = isSemanticSearchActive() ? "default" : view === "accounts" ? "stars" : "default";
   state.sortDirection = "desc";
   render();
+  scheduleSemanticSearch(0);
 }
 
 function renderViewTabs() {

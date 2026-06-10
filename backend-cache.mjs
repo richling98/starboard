@@ -30,7 +30,10 @@ export {
 };
 
 export function loadLocalEnv() {
-  const envPath = path.join(__dirname, ".env.local");
+  [".env.local", ".supabase-secrets.local"].forEach((fileName) => loadEnvFile(path.join(__dirname, fileName)));
+}
+
+function loadEnvFile(envPath) {
   if (!existsSync(envPath)) return;
 
   const raw = readFileSync(envPath, "utf8");

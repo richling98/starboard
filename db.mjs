@@ -33,6 +33,7 @@ export async function ensureSchema() {
   const client = await getPool().connect();
   try {
     await client.query("begin");
+    await client.query("create extension if not exists vector with schema extensions;");
     await client.query(`
       create table if not exists accounts (
         github_id text primary key,
@@ -129,6 +130,28 @@ export async function ensureSchema() {
         updated_at timestamptz not null default now()
       );
     `);
+    await client.query(`
+      create table if not exists repository_search_documents (
+        repo_github_id bigint primary key references repositories(github_id) on delete cascade,
+        full_name text not null,
+        title_text text not null,
+        description_text text,
+        readme_text text,
+        combined_text text not null,
+        content_hash text not null,
+        readme_fetched_at timestamptz,
+        document_updated_at timestamptz not null default now()
+      );
+    `);
+    await client.query(`
+      create table if not exists repository_embeddings (
+        repo_github_id bigint primary key references repositories(github_id) on delete cascade,
+        embedding extensions.vector(1024) not null,
+        embedding_model text not null,
+        content_hash text not null,
+        embedded_at timestamptz not null default now()
+      );
+    `);
     await addColumnIfMissing(client, "repositories", "owner_type", "text");
     await addColumnIfMissing(client, "repositories", "owner_html_url", "text");
     await addColumnIfMissing(client, "repositories", "repo_created_at", "timestamptz");
@@ -151,6 +174,85 @@ export async function ensureSchema() {
     await client.query("create index if not exists repositories_repo_created_at_idx on repositories (repo_created_at desc);");
     await client.query("create index if not exists repositories_english_check_status_idx on repositories (english_check_status);");
     await client.query("create index if not exists discovery_queries_enabled_idx on discovery_queries (enabled, period);");
+    await client.query("create index if not exists repository_search_documents_full_name_idx on repository_search_documents (full_name);");
+    await client.query("create index if not exists repository_embeddings_model_idx on repository_embeddings (embedding_model);");
+    await client.query(`
+      create or replace function match_semantic_repositories(
+        query_embedding extensions.vector(1024),
+        target_period text,
+        embedding_model_filter text,
+        match_count integer default 1000,
+        min_similarity double precision default 0.18
+      )
+      returns table (
+        github_id bigint,
+        full_name text,
+        owner_github_id text,
+        owner_login text,
+        name text,
+        description text,
+        language text,
+        topics jsonb,
+        stars integer,
+        forks integer,
+        fork boolean,
+        archived boolean,
+        avatar_url text,
+        html_url text,
+        default_branch text,
+        owner_type text,
+        owner_html_url text,
+        repo_created_at timestamptz,
+        repo_pushed_at timestamptz,
+        repo_updated_at timestamptz,
+        semantic_score double precision
+      )
+      language sql
+      stable
+      security definer
+      set search_path = public, extensions
+      as $$
+        select
+          r.github_id,
+          r.full_name,
+          r.owner_github_id,
+          r.owner_login,
+          r.name,
+          r.description,
+          r.language,
+          r.topics,
+          r.stars,
+          r.forks,
+          r.fork,
+          r.archived,
+          r.avatar_url,
+          r.html_url,
+          r.default_branch,
+          r.owner_type,
+          r.owner_html_url,
+          r.repo_created_at,
+          r.repo_pushed_at,
+          r.repo_updated_at,
+          1 - (e.embedding <=> query_embedding) as semantic_score
+        from repository_embeddings e
+        join repositories r on r.github_id = e.repo_github_id
+        where r.stars >= 1
+          and r.fork = false
+          and r.archived = false
+          and r.english_check_status <> 'rejected'
+          and e.embedding_model = embedding_model_filter
+          and (
+            target_period = 'all'
+            or (target_period = 'today' and r.repo_created_at >= now() - interval '1 day')
+            or (target_period = 'week' and r.repo_created_at >= now() - interval '7 days')
+            or (target_period = 'month' and r.repo_created_at >= now() - interval '30 days')
+          )
+          and 1 - (e.embedding <=> query_embedding) >= min_similarity
+        order by e.embedding <=> query_embedding asc, r.stars desc, r.full_name asc
+        limit least(greatest(match_count, 1), 1000)
+      $$;
+    `);
+    await client.query("grant execute on function match_semantic_repositories(extensions.vector, text, text, integer, double precision) to anon, authenticated, service_role;");
     await client.query("commit");
   } catch (error) {
     await client.query("rollback");
@@ -623,6 +725,232 @@ export async function getCacheStatus() {
   };
 }
 
+export async function readRepositoriesForSemanticIndex(options = {}) {
+  await ensureSchema();
+  const limit = Math.min(Math.max(Number(options.limit || 100), 1), 2000);
+  const result = await getPool().query(
+    `
+      select
+        r.*,
+        d.content_hash as document_hash,
+        e.content_hash as embedding_hash,
+        e.embedding_model
+      from repositories r
+      left join repository_search_documents d on d.repo_github_id = r.github_id
+      left join repository_embeddings e on e.repo_github_id = r.github_id
+      where r.stars >= 1
+        and r.fork = false
+        and r.archived = false
+        and r.english_check_status <> 'rejected'
+        and (
+          d.repo_github_id is null
+          or e.repo_github_id is null
+          or d.document_updated_at < r.updated_at
+          or e.content_hash <> d.content_hash
+          or e.embedding_model <> $2
+        )
+      order by
+        case when d.repo_github_id is null or e.repo_github_id is null then 0 else 1 end,
+        r.repo_created_at desc nulls last,
+        r.stars desc,
+        r.full_name asc
+      limit $1
+    `,
+    [limit, options.embeddingModel || "text-embedding-3-small"]
+  );
+
+  return result.rows.map((row) => ({
+    ...repositoryRowFromDb(row),
+    documentHash: row.document_hash,
+    embeddingHash: row.embedding_hash,
+    embeddingModel: row.embedding_model
+  }));
+}
+
+export async function upsertRepositorySearchDocument(document) {
+  await ensureSchema();
+  await getPool().query(
+    `
+      insert into repository_search_documents (
+        repo_github_id, full_name, title_text, description_text, readme_text,
+        combined_text, content_hash, readme_fetched_at, document_updated_at
+      )
+      values ($1, $2, $3, $4, $5, $6, $7, $8, now())
+      on conflict (repo_github_id) do update set
+        full_name = excluded.full_name,
+        title_text = excluded.title_text,
+        description_text = excluded.description_text,
+        readme_text = excluded.readme_text,
+        combined_text = excluded.combined_text,
+        content_hash = excluded.content_hash,
+        readme_fetched_at = excluded.readme_fetched_at,
+        document_updated_at = now()
+    `,
+    [
+      document.repoGithubId,
+      document.fullName,
+      document.titleText,
+      document.descriptionText || null,
+      document.readmeText || null,
+      document.combinedText,
+      document.contentHash,
+      document.readmeFetchedAt || new Date().toISOString()
+    ]
+  );
+}
+
+export async function upsertRepositoryEmbedding(embedding) {
+  await ensureSchema();
+  await getPool().query(
+    `
+      insert into repository_embeddings (
+        repo_github_id, embedding, embedding_model, content_hash, embedded_at
+      )
+      values ($1, $2::extensions.vector, $3, $4, now())
+      on conflict (repo_github_id) do update set
+        embedding = excluded.embedding,
+        embedding_model = excluded.embedding_model,
+        content_hash = excluded.content_hash,
+        embedded_at = now()
+    `,
+    [
+      embedding.repoGithubId,
+      vectorLiteral(embedding.vector),
+      embedding.embeddingModel,
+      embedding.contentHash
+    ]
+  );
+}
+
+export async function readSemanticRepositoryRows(options = {}) {
+  await ensureSchema();
+  const period = ["today", "week", "month", "all"].includes(options.period) ? options.period : "all";
+  const sortKey = ["relevance", "stars", "forks"].includes(options.sortKey) ? options.sortKey : "relevance";
+  const sortDirection = options.sortDirection === "asc" ? "asc" : "desc";
+  const offset = Math.max(Number(options.offset || 0), 0);
+  const limit = Math.min(Math.max(Number(options.limit || 20), 1), 200);
+  const matchLimit = Math.min(Math.max(Number(options.matchLimit || offset + limit + 100), 20), 1000);
+  const minSimilarity = Number.isFinite(Number(options.minSimilarity)) ? Number(options.minSimilarity) : 0.18;
+  const orderSql = semanticRepoOrderSql(sortKey, sortDirection);
+
+  const result = await getPool().query(
+    `
+      with matches as (
+        select
+          r.*,
+          1 - (e.embedding <=> $1::extensions.vector) as semantic_score
+        from repository_embeddings e
+        join repositories r on r.github_id = e.repo_github_id
+        where r.stars >= 1
+          and r.fork = false
+          and r.archived = false
+          and r.english_check_status <> 'rejected'
+          and e.embedding_model = $2
+          and (
+            $3 = 'all'
+            or ($3 = 'today' and r.repo_created_at >= now() - interval '1 day')
+            or ($3 = 'week' and r.repo_created_at >= now() - interval '7 days')
+            or ($3 = 'month' and r.repo_created_at >= now() - interval '30 days')
+          )
+          and 1 - (e.embedding <=> $1::extensions.vector) >= $4
+        order by e.embedding <=> $1::extensions.vector asc, r.stars desc, r.full_name asc
+        limit $5
+      )
+      select *, count(*) over()::integer as total_matches
+      from matches
+      order by ${orderSql}
+      limit $6
+      offset $7
+    `,
+    [
+      vectorLiteral(options.queryEmbedding || []),
+      options.embeddingModel || "text-embedding-3-small",
+      period,
+      minSimilarity,
+      matchLimit,
+      limit,
+      offset
+    ]
+  );
+
+  const rows = result.rows.map((row, index) => ({
+    ...repositoryRowFromDb(row),
+    semanticScore: Number(row.semantic_score || 0),
+    rank: offset + index + 1
+  }));
+
+  return {
+    total: result.rows[0]?.total_matches || rows.length,
+    rows
+  };
+}
+
+export async function readSemanticAccountRows(options = {}) {
+  const repoResult = await readSemanticRepositoryRows({
+    ...options,
+    offset: 0,
+    limit: Math.min(Math.max(Number(options.matchLimit || 500), 20), 1000),
+    sortKey: "relevance",
+    sortDirection: "desc"
+  });
+  const sortKey = options.sortKey === "repos" ? "repos" : options.sortKey === "stars" ? "stars" : "relevance";
+  const sortDirection = options.sortDirection === "asc" ? "asc" : "desc";
+  const offset = Math.max(Number(options.offset || 0), 0);
+  const limit = Math.min(Math.max(Number(options.limit || 20), 1), 200);
+  const byOwner = new Map();
+
+  for (const repo of repoResult.rows) {
+    const existing = byOwner.get(repo.ownerId) || {
+      id: repo.ownerId,
+      login: repo.owner,
+      type: repo.ownerType || "User",
+      avatarUrl: repo.avatar,
+      htmlUrl: repo.ownerUrl,
+      starScore: 0,
+      repoCount: 0,
+      topRepo: null,
+      repoNames: [],
+      repos: [],
+      semanticScore: 0,
+      matchingRepoCount: 0,
+      enriched: true
+    };
+
+    existing.starScore += repo.stars || 0;
+    existing.repoCount += 1;
+    existing.matchingRepoCount += 1;
+    existing.semanticScore = Math.max(existing.semanticScore, repo.semanticScore || 0);
+    existing.repoNames.push(repo.fullName);
+    existing.repos.push(repo);
+    if (!existing.topRepo || repo.stars > existing.topRepo.stars) {
+      existing.topRepo = {
+        name: repo.name,
+        fullName: repo.fullName,
+        stars: repo.stars,
+        url: repo.repoUrl
+      };
+    }
+    byOwner.set(repo.ownerId, existing);
+  }
+
+  const sortedRows = [...byOwner.values()].sort((a, b) => {
+    const direction = sortDirection === "asc" ? 1 : -1;
+    if (sortKey === "stars" && a.starScore !== b.starScore) return (a.starScore - b.starScore) * direction;
+    if (sortKey === "repos" && a.repoCount !== b.repoCount) return (a.repoCount - b.repoCount) * direction;
+    if (a.semanticScore !== b.semanticScore) return (a.semanticScore - b.semanticScore) * direction;
+    if (a.starScore !== b.starScore) return b.starScore - a.starScore;
+    return a.login.localeCompare(b.login);
+  });
+
+  return {
+    total: sortedRows.length,
+    rows: sortedRows.slice(offset, offset + limit).map((row, index) => ({
+      ...row,
+      rank: offset + index + 1
+    }))
+  };
+}
+
 export async function readAllTimeAccountsFromDb(options = {}) {
   await ensureSchema();
   const query = (options.query || "").trim().toLowerCase();
@@ -993,6 +1321,20 @@ function snapshotSortValue(row, sortKey, view) {
 
 function normalizeSnapshotView(view) {
   return view === "repos" ? "repositories" : view;
+}
+
+function vectorLiteral(values) {
+  if (!Array.isArray(values) || !values.length) {
+    throw new Error("A non-empty embedding vector is required.");
+  }
+  return `[${values.map((value) => Number(value) || 0).join(",")}]`;
+}
+
+function semanticRepoOrderSql(sortKey, sortDirection) {
+  const direction = sortDirection === "asc" ? "asc" : "desc";
+  if (sortKey === "stars") return `stars ${direction}, semantic_score desc, full_name asc`;
+  if (sortKey === "forks") return `forks ${direction}, semantic_score desc, full_name asc`;
+  return `semantic_score ${direction}, stars desc, full_name asc`;
 }
 
 function periodWindowDays(period) {

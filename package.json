@@ -10,6 +10,7 @@
     "setup:db": "node scripts/setup-db.mjs",
     "discover:repos": "node scripts/discover-repositories.mjs",
     "refine:language": "node scripts/refine-repository-language.mjs",
+    "build:semantic-index": "node scripts/build-semantic-index.mjs",
     "build:snapshots": "node scripts/build-leaderboard-snapshots.mjs",
     "export:static-data": "node scripts/export-static-data.mjs",
     "build:pages": "node scripts/build-pages-dist.mjs",

@@ -1,8 +1,10 @@
 .env
 .env.local
 .env.*.local
+.supabase-secrets.local
 node_modules/
 .cache/
+supabase/.temp/
 test-results/
 data/
 dist/

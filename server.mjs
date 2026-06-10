@@ -13,6 +13,7 @@ import {
   readAllTimeAccountsFromDb,
   readLeaderboardSnapshot
 } from "./db.mjs";
+import { runSemanticSearch } from "./semantic-search.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT || 4176);
@@ -51,6 +52,11 @@ const server = createServer(async (request, response) => {
 
     if (requestUrl.pathname === "/api/cache/status") {
       await serveCacheStatus(response);
+      return;
+    }
+
+    if (requestUrl.pathname === "/api/semantic-search") {
+      await serveSemanticSearch(request, response);
       return;
     }
 
@@ -156,6 +162,37 @@ async function serveCacheStatus(response) {
 
   response.writeHead(200, { "content-type": "application/json; charset=utf-8" });
   response.end(JSON.stringify({ database: true, ...(await getCacheStatus()) }));
+}
+
+async function serveSemanticSearch(request, response) {
+  if (request.method !== "POST") {
+    response.writeHead(405, { "content-type": "application/json; charset=utf-8" });
+    response.end(JSON.stringify({ error: "Method not allowed" }));
+    return;
+  }
+
+  if (!hasDatabaseUrl()) {
+    response.writeHead(503, { "content-type": "application/json; charset=utf-8" });
+    response.end(JSON.stringify({ error: "DATABASE_URL is not configured." }));
+    return;
+  }
+
+  try {
+    const payload = await readJsonBody(request);
+    const result = await runSemanticSearch(payload);
+    response.writeHead(200, { "content-type": "application/json; charset=utf-8" });
+    response.end(JSON.stringify(result));
+  } catch (error) {
+    response.writeHead(500, { "content-type": "application/json; charset=utf-8" });
+    response.end(JSON.stringify({ error: error.message || "Semantic search failed." }));
+  }
+}
+
+async function readJsonBody(request) {
+  const chunks = [];
+  for await (const chunk of request) chunks.push(chunk);
+  if (!chunks.length) return {};
+  return JSON.parse(Buffer.concat(chunks).toString("utf8"));
 }
 
 async function serveStatic(requestUrl, response) {
