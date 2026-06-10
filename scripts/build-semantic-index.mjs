@@ -20,7 +20,8 @@ loadLocalEnv();
 
 const limit = Math.min(Math.max(Number(args.limit || process.env.STARBOARD_SEMANTIC_LIMIT || 500), 1), 2000);
 const batchSize = Math.min(Math.max(Number(args["batch-size"] || process.env.STARBOARD_SEMANTIC_BATCH_SIZE || 50), 1), 100);
-const readmeLimit = Math.max(Number(args["readme-chars"] || process.env.STARBOARD_README_CHAR_LIMIT || 16000), 1000);
+const readmeLimit = Math.max(Number(args["readme-chars"] || process.env.STARBOARD_README_CHAR_LIMIT || 8000), 1000);
+const retryInputCharLimit = Math.max(Number(args["retry-input-chars"] || process.env.STARBOARD_EMBEDDING_RETRY_CHAR_LIMIT || 6000), 1000);
 const requestTimeoutMs = Math.max(Number(args["timeout-ms"] || process.env.STARBOARD_SEMANTIC_REQUEST_TIMEOUT_MS || 10000), 1000);
 const model = embeddingModel();
 const dimensions = embeddingDimensions();
@@ -50,6 +51,8 @@ const summary = {
   totalDocumentChars: 0,
   averageCharsPerDocument: 0,
   averageTokensPerDocument: 0,
+  embeddingRetryCount: 0,
+  embeddingDropped: 0,
   qualityRejected: 0,
   qualityRejectsByReason: {}
 };
@@ -130,6 +133,30 @@ try {
 
 async function embedBatch(documents) {
   console.log(`Embedding ${documents.length} documents...`);
+  try {
+    await embedDocuments(documents);
+  } catch (error) {
+    console.error(`Batch embedding failed; retrying documents individually: ${error.message || error}`);
+    for (const document of documents) {
+      try {
+        summary.embeddingRetryCount += 1;
+        await embedDocuments([document]);
+      } catch (firstRetryError) {
+        try {
+          summary.embeddingRetryCount += 1;
+          await embedDocuments([{ ...document, combinedText: truncateForEmbedding(document.combinedText) }]);
+        } catch (secondRetryError) {
+          summary.failed += 1;
+          summary.embeddingDropped += 1;
+          console.error(`${document.fullName}: ${secondRetryError.message || secondRetryError}`);
+        }
+      }
+    }
+  }
+  console.log(`Stored ${summary.embeddingsUpdated} embeddings.`);
+}
+
+async function embedDocuments(documents) {
   const result = await createEmbeddings(documents.map((document) => document.combinedText), { model, dimensions });
   const vectors = result.embeddings;
   const tokenCount = Number(result.usage?.total_tokens || result.usage?.prompt_tokens || 0);
@@ -140,6 +167,9 @@ async function embedBatch(documents) {
     ? Math.round(summary.embeddingTokens / summary.documentsUpdated)
     : 0;
   for (let index = 0; index < documents.length; index += 1) {
+    if (!vectors[index]) {
+      throw new Error(`OpenAI returned ${vectors.length} embeddings for ${documents.length} documents.`);
+    }
     await upsertRepositoryEmbedding({
       repoGithubId: documents[index].repoGithubId,
       vector: vectors[index],
@@ -148,7 +178,10 @@ async function embedBatch(documents) {
     });
     summary.embeddingsUpdated += 1;
   }
-  console.log(`Stored ${summary.embeddingsUpdated} embeddings.`);
+}
+
+function truncateForEmbedding(text) {
+  return String(text || "").slice(0, retryInputCharLimit);
 }
 
 async function recordQualityReject(repo, reason) {
