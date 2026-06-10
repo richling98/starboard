@@ -28,6 +28,7 @@ if (!process.env.GITHUB_TOKEN) {
 const maxQueries = Number(args["max-queries"] || process.env.STARBOARD_MAX_QUERIES || 20);
 const maxPages = Math.min(Number(args["max-pages"] || process.env.STARBOARD_MAX_PAGES || 2), MAX_GITHUB_PAGE);
 const readmeLimit = Number(args["readme-limit"] || process.env.STARBOARD_README_LIMIT || 240);
+const requestTimeoutMs = Math.max(Number(args["timeout-ms"] || process.env.STARBOARD_DISCOVERY_REQUEST_TIMEOUT_MS || 10000), 1000);
 const period = args.period || process.env.STARBOARD_PERIOD || "";
 const forceSeed = args.seed !== "false";
 
@@ -134,7 +135,8 @@ async function githubFetch(pathname) {
       authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
       "user-agent": "starboard-discovery-job",
       "x-github-api-version": "2022-11-28"
-    }
+    },
+    signal: AbortSignal.timeout(requestTimeoutMs)
   });
 
   if (!response.ok) {
@@ -201,7 +203,8 @@ async function fetchReadme(repo) {
     const { data } = await githubFetch(endpoint);
     if (!data?.download_url) return "";
     const response = await fetch(data.download_url, {
-      headers: { "user-agent": "starboard-language-job" }
+      headers: { "user-agent": "starboard-language-job" },
+      signal: AbortSignal.timeout(requestTimeoutMs)
     });
     if (!response.ok) return "";
     return cleanMarkdownForLanguageCheck(await response.text()).slice(0, 20000);
