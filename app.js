@@ -1,9 +1,10 @@
 const GITHUB_API = "/api/github";
 const RAW_GITHUB = "https://raw.githubusercontent.com";
 const STATIC_LEADERBOARD_BASE = "./data/leaderboards";
-const SEMANTIC_SEARCH_ENDPOINT = location.hostname.endsWith("github.io")
-  ? "https://lirwttbgkuaitsppisas.supabase.co/functions/v1/starboard-semantic-search"
-  : "/api/semantic-search";
+const IS_LOCAL_HOST = ["localhost", "127.0.0.1", ""].includes(location.hostname);
+const SEMANTIC_SEARCH_ENDPOINT = IS_LOCAL_HOST
+  ? "/api/semantic-search"
+  : "https://lirwttbgkuaitsppisas.supabase.co/functions/v1/starboard-semantic-search";
 const CACHE_VERSION = "v21";
 const CACHE_TTL_MS = 15 * 60 * 1000;
 const README_CACHE_TTL_MS = 24 * 60 * 60 * 1000;

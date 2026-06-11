@@ -1,16 +1,56 @@
 # Starboard
 
-Starboard is a static MVP prototype for a polished GitHub discovery dashboard.
+Starboard is a GitHub discovery dashboard for finding notable open source repositories and the accounts behind them. It combines cached leaderboard snapshots, semantic search over repository metadata and README text, and a terminal-inspired black-and-white interface.
 
-Run the local server so GitHub API requests use the token in `.env.local`:
+Production:
+
+- Vercel: `https://starboard-xi.vercel.app`
+- GitHub Pages: `https://richling98.github.io/starboard/`
+
+## Features
+
+- Repository leaderboards for Today, Week, Month, and All time.
+- Account leaderboards for the same periods.
+- Supabase-backed snapshot data for fast repository and account reads.
+- Static fallback leaderboard JSON under `data/leaderboards`.
+- AI semantic search over repository names, descriptions, topics, and cleaned README text.
+- Semantic search support for both repository and account views.
+- Keyword fallback results for indexed rows that do not yet have embeddings.
+- Sortable repository columns for Stars and Forks.
+- Sortable account columns for Stars and Repos.
+- `Load more` pagination with 20-row reveal increments.
+- Expandable account rows that show the repositories contributing to each account score.
+- Copyable clone commands for HTTPS, SSH, and GitHub CLI.
+- Compact view toggle.
+- Responsive desktop and mobile table layouts.
+- English-language quality gate for repository discovery and snapshots.
+- Terminal ASCII `STARBOARD` title treatment with a replayed generated-on-load animation.
+- Vercel production deployment from the static `dist/` artifact.
+- GitHub Actions workflow for scheduled index refreshes and GitHub Pages deployment.
+
+## How It Works
+
+The browser is a static app made from `index.html`, `styles.css`, and `app.js`.
+
+For local development, `server.mjs` provides:
+
+- Static file serving at `http://127.0.0.1:4176`.
+- A same-origin GitHub API proxy at `/api/github/*`.
+- Leaderboard endpoints at `/api/leaderboard/repositories` and `/api/leaderboard/accounts`.
+- A local semantic search endpoint at `/api/semantic-search`.
+- Cache status at `/api/cache/status`.
+
+For hosted static deployments, the app reads pre-exported leaderboard JSON from `data/leaderboards` if local API endpoints are unavailable. Semantic search calls the Supabase Edge Function directly outside localhost.
+
+## Local Setup
+
+Install dependencies:
 
 ```bash
-npm run dev
+npm install
 ```
 
-Then visit `http://127.0.0.1:4176`.
-
-Create `.env.local` with:
+Create `.env.local`:
 
 ```bash
 GITHUB_TOKEN=your_github_token
@@ -18,135 +58,131 @@ DATABASE_URL=your_supabase_postgres_uri
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## Current Prototype
+Run the local server:
 
-- Period toggles for Today, Week, Month, and All time
-- Supabase-backed repository and account snapshots for Today, Week, Month, and All time
-- GitHub-backed discovery jobs that expand the Supabase index over time
-- AI semantic search over repository names, descriptions, and cleaned README text
-- `Load more` pagination that shows 20 repositories at a time
-- GitHub Search requests batched at 100 repositories per page to reduce rate-limit pressure
-- `Repos | Accounts` leaderboard switch
-- Account leaderboard aggregates fetched repositories by GitHub owner
-- Expandable account rows that show the fetched repositories contributing to each account score
-- English-only repository gate based on description and README text
-- Supabase Edge Function search endpoint backed by `pgvector`
-- Black-and-white table layout with rank, repository, stars, forks, and one `Visit repo` action
-- Search and compact-view controls
-- Sortable Stars and Forks columns
-- Responsive desktop and mobile layout
-- Local Fira Mono font and layered ASCII art for the terminal title treatment
+```bash
+npm run dev
+```
 
-## Data Notes
+Then open:
 
-This local prototype serves a small same-origin GitHub API proxy from `server.mjs`. The browser calls `/api/github/*`, and the server adds `Authorization: Bearer GITHUB_TOKEN` from `.env.local`. Do not expose the token in frontend JavaScript.
+```text
+http://127.0.0.1:4176
+```
 
-Starboard now prefers Supabase snapshots for leaderboard reads. The browser asks the local server for `/api/leaderboard/repositories` or `/api/leaderboard/accounts`, and the server returns cached snapshot rows from Supabase. If a repository snapshot is missing during local development, the app can still fall back to the older live GitHub Search path.
+## Data Model
 
-GitHub Search still exposes up to the first 1,000 results for a single query, so Starboard expands coverage by splitting discovery into query partitions. The seeded partitions include all-time star buckets, rolling created-date searches for Today/Week/Month, and several language buckets.
+Starboard stores repository, account, snapshot, search-document, and embedding data in Supabase Postgres.
 
-The Accounts view is generated from Supabase snapshots. Today, Week, and Month account scores sum stars from qualifying indexed repos created in the selected rolling period. All time accounts use enriched account rows when available and repository rollups for newly indexed owners.
+The main indexed data flow is:
 
-Initialize or update the Supabase schema and seed discovery queries with:
+1. Seed or update schema and discovery queries.
+2. Discover repositories from GitHub Search partitions.
+3. Refine repository language quality from descriptions and README text.
+4. Build semantic search documents and embeddings.
+5. Refresh enriched all-time account data.
+6. Build cached leaderboard snapshots.
+7. Export static leaderboard JSON.
+8. Build the static deployment artifact.
+
+GitHub Search exposes only a bounded result window for each query, so discovery uses multiple partitions: all-time star buckets, rolling created-date windows, and language buckets.
+
+Period definitions:
+
+- Today: starred repositories created in the last 24 hours.
+- Week: starred repositories created in the last 7 days.
+- Month: starred repositories created in the last 30 days.
+- All time: starred repositories overall.
+
+Account scores:
+
+- Today, Week, and Month sum stars from qualifying indexed repos created in the selected rolling period.
+- All time uses enriched account rows when available and repository rollups for newly indexed owners.
+
+## Scripts
+
+Initialize or update the database schema:
 
 ```bash
 npm run setup:db
 ```
 
-If you have a local `.cache/all-time-accounts.json`, import it into Supabase with:
+Import a legacy local all-time account cache:
 
 ```bash
 npm run import:cache
 ```
 
-Run repository discovery from GitHub partitions with:
+Discover repositories from GitHub Search partitions:
 
 ```bash
 npm run discover:repos
 ```
 
-Useful bounded local runs:
+Useful bounded discovery runs:
 
 ```bash
 npm run discover:repos -- --max-queries=18 --max-pages=1
 npm run discover:repos -- --period=week --max-pages=2
 ```
 
-Build cached leaderboard snapshots after discovery:
+Refine repository language status:
+
+```bash
+npm run refine:language
+```
+
+Build semantic search documents and embeddings:
+
+```bash
+npm run build:semantic-index
+```
+
+Build leaderboard snapshots:
 
 ```bash
 npm run build:snapshots
 ```
 
-Build or refresh the older enriched all-time account cache with:
+Refresh enriched all-time accounts:
 
 ```bash
 npm run refresh:all-time-accounts
 ```
 
-For a deeper seed set:
-
-```bash
-STARBOARD_SEED_PAGES=5 npm run refresh:all-time-accounts
-```
-
-The refresh job stores cached account rows in Supabase Postgres when `DATABASE_URL` is present and also keeps `.cache/all-time-accounts.json` as a local fallback. It skips accounts refreshed in the last 24 hours unless you pass `-- --force`, and it spaces GitHub Search requests to stay under rate limits.
-
-Run the full local indexing pipeline with:
+Run the full local indexing pipeline:
 
 ```bash
 npm run index:github
 ```
 
-The pipeline runs setup, repository discovery, README language refinement, all-time account enrichment, and snapshot generation. For the first pass, keep `STARBOARD_MAX_PAGES=1` or pass `-- --max-pages=1` so the index grows safely without heavy GitHub API usage.
-
-Build semantic search documents and embeddings with:
+Export static leaderboard JSON:
 
 ```bash
-npm run build:semantic-index
+npm run export:static-data
 ```
+
+Build the static deploy artifact:
+
+```bash
+npm run build:pages
+```
+
+The artifact is written to `dist/`.
+
+## Semantic Search
 
 The semantic index stores one embedding per repository in Supabase `pgvector`. It uses `text-embedding-3-small` with 1024 dimensions by default and skips unchanged documents using a content hash.
 
-Check the cache status with:
+Search behavior:
 
-```bash
-curl http://127.0.0.1:4176/api/cache/status
-```
+- Queries shorter than 3 characters use normal keyword filtering.
+- Longer queries call the semantic endpoint.
+- Default semantic ordering is relevance.
+- Clicking Stars, Forks, or Repos sorts within the semantic match pool.
+- Keyword-only fallback rows are appended after semantic rows when available.
 
-The MVP period definitions are:
-
-- Today: starred repositories created in the last 24 hours
-- Week: starred repositories created in the last 7 days
-- Month: starred repositories created in the last 30 days
-- All time: starred repositories overall
-
-Repository discovery stores an English-script heuristic status using the GitHub description and README text. A stray non-English character is allowed, but repos whose README/description are predominantly Chinese, Japanese, Korean, Cyrillic, Arabic, Hebrew, Devanagari, or Thai are rejected. Snapshot generation excludes repos that are confidently rejected as non-English.
-
-## Scheduled Indexing
-
-The repository includes `.github/workflows/starboard-index.yml`. Once this project is pushed to GitHub, add these repository secrets:
-
-```bash
-STARBOARD_GITHUB_TOKEN=your_github_token
-STARBOARD_DATABASE_URL=your_supabase_postgres_uri
-STARBOARD_OPENAI_API_KEY=your_openai_api_key
-```
-
-The workflow runs every 6 hours and can also be started manually from GitHub Actions. It runs:
-
-```bash
-npm run setup:db
-npm run discover:repos
-npm run refine:language
-npm run build:semantic-index
-npm run refresh:all-time-accounts
-npm run build:snapshots
-```
-
-## Semantic Search Edge Function
-
-The production GitHub Pages site calls a Supabase Edge Function for semantic search:
+Deploy the Supabase Edge Function with:
 
 ```bash
 supabase functions deploy starboard-semantic-search --no-verify-jwt
@@ -162,12 +198,73 @@ STARBOARD_EMBEDDING_MODEL
 STARBOARD_EMBEDDING_DIMENSIONS
 ```
 
+`STARBOARD_ALLOWED_ORIGIN` accepts a comma-separated allowlist. Include both hosted origins when both deployments are active:
+
+```bash
+STARBOARD_ALLOWED_ORIGIN=https://richling98.github.io,https://starboard-xi.vercel.app
+```
+
 The function embeds the user query server-side, calls the `match_semantic_repositories` RPC, and returns matching repository or account rows for the active period.
 
-## Next Build Step
+## Deployment
 
-Increase semantic index coverage gradually, tune similarity thresholds with real searches, and consider README chunk embeddings if repo-level embeddings miss specific README-only matches.
+### Vercel
+
+Vercel is the primary production deployment target.
+
+The project includes `vercel.json`:
+
+```json
+{
+  "buildCommand": "npm run build:pages",
+  "outputDirectory": "dist",
+  "framework": null
+}
+```
+
+Deploy from the repo root:
+
+```bash
+npm exec --yes vercel -- deploy --prod
+```
+
+The current production alias is:
+
+```text
+https://starboard-xi.vercel.app
+```
+
+### GitHub Pages
+
+The repository also includes `.github/workflows/starboard-index.yml`.
+
+Required GitHub repository secrets:
+
+```bash
+STARBOARD_GITHUB_TOKEN=your_github_token
+STARBOARD_DATABASE_URL=your_supabase_postgres_uri
+STARBOARD_OPENAI_API_KEY=your_openai_api_key
+```
+
+Scheduled and manual workflow runs perform the full refresh path:
+
+```bash
+npm run setup:db
+npm run discover:repos
+npm run refine:language
+npm run build:semantic-index
+npm run refresh:all-time-accounts
+npm run build:snapshots
+npm run export:static-data
+npm run build:pages
+```
+
+Push-triggered workflow runs skip the heavy discovery, semantic indexing, account refresh, and snapshot rebuild steps so UI-only changes can deploy quickly.
+
+## Quality Gates
+
+Repository discovery stores an English-script heuristic status using the GitHub description and README text. Repositories whose README or description are predominantly Chinese, Japanese, Korean, Cyrillic, Arabic, Hebrew, Devanagari, or Thai are rejected from snapshots. This keeps the discovery feed focused on English-language projects without rejecting incidental non-English characters.
 
 ## Font Attribution
 
-The `STARBOARD` hero uses a local Fira Mono regular font file. Fira Mono is distributed under the SIL Open Font License. The hero wordmark is static ANSI Shadow-style ASCII art rendered with layered `<pre>` blocks, matching the structure used by `skills.sh`.
+The `STARBOARD` hero uses a local Fira Mono regular font file. Fira Mono is distributed under the SIL Open Font License. The hero wordmark is static ANSI Shadow-style ASCII art rendered with layered `<pre>` blocks.

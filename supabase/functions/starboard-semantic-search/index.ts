@@ -4,7 +4,14 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.4";
 const OPENAI_EMBEDDINGS_URL = "https://api.openai.com/v1/embeddings";
 const MODEL = Deno.env.get("STARBOARD_EMBEDDING_MODEL") || "text-embedding-3-small";
 const DIMENSIONS = Number(Deno.env.get("STARBOARD_EMBEDDING_DIMENSIONS") || "1024");
-const ALLOWED_ORIGIN = Deno.env.get("STARBOARD_ALLOWED_ORIGIN") || "https://richling98.github.io";
+const DEFAULT_ALLOWED_ORIGINS = [
+  "https://richling98.github.io",
+  "https://starboard-xi.vercel.app"
+];
+const ALLOWED_ORIGINS = (Deno.env.get("STARBOARD_ALLOWED_ORIGIN") || DEFAULT_ALLOWED_ORIGINS.join(","))
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 
 serve(async (request) => {
   const corsHeaders = {
@@ -205,8 +212,8 @@ function requiredEnv(name: string) {
 
 function allowedOrigin(request: Request) {
   const origin = request.headers.get("origin");
-  if (!origin) return ALLOWED_ORIGIN;
-  return origin === ALLOWED_ORIGIN ? origin : ALLOWED_ORIGIN;
+  if (!origin) return ALLOWED_ORIGINS[0];
+  return ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
 }
 
 function json(payload: Record<string, unknown>, status: number, headers: HeadersInit) {
