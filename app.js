@@ -1579,9 +1579,21 @@ function renderTableHeaders() {
   });
 }
 
+function replayAsciiTitleAnimation() {
+  const title = document.querySelector(".ascii-title");
+  if (!title || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  title.classList.remove("is-generating");
+  void title.offsetWidth;
+  title.classList.add("is-generating");
+}
+
 async function boot() {
+  replayAsciiTitleAnimation();
   render();
   await loadPeriod();
 }
+
+window.addEventListener("pageshow", replayAsciiTitleAnimation);
 
 boot();

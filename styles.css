@@ -177,7 +177,11 @@ h1 {
   width: max-content;
   max-width: 100%;
   min-height: 60px;
-  overflow: visible;
+  overflow: hidden;
+}
+
+.ascii-title.is-generating {
+  animation: ascii-title-lift 900ms steps(7, end) both;
 }
 
 .ascii-title-layer {
@@ -192,8 +196,19 @@ h1 {
   user-select: none;
 }
 
+.ascii-title.is-generating .ascii-title-layer {
+  clip-path: inset(100% 0 0 0);
+  opacity: 0;
+  transform: translateY(12px);
+  animation: ascii-title-generate 980ms steps(9, end) both;
+}
+
 .ascii-title-shadow {
   color: #5f5f5f;
+}
+
+.ascii-title.is-generating .ascii-title-shadow {
+  animation-delay: 60ms;
 }
 
 .ascii-title-face {
@@ -201,6 +216,38 @@ h1 {
   top: 0;
   left: 0;
   color: var(--inverse);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.22);
+}
+
+.ascii-title.is-generating .ascii-title-face {
+  animation-delay: 150ms;
+}
+
+.ascii-title.is-generating::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -18%;
+  left: 0;
+  height: 22%;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.42) 38%,
+      rgba(255, 255, 255, 0.1) 62%,
+      rgba(255, 255, 255, 0)
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0 1px,
+      rgba(255, 255, 255, 0) 1px 3px
+    );
+  mix-blend-mode: screen;
+  opacity: 0;
+  transform: translateY(24%);
+  animation: ascii-scanline 860ms steps(9, end) 110ms both;
 }
 
 .terminal-subtitle {
@@ -211,6 +258,92 @@ h1 {
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.35;
+}
+
+@keyframes ascii-title-lift {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  26% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ascii-title-generate {
+  0% {
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+    transform: translateY(12px);
+    filter: brightness(1.45);
+  }
+
+  12% {
+    opacity: 0.45;
+  }
+
+  36% {
+    opacity: 0.78;
+    filter: brightness(1.9);
+  }
+
+  68% {
+    clip-path: inset(16% 0 0 0);
+    opacity: 1;
+    transform: translateY(3px);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    transform: translateY(0);
+    filter: brightness(1);
+  }
+}
+
+@keyframes ascii-scanline {
+  0% {
+    opacity: 0;
+    transform: translateY(34%);
+  }
+
+  12% {
+    opacity: 0.95;
+  }
+
+  76% {
+    opacity: 0.76;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-510%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ascii-title.is-generating,
+  .ascii-title.is-generating .ascii-title-layer,
+  .ascii-title.is-generating::after {
+    animation: none;
+  }
+
+  .ascii-title.is-generating .ascii-title-layer {
+    clip-path: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+
+  .ascii-title.is-generating::after {
+    content: none;
+  }
 }
 
 @media (min-width: 640px) {
