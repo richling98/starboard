@@ -48,23 +48,28 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run discover:repos
+        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run refine:language
+        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run build:semantic-index
+        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
           OPENAI_API_KEY: ${{ secrets.STARBOARD_OPENAI_API_KEY }}
       - run: npm run refresh:all-time-accounts
+        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run build:snapshots
+        if: github.event_name != 'push'
         env:
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
       - run: npm run export:static-data
