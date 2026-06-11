@@ -37,7 +37,6 @@ const state = {
   view: "repos",
   period: "today",
   query: "",
-  compact: false,
   loading: true,
   error: "",
   sortKey: "default",
@@ -52,7 +51,6 @@ const forkMetricTemplate = document.querySelector("#fork-metric-template");
 const paginationStatus = document.querySelector("#pagination-status");
 const loadMoreButton = document.querySelector("#load-more-button");
 const searchInput = document.querySelector("#search-input");
-const densityToggle = document.querySelector("#density-toggle");
 const sortButtons = document.querySelectorAll(".sort-button");
 const viewTabs = document.querySelectorAll(".view-tab");
 const tableHeaders = document.querySelectorAll(".table-header");
@@ -717,7 +715,6 @@ function renderLeaderboard() {
   const semanticLoading = isSemanticSearchActive() && semantic.loading && !semantic.rows.length;
   const error = (usesServerAccounts() && store.serverAccountsError) || store.error || state.error;
 
-  repoList.classList.toggle("is-compact", state.compact);
   repoList.classList.toggle("is-account-view", state.view === "accounts");
   repoList.replaceChildren();
 
@@ -1471,12 +1468,6 @@ searchInput.addEventListener("input", (event) => {
   currentStore().visibleCount = UI_REVEAL_SIZE;
   render();
   scheduleSemanticSearch();
-});
-
-densityToggle.addEventListener("click", () => {
-  state.compact = !state.compact;
-  densityToggle.setAttribute("aria-pressed", String(state.compact));
-  render();
 });
 
 loadMoreButton.addEventListener("click", loadMore);
