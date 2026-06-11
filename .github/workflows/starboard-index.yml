@@ -9,21 +9,16 @@ on:
     - cron: "17 */6 * * *"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: starboard-index
   cancel-in-progress: false
 
 jobs:
   index-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     env:
       STARBOARD_MAX_QUERIES: "18"
       STARBOARD_MAX_PAGES: "1"
@@ -75,12 +70,11 @@ jobs:
       - run: npm run export:static-data
         env:
           DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
-      - run: npm run build:pages
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit refreshed leaderboard data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/leaderboards/
+          git diff --cached --quiet || git commit -m "chore: refresh leaderboard data [skip ci]"
+          git push
