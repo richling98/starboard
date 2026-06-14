@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-14T05:26:29.065Z",
-  "total": 72,
-  "totalIndexedCount": 72,
-  "coverageLabel": "Showing 72 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-06-14T10:12:52.060Z",
+  "total": 63,
+  "totalIndexedCount": 63,
+  "coverageLabel": "Showing 63 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,52 +10,8 @@
   },
   "rows": [
     {
-      "id": "106916790",
-      "rank": 1,
-      "type": "User",
-      "login": "mrtooher",
-      "repos": [
-        {
-          "id": 1268068714,
-          "fork": false,
-          "name": "fable-mode",
-          "forks": 30,
-          "owner": "mrtooher",
-          "stars": 209,
-          "avatar": "https://avatars.githubusercontent.com/u/106916790?v=4",
-          "topics": [],
-          "ownerId": "106916790",
-          "repoUrl": "https://github.com/mrtooher/fable-mode",
-          "archived": false,
-          "fullName": "mrtooher/fable-mode",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/mrtooher",
-          "pushedAt": "2026-06-13T23:16:45+00:00",
-          "createdAt": "2026-06-13T05:33:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T04:57:27+00:00",
-          "description": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mrtooher",
-      "topRepo": {
-        "url": "https://github.com/mrtooher/fable-mode",
-        "name": "fable-mode",
-        "stars": 209,
-        "fullName": "mrtooher/fable-mode"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106916790?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mrtooher/fable-mode"
-      ],
-      "starScore": 209
-    },
-    {
       "id": "1075694",
-      "rank": 2,
+      "rank": 1,
       "type": "User",
       "login": "privatenumber",
       "repos": [
@@ -63,9 +19,9 @@
           "id": 1268405871,
           "fork": false,
           "name": "mac-ocr",
-          "forks": 4,
+          "forks": 6,
           "owner": "privatenumber",
-          "stars": 88,
+          "stars": 111,
           "avatar": "https://avatars.githubusercontent.com/u/1075694?v=4",
           "topics": [
             "apple-vision",
@@ -90,7 +46,7 @@
           "pushedAt": "2026-06-13T15:03:22+00:00",
           "createdAt": "2026-06-13T13:49:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T04:59:43+00:00",
+          "updatedAt": "2026-06-14T09:47:59+00:00",
           "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
           "defaultBranch": "develop"
         }
@@ -99,7 +55,7 @@
       "topRepo": {
         "url": "https://github.com/privatenumber/mac-ocr",
         "name": "mac-ocr",
-        "stars": 88,
+        "stars": 111,
         "fullName": "privatenumber/mac-ocr"
       },
       "enriched": true,
@@ -108,61 +64,11 @@
       "repoNames": [
         "privatenumber/mac-ocr"
       ],
-      "starScore": 88
-    },
-    {
-      "id": "246671938",
-      "rank": 3,
-      "type": "User",
-      "login": "kernelstub",
-      "repos": [
-        {
-          "id": 1268402390,
-          "fork": false,
-          "name": "Ferrum",
-          "forks": 7,
-          "owner": "kernelstub",
-          "stars": 78,
-          "avatar": "https://avatars.githubusercontent.com/u/246671938?v=4",
-          "topics": [
-            "enumeration",
-            "lpe",
-            "persistence",
-            "uac-bypass",
-            "windows"
-          ],
-          "ownerId": "246671938",
-          "repoUrl": "https://github.com/kernelstub/Ferrum",
-          "archived": false,
-          "fullName": "kernelstub/Ferrum",
-          "language": "Go",
-          "ownerUrl": "https://github.com/kernelstub",
-          "pushedAt": "2026-06-13T22:12:05+00:00",
-          "createdAt": "2026-06-13T13:44:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T03:21:30+00:00",
-          "description": "Windows security research toolkit for LPE, persistence, COM hijacking, and attack surface enumeration.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kernelstub",
-      "topRepo": {
-        "url": "https://github.com/kernelstub/Ferrum",
-        "name": "Ferrum",
-        "stars": 78,
-        "fullName": "kernelstub/Ferrum"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/246671938?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kernelstub/Ferrum"
-      ],
-      "starScore": 78
+      "starScore": 111
     },
     {
       "id": "1419214",
-      "rank": 4,
+      "rank": 2,
       "type": "User",
       "login": "bjarneo",
       "repos": [
@@ -170,9 +76,9 @@
           "id": 1268441659,
           "fork": false,
           "name": "kli",
-          "forks": 1,
+          "forks": 3,
           "owner": "bjarneo",
-          "stars": 67,
+          "stars": 105,
           "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
           "topics": [
             "bubbletea",
@@ -194,10 +100,10 @@
           "fullName": "bjarneo/kli",
           "language": "Go",
           "ownerUrl": "https://github.com/bjarneo",
-          "pushedAt": "2026-06-13T21:29:27+00:00",
+          "pushedAt": "2026-06-14T09:27:09+00:00",
           "createdAt": "2026-06-13T14:38:25+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T04:52:40+00:00",
+          "updatedAt": "2026-06-14T09:21:28+00:00",
           "description": "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods. Inspired by k9s, Lens, and lazygit.",
           "defaultBranch": "main"
         }
@@ -206,7 +112,7 @@
       "topRepo": {
         "url": "https://github.com/bjarneo/kli",
         "name": "kli",
-        "stars": 67,
+        "stars": 105,
         "fullName": "bjarneo/kli"
       },
       "enriched": true,
@@ -215,55 +121,76 @@
       "repoNames": [
         "bjarneo/kli"
       ],
-      "starScore": 67
+      "starScore": 105
     },
     {
-      "id": "404386",
-      "rank": 5,
+      "id": "11679543",
+      "rank": 3,
       "type": "User",
-      "login": "sgup",
+      "login": "royalbhati",
       "repos": [
         {
-          "id": 1268235796,
+          "id": 1268898197,
           "fork": false,
-          "name": "ai",
-          "forks": 7,
-          "owner": "sgup",
-          "stars": 63,
-          "avatar": "https://avatars.githubusercontent.com/u/404386?v=4",
-          "topics": [],
-          "ownerId": "404386",
-          "repoUrl": "https://github.com/sgup/ai",
+          "name": "sqltoerdiagram",
+          "forks": 8,
+          "owner": "royalbhati",
+          "stars": 97,
+          "avatar": "https://avatars.githubusercontent.com/u/11679543?v=4",
+          "topics": [
+            "data-modeling",
+            "database",
+            "database-schema",
+            "dbdiagram",
+            "dbml",
+            "developer-tools",
+            "diagram",
+            "entity-relationship-diagram",
+            "er-diagram",
+            "erd",
+            "mysql",
+            "open-source",
+            "postgresql",
+            "schema",
+            "sql",
+            "sql-parser",
+            "sqlite",
+            "vanilla-js",
+            "visualization",
+            "vite"
+          ],
+          "ownerId": "11679543",
+          "repoUrl": "https://github.com/royalbhati/sqltoerdiagram",
           "archived": false,
-          "fullName": "sgup/ai",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/sgup",
-          "pushedAt": "2026-06-13T13:55:52+00:00",
-          "createdAt": "2026-06-13T09:43:34+00:00",
+          "fullName": "royalbhati/sqltoerdiagram",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/royalbhati",
+          "pushedAt": "2026-06-14T04:14:05+00:00",
+          "createdAt": "2026-06-14T04:12:26+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T04:47:11+00:00",
-          "description": "Notes and operating profiles for working with AI coding agents.",
+          "updatedAt": "2026-06-14T10:00:07+00:00",
+          "description": "ER diagram generator. Paste CREATE TABLE statements and get a clean, interactive ERD — runs 100% in your browser, nothing uploaded",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/sgup",
+      "htmlUrl": "https://github.com/royalbhati",
       "topRepo": {
-        "url": "https://github.com/sgup/ai",
-        "name": "ai",
-        "stars": 63,
-        "fullName": "sgup/ai"
+        "url": "https://github.com/royalbhati/sqltoerdiagram",
+        "name": "sqltoerdiagram",
+        "stars": 97,
+        "fullName": "royalbhati/sqltoerdiagram"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/404386?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11679543?v=4",
       "repoCount": 1,
       "repoNames": [
-        "sgup/ai"
+        "royalbhati/sqltoerdiagram"
       ],
-      "starScore": 63
+      "starScore": 97
     },
     {
       "id": "108492647",
-      "rank": 6,
+      "rank": 4,
       "type": "User",
       "login": "duolahypercho",
       "repos": [
@@ -271,9 +198,9 @@
           "id": 1268774372,
           "fork": false,
           "name": "fusion-fable",
-          "forks": 5,
+          "forks": 13,
           "owner": "duolahypercho",
-          "stars": 48,
+          "stars": 96,
           "avatar": "https://avatars.githubusercontent.com/u/108492647?v=4",
           "topics": [],
           "ownerId": "108492647",
@@ -285,7 +212,7 @@
           "pushedAt": "2026-06-14T02:56:58+00:00",
           "createdAt": "2026-06-13T23:24:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T05:08:46+00:00",
+          "updatedAt": "2026-06-14T09:59:02+00:00",
           "description": "Fuse two frontier models into one Fable-tier answer: Opus 4.8 drafts, a second model (Opus 4.8 or GPT-5.5 via codex) checks, Opus fuses. A Claude Code skill.",
           "defaultBranch": "main"
         }
@@ -294,7 +221,7 @@
       "topRepo": {
         "url": "https://github.com/duolahypercho/fusion-fable",
         "name": "fusion-fable",
-        "stars": 48,
+        "stars": 96,
         "fullName": "duolahypercho/fusion-fable"
       },
       "enriched": true,
@@ -303,11 +230,157 @@
       "repoNames": [
         "duolahypercho/fusion-fable"
       ],
-      "starScore": 48
+      "starScore": 96
+    },
+    {
+      "id": "246671938",
+      "rank": 5,
+      "type": "User",
+      "login": "kernelstub",
+      "repos": [
+        {
+          "id": 1268402390,
+          "fork": false,
+          "name": "Ferrum",
+          "forks": 11,
+          "owner": "kernelstub",
+          "stars": 95,
+          "avatar": "https://avatars.githubusercontent.com/u/246671938?v=4",
+          "topics": [
+            "enumeration",
+            "lpe",
+            "persistence",
+            "uac-bypass",
+            "windows"
+          ],
+          "ownerId": "246671938",
+          "repoUrl": "https://github.com/kernelstub/Ferrum",
+          "archived": false,
+          "fullName": "kernelstub/Ferrum",
+          "language": "Go",
+          "ownerUrl": "https://github.com/kernelstub",
+          "pushedAt": "2026-06-13T22:12:05+00:00",
+          "createdAt": "2026-06-13T13:44:35+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:43:34+00:00",
+          "description": "Windows security research toolkit for LPE, persistence, COM hijacking, and attack surface enumeration.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kernelstub",
+      "topRepo": {
+        "url": "https://github.com/kernelstub/Ferrum",
+        "name": "Ferrum",
+        "stars": 95,
+        "fullName": "kernelstub/Ferrum"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/246671938?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kernelstub/Ferrum"
+      ],
+      "starScore": 95
+    },
+    {
+      "id": "65525458",
+      "rank": 6,
+      "type": "User",
+      "login": "fivetaku",
+      "repos": [
+        {
+          "id": 1268946118,
+          "fork": false,
+          "name": "fablize",
+          "forks": 11,
+          "owner": "fivetaku",
+          "stars": 60,
+          "avatar": "https://avatars.githubusercontent.com/u/65525458?v=4",
+          "topics": [
+            "agentic",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "fable",
+            "harness",
+            "opus"
+          ],
+          "ownerId": "65525458",
+          "repoUrl": "https://github.com/fivetaku/fablize",
+          "archived": false,
+          "fullName": "fivetaku/fablize",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/fivetaku",
+          "pushedAt": "2026-06-14T05:53:49+00:00",
+          "createdAt": "2026-06-14T05:49:06+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:59:39+00:00",
+          "description": "A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/fivetaku",
+      "topRepo": {
+        "url": "https://github.com/fivetaku/fablize",
+        "name": "fablize",
+        "stars": 60,
+        "fullName": "fivetaku/fablize"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65525458?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "fivetaku/fablize"
+      ],
+      "starScore": 60
+    },
+    {
+      "id": "167613664",
+      "rank": 7,
+      "type": "User",
+      "login": "alicankiraz1",
+      "repos": [
+        {
+          "id": 1268809523,
+          "fork": false,
+          "name": "CodexQB",
+          "forks": 4,
+          "owner": "alicankiraz1",
+          "stars": 42,
+          "avatar": "https://avatars.githubusercontent.com/u/167613664?v=4",
+          "topics": [],
+          "ownerId": "167613664",
+          "repoUrl": "https://github.com/alicankiraz1/CodexQB",
+          "archived": false,
+          "fullName": "alicankiraz1/CodexQB",
+          "language": "Python",
+          "ownerUrl": "https://github.com/alicankiraz1",
+          "pushedAt": "2026-06-14T07:18:54+00:00",
+          "createdAt": "2026-06-14T00:49:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:57:55+00:00",
+          "description": "CodexQB is a Codex plugin that packages a three-step project planning workflow as a reusable skill.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/alicankiraz1",
+      "topRepo": {
+        "url": "https://github.com/alicankiraz1/CodexQB",
+        "name": "CodexQB",
+        "stars": 42,
+        "fullName": "alicankiraz1/CodexQB"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167613664?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "alicankiraz1/CodexQB"
+      ],
+      "starScore": 42
     },
     {
       "id": "244777073",
-      "rank": 7,
+      "rank": 8,
       "type": "User",
       "login": "ninaantonov",
       "repos": [
@@ -370,8 +443,58 @@
       "starScore": 42
     },
     {
+      "id": "293496662",
+      "rank": 9,
+      "type": "User",
+      "login": "bi7x",
+      "repos": [
+        {
+          "id": 1268876627,
+          "fork": false,
+          "name": "USDT-BTC-Transaction-Flashing-Tool",
+          "forks": 0,
+          "owner": "bi7x",
+          "stars": 39,
+          "avatar": "https://avatars.githubusercontent.com/u/293496662?v=4",
+          "topics": [
+            "fake-balance-crypto",
+            "flash-usdt-flashers",
+            "flashcrypto",
+            "flasher-tool",
+            "usdt-flash-coin"
+          ],
+          "ownerId": "293496662",
+          "repoUrl": "https://github.com/bi7x/USDT-BTC-Transaction-Flashing-Tool",
+          "archived": false,
+          "fullName": "bi7x/USDT-BTC-Transaction-Flashing-Tool",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/bi7x",
+          "pushedAt": "2026-06-14T03:26:04+00:00",
+          "createdAt": "2026-06-14T03:26:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:34:53+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/bi7x",
+      "topRepo": {
+        "url": "https://github.com/bi7x/USDT-BTC-Transaction-Flashing-Tool",
+        "name": "USDT-BTC-Transaction-Flashing-Tool",
+        "stars": 39,
+        "fullName": "bi7x/USDT-BTC-Transaction-Flashing-Tool"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/293496662?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "bi7x/USDT-BTC-Transaction-Flashing-Tool"
+      ],
+      "starScore": 39
+    },
+    {
       "id": "38685534",
-      "rank": 8,
+      "rank": 10,
       "type": "User",
       "login": "pzr2508",
       "repos": [
@@ -393,7 +516,7 @@
           "pushedAt": "2026-06-14T05:08:32+00:00",
           "createdAt": "2026-06-14T02:28:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T05:10:34+00:00",
+          "updatedAt": "2026-06-14T06:57:41+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -414,8 +537,63 @@
       "starScore": 33
     },
     {
+      "id": "120177111",
+      "rank": 11,
+      "type": "User",
+      "login": "SihyeonJeon",
+      "repos": [
+        {
+          "id": 1268499718,
+          "fork": false,
+          "name": "why-was-fable-banned",
+          "forks": 8,
+          "owner": "SihyeonJeon",
+          "stars": 32,
+          "avatar": "https://avatars.githubusercontent.com/u/120177111?v=4",
+          "topics": [
+            "agentic-ai",
+            "ai-agents",
+            "ai-coding",
+            "claude-code",
+            "codex",
+            "developer-tools",
+            "guardrails",
+            "hooks",
+            "llm",
+            "spec-driven-development"
+          ],
+          "ownerId": "120177111",
+          "repoUrl": "https://github.com/SihyeonJeon/why-was-fable-banned",
+          "archived": false,
+          "fullName": "SihyeonJeon/why-was-fable-banned",
+          "language": "Python",
+          "ownerUrl": "https://github.com/SihyeonJeon",
+          "pushedAt": "2026-06-14T09:05:46+00:00",
+          "createdAt": "2026-06-13T15:54:14+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:05:50+00:00",
+          "description": "Spec-first, evidence-gated engineering-procedure enforcement for AI coding agents (Claude Code + Codex). The agent can't edit until it writes a passing spec.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/SihyeonJeon",
+      "topRepo": {
+        "url": "https://github.com/SihyeonJeon/why-was-fable-banned",
+        "name": "why-was-fable-banned",
+        "stars": 32,
+        "fullName": "SihyeonJeon/why-was-fable-banned"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120177111?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "SihyeonJeon/why-was-fable-banned"
+      ],
+      "starScore": 32
+    },
+    {
       "id": "110035286",
-      "rank": 9,
+      "rank": 12,
       "type": "User",
       "login": "Alex-Shayo",
       "repos": [
@@ -480,7 +658,7 @@
     },
     {
       "id": "58223736",
-      "rank": 10,
+      "rank": 13,
       "type": "User",
       "login": "ollifrickenstein",
       "repos": [
@@ -545,7 +723,7 @@
     },
     {
       "id": "140564396",
-      "rank": 11,
+      "rank": 14,
       "type": "User",
       "login": "Timgt86",
       "repos": [
@@ -608,52 +786,8 @@
       "starScore": 29
     },
     {
-      "id": "52702319",
-      "rank": 12,
-      "type": "User",
-      "login": "ar0x4",
-      "repos": [
-        {
-          "id": 1268186742,
-          "fork": false,
-          "name": "tunnel-vision-toolkit",
-          "forks": 2,
-          "owner": "ar0x4",
-          "stars": 28,
-          "avatar": "https://avatars.githubusercontent.com/u/52702319?v=4",
-          "topics": [],
-          "ownerId": "52702319",
-          "repoUrl": "https://github.com/ar0x4/tunnel-vision-toolkit",
-          "archived": false,
-          "fullName": "ar0x4/tunnel-vision-toolkit",
-          "language": "C",
-          "ownerUrl": "https://github.com/ar0x4",
-          "pushedAt": "2026-06-13T12:14:46+00:00",
-          "createdAt": "2026-06-13T08:32:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T03:34:38+00:00",
-          "description": "",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/ar0x4",
-      "topRepo": {
-        "url": "https://github.com/ar0x4/tunnel-vision-toolkit",
-        "name": "tunnel-vision-toolkit",
-        "stars": 28,
-        "fullName": "ar0x4/tunnel-vision-toolkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52702319?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ar0x4/tunnel-vision-toolkit"
-      ],
-      "starScore": 28
-    },
-    {
       "id": "106829060",
-      "rank": 13,
+      "rank": 15,
       "type": "User",
       "login": "lol-toolkit",
       "repos": [
@@ -717,153 +851,48 @@
       "starScore": 28
     },
     {
-      "id": "269097090",
-      "rank": 14,
-      "type": "Organization",
-      "login": "the-oracle-keeps-the-human-human",
-      "repos": [
-        {
-          "id": 1268244339,
-          "fork": false,
-          "name": "hermes-book-oracle",
-          "forks": 0,
-          "owner": "the-oracle-keeps-the-human-human",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/269097090?v=4",
-          "topics": [],
-          "ownerId": "269097090",
-          "repoUrl": "https://github.com/the-oracle-keeps-the-human-human/hermes-book-oracle",
-          "archived": false,
-          "fullName": "the-oracle-keeps-the-human-human/hermes-book-oracle",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/the-oracle-keeps-the-human-human",
-          "pushedAt": "2026-06-14T00:37:32+00:00",
-          "createdAt": "2026-06-13T09:55:45+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-06-14T02:12:21+00:00",
-          "description": "The Hermes Series — free book PDFs by Hermes Oracle (AI). Markdown source stays in hermes-oracle for subscribers.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/the-oracle-keeps-the-human-human",
-      "topRepo": {
-        "url": "https://github.com/the-oracle-keeps-the-human-human/hermes-book-oracle",
-        "name": "hermes-book-oracle",
-        "stars": 27,
-        "fullName": "the-oracle-keeps-the-human-human/hermes-book-oracle"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/269097090?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "the-oracle-keeps-the-human-human/hermes-book-oracle"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "120177111",
-      "rank": 15,
-      "type": "User",
-      "login": "SihyeonJeon",
-      "repos": [
-        {
-          "id": 1268499718,
-          "fork": false,
-          "name": "why-was-fable-banned",
-          "forks": 7,
-          "owner": "SihyeonJeon",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/120177111?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agents",
-            "ai-coding",
-            "claude-code",
-            "codex",
-            "developer-tools",
-            "guardrails",
-            "hooks",
-            "llm",
-            "spec-driven-development"
-          ],
-          "ownerId": "120177111",
-          "repoUrl": "https://github.com/SihyeonJeon/why-was-fable-banned",
-          "archived": false,
-          "fullName": "SihyeonJeon/why-was-fable-banned",
-          "language": "Python",
-          "ownerUrl": "https://github.com/SihyeonJeon",
-          "pushedAt": "2026-06-14T04:45:04+00:00",
-          "createdAt": "2026-06-13T15:54:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T04:48:41+00:00",
-          "description": "Spec-first, evidence-gated engineering-procedure enforcement for AI coding agents (Claude Code + Codex). The agent can't edit until it writes a passing spec.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SihyeonJeon",
-      "topRepo": {
-        "url": "https://github.com/SihyeonJeon/why-was-fable-banned",
-        "name": "why-was-fable-banned",
-        "stars": 26,
-        "fullName": "SihyeonJeon/why-was-fable-banned"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/120177111?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SihyeonJeon/why-was-fable-banned"
-      ],
-      "starScore": 26
-    },
-    {
-      "id": "293496662",
+      "id": "113920720",
       "rank": 16,
       "type": "User",
-      "login": "bi7x",
+      "login": "stvlynn",
       "repos": [
         {
-          "id": 1268876627,
+          "id": 1268285891,
           "fork": false,
-          "name": "USDT-BTC-Transaction-Flashing-Tool",
-          "forks": 0,
-          "owner": "bi7x",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/293496662?v=4",
-          "topics": [
-            "fake-balance-crypto",
-            "flash-usdt-flashers",
-            "flashcrypto",
-            "flasher-tool",
-            "usdt-flash-coin"
-          ],
-          "ownerId": "293496662",
-          "repoUrl": "https://github.com/bi7x/USDT-BTC-Transaction-Flashing-Tool",
+          "name": "agentic-coding",
+          "forks": 2,
+          "owner": "stvlynn",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/113920720?v=4",
+          "topics": [],
+          "ownerId": "113920720",
+          "repoUrl": "https://github.com/stvlynn/agentic-coding",
           "archived": false,
-          "fullName": "bi7x/USDT-BTC-Transaction-Flashing-Tool",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/bi7x",
-          "pushedAt": "2026-06-14T03:26:04+00:00",
-          "createdAt": "2026-06-14T03:26:03+00:00",
+          "fullName": "stvlynn/agentic-coding",
+          "language": "Makefile",
+          "ownerUrl": "https://github.com/stvlynn",
+          "pushedAt": "2026-06-13T10:58:11+00:00",
+          "createdAt": "2026-06-13T10:57:51+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T05:10:51+00:00",
-          "description": "",
+          "updatedAt": "2026-06-14T09:33:26+00:00",
+          "description": "Language- and framework-agnostic template for agent-driven projects.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/bi7x",
+      "htmlUrl": "https://github.com/stvlynn",
       "topRepo": {
-        "url": "https://github.com/bi7x/USDT-BTC-Transaction-Flashing-Tool",
-        "name": "USDT-BTC-Transaction-Flashing-Tool",
-        "stars": 20,
-        "fullName": "bi7x/USDT-BTC-Transaction-Flashing-Tool"
+        "url": "https://github.com/stvlynn/agentic-coding",
+        "name": "agentic-coding",
+        "stars": 22,
+        "fullName": "stvlynn/agentic-coding"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293496662?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113920720?v=4",
       "repoCount": 1,
       "repoNames": [
-        "bi7x/USDT-BTC-Transaction-Flashing-Tool"
+        "stvlynn/agentic-coding"
       ],
-      "starScore": 20
+      "starScore": 22
     },
     {
       "id": "270808818",
@@ -976,8 +1005,52 @@
       "starScore": 20
     },
     {
-      "id": "280622225",
+      "id": "39889303",
       "rank": 19,
+      "type": "User",
+      "login": "alicicek",
+      "repos": [
+        {
+          "id": 1268369209,
+          "fork": false,
+          "name": "tale-mode",
+          "forks": 1,
+          "owner": "alicicek",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/39889303?v=4",
+          "topics": [],
+          "ownerId": "39889303",
+          "repoUrl": "https://github.com/alicicek/tale-mode",
+          "archived": false,
+          "fullName": "alicicek/tale-mode",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/alicicek",
+          "pushedAt": "2026-06-13T22:53:22+00:00",
+          "createdAt": "2026-06-13T12:58:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T06:59:00+00:00",
+          "description": "Anthropic pulled the plug on Fable — so I used Fable to make Opus act like Fable. A drop-in Claude skill: plan, verify against the real code, adversarial self-review, receipts on every call.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/alicicek",
+      "topRepo": {
+        "url": "https://github.com/alicicek/tale-mode",
+        "name": "tale-mode",
+        "stars": 19,
+        "fullName": "alicicek/tale-mode"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39889303?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "alicicek/tale-mode"
+      ],
+      "starScore": 19
+    },
+    {
+      "id": "280622225",
+      "rank": 20,
       "type": "User",
       "login": "Boulderuogranary",
       "repos": [
@@ -1036,7 +1109,7 @@
     },
     {
       "id": "270808102",
-      "rank": 20,
+      "rank": 21,
       "type": "User",
       "login": "NailClerkDusk",
       "repos": [
@@ -1090,140 +1163,52 @@
       "starScore": 19
     },
     {
-      "id": "39889303",
-      "rank": 21,
-      "type": "User",
-      "login": "alicicek",
-      "repos": [
-        {
-          "id": 1268369209,
-          "fork": false,
-          "name": "tale-mode",
-          "forks": 1,
-          "owner": "alicicek",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/39889303?v=4",
-          "topics": [],
-          "ownerId": "39889303",
-          "repoUrl": "https://github.com/alicicek/tale-mode",
-          "archived": false,
-          "fullName": "alicicek/tale-mode",
-          "language": "Shell",
-          "ownerUrl": "https://github.com/alicicek",
-          "pushedAt": "2026-06-13T22:53:22+00:00",
-          "createdAt": "2026-06-13T12:58:11+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T01:40:35+00:00",
-          "description": "Anthropic pulled the plug on Fable — so I used Fable to make Opus act like Fable. A drop-in Claude skill: plan, verify against the real code, adversarial self-review, receipts on every call.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/alicicek",
-      "topRepo": {
-        "url": "https://github.com/alicicek/tale-mode",
-        "name": "tale-mode",
-        "stars": 18,
-        "fullName": "alicicek/tale-mode"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39889303?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "alicicek/tale-mode"
-      ],
-      "starScore": 18
-    },
-    {
-      "id": "7804485",
+      "id": "276124778",
       "rank": 22,
       "type": "User",
-      "login": "radiofun",
+      "login": "Poorna-Repos",
       "repos": [
         {
-          "id": 1268100227,
+          "id": 1268956021,
           "fork": false,
-          "name": "BottomGradientShader",
-          "forks": 0,
-          "owner": "radiofun",
+          "name": "opus-fable-mode",
+          "forks": 1,
+          "owner": "Poorna-Repos",
           "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/7804485?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/276124778?v=4",
           "topics": [],
-          "ownerId": "7804485",
-          "repoUrl": "https://github.com/radiofun/BottomGradientShader",
+          "ownerId": "276124778",
+          "repoUrl": "https://github.com/Poorna-Repos/opus-fable-mode",
           "archived": false,
-          "fullName": "radiofun/BottomGradientShader",
-          "language": "Metal",
-          "ownerUrl": "https://github.com/radiofun",
-          "pushedAt": "2026-06-13T17:04:48+00:00",
-          "createdAt": "2026-06-13T06:24:14+00:00",
+          "fullName": "Poorna-Repos/opus-fable-mode",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Poorna-Repos",
+          "pushedAt": "2026-06-14T06:21:55+00:00",
+          "createdAt": "2026-06-14T06:05:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T05:11:10+00:00",
-          "description": "A small SwiftUI + Metal experiment that renders a soft, animated ambient light rising from the bottom edge of the screen.",
+          "updatedAt": "2026-06-14T09:59:41+00:00",
+          "description": "Make Claude Opus 4.8 behave like the suspended Claude Fable 5 in Claude Code: a behavioral governor, a re-injection hook, and a leak-test harness measured from real logs.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/radiofun",
+      "htmlUrl": "https://github.com/Poorna-Repos",
       "topRepo": {
-        "url": "https://github.com/radiofun/BottomGradientShader",
-        "name": "BottomGradientShader",
+        "url": "https://github.com/Poorna-Repos/opus-fable-mode",
+        "name": "opus-fable-mode",
         "stars": 18,
-        "fullName": "radiofun/BottomGradientShader"
+        "fullName": "Poorna-Repos/opus-fable-mode"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7804485?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/276124778?v=4",
       "repoCount": 1,
       "repoNames": [
-        "radiofun/BottomGradientShader"
+        "Poorna-Repos/opus-fable-mode"
       ],
       "starScore": 18
-    },
-    {
-      "id": "2808337",
-      "rank": 23,
-      "type": "User",
-      "login": "matem6",
-      "repos": [
-        {
-          "id": 1268186266,
-          "fork": false,
-          "name": "UltraC0re",
-          "forks": 0,
-          "owner": "matem6",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/2808337?v=4",
-          "topics": [],
-          "ownerId": "2808337",
-          "repoUrl": "https://github.com/matem6/UltraC0re",
-          "archived": false,
-          "fullName": "matem6/UltraC0re",
-          "language": "Lua",
-          "ownerUrl": "https://github.com/matem6",
-          "pushedAt": "2026-06-13T23:32:36+00:00",
-          "createdAt": "2026-06-13T08:31:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T01:09:55+00:00",
-          "description": "UltraC0re - a Luac0re-based userland exploit for Jak X",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/matem6",
-      "topRepo": {
-        "url": "https://github.com/matem6/UltraC0re",
-        "name": "UltraC0re",
-        "stars": 17,
-        "fullName": "matem6/UltraC0re"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2808337?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "matem6/UltraC0re"
-      ],
-      "starScore": 17
     },
     {
       "id": "291352023",
-      "rank": 24,
+      "rank": 23,
       "type": "User",
       "login": "TorusConquerorSilo",
       "repos": [
@@ -1277,24 +1262,157 @@
       "starScore": 17
     },
     {
-      "id": "293335036",
-      "rank": 25,
+      "id": "84632255",
+      "rank": 24,
       "type": "User",
-      "login": "Fugbuii",
+      "login": "Mehrozsheikh",
       "repos": [
         {
-          "id": 1268245865,
+          "id": 1268375977,
           "fork": false,
-          "name": "Free-Demo-2026",
+          "name": "flutterfast_template",
           "forks": 0,
-          "owner": "Fugbuii",
+          "owner": "Mehrozsheikh",
           "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/293335036?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/84632255?v=4",
+          "topics": [],
+          "ownerId": "84632255",
+          "repoUrl": "https://github.com/Mehrozsheikh/flutterfast_template",
+          "archived": false,
+          "fullName": "Mehrozsheikh/flutterfast_template",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Mehrozsheikh",
+          "pushedAt": "2026-06-13T13:10:22+00:00",
+          "createdAt": "2026-06-13T13:07:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:08:07+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Mehrozsheikh",
+      "topRepo": {
+        "url": "https://github.com/Mehrozsheikh/flutterfast_template",
+        "name": "flutterfast_template",
+        "stars": 16,
+        "fullName": "Mehrozsheikh/flutterfast_template"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84632255?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Mehrozsheikh/flutterfast_template"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "258063599",
+      "rank": 25,
+      "type": "Organization",
+      "login": "BlazeUp-AI",
+      "repos": [
+        {
+          "id": 1268815032,
+          "fork": false,
+          "name": "FlyEye",
+          "forks": 3,
+          "owner": "BlazeUp-AI",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/258063599?v=4",
+          "topics": [],
+          "ownerId": "258063599",
+          "repoUrl": "https://github.com/BlazeUp-AI/FlyEye",
+          "archived": false,
+          "fullName": "BlazeUp-AI/FlyEye",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/BlazeUp-AI",
+          "pushedAt": "2026-06-14T09:19:38+00:00",
+          "createdAt": "2026-06-14T01:04:53+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-06-14T09:36:45+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/BlazeUp-AI",
+      "topRepo": {
+        "url": "https://github.com/BlazeUp-AI/FlyEye",
+        "name": "FlyEye",
+        "stars": 15,
+        "fullName": "BlazeUp-AI/FlyEye"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/258063599?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "BlazeUp-AI/FlyEye"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "186503464",
+      "rank": 26,
+      "type": "User",
+      "login": "nfzerox",
+      "repos": [
+        {
+          "id": 1268919960,
+          "fork": false,
+          "name": "TLSFix",
+          "forks": 0,
+          "owner": "nfzerox",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/186503464?v=4",
+          "topics": [],
+          "ownerId": "186503464",
+          "repoUrl": "https://github.com/nfzerox/TLSFix",
+          "archived": false,
+          "fullName": "nfzerox/TLSFix",
+          "language": "C",
+          "ownerUrl": "https://github.com/nfzerox",
+          "pushedAt": "2026-06-14T05:01:41+00:00",
+          "createdAt": "2026-06-14T04:59:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:56:20+00:00",
+          "description": "Modern HTTPS for legacy iPhone, iPad, and iPod touch running iOS 3 to iOS 9.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nfzerox",
+      "topRepo": {
+        "url": "https://github.com/nfzerox/TLSFix",
+        "name": "TLSFix",
+        "stars": 15,
+        "fullName": "nfzerox/TLSFix"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186503464?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "nfzerox/TLSFix"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "293341027",
+      "rank": 27,
+      "type": "User",
+      "login": "Mhus221",
+      "repos": [
+        {
+          "id": 1268264653,
+          "fork": false,
+          "name": "Mhus-",
+          "forks": 0,
+          "owner": "Mhus221",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/293341027?v=4",
           "topics": [
             "bitcoin-flash-transactions",
             "btc-flash-payments",
             "crpto",
             "fake-btc-transaction",
+            "flash-btc-software-free",
             "flash-usdt-binance-2026",
             "flash-usdt-flashers",
             "flash-usdt-for-binance",
@@ -1303,82 +1421,82 @@
             "flashusftsendarbot",
             "usdt-flash-coin"
           ],
-          "ownerId": "293335036",
-          "repoUrl": "https://github.com/Fugbuii/Free-Demo-2026",
+          "ownerId": "293341027",
+          "repoUrl": "https://github.com/Mhus221/Mhus-",
           "archived": false,
-          "fullName": "Fugbuii/Free-Demo-2026",
+          "fullName": "Mhus221/Mhus-",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/Fugbuii",
-          "pushedAt": "2026-06-13T10:01:14+00:00",
-          "createdAt": "2026-06-13T09:57:54+00:00",
+          "ownerUrl": "https://github.com/Mhus221",
+          "pushedAt": "2026-06-13T10:28:31+00:00",
+          "createdAt": "2026-06-13T10:26:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T02:41:44+00:00",
-          "description": "Multi-Network Support: Effortlessly Send USDT,BTC,ETH Across Popular Crypto Wallets Networks including TRC20, ERC20, BEP20, SOLANA, And POLYGON. ",
+          "updatedAt": "2026-06-14T09:03:33+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Fugbuii",
+      "htmlUrl": "https://github.com/Mhus221",
       "topRepo": {
-        "url": "https://github.com/Fugbuii/Free-Demo-2026",
-        "name": "Free-Demo-2026",
-        "stars": 16,
-        "fullName": "Fugbuii/Free-Demo-2026"
+        "url": "https://github.com/Mhus221/Mhus-",
+        "name": "Mhus-",
+        "stars": 14,
+        "fullName": "Mhus221/Mhus-"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293335036?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/293341027?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Fugbuii/Free-Demo-2026"
+        "Mhus221/Mhus-"
       ],
-      "starScore": 16
+      "starScore": 14
     },
     {
-      "id": "113920720",
-      "rank": 26,
+      "id": "12913191",
+      "rank": 28,
       "type": "User",
-      "login": "stvlynn",
+      "login": "raymondchins",
       "repos": [
         {
-          "id": 1268285891,
+          "id": 1268307016,
           "fork": false,
-          "name": "agentic-coding",
-          "forks": 1,
-          "owner": "stvlynn",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/113920720?v=4",
+          "name": "agentmap",
+          "forks": 5,
+          "owner": "raymondchins",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/12913191?v=4",
           "topics": [],
-          "ownerId": "113920720",
-          "repoUrl": "https://github.com/stvlynn/agentic-coding",
+          "ownerId": "12913191",
+          "repoUrl": "https://github.com/raymondchins/agentmap",
           "archived": false,
-          "fullName": "stvlynn/agentic-coding",
-          "language": "Makefile",
-          "ownerUrl": "https://github.com/stvlynn",
-          "pushedAt": "2026-06-13T10:58:11+00:00",
-          "createdAt": "2026-06-13T10:57:51+00:00",
+          "fullName": "raymondchins/agentmap",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/raymondchins",
+          "pushedAt": "2026-06-14T09:53:36+00:00",
+          "createdAt": "2026-06-13T11:29:36+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-06-14T04:58:45+00:00",
-          "description": "Language- and framework-agnostic template for agent-driven projects.",
+          "updatedAt": "2026-06-14T09:53:17+00:00",
+          "description": "The repo map your coding agent is forced to use — ~98% fewer tokens (up to 99.9% per task) to understand a TS/JS codebase. PageRank hubs, Aider-style symbol ranking, token-budgeted digest, --any router, wired into the agent loop.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/stvlynn",
+      "htmlUrl": "https://github.com/raymondchins",
       "topRepo": {
-        "url": "https://github.com/stvlynn/agentic-coding",
-        "name": "agentic-coding",
-        "stars": 16,
-        "fullName": "stvlynn/agentic-coding"
+        "url": "https://github.com/raymondchins/agentmap",
+        "name": "agentmap",
+        "stars": 14,
+        "fullName": "raymondchins/agentmap"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113920720?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12913191?v=4",
       "repoCount": 1,
       "repoNames": [
-        "stvlynn/agentic-coding"
+        "raymondchins/agentmap"
       ],
-      "starScore": 16
+      "starScore": 14
     },
     {
       "id": "291613606",
-      "rank": 27,
+      "rank": 29,
       "type": "User",
       "login": "shalediplomatcock",
       "repos": [
@@ -1438,7 +1556,7 @@
     },
     {
       "id": "291613635",
-      "rank": 28,
+      "rank": 30,
       "type": "User",
       "login": "Spikederthrust",
       "repos": [
@@ -1497,7 +1615,7 @@
     },
     {
       "id": "291612923",
-      "rank": 29,
+      "rank": 31,
       "type": "User",
       "login": "Talondespassage",
       "repos": [
@@ -1550,8 +1668,61 @@
       "starScore": 14
     },
     {
+      "id": "159447266",
+      "rank": 32,
+      "type": "User",
+      "login": "001TMF",
+      "repos": [
+        {
+          "id": 1268804183,
+          "fork": false,
+          "name": "harness-forge",
+          "forks": 2,
+          "owner": "001TMF",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/159447266?v=4",
+          "topics": [
+            "agent-skills",
+            "agents",
+            "claude-code",
+            "claude-skill",
+            "llm",
+            "meta-harness",
+            "pareto-optimization",
+            "prompt-optimization"
+          ],
+          "ownerId": "159447266",
+          "repoUrl": "https://github.com/001TMF/harness-forge",
+          "archived": false,
+          "fullName": "001TMF/harness-forge",
+          "language": "Python",
+          "ownerUrl": "https://github.com/001TMF",
+          "pushedAt": "2026-06-14T00:54:44+00:00",
+          "createdAt": "2026-06-14T00:36:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:25:08+00:00",
+          "description": "Turn Claude Code into its own Meta-Harness — a skill that evolves the scaffolding around a fixed model (memory, retrieval, context, prompts) via a native propose→score→Pareto loop. Native reimplementation of Meta-Harness (Lee et al. 2026).",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/001TMF",
+      "topRepo": {
+        "url": "https://github.com/001TMF/harness-forge",
+        "name": "harness-forge",
+        "stars": 13,
+        "fullName": "001TMF/harness-forge"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159447266?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "001TMF/harness-forge"
+      ],
+      "starScore": 13
+    },
+    {
       "id": "291614136",
-      "rank": 30,
+      "rank": 33,
       "type": "User",
       "login": "ApprenticeShroud",
       "repos": [
@@ -1610,8 +1781,72 @@
       "starScore": 13
     },
     {
+      "id": "293397829",
+      "rank": 34,
+      "type": "User",
+      "login": "cons1denl",
+      "repos": [
+        {
+          "id": 1268479167,
+          "fork": false,
+          "name": "Social-Media-Ban-Report-Bot",
+          "forks": 0,
+          "owner": "cons1denl",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/293397829?v=4",
+          "topics": [
+            "ban-tiktok-tool",
+            "bans-instagram-bot",
+            "bans-instagram-tool",
+            "bans-tiktok-bot",
+            "facebook-automation-tool",
+            "facebook-report-bot-pow",
+            "ig-bot-reporter",
+            "ig-report-power",
+            "ig-reporting-tool",
+            "instagram-api",
+            "instagram-reporter-bot-pow",
+            "massreport",
+            "priv8tools",
+            "report-facebook-accounts",
+            "tiktok-ban-bot-power",
+            "tiktok-bans-tool",
+            "tiktok-bot-reporter",
+            "tiktok-report-power",
+            "tiktok-reporter-bot-pow"
+          ],
+          "ownerId": "293397829",
+          "repoUrl": "https://github.com/cons1denl/Social-Media-Ban-Report-Bot",
+          "archived": false,
+          "fullName": "cons1denl/Social-Media-Ban-Report-Bot",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/cons1denl",
+          "pushedAt": "2026-06-13T15:29:41+00:00",
+          "createdAt": "2026-06-13T15:27:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:35:33+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cons1denl",
+      "topRepo": {
+        "url": "https://github.com/cons1denl/Social-Media-Ban-Report-Bot",
+        "name": "Social-Media-Ban-Report-Bot",
+        "stars": 13,
+        "fullName": "cons1denl/Social-Media-Ban-Report-Bot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/293397829?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cons1denl/Social-Media-Ban-Report-Bot"
+      ],
+      "starScore": 13
+    },
+    {
       "id": "291612952",
-      "rank": 31,
+      "rank": 35,
       "type": "User",
       "login": "EntranceMothPrevail",
       "repos": [
@@ -1655,7 +1890,7 @@
     },
     {
       "id": "291613436",
-      "rank": 32,
+      "rank": 36,
       "type": "User",
       "login": "FaceHelmsman",
       "repos": [
@@ -1713,96 +1948,8 @@
       "starScore": 13
     },
     {
-      "id": "91076764",
-      "rank": 33,
-      "type": "User",
-      "login": "hrushik98",
-      "repos": [
-        {
-          "id": 1268145288,
-          "fork": false,
-          "name": "md2pdfgo",
-          "forks": 0,
-          "owner": "hrushik98",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/91076764?v=4",
-          "topics": [],
-          "ownerId": "91076764",
-          "repoUrl": "https://github.com/hrushik98/md2pdfgo",
-          "archived": false,
-          "fullName": "hrushik98/md2pdfgo",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/hrushik98",
-          "pushedAt": "2026-06-13T11:10:50+00:00",
-          "createdAt": "2026-06-13T07:32:19+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T00:56:11+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hrushik98",
-      "topRepo": {
-        "url": "https://github.com/hrushik98/md2pdfgo",
-        "name": "md2pdfgo",
-        "stars": 13,
-        "fullName": "hrushik98/md2pdfgo"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/91076764?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hrushik98/md2pdfgo"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "214766933",
-      "rank": 34,
-      "type": "User",
-      "login": "kelvinQiu125",
-      "repos": [
-        {
-          "id": 1268204666,
-          "fork": false,
-          "name": "KelvinQiu125.github.io",
-          "forks": 0,
-          "owner": "kelvinQiu125",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/214766933?v=4",
-          "topics": [],
-          "ownerId": "214766933",
-          "repoUrl": "https://github.com/kelvinQiu125/KelvinQiu125.github.io",
-          "archived": false,
-          "fullName": "kelvinQiu125/KelvinQiu125.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/kelvinQiu125",
-          "pushedAt": "2026-06-13T09:14:58+00:00",
-          "createdAt": "2026-06-13T08:58:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:04:48+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kelvinQiu125",
-      "topRepo": {
-        "url": "https://github.com/kelvinQiu125/KelvinQiu125.github.io",
-        "name": "KelvinQiu125.github.io",
-        "stars": 13,
-        "fullName": "kelvinQiu125/KelvinQiu125.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/214766933?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kelvinQiu125/KelvinQiu125.github.io"
-      ],
-      "starScore": 13
-    },
-    {
       "id": "291612990",
-      "rank": 35,
+      "rank": 37,
       "type": "User",
       "login": "routediplomatjoist82",
       "repos": [
@@ -1854,8 +2001,60 @@
       "starScore": 13
     },
     {
+      "id": "30552772",
+      "rank": 38,
+      "type": "User",
+      "login": "rudrankriyam",
+      "repos": [
+        {
+          "id": 1268707319,
+          "fork": false,
+          "name": "Evaluations-Framework-CLI",
+          "forks": 0,
+          "owner": "rudrankriyam",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/30552772?v=4",
+          "topics": [
+            "apple",
+            "cli",
+            "developer-tools",
+            "evaluations",
+            "macos",
+            "swift",
+            "xcode"
+          ],
+          "ownerId": "30552772",
+          "repoUrl": "https://github.com/rudrankriyam/Evaluations-Framework-CLI",
+          "archived": false,
+          "fullName": "rudrankriyam/Evaluations-Framework-CLI",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/rudrankriyam",
+          "pushedAt": "2026-06-14T03:27:57+00:00",
+          "createdAt": "2026-06-13T21:02:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:08:29+00:00",
+          "description": "Unofficial CLI for automating Apple Evaluations result workflows: run, inspect, compare, export, and gate",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/rudrankriyam",
+      "topRepo": {
+        "url": "https://github.com/rudrankriyam/Evaluations-Framework-CLI",
+        "name": "Evaluations-Framework-CLI",
+        "stars": 13,
+        "fullName": "rudrankriyam/Evaluations-Framework-CLI"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30552772?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "rudrankriyam/Evaluations-Framework-CLI"
+      ],
+      "starScore": 13
+    },
+    {
       "id": "291352371",
-      "rank": 36,
+      "rank": 39,
       "type": "User",
       "login": "Trapketempo25",
       "repos": [
@@ -1904,7 +2103,7 @@
     },
     {
       "id": "3059371",
-      "rank": 37,
+      "rank": 40,
       "type": "User",
       "login": "watadarkstar",
       "repos": [
@@ -1955,7 +2154,7 @@
     },
     {
       "id": "291352278",
-      "rank": 38,
+      "rank": 41,
       "type": "User",
       "login": "amplitudesoldierheed",
       "repos": [
@@ -2009,7 +2208,7 @@
     },
     {
       "id": "291352069",
-      "rank": 39,
+      "rank": 42,
       "type": "User",
       "login": "Binarypludash",
       "repos": [
@@ -2061,7 +2260,7 @@
     },
     {
       "id": "291352307",
-      "rank": 40,
+      "rank": 43,
       "type": "User",
       "login": "CandlemakerUnderpass",
       "repos": [
@@ -2110,7 +2309,7 @@
     },
     {
       "id": "291613087",
-      "rank": 41,
+      "rank": 44,
       "type": "User",
       "login": "CreatorSpindle",
       "repos": [
@@ -2168,56 +2367,8 @@
       "starScore": 12
     },
     {
-      "id": "181270998",
-      "rank": 42,
-      "type": "User",
-      "login": "dray-me",
-      "repos": [
-        {
-          "id": 1268176424,
-          "fork": false,
-          "name": "Display-Name-effect",
-          "forks": 2,
-          "owner": "dray-me",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/181270998?v=4",
-          "topics": [
-            "discord",
-            "discord-bot-custom-templates",
-            "display-name-effect"
-          ],
-          "ownerId": "181270998",
-          "repoUrl": "https://github.com/dray-me/Display-Name-effect",
-          "archived": false,
-          "fullName": "dray-me/Display-Name-effect",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/dray-me",
-          "pushedAt": "2026-06-14T03:58:03+00:00",
-          "createdAt": "2026-06-13T08:17:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T03:58:07+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dray-me",
-      "topRepo": {
-        "url": "https://github.com/dray-me/Display-Name-effect",
-        "name": "Display-Name-effect",
-        "stars": 12,
-        "fullName": "dray-me/Display-Name-effect"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/181270998?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dray-me/Display-Name-effect"
-      ],
-      "starScore": 12
-    },
-    {
       "id": "291613829",
-      "rank": 43,
+      "rank": 45,
       "type": "User",
       "login": "EnchanterChimney",
       "repos": [
@@ -2276,52 +2427,8 @@
       "starScore": 12
     },
     {
-      "id": "55190601",
-      "rank": 44,
-      "type": "User",
-      "login": "FarazzShaikh",
-      "repos": [
-        {
-          "id": 1268199954,
-          "fork": false,
-          "name": "i-input",
-          "forks": 0,
-          "owner": "FarazzShaikh",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/55190601?v=4",
-          "topics": [],
-          "ownerId": "55190601",
-          "repoUrl": "https://github.com/FarazzShaikh/i-input",
-          "archived": false,
-          "fullName": "FarazzShaikh/i-input",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/FarazzShaikh",
-          "pushedAt": "2026-06-13T12:38:02+00:00",
-          "createdAt": "2026-06-13T08:52:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T01:28:15+00:00",
-          "description": "An intelegent universal numeric input for React.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/FarazzShaikh",
-      "topRepo": {
-        "url": "https://github.com/FarazzShaikh/i-input",
-        "name": "i-input",
-        "stars": 12,
-        "fullName": "FarazzShaikh/i-input"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55190601?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "FarazzShaikh/i-input"
-      ],
-      "starScore": 12
-    },
-    {
       "id": "291613636",
-      "rank": 45,
+      "rank": 46,
       "type": "User",
       "login": "Gluedruempty",
       "repos": [
@@ -2380,7 +2487,7 @@
     },
     {
       "id": "291614005",
-      "rank": 46,
+      "rank": 47,
       "type": "User",
       "login": "LoopSystemAqueduct",
       "repos": [
@@ -2438,96 +2545,8 @@
       "starScore": 12
     },
     {
-      "id": "289113286",
-      "rank": 47,
-      "type": "User",
-      "login": "lsptest06demo-ui",
-      "repos": [
-        {
-          "id": 1268207207,
-          "fork": false,
-          "name": "lsptest06demo-ui.github.io",
-          "forks": 0,
-          "owner": "lsptest06demo-ui",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/289113286?v=4",
-          "topics": [],
-          "ownerId": "289113286",
-          "repoUrl": "https://github.com/lsptest06demo-ui/lsptest06demo-ui.github.io",
-          "archived": false,
-          "fullName": "lsptest06demo-ui/lsptest06demo-ui.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/lsptest06demo-ui",
-          "pushedAt": "2026-06-13T09:34:53+00:00",
-          "createdAt": "2026-06-13T09:02:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T09:59:35+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lsptest06demo-ui",
-      "topRepo": {
-        "url": "https://github.com/lsptest06demo-ui/lsptest06demo-ui.github.io",
-        "name": "lsptest06demo-ui.github.io",
-        "stars": 12,
-        "fullName": "lsptest06demo-ui/lsptest06demo-ui.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/289113286?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lsptest06demo-ui/lsptest06demo-ui.github.io"
-      ],
-      "starScore": 12
-    },
-    {
-      "id": "84632255",
-      "rank": 48,
-      "type": "User",
-      "login": "Mehrozsheikh",
-      "repos": [
-        {
-          "id": 1268375977,
-          "fork": false,
-          "name": "flutterfast_template",
-          "forks": 0,
-          "owner": "Mehrozsheikh",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/84632255?v=4",
-          "topics": [],
-          "ownerId": "84632255",
-          "repoUrl": "https://github.com/Mehrozsheikh/flutterfast_template",
-          "archived": false,
-          "fullName": "Mehrozsheikh/flutterfast_template",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Mehrozsheikh",
-          "pushedAt": "2026-06-13T13:10:22+00:00",
-          "createdAt": "2026-06-13T13:07:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-14T03:07:05+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Mehrozsheikh",
-      "topRepo": {
-        "url": "https://github.com/Mehrozsheikh/flutterfast_template",
-        "name": "flutterfast_template",
-        "stars": 12,
-        "fullName": "Mehrozsheikh/flutterfast_template"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/84632255?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Mehrozsheikh/flutterfast_template"
-      ],
-      "starScore": 12
-    },
-    {
       "id": "291613430",
-      "rank": 49,
+      "rank": 48,
       "type": "User",
       "login": "NovaPurserDress",
       "repos": [
@@ -2586,7 +2605,7 @@
     },
     {
       "id": "291613796",
-      "rank": 50,
+      "rank": 49,
       "type": "User",
       "login": "Poltergeistfeclamp",
       "repos": [
@@ -2642,6 +2661,71 @@
       "repoCount": 1,
       "repoNames": [
         "Poltergeistfeclamp/Topaz-AI-Photo-Toolkit"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "2934394",
+      "rank": 50,
+      "type": "User",
+      "login": "ruvnet",
+      "repos": [
+        {
+          "id": 1268611404,
+          "fork": false,
+          "name": "agent-harness-generator",
+          "forks": 1,
+          "owner": "ruvnet",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+          "topics": [
+            "agent-harness",
+            "agent-harness-generator",
+            "agent-scaffolding",
+            "agentic-ai",
+            "agentic-framework",
+            "autonomous-agents",
+            "claude-code",
+            "codex",
+            "create-agent-harness",
+            "hermes-agent",
+            "mcp",
+            "mcp-server",
+            "multi-agent",
+            "openai-codex",
+            "openclaw",
+            "pi-dev",
+            "rvm",
+            "sandboxing",
+            "scaffold",
+            "scaffolding"
+          ],
+          "ownerId": "2934394",
+          "repoUrl": "https://github.com/ruvnet/agent-harness-generator",
+          "archived": false,
+          "fullName": "ruvnet/agent-harness-generator",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/ruvnet",
+          "pushedAt": "2026-06-14T07:22:08+00:00",
+          "createdAt": "2026-06-13T18:29:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T08:55:39+00:00",
+          "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated).",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ruvnet",
+      "topRepo": {
+        "url": "https://github.com/ruvnet/agent-harness-generator",
+        "name": "agent-harness-generator",
+        "stars": 12,
+        "fullName": "ruvnet/agent-harness-generator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ruvnet/agent-harness-generator"
       ],
       "starScore": 12
     },
@@ -2704,8 +2788,52 @@
       "starScore": 11
     },
     {
-      "id": "291613366",
+      "id": "12786153",
       "rank": 52,
+      "type": "User",
+      "login": "christopherarter",
+      "repos": [
+        {
+          "id": 1268786882,
+          "fork": false,
+          "name": "reasonix-superpowers",
+          "forks": 2,
+          "owner": "christopherarter",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/12786153?v=4",
+          "topics": [],
+          "ownerId": "12786153",
+          "repoUrl": "https://github.com/christopherarter/reasonix-superpowers",
+          "archived": false,
+          "fullName": "christopherarter/reasonix-superpowers",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/christopherarter",
+          "pushedAt": "2026-06-14T02:42:57+00:00",
+          "createdAt": "2026-06-13T23:52:13+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T09:01:09+00:00",
+          "description": "Superpowers skill port to Reasonix coding harness.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/christopherarter",
+      "topRepo": {
+        "url": "https://github.com/christopherarter/reasonix-superpowers",
+        "name": "reasonix-superpowers",
+        "stars": 11,
+        "fullName": "christopherarter/reasonix-superpowers"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12786153?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "christopherarter/reasonix-superpowers"
+      ],
+      "starScore": 11
+    },
+    {
+      "id": "291613366",
+      "rank": 53,
       "type": "User",
       "login": "ForbiddenStudentShop",
       "repos": [
@@ -2766,7 +2894,7 @@
     },
     {
       "id": "291614387",
-      "rank": 53,
+      "rank": 54,
       "type": "User",
       "login": "forestsoulnotice",
       "repos": [
@@ -2825,8 +2953,63 @@
       "starScore": 11
     },
     {
+      "id": "252459854",
+      "rank": 55,
+      "type": "User",
+      "login": "fxa3bah",
+      "repos": [
+        {
+          "id": 1268376366,
+          "fork": false,
+          "name": "OneBrain",
+          "forks": 2,
+          "owner": "fxa3bah",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/252459854?v=4",
+          "topics": [
+            "ai-agents",
+            "gbrain",
+            "knowledge-graph",
+            "local-first",
+            "mcp",
+            "model-context-protocol",
+            "obsidian",
+            "offline",
+            "ollama",
+            "second-brain"
+          ],
+          "ownerId": "252459854",
+          "repoUrl": "https://github.com/fxa3bah/OneBrain",
+          "archived": false,
+          "fullName": "fxa3bah/OneBrain",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/fxa3bah",
+          "pushedAt": "2026-06-13T13:42:23+00:00",
+          "createdAt": "2026-06-13T13:07:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-06-14T06:53:29+00:00",
+          "description": "Unify every AI agent on ONE local shared memory over MCP. Obsidian vault + gbrain (by Garry Tan) + Ollama. 100% offline, $0 API. Orchestrate with OpenClaw or Hermes.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/fxa3bah",
+      "topRepo": {
+        "url": "https://github.com/fxa3bah/OneBrain",
+        "name": "OneBrain",
+        "stars": 11,
+        "fullName": "fxa3bah/OneBrain"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/252459854?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "fxa3bah/OneBrain"
+      ],
+      "starScore": 11
+    },
+    {
       "id": "291613462",
-      "rank": 54,
+      "rank": 56,
       "type": "User",
       "login": "GatorForceps",
       "repos": [
@@ -2889,52 +3072,8 @@
       "starScore": 11
     },
     {
-      "id": "291808453",
-      "rank": 55,
-      "type": "User",
-      "login": "KYEHELLO",
-      "repos": [
-        {
-          "id": 1268212794,
-          "fork": false,
-          "name": "KYEHELLO.github.io",
-          "forks": 0,
-          "owner": "KYEHELLO",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/291808453?v=4",
-          "topics": [],
-          "ownerId": "291808453",
-          "repoUrl": "https://github.com/KYEHELLO/KYEHELLO.github.io",
-          "archived": false,
-          "fullName": "KYEHELLO/KYEHELLO.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/KYEHELLO",
-          "pushedAt": "2026-06-13T09:30:02+00:00",
-          "createdAt": "2026-06-13T09:10:05+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T09:57:01+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/KYEHELLO",
-      "topRepo": {
-        "url": "https://github.com/KYEHELLO/KYEHELLO.github.io",
-        "name": "KYEHELLO.github.io",
-        "stars": 11,
-        "fullName": "KYEHELLO/KYEHELLO.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291808453?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "KYEHELLO/KYEHELLO.github.io"
-      ],
-      "starScore": 11
-    },
-    {
       "id": "291613694",
-      "rank": 56,
+      "rank": 57,
       "type": "User",
       "login": "LavaBladesmanChannel",
       "repos": [
@@ -2988,50 +3127,6 @@
       "repoCount": 1,
       "repoNames": [
         "LavaBladesmanChannel/TeamViewer-Remote-Setup"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "287940978",
-      "rank": 57,
-      "type": "User",
-      "login": "miaoshalg1993",
-      "repos": [
-        {
-          "id": 1268213411,
-          "fork": false,
-          "name": "miaoshalg1993.github.io",
-          "forks": 0,
-          "owner": "miaoshalg1993",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/287940978?v=4",
-          "topics": [],
-          "ownerId": "287940978",
-          "repoUrl": "https://github.com/miaoshalg1993/miaoshalg1993.github.io",
-          "archived": false,
-          "fullName": "miaoshalg1993/miaoshalg1993.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/miaoshalg1993",
-          "pushedAt": "2026-06-13T09:11:47+00:00",
-          "createdAt": "2026-06-13T09:10:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:03:49+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/miaoshalg1993",
-      "topRepo": {
-        "url": "https://github.com/miaoshalg1993/miaoshalg1993.github.io",
-        "name": "miaoshalg1993.github.io",
-        "stars": 11,
-        "fullName": "miaoshalg1993/miaoshalg1993.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/287940978?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "miaoshalg1993/miaoshalg1993.github.io"
       ],
       "starScore": 11
     },
@@ -3093,204 +3188,8 @@
       "starScore": 11
     },
     {
-      "id": "108112295",
-      "rank": 59,
-      "type": "User",
-      "login": "Qingningiii",
-      "repos": [
-        {
-          "id": 1268205127,
-          "fork": false,
-          "name": "Qingningiii.github.io",
-          "forks": 0,
-          "owner": "Qingningiii",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/108112295?v=4",
-          "topics": [],
-          "ownerId": "108112295",
-          "repoUrl": "https://github.com/Qingningiii/Qingningiii.github.io",
-          "archived": false,
-          "fullName": "Qingningiii/Qingningiii.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Qingningiii",
-          "pushedAt": "2026-06-13T09:37:27+00:00",
-          "createdAt": "2026-06-13T08:59:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:03:36+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Qingningiii",
-      "topRepo": {
-        "url": "https://github.com/Qingningiii/Qingningiii.github.io",
-        "name": "Qingningiii.github.io",
-        "stars": 11,
-        "fullName": "Qingningiii/Qingningiii.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108112295?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Qingningiii/Qingningiii.github.io"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "265854352",
-      "rank": 60,
-      "type": "User",
-      "login": "shenghongchan1029-jpg",
-      "repos": [
-        {
-          "id": 1268209438,
-          "fork": false,
-          "name": "shenghongchan1029-jpg.github.io",
-          "forks": 0,
-          "owner": "shenghongchan1029-jpg",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/265854352?v=4",
-          "topics": [],
-          "ownerId": "265854352",
-          "repoUrl": "https://github.com/shenghongchan1029-jpg/shenghongchan1029-jpg.github.io",
-          "archived": false,
-          "fullName": "shenghongchan1029-jpg/shenghongchan1029-jpg.github.io",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/shenghongchan1029-jpg",
-          "pushedAt": "2026-06-13T09:49:07+00:00",
-          "createdAt": "2026-06-13T09:05:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:04:12+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/shenghongchan1029-jpg",
-      "topRepo": {
-        "url": "https://github.com/shenghongchan1029-jpg/shenghongchan1029-jpg.github.io",
-        "name": "shenghongchan1029-jpg.github.io",
-        "stars": 11,
-        "fullName": "shenghongchan1029-jpg/shenghongchan1029-jpg.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265854352?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "shenghongchan1029-jpg/shenghongchan1029-jpg.github.io"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "44059195",
-      "rank": 61,
-      "type": "User",
-      "login": "ziqihuang",
-      "repos": [
-        {
-          "id": 1268206962,
-          "fork": false,
-          "name": "ziqihuang.github.io",
-          "forks": 0,
-          "owner": "ziqihuang",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/44059195?v=4",
-          "topics": [],
-          "ownerId": "44059195",
-          "repoUrl": "https://github.com/ziqihuang/ziqihuang.github.io",
-          "archived": false,
-          "fullName": "ziqihuang/ziqihuang.github.io",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/ziqihuang",
-          "pushedAt": "2026-06-13T10:28:49+00:00",
-          "createdAt": "2026-06-13T09:01:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:28:53+00:00",
-          "description": "yellow page for anyone and any teams",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ziqihuang",
-      "topRepo": {
-        "url": "https://github.com/ziqihuang/ziqihuang.github.io",
-        "name": "ziqihuang.github.io",
-        "stars": 11,
-        "fullName": "ziqihuang/ziqihuang.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/44059195?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ziqihuang/ziqihuang.github.io"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "293397829",
-      "rank": 62,
-      "type": "User",
-      "login": "cons1denl",
-      "repos": [
-        {
-          "id": 1268479167,
-          "fork": false,
-          "name": "Social-Media-Ban-Report-Bot",
-          "forks": 0,
-          "owner": "cons1denl",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/293397829?v=4",
-          "topics": [
-            "ban-tiktok-tool",
-            "bans-instagram-bot",
-            "bans-instagram-tool",
-            "bans-tiktok-bot",
-            "facebook-automation-tool",
-            "facebook-report-bot-pow",
-            "ig-bot-reporter",
-            "ig-report-power",
-            "ig-reporting-tool",
-            "instagram-api",
-            "instagram-reporter-bot-pow",
-            "massreport",
-            "priv8tools",
-            "report-facebook-accounts",
-            "tiktok-ban-bot-power",
-            "tiktok-bans-tool",
-            "tiktok-bot-reporter",
-            "tiktok-report-power",
-            "tiktok-reporter-bot-pow"
-          ],
-          "ownerId": "293397829",
-          "repoUrl": "https://github.com/cons1denl/Social-Media-Ban-Report-Bot",
-          "archived": false,
-          "fullName": "cons1denl/Social-Media-Ban-Report-Bot",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/cons1denl",
-          "pushedAt": "2026-06-13T15:29:41+00:00",
-          "createdAt": "2026-06-13T15:27:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T21:06:40+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/cons1denl",
-      "topRepo": {
-        "url": "https://github.com/cons1denl/Social-Media-Ban-Report-Bot",
-        "name": "Social-Media-Ban-Report-Bot",
-        "stars": 10,
-        "fullName": "cons1denl/Social-Media-Ban-Report-Bot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293397829?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "cons1denl/Social-Media-Ban-Report-Bot"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "291352039",
-      "rank": 63,
+      "rank": 59,
       "type": "User",
       "login": "Desertvisense",
       "repos": [
@@ -3338,140 +3237,8 @@
       "starScore": 10
     },
     {
-      "id": "224703197",
-      "rank": 64,
-      "type": "User",
-      "login": "FatCC310",
-      "repos": [
-        {
-          "id": 1268205367,
-          "fork": false,
-          "name": "FatCC310.github.io",
-          "forks": 0,
-          "owner": "FatCC310",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/224703197?v=4",
-          "topics": [],
-          "ownerId": "224703197",
-          "repoUrl": "https://github.com/FatCC310/FatCC310.github.io",
-          "archived": false,
-          "fullName": "FatCC310/FatCC310.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/FatCC310",
-          "pushedAt": "2026-06-13T09:06:34+00:00",
-          "createdAt": "2026-06-13T08:59:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:04:03+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/FatCC310",
-      "topRepo": {
-        "url": "https://github.com/FatCC310/FatCC310.github.io",
-        "name": "FatCC310.github.io",
-        "stars": 10,
-        "fullName": "FatCC310/FatCC310.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/224703197?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "FatCC310/FatCC310.github.io"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "270657851",
-      "rank": 65,
-      "type": "User",
-      "login": "gzq8",
-      "repos": [
-        {
-          "id": 1268210722,
-          "fork": false,
-          "name": "gzq8.github.io",
-          "forks": 0,
-          "owner": "gzq8",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/270657851?v=4",
-          "topics": [],
-          "ownerId": "270657851",
-          "repoUrl": "https://github.com/gzq8/gzq8.github.io",
-          "archived": false,
-          "fullName": "gzq8/gzq8.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/gzq8",
-          "pushedAt": "2026-06-13T09:36:17+00:00",
-          "createdAt": "2026-06-13T09:07:17+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T09:58:21+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/gzq8",
-      "topRepo": {
-        "url": "https://github.com/gzq8/gzq8.github.io",
-        "name": "gzq8.github.io",
-        "stars": 10,
-        "fullName": "gzq8/gzq8.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/270657851?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "gzq8/gzq8.github.io"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "60121126",
-      "rank": 66,
-      "type": "User",
-      "login": "Hellen720",
-      "repos": [
-        {
-          "id": 1268208388,
-          "fork": false,
-          "name": "Hellen720.github.io",
-          "forks": 0,
-          "owner": "Hellen720",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/60121126?v=4",
-          "topics": [],
-          "ownerId": "60121126",
-          "repoUrl": "https://github.com/Hellen720/Hellen720.github.io",
-          "archived": false,
-          "fullName": "Hellen720/Hellen720.github.io",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/Hellen720",
-          "pushedAt": "2026-06-13T10:06:16+00:00",
-          "createdAt": "2026-06-13T09:03:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T13:44:51+00:00",
-          "description": "这是我的简历",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Hellen720",
-      "topRepo": {
-        "url": "https://github.com/Hellen720/Hellen720.github.io",
-        "name": "Hellen720.github.io",
-        "stars": 10,
-        "fullName": "Hellen720/Hellen720.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/60121126?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Hellen720/Hellen720.github.io"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "291613475",
-      "rank": 67,
+      "rank": 60,
       "type": "User",
       "login": "IdentityFogSmash",
       "repos": [
@@ -3531,7 +3298,7 @@
     },
     {
       "id": "291613244",
-      "rank": 68,
+      "rank": 61,
       "type": "User",
       "login": "Overlaparcavity",
       "repos": [
@@ -3590,52 +3357,8 @@
       "starScore": 10
     },
     {
-      "id": "187842770",
-      "rank": 69,
-      "type": "User",
-      "login": "sandeepshekhar26",
-      "repos": [
-        {
-          "id": 1268094706,
-          "fork": false,
-          "name": "family-pack",
-          "forks": 0,
-          "owner": "sandeepshekhar26",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/187842770?v=4",
-          "topics": [],
-          "ownerId": "187842770",
-          "repoUrl": "https://github.com/sandeepshekhar26/family-pack",
-          "archived": false,
-          "fullName": "sandeepshekhar26/family-pack",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/sandeepshekhar26",
-          "pushedAt": "2026-06-13T07:21:46+00:00",
-          "createdAt": "2026-06-13T06:15:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T16:49:58+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sandeepshekhar26",
-      "topRepo": {
-        "url": "https://github.com/sandeepshekhar26/family-pack",
-        "name": "family-pack",
-        "stars": 10,
-        "fullName": "sandeepshekhar26/family-pack"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/187842770?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sandeepshekhar26/family-pack"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "291351997",
-      "rank": 70,
+      "rank": 62,
       "type": "User",
       "login": "VolumeAdmiral",
       "repos": [
@@ -3684,52 +3407,8 @@
       "starScore": 10
     },
     {
-      "id": "278298813",
-      "rank": 71,
-      "type": "User",
-      "login": "ysl503236-cell",
-      "repos": [
-        {
-          "id": 1268235716,
-          "fork": false,
-          "name": "ysl503236-cell.github.io",
-          "forks": 0,
-          "owner": "ysl503236-cell",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/278298813?v=4",
-          "topics": [],
-          "ownerId": "278298813",
-          "repoUrl": "https://github.com/ysl503236-cell/ysl503236-cell.github.io",
-          "archived": false,
-          "fullName": "ysl503236-cell/ysl503236-cell.github.io",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ysl503236-cell",
-          "pushedAt": "2026-06-13T09:47:11+00:00",
-          "createdAt": "2026-06-13T09:43:27+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-06-13T10:02:52+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ysl503236-cell",
-      "topRepo": {
-        "url": "https://github.com/ysl503236-cell/ysl503236-cell.github.io",
-        "name": "ysl503236-cell.github.io",
-        "stars": 10,
-        "fullName": "ysl503236-cell/ysl503236-cell.github.io"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/278298813?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ysl503236-cell/ysl503236-cell.github.io"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "291612967",
-      "rank": 72,
+      "rank": 63,
       "type": "User",
       "login": "ZettaAirOrbit",
       "repos": [
