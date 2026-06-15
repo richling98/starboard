@@ -1253,30 +1253,25 @@ h1 {
 
   .controls-band {
     top: 71px;
-    padding: 10px;
+    padding: 8px;
   }
 
   .period-tabs {
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2px;
     width: 100%;
     min-width: 0;
+    padding: 3px;
   }
 
   .tab {
-    min-height: 34px;
-    font-size: 0.82rem;
+    min-height: 32px;
+    font-size: 0.7rem;
     line-height: 1;
     min-width: 0;
-    padding: 0 6px;
-  }
-
-  .tab:nth-child(-n + 3) {
-    grid-column: span 2;
-  }
-
-  .tab:nth-child(n + 4) {
-    grid-column: span 3;
+    padding: 0 2px;
+    white-space: nowrap;
   }
 
   .filters {
@@ -1312,13 +1307,21 @@ h1 {
 
   .repo-identity {
     grid-column: 2 / -1;
-    grid-template-columns: 42px minmax(0, 1fr);
+    align-items: start;
+    grid-template-columns: 72px minmax(0, 1fr);
   }
 
   .repo-avatar,
   .skeleton-avatar {
-    width: 42px;
-    height: 42px;
+    width: 72px;
+    height: 72px;
+  }
+
+  .repo-description {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 
   .repo-stars,
@@ -1457,5 +1460,22 @@ h1 {
 
   .dashboard-head {
     padding-top: 26px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tab {
+    min-height: 30px;
+    font-size: 0.64rem;
+  }
+
+  .repo-identity {
+    grid-template-columns: 64px minmax(0, 1fr);
+  }
+
+  .repo-avatar,
+  .skeleton-avatar {
+    width: 64px;
+    height: 64px;
   }
 }
