@@ -18,11 +18,18 @@ const args = parseArgs(process.argv.slice(2));
 
 loadLocalEnv();
 
-const limit = Math.min(Math.max(Number(args.limit || process.env.STARBOARD_SEMANTIC_LIMIT || 500), 1), 2000);
-const batchSize = Math.min(Math.max(Number(args["batch-size"] || process.env.STARBOARD_SEMANTIC_BATCH_SIZE || 50), 1), 100);
-const readmeLimit = Math.max(Number(args["readme-chars"] || process.env.STARBOARD_README_CHAR_LIMIT || 8000), 1000);
-const retryInputCharLimit = Math.max(Number(args["retry-input-chars"] || process.env.STARBOARD_EMBEDDING_RETRY_CHAR_LIMIT || 6000), 1000);
-const requestTimeoutMs = Math.max(Number(args["timeout-ms"] || process.env.STARBOARD_SEMANTIC_REQUEST_TIMEOUT_MS || 10000), 1000);
+const jobType = readOption("job-type", "STARBOARD_SEMANTIC_JOB_TYPE", "build-semantic-index");
+const strategy = readOption("strategy", "STARBOARD_SEMANTIC_STRATEGY", "balanced");
+const staleAfterDays = Math.max(Number(readOption("stale-after-days", "STARBOARD_SEMANTIC_STALE_AFTER_DAYS", "14")), 1);
+const includeRejectedAfterDays = Math.max(
+  Number(readOption("include-rejected-after-days", "STARBOARD_SEMANTIC_REJECT_RETRY_DAYS", "30")),
+  1
+);
+const limit = Math.min(Math.max(Number(readOption("limit", "STARBOARD_SEMANTIC_LIMIT", "500")), 1), 2000);
+const batchSize = Math.min(Math.max(Number(readOption("batch-size", "STARBOARD_SEMANTIC_BATCH_SIZE", "50")), 1), 100);
+const readmeLimit = Math.max(Number(readOption("readme-chars", "STARBOARD_README_CHAR_LIMIT", "8000")), 1000);
+const retryInputCharLimit = Math.max(Number(readOption("retry-input-chars", "STARBOARD_EMBEDDING_RETRY_CHAR_LIMIT", "6000")), 1000);
+const requestTimeoutMs = Math.max(Number(readOption("timeout-ms", "STARBOARD_SEMANTIC_REQUEST_TIMEOUT_MS", "10000")), 1000);
 const model = embeddingModel();
 const dimensions = embeddingDimensions();
 
@@ -38,6 +45,10 @@ if (!process.env.GITHUB_TOKEN) {
 
 let runId;
 const summary = {
+  jobType,
+  strategy,
+  staleAfterDays,
+  includeRejectedAfterDays,
   candidates: 0,
   documentsUpdated: 0,
   embeddingsUpdated: 0,
@@ -58,8 +69,22 @@ const summary = {
 };
 
 try {
-  runId = await startIngestionRun("build-semantic-index", { limit, batchSize, model, dimensions });
-  const repos = await readRepositoriesForSemanticIndex({ limit, embeddingModel: model });
+  runId = await startIngestionRun(jobType, {
+    limit,
+    batchSize,
+    model,
+    dimensions,
+    strategy,
+    staleAfterDays,
+    includeRejectedAfterDays
+  });
+  const repos = await readRepositoriesForSemanticIndex({
+    limit,
+    embeddingModel: model,
+    strategy,
+    staleAfterDays,
+    includeRejectedAfterDays
+  });
   summary.candidates = repos.length;
 
   const pending = [];
@@ -237,4 +262,8 @@ function parseArgs(argv) {
       return [key, value];
     })
   );
+}
+
+function readOption(argName, envName, fallback) {
+  return args[argName] || process.env[envName] || fallback;
 }

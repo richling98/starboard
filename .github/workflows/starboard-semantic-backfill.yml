@@ -1,0 +1,71 @@
+name: Starboard Semantic Backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum semantic candidates to process"
+        required: false
+        default: "500"
+      strategy:
+        description: "Semantic candidate strategy"
+        required: false
+        default: "backfill"
+  schedule:
+    - cron: "43 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: semantic-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      STARBOARD_SEMANTIC_LIMIT: ${{ github.event.inputs.limit || '500' }}
+      STARBOARD_SEMANTIC_BATCH_SIZE: "50"
+      STARBOARD_SEMANTIC_STRATEGY: ${{ github.event.inputs.strategy || 'backfill' }}
+      STARBOARD_SEMANTIC_JOB_TYPE: "backfill-semantic-index"
+      STARBOARD_SEMANTIC_STALE_AFTER_DAYS: "14"
+      STARBOARD_SEMANTIC_REJECT_RETRY_DAYS: "30"
+      STARBOARD_README_CHAR_LIMIT: "8000"
+      STARBOARD_EMBEDDING_RETRY_CHAR_LIMIT: "6000"
+      STARBOARD_EMBEDDING_MODEL: "text-embedding-3-small"
+      STARBOARD_EMBEDDING_DIMENSIONS: "1024"
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      - run: npm run setup:db
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run backfill:semantic-index
+        env:
+          GITHUB_TOKEN: ${{ secrets.STARBOARD_GITHUB_TOKEN }}
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+          OPENAI_API_KEY: ${{ secrets.STARBOARD_OPENAI_API_KEY }}
+      - run: npm run report:semantic-coverage
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run export:semantic-dashboard
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run export:static-data
+        env:
+          DATABASE_URL: ${{ secrets.STARBOARD_DATABASE_URL }}
+      - run: npm run build:pages
+      - name: Commit semantic dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/semantic-dashboard.json data/leaderboards/
+          git diff --cached --quiet || git commit -m "chore: refresh semantic dashboard data [skip ci]"
+          git push

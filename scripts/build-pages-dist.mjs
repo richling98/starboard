@@ -9,7 +9,15 @@ const dist = path.join(root, "dist");
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
-for (const entry of ["index.html", "styles.css", "app.js", "favicon.svg"]) {
+for (const entry of [
+  "index.html",
+  "styles.css",
+  "app.js",
+  "favicon.svg",
+  "semantic-dashboard.html",
+  "semantic-dashboard.css",
+  "semantic-dashboard.js"
+]) {
   await cp(path.join(root, entry), path.join(dist, entry));
 }
 

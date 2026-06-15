@@ -40,7 +40,7 @@ serve(async (request) => {
     const view = normalize(payload.view, ["repositories", "accounts"], "repositories");
     const limit = clamp(Number(payload.limit || 20), 1, 200);
     const offset = Math.max(Number(payload.offset || 0), 0);
-    const sortKey = normalize(payload.sortKey, ["relevance", "stars", "forks", "repos"], "relevance");
+    const sortKey = normalize(payload.sortKey, ["relevance", "stars", "forks", "repos"], "stars");
     const sortDirection = payload.sortDirection === "asc" ? "asc" : "desc";
     const matchLimit = clamp(Number(payload.matchLimit || 1000), 20, 1000);
 

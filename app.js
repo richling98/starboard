@@ -442,27 +442,7 @@ function getFilteredAccounts() {
 }
 
 function getFilteredTrends() {
-  const query = state.query.trim().toLowerCase();
-  const rows = currentStore().trends.filter((trend) => {
-    const repoText = (trend.repos || []).flatMap((repo) => [
-      repo.owner,
-      repo.name,
-      repo.fullName,
-      repo.description,
-      repo.language,
-      ...(repo.topics || [])
-    ]);
-    const searchText = [
-      trend.name,
-      trend.description,
-      ...repoText
-    ]
-      .join(" ")
-      .toLowerCase();
-    return !query || searchText.includes(query);
-  });
-
-  return sortTrends(rows);
+  return sortTrends(currentStore().trends);
 }
 
 function getKeywordFilteredAccounts() {
@@ -516,7 +496,7 @@ function currentSemanticStore() {
 
 function semanticSortKey() {
   if (!isSemanticSearchActive()) return state.sortKey;
-  if (state.sortKey === "default") return "relevance";
+  if (state.sortKey === "default") return "stars";
   return state.sortKey;
 }
 
@@ -633,9 +613,6 @@ function sortRepos(repos) {
 
 function sortAccounts(accounts) {
   const sorted = [...accounts];
-  if (isSemanticSearchActive() && currentSemanticStore().loaded && state.sortKey === "default") {
-    return sorted;
-  }
   const sortKey = state.sortKey === "repos" ? "repos" : "stars";
 
   if (sortKey === "stars") {
@@ -776,7 +753,7 @@ function renderLeaderboard() {
     repoList.append(statusBlock(error));
   } else if (!visibleRows.length) {
     const message = isTrendsPeriod()
-      ? "No trends match the current search."
+      ? "No trends are available yet."
       : isSemanticSearchActive() && semantic.loaded && !semantic.error
       ? "No semantic matches found."
       : state.view === "accounts" ? "No accounts match the current view." : "No repositories match the current view.";

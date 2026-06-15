@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Starboard Semantic Backfill</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./semantic-dashboard.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="page-header">
+        <a class="home-link" href="./index.html">Starboard</a>
+        <div>
+          <p class="eyebrow">Semantic backfill</p>
+          <h1>Embedding coverage</h1>
+        </div>
+        <p class="timestamp" id="generated-at">Loading...</p>
+      </header>
+
+      <section class="metric-grid" aria-label="Semantic coverage metrics">
+        <article class="metric-card">
+          <span class="metric-label">Coverage</span>
+          <strong id="coverage-percent">--</strong>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Embedded</span>
+          <strong id="embedded-count">--</strong>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Missing</span>
+          <strong id="missing-count">--</strong>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Stale</span>
+          <strong id="stale-count">--</strong>
+        </article>
+      </section>
+
+      <section class="coverage-panel">
+        <div class="coverage-track" aria-hidden="true">
+          <div class="coverage-fill" id="coverage-fill"></div>
+        </div>
+        <p id="coverage-copy"></p>
+      </section>
+
+      <section class="two-column">
+        <div class="panel">
+          <div class="section-title">
+            <h2>Recent Runs</h2>
+            <span id="model-label"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Started</th>
+                  <th>Job</th>
+                  <th>Status</th>
+                  <th>Embeddings</th>
+                  <th>Failures</th>
+                  <th>Cost</th>
+                </tr>
+              </thead>
+              <tbody id="run-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="section-title">
+            <h2>Plan Progress</h2>
+            <span id="plan-count"></span>
+          </div>
+          <ul class="checklist" id="plan-list"></ul>
+        </div>
+      </section>
+
+      <section class="two-column">
+        <div class="panel">
+          <div class="section-title">
+            <h2>Rejections</h2>
+            <span id="rejection-count"></span>
+          </div>
+          <ul class="compact-list" id="rejection-list"></ul>
+        </div>
+
+        <div class="panel">
+          <div class="section-title">
+            <h2>Issues</h2>
+            <span id="issue-count"></span>
+          </div>
+          <ul class="compact-list" id="issue-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./semantic-dashboard.js" type="module"></script>
+  </body>
+</html>

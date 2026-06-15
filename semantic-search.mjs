@@ -30,7 +30,7 @@ export async function runSemanticSearch(input = {}) {
     period,
     limit,
     offset,
-    sortKey: input.sortKey || "relevance",
+    sortKey: input.sortKey || "stars",
     sortDirection: input.sortDirection || "desc",
     matchLimit: Math.min(Math.max(Number(input.matchLimit || 1000), 20), 1000)
   };

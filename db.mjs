@@ -734,9 +734,195 @@ export async function getCacheStatus() {
   };
 }
 
+export async function readSemanticCoverageSummary(options = {}) {
+  await ensureSchema();
+  const embeddingModel = options.embeddingModel || "text-embedding-3-small";
+  const staleAfterDays = Math.min(Math.max(Number(options.staleAfterDays || 14), 1), 365);
+  const recentRunLimit = Math.min(Math.max(Number(options.recentRunLimit || 10), 1), 50);
+  const eligibleWhere = `
+    r.stars >= 1
+    and r.fork = false
+    and r.archived = false
+    and r.english_check_status <> 'rejected'
+  `;
+  const [
+    eligible,
+    embedded,
+    actionableMissing,
+    missing,
+    stale,
+    rejected,
+    rejectionsByReason,
+    runs
+  ] = await Promise.all([
+    getPool().query(`select count(*)::integer as count from repositories r where ${eligibleWhere}`),
+    getPool().query(
+      `
+        select count(*)::integer as count
+        from repositories r
+        join repository_embeddings e on e.repo_github_id = r.github_id
+        where ${eligibleWhere}
+          and e.embedding_model = $1
+      `,
+      [embeddingModel]
+    ),
+    getPool().query(
+      `
+        select count(*)::integer as count
+        from repositories r
+        left join repository_embeddings e on e.repo_github_id = r.github_id
+        left join repository_semantic_rejections sr on sr.repo_github_id = r.github_id
+        where ${eligibleWhere}
+          and e.repo_github_id is null
+          and (
+            sr.repo_github_id is null
+            or sr.embedding_model <> $1
+            or sr.rejected_at < r.updated_at
+            or sr.rejected_at < now() - ($2::int * interval '1 day')
+          )
+      `,
+      [embeddingModel, Math.min(Math.max(Number(options.includeRejectedAfterDays || 30), 1), 365)]
+    ),
+    getPool().query(
+      `
+        select count(*)::integer as count
+        from repositories r
+        left join repository_embeddings e
+          on e.repo_github_id = r.github_id
+          and e.embedding_model = $1
+        where ${eligibleWhere}
+          and e.repo_github_id is null
+      `,
+      [embeddingModel]
+    ),
+    getPool().query(
+      `
+        select count(*)::integer as count
+        from repositories r
+        join repository_embeddings e on e.repo_github_id = r.github_id
+        left join repository_search_documents d on d.repo_github_id = r.github_id
+        where ${eligibleWhere}
+          and e.embedding_model = $1
+          and (
+            d.repo_github_id is null
+            or d.document_updated_at < r.updated_at
+            or e.content_hash <> d.content_hash
+            or e.embedded_at < now() - ($2::int * interval '1 day')
+          )
+      `,
+      [embeddingModel, staleAfterDays]
+    ),
+    getPool().query(
+      `
+        select count(*)::integer as count
+        from repository_semantic_rejections sr
+        join repositories r on r.github_id = sr.repo_github_id
+        where ${eligibleWhere}
+          and sr.embedding_model = $1
+      `,
+      [embeddingModel]
+    ),
+    getPool().query(
+      `
+        select sr.reason, count(*)::integer as count
+        from repository_semantic_rejections sr
+        join repositories r on r.github_id = sr.repo_github_id
+        where ${eligibleWhere}
+          and sr.embedding_model = $1
+        group by sr.reason
+        order by count desc, sr.reason asc
+        limit 20
+      `,
+      [embeddingModel]
+    ),
+    getPool().query(
+      `
+        select
+          id,
+          job_type,
+          status,
+          started_at,
+          finished_at,
+          github_requests,
+          repos_discovered,
+          accounts_discovered,
+          error_message,
+          metadata
+        from ingestion_runs
+        where job_type in ('build-semantic-index', 'backfill-semantic-index')
+        order by started_at desc
+        limit $1
+      `,
+      [recentRunLimit]
+    )
+  ]);
+
+  const eligibleRepositories = eligible.rows[0]?.count || 0;
+  const embeddedRepositories = embedded.rows[0]?.count || 0;
+  const missingEmbeddings = missing.rows[0]?.count || 0;
+  const actionableMissingEmbeddings = actionableMissing.rows[0]?.count || 0;
+  const staleEmbeddings = stale.rows[0]?.count || 0;
+  const rejectedRepositories = rejected.rows[0]?.count || 0;
+  const coveragePercent = eligibleRepositories
+    ? Number(((embeddedRepositories / eligibleRepositories) * 100).toFixed(2))
+    : 0;
+
+  return {
+    generatedAt: new Date().toISOString(),
+    embeddingModel,
+    staleAfterDays,
+    coverage: {
+      eligibleRepositories,
+      embeddedRepositories,
+      missingEmbeddings,
+      actionableMissingEmbeddings,
+      blockedMissingEmbeddings: Math.max(missingEmbeddings - actionableMissingEmbeddings, 0),
+      staleEmbeddings,
+      rejectedRepositories,
+      coveragePercent
+    },
+    rejectionsByReason: rejectionsByReason.rows.map((row) => ({
+      reason: row.reason || "unknown",
+      count: row.count || 0
+    })),
+    recentRuns: runs.rows.map((row) => {
+      const startedAt = row.started_at?.toISOString?.() || row.started_at;
+      const finishedAt = row.finished_at?.toISOString?.() || row.finished_at;
+      const durationSeconds = row.started_at && row.finished_at
+        ? Math.round((new Date(row.finished_at).getTime() - new Date(row.started_at).getTime()) / 1000)
+        : null;
+      const metadata = sanitizeSemanticRunMetadata(row.metadata || {});
+      return {
+        id: row.id,
+        jobType: row.job_type,
+        status: row.status,
+        startedAt,
+        finishedAt,
+        durationSeconds,
+        githubRequests: row.github_requests,
+        reposDiscovered: row.repos_discovered,
+        accountsDiscovered: row.accounts_discovered,
+        errorMessage: row.error_message,
+        metadata
+      };
+    })
+  };
+}
+
 export async function readRepositoriesForSemanticIndex(options = {}) {
   await ensureSchema();
+  const {
+    embeddingModel = "text-embedding-3-small",
+    strategy = "balanced"
+  } = options;
   const limit = Math.min(Math.max(Number(options.limit || 100), 1), 2000);
+  const staleAfterDays = Math.min(Math.max(Number(options.staleAfterDays || 14), 1), 365);
+  const includeRejectedAfterDays = Math.min(Math.max(Number(options.includeRejectedAfterDays || 30), 1), 365);
+  const allowedStrategies = new Set(["balanced", "backfill"]);
+  if (!allowedStrategies.has(strategy)) {
+    throw new Error(`Unsupported semantic index strategy: ${strategy}`);
+  }
+  const orderSql = semanticCandidateOrderSql(strategy);
   const result = await getPool().query(
     `
       select
@@ -749,7 +935,8 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
         ) as in_repository_snapshot,
         d.content_hash as document_hash,
         e.content_hash as embedding_hash,
-        e.embedding_model
+        e.embedding_model,
+        e.embedded_at
       from repositories r
       left join repository_search_documents d on d.repo_github_id = r.github_id
       left join repository_embeddings e on e.repo_github_id = r.github_id
@@ -762,6 +949,7 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
           sr.repo_github_id is null
           or sr.embedding_model <> $2
           or sr.rejected_at < r.updated_at
+          or sr.rejected_at < now() - ($4::int * interval '1 day')
         )
         and (
           d.repo_github_id is null
@@ -769,21 +957,12 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
           or d.document_updated_at < r.updated_at
           or e.content_hash <> d.content_hash
           or e.embedding_model <> $2
+          or e.embedded_at < now() - ($3::int * interval '1 day')
         )
-      order by
-        case when d.repo_github_id is null or e.repo_github_id is null then 0 else 1 end,
-        case when exists (
-          select 1
-          from leaderboard_snapshots ls
-          where ls.view = 'repositories'
-            and ls.subject_id = r.github_id::text
-        ) then 0 else 1 end,
-        r.stars desc,
-        r.repo_created_at desc nulls last,
-        r.full_name asc
+      order by ${orderSql}
       limit $1
     `,
-    [limit, options.embeddingModel || "text-embedding-3-small"]
+    [limit, embeddingModel, staleAfterDays, includeRejectedAfterDays]
   );
 
   return result.rows.map((row) => ({
@@ -791,6 +970,7 @@ export async function readRepositoriesForSemanticIndex(options = {}) {
     documentHash: row.document_hash,
     embeddingHash: row.embedding_hash,
     embeddingModel: row.embedding_model,
+    embeddedAt: row.embedded_at?.toISOString?.() || row.embedded_at,
     englishCheckStatus: row.english_check_status,
     englishCheckConfidence: row.english_check_confidence,
     inRepositorySnapshot: Boolean(row.in_repository_snapshot)
@@ -876,7 +1056,7 @@ export async function upsertRepositorySemanticRejection(rejection) {
 export async function readSemanticRepositoryRows(options = {}) {
   await ensureSchema();
   const period = ["today", "week", "month", "all"].includes(options.period) ? options.period : "all";
-  const sortKey = ["relevance", "stars", "forks"].includes(options.sortKey) ? options.sortKey : "relevance";
+  const sortKey = ["relevance", "stars", "forks"].includes(options.sortKey) ? options.sortKey : "stars";
   const sortDirection = options.sortDirection === "asc" ? "asc" : "desc";
   const offset = Math.max(Number(options.offset || 0), 0);
   const limit = Math.min(Math.max(Number(options.limit || 20), 1), 200);
@@ -944,7 +1124,7 @@ export async function readSemanticAccountRows(options = {}) {
     sortKey: "relevance",
     sortDirection: "desc"
   });
-  const sortKey = options.sortKey === "repos" ? "repos" : options.sortKey === "stars" ? "stars" : "relevance";
+  const sortKey = options.sortKey === "repos" ? "repos" : options.sortKey === "relevance" ? "relevance" : "stars";
   const sortDirection = options.sortDirection === "asc" ? "asc" : "desc";
   const offset = Math.max(Number(options.offset || 0), 0);
   const limit = Math.min(Math.max(Number(options.limit || 20), 1), 200);
@@ -1386,6 +1566,75 @@ function semanticRepoOrderSql(sortKey, sortDirection) {
   if (sortKey === "stars") return `stars ${direction}, semantic_score desc, full_name asc`;
   if (sortKey === "forks") return `forks ${direction}, semantic_score desc, full_name asc`;
   return `semantic_score ${direction}, stars desc, full_name asc`;
+}
+
+function semanticCandidateOrderSql(strategy) {
+  const inRepositorySnapshotSql = `
+    exists (
+      select 1
+      from leaderboard_snapshots ls
+      where ls.view = 'repositories'
+        and ls.subject_id = r.github_id::text
+    )
+  `;
+
+  if (strategy === "backfill") {
+    return `
+        case when e.repo_github_id is null then 0 else 1 end,
+        case when e.repo_github_id is null and d.repo_github_id is null then 0 else 1 end,
+        case when ${inRepositorySnapshotSql} then 0 else 1 end,
+        r.stars desc,
+        r.forks desc,
+        r.repo_created_at desc nulls last,
+        r.full_name asc
+    `;
+  }
+
+  return `
+        case when d.repo_github_id is null or e.repo_github_id is null then 0 else 1 end,
+        case
+          when d.document_updated_at < r.updated_at then 0
+          when e.content_hash <> d.content_hash then 0
+          else 1
+        end,
+        case when ${inRepositorySnapshotSql} then 0 else 1 end,
+        r.stars desc,
+        r.repo_created_at desc nulls last,
+        r.full_name asc
+  `;
+}
+
+function sanitizeSemanticRunMetadata(metadata) {
+  const allowedKeys = [
+    "jobType",
+    "strategy",
+    "staleAfterDays",
+    "includeRejectedAfterDays",
+    "candidates",
+    "documentsUpdated",
+    "embeddingsUpdated",
+    "skipped",
+    "skippedUnchanged",
+    "failed",
+    "githubRequests",
+    "embeddingRequests",
+    "embeddingTokens",
+    "estimatedEmbeddingCostUsd",
+    "totalDocumentChars",
+    "averageCharsPerDocument",
+    "averageTokensPerDocument",
+    "embeddingRetryCount",
+    "embeddingDropped",
+    "qualityRejected",
+    "qualityRejectsByReason"
+  ];
+  const safe = {};
+  for (const key of allowedKeys) {
+    if (metadata[key] !== undefined) {
+      safe[key] = metadata[key];
+    }
+  }
+  return safe;
 }
 
 function periodWindowDays(period) {
