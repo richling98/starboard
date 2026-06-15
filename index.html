@@ -83,6 +83,9 @@
           <button class="tab" type="button" data-period="all" role="tab" aria-selected="false">
             All time
           </button>
+          <button class="tab" type="button" data-period="trends" role="tab" aria-selected="false">
+            Trends
+          </button>
         </div>
 
         <div class="filters">
@@ -97,7 +100,7 @@
         <section class="repo-panel" id="repositories" aria-labelledby="repo-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Leaderboard</p>
+              <p class="eyebrow" id="section-eyebrow">Leaderboard</p>
               <h2 id="repo-title" class="visually-hidden">Repository leaderboard</h2>
             </div>
             <div class="view-tabs" role="tablist" aria-label="Leaderboard view">
@@ -124,6 +127,13 @@
             <button class="sort-button" type="button" data-sort-key="stars">Stars</button>
             <button class="sort-button" type="button" data-sort-key="repos">Repos</button>
             <span>Top repo</span>
+            <span></span>
+          </div>
+          <div class="trend-table-header table-header" data-view="trends" aria-label="Trend table columns">
+            <span>#</span>
+            <span>Trend</span>
+            <button class="sort-button" type="button" data-sort-key="stars">Stars</button>
+            <button class="sort-button" type="button" data-sort-key="forks">Forks</button>
             <span></span>
           </div>
           <div class="repo-list" id="repo-list" aria-live="polite"></div>
@@ -167,6 +177,22 @@
         <div class="account-stars"></div>
         <div class="account-repos"></div>
         <div class="account-top-repo"></div>
+        <div class="repo-actions"></div>
+      </article>
+    </template>
+
+    <template id="trend-template">
+      <article class="trend-row">
+        <div class="repo-rank"></div>
+        <div class="repo-identity">
+          <div class="repo-copy">
+            <p class="repo-owner"></p>
+            <h3 class="repo-name"></h3>
+            <p class="repo-description"></p>
+          </div>
+        </div>
+        <div class="trend-stars"></div>
+        <div class="trend-forks"></div>
         <div class="repo-actions"></div>
       </article>
     </template>

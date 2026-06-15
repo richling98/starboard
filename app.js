@@ -1,6 +1,7 @@
 const GITHUB_API = "/api/github";
 const RAW_GITHUB = "https://raw.githubusercontent.com";
 const STATIC_LEADERBOARD_BASE = "./data/leaderboards";
+const STATIC_TRENDS_PATH = `${STATIC_LEADERBOARD_BASE}/trends.json`;
 const IS_LOCAL_HOST = ["localhost", "127.0.0.1", ""].includes(location.hostname);
 const SEMANTIC_SEARCH_ENDPOINT = IS_LOCAL_HOST
   ? "/api/semantic-search"
@@ -23,6 +24,7 @@ const SEARCH_DEBOUNCE_MS = 450;
 
 let lastVisibleRepositories = [];
 const expandedAccounts = new Set();
+const expandedTrends = new Set();
 let semanticSearchTimer;
 let semanticRequestId = 0;
 
@@ -30,7 +32,8 @@ const periodStores = {
   today: createPeriodStore(),
   week: createPeriodStore(),
   month: createPeriodStore(),
-  all: createPeriodStore()
+  all: createPeriodStore(),
+  trends: createPeriodStore()
 };
 
 const state = {
@@ -46,6 +49,7 @@ const state = {
 const repoList = document.querySelector("#repo-list");
 const repoTemplate = document.querySelector("#repo-template");
 const accountTemplate = document.querySelector("#account-template");
+const trendTemplate = document.querySelector("#trend-template");
 const starMetricTemplate = document.querySelector("#star-metric-template");
 const forkMetricTemplate = document.querySelector("#fork-metric-template");
 const paginationStatus = document.querySelector("#pagination-status");
@@ -54,6 +58,7 @@ const searchInput = document.querySelector("#search-input");
 const sortButtons = document.querySelectorAll(".sort-button");
 const viewTabs = document.querySelectorAll(".view-tab");
 const tableHeaders = document.querySelectorAll(".table-header");
+const sectionEyebrow = document.querySelector("#section-eyebrow");
 
 function createPeriodStore() {
   return {
@@ -84,6 +89,11 @@ function createPeriodStore() {
     serverReposLoading: false,
     serverReposError: "",
     serverReposMeta: null,
+    trends: [],
+    trendsLoaded: false,
+    trendsLoading: false,
+    trendsError: "",
+    trendsMeta: null,
     semantic: {
       repositories: createSemanticStore(),
       accounts: createSemanticStore()
@@ -106,6 +116,10 @@ function createSemanticStore() {
 
 function currentStore() {
   return periodStores[state.period];
+}
+
+function isTrendsPeriod() {
+  return state.period === "trends";
 }
 
 function daysAgo(days) {
@@ -427,6 +441,30 @@ function getFilteredAccounts() {
   return sortAccounts(keywordRows);
 }
 
+function getFilteredTrends() {
+  const query = state.query.trim().toLowerCase();
+  const rows = currentStore().trends.filter((trend) => {
+    const repoText = (trend.repos || []).flatMap((repo) => [
+      repo.owner,
+      repo.name,
+      repo.fullName,
+      repo.description,
+      repo.language,
+      ...(repo.topics || [])
+    ]);
+    const searchText = [
+      trend.name,
+      trend.description,
+      ...repoText
+    ]
+      .join(" ")
+      .toLowerCase();
+    return !query || searchText.includes(query);
+  });
+
+  return sortTrends(rows);
+}
+
 function getKeywordFilteredAccounts() {
   if (usesServerAccounts()) {
     const rows = currentStore().serverAccounts;
@@ -464,6 +502,7 @@ function rowKey(row) {
 }
 
 function isSemanticSearchActive() {
+  if (isTrendsPeriod()) return false;
   return state.query.trim().length >= SEMANTIC_QUERY_MIN_LENGTH;
 }
 
@@ -608,6 +647,16 @@ function sortAccounts(accounts) {
   return sorted;
 }
 
+function sortTrends(trends) {
+  const sorted = [...trends];
+  if (state.sortKey === "forks") {
+    sorted.sort((a, b) => compareNumeric(a.forks, b.forks));
+  } else {
+    sorted.sort((a, b) => compareNumeric(a.stars, b.stars));
+  }
+  return sorted;
+}
+
 function compareNumeric(a, b) {
   return state.sortDirection === "desc" ? b - a : a - b;
 }
@@ -618,6 +667,7 @@ function getVisibleRepos() {
 }
 
 function getCurrentRows() {
+  if (isTrendsPeriod()) return getFilteredTrends();
   return state.view === "accounts" ? getFilteredAccounts() : getFilteredRepos();
 }
 
@@ -712,31 +762,38 @@ function renderLeaderboard() {
   const visibleRows = rows.slice(0, store.visibleCount);
   const isLoading = store.isLoading || state.loading;
   const serverLoading = state.view === "accounts" && store.serverAccountsLoading && !store.serverAccountsLoaded;
+  const trendsLoading = isTrendsPeriod() && store.trendsLoading && !store.trendsLoaded;
   const semanticLoading = isSemanticSearchActive() && semantic.loading && !semantic.rows.length;
-  const error = (usesServerAccounts() && store.serverAccountsError) || store.error || state.error;
+  const error = (isTrendsPeriod() && store.trendsError) || (usesServerAccounts() && store.serverAccountsError) || store.error || state.error;
 
   repoList.classList.toggle("is-account-view", state.view === "accounts");
+  repoList.classList.toggle("is-trend-view", isTrendsPeriod());
   repoList.replaceChildren();
 
-  if ((isLoading && !store.fetchedRepos.length) || serverLoading || semanticLoading) {
+  if ((isLoading && !store.fetchedRepos.length && !isTrendsPeriod()) || serverLoading || trendsLoading || semanticLoading) {
     repoList.append(...skeletonRows(4));
-  } else if (error && (!store.fetchedRepos.length || usesServerAccounts())) {
+  } else if (error && (!store.fetchedRepos.length || usesServerAccounts() || isTrendsPeriod())) {
     repoList.append(statusBlock(error));
   } else if (!visibleRows.length) {
-    const message = isSemanticSearchActive() && semantic.loaded && !semantic.error
+    const message = isTrendsPeriod()
+      ? "No trends match the current search."
+      : isSemanticSearchActive() && semantic.loaded && !semantic.error
       ? "No semantic matches found."
       : state.view === "accounts" ? "No accounts match the current view." : "No repositories match the current view.";
     repoList.append(statusBlock(message));
   }
 
-  if (state.view === "accounts") {
+  if (isTrendsPeriod()) {
+    visibleRows.forEach(renderTrendRow);
+  } else if (state.view === "accounts") {
     visibleRows.forEach(renderAccountRow);
   } else {
     visibleRows.forEach(renderRepoRow);
   }
 
-  lastVisibleRepositories = state.view === "repos" && visibleRows.length ? visibleRows : lastVisibleRepositories;
+  lastVisibleRepositories = !isTrendsPeriod() && state.view === "repos" && visibleRows.length ? visibleRows : lastVisibleRepositories;
   renderPagination(rows, visibleRows);
+  if (isTrendsPeriod()) return;
   if (state.view === "accounts") {
     ensureServerAccountsLoaded();
     if (!usesServerAccounts()) {
@@ -820,6 +877,37 @@ function renderAccountRow(account, index) {
   }
 }
 
+function renderTrendRow(trend, index) {
+  const node = trendTemplate.content.cloneNode(true);
+  const row = node.querySelector(".trend-row");
+  const trendKey = trendKeyFor(trend.id);
+  const isExpanded = expandedTrends.has(trendKey);
+  row.dataset.trendId = trend.id;
+  row.classList.toggle("is-expanded", isExpanded);
+  node.querySelector(".repo-rank").textContent = String(index + 1);
+  node.querySelector(".repo-owner").textContent = `${formatPlainNumber(trend.repoCount || 0)} ${(trend.repoCount || 0) === 1 ? "repo" : "repos"}`;
+  node.querySelector(".repo-name").textContent = trend.name;
+  node.querySelector(".repo-description").textContent = trend.description;
+  node.querySelector(".trend-stars").append(metricNode(starMetricTemplate, trend.stars || 0));
+  node.querySelector(".trend-forks").append(metricNode(forkMetricTemplate, trend.forks || 0));
+
+  const expandButton = document.createElement("button");
+  expandButton.className = "trend-expand-button account-expand-button";
+  expandButton.type = "button";
+  expandButton.dataset.trendId = trend.id;
+  expandButton.disabled = !(trend.repos || []).length;
+  expandButton.setAttribute("aria-expanded", String(isExpanded));
+  expandButton.setAttribute("aria-label", `${isExpanded ? "Hide" : "See"} repositories for ${trend.name}`);
+  expandButton.textContent = isExpanded ? "Hide repos" : "See repos";
+
+  node.querySelector(".repo-actions").append(expandButton);
+  repoList.append(node);
+
+  if (isExpanded) {
+    repoList.append(trendReposPanel(trend));
+  }
+}
+
 function accountReposPanel(account) {
   const panel = document.createElement("section");
   panel.className = "account-repos-panel";
@@ -871,9 +959,71 @@ function accountReposPanel(account) {
   return panel;
 }
 
+function trendReposPanel(trend) {
+  const panel = document.createElement("section");
+  panel.className = "account-repos-panel trend-repos-panel";
+  panel.setAttribute("aria-label", `Repositories contributing to ${trend.name}`);
+
+  const heading = document.createElement("div");
+  heading.className = "account-repos-heading";
+  heading.innerHTML = "<span>Associated repos</span>";
+  panel.append(heading);
+
+  (trend.repos || []).forEach((repo) => {
+    const item = document.createElement("article");
+    item.className = "account-repo-item";
+
+    const copy = document.createElement("div");
+    copy.className = "account-repo-copy";
+
+    const name = document.createElement("a");
+    name.className = "account-repo-name";
+    name.href = repo.repoUrl;
+    name.target = "_blank";
+    name.rel = "noreferrer";
+    name.textContent = repo.fullName || `${repo.owner}/${repo.name}`;
+
+    const description = document.createElement("p");
+    description.className = "account-repo-description";
+    description.textContent = repo.description || "No description available.";
+
+    copy.append(name, description);
+
+    const stats = document.createElement("div");
+    stats.className = "account-repo-stats";
+    stats.append(metricNode(starMetricTemplate, repo.stars), metricNode(forkMetricTemplate, repo.forks));
+
+    const visit = document.createElement("a");
+    visit.className = "account-repo-visit";
+    visit.href = repo.repoUrl;
+    visit.target = "_blank";
+    visit.rel = "noreferrer";
+    visit.textContent = "Visit repo";
+
+    item.append(copy, stats, visit);
+    panel.append(item);
+  });
+
+  return panel;
+}
+
 function renderPagination(filteredRows, visibleRows) {
   const store = currentStore();
   const semantic = currentSemanticStore();
+  if (isTrendsPeriod()) {
+    const meta = store.trendsMeta;
+    if (store.trendsLoading && !store.trendsLoaded) {
+      paginationStatus.textContent = "Loading trends.";
+    } else if (meta?.generatedAt) {
+      paginationStatus.textContent = `${meta.coverageLabel || `Showing ${formatPlainNumber(filteredRows.length)} trends.`} Updated ${new Date(meta.generatedAt).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}.`;
+    } else {
+      paginationStatus.textContent = "";
+    }
+    loadMoreButton.hidden = true;
+    loadMoreButton.disabled = false;
+    return;
+  }
+
   if (isSemanticSearchActive()) {
     if (semantic.loading && !semantic.rows.length) {
       paginationStatus.textContent = `Searching semantically for "${state.query.trim()}".`;
@@ -969,6 +1119,10 @@ function formatPlainNumber(value) {
 
 function accountKeyFor(accountId) {
   return `${state.period}:${accountId}`;
+}
+
+function trendKeyFor(trendId) {
+  return `trends:${trendId}`;
 }
 
 function enrichVisibleAllTimeAccounts(visibleRows) {
@@ -1154,6 +1308,12 @@ function skeletonRows(count) {
 async function setPeriod(period) {
   if (state.period === period && !state.error) return;
   state.period = period;
+  if (isTrendsPeriod()) {
+    state.view = "repos";
+    state.sortKey = "stars";
+  } else if (state.sortKey === "forks" && state.view === "accounts") {
+    state.sortKey = "stars";
+  }
   state.error = "";
   document.querySelectorAll(".tab").forEach((tab) => {
     const active = tab.dataset.period === period;
@@ -1166,6 +1326,16 @@ async function setPeriod(period) {
 
 async function loadPeriod() {
   const store = currentStore();
+  if (isTrendsPeriod()) {
+    state.loading = !store.trendsLoaded;
+    state.error = store.trendsError;
+    render();
+    await loadTrends();
+    state.loading = false;
+    render();
+    return;
+  }
+
   state.loading = usesServerAccounts() ? !store.serverAccountsLoaded : !store.fetchedRepos.length;
   state.error = store.error;
   render();
@@ -1196,6 +1366,7 @@ async function loadPeriod() {
 }
 
 async function loadMore() {
+  if (isTrendsPeriod()) return;
   const store = currentStore();
   const filteredRows = getCurrentRows();
   const hiddenCachedRows = filteredRows.length - store.visibleCount;
@@ -1248,7 +1419,7 @@ function toggleSort(sortKey) {
 function renderSortHeaders() {
   sortButtons.forEach((button) => {
     const tableView = button.closest(".table-header")?.dataset.view;
-    const visibleInCurrentView = tableView === state.view;
+    const visibleInCurrentView = tableView === (isTrendsPeriod() ? "trends" : state.view);
     const active = state.sortKey === button.dataset.sortKey;
     const labels = {
       stars: "Stars",
@@ -1263,6 +1434,9 @@ function renderSortHeaders() {
 }
 
 function render() {
+  if (sectionEyebrow) {
+    sectionEyebrow.textContent = isTrendsPeriod() ? "Trends over the past week..." : "Leaderboard";
+  }
   renderSortHeaders();
   renderViewTabs();
   renderTableHeaders();
@@ -1350,6 +1524,38 @@ async function loadServerRepositories() {
     return false;
   } finally {
     store.serverReposLoading = false;
+    render();
+  }
+}
+
+async function loadTrends() {
+  const store = currentStore();
+  if (store.trendsLoading || store.trendsLoaded) return store.trendsLoaded;
+
+  store.trendsLoading = true;
+  store.trendsError = "";
+  render();
+
+  try {
+    const response = await fetch(STATIC_TRENDS_PATH);
+    if (!response.ok) {
+      throw new Error(`No cached trend data is available.`);
+    }
+    const data = await response.json();
+    store.trends = data.rows || [];
+    store.totalCount = data.total || store.trends.length;
+    store.trendsMeta = {
+      generatedAt: data.generatedAt,
+      coverageLabel: data.coverageLabel,
+      metadata: data.metadata || {}
+    };
+    store.trendsLoaded = true;
+    return true;
+  } catch (error) {
+    store.trendsError = error.message || "Unable to load trends.";
+    return false;
+  } finally {
+    store.trendsLoading = false;
     render();
   }
 }
@@ -1479,6 +1685,18 @@ repoList.addEventListener("click", (event) => {
     return;
   }
 
+  const trendButton = event.target.closest(".trend-expand-button");
+  if (trendButton) {
+    const key = trendKeyFor(trendButton.dataset.trendId);
+    if (expandedTrends.has(key)) {
+      expandedTrends.delete(key);
+    } else {
+      expandedTrends.add(key);
+    }
+    render();
+    return;
+  }
+
   const button = event.target.closest(".account-expand-button");
   if (!button) return;
 
@@ -1549,6 +1767,7 @@ function flashCopyButton(button, label) {
 }
 
 function setView(view) {
+  if (isTrendsPeriod()) return;
   if (state.view === view) return;
   state.view = view;
   state.sortKey = isSemanticSearchActive() ? "default" : view === "accounts" ? "stars" : "default";
@@ -1558,6 +1777,8 @@ function setView(view) {
 }
 
 function renderViewTabs() {
+  const hidden = isTrendsPeriod();
+  document.querySelector(".view-tabs")?.toggleAttribute("hidden", hidden);
   viewTabs.forEach((button) => {
     const active = button.dataset.view === state.view;
     button.classList.toggle("is-active", active);
@@ -1567,7 +1788,8 @@ function renderViewTabs() {
 
 function renderTableHeaders() {
   tableHeaders.forEach((header) => {
-    header.classList.toggle("is-active", header.dataset.view === state.view);
+    const activeView = isTrendsPeriod() ? "trends" : state.view;
+    header.classList.toggle("is-active", header.dataset.view === activeView);
   });
 }
 

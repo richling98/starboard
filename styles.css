@@ -155,7 +155,8 @@ select {
 .eyebrow,
 .repo-owner,
 .repo-table-header,
-.account-table-header {
+.account-table-header,
+.trend-table-header {
   color: var(--muted);
   font-family: var(--mono);
   font-size: 0.74rem;
@@ -514,6 +515,10 @@ h1 {
   padding: 4px;
 }
 
+.view-tabs[hidden] {
+  display: none;
+}
+
 .view-tab {
   min-height: 34px;
   border: 0;
@@ -576,7 +581,8 @@ h1 {
 
 .table-header,
 .repo-row,
-.account-row {
+.account-row,
+.trend-row {
   display: grid;
   gap: 16px;
   align-items: center;
@@ -584,6 +590,11 @@ h1 {
 
 .repo-table-header,
 .repo-row {
+  grid-template-columns: 72px minmax(0, 1fr) 120px 120px 128px;
+}
+
+.trend-table-header,
+.trend-row {
   grid-template-columns: 72px minmax(0, 1fr) 120px 120px 128px;
 }
 
@@ -629,7 +640,8 @@ h1 {
 }
 
 .repo-row,
-.account-row {
+.account-row,
+.trend-row {
   min-height: 92px;
   border: 1px solid var(--line);
   border-top: 0;
@@ -638,12 +650,14 @@ h1 {
 }
 
 .repo-row:last-child,
-.account-row:last-child {
+.account-row:last-child,
+.trend-row:last-child {
   border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .repo-row:hover,
-.account-row:hover {
+.account-row:hover,
+.trend-row:hover {
   background: var(--panel-2);
 }
 
@@ -670,6 +684,10 @@ h1 {
   border-radius: var(--radius);
   background: var(--panel-2);
   object-fit: cover;
+}
+
+.trend-row .repo-identity {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .repo-copy {
@@ -771,6 +789,10 @@ h1 {
 }
 
 .account-row.is-expanded {
+  background: var(--panel-2);
+}
+
+.trend-row.is-expanded {
   background: var(--panel-2);
 }
 
@@ -884,6 +906,43 @@ h1 {
   font-weight: 850;
   justify-self: end;
   white-space: nowrap;
+}
+
+.trend-repos-panel {
+  padding-left: 18px;
+}
+
+.trend-repos-panel .account-repos-heading {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) 120px 120px 128px;
+}
+
+.trend-repos-panel .account-repos-heading span:first-child {
+  grid-column: 2;
+}
+
+.trend-repos-panel .account-repo-item {
+  grid-template-columns: 72px minmax(0, 1fr) 120px 120px 128px;
+}
+
+.trend-repos-panel .account-repo-copy {
+  grid-column: 2;
+}
+
+.trend-repos-panel .account-repo-stats {
+  display: contents;
+}
+
+.trend-repos-panel .account-repo-stats .metric-cell:first-child {
+  grid-column: 3;
+}
+
+.trend-repos-panel .account-repo-stats .metric-cell:last-child {
+  grid-column: 4;
+}
+
+.trend-repos-panel .account-repo-visit {
+  grid-column: 5;
 }
 
 .action {
@@ -1041,7 +1100,8 @@ h1 {
 }
 
 .repo-row:last-child,
-.account-row:last-child {
+.account-row:last-child,
+.trend-row:last-child {
   border-radius: 0;
 }
 
@@ -1091,7 +1151,8 @@ h1 {
 }
 
 .repo-list.is-compact .repo-row,
-.repo-list.is-compact .account-row {
+.repo-list.is-compact .account-row,
+.repo-list.is-compact .trend-row {
   min-height: 72px;
   padding-block: 12px;
 }
@@ -1170,7 +1231,11 @@ h1 {
   }
 
   .repo-table-header,
-  .repo-row {
+  .repo-row,
+  .trend-table-header,
+  .trend-row,
+  .trend-repos-panel .account-repos-heading,
+  .trend-repos-panel .account-repo-item {
     grid-template-columns: 56px minmax(0, 1fr) 100px 100px 118px;
   }
 
@@ -1221,8 +1286,10 @@ h1 {
 
   .repo-row,
   .account-row,
+  .trend-row,
   .repo-list.is-compact .repo-row,
-  .repo-list.is-compact .account-row {
+  .repo-list.is-compact .account-row,
+  .repo-list.is-compact .trend-row {
     grid-template-columns: 44px minmax(0, 1fr);
     gap: 12px;
     border: 1px solid var(--line);
@@ -1242,6 +1309,8 @@ h1 {
 
   .repo-stars,
   .repo-forks,
+  .trend-stars,
+  .trend-forks,
   .account-type,
   .account-stars,
   .account-repos,
@@ -1254,6 +1323,8 @@ h1 {
 
   .repo-stars,
   .repo-forks,
+  .trend-stars,
+  .trend-forks,
   .account-type,
   .account-stars,
   .account-repos,
@@ -1294,6 +1365,23 @@ h1 {
   .account-repo-item {
     align-items: start;
     grid-template-columns: 1fr;
+  }
+
+  .trend-repos-panel .account-repos-heading,
+  .trend-repos-panel .account-repo-item {
+    grid-template-columns: 1fr;
+  }
+
+  .trend-repos-panel .account-repos-heading span:first-child,
+  .trend-repos-panel .account-repo-copy,
+  .trend-repos-panel .account-repo-stats .metric-cell:first-child,
+  .trend-repos-panel .account-repo-stats .metric-cell:last-child,
+  .trend-repos-panel .account-repo-visit {
+    grid-column: auto;
+  }
+
+  .trend-repos-panel .account-repo-stats {
+    display: flex;
   }
 
   .account-repos-heading {

@@ -12,6 +12,7 @@
     "refine:language": "node scripts/refine-repository-language.mjs",
     "build:semantic-index": "node scripts/build-semantic-index.mjs",
     "build:snapshots": "node scripts/build-leaderboard-snapshots.mjs",
+    "build:trends": "node scripts/build-trends.mjs",
     "export:static-data": "node scripts/export-static-data.mjs",
     "build:pages": "node scripts/build-pages-dist.mjs",
     "index:github": "node scripts/run-indexing-pipeline.mjs"
