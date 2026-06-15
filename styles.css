@@ -1257,13 +1257,26 @@ h1 {
   }
 
   .period-tabs {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     width: 100%;
+    min-width: 0;
   }
 
   .tab {
-    flex: 1;
+    min-height: 34px;
+    font-size: 0.82rem;
+    line-height: 1;
     min-width: 0;
-    padding: 0 8px;
+    padding: 0 6px;
+  }
+
+  .tab:nth-child(-n + 3) {
+    grid-column: span 2;
+  }
+
+  .tab:nth-child(n + 4) {
+    grid-column: span 3;
   }
 
   .filters {
@@ -1290,14 +1303,15 @@ h1 {
   .repo-list.is-compact .repo-row,
   .repo-list.is-compact .account-row,
   .repo-list.is-compact .trend-row {
-    grid-template-columns: 44px minmax(0, 1fr);
-    gap: 12px;
+    grid-template-columns: 44px auto auto minmax(0, 1fr);
+    gap: 10px 12px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
     padding: 14px;
   }
 
   .repo-identity {
+    grid-column: 2 / -1;
     grid-template-columns: 42px minmax(0, 1fr);
   }
 
@@ -1329,7 +1343,40 @@ h1 {
   .account-stars,
   .account-repos,
   .account-top-repo {
-    padding-left: 56px;
+    padding-left: 0;
+  }
+
+  .repo-stars,
+  .trend-stars,
+  .account-stars {
+    grid-column: 2;
+  }
+
+  .repo-forks,
+  .trend-forks,
+  .account-repos {
+    grid-column: 3;
+  }
+
+  .repo-stars,
+  .repo-forks,
+  .trend-stars,
+  .trend-forks,
+  .account-stars,
+  .account-repos {
+    align-self: center;
+  }
+
+  .repo-stars .metric-cell,
+  .repo-forks .metric-cell,
+  .trend-stars .metric-cell,
+  .trend-forks .metric-cell {
+    font-size: 0.88rem;
+  }
+
+  .account-type,
+  .account-top-repo {
+    grid-column: 2 / -1;
   }
 
   .account-top-repo {
