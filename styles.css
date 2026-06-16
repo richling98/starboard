@@ -1389,9 +1389,28 @@ h1 {
     display: none;
   }
 
+  .account-row .repo-rank {
+    grid-row: 1 / span 2;
+  }
+
+  .account-row .repo-identity {
+    display: contents;
+  }
+
+  .account-row .repo-avatar {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .account-row .repo-copy {
+    align-self: end;
+    grid-column: 3 / -1;
+  }
+
   .account-row .account-stars {
-    grid-column: 2 / -1;
-    padding-left: 86px;
+    align-self: start;
+    grid-column: 3 / -1;
+    padding-left: 0;
   }
 
   .account-top-repo {
@@ -1491,7 +1510,4 @@ h1 {
     height: 64px;
   }
 
-  .account-row .account-stars {
-    padding-left: 78px;
-  }
 }
