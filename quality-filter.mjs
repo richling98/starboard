@@ -15,6 +15,35 @@ const SPAM_KEYWORDS = [
   "free download"
 ];
 
+export const UNSAFE_CONTENT_KEYWORDS = [
+  "adult ai",
+  "adult companion",
+  "adult content",
+  "adult gen",
+  "adult generation",
+  "adult image",
+  "adult images",
+  "adultcompanion",
+  "ai adult",
+  "ai girl companion",
+  "ai girlfriend",
+  "erotic",
+  "girlfriend",
+  "hentai",
+  "ns fw",
+  "nsfw",
+  "nude",
+  "nudes",
+  "onlyfans",
+  "porn",
+  "porno",
+  "pornography",
+  "sex chat",
+  "sexy",
+  "virtual girlfriend",
+  "xxx"
+];
+
 export function evaluateRepositoryQuality(repo, document = null) {
   if (!repo) return reject("missing_repo");
   if (repo.archived) return reject("archived");
@@ -40,6 +69,10 @@ export function evaluateRepositoryQuality(repo, document = null) {
     return reject("spam_keyword");
   }
 
+  if (containsUnsafeRepositoryContent(repo)) {
+    return reject("unsafe_content_keyword");
+  }
+
   if (document) {
     const hasDescription = Boolean(String(document.descriptionText || repo.description || "").trim());
     const hasTopics = topics.length > 0;
@@ -49,6 +82,30 @@ export function evaluateRepositoryQuality(repo, document = null) {
   }
 
   return { accepted: true, reason: "accepted" };
+}
+
+export function containsUnsafeRepositoryContent(repo) {
+  const topics = Array.isArray(repo?.topics) ? repo.topics : [];
+  const metadataText = normalizeSafetyText([
+    repo?.fullName,
+    repo?.full_name,
+    repo?.owner,
+    repo?.owner_login,
+    repo?.name,
+    repo?.description,
+    ...topics
+  ].filter(Boolean).join(" "));
+
+  return UNSAFE_CONTENT_KEYWORDS.some((keyword) => metadataText.includes(` ${keyword} `));
+}
+
+function normalizeSafetyText(text) {
+  return ` ${String(text || "")
+    .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()} `;
 }
 
 function reject(reason) {

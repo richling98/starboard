@@ -1,4 +1,5 @@
 import pg from "pg";
+import { UNSAFE_CONTENT_KEYWORDS, containsUnsafeRepositoryContent } from "./quality-filter.mjs";
 
 const { Pool } = pg;
 let pool;
@@ -249,6 +250,7 @@ export async function ensureSchema() {
           and r.fork = false
           and r.archived = false
           and r.english_check_status <> 'rejected'
+          and ${safeRepositoryMetadataSql("r")}
           and e.embedding_model = embedding_model_filter
           and (
             target_period = 'all'
@@ -528,6 +530,8 @@ export async function readRepositoriesForSnapshot(period = "all") {
     "archived = false",
     "english_check_status <> 'rejected'"
   ];
+  values.push(UNSAFE_CONTENT_KEYWORDS);
+  where.push(safeRepositoryMetadataSql("", `$${values.length}::text[]`));
 
   const days = periodWindowDays(period);
   if (days) {
@@ -629,6 +633,7 @@ export async function refreshAccountRollupsFromRepositories() {
           and fork = false
           and archived = false
           and english_check_status <> 'rejected'
+          and ${safeRepositoryMetadataSql()}
         group by owner_github_id, owner_login
       )
       update accounts
@@ -687,7 +692,8 @@ export async function readLeaderboardSnapshot(options = {}) {
   const snapshot = result.rows[0];
   if (!snapshot) return null;
 
-  const rows = filterSnapshotRows(snapshot.snapshot_rows || [], query, view);
+  const safeSnapshotRows = sanitizeSnapshotRows(snapshot.snapshot_rows || [], view);
+  const rows = filterSnapshotRows(safeSnapshotRows, query, view);
   const sortedRows = sortSnapshotRows(rows, sortKey, sortDirection, view).map((row, index) => ({
     ...row,
     rank: index + 1
@@ -1076,6 +1082,7 @@ export async function readSemanticRepositoryRows(options = {}) {
           and r.fork = false
           and r.archived = false
           and r.english_check_status <> 'rejected'
+          and ${safeRepositoryMetadataSql("r", "$8::text[]")}
           and e.embedding_model = $2
           and (
             $3 = 'all'
@@ -1100,7 +1107,8 @@ export async function readSemanticRepositoryRows(options = {}) {
       minSimilarity,
       matchLimit,
       limit,
-      offset
+      offset,
+      UNSAFE_CONTENT_KEYWORDS
     ]
   );
 
@@ -1223,11 +1231,13 @@ export async function readAllTimeAccountsFromDb(options = {}) {
     values
   );
 
+  const rows = rowsResult.rows.map(accountRowFromDb).filter((row) => row.repoCount > 0);
+
   return {
     generatedAt: await latestAccountRefresh(),
     seedPages: null,
-    total: countResult.rows[0]?.total || 0,
-    rows: rowsResult.rows.map(accountRowFromDb)
+    total: Math.min(countResult.rows[0]?.total || rows.length, rows.length),
+    rows
   };
 }
 
@@ -1381,27 +1391,48 @@ async function latestAccountRefresh() {
 }
 
 function accountRowFromDb(row) {
-  return {
-    id: row.github_id,
-    login: row.login,
-    type: row.type,
-    avatarUrl: row.avatar_url,
-    htmlUrl: row.html_url,
-    starScore: row.total_stars,
-    repoCount: row.starred_repo_count,
-    topRepo: row.top_repo_full_name
+  const repos = Array.isArray(row.repos)
+    ? row.repos.map(accountRepoFromStored).filter((repo) => !containsUnsafeRepositoryContent(repo))
+    : [];
+  const hasStoredRepos = repos.length > 0 || (Array.isArray(row.repos) && row.repos.length > 0);
+  const topRepo = repos[0]
+    ? {
+        name: repos[0].name,
+        fullName: repos[0].fullName,
+        stars: repos[0].stars,
+        url: repos[0].repoUrl
+      }
+    : hasStoredRepos
+      ? null
+      : row.top_repo_full_name
       ? {
           name: row.top_repo_full_name.split("/").pop(),
           fullName: row.top_repo_full_name,
           stars: row.top_repo_stars || 0,
           url: `https://github.com/${row.top_repo_full_name}`
         }
-      : null,
-    repoNames: row.repo_names || [],
-    repos: row.repos || [],
+      : null;
+
+  return {
+    id: row.github_id,
+    login: row.login,
+    type: row.type,
+    avatarUrl: row.avatar_url,
+    htmlUrl: row.html_url,
+    starScore: hasStoredRepos ? repos.reduce((total, repo) => total + Number(repo.stars || 0), 0) : row.total_stars,
+    repoCount: hasStoredRepos ? repos.length : row.starred_repo_count,
+    topRepo,
+    repoNames: hasStoredRepos ? repos.map((repo) => repo.fullName) : row.repo_names || [],
+    repos: hasStoredRepos ? repos : row.repos || [],
     refreshedAt: row.refreshed_at?.toISOString?.() || row.refreshed_at,
     enriched: true
   };
+}
+
+function accountRepoFromStored(repo) {
+  if (repo?.fullName) return repo;
+  if (repo?.full_name) return repositoryRowFromDb(repo);
+  return repo || {};
 }
 
 function repositoryRowFromDb(row) {
@@ -1439,10 +1470,13 @@ async function readAllTimeAccountSnapshotRows() {
       limit 1000
     `
   );
-  return result.rows.map((row, index) => ({
-    ...accountRowFromDb(row),
-    rank: index + 1
-  }));
+  return result.rows
+    .map(accountRowFromDb)
+    .filter((row) => row.repoCount > 0)
+    .map((row, index) => ({
+      ...row,
+      rank: index + 1
+    }));
 }
 
 async function readRollingAccountSnapshotRows(period) {
@@ -1457,6 +1491,7 @@ async function readRollingAccountSnapshotRows(period) {
           and fork = false
           and archived = false
           and english_check_status <> 'rejected'
+          and ${safeRepositoryMetadataSql()}
           and repo_created_at >= now() - ($1::text || ' days')::interval
       ),
       account_rollups as (
@@ -1527,6 +1562,38 @@ function filterSnapshotRows(rows, query, view) {
         ];
     return text.join(" ").toLowerCase().includes(query);
   });
+}
+
+function sanitizeSnapshotRows(rows, view) {
+  if (view === "accounts") {
+    return rows.map(sanitizeAccountSnapshotRow).filter(Boolean);
+  }
+  return rows.filter((row) => !containsUnsafeRepositoryContent(row));
+}
+
+function sanitizeAccountSnapshotRow(account) {
+  if (!account || !Array.isArray(account.repos)) return account;
+  const repos = account.repos
+    .filter((repo) => !containsUnsafeRepositoryContent(repo))
+    .sort((a, b) => Number(b.stars || 0) - Number(a.stars || 0));
+  if (!repos.length && account.repos.length) return null;
+  if (!account.repos.length) return account;
+
+  return {
+    ...account,
+    starScore: repos.reduce((total, repo) => total + Number(repo.stars || 0), 0),
+    repoCount: repos.length,
+    topRepo: repos[0]
+      ? {
+          name: repos[0].name,
+          fullName: repos[0].fullName,
+          stars: repos[0].stars,
+          url: repos[0].repoUrl || repos[0].url
+        }
+      : null,
+    repoNames: repos.map((repo) => repo.fullName || `${repo.owner}/${repo.name}`),
+    repos
+  };
 }
 
 function sortSnapshotRows(rows, sortKey, sortDirection, view) {
@@ -1635,6 +1702,34 @@ function sanitizeSemanticRunMetadata(metadata) {
     }
   }
   return safe;
+}
+
+function safeRepositoryMetadataSql(alias = "", keywordsSql = unsafeContentKeywordsArraySql()) {
+  return `not exists (
+    select 1
+    from unnest(${keywordsSql}) as unsafe_keyword(keyword)
+    where ${repositorySafetyTextSql(alias)} like '% ' || unsafe_keyword.keyword || ' %'
+  )`;
+}
+
+function repositorySafetyTextSql(alias = "") {
+  const prefix = alias ? `${alias}.` : "";
+  return `(' ' || regexp_replace(lower(concat_ws(' ',
+    ${prefix}full_name,
+    ${prefix}owner_login,
+    ${prefix}name,
+    coalesce(${prefix}description, ''),
+    coalesce(${prefix}language, ''),
+    coalesce(${prefix}topics::text, '')
+  )), '[^a-z0-9]+', ' ', 'g') || ' ')`;
+}
+
+function unsafeContentKeywordsArraySql() {
+  return `array[${UNSAFE_CONTENT_KEYWORDS.map(sqlStringLiteral).join(", ")}]::text[]`;
+}
+
+function sqlStringLiteral(value) {
+  return `'${String(value).replaceAll("'", "''")}'`;
 }
 
 function periodWindowDays(period) {

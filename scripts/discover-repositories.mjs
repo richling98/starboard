@@ -14,6 +14,7 @@ import {
   loadLocalEnv
 } from "../backend-cache.mjs";
 import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../language-gate.mjs";
+import { containsUnsafeRepositoryContent } from "../quality-filter.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const args = parseArgs(process.argv.slice(2));
@@ -102,7 +103,7 @@ async function runDiscoveryQuery(queryConfig, maxPagesForQuery, readmeLimitForQu
 
     const repos = (data.items || [])
       .map(normalizeRepo)
-      .filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived);
+      .filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived && !containsUnsafeRepositoryContent(repo));
 
     for (const repo of repos.slice(0, readmeLimitForQuery)) {
       const readme = await fetchReadme(repo);

@@ -6,7 +6,7 @@ const IS_LOCAL_HOST = ["localhost", "127.0.0.1", ""].includes(location.hostname)
 const SEMANTIC_SEARCH_ENDPOINT = IS_LOCAL_HOST
   ? "/api/semantic-search"
   : "https://lirwttbgkuaitsppisas.supabase.co/functions/v1/starboard-semantic-search";
-const CACHE_VERSION = "v21";
+const CACHE_VERSION = "v22";
 const CACHE_TTL_MS = 15 * 60 * 1000;
 const README_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const UI_REVEAL_SIZE = 20;
@@ -235,17 +235,71 @@ function normalizeRepo(item) {
   };
 }
 
+const UNSAFE_CONTENT_KEYWORDS = [
+  "adult ai",
+  "adult companion",
+  "adult content",
+  "adult gen",
+  "adult generation",
+  "adult image",
+  "adult images",
+  "adultcompanion",
+  "ai adult",
+  "ai girl companion",
+  "ai girlfriend",
+  "erotic",
+  "girlfriend",
+  "hentai",
+  "ns fw",
+  "nsfw",
+  "nude",
+  "nudes",
+  "onlyfans",
+  "porn",
+  "porno",
+  "pornography",
+  "sex chat",
+  "sexy",
+  "virtual girlfriend",
+  "xxx"
+];
+
+function passesContentSafety(repo) {
+  const topics = Array.isArray(repo?.topics) ? repo.topics : [];
+  const metadataText = normalizeSafetyText([
+    repo?.fullName,
+    repo?.full_name,
+    repo?.owner,
+    repo?.owner_login,
+    repo?.name,
+    repo?.description,
+    ...topics
+  ].filter(Boolean).join(" "));
+
+  return !UNSAFE_CONTENT_KEYWORDS.some((keyword) => metadataText.includes(` ${keyword} `));
+}
+
+function normalizeSafetyText(text) {
+  return ` ${String(text || "")
+    .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()} `;
+}
+
 async function fetchRepositoryPage(period, page) {
   const cached = readCache(`repos:${period}:page:${page}`);
   if (cached) return cached;
 
   const data = await githubFetch(repositorySearchPath(period, page));
   const normalizedRepos = (data.items || []).map(normalizeRepo);
+  const safeRepos = normalizedRepos.filter(passesContentSafety);
   const value = {
     totalCount: data.total_count || 0,
     incompleteResults: Boolean(data.incomplete_results),
-    accountSeedRepos: normalizedRepos.filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived),
-    repos: normalizedRepos.filter((repo) => passesEnglishGate(repo.description))
+    accountSeedRepos: safeRepos.filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived),
+    repos: safeRepos.filter((repo) => passesEnglishGate(repo.description))
   };
   writeCache(`repos:${period}:page:${page}`, value);
   return value;
@@ -286,13 +340,13 @@ async function fetchNextPage(period) {
 
 function mergeRepos(store, repos) {
   const byId = new Map(store.fetchedRepos.map((repo) => [repo.id, repo]));
-  repos.forEach((repo) => byId.set(repo.id, repo));
+  repos.filter(passesContentSafety).forEach((repo) => byId.set(repo.id, repo));
   store.fetchedRepos = [...byId.values()];
 }
 
 function mergeAccountSeedRepos(store, repos) {
   const byId = new Map(store.accountSeedRepos.map((repo) => [repo.id, repo]));
-  repos.forEach((repo) => byId.set(repo.id, repo));
+  repos.filter(passesContentSafety).forEach((repo) => byId.set(repo.id, repo));
   store.accountSeedRepos = [...byId.values()];
 }
 
@@ -319,7 +373,7 @@ async function refineEnglishReadmes(period, repos) {
 
 async function filterEnglishRepositories(repos) {
   const accepted = [];
-  const candidates = repos.filter((repo) => passesEnglishGate(repo.description));
+  const candidates = repos.filter((repo) => passesContentSafety(repo) && passesEnglishGate(repo.description));
 
   for (let index = 0; index < candidates.length; index += README_BATCH_SIZE) {
     const batch = candidates.slice(index, index + README_BATCH_SIZE);
@@ -507,19 +561,47 @@ function semanticStoreIsCurrent(store = currentSemanticStore()) {
 }
 
 function filterAccountRows(accounts) {
+  const sanitizedAccounts = accounts.map(sanitizeAccountRow).filter(Boolean);
   const query = state.query.trim().toLowerCase();
-  return accounts.filter((account) => {
+  return sanitizedAccounts.filter((account) => {
     const searchText = [
       account.login,
       account.type,
       account.topRepo?.name,
       account.topRepo?.fullName,
-      ...account.repoNames
+      ...(account.repoNames || [])
     ]
       .join(" ")
       .toLowerCase();
     return !query || searchText.includes(query);
   });
+}
+
+function sanitizeAccountRow(account) {
+  if (!account || !Array.isArray(account.repos)) return account;
+  const safeRepos = account.repos
+    .filter(passesContentSafety)
+    .sort((a, b) => Number(b.stars || 0) - Number(a.stars || 0));
+  if (!safeRepos.length && account.repos.length) return null;
+  if (!account.repos.length) return account;
+
+  const topRepo = safeRepos[0]
+    ? {
+        name: safeRepos[0].name,
+        fullName: safeRepos[0].fullName,
+        stars: safeRepos[0].stars,
+        url: safeRepos[0].repoUrl || safeRepos[0].url
+      }
+    : null;
+
+  return {
+    ...account,
+    starScore: safeRepos.reduce((total, repo) => total + Number(repo.stars || 0), 0),
+    repoCount: safeRepos.length,
+    topRepo,
+    repoNames: safeRepos.map((repo) => repo.fullName || `${repo.owner}/${repo.name}`),
+    repos: safeRepos
+  };
 }
 
 function getAllAccountRows() {
@@ -542,7 +624,7 @@ function buildAccountRows(repos) {
   const byOwner = new Map();
 
   repos.forEach((repo) => {
-    if (repo.stars < 1) return;
+    if (repo.stars < 1 || !passesContentSafety(repo)) return;
 
     const key = String(repo.ownerId || repo.owner);
     const existing = byOwner.get(key) || {
@@ -1222,7 +1304,7 @@ async function fetchOwnerStarredRepos(account) {
 
     items
       .map(normalizeRepo)
-      .filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived)
+      .filter((repo) => repo.stars >= 1 && !repo.fork && !repo.archived && passesContentSafety(repo))
       .forEach((repo) => repos.push(repo));
 
     if (!hasNextLink(headers) || page >= MAX_GITHUB_PAGE) break;
@@ -1453,7 +1535,7 @@ async function loadServerAccounts() {
     });
     const data = await fetchLeaderboardData("accounts", state.period, params);
 
-    store.serverAccounts = data.rows || [];
+    store.serverAccounts = (data.rows || []).map(sanitizeAccountRow).filter(Boolean);
     store.serverAccountTotal = data.total || store.serverAccounts.length;
     store.serverAccountsMeta = {
       generatedAt: data.generatedAt,
@@ -1487,7 +1569,7 @@ async function loadServerRepositories() {
     });
     const data = await fetchLeaderboardData("repositories", state.period, params);
 
-    store.fetchedRepos = data.rows || [];
+    store.fetchedRepos = (data.rows || []).filter(passesContentSafety);
     store.totalCount = data.totalIndexedCount || data.total || store.fetchedRepos.length;
     store.reachedGithubCap = true;
     store.serverReposMeta = {
@@ -1611,7 +1693,8 @@ async function fetchSemanticSearch(options = {}) {
     }
     if (requestId !== semanticRequestId) return;
 
-    semantic.rows = append ? [...semantic.rows, ...(data.rows || [])] : data.rows || [];
+    const safeRows = sanitizeRowsForCurrentView(data.rows || []);
+    semantic.rows = append ? [...semantic.rows, ...safeRows] : safeRows;
     semantic.total = data.total || semantic.rows.length;
     semantic.loaded = true;
     semantic.query = query;
@@ -1627,6 +1710,12 @@ async function fetchSemanticSearch(options = {}) {
       render();
     }
   }
+}
+
+function sanitizeRowsForCurrentView(rows) {
+  return semanticViewKey() === "accounts"
+    ? rows.map(sanitizeAccountRow).filter(Boolean)
+    : rows.filter(passesContentSafety);
 }
 
 document.querySelectorAll(".tab").forEach((tab) => {

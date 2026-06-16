@@ -8,6 +8,7 @@ import {
   readAllTimeAccountsFromDb,
   upsertAccountDetail
 } from "./db.mjs";
+import { containsUnsafeRepositoryContent } from "./quality-filter.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const GITHUB_API = "https://api.github.com";
@@ -172,7 +173,10 @@ async function fetchAllTimeSeedRepos(seedPages) {
     const query = "archived:false fork:false stars:>=1";
     const endpoint = `/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${GITHUB_FETCH_PAGE_SIZE}&page=${page}`;
     const { data, headers } = await githubFetch(endpoint);
-    (data.items || []).map(normalizeRepo).forEach((repo) => repos.push(repo));
+    (data.items || [])
+      .map(normalizeRepo)
+      .filter(isSafeRepository)
+      .forEach((repo) => repos.push(repo));
     await waitForSearchBudget(headers);
   }
   return repos;
@@ -185,7 +189,10 @@ async function fetchOwnerStarredRepos(owner) {
     const endpoint = `/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${GITHUB_FETCH_PAGE_SIZE}&page=${page}`;
     const { data, headers } = await githubFetch(endpoint);
     const items = data.items || [];
-    items.map(normalizeRepo).forEach((repo) => repos.push(repo));
+    items
+      .map(normalizeRepo)
+      .filter(isSafeRepository)
+      .forEach((repo) => repos.push(repo));
     await waitForSearchBudget(headers);
     if (!hasNextLink(headers) || !items.length) break;
   }
@@ -275,6 +282,10 @@ function uniqueOwners(repos) {
     }
   });
   return [...owners.values()];
+}
+
+function isSafeRepository(repo) {
+  return repo.stars >= 1 && !repo.fork && !repo.archived && !containsUnsafeRepositoryContent(repo);
 }
 
 function compareAccounts(a, b, sortKey, sortDirection) {
