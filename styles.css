@@ -1382,6 +1382,18 @@ h1 {
     grid-column: 2 / -1;
   }
 
+  .account-row .repo-owner,
+  .account-row .account-type,
+  .account-row .account-repos,
+  .account-row .account-top-repo {
+    display: none;
+  }
+
+  .account-row .account-stars {
+    grid-column: 2 / -1;
+    padding-left: 86px;
+  }
+
   .account-top-repo {
     min-width: 0;
   }
@@ -1477,5 +1489,9 @@ h1 {
   .skeleton-avatar {
     width: 64px;
     height: 64px;
+  }
+
+  .account-row .account-stars {
+    padding-left: 78px;
   }
 }
