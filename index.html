@@ -17,7 +17,7 @@
       type="font/ttf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css?v=26" />
+    <link rel="stylesheet" href="./styles.css?v=27" />
   </head>
   <body>
     <header class="topbar">
@@ -33,6 +33,13 @@
         </span>
       </a>
       <nav class="topbar-actions" aria-label="Project links">
+        <div class="live-updated" aria-live="polite">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span>
+            <span class="live-updated-label">Last updated </span>
+            <span id="last-updated-value" class="last-updated-value">...</span>
+          </span>
+        </div>
         <a
           class="github-link"
           href="https://github.com/richling98/starboard"
@@ -219,6 +226,6 @@
       </span>
     </template>
 
-    <script src="./app.js?v=25"></script>
+    <script src="./app.js?v=26"></script>
   </body>
 </html>

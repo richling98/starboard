@@ -59,6 +59,7 @@ const sortButtons = document.querySelectorAll(".sort-button");
 const viewTabs = document.querySelectorAll(".view-tab");
 const tableHeaders = document.querySelectorAll(".table-header");
 const sectionEyebrow = document.querySelector("#section-eyebrow");
+const lastUpdatedValue = document.querySelector("#last-updated-value");
 
 function createPeriodStore() {
   return {
@@ -460,6 +461,40 @@ function passesEnglishGate(text, options = {}) {
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(value);
+}
+
+function formatLastUpdated(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+
+  const parts = new Intl.DateTimeFormat([], {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
+  }).formatToParts(date);
+  const get = (type) => parts.find((part) => part.type === type)?.value || "";
+  return `${get("month")} ${get("day")}, ${get("hour")}:${get("minute")}${get("dayPeriod").toLowerCase()}`;
+}
+
+function currentUpdatedAt() {
+  const store = currentStore();
+  const currentMeta = isTrendsPeriod()
+    ? store.trendsMeta
+    : state.view === "accounts"
+      ? store.serverAccountsMeta
+      : store.serverReposMeta;
+  if (currentMeta?.generatedAt) return currentMeta.generatedAt;
+
+  const loadedDates = Object.values(periodStores)
+    .flatMap((periodStore) => [
+      periodStore.serverReposMeta?.generatedAt,
+      periodStore.serverAccountsMeta?.generatedAt,
+      periodStore.trendsMeta?.generatedAt
+    ])
+    .filter(Boolean)
+    .sort((a, b) => Date.parse(b) - Date.parse(a));
+  return loadedDates[0] || "";
 }
 
 function getFilteredRepos() {
@@ -1496,10 +1531,16 @@ function render() {
   if (sectionEyebrow) {
     sectionEyebrow.textContent = isTrendsPeriod() ? "Trends over the past week..." : "Leaderboard";
   }
+  renderLastUpdated();
   renderSortHeaders();
   renderViewTabs();
   renderTableHeaders();
   renderLeaderboard();
+}
+
+function renderLastUpdated() {
+  if (!lastUpdatedValue) return;
+  lastUpdatedValue.textContent = formatLastUpdated(currentUpdatedAt()) || "...";
 }
 
 function usesServerAccounts() {
