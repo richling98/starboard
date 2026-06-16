@@ -1,36 +1,47 @@
 # Starboard
 
-Starboard is a GitHub discovery dashboard for finding notable open source repositories and the accounts behind them. It combines cached leaderboard snapshots, semantic search over repository metadata and README text, and a terminal-inspired black-and-white interface.
+Starboard is a GitHub discovery dashboard for finding notable open source repositories and the accounts behind them. It combines Supabase-backed leaderboard snapshots, semantic search over repository metadata and README text, trend clustering, and a terminal-inspired black-and-white interface.
 
 Production:
 
 - Vercel: `https://starboard-xi.vercel.app`
 - GitHub Pages: `https://richling98.github.io/starboard/`
+- Semantic backfill dashboard: `/semantic-dashboard.html`
 
 ## Features
 
 - Repository leaderboards for Today, Week, Month, and All time.
-- Account leaderboards for the same periods.
+- Account leaderboards for the same periods, including expandable contributing-repository details.
+- A Trends tab that clusters the top Today and Week repositories into current technology themes.
 - Supabase-backed snapshot data for fast repository and account reads.
-- Static fallback leaderboard JSON under `data/leaderboards`.
+- Static fallback JSON under `data/leaderboards` for hosted static deployments.
+- Live `Last updated` status from the active snapshot or trend metadata.
 - AI semantic search over repository names, descriptions, topics, and cleaned README text.
 - Semantic search support for both repository and account views.
-- Keyword fallback results for indexed rows that do not yet have embeddings.
+- Keyword fallback rows appended after semantic results when available.
 - Sortable repository columns for Stars and Forks.
 - Sortable account columns for Stars and Repos.
+- Sortable trend rows for Stars and Forks.
 - `Load more` pagination with 20-row reveal increments.
-- Expandable account rows that show the repositories contributing to each account score.
 - Copyable clone commands for HTTPS, SSH, and GitHub CLI.
-- Compact view toggle.
-- Responsive desktop and mobile table layouts.
+- Client-side and indexing-time filtering for unsafe repository metadata.
 - English-language quality gate for repository discovery and snapshots.
+- Responsive desktop and mobile layouts.
 - Terminal ASCII `STARBOARD` title treatment with a replayed generated-on-load animation.
+- Semantic embedding coverage dashboard with recent runs, rejection reasons, known issues, and plan progress.
 - Vercel production deployment from the static `dist/` artifact.
-- GitHub Actions workflow for scheduled index refreshes and GitHub Pages deployment.
+- GitHub Actions workflows for scheduled index refreshes, trend refreshes, semantic backfills, and generated data commits.
 
 ## How It Works
 
-The browser is a static app made from `index.html`, `styles.css`, and `app.js`.
+The browser app is static and is built from:
+
+- `index.html`
+- `styles.css`
+- `app.js`
+- `semantic-dashboard.html`
+- `semantic-dashboard.css`
+- `semantic-dashboard.js`
 
 For local development, `server.mjs` provides:
 
@@ -40,7 +51,7 @@ For local development, `server.mjs` provides:
 - A local semantic search endpoint at `/api/semantic-search`.
 - Cache status at `/api/cache/status`.
 
-For hosted static deployments, the app reads pre-exported leaderboard JSON from `data/leaderboards` if local API endpoints are unavailable. Semantic search calls the Supabase Edge Function directly outside localhost.
+For hosted static deployments, the app first tries same-origin API endpoints and then falls back to pre-exported leaderboard JSON in `data/leaderboards`. Trends always load from `data/leaderboards/trends.json`. Outside localhost, semantic search calls the deployed Supabase Edge Function directly.
 
 ## Local Setup
 
@@ -58,6 +69,8 @@ DATABASE_URL=your_supabase_postgres_uri
 OPENAI_API_KEY=your_openai_api_key
 ```
 
+`.env.local` and `.supabase-secrets.local` are both loaded by local Node scripts. `OPENAI_API_KEY` can also be supplied as `STARBOARD_OPENAI_API_KEY` for scripts that support the production secret name.
+
 Run the local server:
 
 ```bash
@@ -70,9 +83,15 @@ Then open:
 http://127.0.0.1:4176
 ```
 
+The semantic dashboard is available locally at:
+
+```text
+http://127.0.0.1:4176/semantic-dashboard.html
+```
+
 ## Data Model
 
-Starboard stores repository, account, snapshot, search-document, and embedding data in Supabase Postgres.
+Starboard stores repository, account, snapshot, search-document, embedding, rejection, discovery-query, and ingestion-run data in Supabase Postgres. Semantic search uses the `pgvector` extension with 1024-dimensional embeddings by default.
 
 The main indexed data flow is:
 
@@ -83,7 +102,9 @@ The main indexed data flow is:
 5. Refresh enriched all-time account data.
 6. Build cached leaderboard snapshots.
 7. Export static leaderboard JSON.
-8. Build the static deployment artifact.
+8. Build trend clusters from the top Today and Week repository snapshots.
+9. Export semantic dashboard data.
+10. Build the static deployment artifact.
 
 GitHub Search exposes only a bounded result window for each query, so discovery uses multiple partitions: all-time star buckets, rolling created-date windows, and language buckets.
 
@@ -93,6 +114,7 @@ Period definitions:
 - Week: starred repositories created in the last 7 days.
 - Month: starred repositories created in the last 30 days.
 - All time: starred repositories overall.
+- Trends: clusters generated from the top Today and Week repository snapshots.
 
 Account scores:
 
@@ -138,10 +160,34 @@ Build semantic search documents and embeddings:
 npm run build:semantic-index
 ```
 
+Run a larger semantic backfill:
+
+```bash
+npm run backfill:semantic-index
+```
+
+Report semantic coverage:
+
+```bash
+npm run report:semantic-coverage
+```
+
+Export semantic dashboard data:
+
+```bash
+npm run export:semantic-dashboard
+```
+
 Build leaderboard snapshots:
 
 ```bash
 npm run build:snapshots
+```
+
+Build trend clusters:
+
+```bash
+npm run build:trends
 ```
 
 Refresh enriched all-time accounts:
@@ -178,9 +224,12 @@ Search behavior:
 
 - Queries shorter than 3 characters use normal keyword filtering.
 - Longer queries call the semantic endpoint.
-- Default semantic ordering is relevance.
-- Clicking Stars, Forks, or Repos sorts within the semantic match pool.
+- Active semantic searches default to star-sorted semantic matches.
+- Clicking Stars, Forks, or Repos sorts within the semantic match pool, with semantic score used as a tie-breaker by the repository queries.
 - Keyword-only fallback rows are appended after semantic rows when available.
+- Repository and account results are filtered for unsafe metadata before display.
+
+The semantic backfill workflow records build and backfill runs in `ingestion_runs`, records quality rejections in `repository_semantic_rejections`, and exports dashboard data to `data/semantic-dashboard.json`.
 
 Deploy the Supabase Edge Function with:
 
@@ -205,6 +254,27 @@ STARBOARD_ALLOWED_ORIGIN=https://richling98.github.io,https://starboard-xi.verce
 ```
 
 The function embeds the user query server-side, calls the `match_semantic_repositories` RPC, and returns matching repository or account rows for the active period.
+
+## Trends
+
+`npm run build:trends` reads `data/leaderboards/repositories-today.json` and `data/leaderboards/repositories-week.json`, deduplicates the top repositories, and writes `data/leaderboards/trends.json`.
+
+Trend generation uses `OPENAI_API_KEY` or `STARBOARD_OPENAI_API_KEY` when available. If the model call fails or no API key is configured, the script falls back to heuristic trend buckets.
+
+Useful environment variables:
+
+```bash
+STARBOARD_TREND_MODEL=gpt-5.4-mini
+STARBOARD_TREND_REQUEST_TIMEOUT_MS=20000
+```
+
+## Quality Gates
+
+Repository discovery stores an English-script heuristic status using GitHub descriptions and README text. Repositories whose README or description are predominantly Chinese, Japanese, Korean, Cyrillic, Arabic, Hebrew, Devanagari, or Thai are rejected from snapshots. Repository discovery, semantic indexing, database queries, and the browser UI also filter spam and unsafe-content metadata keywords before those repositories are shown or embedded.
+
+## Font Attribution
+
+The `STARBOARD` hero uses a local Fira Mono regular font file. Fira Mono is distributed under the SIL Open Font License. The hero wordmark is static ASCII art rendered with layered `<pre>` blocks.
 
 ## Deployment
 
@@ -236,7 +306,13 @@ https://starboard-xi.vercel.app
 
 ### GitHub Pages
 
-The repository also includes `.github/workflows/starboard-index.yml`.
+The app is also usable as static files on GitHub Pages:
+
+```text
+https://richling98.github.io/starboard/
+```
+
+The repository includes `.github/workflows/starboard-index.yml` and `.github/workflows/starboard-semantic-backfill.yml`.
 
 Required GitHub repository secrets:
 
@@ -246,7 +322,7 @@ STARBOARD_DATABASE_URL=your_supabase_postgres_uri
 STARBOARD_OPENAI_API_KEY=your_openai_api_key
 ```
 
-Scheduled and manual workflow runs perform the full refresh path:
+`starboard-index.yml` runs on `push`, on a schedule every 6 hours, and manually. Scheduled and manual runs perform the full refresh path and commit generated leaderboard data:
 
 ```bash
 npm run setup:db
@@ -256,15 +332,9 @@ npm run build:semantic-index
 npm run refresh:all-time-accounts
 npm run build:snapshots
 npm run export:static-data
-npm run build:pages
+npm run build:trends
 ```
 
-Push-triggered workflow runs skip the heavy discovery, semantic indexing, account refresh, and snapshot rebuild steps so UI-only changes can deploy quickly.
+On `push`, the same workflow runs schema setup and static-data export, but skips the heavy GitHub/OpenAI refresh steps and generated-data commit.
 
-## Quality Gates
-
-Repository discovery stores an English-script heuristic status using the GitHub description and README text. Repositories whose README or description are predominantly Chinese, Japanese, Korean, Cyrillic, Arabic, Hebrew, Devanagari, or Thai are rejected from snapshots. This keeps the discovery feed focused on English-language projects without rejecting incidental non-English characters.
-
-## Font Attribution
-
-The `STARBOARD` hero uses a local Fira Mono regular font file. Fira Mono is distributed under the SIL Open Font License. The hero wordmark is static ANSI Shadow-style ASCII art rendered with layered `<pre>` blocks.
+`starboard-semantic-backfill.yml` runs on a separate schedule every 6 hours and manually. It backfills semantic embeddings, reports coverage, exports `data/semantic-dashboard.json`, refreshes static leaderboard data, builds the static artifact, and commits generated dashboard data.
