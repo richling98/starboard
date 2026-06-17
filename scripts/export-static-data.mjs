@@ -1,8 +1,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { closePool, readLeaderboardSnapshot } from "../db.mjs";
-import { loadLocalEnv } from "../backend-cache.mjs";
+import { closePool, readLeaderboardSnapshot } from "../src/db.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");

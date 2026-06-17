@@ -5,6 +5,7 @@ const OPENAI_EMBEDDINGS_URL = "https://api.openai.com/v1/embeddings";
 const MODEL = Deno.env.get("STARBOARD_EMBEDDING_MODEL") || "text-embedding-3-small";
 const DIMENSIONS = Number(Deno.env.get("STARBOARD_EMBEDDING_DIMENSIONS") || "1024");
 const DEFAULT_ALLOWED_ORIGINS = [
+  "https://starboard.place",
   "https://richling98.github.io",
   "https://starboard-xi.vercel.app"
 ];

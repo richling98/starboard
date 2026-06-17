@@ -1,14 +1,14 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadLocalEnv } from "../backend-cache.mjs";
-import { closePool, readSemanticCoverageSummary } from "../db.mjs";
-import { embeddingModel } from "../embeddings.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
+import { closePool, readSemanticCoverageSummary } from "../src/db.mjs";
+import { embeddingModel } from "../src/embeddings.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const outputPath = process.env.STARBOARD_SEMANTIC_DASHBOARD_PATH || "data/semantic-dashboard.json";
-const planPath = path.join(root, "SEMANTIC_CRON_BACKFILL_PLAN.md");
+const planPath = path.join(root, "docs", "plans", "SEMANTIC_CRON_BACKFILL_PLAN.md");
 
 loadLocalEnv();
 
@@ -28,7 +28,7 @@ try {
     rejectionsByReason: summary.rejectionsByReason,
     knownIssues: knownIssuesFromRuns(summary.recentRuns),
     plan: {
-      source: "SEMANTIC_CRON_BACKFILL_PLAN.md",
+      source: "docs/plans/SEMANTIC_CRON_BACKFILL_PLAN.md",
       checklist: await readPlanChecklist()
     }
   };

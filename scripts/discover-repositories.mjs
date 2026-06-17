@@ -6,15 +6,15 @@ import {
   seedDefaultDiscoveryQueries,
   startIngestionRun,
   upsertRepositories
-} from "../db.mjs";
+} from "../src/db.mjs";
 import {
   GITHUB_FETCH_PAGE_SIZE,
   MAX_GITHUB_PAGE,
   SEARCH_REQUEST_SPACING_MS,
   loadLocalEnv
-} from "../backend-cache.mjs";
-import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../language-gate.mjs";
-import { containsUnsafeRepositoryContent } from "../quality-filter.mjs";
+} from "../src/backend-cache.mjs";
+import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../src/language-gate.mjs";
+import { containsUnsafeRepositoryContent } from "../src/quality-filter.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const args = parseArgs(process.argv.slice(2));

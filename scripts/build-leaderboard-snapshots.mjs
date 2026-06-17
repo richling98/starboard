@@ -5,8 +5,8 @@ import {
   refreshAccountRollupsFromRepositories,
   startIngestionRun,
   writeLeaderboardSnapshot
-} from "../db.mjs";
-import { loadLocalEnv } from "../backend-cache.mjs";
+} from "../src/db.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
 
 loadLocalEnv();
 

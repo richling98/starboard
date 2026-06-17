@@ -4,8 +4,9 @@ Starboard is a GitHub discovery dashboard for finding notable open source reposi
 
 Production:
 
-- Vercel: `https://starboard-xi.vercel.app`
-- GitHub Pages: `https://richling98.github.io/starboard/`
+- Primary: `https://starboard.place`
+- Vercel fallback: `https://starboard-xi.vercel.app`
+- GitHub Pages fallback: `https://richling98.github.io/starboard/`
 - Semantic backfill dashboard: `/semantic-dashboard.html`
 
 ## Features
@@ -34,14 +35,25 @@ Production:
 
 ## How It Works
 
-The browser app is static and is built from:
+The repository is organized around a small set of purpose-specific folders:
 
-- `index.html`
-- `styles.css`
-- `app.js`
-- `semantic-dashboard.html`
-- `semantic-dashboard.css`
-- `semantic-dashboard.js`
+- `public/`: static browser app files copied into `dist/`.
+- `src/`: shared Node modules for database, cache, embedding, search, and filtering logic.
+- `scripts/`: operational indexing, export, backfill, and build scripts.
+- `data/`: generated leaderboard and semantic dashboard JSON used by static deployments.
+- `docs/plans/`: project planning and implementation notes.
+- `supabase/functions/`: deployed Supabase Edge Functions.
+
+The root `README.md` is the only Markdown file kept outside `docs/` so GitHub renders the project overview.
+
+The browser app is static and is built from `public/`:
+
+- `public/index.html`
+- `public/styles.css`
+- `public/app.js`
+- `public/semantic-dashboard.html`
+- `public/semantic-dashboard.css`
+- `public/semantic-dashboard.js`
 
 For local development, `server.mjs` provides:
 
@@ -247,10 +259,10 @@ STARBOARD_EMBEDDING_MODEL
 STARBOARD_EMBEDDING_DIMENSIONS
 ```
 
-`STARBOARD_ALLOWED_ORIGIN` accepts a comma-separated allowlist. Include both hosted origins when both deployments are active:
+`STARBOARD_ALLOWED_ORIGIN` accepts a comma-separated allowlist. Include each hosted origin when multiple deployments are active:
 
 ```bash
-STARBOARD_ALLOWED_ORIGIN=https://richling98.github.io,https://starboard-xi.vercel.app
+STARBOARD_ALLOWED_ORIGIN=https://starboard.place,https://starboard-xi.vercel.app,https://richling98.github.io
 ```
 
 The function embeds the user query server-side, calls the `match_semantic_repositories` RPC, and returns matching repository or account rows for the active period.
@@ -298,7 +310,13 @@ Deploy from the repo root:
 npm exec --yes vercel -- deploy --prod
 ```
 
-The current production alias is:
+The primary production domain is:
+
+```text
+https://starboard.place
+```
+
+The Vercel fallback alias is:
 
 ```text
 https://starboard-xi.vercel.app

@@ -1,5 +1,5 @@
-import { loadLocalEnv } from "../backend-cache.mjs";
-import { createEmbeddings, embeddingDimensions, embeddingModel } from "../embeddings.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
+import { createEmbeddings, embeddingDimensions, embeddingModel } from "../src/embeddings.mjs";
 import {
   closePool,
   finishIngestionRun,
@@ -8,9 +8,9 @@ import {
   upsertRepositoryEmbedding,
   upsertRepositorySemanticRejection,
   upsertRepositorySearchDocument
-} from "../db.mjs";
-import { buildRepositorySearchDocument, cleanMarkdownForSearch } from "../search-document.mjs";
-import { evaluateRepositoryQuality } from "../quality-filter.mjs";
+} from "../src/db.mjs";
+import { buildRepositorySearchDocument, cleanMarkdownForSearch } from "../src/search-document.mjs";
+import { evaluateRepositoryQuality } from "../src/quality-filter.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const EMBEDDING_COST_PER_1M_TOKENS_USD = 0.02;

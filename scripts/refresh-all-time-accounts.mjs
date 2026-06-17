@@ -2,7 +2,7 @@ import {
   DEFAULT_SEED_PAGES,
   loadLocalEnv,
   refreshAllTimeAccounts
-} from "../backend-cache.mjs";
+} from "../src/backend-cache.mjs";
 
 loadLocalEnv();
 

@@ -1,6 +1,6 @@
-import { closePool, getPool } from "../db.mjs";
-import { loadLocalEnv } from "../backend-cache.mjs";
-import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../language-gate.mjs";
+import { closePool, getPool } from "../src/db.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
+import { assessEnglishContent, cleanMarkdownForLanguageCheck } from "../src/language-gate.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const args = parseArgs(process.argv.slice(2));

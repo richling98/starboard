@@ -1,5 +1,5 @@
-import { closePool, ensureSchema, seedDefaultDiscoveryQueries } from "../db.mjs";
-import { loadLocalEnv } from "../backend-cache.mjs";
+import { closePool, ensureSchema, seedDefaultDiscoveryQueries } from "../src/db.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
 
 loadLocalEnv();
 

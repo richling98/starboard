@@ -6,17 +6,20 @@ import {
   getAllTimeAccountRows,
   loadLocalEnv,
   readAllTimeAccountsCache
-} from "./backend-cache.mjs";
+} from "./src/backend-cache.mjs";
 import {
   getCacheStatus,
   hasDatabaseUrl,
   readAllTimeAccountsFromDb,
   readLeaderboardSnapshot
-} from "./db.mjs";
-import { runSemanticSearch } from "./semantic-search.mjs";
+} from "./src/db.mjs";
+import { runSemanticSearch } from "./src/semantic-search.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const publicRoot = path.join(__dirname, "public");
+const dataRoot = path.join(__dirname, "data");
 const PORT = Number(process.env.PORT || 4176);
+const HOST = process.env.HOST || "127.0.0.1";
 const GITHUB_API = "https://api.github.com";
 const MIME_TYPES = {
   ".css": "text/css; charset=utf-8",
@@ -67,8 +70,8 @@ const server = createServer(async (request, response) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`Starboard running at http://127.0.0.1:${PORT}`);
+server.listen(PORT, HOST, () => {
+  console.log(`Starboard running at http://${HOST}:${PORT}`);
   console.log(process.env.GITHUB_TOKEN ? "GitHub token loaded from environment." : "GITHUB_TOKEN is missing.");
 });
 
@@ -198,9 +201,10 @@ async function readJsonBody(request) {
 async function serveStatic(requestUrl, response) {
   const pathname = requestUrl.pathname === "/" ? "/index.html" : decodeURIComponent(requestUrl.pathname);
   const normalized = path.normalize(pathname).replace(/^(\.\.[/\\])+/, "");
-  const filePath = path.join(__dirname, normalized);
+  const root = normalized.startsWith("/data/") ? dataRoot : publicRoot;
+  const filePath = path.join(root, normalized.startsWith("/data/") ? normalized.replace(/^\/data/, "") : normalized);
 
-  if (!filePath.startsWith(__dirname)) {
+  if (!filePath.startsWith(root)) {
     response.writeHead(403, { "content-type": "text/plain; charset=utf-8" });
     response.end("Forbidden");
     return;

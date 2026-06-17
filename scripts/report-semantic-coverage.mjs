@@ -1,6 +1,6 @@
-import { loadLocalEnv } from "../backend-cache.mjs";
-import { closePool, readSemanticCoverageSummary } from "../db.mjs";
-import { embeddingModel } from "../embeddings.mjs";
+import { loadLocalEnv } from "../src/backend-cache.mjs";
+import { closePool, readSemanticCoverageSummary } from "../src/db.mjs";
+import { embeddingModel } from "../src/embeddings.mjs";
 
 loadLocalEnv();
 

@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
-import { ALL_TIME_ACCOUNTS_PATH, loadLocalEnv } from "../backend-cache.mjs";
-import { closePool, upsertAccountSummary } from "../db.mjs";
+import { ALL_TIME_ACCOUNTS_PATH, loadLocalEnv } from "../src/backend-cache.mjs";
+import { closePool, upsertAccountSummary } from "../src/db.mjs";
 
 loadLocalEnv();
 

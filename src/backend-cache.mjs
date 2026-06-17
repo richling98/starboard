@@ -11,8 +11,9 @@ import {
 import { containsUnsafeRepositoryContent } from "./quality-filter.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const root = path.join(__dirname, "..");
 const GITHUB_API = "https://api.github.com";
-const CACHE_DIR = path.join(__dirname, ".cache");
+const CACHE_DIR = path.join(root, ".cache");
 const ALL_TIME_ACCOUNTS_PATH = path.join(CACHE_DIR, "all-time-accounts.json");
 const GITHUB_SEARCH_RESULT_CAP = 1000;
 const GITHUB_FETCH_PAGE_SIZE = 100;
@@ -31,7 +32,7 @@ export {
 };
 
 export function loadLocalEnv() {
-  [".env.local", ".supabase-secrets.local"].forEach((fileName) => loadEnvFile(path.join(__dirname, fileName)));
+  [".env.local", ".supabase-secrets.local"].forEach((fileName) => loadEnvFile(path.join(root, fileName)));
 }
 
 function loadEnvFile(envPath) {
