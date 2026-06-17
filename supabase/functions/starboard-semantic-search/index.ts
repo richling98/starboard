@@ -4,6 +4,10 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.4";
 const OPENAI_EMBEDDINGS_URL = "https://api.openai.com/v1/embeddings";
 const MODEL = Deno.env.get("STARBOARD_EMBEDDING_MODEL") || "text-embedding-3-small";
 const DIMENSIONS = Number(Deno.env.get("STARBOARD_EMBEDDING_DIMENSIONS") || "1024");
+const MAX_QUERY_CHARS = Number(Deno.env.get("STARBOARD_MAX_QUERY_CHARS") || "300");
+const MAX_BODY_BYTES = Number(Deno.env.get("STARBOARD_MAX_BODY_BYTES") || "4096");
+const RATE_LIMIT_WINDOW_MS = Number(Deno.env.get("STARBOARD_RATE_LIMIT_WINDOW_MS") || "60000");
+const RATE_LIMIT_MAX_REQUESTS = Number(Deno.env.get("STARBOARD_RATE_LIMIT_MAX_REQUESTS") || "60");
 const DEFAULT_ALLOWED_ORIGINS = [
   "https://starboard.place",
   "https://richling98.github.io",
@@ -13,14 +17,20 @@ const ALLOWED_ORIGINS = (Deno.env.get("STARBOARD_ALLOWED_ORIGIN") || DEFAULT_ALL
   .split(",")
   .map((origin) => origin.trim())
   .filter(Boolean);
+const rateLimitBuckets = new Map<string, { windowStartedAt: number; count: number }>();
 
 serve(async (request) => {
-  const corsHeaders = {
-    "access-control-allow-origin": allowedOrigin(request),
+  const requestOrigin = request.headers.get("origin");
+  const corsHeaders = requestOrigin && ALLOWED_ORIGINS.includes(requestOrigin) ? {
+    "access-control-allow-origin": requestOrigin,
     "access-control-allow-methods": "POST, OPTIONS",
-    "access-control-allow-headers": "authorization, x-client-info, apikey, content-type",
+    "access-control-allow-headers": "content-type",
     "content-type": "application/json; charset=utf-8"
-  };
+  } : { "content-type": "application/json; charset=utf-8" };
+
+  if (!requestOrigin || !ALLOWED_ORIGINS.includes(requestOrigin)) {
+    return json({ error: "Origin not allowed." }, 403, corsHeaders);
+  }
 
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: corsHeaders });
@@ -31,10 +41,22 @@ serve(async (request) => {
   }
 
   try {
+    const contentLength = Number(request.headers.get("content-length") || "0");
+    if (contentLength > MAX_BODY_BYTES) {
+      return json({ error: "Request body too large." }, 413, corsHeaders);
+    }
+
+    if (!checkRateLimit(clientKey(request))) {
+      return json({ error: "Too many requests." }, 429, corsHeaders);
+    }
+
     const payload = await request.json().catch(() => ({}));
     const query = String(payload.query || "").trim();
     if (query.length < 3) {
       return json({ mode: "semantic", query, rows: [], total: 0 }, 200, corsHeaders);
+    }
+    if (query.length > MAX_QUERY_CHARS) {
+      return json({ error: `Query must be ${MAX_QUERY_CHARS} characters or fewer.` }, 400, corsHeaders);
     }
 
     const period = normalize(payload.period, ["today", "week", "month", "all"], "all");
@@ -79,7 +101,8 @@ serve(async (request) => {
       rows: rows.map((row, index) => ({ ...row, rank: offset + index + 1 }))
     }, 200, corsHeaders);
   } catch (error) {
-    return json({ error: error.message || "Semantic search failed." }, 500, corsHeaders);
+    console.error(error);
+    return json({ error: "Semantic search failed." }, 500, corsHeaders);
   }
 });
 
@@ -211,10 +234,20 @@ function requiredEnv(name: string) {
   return value;
 }
 
-function allowedOrigin(request: Request) {
-  const origin = request.headers.get("origin");
-  if (!origin) return ALLOWED_ORIGINS[0];
-  return ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+function clientKey(request: Request) {
+  const forwardedFor = request.headers.get("x-forwarded-for") || "";
+  return forwardedFor.split(",")[0].trim() || "unknown";
+}
+
+function checkRateLimit(key: string) {
+  const now = Date.now();
+  const current = rateLimitBuckets.get(key);
+  if (!current || now - current.windowStartedAt > RATE_LIMIT_WINDOW_MS) {
+    rateLimitBuckets.set(key, { windowStartedAt: now, count: 1 });
+    return true;
+  }
+  current.count += 1;
+  return current.count <= RATE_LIMIT_MAX_REQUESTS;
 }
 
 function json(payload: Record<string, unknown>, status: number, headers: HeadersInit) {
