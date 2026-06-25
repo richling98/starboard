@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-24T19:12:46.829Z",
-  "total": 4,
+  "generatedAt": "2026-06-25T01:24:52.713Z",
+  "total": 5,
   "totalIndexedCount": 21,
-  "coverageLabel": "Showing 4 trends from the top 20 today and week repositories.",
+  "coverageLabel": "Showing 5 trends from the top 20 today and week repositories.",
   "metadata": {
     "generatedBy": "scripts/build-trends.mjs",
     "mode": "llm",
     "model": "gpt-5.4-mini",
-    "sourceHash": "c89774f7f7eacffd",
+    "sourceHash": "ee29617fedeec789",
     "sourcePeriods": [
       "today",
       "week"
@@ -18,21 +18,21 @@
   },
   "rows": [
     {
-      "id": "pdf-ocr-and-document-parsing-automation",
-      "name": "PDF, OCR, and document parsing automation",
-      "description": "Several repos focus on extracting, transforming, or simulating document workflows, especially OCR and PDF handling at scale.",
-      "stars": 6747,
-      "forks": 725,
-      "repoCount": 3,
+      "id": "ocr-and-document-parsing",
+      "name": "OCR and document parsing",
+      "description": "There is strong interest in extracting structured information from documents and turning PDFs into more machine-readable or scanned-like formats.",
+      "stars": 6847,
+      "forks": 521,
+      "repoCount": 2,
       "repos": [
         {
           "id": "1273138090",
           "fork": false,
           "name": "Unlimited-OCR",
           "rank": 1,
-          "forks": 471,
+          "forks": 502,
           "owner": "baidu",
-          "stars": 6109,
+          "stars": 6447,
           "avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
           "topics": [],
           "ownerId": "13245940",
@@ -44,7 +44,7 @@
           "pushedAt": "2026-06-24T12:50:42.000Z",
           "createdAt": "2026-06-18T08:40:15.000Z",
           "ownerType": "Organization",
-          "updatedAt": "2026-06-24T19:02:50.000Z",
+          "updatedAt": "2026-06-25T01:22:03.000Z",
           "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
           "defaultBranch": "main",
           "sourcePeriods": [
@@ -81,43 +81,169 @@
           "sourcePeriods": [
             "week"
           ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "gaming-and-simulation-mods-tools",
+      "name": "Gaming and simulation mods/tools",
+      "description": "A cluster of repositories targets game modding, performance tooling, and simulation-related utilities for specific titles and platforms.",
+      "stars": 3274,
+      "forks": 251,
+      "repoCount": 4,
+      "repos": [
+        {
+          "id": "1273536446",
+          "fork": false,
+          "name": "Cowart",
+          "rank": 2,
+          "forks": 208,
+          "owner": "zhongerxin",
+          "stars": 2650,
+          "avatar": "https://avatars.githubusercontent.com/u/8215057?v=4",
+          "topics": [],
+          "ownerId": "8215057",
+          "repoUrl": "https://github.com/zhongerxin/Cowart",
+          "archived": false,
+          "fullName": "zhongerxin/Cowart",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/zhongerxin",
+          "pushedAt": "2026-06-24T19:02:18.000Z",
+          "createdAt": "2026-06-18T16:08:30.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-06-25T01:09:44.000Z",
+          "description": "",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
         },
         {
-          "id": "1275299163",
+          "id": "1276955862",
           "fork": false,
-          "name": "FUNCAPTCHAV3",
-          "rank": 16,
-          "forks": 235,
-          "owner": "clent267",
-          "stars": 238,
-          "avatar": "https://avatars.githubusercontent.com/u/138356434?v=4",
+          "name": "CWR",
+          "rank": 17,
+          "forks": 43,
+          "owner": "BohemiaInteractive",
+          "stars": 234,
+          "avatar": "https://avatars.githubusercontent.com/u/25146849?v=4",
           "topics": [],
-          "ownerId": "138356434",
-          "repoUrl": "https://github.com/clent267/FUNCAPTCHAV3",
+          "ownerId": "25146849",
+          "repoUrl": "https://github.com/BohemiaInteractive/CWR",
           "archived": false,
-          "fullName": "clent267/FUNCAPTCHAV3",
-          "language": "Python",
-          "ownerUrl": "https://github.com/clent267",
-          "pushedAt": "2026-06-20T15:35:03.000Z",
-          "createdAt": "2026-06-20T14:06:37.000Z",
+          "fullName": "BohemiaInteractive/CWR",
+          "language": "C++",
+          "ownerUrl": "https://github.com/BohemiaInteractive",
+          "pushedAt": "2026-06-22T13:50:29.000Z",
+          "createdAt": "2026-06-22T12:56:54.000Z",
+          "ownerType": "Organization",
+          "updatedAt": "2026-06-24T18:36:37.000Z",
+          "description": "Arma: Cold War Assault Remastered Source Code Repository.",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1277670563",
+          "fork": false,
+          "name": "Lossless-Scaling-Download-2026",
+          "rank": 19,
+          "forks": 0,
+          "owner": "pulsewarriorrank",
+          "stars": 197,
+          "avatar": "https://avatars.githubusercontent.com/u/279161984?v=4",
+          "topics": [
+            "crimson-desert-lsfg",
+            "frame-generation",
+            "gaming-performance",
+            "lossless-scaling",
+            "lossless-scaling-2026",
+            "lossless-scaling-download",
+            "lossless-scaling-github",
+            "lossless-scaling-isfg",
+            "lossless-scaling-lsfg",
+            "lossless-scaling-pc",
+            "lossless-scaling-reddit",
+            "lossless-scaling-software",
+            "lossless-scaling-steam",
+            "lossless-scaling-v3",
+            "lsfg",
+            "lsfg-ai-upscaling",
+            "lsfg-vk",
+            "smooth-gaming",
+            "upscale-tool"
+          ],
+          "ownerId": "279161984",
+          "repoUrl": "https://github.com/pulsewarriorrank/Lossless-Scaling-Download-2026",
+          "archived": false,
+          "fullName": "pulsewarriorrank/Lossless-Scaling-Download-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/pulsewarriorrank",
+          "pushedAt": "2026-06-23T10:01:05.000Z",
+          "createdAt": "2026-06-23T05:06:24.000Z",
           "ownerType": "User",
-          "updatedAt": "2026-06-22T02:34:44.000Z",
-          "description": "",
+          "updatedAt": "2026-06-23T10:01:23.000Z",
+          "description": "⭐️ Lossless Scaling download full version pre-activated keygen patch activator lifetime license upscaling tool frame generation gaming performance enhancer resolution scaling graphics optimization Windows PC installer loader mod software ⭐️",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1274577986",
+          "fork": false,
+          "name": "satisfactory-mod-manager",
+          "rank": 20,
+          "forks": 0,
+          "owner": "Firewalkeroffear",
+          "stars": 193,
+          "avatar": "https://avatars.githubusercontent.com/u/25168518?v=4",
+          "topics": [
+            "2-sat",
+            "dedicated-server-deployment",
+            "ficsit",
+            "ficsit-app",
+            "gui",
+            "mod-manager",
+            "satisfactory",
+            "satisfactory-bot",
+            "satisfactory-community",
+            "satisfactory-dedicated-server",
+            "satisfactory-game",
+            "satisfactory-mod-manager",
+            "satisfactory-mods",
+            "satisfactory-video-game",
+            "satisfactorygame",
+            "smm-ficsit-app"
+          ],
+          "ownerId": "25168518",
+          "repoUrl": "https://github.com/Firewalkeroffear/satisfactory-mod-manager",
+          "archived": false,
+          "fullName": "Firewalkeroffear/satisfactory-mod-manager",
+          "language": "C++",
+          "ownerUrl": "https://github.com/Firewalkeroffear",
+          "pushedAt": "2026-06-19T17:06:15.000Z",
+          "createdAt": "2026-06-19T16:57:30.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-06-23T03:50:56.000Z",
+          "description": "satisfactory mod manager ficsit smm satisfactory mods github mod installer load order profile manager plugins dependencies game modding coffee stain studios desktop utility pc gaming factory simulation automation blueprint organizer clean build stable version modpack manager satisfactory calculator unreal engine modding game launcher update checker",
           "defaultBranch": "main",
           "sourcePeriods": [
             "week"
           ]
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "ai-agent-workflows-and-memory",
       "name": "AI agent workflows and memory",
-      "description": "Repositories are centering on building, training, and coordinating AI agents with persistent memory, workflow loops, and workspace-style collaboration.",
-      "stars": 2397,
-      "forks": 148,
-      "repoCount": 6,
+      "description": "Repositories are focused on building, evaluating, and orchestrating agentic systems with loops, apprenticeship, memory, and workspace coordination.",
+      "stars": 3128,
+      "forks": 204,
+      "repoCount": 7,
       "repos": [
         {
           "id": "1274547830",
@@ -126,7 +252,7 @@
           "rank": 3,
           "forks": 46,
           "owner": "Forsy-AI",
-          "stars": 900,
+          "stars": 908,
           "avatar": "https://avatars.githubusercontent.com/u/273874842?v=4",
           "topics": [
             "agent-apprenticeship",
@@ -159,8 +285,34 @@
           "pushedAt": "2026-06-24T15:29:11.000Z",
           "createdAt": "2026-06-19T16:19:37.000Z",
           "ownerType": "Organization",
-          "updatedAt": "2026-06-24T19:03:20.000Z",
+          "updatedAt": "2026-06-25T01:02:57.000Z",
           "description": "The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1273427276",
+          "fork": false,
+          "name": "security-audit-skill",
+          "rank": 6,
+          "forks": 56,
+          "owner": "cloudflare",
+          "stars": 723,
+          "avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
+          "topics": [],
+          "ownerId": "314135",
+          "repoUrl": "https://github.com/cloudflare/security-audit-skill",
+          "archived": false,
+          "fullName": "cloudflare/security-audit-skill",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/cloudflare",
+          "pushedAt": "2026-06-18T16:21:39.000Z",
+          "createdAt": "2026-06-18T14:08:44.000Z",
+          "ownerType": "Organization",
+          "updatedAt": "2026-06-25T01:18:55.000Z",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
           "defaultBranch": "main",
           "sourcePeriods": [
             "week"
@@ -326,42 +478,16 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
-      "id": "llm-access-evaluation-and-safety-tooling",
-      "name": "LLM access, evaluation, and safety tooling",
-      "description": "There is strong activity around tools for accessing LLMs, evaluating agent performance, and auditing agent behavior and security.",
-      "stars": 1495,
-      "forks": 286,
-      "repoCount": 3,
+      "id": "model-access-and-local-ai-tooling",
+      "name": "Model access and local AI tooling",
+      "description": "Several projects wrap, redistribute, or run LLMs locally and expose them through APIs, desktop apps, or offline-first helpers.",
+      "stars": 837,
+      "forks": 232,
+      "repoCount": 2,
       "repos": [
-        {
-          "id": "1273427276",
-          "fork": false,
-          "name": "security-audit-skill",
-          "rank": 6,
-          "forks": 54,
-          "owner": "cloudflare",
-          "stars": 658,
-          "avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
-          "topics": [],
-          "ownerId": "314135",
-          "repoUrl": "https://github.com/cloudflare/security-audit-skill",
-          "archived": false,
-          "fullName": "cloudflare/security-audit-skill",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/cloudflare",
-          "pushedAt": "2026-06-18T16:21:39.000Z",
-          "createdAt": "2026-06-18T14:08:44.000Z",
-          "ownerType": "Organization",
-          "updatedAt": "2026-06-24T18:54:21.000Z",
-          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
         {
           "id": "1274399536",
           "fork": false,
@@ -442,12 +568,12 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
-      "id": "trading-betting-and-market-automation",
-      "name": "Trading, betting, and market automation",
-      "description": "A cluster of repos targets automated financial or prediction-market workflows, including arbitrage, copy trading, and sportsbook platforms.",
+      "id": "trading-and-betting-automation",
+      "name": "Trading and betting automation",
+      "description": "Repositories in this trend automate speculative markets and sports betting workflows, from copy trading and arbitrage to crypto sportsbook apps.",
       "stars": 741,
       "forks": 2011,
       "repoCount": 2,
@@ -540,7 +666,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
