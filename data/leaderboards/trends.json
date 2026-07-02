@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-02T14:49:38.580Z",
-  "total": 5,
-  "totalIndexedCount": 21,
-  "coverageLabel": "Showing 5 trends from the top 20 today and week repositories.",
+  "generatedAt": "2026-07-02T20:03:40.829Z",
+  "total": 4,
+  "totalIndexedCount": 20,
+  "coverageLabel": "Showing 4 trends from the top 20 today and week repositories.",
   "metadata": {
     "generatedBy": "scripts/build-trends.mjs",
     "mode": "llm",
     "model": "gpt-5.4-mini",
-    "sourceHash": "1cc10e85aa11ed17",
+    "sourceHash": "89934416ce080bbd",
     "sourcePeriods": [
       "today",
       "week"
@@ -18,11 +18,11 @@
   },
   "rows": [
     {
-      "id": "ai-model-and-media-generation-platforms",
-      "name": "AI model and media generation platforms",
-      "description": "Several projects focus on building end-to-end platforms for generating images, video, or model inference with production-oriented tooling.",
-      "stars": 6822,
-      "forks": 534,
+      "id": "ai-app-and-model-platforms",
+      "name": "AI app and model platforms",
+      "description": "New projects focus on building end-user AI platforms, from image/video generation to digital humans and speculative decoding infrastructure.",
+      "stars": 6620,
+      "forks": 740,
       "repoCount": 3,
       "repos": [
         {
@@ -30,9 +30,9 @@
           "fork": false,
           "name": "DeepSpec",
           "rank": 1,
-          "forks": 474,
+          "forks": 479,
           "owner": "deepseek-ai",
-          "stars": 5842,
+          "stars": 5860,
           "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
           "topics": [],
           "ownerId": "148330874",
@@ -44,34 +44,8 @@
           "pushedAt": "2026-06-30T06:42:21.000Z",
           "createdAt": "2026-06-26T12:36:05.000Z",
           "ownerType": "Organization",
-          "updatedAt": "2026-07-02T14:36:42.000Z",
+          "updatedAt": "2026-07-02T19:42:26.000Z",
           "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1281772914",
-          "fork": false,
-          "name": "OpenRAM",
-          "rank": 6,
-          "forks": 3,
-          "owner": "tryOpenRAM",
-          "stars": 554,
-          "avatar": "https://avatars.githubusercontent.com/u/6333631?v=4",
-          "topics": [],
-          "ownerId": "6333631",
-          "repoUrl": "https://github.com/tryOpenRAM/OpenRAM",
-          "archived": false,
-          "fullName": "tryOpenRAM/OpenRAM",
-          "language": "Vue",
-          "ownerUrl": "https://github.com/tryOpenRAM",
-          "pushedAt": "2026-07-02T06:08:39.000Z",
-          "createdAt": "2026-06-26T22:59:46.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T14:31:41.000Z",
-          "description": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
           "defaultBranch": "main",
           "sourcePeriods": [
             "week"
@@ -82,9 +56,9 @@
           "fork": false,
           "name": "leronx",
           "rank": 13,
-          "forks": 57,
+          "forks": 58,
           "owner": "Leron-X",
-          "stars": 426,
+          "stars": 428,
           "avatar": "https://avatars.githubusercontent.com/u/287681425?v=4",
           "topics": [],
           "ownerId": "287681425",
@@ -96,248 +70,8 @@
           "pushedAt": "2026-07-01T12:05:20.000Z",
           "createdAt": "2026-06-26T08:05:42.000Z",
           "ownerType": "User",
-          "updatedAt": "2026-07-02T14:27:00.000Z",
+          "updatedAt": "2026-07-02T16:31:15.000Z",
           "description": "LeronX — AI Image & Video Generation Platform",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "ai-agent-workflows-and-skill-packaging",
-      "name": "AI agent workflows and skill packaging",
-      "description": "Many of the fastest-moving repos are packaging reusable skills, instructions, and environment access for coding agents and autonomous assistants.",
-      "stars": 3742,
-      "forks": 327,
-      "repoCount": 7,
-      "repos": [
-        {
-          "id": "1283308335",
-          "fork": false,
-          "name": "self-learning-skills",
-          "rank": 3,
-          "forks": 12,
-          "owner": "Kulaxyz",
-          "stars": 862,
-          "avatar": "https://avatars.githubusercontent.com/u/47082676?v=4",
-          "topics": [],
-          "ownerId": "47082676",
-          "repoUrl": "https://github.com/Kulaxyz/self-learning-skills",
-          "archived": false,
-          "fullName": "Kulaxyz/self-learning-skills",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Kulaxyz",
-          "pushedAt": "2026-07-01T03:41:29.000Z",
-          "createdAt": "2026-06-28T19:30:36.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T14:29:28.000Z",
-          "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1284538699",
-          "fork": false,
-          "name": "Fundamental-Ava",
-          "rank": 4,
-          "forks": 72,
-          "owner": "TianhangZhuzth",
-          "stars": 744,
-          "avatar": "https://avatars.githubusercontent.com/u/219875975?v=4",
-          "topics": [
-            "ai",
-            "ai-agents"
-          ],
-          "ownerId": "219875975",
-          "repoUrl": "https://github.com/TianhangZhuzth/Fundamental-Ava",
-          "archived": false,
-          "fullName": "TianhangZhuzth/Fundamental-Ava",
-          "language": "Python",
-          "ownerUrl": "https://github.com/TianhangZhuzth",
-          "pushedAt": "2026-07-01T15:46:26.000Z",
-          "createdAt": "2026-06-30T01:04:13.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T14:38:41.000Z",
-          "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1280984042",
-          "fork": false,
-          "name": "video-production-skills",
-          "rank": 8,
-          "forks": 59,
-          "owner": "Pluviobyte",
-          "stars": 496,
-          "avatar": "https://avatars.githubusercontent.com/u/94058511?v=4",
-          "topics": [],
-          "ownerId": "94058511",
-          "repoUrl": "https://github.com/Pluviobyte/video-production-skills",
-          "archived": false,
-          "fullName": "Pluviobyte/video-production-skills",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Pluviobyte",
-          "pushedAt": "2026-06-30T09:25:01.000Z",
-          "createdAt": "2026-06-26T05:50:51.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T13:12:11.000Z",
-          "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1280990105",
-          "fork": false,
-          "name": "sim-use",
-          "rank": 12,
-          "forks": 23,
-          "owner": "lycorp-jp",
-          "stars": 441,
-          "avatar": "https://avatars.githubusercontent.com/u/132046583?v=4",
-          "topics": [
-            "accessibility",
-            "ai-agents",
-            "ai-development",
-            "android-emulator",
-            "ios-simulator",
-            "mobile-automation"
-          ],
-          "ownerId": "132046583",
-          "repoUrl": "https://github.com/lycorp-jp/sim-use",
-          "archived": false,
-          "fullName": "lycorp-jp/sim-use",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/lycorp-jp",
-          "pushedAt": "2026-07-02T12:24:55.000Z",
-          "createdAt": "2026-06-26T05:59:56.000Z",
-          "ownerType": "Organization",
-          "updatedAt": "2026-07-02T14:38:11.000Z",
-          "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1281163724",
-          "fork": false,
-          "name": "lanshu-animated-architecture-diagram",
-          "rank": 11,
-          "forks": 56,
-          "owner": "cclank",
-          "stars": 441,
-          "avatar": "https://avatars.githubusercontent.com/u/29557585?v=4",
-          "topics": [],
-          "ownerId": "29557585",
-          "repoUrl": "https://github.com/cclank/lanshu-animated-architecture-diagram",
-          "archived": false,
-          "fullName": "cclank/lanshu-animated-architecture-diagram",
-          "language": "Python",
-          "ownerUrl": "https://github.com/cclank",
-          "pushedAt": "2026-06-26T15:12:14.000Z",
-          "createdAt": "2026-06-26T09:29:51.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T14:37:32.000Z",
-          "description": "Premium hand-drawn animated architecture diagram Codex skill",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1282680810",
-          "fork": false,
-          "name": "codex-keysmith",
-          "rank": 14,
-          "forks": 69,
-          "owner": "Jia-Ethan",
-          "stars": 398,
-          "avatar": "https://avatars.githubusercontent.com/u/271507930?v=4",
-          "topics": [],
-          "ownerId": "271507930",
-          "repoUrl": "https://github.com/Jia-Ethan/codex-keysmith",
-          "archived": false,
-          "fullName": "Jia-Ethan/codex-keysmith",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Jia-Ethan",
-          "pushedAt": "2026-06-29T13:21:41.000Z",
-          "createdAt": "2026-06-28T04:38:07.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T12:59:03.000Z",
-          "description": "Codex CLI instruction-file installer for local configuration",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1281420131",
-          "fork": false,
-          "name": "Browser-BC",
-          "rank": 16,
-          "forks": 36,
-          "owner": "Einsia",
-          "stars": 360,
-          "avatar": "https://avatars.githubusercontent.com/u/246131017?v=4",
-          "topics": [],
-          "ownerId": "246131017",
-          "repoUrl": "https://github.com/Einsia/Browser-BC",
-          "archived": false,
-          "fullName": "Einsia/Browser-BC",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Einsia",
-          "pushedAt": "2026-06-28T17:45:04.000Z",
-          "createdAt": "2026-06-26T14:37:26.000Z",
-          "ownerType": "Organization",
-          "updatedAt": "2026-07-02T08:36:25.000Z",
-          "description": "Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.",
-          "defaultBranch": "master",
-          "sourcePeriods": [
-            "week"
-          ]
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "practical-computer-science-and-system-prep",
-      "name": "Practical computer science and system prep",
-      "description": "Some popular repos are educational or reference-oriented, covering core CS fundamentals and system concepts for interviews and study.",
-      "stars": 1727,
-      "forks": 316,
-      "repoCount": 2,
-      "repos": [
-        {
-          "id": "1282768734",
-          "fork": false,
-          "name": "CS-Fundamentals",
-          "rank": 2,
-          "forks": 113,
-          "owner": "Krishnagangwal",
-          "stars": 1395,
-          "avatar": "https://avatars.githubusercontent.com/u/175389609?v=4",
-          "topics": [],
-          "ownerId": "175389609",
-          "repoUrl": "https://github.com/Krishnagangwal/CS-Fundamentals",
-          "archived": false,
-          "fullName": "Krishnagangwal/CS-Fundamentals",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Krishnagangwal",
-          "pushedAt": "2026-06-28T07:42:12.000Z",
-          "createdAt": "2026-06-28T07:08:15.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T14:28:31.000Z",
-          "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
           "defaultBranch": "main",
           "sourcePeriods": [
             "week"
@@ -370,14 +104,217 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "specialized-linux-and-desktop-tooling",
-      "name": "Specialized Linux and desktop tooling",
-      "description": "There is noticeable activity around native utilities and custom desktop experiences, especially on macOS and Linux.",
-      "stars": 1282,
-      "forks": 30,
+      "id": "ai-agent-skills-and-workflows",
+      "name": "AI agent skills and workflows",
+      "description": "Repositories are packaging reusable skills, instructions, and multi-modal workflows to make coding and content agents more capable and repeatable.",
+      "stars": 3792,
+      "forks": 334,
+      "repoCount": 7,
+      "repos": [
+        {
+          "id": "1283308335",
+          "fork": false,
+          "name": "self-learning-skills",
+          "rank": 3,
+          "forks": 13,
+          "owner": "Kulaxyz",
+          "stars": 887,
+          "avatar": "https://avatars.githubusercontent.com/u/47082676?v=4",
+          "topics": [],
+          "ownerId": "47082676",
+          "repoUrl": "https://github.com/Kulaxyz/self-learning-skills",
+          "archived": false,
+          "fullName": "Kulaxyz/self-learning-skills",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Kulaxyz",
+          "pushedAt": "2026-07-01T03:41:29.000Z",
+          "createdAt": "2026-06-28T19:30:36.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T19:10:48.000Z",
+          "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1284538699",
+          "fork": false,
+          "name": "Fundamental-Ava",
+          "rank": 4,
+          "forks": 76,
+          "owner": "TianhangZhuzth",
+          "stars": 749,
+          "avatar": "https://avatars.githubusercontent.com/u/219875975?v=4",
+          "topics": [
+            "ai",
+            "ai-agents"
+          ],
+          "ownerId": "219875975",
+          "repoUrl": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+          "archived": false,
+          "fullName": "TianhangZhuzth/Fundamental-Ava",
+          "language": "Python",
+          "ownerUrl": "https://github.com/TianhangZhuzth",
+          "pushedAt": "2026-07-01T15:46:26.000Z",
+          "createdAt": "2026-06-30T01:04:13.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T17:00:12.000Z",
+          "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1280984042",
+          "fork": false,
+          "name": "video-production-skills",
+          "rank": 8,
+          "forks": 60,
+          "owner": "Pluviobyte",
+          "stars": 496,
+          "avatar": "https://avatars.githubusercontent.com/u/94058511?v=4",
+          "topics": [],
+          "ownerId": "94058511",
+          "repoUrl": "https://github.com/Pluviobyte/video-production-skills",
+          "archived": false,
+          "fullName": "Pluviobyte/video-production-skills",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Pluviobyte",
+          "pushedAt": "2026-06-30T09:25:01.000Z",
+          "createdAt": "2026-06-26T05:50:51.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T13:12:11.000Z",
+          "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1281163724",
+          "fork": false,
+          "name": "lanshu-animated-architecture-diagram",
+          "rank": 11,
+          "forks": 57,
+          "owner": "cclank",
+          "stars": 450,
+          "avatar": "https://avatars.githubusercontent.com/u/29557585?v=4",
+          "topics": [],
+          "ownerId": "29557585",
+          "repoUrl": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+          "archived": false,
+          "fullName": "cclank/lanshu-animated-architecture-diagram",
+          "language": "Python",
+          "ownerUrl": "https://github.com/cclank",
+          "pushedAt": "2026-06-26T15:12:14.000Z",
+          "createdAt": "2026-06-26T09:29:51.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T18:56:38.000Z",
+          "description": "Premium hand-drawn animated architecture diagram Codex skill",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1280990105",
+          "fork": false,
+          "name": "sim-use",
+          "rank": 12,
+          "forks": 23,
+          "owner": "lycorp-jp",
+          "stars": 450,
+          "avatar": "https://avatars.githubusercontent.com/u/132046583?v=4",
+          "topics": [
+            "accessibility",
+            "ai-agents",
+            "ai-development",
+            "android-emulator",
+            "ios-simulator",
+            "mobile-automation"
+          ],
+          "ownerId": "132046583",
+          "repoUrl": "https://github.com/lycorp-jp/sim-use",
+          "archived": false,
+          "fullName": "lycorp-jp/sim-use",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/lycorp-jp",
+          "pushedAt": "2026-07-02T12:24:55.000Z",
+          "createdAt": "2026-06-26T05:59:56.000Z",
+          "ownerType": "Organization",
+          "updatedAt": "2026-07-02T19:32:09.000Z",
+          "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1282680810",
+          "fork": false,
+          "name": "codex-keysmith",
+          "rank": 15,
+          "forks": 69,
+          "owner": "Jia-Ethan",
+          "stars": 399,
+          "avatar": "https://avatars.githubusercontent.com/u/271507930?v=4",
+          "topics": [],
+          "ownerId": "271507930",
+          "repoUrl": "https://github.com/Jia-Ethan/codex-keysmith",
+          "archived": false,
+          "fullName": "Jia-Ethan/codex-keysmith",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Jia-Ethan",
+          "pushedAt": "2026-06-29T13:21:41.000Z",
+          "createdAt": "2026-06-28T04:38:07.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T15:58:40.000Z",
+          "description": "Codex CLI instruction-file installer for local configuration",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1281420131",
+          "fork": false,
+          "name": "Browser-BC",
+          "rank": 16,
+          "forks": 36,
+          "owner": "Einsia",
+          "stars": 361,
+          "avatar": "https://avatars.githubusercontent.com/u/246131017?v=4",
+          "topics": [],
+          "ownerId": "246131017",
+          "repoUrl": "https://github.com/Einsia/Browser-BC",
+          "archived": false,
+          "fullName": "Einsia/Browser-BC",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Einsia",
+          "pushedAt": "2026-06-28T17:45:04.000Z",
+          "createdAt": "2026-06-26T14:37:26.000Z",
+          "ownerType": "Organization",
+          "updatedAt": "2026-07-02T17:57:18.000Z",
+          "description": "Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.",
+          "defaultBranch": "master",
+          "sourcePeriods": [
+            "week"
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "local-development-and-runtime-tooling",
+      "name": "Local development and runtime tooling",
+      "description": "Several repositories are creating local tools for containers, CLI setup, and system-level customization to streamline developer and machine workflows.",
+      "stars": 1368,
+      "forks": 31,
       "repoCount": 3,
       "repos": [
         {
@@ -387,7 +324,7 @@
           "rank": 9,
           "forks": 10,
           "owner": "diinki",
-          "stars": 474,
+          "stars": 491,
           "avatar": "https://avatars.githubusercontent.com/u/56029514?v=4",
           "topics": [],
           "ownerId": "56029514",
@@ -399,7 +336,7 @@
           "pushedAt": "2026-06-30T06:30:45.000Z",
           "createdAt": "2026-06-27T23:06:00.000Z",
           "ownerType": "User",
-          "updatedAt": "2026-07-02T14:27:45.000Z",
+          "updatedAt": "2026-07-02T19:48:23.000Z",
           "description": "A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
           "defaultBranch": "main",
           "sourcePeriods": [
@@ -413,7 +350,7 @@
           "rank": 10,
           "forks": 20,
           "owner": "tdeverx",
-          "stars": 464,
+          "stars": 466,
           "avatar": "https://avatars.githubusercontent.com/u/44447832?v=4",
           "topics": [
             "apple-container",
@@ -434,80 +371,12 @@
           "fullName": "tdeverx/contained-app",
           "language": "Swift",
           "ownerUrl": "https://github.com/tdeverx",
-          "pushedAt": "2026-07-02T10:26:12.000Z",
+          "pushedAt": "2026-07-02T18:59:25.000Z",
           "createdAt": "2026-06-25T22:02:07.000Z",
           "ownerType": "User",
-          "updatedAt": "2026-07-02T13:29:54.000Z",
+          "updatedAt": "2026-07-02T16:45:55.000Z",
           "description": "A native macOS app for Apple's Container CLI",
           "defaultBranch": "nightly",
-          "sourcePeriods": [
-            "week"
-          ]
-        },
-        {
-          "id": "1281921049",
-          "fork": false,
-          "name": "clash",
-          "rank": 18,
-          "forks": 0,
-          "owner": "downclash",
-          "stars": 344,
-          "avatar": "https://avatars.githubusercontent.com/u/164441173?v=4",
-          "topics": [],
-          "ownerId": "164441173",
-          "repoUrl": "https://github.com/downclash/clash",
-          "archived": false,
-          "fullName": "downclash/clash",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/downclash",
-          "pushedAt": "2026-06-28T12:36:38.000Z",
-          "createdAt": "2026-06-27T04:54:21.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-02T11:31:58.000Z",
-          "description": "",
-          "defaultBranch": "main",
-          "sourcePeriods": [
-            "week"
-          ]
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "id": "security-research-and-exploit-proof-of-concepts",
-      "name": "Security research and exploit proof-of-concepts",
-      "description": "Repositories include vulnerability proof-of-concepts and adjacent offensive-security work centered on recent CVEs and bypass techniques.",
-      "stars": 962,
-      "forks": 14,
-      "repoCount": 2,
-      "repos": [
-        {
-          "id": "1282773048",
-          "fork": false,
-          "name": "CVE-2026-41940-PoC",
-          "rank": 5,
-          "forks": 13,
-          "owner": "aquace",
-          "stars": 571,
-          "avatar": "https://avatars.githubusercontent.com/u/32766565?v=4",
-          "topics": [
-            "cpanel",
-            "cve",
-            "cve-2026-41940",
-            "cve-2026-41940-poc"
-          ],
-          "ownerId": "32766565",
-          "repoUrl": "https://github.com/aquace/CVE-2026-41940-PoC",
-          "archived": false,
-          "fullName": "aquace/CVE-2026-41940-PoC",
-          "language": "Python",
-          "ownerUrl": "https://github.com/aquace",
-          "pushedAt": "2026-06-28T07:42:43.000Z",
-          "createdAt": "2026-06-28T07:13:52.000Z",
-          "ownerType": "User",
-          "updatedAt": "2026-07-01T22:04:11.000Z",
-          "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
-          "defaultBranch": "main",
           "sourcePeriods": [
             "week"
           ]
@@ -516,10 +385,10 @@
           "id": "1281620190",
           "fork": false,
           "name": "dd",
-          "rank": 15,
+          "rank": 14,
           "forks": 1,
           "owner": "ricccrd",
-          "stars": 391,
+          "stars": 411,
           "avatar": "https://avatars.githubusercontent.com/u/1809268?v=4",
           "topics": [],
           "ownerId": "1809268",
@@ -528,10 +397,10 @@
           "fullName": "ricccrd/dd",
           "language": "C",
           "ownerUrl": "https://github.com/ricccrd",
-          "pushedAt": "2026-07-02T14:25:33.000Z",
+          "pushedAt": "2026-07-02T19:43:15.000Z",
           "createdAt": "2026-06-26T18:37:27.000Z",
           "ownerType": "User",
-          "updatedAt": "2026-07-02T14:28:26.000Z",
+          "updatedAt": "2026-07-02T19:44:02.000Z",
           "description": "",
           "defaultBranch": "main",
           "sourcePeriods": [
@@ -539,7 +408,81 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 3
+    },
+    {
+      "id": "crypto-and-on-chain-game-apps",
+      "name": "Crypto and on-chain game apps",
+      "description": "There is visible activity around Solana-based gambling, blockchain game mechanics, and wallet-connected on-chain experiences.",
+      "stars": 674,
+      "forks": 360,
+      "repoCount": 2,
+      "repos": [
+        {
+          "id": "1281280268",
+          "fork": false,
+          "name": "coinflip-casino-game",
+          "rank": 17,
+          "forks": 202,
+          "owner": "xxniiinxx",
+          "stars": 359,
+          "avatar": "https://avatars.githubusercontent.com/u/37474080?v=4",
+          "topics": [
+            "anchor",
+            "betting",
+            "blockchain-game",
+            "casino",
+            "coinflip",
+            "cryptocurrency",
+            "defi",
+            "fullstack",
+            "gambling",
+            "mongodb"
+          ],
+          "ownerId": "37474080",
+          "repoUrl": "https://github.com/xxniiinxx/coinflip-casino-game",
+          "archived": false,
+          "fullName": "xxniiinxx/coinflip-casino-game",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/xxniiinxx",
+          "pushedAt": "2026-07-02T18:00:26.000Z",
+          "createdAt": "2026-06-26T11:52:40.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T19:15:39.000Z",
+          "description": "A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. ",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        },
+        {
+          "id": "1282277298",
+          "fork": false,
+          "name": "cdk-redeem-only-extension",
+          "rank": 20,
+          "forks": 158,
+          "owner": "kui123456789",
+          "stars": 315,
+          "avatar": "https://avatars.githubusercontent.com/u/170342099?v=4",
+          "topics": [],
+          "ownerId": "170342099",
+          "repoUrl": "https://github.com/kui123456789/cdk-redeem-only-extension",
+          "archived": false,
+          "fullName": "kui123456789/cdk-redeem-only-extension",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/kui123456789",
+          "pushedAt": "2026-07-02T15:07:37.000Z",
+          "createdAt": "2026-06-27T15:00:12.000Z",
+          "ownerType": "User",
+          "updatedAt": "2026-07-02T18:29:45.000Z",
+          "description": "UPI redeem only extension",
+          "defaultBranch": "main",
+          "sourcePeriods": [
+            "week"
+          ]
+        }
+      ],
+      "rank": 4
     }
   ]
 }
