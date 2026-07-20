@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T19:53:04.334Z",
-  "total": 37,
-  "totalIndexedCount": 37,
-  "coverageLabel": "Showing 37 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-07-20T04:27:00.979Z",
+  "total": 76,
+  "totalIndexedCount": 76,
+  "coverageLabel": "Showing 76 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,52 +10,8 @@
   },
   "rows": [
     {
-      "id": "860434",
-      "rank": 1,
-      "type": "User",
-      "login": "lopopolo",
-      "repos": [
-        {
-          "id": 1305243497,
-          "fork": false,
-          "name": "harness-engineering",
-          "forks": 23,
-          "owner": "lopopolo",
-          "stars": 528,
-          "avatar": "https://avatars.githubusercontent.com/u/860434?v=4",
-          "topics": [],
-          "ownerId": "860434",
-          "repoUrl": "https://github.com/lopopolo/harness-engineering",
-          "archived": false,
-          "fullName": "lopopolo/harness-engineering",
-          "language": "Python",
-          "ownerUrl": "https://github.com/lopopolo",
-          "pushedAt": "2026-07-18T21:55:49+00:00",
-          "createdAt": "2026-07-18T21:42:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-07-19T19:37:30+00:00",
-          "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
-          "defaultBranch": "trunk"
-        }
-      ],
-      "htmlUrl": "https://github.com/lopopolo",
-      "topRepo": {
-        "name": "harness-engineering",
-        "fullName": "lopopolo/harness-engineering",
-        "stars": 528,
-        "url": "https://github.com/lopopolo/harness-engineering"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/860434?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lopopolo/harness-engineering"
-      ],
-      "starScore": 528
-    },
-    {
       "id": "289931863",
-      "rank": 2,
+      "rank": 1,
       "type": "User",
       "login": "KinetiNode",
       "repos": [
@@ -63,9 +19,9 @@
           "id": 1305466278,
           "fork": false,
           "name": "claude-fable-5-system-prompt-clean",
-          "forks": 20,
+          "forks": 24,
           "owner": "KinetiNode",
-          "stars": 125,
+          "stars": 146,
           "avatar": "https://avatars.githubusercontent.com/u/289931863?v=4",
           "topics": [],
           "ownerId": "289931863",
@@ -77,7 +33,7 @@
           "pushedAt": "2026-07-19T14:38:22+00:00",
           "createdAt": "2026-07-19T06:09:52+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:27:37+00:00",
+          "updatedAt": "2026-07-20T04:06:06+00:00",
           "description": "he optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents.",
           "defaultBranch": "main"
         }
@@ -86,7 +42,7 @@
       "topRepo": {
         "name": "claude-fable-5-system-prompt-clean",
         "fullName": "KinetiNode/claude-fable-5-system-prompt-clean",
-        "stars": 125,
+        "stars": 146,
         "url": "https://github.com/KinetiNode/claude-fable-5-system-prompt-clean"
       },
       "enriched": true,
@@ -95,75 +51,55 @@
       "repoNames": [
         "KinetiNode/claude-fable-5-system-prompt-clean"
       ],
-      "starScore": 125
+      "starScore": 146
     },
     {
-      "id": "244401543",
-      "rank": 3,
+      "id": "65652050",
+      "rank": 2,
       "type": "User",
-      "login": "kinueluci1992",
+      "login": "rjx18",
       "repos": [
         {
-          "id": 1305195441,
+          "id": 1305803446,
           "fork": false,
-          "name": "Seed-Generator",
-          "forks": 10,
-          "owner": "kinueluci1992",
-          "stars": 77,
-          "avatar": "https://avatars.githubusercontent.com/u/244401543?v=4",
-          "topics": [
-            "brute-force-tool",
-            "mnemonic-code-converter",
-            "mnemonic-generator-solana",
-            "mnemonic-phrase",
-            "mnemonic-recovery",
-            "mnemonic-seed",
-            "mnemonics-generator",
-            "phrase-generator",
-            "seed-phase-checker",
-            "seed-phrases-finder",
-            "seed-phrases-generate",
-            "seed-phrases-generator",
-            "seed-recovery-2025",
-            "seed-recovery-tool",
-            "seed-tool-generate",
-            "seedphrase",
-            "seedphrase-checker",
-            "seedphrase-generator",
-            "seedphrase-generatorseed-generator"
-          ],
-          "ownerId": "244401543",
-          "repoUrl": "https://github.com/kinueluci1992/Seed-Generator",
+          "name": "codor",
+          "forks": 17,
+          "owner": "rjx18",
+          "stars": 105,
+          "avatar": "https://avatars.githubusercontent.com/u/65652050?v=4",
+          "topics": [],
+          "ownerId": "65652050",
+          "repoUrl": "https://github.com/rjx18/codor",
           "archived": false,
-          "fullName": "kinueluci1992/Seed-Generator",
-          "language": "Python",
-          "ownerUrl": "https://github.com/kinueluci1992",
-          "pushedAt": "2026-07-18T20:09:43+00:00",
-          "createdAt": "2026-07-18T20:06:30+00:00",
+          "fullName": "rjx18/codor",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/rjx18",
+          "pushedAt": "2026-07-19T17:07:20+00:00",
+          "createdAt": "2026-07-19T15:09:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T06:00:24+00:00",
-          "description": "Professional BIP-39 Seed & HD Wallet Toolkit with 12–24 word mnemonics, checksum validation, BIP-44/49/84 derivation, and multi-chain support (BTC, ETH, SOL, LTC, DOGE, ADA, DOT, AVAX, ATOM, XRP, TRX). Features offline CSPRNG, PBKDF2-HMAC-SHA512, AES-256-GCM encryption, wallet recovery, CSV/JSON export, and custom derivation paths.",
+          "updatedAt": "2026-07-20T04:09:47+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/kinueluci1992",
+      "htmlUrl": "https://github.com/rjx18",
       "topRepo": {
-        "name": "Seed-Generator",
-        "fullName": "kinueluci1992/Seed-Generator",
-        "stars": 77,
-        "url": "https://github.com/kinueluci1992/Seed-Generator"
+        "name": "codor",
+        "fullName": "rjx18/codor",
+        "stars": 105,
+        "url": "https://github.com/rjx18/codor"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/244401543?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65652050?v=4",
       "repoCount": 1,
       "repoNames": [
-        "kinueluci1992/Seed-Generator"
+        "rjx18/codor"
       ],
-      "starScore": 77
+      "starScore": 105
     },
     {
       "id": "300006453",
-      "rank": 4,
+      "rank": 3,
       "type": "User",
       "login": "channelwarblersay",
       "repos": [
@@ -189,10 +125,10 @@
           "fullName": "channelwarblersay/Roblox-Camo-Tool",
           "language": "Python",
           "ownerUrl": "https://github.com/channelwarblersay",
-          "pushedAt": "2026-07-19T19:40:35+00:00",
+          "pushedAt": "2026-07-20T04:08:30+00:00",
           "createdAt": "2026-07-19T11:51:14+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:40:39+00:00",
+          "updatedAt": "2026-07-20T04:08:34+00:00",
           "description": "Camouflage and tracking utility for Roblox paint-and-seek games with visual overlays and player detection.",
           "defaultBranch": "main"
         },
@@ -220,10 +156,10 @@
           "fullName": "channelwarblersay/Arena-Breakout-Ultimate",
           "language": "Python",
           "ownerUrl": "https://github.com/channelwarblersay",
-          "pushedAt": "2026-07-19T19:40:36+00:00",
+          "pushedAt": "2026-07-20T04:08:32+00:00",
           "createdAt": "2026-07-19T12:44:44+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:40:40+00:00",
+          "updatedAt": "2026-07-20T04:08:39+00:00",
           "description": "Ultimate cheat for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more. Extract with the best loot!",
           "defaultBranch": "main"
         }
@@ -246,7 +182,7 @@
     },
     {
       "id": "300005955",
-      "rank": 5,
+      "rank": 4,
       "type": "User",
       "login": "WaterNegotiatorForm",
       "repos": [
@@ -274,10 +210,10 @@
           "fullName": "WaterNegotiatorForm/Arena-Breakout-Stealth-Pro",
           "language": "Python",
           "ownerUrl": "https://github.com/WaterNegotiatorForm",
-          "pushedAt": "2026-07-19T19:41:20+00:00",
+          "pushedAt": "2026-07-20T04:08:45+00:00",
           "createdAt": "2026-07-19T12:44:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:41:24+00:00",
+          "updatedAt": "2026-07-20T04:08:51+00:00",
           "description": "Stealth cheat for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil & more. Extract with the best loot!",
           "defaultBranch": "main"
         },
@@ -303,10 +239,10 @@
           "fullName": "WaterNegotiatorForm/Paint-Hide-Tracker",
           "language": "Python",
           "ownerUrl": "https://github.com/WaterNegotiatorForm",
-          "pushedAt": "2026-07-19T19:41:19+00:00",
+          "pushedAt": "2026-07-20T04:08:44+00:00",
           "createdAt": "2026-07-19T11:51:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:41:23+00:00",
+          "updatedAt": "2026-07-20T04:08:47+00:00",
           "description": "Tracker utility for Roblox paint-and-hide games with visual overlays and player detection features.",
           "defaultBranch": "main"
         }
@@ -329,7 +265,7 @@
     },
     {
       "id": "300005925",
-      "rank": 6,
+      "rank": 5,
       "type": "User",
       "login": "DitchBreakerWish",
       "repos": [
@@ -357,10 +293,10 @@
           "fullName": "DitchBreakerWish/Arena-Breakout-Loot-Helper",
           "language": "Python",
           "ownerUrl": "https://github.com/DitchBreakerWish",
-          "pushedAt": "2026-07-19T19:34:27+00:00",
+          "pushedAt": "2026-07-20T04:08:22+00:00",
           "createdAt": "2026-07-19T12:44:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:30+00:00",
+          "updatedAt": "2026-07-20T04:08:32+00:00",
           "description": "Loot helper for Arena Breakout: Infinite with ESP, Loot Finder, Player Tracking, Distance Indicators & more!",
           "defaultBranch": "main"
         },
@@ -386,10 +322,10 @@
           "fullName": "DitchBreakerWish/Paint-Or-Seek-Tool",
           "language": "Python",
           "ownerUrl": "https://github.com/DitchBreakerWish",
-          "pushedAt": "2026-07-19T19:34:25+00:00",
+          "pushedAt": "2026-07-20T04:08:21+00:00",
           "createdAt": "2026-07-19T11:51:25+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:29+00:00",
+          "updatedAt": "2026-07-20T04:08:25+00:00",
           "description": "Utility tool for Roblox Paint or Seek games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         }
@@ -412,7 +348,7 @@
     },
     {
       "id": "300005170",
-      "rank": 7,
+      "rank": 6,
       "type": "User",
       "login": "WallShrimpConsider88",
       "repos": [
@@ -440,10 +376,10 @@
           "fullName": "WallShrimpConsider88/Arena-Breakout-Toolkit",
           "language": "Python",
           "ownerUrl": "https://github.com/WallShrimpConsider88",
-          "pushedAt": "2026-07-19T19:34:47+00:00",
+          "pushedAt": "2026-07-20T04:08:17+00:00",
           "createdAt": "2026-07-19T12:44:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:51+00:00",
+          "updatedAt": "2026-07-20T04:08:20+00:00",
           "description": "Complete toolkit for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more!",
           "defaultBranch": "main"
         },
@@ -469,10 +405,10 @@
           "fullName": "WallShrimpConsider88/Paint-Seek-Assistant",
           "language": "Python",
           "ownerUrl": "https://github.com/WallShrimpConsider88",
-          "pushedAt": "2026-07-19T19:34:46+00:00",
+          "pushedAt": "2026-07-20T04:08:16+00:00",
           "createdAt": "2026-07-19T11:51:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:50+00:00",
+          "updatedAt": "2026-07-20T04:08:20+00:00",
           "description": "Assistant tool for Roblox paint-and-seek games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         }
@@ -495,7 +431,7 @@
     },
     {
       "id": "300005802",
-      "rank": 8,
+      "rank": 7,
       "type": "User",
       "login": "colorsrankgap",
       "repos": [
@@ -521,10 +457,10 @@
           "fullName": "colorsrankgap/Roblox-Paint-Helper",
           "language": "Python",
           "ownerUrl": "https://github.com/colorsrankgap",
-          "pushedAt": "2026-07-19T19:34:53+00:00",
+          "pushedAt": "2026-07-20T04:08:18+00:00",
           "createdAt": "2026-07-19T11:51:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:57+00:00",
+          "updatedAt": "2026-07-20T04:08:21+00:00",
           "description": "Helper utility for Roblox paint-and-seek games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         },
@@ -552,10 +488,10 @@
           "fullName": "colorsrankgap/Arena-Breakout-No-Recoil",
           "language": "Python",
           "ownerUrl": "https://github.com/colorsrankgap",
-          "pushedAt": "2026-07-19T19:34:55+00:00",
+          "pushedAt": "2026-07-20T04:08:19+00:00",
           "createdAt": "2026-07-19T12:44:44+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:59+00:00",
+          "updatedAt": "2026-07-20T04:08:25+00:00",
           "description": "No Recoil tool for Arena Breakout: Infinite with No Spread, Silent Aim, Triggerbot, Aimbot, ESP & more!",
           "defaultBranch": "main"
         }
@@ -578,7 +514,7 @@
     },
     {
       "id": "300005431",
-      "rank": 9,
+      "rank": 8,
       "type": "User",
       "login": "Torusnokindle",
       "repos": [
@@ -606,10 +542,10 @@
           "fullName": "Torusnokindle/Arena-Breakout-Assistant",
           "language": "Python",
           "ownerUrl": "https://github.com/Torusnokindle",
-          "pushedAt": "2026-07-19T19:40:41+00:00",
+          "pushedAt": "2026-07-20T04:08:33+00:00",
           "createdAt": "2026-07-19T12:44:42+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:40:45+00:00",
+          "updatedAt": "2026-07-20T04:08:36+00:00",
           "description": "Assistant for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more. Extract with the best loot!",
           "defaultBranch": "main"
         },
@@ -635,10 +571,10 @@
           "fullName": "Torusnokindle/Seek-Paint-Enhancer",
           "language": "Python",
           "ownerUrl": "https://github.com/Torusnokindle",
-          "pushedAt": "2026-07-19T19:40:39+00:00",
+          "pushedAt": "2026-07-20T04:08:31+00:00",
           "createdAt": "2026-07-19T11:50:53+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:40:42+00:00",
+          "updatedAt": "2026-07-20T04:08:36+00:00",
           "description": "Enhancer utility for Roblox seek-and-paint games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         }
@@ -660,48 +596,98 @@
       "starScore": 58
     },
     {
-      "id": "65652050",
-      "rank": 10,
+      "id": "306883555",
+      "rank": 9,
       "type": "User",
-      "login": "rjx18",
+      "login": "elysiumintellegence",
       "repos": [
         {
-          "id": 1305803446,
+          "id": 1306012448,
           "fork": false,
-          "name": "codor",
-          "forks": 9,
-          "owner": "rjx18",
-          "stars": 39,
-          "avatar": "https://avatars.githubusercontent.com/u/65652050?v=4",
+          "name": "elysium-intelligence",
+          "forks": 0,
+          "owner": "elysiumintellegence",
+          "stars": 56,
+          "avatar": "https://avatars.githubusercontent.com/u/306883555?v=4",
           "topics": [],
-          "ownerId": "65652050",
-          "repoUrl": "https://github.com/rjx18/codor",
+          "ownerId": "306883555",
+          "repoUrl": "https://github.com/elysiumintellegence/elysium-intelligence",
           "archived": false,
-          "fullName": "rjx18/codor",
+          "fullName": "elysiumintellegence/elysium-intelligence",
           "language": "TypeScript",
-          "ownerUrl": "https://github.com/rjx18",
-          "pushedAt": "2026-07-19T17:07:20+00:00",
-          "createdAt": "2026-07-19T15:09:48+00:00",
+          "ownerUrl": "https://github.com/elysiumintellegence",
+          "pushedAt": "2026-07-20T02:11:52+00:00",
+          "createdAt": "2026-07-19T20:54:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:41:06+00:00",
-          "description": "",
+          "updatedAt": "2026-07-20T02:20:17+00:00",
+          "description": "Elysium watches your data, feeds your models, and heals your pipelines — so your team ships decisions, not dashboards.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/rjx18",
+      "htmlUrl": "https://github.com/elysiumintellegence",
       "topRepo": {
-        "name": "codor",
-        "fullName": "rjx18/codor",
-        "stars": 39,
-        "url": "https://github.com/rjx18/codor"
+        "name": "elysium-intelligence",
+        "fullName": "elysiumintellegence/elysium-intelligence",
+        "stars": 56,
+        "url": "https://github.com/elysiumintellegence/elysium-intelligence"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/65652050?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306883555?v=4",
       "repoCount": 1,
       "repoNames": [
-        "rjx18/codor"
+        "elysiumintellegence/elysium-intelligence"
       ],
-      "starScore": 39
+      "starScore": 56
+    },
+    {
+      "id": "53092331",
+      "rank": 10,
+      "type": "User",
+      "login": "lyu0805",
+      "repos": [
+        {
+          "id": 1305624022,
+          "fork": false,
+          "name": "OpenBrowser",
+          "forks": 19,
+          "owner": "lyu0805",
+          "stars": 53,
+          "avatar": "https://avatars.githubusercontent.com/u/53092331?v=4",
+          "topics": [
+            "chromium",
+            "electron",
+            "fingerprint-browser",
+            "proxy",
+            "rpa"
+          ],
+          "ownerId": "53092331",
+          "repoUrl": "https://github.com/lyu0805/OpenBrowser",
+          "archived": false,
+          "fullName": "lyu0805/OpenBrowser",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/lyu0805",
+          "pushedAt": "2026-07-19T22:44:00+00:00",
+          "createdAt": "2026-07-19T10:41:16+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:04:06+00:00",
+          "description": "本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/lyu0805",
+      "topRepo": {
+        "name": "OpenBrowser",
+        "fullName": "lyu0805/OpenBrowser",
+        "stars": 53,
+        "url": "https://github.com/lyu0805/OpenBrowser"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53092331?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "lyu0805/OpenBrowser"
+      ],
+      "starScore": 53
     },
     {
       "id": "300005547",
@@ -733,11 +719,40 @@
           "fullName": "chaservisiongirder/Arena-Breakout-ESP",
           "language": "Python",
           "ownerUrl": "https://github.com/chaservisiongirder",
-          "pushedAt": "2026-07-19T19:41:29+00:00",
+          "pushedAt": "2026-07-20T04:08:13+00:00",
           "createdAt": "2026-07-19T12:44:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:41:33+00:00",
+          "updatedAt": "2026-07-20T04:08:23+00:00",
           "description": "ESP tool for Arena Breakout: Infinite with Wallhack, Player Tracking, Distance Indicators, Loot ESP & more!",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1305668084,
+          "fork": false,
+          "name": "Roblox-Seek-Helper",
+          "forks": 0,
+          "owner": "chaservisiongirder",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/300005547?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "300005547",
+          "repoUrl": "https://github.com/chaservisiongirder/Roblox-Seek-Helper",
+          "archived": false,
+          "fullName": "chaservisiongirder/Roblox-Seek-Helper",
+          "language": "Python",
+          "ownerUrl": "https://github.com/chaservisiongirder",
+          "pushedAt": "2026-07-20T04:08:11+00:00",
+          "createdAt": "2026-07-19T11:51:15+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:08:16+00:00",
+          "description": "Helper utility for Roblox seek-and-paint games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         }
       ],
@@ -750,15 +765,405 @@
       },
       "enriched": true,
       "avatarUrl": "https://avatars.githubusercontent.com/u/300005547?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "chaservisiongirder/Arena-Breakout-ESP",
+        "chaservisiongirder/Roblox-Seek-Helper"
+      ],
+      "starScore": 49
+    },
+    {
+      "id": "300006554",
+      "rank": 12,
+      "type": "User",
+      "login": "CityScholarCarve",
+      "repos": [
+        {
+          "id": 1305701609,
+          "fork": false,
+          "name": "Arena-Breakout-Aimbot",
+          "forks": 0,
+          "owner": "CityScholarCarve",
+          "stars": 30,
+          "avatar": "https://avatars.githubusercontent.com/u/300006554?v=4",
+          "topics": [
+            "arena-breakout-infinite",
+            "arenabreakout",
+            "arenabreakout-helper",
+            "arenabreakout-loot-finder",
+            "arenabreakout-loot-helper",
+            "arenabreakoutinfinite",
+            "arenabreakoutinfinite-loot-viewer",
+            "tarkov-alternative"
+          ],
+          "ownerId": "300006554",
+          "repoUrl": "https://github.com/CityScholarCarve/Arena-Breakout-Aimbot",
+          "archived": false,
+          "fullName": "CityScholarCarve/Arena-Breakout-Aimbot",
+          "language": "Python",
+          "ownerUrl": "https://github.com/CityScholarCarve",
+          "pushedAt": "2026-07-20T04:08:26+00:00",
+          "createdAt": "2026-07-19T12:44:44+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:08:35+00:00",
+          "description": "Aimbot for Arena Breakout: Infinite with Silent Aim, Triggerbot, No Recoil, No Spread, FOV Control & more!",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1305668136,
+          "fork": false,
+          "name": "Paint-Seek-Vision",
+          "forks": 0,
+          "owner": "CityScholarCarve",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/300006554?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "300006554",
+          "repoUrl": "https://github.com/CityScholarCarve/Paint-Seek-Vision",
+          "archived": false,
+          "fullName": "CityScholarCarve/Paint-Seek-Vision",
+          "language": "Python",
+          "ownerUrl": "https://github.com/CityScholarCarve",
+          "pushedAt": "2026-07-20T04:08:24+00:00",
+          "createdAt": "2026-07-19T11:51:20+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:08:31+00:00",
+          "description": "Visual enhancement utility for Roblox paint-and-seek games with player tracking and overlay features.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/CityScholarCarve",
+      "topRepo": {
+        "name": "Arena-Breakout-Aimbot",
+        "fullName": "CityScholarCarve/Arena-Breakout-Aimbot",
+        "stars": 30,
+        "url": "https://github.com/CityScholarCarve/Arena-Breakout-Aimbot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300006554?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "CityScholarCarve/Arena-Breakout-Aimbot",
+        "CityScholarCarve/Paint-Seek-Vision"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "246151337",
+      "rank": 13,
+      "type": "User",
+      "login": "Just-a1player",
+      "repos": [
+        {
+          "id": 1305701880,
+          "fork": false,
+          "name": "Arena-Breakout-Helper",
+          "forks": 0,
+          "owner": "Just-a1player",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/246151337?v=4",
+          "topics": [],
+          "ownerId": "246151337",
+          "repoUrl": "https://github.com/Just-a1player/Arena-Breakout-Helper",
+          "archived": false,
+          "fullName": "Just-a1player/Arena-Breakout-Helper",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Just-a1player",
+          "pushedAt": "2026-07-20T04:09:15+00:00",
+          "createdAt": "2026-07-19T12:45:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:09:19+00:00",
+          "description": "Helper tool for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more!",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1305668201,
+          "fork": false,
+          "name": "Roblox-Hide-Assist",
+          "forks": 0,
+          "owner": "Just-a1player",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/246151337?v=4",
+          "topics": [],
+          "ownerId": "246151337",
+          "repoUrl": "https://github.com/Just-a1player/Roblox-Hide-Assist",
+          "archived": false,
+          "fullName": "Just-a1player/Roblox-Hide-Assist",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Just-a1player",
+          "pushedAt": "2026-07-20T04:09:13+00:00",
+          "createdAt": "2026-07-19T11:51:25+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:09:17+00:00",
+          "description": "Assistance tool for Roblox hide-and-seek paint games with visual overlays and player tracking.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Just-a1player",
+      "topRepo": {
+        "name": "Arena-Breakout-Helper",
+        "fullName": "Just-a1player/Arena-Breakout-Helper",
+        "stars": 29,
+        "url": "https://github.com/Just-a1player/Arena-Breakout-Helper"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/246151337?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "Just-a1player/Arena-Breakout-Helper",
+        "Just-a1player/Roblox-Hide-Assist"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "54710482",
+      "rank": 14,
+      "type": "User",
+      "login": "0xtbug",
+      "repos": [
+        {
+          "id": 1305460341,
+          "fork": false,
+          "name": "unofficial-pddikti-api",
+          "forks": 13,
+          "owner": "0xtbug",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/54710482?v=4",
+          "topics": [
+            "pddikti-api"
+          ],
+          "ownerId": "54710482",
+          "repoUrl": "https://github.com/0xtbug/unofficial-pddikti-api",
+          "archived": false,
+          "fullName": "0xtbug/unofficial-pddikti-api",
+          "language": "Go",
+          "ownerUrl": "https://github.com/0xtbug",
+          "pushedAt": "2026-07-19T09:08:23+00:00",
+          "createdAt": "2026-07-19T05:58:49+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:56:09+00:00",
+          "description": "Reverse-engineered API for PDDIKTI — Indonesian Higher Education Database.  Provides access to universities, study programs, lecturers, and students data.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/0xtbug",
+      "topRepo": {
+        "name": "unofficial-pddikti-api",
+        "fullName": "0xtbug/unofficial-pddikti-api",
+        "stars": 40,
+        "url": "https://github.com/0xtbug/unofficial-pddikti-api"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54710482?v=4",
       "repoCount": 1,
       "repoNames": [
-        "chaservisiongirder/Arena-Breakout-ESP"
+        "0xtbug/unofficial-pddikti-api"
+      ],
+      "starScore": 40
+    },
+    {
+      "id": "159743459",
+      "rank": 15,
+      "type": "User",
+      "login": "NullLabTests",
+      "repos": [
+        {
+          "id": 1305774331,
+          "fork": false,
+          "name": "software-periodic-table",
+          "forks": 3,
+          "owner": "NullLabTests",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/159743459?v=4",
+          "topics": [],
+          "ownerId": "159743459",
+          "repoUrl": "https://github.com/NullLabTests/software-periodic-table",
+          "archived": false,
+          "fullName": "NullLabTests/software-periodic-table",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/NullLabTests",
+          "pushedAt": "2026-07-19T14:29:01+00:00",
+          "createdAt": "2026-07-19T14:28:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:03:29+00:00",
+          "description": "A finite ontology of 115 recurring software elements and a composition framework for LLM-based coding agents",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/NullLabTests",
+      "topRepo": {
+        "name": "software-periodic-table",
+        "fullName": "NullLabTests/software-periodic-table",
+        "stars": 40,
+        "url": "https://github.com/NullLabTests/software-periodic-table"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159743459?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "NullLabTests/software-periodic-table"
+      ],
+      "starScore": 40
+    },
+    {
+      "id": "32239508",
+      "rank": 16,
+      "type": "User",
+      "login": "smixs",
+      "repos": [
+        {
+          "id": 1305440911,
+          "fork": false,
+          "name": "mentor",
+          "forks": 0,
+          "owner": "smixs",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/32239508?v=4",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "claude",
+            "claude-code",
+            "claude-skill",
+            "codex",
+            "coding-agent",
+            "developer-productivity",
+            "developer-tools",
+            "insights",
+            "llm",
+            "openai-codex",
+            "productivity",
+            "retrospective",
+            "self-improvement",
+            "session-analysis"
+          ],
+          "ownerId": "32239508",
+          "repoUrl": "https://github.com/smixs/mentor",
+          "archived": false,
+          "fullName": "smixs/mentor",
+          "language": "Python",
+          "ownerUrl": "https://github.com/smixs",
+          "pushedAt": "2026-07-19T05:29:16+00:00",
+          "createdAt": "2026-07-19T05:21:15+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:18:02+00:00",
+          "description": "mentor — a session-insights skill for AI coding agents. This skill reads your local Claude Code and OpenAI Codex history and writes an /insights-style HTML report on how you work: what you build, where you lose time, and concrete fixes. An agent skill for Claude Code, Codex, and any skills-capable agent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/smixs",
+      "topRepo": {
+        "name": "mentor",
+        "fullName": "smixs/mentor",
+        "stars": 36,
+        "url": "https://github.com/smixs/mentor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32239508?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "smixs/mentor"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "83042094",
+      "rank": 17,
+      "type": "User",
+      "login": "MiaAI-Lab",
+      "repos": [
+        {
+          "id": 1305945075,
+          "fork": false,
+          "name": "sparkDash",
+          "forks": 3,
+          "owner": "MiaAI-Lab",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/83042094?v=4",
+          "topics": [],
+          "ownerId": "83042094",
+          "repoUrl": "https://github.com/MiaAI-Lab/sparkDash",
+          "archived": false,
+          "fullName": "MiaAI-Lab/sparkDash",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/MiaAI-Lab",
+          "pushedAt": "2026-07-19T21:53:31+00:00",
+          "createdAt": "2026-07-19T18:35:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:23:23+00:00",
+          "description": "sparkDash: Multi-DGX Spark Monitoring Dashboard",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MiaAI-Lab",
+      "topRepo": {
+        "name": "sparkDash",
+        "fullName": "MiaAI-Lab/sparkDash",
+        "stars": 35,
+        "url": "https://github.com/MiaAI-Lab/sparkDash"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83042094?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MiaAI-Lab/sparkDash"
+      ],
+      "starScore": 35
+    },
+    {
+      "id": "60394124",
+      "rank": 18,
+      "type": "User",
+      "login": "lspr98",
+      "repos": [
+        {
+          "id": 1305628084,
+          "fork": false,
+          "name": "conformer-stt-s3",
+          "forks": 1,
+          "owner": "lspr98",
+          "stars": 31,
+          "avatar": "https://avatars.githubusercontent.com/u/60394124?v=4",
+          "topics": [],
+          "ownerId": "60394124",
+          "repoUrl": "https://github.com/lspr98/conformer-stt-s3",
+          "archived": false,
+          "fullName": "lspr98/conformer-stt-s3",
+          "language": "C++",
+          "ownerUrl": "https://github.com/lspr98",
+          "pushedAt": "2026-07-19T11:13:59+00:00",
+          "createdAt": "2026-07-19T10:48:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T02:50:49+00:00",
+          "description": "Automatic speech recognition (ASR) running on the ESP32-S3 based on a 13.1M parameters convolution transformer.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/lspr98",
+      "topRepo": {
+        "name": "conformer-stt-s3",
+        "fullName": "lspr98/conformer-stt-s3",
+        "stars": 31,
+        "url": "https://github.com/lspr98/conformer-stt-s3"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60394124?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "lspr98/conformer-stt-s3"
       ],
       "starScore": 31
     },
     {
       "id": "300006176",
-      "rank": 12,
+      "rank": 19,
       "type": "User",
       "login": "TitanPurserHover82",
       "repos": [
@@ -808,54 +1213,8 @@
       "starScore": 31
     },
     {
-      "id": "54710482",
-      "rank": 13,
-      "type": "User",
-      "login": "0xtbug",
-      "repos": [
-        {
-          "id": 1305460341,
-          "fork": false,
-          "name": "unofficial-pddikti-api",
-          "forks": 6,
-          "owner": "0xtbug",
-          "stars": 30,
-          "avatar": "https://avatars.githubusercontent.com/u/54710482?v=4",
-          "topics": [
-            "pddikti-api"
-          ],
-          "ownerId": "54710482",
-          "repoUrl": "https://github.com/0xtbug/unofficial-pddikti-api",
-          "archived": false,
-          "fullName": "0xtbug/unofficial-pddikti-api",
-          "language": "Go",
-          "ownerUrl": "https://github.com/0xtbug",
-          "pushedAt": "2026-07-19T09:08:23+00:00",
-          "createdAt": "2026-07-19T05:58:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-07-19T18:56:55+00:00",
-          "description": "Reverse-engineered API for PDDIKTI — Indonesian Higher Education Database.  Provides access to universities, study programs, lecturers, and students data.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/0xtbug",
-      "topRepo": {
-        "name": "unofficial-pddikti-api",
-        "fullName": "0xtbug/unofficial-pddikti-api",
-        "stars": 30,
-        "url": "https://github.com/0xtbug/unofficial-pddikti-api"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54710482?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "0xtbug/unofficial-pddikti-api"
-      ],
-      "starScore": 30
-    },
-    {
       "id": "300005391",
-      "rank": 14,
+      "rank": 20,
       "type": "User",
       "login": "BearOscillator",
       "repos": [
@@ -881,10 +1240,10 @@
           "fullName": "BearOscillator/Seek-Paint-Max",
           "language": "Python",
           "ownerUrl": "https://github.com/BearOscillator",
-          "pushedAt": "2026-07-19T19:37:35+00:00",
+          "pushedAt": "2026-07-20T04:12:41+00:00",
           "createdAt": "2026-07-19T12:09:38+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:37:40+00:00",
+          "updatedAt": "2026-07-20T04:12:50+00:00",
           "description": "Enhancer utility for Roblox seek-and-paint games with visual overlays and player tracking features.",
           "defaultBranch": "main"
         }
@@ -905,122 +1264,101 @@
       "starScore": 30
     },
     {
-      "id": "300006554",
-      "rank": 15,
+      "id": "305972736",
+      "rank": 21,
       "type": "User",
-      "login": "CityScholarCarve",
+      "login": "lifopuyeqi",
       "repos": [
         {
-          "id": 1305701609,
+          "id": 1305820495,
           "fork": false,
-          "name": "Arena-Breakout-Aimbot",
-          "forks": 0,
-          "owner": "CityScholarCarve",
-          "stars": 30,
-          "avatar": "https://avatars.githubusercontent.com/u/300006554?v=4",
+          "name": "Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
+          "forks": 1,
+          "owner": "lifopuyeqi",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/305972736?v=4",
           "topics": [
-            "arena-breakout-infinite",
-            "arenabreakout",
-            "arenabreakout-helper",
-            "arenabreakout-loot-finder",
-            "arenabreakout-loot-helper",
-            "arenabreakoutinfinite",
-            "arenabreakoutinfinite-loot-viewer",
-            "tarkov-alternative"
+            "build-a-soccer-squad",
+            "build-a-soccer-squad-codes",
+            "build-a-soccer-squad-generator",
+            "build-a-soccer-squad-reroll",
+            "build-a-soccer-squad-rerolls",
+            "build-a-soccer-squad-unlimited",
+            "rerolls",
+            "roblox",
+            "roblox-soccer-game",
+            "roblox-tool",
+            "squad-builder",
+            "unlimited-rerolls"
           ],
-          "ownerId": "300006554",
-          "repoUrl": "https://github.com/CityScholarCarve/Arena-Breakout-Aimbot",
+          "ownerId": "305972736",
+          "repoUrl": "https://github.com/lifopuyeqi/Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
           "archived": false,
-          "fullName": "CityScholarCarve/Arena-Breakout-Aimbot",
-          "language": "Python",
-          "ownerUrl": "https://github.com/CityScholarCarve",
-          "pushedAt": "2026-07-19T19:34:34+00:00",
-          "createdAt": "2026-07-19T12:44:44+00:00",
+          "fullName": "lifopuyeqi/Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/lifopuyeqi",
+          "pushedAt": "2026-07-19T23:09:36+00:00",
+          "createdAt": "2026-07-19T15:33:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:38+00:00",
-          "description": "Aimbot for Arena Breakout: Infinite with Silent Aim, Triggerbot, No Recoil, No Spread, FOV Control & more!",
+          "updatedAt": "2026-07-19T23:09:39+00:00",
+          "description": "Generate unlimited rerolls and refreshes for Build A Soccer Squad. Get the best players and build your dream team in minutes. Roblox Reroll Generator Build A Soccer Squad",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1305539080,
+          "fork": false,
+          "name": "TeamViewer-Connection-Blocked-Fix",
+          "forks": 0,
+          "owner": "lifopuyeqi",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/305972736?v=4",
+          "topics": [
+            "remote-desktop",
+            "teamviewer",
+            "teamviewer-blocked",
+            "teamviewer-commercial-use-detected",
+            "teamviewer-connection-blocked",
+            "teamviewer-connection-timeout",
+            "teamviewer-error",
+            "teamviewer-fix",
+            "teamviewer-id-changer",
+            "teamviewer-reset",
+            "teamviewer-unblocker",
+            "windows-tool"
+          ],
+          "ownerId": "305972736",
+          "repoUrl": "https://github.com/lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
+          "archived": false,
+          "fullName": "lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/lifopuyeqi",
+          "pushedAt": "2026-07-19T23:10:14+00:00",
+          "createdAt": "2026-07-19T08:18:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:10:17+00:00",
+          "description": "Fix TeamViewer connection blocked error – connection timeout, firewall block, commercial use detected, and more",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/CityScholarCarve",
+      "htmlUrl": "https://github.com/lifopuyeqi",
       "topRepo": {
-        "name": "Arena-Breakout-Aimbot",
-        "fullName": "CityScholarCarve/Arena-Breakout-Aimbot",
-        "stars": 30,
-        "url": "https://github.com/CityScholarCarve/Arena-Breakout-Aimbot"
+        "name": "Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
+        "fullName": "lifopuyeqi/Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
+        "stars": 16,
+        "url": "https://github.com/lifopuyeqi/Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/300006554?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/305972736?v=4",
+      "repoCount": 2,
       "repoNames": [
-        "CityScholarCarve/Arena-Breakout-Aimbot"
-      ],
-      "starScore": 30
-    },
-    {
-      "id": "32239508",
-      "rank": 16,
-      "type": "User",
-      "login": "smixs",
-      "repos": [
-        {
-          "id": 1305440911,
-          "fork": false,
-          "name": "mentor",
-          "forks": 0,
-          "owner": "smixs",
-          "stars": 30,
-          "avatar": "https://avatars.githubusercontent.com/u/32239508?v=4",
-          "topics": [
-            "agent-skills",
-            "ai-agents",
-            "claude",
-            "claude-code",
-            "claude-skill",
-            "codex",
-            "coding-agent",
-            "developer-productivity",
-            "developer-tools",
-            "insights",
-            "llm",
-            "openai-codex",
-            "productivity",
-            "retrospective",
-            "self-improvement",
-            "session-analysis"
-          ],
-          "ownerId": "32239508",
-          "repoUrl": "https://github.com/smixs/mentor",
-          "archived": false,
-          "fullName": "smixs/mentor",
-          "language": "Python",
-          "ownerUrl": "https://github.com/smixs",
-          "pushedAt": "2026-07-19T05:29:16+00:00",
-          "createdAt": "2026-07-19T05:21:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-07-19T17:09:48+00:00",
-          "description": "mentor — a session-insights skill for AI coding agents. This skill reads your local Claude Code and OpenAI Codex history and writes an /insights-style HTML report on how you work: what you build, where you lose time, and concrete fixes. An agent skill for Claude Code, Codex, and any skills-capable agent.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/smixs",
-      "topRepo": {
-        "name": "mentor",
-        "fullName": "smixs/mentor",
-        "stars": 30,
-        "url": "https://github.com/smixs/mentor"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32239508?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "smixs/mentor"
+        "lifopuyeqi/Build-A-Soccer-Squad-Reroll-Generator-2026-Roblox",
+        "lifopuyeqi/TeamViewer-Connection-Blocked-Fix"
       ],
       "starScore": 30
     },
     {
       "id": "300006597",
-      "rank": 17,
+      "rank": 22,
       "type": "User",
       "login": "Catchamongjoint",
       "repos": [
@@ -1046,10 +1384,10 @@
           "fullName": "Catchamongjoint/Roblox-Camo-Pro",
           "language": "Python",
           "ownerUrl": "https://github.com/Catchamongjoint",
-          "pushedAt": "2026-07-19T19:39:03+00:00",
+          "pushedAt": "2026-07-20T04:13:17+00:00",
           "createdAt": "2026-07-19T12:09:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:39:07+00:00",
+          "updatedAt": "2026-07-20T04:13:25+00:00",
           "description": "Camouflage and tracking utility for Roblox paint-and-seek games with visual overlays and player detection.",
           "defaultBranch": "main"
         }
@@ -1071,7 +1409,7 @@
     },
     {
       "id": "170703877",
-      "rank": 18,
+      "rank": 23,
       "type": "User",
       "login": "Jaisurya23",
       "repos": [
@@ -1123,52 +1461,55 @@
       "starScore": 29
     },
     {
-      "id": "246151337",
-      "rank": 19,
+      "id": "306870579",
+      "rank": 24,
       "type": "User",
-      "login": "Just-a1player",
+      "login": "Rucmx",
       "repos": [
         {
-          "id": 1305701880,
+          "id": 1305978434,
           "fork": false,
-          "name": "Arena-Breakout-Helper",
+          "name": "A-Free-Demo",
           "forks": 0,
-          "owner": "Just-a1player",
+          "owner": "Rucmx",
           "stars": 29,
-          "avatar": "https://avatars.githubusercontent.com/u/246151337?v=4",
-          "topics": [],
-          "ownerId": "246151337",
-          "repoUrl": "https://github.com/Just-a1player/Arena-Breakout-Helper",
+          "avatar": "https://avatars.githubusercontent.com/u/306870579?v=4",
+          "topics": [
+            "flash",
+            "flash-free-demo"
+          ],
+          "ownerId": "306870579",
+          "repoUrl": "https://github.com/Rucmx/A-Free-Demo",
           "archived": false,
-          "fullName": "Just-a1player/Arena-Breakout-Helper",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Just-a1player",
-          "pushedAt": "2026-07-19T19:41:10+00:00",
-          "createdAt": "2026-07-19T12:45:08+00:00",
+          "fullName": "Rucmx/A-Free-Demo",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Rucmx",
+          "pushedAt": "2026-07-19T19:49:12+00:00",
+          "createdAt": "2026-07-19T19:38:38+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:41:13+00:00",
-          "description": "Helper tool for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more!",
+          "updatedAt": "2026-07-19T23:12:21+00:00",
+          "description": "Comprehensive Multi-Network Support: Effortlessly Generate Flash USDT, BTC, ETH across popular crypto wallets networks including TRC20, ERC20, BEP20, SOLANA and POLYGON.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Just-a1player",
+      "htmlUrl": "https://github.com/Rucmx",
       "topRepo": {
-        "name": "Arena-Breakout-Helper",
-        "fullName": "Just-a1player/Arena-Breakout-Helper",
+        "name": "A-Free-Demo",
+        "fullName": "Rucmx/A-Free-Demo",
         "stars": 29,
-        "url": "https://github.com/Just-a1player/Arena-Breakout-Helper"
+        "url": "https://github.com/Rucmx/A-Free-Demo"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/246151337?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306870579?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Just-a1player/Arena-Breakout-Helper"
+        "Rucmx/A-Free-Demo"
       ],
       "starScore": 29
     },
     {
       "id": "306613105",
-      "rank": 20,
+      "rank": 25,
       "type": "User",
       "login": "alevalles84",
       "repos": [
@@ -1218,184 +1559,143 @@
       "starScore": 28
     },
     {
-      "id": "60394124",
-      "rank": 21,
+      "id": "4276606",
+      "rank": 26,
       "type": "User",
-      "login": "lspr98",
+      "login": "chshersh",
       "repos": [
         {
-          "id": 1305628084,
+          "id": 1305818688,
           "fork": false,
-          "name": "conformer-stt-s3",
-          "forks": 0,
-          "owner": "lspr98",
-          "stars": 25,
-          "avatar": "https://avatars.githubusercontent.com/u/60394124?v=4",
-          "topics": [],
-          "ownerId": "60394124",
-          "repoUrl": "https://github.com/lspr98/conformer-stt-s3",
+          "name": "cppnew",
+          "forks": 1,
+          "owner": "chshersh",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/4276606?v=4",
+          "topics": [
+            "cpp",
+            "cpp23"
+          ],
+          "ownerId": "4276606",
+          "repoUrl": "https://github.com/chshersh/cppnew",
           "archived": false,
-          "fullName": "lspr98/conformer-stt-s3",
+          "fullName": "chshersh/cppnew",
           "language": "C++",
-          "ownerUrl": "https://github.com/lspr98",
-          "pushedAt": "2026-07-19T11:13:59+00:00",
-          "createdAt": "2026-07-19T10:48:01+00:00",
+          "ownerUrl": "https://github.com/chshersh",
+          "pushedAt": "2026-07-19T16:54:51+00:00",
+          "createdAt": "2026-07-19T15:30:49+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T19:34:53+00:00",
-          "description": "Automatic speech recognition (ASR) running on the ESP32-S3 based on a 13.1M parameters convolution transformer.",
+          "updatedAt": "2026-07-20T03:57:05+00:00",
+          "description": "C++ project to create C++ projects",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lspr98",
+      "htmlUrl": "https://github.com/chshersh",
       "topRepo": {
-        "name": "conformer-stt-s3",
-        "fullName": "lspr98/conformer-stt-s3",
-        "stars": 25,
-        "url": "https://github.com/lspr98/conformer-stt-s3"
+        "name": "cppnew",
+        "fullName": "chshersh/cppnew",
+        "stars": 24,
+        "url": "https://github.com/chshersh/cppnew"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/60394124?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4276606?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lspr98/conformer-stt-s3"
+        "chshersh/cppnew"
       ],
-      "starScore": 25
+      "starScore": 24
     },
     {
-      "id": "290103953",
-      "rank": 22,
+      "id": "270775561",
+      "rank": 27,
       "type": "User",
-      "login": "GrottoTreasurer",
+      "login": "sdhhhyu-glitch",
       "repos": [
         {
-          "id": 1305208512,
+          "id": 1305744986,
           "fork": false,
-          "name": "metin2-trainer",
-          "forks": 0,
-          "owner": "GrottoTreasurer",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/290103953?v=4",
+          "name": "Migration-OpenSource",
+          "forks": 10,
+          "owner": "sdhhhyu-glitch",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/270775561?v=4",
           "topics": [],
-          "ownerId": "290103953",
-          "repoUrl": "https://github.com/GrottoTreasurer/metin2-trainer",
+          "ownerId": "270775561",
+          "repoUrl": "https://github.com/sdhhhyu-glitch/Migration-OpenSource",
           "archived": false,
-          "fullName": "GrottoTreasurer/metin2-trainer",
+          "fullName": "sdhhhyu-glitch/Migration-OpenSource",
           "language": "HTML",
-          "ownerUrl": "https://github.com/GrottoTreasurer",
-          "pushedAt": "2026-07-18T20:44:25+00:00",
-          "createdAt": "2026-07-18T20:30:55+00:00",
+          "ownerUrl": "https://github.com/sdhhhyu-glitch",
+          "pushedAt": "2026-07-19T14:17:52+00:00",
+          "createdAt": "2026-07-19T13:47:57+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T18:55:07+00:00",
-          "description": "Metin2 utility for online/local servers. Modifies client-side values — movement, combat, resources, skills. For educational use and game testing on Windows 10/11.",
-          "defaultBranch": "main"
+          "updatedAt": "2026-07-20T03:58:22+00:00",
+          "description": "",
+          "defaultBranch": "master"
         }
       ],
-      "htmlUrl": "https://github.com/GrottoTreasurer",
+      "htmlUrl": "https://github.com/sdhhhyu-glitch",
       "topRepo": {
-        "name": "metin2-trainer",
-        "fullName": "GrottoTreasurer/metin2-trainer",
-        "stars": 22,
-        "url": "https://github.com/GrottoTreasurer/metin2-trainer"
+        "name": "Migration-OpenSource",
+        "fullName": "sdhhhyu-glitch/Migration-OpenSource",
+        "stars": 24,
+        "url": "https://github.com/sdhhhyu-glitch/Migration-OpenSource"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/290103953?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/270775561?v=4",
       "repoCount": 1,
       "repoNames": [
-        "GrottoTreasurer/metin2-trainer"
+        "sdhhhyu-glitch/Migration-OpenSource"
       ],
-      "starScore": 22
+      "starScore": 24
     },
     {
-      "id": "304552772",
-      "rank": 23,
+      "id": "16850531",
+      "rank": 28,
       "type": "User",
-      "login": "BBoi34",
+      "login": "IAmUnbounded",
       "repos": [
         {
-          "id": 1305307774,
+          "id": 1305755468,
           "fork": false,
-          "name": "Obtainium-Recomp-Decomp",
-          "forks": 0,
-          "owner": "BBoi34",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/304552772?v=4",
+          "name": "Agentvis",
+          "forks": 6,
+          "owner": "IAmUnbounded",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/16850531?v=4",
           "topics": [],
-          "ownerId": "304552772",
-          "repoUrl": "https://github.com/BBoi34/Obtainium-Recomp-Decomp",
+          "ownerId": "16850531",
+          "repoUrl": "https://github.com/IAmUnbounded/Agentvis",
           "archived": false,
-          "fullName": "BBoi34/Obtainium-Recomp-Decomp",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/BBoi34",
-          "pushedAt": "2026-07-19T01:05:16+00:00",
-          "createdAt": "2026-07-19T00:17:32+00:00",
+          "fullName": "IAmUnbounded/Agentvis",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/IAmUnbounded",
+          "pushedAt": "2026-07-19T14:12:38+00:00",
+          "createdAt": "2026-07-19T14:03:12+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T18:14:15+00:00",
-          "description": "An obtainium pack for native android decompilations and recompilations of classic video games. All games are tested and are confirmed to have working controller support.",
+          "updatedAt": "2026-07-20T03:54:59+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/BBoi34",
+      "htmlUrl": "https://github.com/IAmUnbounded",
       "topRepo": {
-        "name": "Obtainium-Recomp-Decomp",
-        "fullName": "BBoi34/Obtainium-Recomp-Decomp",
-        "stars": 21,
-        "url": "https://github.com/BBoi34/Obtainium-Recomp-Decomp"
+        "name": "Agentvis",
+        "fullName": "IAmUnbounded/Agentvis",
+        "stars": 23,
+        "url": "https://github.com/IAmUnbounded/Agentvis"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/304552772?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16850531?v=4",
       "repoCount": 1,
       "repoNames": [
-        "BBoi34/Obtainium-Recomp-Decomp"
+        "IAmUnbounded/Agentvis"
       ],
-      "starScore": 21
-    },
-    {
-      "id": "290104569",
-      "rank": 24,
-      "type": "User",
-      "login": "Indigoovermooring",
-      "repos": [
-        {
-          "id": 1305220054,
-          "fork": false,
-          "name": "polygon-trainer",
-          "forks": 0,
-          "owner": "Indigoovermooring",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/290104569?v=4",
-          "topics": [],
-          "ownerId": "290104569",
-          "repoUrl": "https://github.com/Indigoovermooring/polygon-trainer",
-          "archived": false,
-          "fullName": "Indigoovermooring/polygon-trainer",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/Indigoovermooring",
-          "pushedAt": "2026-07-18T20:56:14+00:00",
-          "createdAt": "2026-07-18T20:53:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-07-19T18:55:08+00:00",
-          "description": "Memory-editing utility for Polygon Battle Royale. Provides ESP, aimbot, see through walls, teleport, weapon spawner, god mode. For educational use and local testing. Not for official servers. Windows 10/11 tool.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Indigoovermooring",
-      "topRepo": {
-        "name": "polygon-trainer",
-        "fullName": "Indigoovermooring/polygon-trainer",
-        "stars": 21,
-        "url": "https://github.com/Indigoovermooring/polygon-trainer"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/290104569?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Indigoovermooring/polygon-trainer"
-      ],
-      "starScore": 21
+      "starScore": 23
     },
     {
       "id": "306487384",
-      "rank": 25,
+      "rank": 29,
       "type": "User",
       "login": "andrewcrtscott5703",
       "repos": [
@@ -1438,8 +1738,52 @@
       "starScore": 20
     },
     {
+      "id": "306759707",
+      "rank": 30,
+      "type": "User",
+      "login": "calebeyphall480",
+      "repos": [
+        {
+          "id": 1305679362,
+          "fork": false,
+          "name": "meccha-chameleon-html-script",
+          "forks": 3,
+          "owner": "calebeyphall480",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/306759707?v=4",
+          "topics": [],
+          "ownerId": "306759707",
+          "repoUrl": "https://github.com/calebeyphall480/meccha-chameleon-html-script",
+          "archived": false,
+          "fullName": "calebeyphall480/meccha-chameleon-html-script",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/calebeyphall480",
+          "pushedAt": "2026-07-19T16:49:39+00:00",
+          "createdAt": "2026-07-19T12:09:32+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T16:49:42+00:00",
+          "description": "Browser-based game script utility for Meccha Chameleon HTML, centered on gameplay assistance features including ESP, aimbot, teleport, god mode, and unlimited paint support.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/calebeyphall480",
+      "topRepo": {
+        "name": "meccha-chameleon-html-script",
+        "fullName": "calebeyphall480/meccha-chameleon-html-script",
+        "stars": 20,
+        "url": "https://github.com/calebeyphall480/meccha-chameleon-html-script"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306759707?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "calebeyphall480/meccha-chameleon-html-script"
+      ],
+      "starScore": 20
+    },
+    {
       "id": "306755143",
-      "rank": 26,
+      "rank": 31,
       "type": "User",
       "login": "evan-halllmxh1227",
       "repos": [
@@ -1483,7 +1827,7 @@
     },
     {
       "id": "306485964",
-      "rank": 27,
+      "rank": 32,
       "type": "User",
       "login": "jordan-hughespjen5950",
       "repos": [
@@ -1502,10 +1846,10 @@
           "fullName": "jordan-hughespjen5950/adopt-me-lua-script-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/jordan-hughespjen5950",
-          "pushedAt": "2026-07-19T13:37:59+00:00",
+          "pushedAt": "2026-07-19T16:48:09+00:00",
           "createdAt": "2026-07-19T07:41:35+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:04+00:00",
+          "updatedAt": "2026-07-19T16:48:13+00:00",
           "description": "Windows landing build for a Roblox script executor focused on Lua execution, a compact script hub layout, and fast desktop access to automation, hotkeys, and personalization tools.",
           "defaultBranch": "main"
         }
@@ -1527,7 +1871,7 @@
     },
     {
       "id": "306486172",
-      "rank": 28,
+      "rank": 33,
       "type": "User",
       "login": "jordancfskgray1979",
       "repos": [
@@ -1546,10 +1890,10 @@
           "fullName": "jordancfskgray1979/celery-windows-script-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/jordancfskgray1979",
-          "pushedAt": "2026-07-19T13:38:01+00:00",
+          "pushedAt": "2026-07-19T16:48:13+00:00",
           "createdAt": "2026-07-19T07:42:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:05+00:00",
+          "updatedAt": "2026-07-19T16:48:17+00:00",
           "description": "Celery PC v3.3 is a Windows 10/11 Roblox script executor for Lua injection, with a compact desktop UI, no-key access, and a built-in hub of 500+ scripts.",
           "defaultBranch": "main"
         }
@@ -1571,7 +1915,7 @@
     },
     {
       "id": "306485818",
-      "rank": 29,
+      "rank": 34,
       "type": "User",
       "login": "logan-adamshjk5260",
       "repos": [
@@ -1590,10 +1934,10 @@
           "fullName": "logan-adamshjk5260/blex-hub-lua-executor-v2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/logan-adamshjk5260",
-          "pushedAt": "2026-07-19T13:38:03+00:00",
+          "pushedAt": "2026-07-19T16:47:44+00:00",
           "createdAt": "2026-07-19T07:41:41+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:07+00:00",
+          "updatedAt": "2026-07-19T16:47:48+00:00",
           "description": "Blex Hub PC v2026 is a streamlined Windows Roblox script hub for Lua execution, with a lightweight desktop interface and structured script management for Windows 10 and 11 on 64-bit systems.",
           "defaultBranch": "main"
         }
@@ -1614,8 +1958,52 @@
       "starScore": 20
     },
     {
+      "id": "306758061",
+      "rank": 35,
+      "type": "User",
+      "login": "ryan-reedpm7817",
+      "repos": [
+        {
+          "id": 1305772932,
+          "fork": false,
+          "name": "4k-image-compressor-optimizer",
+          "forks": 3,
+          "owner": "ryan-reedpm7817",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/306758061?v=4",
+          "topics": [],
+          "ownerId": "306758061",
+          "repoUrl": "https://github.com/ryan-reedpm7817/4k-image-compressor-optimizer",
+          "archived": false,
+          "fullName": "ryan-reedpm7817/4k-image-compressor-optimizer",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/ryan-reedpm7817",
+          "pushedAt": "2026-07-19T16:49:40+00:00",
+          "createdAt": "2026-07-19T14:26:54+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T16:49:44+00:00",
+          "description": "Cross-platform image compression utility for Windows, macOS, and Linux, focused on lossless optimization, batch processing, and keeping visual quality intact.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ryan-reedpm7817",
+      "topRepo": {
+        "name": "4k-image-compressor-optimizer",
+        "fullName": "ryan-reedpm7817/4k-image-compressor-optimizer",
+        "stars": 20,
+        "url": "https://github.com/ryan-reedpm7817/4k-image-compressor-optimizer"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306758061?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ryan-reedpm7817/4k-image-compressor-optimizer"
+      ],
+      "starScore": 20
+    },
+    {
       "id": "306485785",
-      "rank": 30,
+      "rank": 36,
       "type": "User",
       "login": "zack-reedteng3764",
       "repos": [
@@ -1658,8 +2046,140 @@
       "starScore": 20
     },
     {
+      "id": "290105103",
+      "rank": 37,
+      "type": "User",
+      "login": "DefenderGranary",
+      "repos": [
+        {
+          "id": 1305665782,
+          "fork": false,
+          "name": "fivem-trainer-2026",
+          "forks": 0,
+          "owner": "DefenderGranary",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/290105103?v=4",
+          "topics": [],
+          "ownerId": "290105103",
+          "repoUrl": "https://github.com/DefenderGranary/fivem-trainer-2026",
+          "archived": false,
+          "fullName": "DefenderGranary/fivem-trainer-2026",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/DefenderGranary",
+          "pushedAt": "2026-07-19T11:52:21+00:00",
+          "createdAt": "2026-07-19T11:47:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:10:29+00:00",
+          "description": "FiveM mod menu with aimbot, ESP, vehicle spawn, money drop, god mode, and Lua script executor for GTA V multiplayer",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/DefenderGranary",
+      "topRepo": {
+        "name": "fivem-trainer-2026",
+        "fullName": "DefenderGranary/fivem-trainer-2026",
+        "stars": 19,
+        "url": "https://github.com/DefenderGranary/fivem-trainer-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290105103?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "DefenderGranary/fivem-trainer-2026"
+      ],
+      "starScore": 19
+    },
+    {
+      "id": "306758676",
+      "rank": 38,
+      "type": "User",
+      "login": "evanpricegb8943",
+      "repos": [
+        {
+          "id": 1305679367,
+          "fork": false,
+          "name": "2d-to-3d-autocad-v2026",
+          "forks": 3,
+          "owner": "evanpricegb8943",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/306758676?v=4",
+          "topics": [],
+          "ownerId": "306758676",
+          "repoUrl": "https://github.com/evanpricegb8943/2d-to-3d-autocad-v2026",
+          "archived": false,
+          "fullName": "evanpricegb8943/2d-to-3d-autocad-v2026",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/evanpricegb8943",
+          "pushedAt": "2026-07-19T16:49:40+00:00",
+          "createdAt": "2026-07-19T12:09:32+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T16:49:43+00:00",
+          "description": "AutoCAD-centered utility for converting 2D designs to 3D workflows in version 2026.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/evanpricegb8943",
+      "topRepo": {
+        "name": "2d-to-3d-autocad-v2026",
+        "fullName": "evanpricegb8943/2d-to-3d-autocad-v2026",
+        "stars": 19,
+        "url": "https://github.com/evanpricegb8943/2d-to-3d-autocad-v2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306758676?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "evanpricegb8943/2d-to-3d-autocad-v2026"
+      ],
+      "starScore": 19
+    },
+    {
+      "id": "306755979",
+      "rank": 39,
+      "type": "User",
+      "login": "felix-wardrh4626",
+      "repos": [
+        {
+          "id": 1305680024,
+          "fork": false,
+          "name": "ableton-ai-assistant-v100",
+          "forks": 3,
+          "owner": "felix-wardrh4626",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/306755979?v=4",
+          "topics": [],
+          "ownerId": "306755979",
+          "repoUrl": "https://github.com/felix-wardrh4626/ableton-ai-assistant-v100",
+          "archived": false,
+          "fullName": "felix-wardrh4626/ableton-ai-assistant-v100",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/felix-wardrh4626",
+          "pushedAt": "2026-07-19T16:49:39+00:00",
+          "createdAt": "2026-07-19T12:10:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T16:49:42+00:00",
+          "description": "AI-assisted Ableton Live control for real-time audio work, with mixing, mastering, MCP connectivity, and low-latency TCP support in v1.0.0.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/felix-wardrh4626",
+      "topRepo": {
+        "name": "ableton-ai-assistant-v100",
+        "fullName": "felix-wardrh4626/ableton-ai-assistant-v100",
+        "stars": 19,
+        "url": "https://github.com/felix-wardrh4626/ableton-ai-assistant-v100"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306755979?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "felix-wardrh4626/ableton-ai-assistant-v100"
+      ],
+      "starScore": 19
+    },
+    {
       "id": "306486549",
-      "rank": 31,
+      "rank": 40,
       "type": "User",
       "login": "michaelfostermus4696",
       "repos": [
@@ -1678,10 +2198,10 @@
           "fullName": "michaelfostermus4696/dead-by-daylight-script-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/michaelfostermus4696",
-          "pushedAt": "2026-07-19T13:38:01+00:00",
+          "pushedAt": "2026-07-19T16:47:46+00:00",
           "createdAt": "2026-07-19T07:42:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:06+00:00",
+          "updatedAt": "2026-07-19T16:47:49+00:00",
           "description": "Browser-delivered Dead by Daylight trainer for PC play, offering automation, gameplay actions, and utility controls through a web-based interface.",
           "defaultBranch": "main"
         }
@@ -1703,7 +2223,7 @@
     },
     {
       "id": "306486906",
-      "rank": 32,
+      "rank": 41,
       "type": "User",
       "login": "noahjmtaylor690",
       "repos": [
@@ -1722,10 +2242,10 @@
           "fullName": "noahjmtaylor690/catilus-roblox-lua-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/noahjmtaylor690",
-          "pushedAt": "2026-07-19T13:38:02+00:00",
+          "pushedAt": "2026-07-19T16:51:28+00:00",
           "createdAt": "2026-07-19T07:43:58+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:06+00:00",
+          "updatedAt": "2026-07-19T16:51:32+00:00",
           "description": "Windows-first Roblox Lua executor for PC with a compact desktop-style interface and HTML-driven presentation, built around script hub discoverability for 2026.",
           "defaultBranch": "main"
         }
@@ -1746,8 +2266,154 @@
       "starScore": 19
     },
     {
+      "id": "290927627",
+      "rank": 42,
+      "type": "User",
+      "login": "aychetwoowe-alt",
+      "repos": [
+        {
+          "id": 1305679437,
+          "fork": false,
+          "name": "Paint-Seek-Plus",
+          "forks": 0,
+          "owner": "aychetwoowe-alt",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/290927627?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "290927627",
+          "repoUrl": "https://github.com/aychetwoowe-alt/Paint-Seek-Plus",
+          "archived": false,
+          "fullName": "aychetwoowe-alt/Paint-Seek-Plus",
+          "language": "Python",
+          "ownerUrl": "https://github.com/aychetwoowe-alt",
+          "pushedAt": "2026-07-19T19:58:12+00:00",
+          "createdAt": "2026-07-19T12:09:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T19:58:16+00:00",
+          "description": "Assistant tool for Roblox paint-and-seek games with visual overlays and player tracking features.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/aychetwoowe-alt",
+      "topRepo": {
+        "name": "Paint-Seek-Plus",
+        "fullName": "aychetwoowe-alt/Paint-Seek-Plus",
+        "stars": 18,
+        "url": "https://github.com/aychetwoowe-alt/Paint-Seek-Plus"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290927627?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "aychetwoowe-alt/Paint-Seek-Plus"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "306760516",
+      "rank": 43,
+      "type": "User",
+      "login": "bakerloganlhw4820",
+      "repos": [
+        {
+          "id": 1305679326,
+          "fork": false,
+          "name": "cs-crosshair-script-utility",
+          "forks": 3,
+          "owner": "bakerloganlhw4820",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/306760516?v=4",
+          "topics": [],
+          "ownerId": "306760516",
+          "repoUrl": "https://github.com/bakerloganlhw4820/cs-crosshair-script-utility",
+          "archived": false,
+          "fullName": "bakerloganlhw4820/cs-crosshair-script-utility",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/bakerloganlhw4820",
+          "pushedAt": "2026-07-19T16:49:39+00:00",
+          "createdAt": "2026-07-19T12:09:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T16:49:43+00:00",
+          "description": "Web-based Counter-Strike crosshair editor that generates config files for CS2, CSS, and CS 1.6, helping you create custom crosshairs without writing scripts by hand.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/bakerloganlhw4820",
+      "topRepo": {
+        "name": "cs-crosshair-script-utility",
+        "fullName": "bakerloganlhw4820/cs-crosshair-script-utility",
+        "stars": 18,
+        "url": "https://github.com/bakerloganlhw4820/cs-crosshair-script-utility"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306760516?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "bakerloganlhw4820/cs-crosshair-script-utility"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "300006049",
+      "rank": 44,
+      "type": "User",
+      "login": "BreezeSeaProtect",
+      "repos": [
+        {
+          "id": 1305679487,
+          "fork": false,
+          "name": "Paint-Hide-Ultra",
+          "forks": 0,
+          "owner": "BreezeSeaProtect",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/300006049?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "300006049",
+          "repoUrl": "https://github.com/BreezeSeaProtect/Paint-Hide-Ultra",
+          "archived": false,
+          "fullName": "BreezeSeaProtect/Paint-Hide-Ultra",
+          "language": "Python",
+          "ownerUrl": "https://github.com/BreezeSeaProtect",
+          "pushedAt": "2026-07-20T04:13:31+00:00",
+          "createdAt": "2026-07-19T12:09:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:13:35+00:00",
+          "description": "Tracker utility for Roblox paint-and-hide games with visual overlays and player detection features.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/BreezeSeaProtect",
+      "topRepo": {
+        "name": "Paint-Hide-Ultra",
+        "fullName": "BreezeSeaProtect/Paint-Hide-Ultra",
+        "stars": 18,
+        "url": "https://github.com/BreezeSeaProtect/Paint-Hide-Ultra"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300006049?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "BreezeSeaProtect/Paint-Hide-Ultra"
+      ],
+      "starScore": 18
+    },
+    {
       "id": "306487265",
-      "rank": 33,
+      "rank": 45,
       "type": "User",
       "login": "mattgrayjfsr6647",
       "repos": [
@@ -1766,10 +2432,10 @@
           "fullName": "mattgrayjfsr6647/cryptic-windows-executor-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/mattgrayjfsr6647",
-          "pushedAt": "2026-07-19T13:38:02+00:00",
+          "pushedAt": "2026-07-19T16:47:57+00:00",
           "createdAt": "2026-07-19T07:42:41+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:38:06+00:00",
+          "updatedAt": "2026-07-19T16:48:01+00:00",
           "description": "Windows 10/11 Roblox Lua script executor with a compact desktop UI, built-in script hub, and keyless access for fast local script loading.",
           "defaultBranch": "main"
         }
@@ -1790,8 +2456,857 @@
       "starScore": 18
     },
     {
+      "id": "242397582",
+      "rank": 46,
+      "type": "User",
+      "login": "Piang-png",
+      "repos": [
+        {
+          "id": 1305679537,
+          "fork": false,
+          "name": "Roblox-Hide-Pro",
+          "forks": 0,
+          "owner": "Piang-png",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/242397582?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "242397582",
+          "repoUrl": "https://github.com/Piang-png/Roblox-Hide-Pro",
+          "archived": false,
+          "fullName": "Piang-png/Roblox-Hide-Pro",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Piang-png",
+          "pushedAt": "2026-07-19T14:59:41+00:00",
+          "createdAt": "2026-07-19T12:09:49+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T14:59:45+00:00",
+          "description": "Assistance tool for Roblox hide-and-seek paint games with visual overlays and player tracking.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Piang-png",
+      "topRepo": {
+        "name": "Roblox-Hide-Pro",
+        "fullName": "Piang-png/Roblox-Hide-Pro",
+        "stars": 18,
+        "url": "https://github.com/Piang-png/Roblox-Hide-Pro"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/242397582?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Piang-png/Roblox-Hide-Pro"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "290105211",
+      "rank": 47,
+      "type": "User",
+      "login": "PierTailorForum",
+      "repos": [
+        {
+          "id": 1305710413,
+          "fork": false,
+          "name": "gta5-online-menu",
+          "forks": 0,
+          "owner": "PierTailorForum",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/290105211?v=4",
+          "topics": [],
+          "ownerId": "290105211",
+          "repoUrl": "https://github.com/PierTailorForum/gta5-online-menu",
+          "archived": false,
+          "fullName": "PierTailorForum/gta5-online-menu",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/PierTailorForum",
+          "pushedAt": "2026-07-19T12:59:11+00:00",
+          "createdAt": "2026-07-19T12:57:52+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:10:30+00:00",
+          "description": "GTA 5 mod menu with money drop, god mode, vehicle spawn, teleport, aimbot, and ESP for enhanced gameplay and complete control",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/PierTailorForum",
+      "topRepo": {
+        "name": "gta5-online-menu",
+        "fullName": "PierTailorForum/gta5-online-menu",
+        "stars": 18,
+        "url": "https://github.com/PierTailorForum/gta5-online-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290105211?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "PierTailorForum/gta5-online-menu"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "300005857",
+      "rank": 48,
+      "type": "User",
+      "login": "snatchnodejack",
+      "repos": [
+        {
+          "id": 1305679510,
+          "fork": false,
+          "name": "Roblox-Seek-Max",
+          "forks": 0,
+          "owner": "snatchnodejack",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/300005857?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "300005857",
+          "repoUrl": "https://github.com/snatchnodejack/Roblox-Seek-Max",
+          "archived": false,
+          "fullName": "snatchnodejack/Roblox-Seek-Max",
+          "language": "Python",
+          "ownerUrl": "https://github.com/snatchnodejack",
+          "pushedAt": "2026-07-20T04:14:45+00:00",
+          "createdAt": "2026-07-19T12:09:46+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:14:50+00:00",
+          "description": "Helper utility for Roblox seek-and-paint games with visual overlays and player tracking features.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/snatchnodejack",
+      "topRepo": {
+        "name": "Roblox-Seek-Max",
+        "fullName": "snatchnodejack/Roblox-Seek-Max",
+        "stars": 18,
+        "url": "https://github.com/snatchnodejack/Roblox-Seek-Max"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300005857?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "snatchnodejack/Roblox-Seek-Max"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "300005652",
+      "rank": 49,
+      "type": "User",
+      "login": "Tametradefend",
+      "repos": [
+        {
+          "id": 1305679516,
+          "fork": false,
+          "name": "Paint-Seek-Vision-Pro",
+          "forks": 0,
+          "owner": "Tametradefend",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/300005652?v=4",
+          "topics": [
+            "hide-and-seek",
+            "paint-and-seek",
+            "paint-and-seek-cheat",
+            "paint-or-seek",
+            "paint-to-hide",
+            "roblox-paint-and-seek"
+          ],
+          "ownerId": "300005652",
+          "repoUrl": "https://github.com/Tametradefend/Paint-Seek-Vision-Pro",
+          "archived": false,
+          "fullName": "Tametradefend/Paint-Seek-Vision-Pro",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Tametradefend",
+          "pushedAt": "2026-07-20T04:14:20+00:00",
+          "createdAt": "2026-07-19T12:09:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:14:31+00:00",
+          "description": "Visual enhancement utility for Roblox paint-and-seek games with player tracking and overlay features.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Tametradefend",
+      "topRepo": {
+        "name": "Paint-Seek-Vision-Pro",
+        "fullName": "Tametradefend/Paint-Seek-Vision-Pro",
+        "stars": 18,
+        "url": "https://github.com/Tametradefend/Paint-Seek-Vision-Pro"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300005652?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Tametradefend/Paint-Seek-Vision-Pro"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "59936952",
+      "rank": 50,
+      "type": "User",
+      "login": "bd-discord",
+      "repos": [
+        {
+          "id": 1305894204,
+          "fork": false,
+          "name": "BetterDiscord",
+          "forks": 0,
+          "owner": "bd-discord",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/59936952?v=4",
+          "topics": [
+            "bd-theme",
+            "betterdiscord-addon",
+            "betterdiscord-plugins",
+            "betterdiscord-stereo-plugin",
+            "betterdiscord-theme",
+            "betterdiscordlibrary",
+            "betterdiscordthemes",
+            "discord-client",
+            "discord-modified-client",
+            "discord-plugin",
+            "discord-privacy",
+            "discordtheme",
+            "stereo-plugin-for-better-discord",
+            "vc-undiscord",
+            "vencord-platformemulator",
+            "vencord-plugins",
+            "vencord-theme",
+            "vencord-themes",
+            "vencord-utility",
+            "vesktop"
+          ],
+          "ownerId": "59936952",
+          "repoUrl": "https://github.com/bd-discord/BetterDiscord",
+          "archived": false,
+          "fullName": "bd-discord/BetterDiscord",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/bd-discord",
+          "pushedAt": "2026-07-19T17:48:05+00:00",
+          "createdAt": "2026-07-19T17:17:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:13:54+00:00",
+          "description": "Better discord (betterdiscord) configures a client modification enabling custom discord themes and plugins. Compare search interest trends with Vencord or standard discord download alternatives, manage your UI appearance, and get direct download repository setup installation files.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/bd-discord",
+      "topRepo": {
+        "name": "BetterDiscord",
+        "fullName": "bd-discord/BetterDiscord",
+        "stars": 17,
+        "url": "https://github.com/bd-discord/BetterDiscord"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59936952?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "bd-discord/BetterDiscord"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "200792695",
+      "rank": 51,
+      "type": "User",
+      "login": "CrystaIIDEA",
+      "repos": [
+        {
+          "id": 1305882756,
+          "fork": false,
+          "name": "CrystalIDEA-uninstall-tool",
+          "forks": 0,
+          "owner": "CrystaIIDEA",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/200792695?v=4",
+          "topics": [
+            "advanced-program-removal-windows",
+            "app-remover",
+            "clean-pc-remove-software",
+            "clean-up",
+            "deletion-tool",
+            "device-cleanup",
+            "driver-updater",
+            "free-revo-uninstaller-pro",
+            "geek-uninstaller",
+            "iobit-uninstaller-pro-software-removal",
+            "overview-remove",
+            "portable-uninstaller",
+            "program-uninstaller",
+            "removal",
+            "total-2026",
+            "unattended-uninstall",
+            "uninstaller",
+            "uninstaller-tools",
+            "windows-app-uninstallation-guide",
+            "windows-cleaner"
+          ],
+          "ownerId": "200792695",
+          "repoUrl": "https://github.com/CrystaIIDEA/CrystalIDEA-uninstall-tool",
+          "archived": false,
+          "fullName": "CrystaIIDEA/CrystalIDEA-uninstall-tool",
+          "language": "C#",
+          "ownerUrl": "https://github.com/CrystaIIDEA",
+          "pushedAt": "2026-07-19T17:48:31+00:00",
+          "createdAt": "2026-07-19T17:00:26+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:14:03+00:00",
+          "description": "CrystalIDEA uninstall tool configures an alternative software deployment and removal manager for Windows. Monitor installation paths in real time, purge registry remnants, wipe leftover application files, and control startup configuration logs. Download direct repository setup files.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/CrystaIIDEA",
+      "topRepo": {
+        "name": "CrystalIDEA-uninstall-tool",
+        "fullName": "CrystaIIDEA/CrystalIDEA-uninstall-tool",
+        "stars": 17,
+        "url": "https://github.com/CrystaIIDEA/CrystalIDEA-uninstall-tool"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/200792695?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "CrystaIIDEA/CrystalIDEA-uninstall-tool"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "182428405",
+      "rank": 52,
+      "type": "User",
+      "login": "cursorgrok45",
+      "repos": [
+        {
+          "id": 1305900329,
+          "fork": false,
+          "name": "Cursor-Grok-4.5-xAI-free",
+          "forks": 0,
+          "owner": "cursorgrok45",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/182428405?v=4",
+          "topics": [
+            "ai-powered-applications",
+            "composer-2-5",
+            "cursor-ai-assistant",
+            "cursor-ai-project-rules",
+            "cursor-api",
+            "cursor-docs",
+            "cursor-grok-4-5",
+            "cursor-ide",
+            "cursor-infinite-free-trial",
+            "cursor-installer",
+            "cursor-sdk",
+            "cursorai",
+            "free-cursor",
+            "grok-4-5",
+            "grok-ai",
+            "grok-build",
+            "grok-imagine",
+            "grok-integration",
+            "grok4",
+            "spacexai"
+          ],
+          "ownerId": "182428405",
+          "repoUrl": "https://github.com/cursorgrok45/Cursor-Grok-4.5-xAI-free",
+          "archived": false,
+          "fullName": "cursorgrok45/Cursor-Grok-4.5-xAI-free",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/cursorgrok45",
+          "pushedAt": "2026-07-19T17:47:52+00:00",
+          "createdAt": "2026-07-19T17:26:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:14:11+00:00",
+          "description": "Cursor grok 4.5 setups track free tier configurations, API endpoints, and pricing queries for local AI coding. Evaluate benchmarks and context window size against Claude, Kimi K3, and Composer 2.5 on OpenRouter or Supergrok. Download direct repository setup and configuration files.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cursorgrok45",
+      "topRepo": {
+        "name": "Cursor-Grok-4.5-xAI-free",
+        "fullName": "cursorgrok45/Cursor-Grok-4.5-xAI-free",
+        "stars": 17,
+        "url": "https://github.com/cursorgrok45/Cursor-Grok-4.5-xAI-free"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182428405?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cursorgrok45/Cursor-Grok-4.5-xAI-free"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "206753862",
+      "rank": 53,
+      "type": "User",
+      "login": "geode-gd-hub",
+      "repos": [
+        {
+          "id": 1305908208,
+          "fork": false,
+          "name": "Geode-Geometry-Dash",
+          "forks": 0,
+          "owner": "geode-gd-hub",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/206753862?v=4",
+          "topics": [
+            "gd",
+            "gd-hack",
+            "gd-library",
+            "gd2-library",
+            "gdnews",
+            "gdps",
+            "geode",
+            "geode-mod",
+            "geode-sdk",
+            "geometry-dash",
+            "geometry-dash-bot",
+            "geometry-dash-browser-game",
+            "geometry-dash-clone",
+            "geometry-dash-download",
+            "geometry-dash-levels",
+            "geometry-dash-mod",
+            "geometry-dash-private-server",
+            "geometrydash",
+            "gmd",
+            "robtop"
+          ],
+          "ownerId": "206753862",
+          "repoUrl": "https://github.com/geode-gd-hub/Geode-Geometry-Dash",
+          "archived": false,
+          "fullName": "geode-gd-hub/Geode-Geometry-Dash",
+          "language": "C++",
+          "ownerUrl": "https://github.com/geode-gd-hub",
+          "pushedAt": "2026-07-19T17:47:42+00:00",
+          "createdAt": "2026-07-19T17:38:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:14:20+00:00",
+          "description": "Geode configures a mod loader and manager for Geometry Dash (GD). Track search trends for geode mod downloads, APK EXE installations, and custom mods setups. View Amethyst or Minecraft implementations, and get direct download repository files.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/geode-gd-hub",
+      "topRepo": {
+        "name": "Geode-Geometry-Dash",
+        "fullName": "geode-gd-hub/Geode-Geometry-Dash",
+        "stars": 17,
+        "url": "https://github.com/geode-gd-hub/Geode-Geometry-Dash"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206753862?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "geode-gd-hub/Geode-Geometry-Dash"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "76788069",
+      "rank": 54,
+      "type": "User",
+      "login": "googlegemini-ai",
+      "repos": [
+        {
+          "id": 1305866770,
+          "fork": false,
+          "name": "Google-Gemini-Desktop",
+          "forks": 0,
+          "owner": "googlegemini-ai",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/76788069?v=4",
+          "topics": [
+            "free-gemini-api",
+            "gemini-",
+            "gemini-15-pro",
+            "gemini-2-0-flash",
+            "gemini-2-5-flash",
+            "gemini-3",
+            "gemini-3-5-flash",
+            "gemini-ai-integration",
+            "gemini-app",
+            "gemini-bot",
+            "gemini-desktop",
+            "gemini-desktop-app",
+            "gemini-live-api",
+            "gemini-pro-1-5",
+            "gemini-pro-vision",
+            "gemini-spark-desktop",
+            "gemini-web",
+            "google-gemini",
+            "google-gemini-ai",
+            "google-gemini-pro"
+          ],
+          "ownerId": "76788069",
+          "repoUrl": "https://github.com/googlegemini-ai/Google-Gemini-Desktop",
+          "archived": false,
+          "fullName": "googlegemini-ai/Google-Gemini-Desktop",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/googlegemini-ai",
+          "pushedAt": "2026-07-19T17:48:44+00:00",
+          "createdAt": "2026-07-19T16:38:20+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:13:38+00:00",
+          "description": "Gemini desktop app configures the Google Gemini Pro AI client download for Windows and Mac. Compare search interest trends with ChatGPT desktop app, Claude desktop, GitHub desktop, and Google AI Studio notebooks. Get direct installation setup tracking files from the repository.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/googlegemini-ai",
+      "topRepo": {
+        "name": "Google-Gemini-Desktop",
+        "fullName": "googlegemini-ai/Google-Gemini-Desktop",
+        "stars": 17,
+        "url": "https://github.com/googlegemini-ai/Google-Gemini-Desktop"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76788069?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "googlegemini-ai/Google-Gemini-Desktop"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "290105517",
+      "rank": 55,
+      "type": "User",
+      "login": "OverlapMover",
+      "repos": [
+        {
+          "id": 1305714612,
+          "fork": false,
+          "name": "combat-master-menu-2026",
+          "forks": 0,
+          "owner": "OverlapMover",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/290105517?v=4",
+          "topics": [],
+          "ownerId": "290105517",
+          "repoUrl": "https://github.com/OverlapMover/combat-master-menu-2026",
+          "archived": false,
+          "fullName": "OverlapMover/combat-master-menu-2026",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/OverlapMover",
+          "pushedAt": "2026-07-19T13:05:18+00:00",
+          "createdAt": "2026-07-19T13:04:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:10:32+00:00",
+          "description": "Combat Master mod menu with ESP wallhack, aimbot, god mode, unlimited ammo, speed hack, and battle pass unlock for tactical FPS",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/OverlapMover",
+      "topRepo": {
+        "name": "combat-master-menu-2026",
+        "fullName": "OverlapMover/combat-master-menu-2026",
+        "stars": 17,
+        "url": "https://github.com/OverlapMover/combat-master-menu-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290105517?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "OverlapMover/combat-master-menu-2026"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "40582586",
+      "rank": 56,
+      "type": "User",
+      "login": "yellowkey-bitlocker",
+      "repos": [
+        {
+          "id": 1305888237,
+          "fork": false,
+          "name": "YellowKey-Bitlocker",
+          "forks": 0,
+          "owner": "yellowkey-bitlocker",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/40582586?v=4",
+          "topics": [
+            "bitlocker",
+            "bitlocker-bypass",
+            "bitlocker-drive-encryption",
+            "bitlocker-drive-lock",
+            "bitlocker-drive-management",
+            "bitlocker-lock",
+            "bitlocker-yellowkey",
+            "cve-2026-45585",
+            "decryption-tool",
+            "full-disk-encryption",
+            "nightmare-eclipse",
+            "open-source-vulnerabilities",
+            "vulnerabilities",
+            "vulnerability",
+            "yellow",
+            "yellowkey",
+            "yellowkey-bitlocker",
+            "yellowkey-cve",
+            "yellowkey-exploit",
+            "yellowkey-vulnerability"
+          ],
+          "ownerId": "40582586",
+          "repoUrl": "https://github.com/yellowkey-bitlocker/YellowKey-Bitlocker",
+          "archived": false,
+          "fullName": "yellowkey-bitlocker/YellowKey-Bitlocker",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/yellowkey-bitlocker",
+          "pushedAt": "2026-07-19T17:48:20+00:00",
+          "createdAt": "2026-07-19T17:08:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T23:13:46+00:00",
+          "description": "Yellowkey bitlocker CVE-2026-45585 provides an open-source utility manager to extract, backup, and organize BitLocker recovery keys on Windows drives. Automate volume decryption logs, manage drive encryption states via command-line tools, and export secure configuration files directly to GitHub.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/yellowkey-bitlocker",
+      "topRepo": {
+        "name": "YellowKey-Bitlocker",
+        "fullName": "yellowkey-bitlocker/YellowKey-Bitlocker",
+        "stars": 17,
+        "url": "https://github.com/yellowkey-bitlocker/YellowKey-Bitlocker"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40582586?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "yellowkey-bitlocker/YellowKey-Bitlocker"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "289837687",
+      "rank": 57,
+      "type": "User",
+      "login": "AbjurerArcade64",
+      "repos": [
+        {
+          "id": 1305790694,
+          "fork": false,
+          "name": "capcut-aivideo-editing",
+          "forks": 0,
+          "owner": "AbjurerArcade64",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/289837687?v=4",
+          "topics": [
+            "4k-video",
+            "4k-video-editor",
+            "ai-captions",
+            "ai-video-editor",
+            "background-removal",
+            "cinematic-editing",
+            "color-grading",
+            "content-creator",
+            "effects-library",
+            "reels-editor",
+            "social-media-video",
+            "speed-ramping",
+            "tiktok-editor",
+            "video-editing",
+            "video-editing-software",
+            "video-editor",
+            "video-editor-for-youtube",
+            "video-templates",
+            "windows-video-editor",
+            "youtube-shorts"
+          ],
+          "ownerId": "289837687",
+          "repoUrl": "https://github.com/AbjurerArcade64/capcut-aivideo-editing",
+          "archived": false,
+          "fullName": "AbjurerArcade64/capcut-aivideo-editing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/AbjurerArcade64",
+          "pushedAt": "2026-07-19T14:53:27+00:00",
+          "createdAt": "2026-07-19T14:52:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T15:06:12+00:00",
+          "description": "🎬 CapCut-Pro – unlock all premium features of CapCut Pro for free! Remove watermark, 4K export, AI tools, pro transitions & effects. Full version with patch and activator. For educational purposes only.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/AbjurerArcade64",
+      "topRepo": {
+        "name": "capcut-aivideo-editing",
+        "fullName": "AbjurerArcade64/capcut-aivideo-editing",
+        "stars": 16,
+        "url": "https://github.com/AbjurerArcade64/capcut-aivideo-editing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289837687?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "AbjurerArcade64/capcut-aivideo-editing"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "290104802",
+      "rank": 58,
+      "type": "User",
+      "login": "Chasertrodemolish",
+      "repos": [
+        {
+          "id": 1305717127,
+          "fork": false,
+          "name": "geometry-dash-trainer",
+          "forks": 0,
+          "owner": "Chasertrodemolish",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/290104802?v=4",
+          "topics": [],
+          "ownerId": "290104802",
+          "repoUrl": "https://github.com/Chasertrodemolish/geometry-dash-trainer",
+          "archived": false,
+          "fullName": "Chasertrodemolish/geometry-dash-trainer",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Chasertrodemolish",
+          "pushedAt": "2026-07-19T13:11:33+00:00",
+          "createdAt": "2026-07-19T13:07:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:10:33+00:00",
+          "description": "Geometry Dash mod menu with noclip, speedhack, startpos switcher, hitbox viewer, icon unlocker, and practice mode for GD 2.2",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Chasertrodemolish",
+      "topRepo": {
+        "name": "geometry-dash-trainer",
+        "fullName": "Chasertrodemolish/geometry-dash-trainer",
+        "stars": 16,
+        "url": "https://github.com/Chasertrodemolish/geometry-dash-trainer"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290104802?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Chasertrodemolish/geometry-dash-trainer"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "31321188",
+      "rank": 59,
+      "type": "User",
+      "login": "remorses",
+      "repos": [
+        {
+          "id": 1305904986,
+          "fork": false,
+          "name": "akarso",
+          "forks": 0,
+          "owner": "remorses",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/31321188?v=4",
+          "topics": [],
+          "ownerId": "31321188",
+          "repoUrl": "https://github.com/remorses/akarso",
+          "archived": false,
+          "fullName": "remorses/akarso",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/remorses",
+          "pushedAt": "2026-07-20T01:50:49+00:00",
+          "createdAt": "2026-07-19T17:33:16+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:08:42+00:00",
+          "description": "CLI for posting and replying across 14 social platforms via Akarso.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/remorses",
+      "topRepo": {
+        "name": "akarso",
+        "fullName": "remorses/akarso",
+        "stars": 16,
+        "url": "https://github.com/remorses/akarso"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31321188?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "remorses/akarso"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "289837664",
+      "rank": 60,
+      "type": "User",
+      "login": "ShorePaladin",
+      "repos": [
+        {
+          "id": 1305720899,
+          "fork": false,
+          "name": "capcut-aivideo-editor",
+          "forks": 0,
+          "owner": "ShorePaladin",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/289837664?v=4",
+          "topics": [
+            "4k-video",
+            "4k-video-editor",
+            "ai-captions",
+            "ai-video-editor",
+            "background-removal",
+            "cinematic-editing",
+            "color-grading",
+            "content-creator",
+            "effects-library",
+            "reels-editor",
+            "social-media-video",
+            "speed-ramping",
+            "tiktok-editor",
+            "video-editing",
+            "video-editing-software",
+            "video-editor",
+            "video-editor-for-youtube",
+            "video-templates",
+            "windows-video-editor",
+            "youtube-shorts"
+          ],
+          "ownerId": "289837664",
+          "repoUrl": "https://github.com/ShorePaladin/capcut-aivideo-editor",
+          "archived": false,
+          "fullName": "ShorePaladin/capcut-aivideo-editor",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/ShorePaladin",
+          "pushedAt": "2026-07-19T13:52:00+00:00",
+          "createdAt": "2026-07-19T13:13:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T14:12:11+00:00",
+          "description": "🎬 CapCut-Pro – unlock all premium features of CapCut Pro for free! Remove watermark, 4K export, AI tools, pro transitions & effects. Full version with patch and activator. For educational purposes only.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ShorePaladin",
+      "topRepo": {
+        "name": "capcut-aivideo-editor",
+        "fullName": "ShorePaladin/capcut-aivideo-editor",
+        "stars": 16,
+        "url": "https://github.com/ShorePaladin/capcut-aivideo-editor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289837664?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ShorePaladin/capcut-aivideo-editor"
+      ],
+      "starScore": 16
+    },
+    {
       "id": "305984338",
-      "rank": 34,
+      "rank": 61,
       "type": "User",
       "login": "eyebaseb",
       "repos": [
@@ -1845,164 +3360,695 @@
       "starScore": 15
     },
     {
-      "id": "123156046",
-      "rank": 35,
+      "id": "216765598",
+      "rank": 62,
       "type": "User",
-      "login": "fhiltscher",
+      "login": "LimitedRunGames-Tech",
       "repos": [
         {
-          "id": 1305266704,
+          "id": 1305886391,
           "fork": false,
-          "name": "awesome-ai-coding-sandboxes",
+          "name": "snes-fx3",
           "forks": 0,
-          "owner": "fhiltscher",
+          "owner": "LimitedRunGames-Tech",
           "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/123156046?v=4",
-          "topics": [
-            "ai-agents",
-            "awesome",
-            "awesome-list",
-            "coding-agents",
-            "devtools",
-            "egress",
-            "firecracker",
-            "gvisor",
-            "isolation",
-            "llm",
-            "microvm",
-            "sandbox",
-            "secrets",
-            "security"
-          ],
-          "ownerId": "123156046",
-          "repoUrl": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes",
+          "avatar": "https://avatars.githubusercontent.com/u/216765598?v=4",
+          "topics": [],
+          "ownerId": "216765598",
+          "repoUrl": "https://github.com/LimitedRunGames-Tech/snes-fx3",
           "archived": false,
-          "fullName": "fhiltscher/awesome-ai-coding-sandboxes",
+          "fullName": "LimitedRunGames-Tech/snes-fx3",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/fhiltscher",
-          "pushedAt": "2026-07-18T23:36:29+00:00",
-          "createdAt": "2026-07-18T22:35:03+00:00",
+          "ownerUrl": "https://github.com/LimitedRunGames-Tech",
+          "pushedAt": "2026-07-19T17:16:00+00:00",
+          "createdAt": "2026-07-19T17:05:38+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:53:48+00:00",
-          "description": "Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and secrets handling",
+          "updatedAt": "2026-07-20T04:12:37+00:00",
+          "description": "Super Nintendo FX3",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/fhiltscher",
+      "htmlUrl": "https://github.com/LimitedRunGames-Tech",
       "topRepo": {
-        "name": "awesome-ai-coding-sandboxes",
-        "fullName": "fhiltscher/awesome-ai-coding-sandboxes",
+        "name": "snes-fx3",
+        "fullName": "LimitedRunGames-Tech/snes-fx3",
         "stars": 15,
-        "url": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes"
+        "url": "https://github.com/LimitedRunGames-Tech/snes-fx3"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/123156046?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/216765598?v=4",
       "repoCount": 1,
       "repoNames": [
-        "fhiltscher/awesome-ai-coding-sandboxes"
+        "LimitedRunGames-Tech/snes-fx3"
       ],
       "starScore": 15
     },
     {
-      "id": "305972736",
-      "rank": 36,
+      "id": "290105086",
+      "rank": 63,
       "type": "User",
-      "login": "lifopuyeqi",
+      "login": "RegionDisengage",
       "repos": [
         {
-          "id": 1305539080,
+          "id": 1305749756,
           "fork": false,
-          "name": "TeamViewer-Connection-Blocked-Fix",
+          "name": "palworld-menu-mod",
           "forks": 0,
-          "owner": "lifopuyeqi",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/305972736?v=4",
-          "topics": [
-            "remote-desktop",
-            "teamviewer",
-            "teamviewer-blocked",
-            "teamviewer-commercial-use-detected",
-            "teamviewer-connection-blocked",
-            "teamviewer-connection-timeout",
-            "teamviewer-error",
-            "teamviewer-fix",
-            "teamviewer-id-changer",
-            "teamviewer-reset",
-            "teamviewer-unblocker",
-            "windows-tool"
-          ],
-          "ownerId": "305972736",
-          "repoUrl": "https://github.com/lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
+          "owner": "RegionDisengage",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/290105086?v=4",
+          "topics": [],
+          "ownerId": "290105086",
+          "repoUrl": "https://github.com/RegionDisengage/palworld-menu-mod",
           "archived": false,
-          "fullName": "lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/lifopuyeqi",
-          "pushedAt": "2026-07-19T08:22:31+00:00",
-          "createdAt": "2026-07-19T08:18:55+00:00",
+          "fullName": "RegionDisengage/palworld-menu-mod",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/RegionDisengage",
+          "pushedAt": "2026-07-19T13:59:03+00:00",
+          "createdAt": "2026-07-19T13:54:46+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:27:12+00:00",
-          "description": "Fix TeamViewer connection blocked error – connection timeout, firewall block, commercial use detected, and more",
+          "updatedAt": "2026-07-19T22:10:40+00:00",
+          "description": "Palworld mod menu with ESP wallhack, fly hack, god mode, pal spawner, item spawner, teleport, and speed hack for ultimate survival sandbox gameplay",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lifopuyeqi",
+      "htmlUrl": "https://github.com/RegionDisengage",
       "topRepo": {
-        "name": "TeamViewer-Connection-Blocked-Fix",
-        "fullName": "lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
-        "stars": 14,
-        "url": "https://github.com/lifopuyeqi/TeamViewer-Connection-Blocked-Fix"
+        "name": "palworld-menu-mod",
+        "fullName": "RegionDisengage/palworld-menu-mod",
+        "stars": 15,
+        "url": "https://github.com/RegionDisengage/palworld-menu-mod"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/305972736?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290105086?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lifopuyeqi/TeamViewer-Connection-Blocked-Fix"
+        "RegionDisengage/palworld-menu-mod"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "68353146",
+      "rank": 64,
+      "type": "User",
+      "login": "RshaCuDeVidro",
+      "repos": [
+        {
+          "id": 1305956306,
+          "fork": false,
+          "name": "ledsh",
+          "forks": 0,
+          "owner": "RshaCuDeVidro",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/68353146?v=4",
+          "topics": [],
+          "ownerId": "68353146",
+          "repoUrl": "https://github.com/RshaCuDeVidro/ledsh",
+          "archived": false,
+          "fullName": "RshaCuDeVidro/ledsh",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/RshaCuDeVidro",
+          "pushedAt": "2026-07-19T19:12:50+00:00",
+          "createdAt": "2026-07-19T18:54:24+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:33:09+00:00",
+          "description": "control your keyboard LEDs with /dev/input using the cli ",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/RshaCuDeVidro",
+      "topRepo": {
+        "name": "ledsh",
+        "fullName": "RshaCuDeVidro/ledsh",
+        "stars": 15,
+        "url": "https://github.com/RshaCuDeVidro/ledsh"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68353146?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "RshaCuDeVidro/ledsh"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "45094250",
+      "rank": 65,
+      "type": "User",
+      "login": "AliAkrami1375",
+      "repos": [
+        {
+          "id": 1305540288,
+          "fork": false,
+          "name": "Li-Translate",
+          "forks": 0,
+          "owner": "AliAkrami1375",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/45094250?v=4",
+          "topics": [
+            "agent",
+            "agentic-ai",
+            "agentic-workflow",
+            "ai",
+            "ai-video-subtitle",
+            "llm",
+            "subtitle-ai",
+            "subtitle-translation",
+            "subtitle-translator",
+            "subtitles-generator",
+            "video-subtitle-create",
+            "video-subtitle-translation",
+            "video-subtitles",
+            "video-transcription"
+          ],
+          "ownerId": "45094250",
+          "repoUrl": "https://github.com/AliAkrami1375/Li-Translate",
+          "archived": false,
+          "fullName": "AliAkrami1375/Li-Translate",
+          "language": "Vue",
+          "ownerUrl": "https://github.com/AliAkrami1375",
+          "pushedAt": "2026-07-19T21:09:42+00:00",
+          "createdAt": "2026-07-19T08:21:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T20:35:11+00:00",
+          "description": "Open-source AI-powered subtitle generation and natural language translation platform for video and audio.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/AliAkrami1375",
+      "topRepo": {
+        "name": "Li-Translate",
+        "fullName": "AliAkrami1375/Li-Translate",
+        "stars": 14,
+        "url": "https://github.com/AliAkrami1375/Li-Translate"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45094250?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "AliAkrami1375/Li-Translate"
       ],
       "starScore": 14
     },
     {
-      "id": "230580982",
-      "rank": 37,
+      "id": "290104800",
+      "rank": 66,
       "type": "User",
-      "login": "oi88boi",
+      "login": "GasShellSnips71",
       "repos": [
         {
-          "id": 1305362764,
+          "id": 1305754340,
           "fork": false,
-          "name": "hanime-viewer1.0.0",
-          "forks": 0,
-          "owner": "oi88boi",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/230580982?v=4",
+          "name": "palworld-modes-menu",
+          "forks": 1,
+          "owner": "GasShellSnips71",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/290104800?v=4",
           "topics": [],
-          "ownerId": "230580982",
-          "repoUrl": "https://github.com/oi88boi/hanime-viewer1.0.0",
+          "ownerId": "290104800",
+          "repoUrl": "https://github.com/GasShellSnips71/palworld-modes-menu",
           "archived": false,
-          "fullName": "oi88boi/hanime-viewer1.0.0",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/oi88boi",
-          "pushedAt": "2026-07-19T02:38:13+00:00",
-          "createdAt": "2026-07-19T02:28:34+00:00",
+          "fullName": "GasShellSnips71/palworld-modes-menu",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/GasShellSnips71",
+          "pushedAt": "2026-07-19T14:02:50+00:00",
+          "createdAt": "2026-07-19T14:01:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-07-19T13:03:48+00:00",
-          "description": "一个hanime1的第三方app",
+          "updatedAt": "2026-07-19T22:11:07+00:00",
+          "description": "Palworld trainer 2026 with god mode, pal editor, infinite resources, instant capture, fly hack, speed hack, and teleport for unlimited survival control",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/oi88boi",
+      "htmlUrl": "https://github.com/GasShellSnips71",
       "topRepo": {
-        "name": "hanime-viewer1.0.0",
-        "fullName": "oi88boi/hanime-viewer1.0.0",
-        "stars": 13,
-        "url": "https://github.com/oi88boi/hanime-viewer1.0.0"
+        "name": "palworld-modes-menu",
+        "fullName": "GasShellSnips71/palworld-modes-menu",
+        "stars": 14,
+        "url": "https://github.com/GasShellSnips71/palworld-modes-menu"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/230580982?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290104800?v=4",
       "repoCount": 1,
       "repoNames": [
-        "oi88boi/hanime-viewer1.0.0"
+        "GasShellSnips71/palworld-modes-menu"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "36804234",
+      "rank": 67,
+      "type": "User",
+      "login": "N0819",
+      "repos": [
+        {
+          "id": 1305919833,
+          "fork": false,
+          "name": "Fiction_Engine",
+          "forks": 1,
+          "owner": "N0819",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/36804234?v=4",
+          "topics": [],
+          "ownerId": "36804234",
+          "repoUrl": "https://github.com/N0819/Fiction_Engine",
+          "archived": false,
+          "fullName": "N0819/Fiction_Engine",
+          "language": "Python",
+          "ownerUrl": "https://github.com/N0819",
+          "pushedAt": "2026-07-20T03:48:17+00:00",
+          "createdAt": "2026-07-19T17:55:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T04:06:06+00:00",
+          "description": "An engine for creating coherent fiction with LLMs",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/N0819",
+      "topRepo": {
+        "name": "Fiction_Engine",
+        "fullName": "N0819/Fiction_Engine",
+        "stars": 14,
+        "url": "https://github.com/N0819/Fiction_Engine"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36804234?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "N0819/Fiction_Engine"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "287252056",
+      "rank": 68,
+      "type": "User",
+      "login": "rossignol6712",
+      "repos": [
+        {
+          "id": 1305498132,
+          "fork": false,
+          "name": "claude-code-custom-prompt",
+          "forks": 0,
+          "owner": "rossignol6712",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/287252056?v=4",
+          "topics": [],
+          "ownerId": "287252056",
+          "repoUrl": "https://github.com/rossignol6712/claude-code-custom-prompt",
+          "archived": false,
+          "fullName": "rossignol6712/claude-code-custom-prompt",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/rossignol6712",
+          "pushedAt": "2026-07-19T07:42:44+00:00",
+          "createdAt": "2026-07-19T07:07:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T02:11:42+00:00",
+          "description": "Replace Claude Code's default system prompt & compact templates with your own — a complete guide and toolkit",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/rossignol6712",
+      "topRepo": {
+        "name": "claude-code-custom-prompt",
+        "fullName": "rossignol6712/claude-code-custom-prompt",
+        "stars": 14,
+        "url": "https://github.com/rossignol6712/claude-code-custom-prompt"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/287252056?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "rossignol6712/claude-code-custom-prompt"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "306728611",
+      "rank": 69,
+      "type": "User",
+      "login": "aquanodemusic",
+      "repos": [
+        {
+          "id": 1305663296,
+          "fork": false,
+          "name": "aquanode-plugins",
+          "forks": 0,
+          "owner": "aquanodemusic",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/306728611?v=4",
+          "topics": [],
+          "ownerId": "306728611",
+          "repoUrl": "https://github.com/aquanodemusic/aquanode-plugins",
+          "archived": false,
+          "fullName": "aquanodemusic/aquanode-plugins",
+          "language": "C++",
+          "ownerUrl": "https://github.com/aquanodemusic",
+          "pushedAt": "2026-07-19T17:12:18+00:00",
+          "createdAt": "2026-07-19T11:43:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T00:39:44+00:00",
+          "description": "An extensive collection of JUCE VST plugins for creative sound design.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/aquanodemusic",
+      "topRepo": {
+        "name": "aquanode-plugins",
+        "fullName": "aquanodemusic/aquanode-plugins",
+        "stars": 13,
+        "url": "https://github.com/aquanodemusic/aquanode-plugins"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306728611?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "aquanodemusic/aquanode-plugins"
       ],
       "starScore": 13
+    },
+    {
+      "id": "290104652",
+      "rank": 70,
+      "type": "User",
+      "login": "WyvernSoapmaker",
+      "repos": [
+        {
+          "id": 1305760588,
+          "fork": false,
+          "name": "fh6-trainer",
+          "forks": 0,
+          "owner": "WyvernSoapmaker",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/290104652?v=4",
+          "topics": [],
+          "ownerId": "290104652",
+          "repoUrl": "https://github.com/WyvernSoapmaker/fh6-trainer",
+          "archived": false,
+          "fullName": "WyvernSoapmaker/fh6-trainer",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/WyvernSoapmaker",
+          "pushedAt": "2026-07-19T14:15:51+00:00",
+          "createdAt": "2026-07-19T14:10:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:11:14+00:00",
+          "description": "Forza Horizon 6 trainer with credits editor, wheelspins, unlock all cars, teleport, speed boost, and skill points mod for enhanced gameplay",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/WyvernSoapmaker",
+      "topRepo": {
+        "name": "fh6-trainer",
+        "fullName": "WyvernSoapmaker/fh6-trainer",
+        "stars": 13,
+        "url": "https://github.com/WyvernSoapmaker/fh6-trainer"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290104652?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "WyvernSoapmaker/fh6-trainer"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "243390255",
+      "rank": 71,
+      "type": "User",
+      "login": "astraqcd",
+      "repos": [
+        {
+          "id": 1305831057,
+          "fork": false,
+          "name": "athena-ctf-2026-challs",
+          "forks": 0,
+          "owner": "astraqcd",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/243390255?v=4",
+          "topics": [
+            "athena",
+            "athena-ctf",
+            "athena-ctf-2026",
+            "ctf",
+            "ctf-challenges",
+            "security"
+          ],
+          "ownerId": "243390255",
+          "repoUrl": "https://github.com/astraqcd/athena-ctf-2026-challs",
+          "archived": false,
+          "fullName": "astraqcd/athena-ctf-2026-challs",
+          "language": "Python",
+          "ownerUrl": "https://github.com/astraqcd",
+          "pushedAt": "2026-07-19T21:23:50+00:00",
+          "createdAt": "2026-07-19T15:47:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T01:51:54+00:00",
+          "description": "Public archive of Athena CTF 2026 challenges: files, Docker services, and challenge READMEs.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/astraqcd",
+      "topRepo": {
+        "name": "athena-ctf-2026-challs",
+        "fullName": "astraqcd/athena-ctf-2026-challs",
+        "stars": 12,
+        "url": "https://github.com/astraqcd/athena-ctf-2026-challs"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/243390255?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "astraqcd/athena-ctf-2026-challs"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "290105635",
+      "rank": 72,
+      "type": "User",
+      "login": "HexaSparkHatchet",
+      "repos": [
+        {
+          "id": 1305766372,
+          "fork": false,
+          "name": "pixel-gun-modmenu",
+          "forks": 0,
+          "owner": "HexaSparkHatchet",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/290105635?v=4",
+          "topics": [],
+          "ownerId": "290105635",
+          "repoUrl": "https://github.com/HexaSparkHatchet/pixel-gun-modmenu",
+          "archived": false,
+          "fullName": "HexaSparkHatchet/pixel-gun-modmenu",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/HexaSparkHatchet",
+          "pushedAt": "2026-07-19T14:19:24+00:00",
+          "createdAt": "2026-07-19T14:17:57+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:11:15+00:00",
+          "description": "Pixel Gun 3D trainer with aimbot, ESP wallhack, infinite ammo, rapid fire, no recoil, and gems hack for competitive FPS mastery",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/HexaSparkHatchet",
+      "topRepo": {
+        "name": "pixel-gun-modmenu",
+        "fullName": "HexaSparkHatchet/pixel-gun-modmenu",
+        "stars": 12,
+        "url": "https://github.com/HexaSparkHatchet/pixel-gun-modmenu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290105635?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "HexaSparkHatchet/pixel-gun-modmenu"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "306762944",
+      "rank": 73,
+      "type": "User",
+      "login": "mourning-grove",
+      "repos": [
+        {
+          "id": 1305670515,
+          "fork": false,
+          "name": "Mournes-Jade-Amber-Theme-CSS",
+          "forks": 0,
+          "owner": "mourning-grove",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/306762944?v=4",
+          "topics": [],
+          "ownerId": "306762944",
+          "repoUrl": "https://github.com/mourning-grove/Mournes-Jade-Amber-Theme-CSS",
+          "archived": false,
+          "fullName": "mourning-grove/Mournes-Jade-Amber-Theme-CSS",
+          "language": "CSS",
+          "ownerUrl": "https://github.com/mourning-grove",
+          "pushedAt": "2026-07-19T13:48:40+00:00",
+          "createdAt": "2026-07-19T11:55:05+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:22:10+00:00",
+          "description": "Just some CSS I used for my theme. Some people asked for it, so here it is.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mourning-grove",
+      "topRepo": {
+        "name": "Mournes-Jade-Amber-Theme-CSS",
+        "fullName": "mourning-grove/Mournes-Jade-Amber-Theme-CSS",
+        "stars": 12,
+        "url": "https://github.com/mourning-grove/Mournes-Jade-Amber-Theme-CSS"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306762944?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mourning-grove/Mournes-Jade-Amber-Theme-CSS"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "2289027",
+      "rank": 74,
+      "type": "User",
+      "login": "svkaiser",
+      "repos": [
+        {
+          "id": 1305947365,
+          "fork": false,
+          "name": "hexen-development-files",
+          "forks": 0,
+          "owner": "svkaiser",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/2289027?v=4",
+          "topics": [],
+          "ownerId": "2289027",
+          "repoUrl": "https://github.com/svkaiser/hexen-development-files",
+          "archived": false,
+          "fullName": "svkaiser/hexen-development-files",
+          "language": "C",
+          "ownerUrl": "https://github.com/svkaiser",
+          "pushedAt": "2026-07-19T18:40:36+00:00",
+          "createdAt": "2026-07-19T18:39:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T02:55:06+00:00",
+          "description": "Original source of the ACS scripts for Hexen, DoomED source map files for Hexen and development tools such as HereticEd used for development of Hexen",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/svkaiser",
+      "topRepo": {
+        "name": "hexen-development-files",
+        "fullName": "svkaiser/hexen-development-files",
+        "stars": 12,
+        "url": "https://github.com/svkaiser/hexen-development-files"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2289027?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "svkaiser/hexen-development-files"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "6481596",
+      "rank": 75,
+      "type": "User",
+      "login": "sxzz",
+      "repos": [
+        {
+          "id": 1305936581,
+          "fork": false,
+          "name": "verkit",
+          "forks": 0,
+          "owner": "sxzz",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/6481596?v=4",
+          "topics": [
+            "esm",
+            "functional",
+            "immutable",
+            "range",
+            "semantic-versioning",
+            "semver",
+            "typescript",
+            "version"
+          ],
+          "ownerId": "6481596",
+          "repoUrl": "https://github.com/sxzz/verkit",
+          "archived": false,
+          "fullName": "sxzz/verkit",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/sxzz",
+          "pushedAt": "2026-07-19T20:01:17+00:00",
+          "createdAt": "2026-07-19T18:21:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-20T03:05:44+00:00",
+          "description": "Fast, zero-dependency SemVer for ESM and TypeScript, with functional, tree-shakeable APIs.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sxzz",
+      "topRepo": {
+        "name": "verkit",
+        "fullName": "sxzz/verkit",
+        "stars": 12,
+        "url": "https://github.com/sxzz/verkit"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6481596?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sxzz/verkit"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "290106161",
+      "rank": 76,
+      "type": "User",
+      "login": "SightMasonShed",
+      "repos": [
+        {
+          "id": 1305905420,
+          "fork": false,
+          "name": "among-us-app-trainer",
+          "forks": 0,
+          "owner": "SightMasonShed",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/290106161?v=4",
+          "topics": [],
+          "ownerId": "290106161",
+          "repoUrl": "https://github.com/SightMasonShed/among-us-app-trainer",
+          "archived": false,
+          "fullName": "SightMasonShed/among-us-app-trainer",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/SightMasonShed",
+          "pushedAt": "2026-07-19T18:12:29+00:00",
+          "createdAt": "2026-07-19T17:33:57+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-07-19T22:11:17+00:00",
+          "description": "Among Us trainer with ESP wallhack, impostor reveal, kill anywhere, teleport, unlock cosmetics, and speed hack for enhanced social deduction gameplay",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/SightMasonShed",
+      "topRepo": {
+        "name": "among-us-app-trainer",
+        "fullName": "SightMasonShed/among-us-app-trainer",
+        "stars": 11,
+        "url": "https://github.com/SightMasonShed/among-us-app-trainer"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290106161?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "SightMasonShed/among-us-app-trainer"
+      ],
+      "starScore": 11
     }
   ]
 }
