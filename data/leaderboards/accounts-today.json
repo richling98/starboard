@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T14:20:14.801Z",
-  "total": 82,
-  "totalIndexedCount": 82,
-  "coverageLabel": "Showing 82 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-01T19:57:07.867Z",
+  "total": 94,
+  "totalIndexedCount": 94,
+  "coverageLabel": "Showing 94 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,109 +10,161 @@
   },
   "rows": [
     {
-      "id": "155918204",
+      "id": "14957082",
       "rank": 1,
-      "type": "User",
-      "login": "0xwilliamortiz",
+      "type": "Organization",
+      "login": "openai",
       "repos": [
         {
-          "id": 1318616860,
+          "id": 1319019946,
           "fork": false,
-          "name": "ratchet",
-          "forks": 72,
-          "owner": "0xwilliamortiz",
-          "stars": 406,
-          "avatar": "https://avatars.githubusercontent.com/u/155918204?v=4",
-          "topics": [
-            "ai-agents",
-            "claude-code",
-            "claude-code-plugin",
-            "claude-skills",
-            "code-quality",
-            "developer-tools",
-            "hooks",
-            "llm",
-            "ratchet",
-            "rate-limiting",
-            "static-analysis",
-            "yagni"
-          ],
-          "ownerId": "155918204",
-          "repoUrl": "https://github.com/0xwilliamortiz/ratchet",
+          "name": "ten-proofs",
+          "forks": 15,
+          "owner": "openai",
+          "stars": 163,
+          "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+          "topics": [],
+          "ownerId": "14957082",
+          "repoUrl": "https://github.com/openai/ten-proofs",
           "archived": false,
-          "fullName": "0xwilliamortiz/ratchet",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/0xwilliamortiz",
-          "pushedAt": "2026-07-31T20:31:05+00:00",
-          "createdAt": "2026-07-31T17:54:30+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-01T14:06:51+00:00",
-          "description": "Your agent reads the rules. This checks whether it followed them.",
+          "fullName": "openai/ten-proofs",
+          "language": "Lean",
+          "ownerUrl": "https://github.com/openai",
+          "pushedAt": "2026-08-01T18:08:35+00:00",
+          "createdAt": "2026-08-01T06:10:06+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-01T19:37:06+00:00",
+          "description": "Lean certificates accompanying proofs in mathematics and theoretical computer science",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/0xwilliamortiz",
+      "htmlUrl": "https://github.com/openai",
       "topRepo": {
-        "name": "ratchet",
-        "fullName": "0xwilliamortiz/ratchet",
-        "stars": 406,
-        "url": "https://github.com/0xwilliamortiz/ratchet"
+        "name": "ten-proofs",
+        "fullName": "openai/ten-proofs",
+        "stars": 163,
+        "url": "https://github.com/openai/ten-proofs"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/155918204?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "repoCount": 1,
       "repoNames": [
-        "0xwilliamortiz/ratchet"
+        "openai/ten-proofs"
       ],
-      "starScore": 406
+      "starScore": 163
     },
     {
-      "id": "23065167",
+      "id": "298382259",
       "rank": 2,
       "type": "User",
-      "login": "l00sed",
+      "login": "x4gKing",
       "repos": [
         {
-          "id": 1318513547,
+          "id": 1319280427,
           "fork": false,
-          "name": "termixer",
-          "forks": 6,
-          "owner": "l00sed",
-          "stars": 142,
-          "avatar": "https://avatars.githubusercontent.com/u/23065167?v=4",
+          "name": "3x-ui-multi",
+          "forks": 195,
+          "owner": "x4gKing",
+          "stars": 123,
+          "avatar": "https://avatars.githubusercontent.com/u/298382259?v=4",
           "topics": [],
-          "ownerId": "23065167",
-          "repoUrl": "https://github.com/l00sed/termixer",
+          "ownerId": "298382259",
+          "repoUrl": "https://github.com/x4gKing/3x-ui-multi",
           "archived": false,
-          "fullName": "l00sed/termixer",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/l00sed",
-          "pushedAt": "2026-07-31T16:27:16+00:00",
-          "createdAt": "2026-07-31T15:52:49+00:00",
+          "fullName": "x4gKing/3x-ui-multi",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/x4gKing",
+          "pushedAt": "2026-08-01T12:40:28+00:00",
+          "createdAt": "2026-08-01T12:34:51+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T13:06:29+00:00",
-          "description": "A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.",
+          "updatedAt": "2026-08-01T19:43:58+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/l00sed",
+      "htmlUrl": "https://github.com/x4gKing",
       "topRepo": {
-        "name": "termixer",
-        "fullName": "l00sed/termixer",
-        "stars": 142,
-        "url": "https://github.com/l00sed/termixer"
+        "name": "3x-ui-multi",
+        "fullName": "x4gKing/3x-ui-multi",
+        "stars": 123,
+        "url": "https://github.com/x4gKing/3x-ui-multi"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/23065167?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/298382259?v=4",
       "repoCount": 1,
       "repoNames": [
-        "l00sed/termixer"
+        "x4gKing/3x-ui-multi"
       ],
-      "starScore": 142
+      "starScore": 123
+    },
+    {
+      "id": "220190296",
+      "rank": 3,
+      "type": "User",
+      "login": "asdafgs419",
+      "repos": [
+        {
+          "id": 1319473573,
+          "fork": false,
+          "name": "Extreme-FPS-Boost",
+          "forks": 27,
+          "owner": "asdafgs419",
+          "stars": 117,
+          "avatar": "https://avatars.githubusercontent.com/u/220190296?v=4",
+          "topics": [
+            "fps-boost-ark-survival-ascended",
+            "fps-boost-call-of-duty",
+            "fps-boost-ea-sports-fc-26",
+            "fps-boost-for-forza-horizon-6",
+            "fps-boost-forza-horizon-5",
+            "fps-boost-marvel-rivals",
+            "fps-boost-overwatch",
+            "fps-booster-exe",
+            "fps-booster-for-games",
+            "fps-booster-no-lag",
+            "fps-booster-pro",
+            "fps-booster-reddit",
+            "fps-booster-software",
+            "fps-booster-windows-12",
+            "frame-rate",
+            "frame-rate-boost",
+            "frame-rate-tool",
+            "frame-rates",
+            "optimization",
+            "optimizer"
+          ],
+          "ownerId": "220190296",
+          "repoUrl": "https://github.com/asdafgs419/Extreme-FPS-Boost",
+          "archived": false,
+          "fullName": "asdafgs419/Extreme-FPS-Boost",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/asdafgs419",
+          "pushedAt": "2026-08-01T17:37:40+00:00",
+          "createdAt": "2026-08-01T17:05:48+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:10:36+00:00",
+          "description": "Extreme FPS Boost is a lightweight Windows 10/11 gaming optimizer designed to improve FPS stability, reduce input lag, and enhance overall system performance.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/asdafgs419",
+      "topRepo": {
+        "name": "Extreme-FPS-Boost",
+        "fullName": "asdafgs419/Extreme-FPS-Boost",
+        "stars": 117,
+        "url": "https://github.com/asdafgs419/Extreme-FPS-Boost"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/220190296?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "asdafgs419/Extreme-FPS-Boost"
+      ],
+      "starScore": 117
     },
     {
       "id": "278963653",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "johnpetrov-1996k1",
       "repos": [
@@ -169,102 +221,159 @@
       "starScore": 117
     },
     {
-      "id": "14957082",
-      "rank": 4,
-      "type": "Organization",
-      "login": "openai",
-      "repos": [
-        {
-          "id": 1319019946,
-          "fork": false,
-          "name": "ten-proofs",
-          "forks": 8,
-          "owner": "openai",
-          "stars": 98,
-          "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
-          "topics": [],
-          "ownerId": "14957082",
-          "repoUrl": "https://github.com/openai/ten-proofs",
-          "archived": false,
-          "fullName": "openai/ten-proofs",
-          "language": "Lean",
-          "ownerUrl": "https://github.com/openai",
-          "pushedAt": "2026-08-01T14:01:57+00:00",
-          "createdAt": "2026-08-01T06:10:06+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-01T14:06:36+00:00",
-          "description": "Lean certificates accompanying proofs in mathematics and theoretical computer science",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/openai",
-      "topRepo": {
-        "name": "ten-proofs",
-        "fullName": "openai/ten-proofs",
-        "stars": 98,
-        "url": "https://github.com/openai/ten-proofs"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "openai/ten-proofs"
-      ],
-      "starScore": 98
-    },
-    {
-      "id": "153014417",
+      "id": "278947981",
       "rank": 5,
       "type": "User",
-      "login": "KingSparta69",
+      "login": "romanson-xo8",
       "repos": [
         {
-          "id": 1318568594,
+          "id": 1319563240,
           "fork": false,
-          "name": "chainlink-twap-research",
-          "forks": 160,
-          "owner": "KingSparta69",
-          "stars": 78,
-          "avatar": "https://avatars.githubusercontent.com/u/153014417?v=4",
+          "name": "xeno-executor-roblox",
+          "forks": 26,
+          "owner": "romanson-xo8",
+          "stars": 116,
+          "avatar": "https://avatars.githubusercontent.com/u/278947981?v=4",
           "topics": [
-            "chainlink",
-            "chainlink-price-feeds",
-            "researc",
-            "twap",
-            "twap-formula"
+            "roblox",
+            "roblox-collection",
+            "roblox-executor-mac",
+            "roblox-help",
+            "roblox-multiclient",
+            "roblox-paint-and-seek",
+            "roblox-updated",
+            "roblox-verify",
+            "xeno"
           ],
-          "ownerId": "153014417",
-          "repoUrl": "https://github.com/KingSparta69/chainlink-twap-research",
+          "ownerId": "278947981",
+          "repoUrl": "https://github.com/romanson-xo8/xeno-executor-roblox",
           "archived": false,
-          "fullName": "KingSparta69/chainlink-twap-research",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/KingSparta69",
-          "pushedAt": "2026-07-31T17:18:42+00:00",
-          "createdAt": "2026-07-31T16:56:28+00:00",
+          "fullName": "romanson-xo8/xeno-executor-roblox",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/romanson-xo8",
+          "pushedAt": "2026-08-01T19:32:16+00:00",
+          "createdAt": "2026-08-01T19:12:31+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T03:43:30+00:00",
-          "description": "chainlink twap research engine with 30-sec and 60-sec windows",
+          "updatedAt": "2026-08-01T19:34:23+00:00",
+          "description": "Xeno v1.4 is a powerful, no‑key Roblox script executor for Windows. It runs scripts instantly, supports all major hubs (Owl Hub, Dark Hub, Infinite Yield), and offers a modern, polished interface. With auto‑execute and low‑latency execution, Xeno delivers a seamless scripting experience for both beginners and advanced users.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/KingSparta69",
+      "htmlUrl": "https://github.com/romanson-xo8",
       "topRepo": {
-        "name": "chainlink-twap-research",
-        "fullName": "KingSparta69/chainlink-twap-research",
-        "stars": 78,
-        "url": "https://github.com/KingSparta69/chainlink-twap-research"
+        "name": "xeno-executor-roblox",
+        "fullName": "romanson-xo8/xeno-executor-roblox",
+        "stars": 116,
+        "url": "https://github.com/romanson-xo8/xeno-executor-roblox"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/153014417?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/278947981?v=4",
       "repoCount": 1,
       "repoNames": [
-        "KingSparta69/chainlink-twap-research"
+        "romanson-xo8/xeno-executor-roblox"
       ],
-      "starScore": 78
+      "starScore": 116
+    },
+    {
+      "id": "195194844",
+      "rank": 6,
+      "type": "Organization",
+      "login": "trycompai",
+      "repos": [
+        {
+          "id": 1318768894,
+          "fork": false,
+          "name": "crm",
+          "forks": 7,
+          "owner": "trycompai",
+          "stars": 87,
+          "avatar": "https://avatars.githubusercontent.com/u/195194844?v=4",
+          "topics": [],
+          "ownerId": "195194844",
+          "repoUrl": "https://github.com/trycompai/crm",
+          "archived": false,
+          "fullName": "trycompai/crm",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/trycompai",
+          "pushedAt": "2026-08-01T17:49:59+00:00",
+          "createdAt": "2026-07-31T21:38:51+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-01T19:43:08+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/trycompai",
+      "topRepo": {
+        "name": "crm",
+        "fullName": "trycompai/crm",
+        "stars": 87,
+        "url": "https://github.com/trycompai/crm"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/195194844?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "trycompai/crm"
+      ],
+      "starScore": 87
+    },
+    {
+      "id": "12458649",
+      "rank": 7,
+      "type": "User",
+      "login": "juxhinr",
+      "repos": [
+        {
+          "id": 1319290417,
+          "fork": false,
+          "name": "bindwidth",
+          "forks": 0,
+          "owner": "juxhinr",
+          "stars": 54,
+          "avatar": "https://avatars.githubusercontent.com/u/12458649?v=4",
+          "topics": [
+            "ai",
+            "calculator",
+            "inference",
+            "javascript",
+            "llm",
+            "on-prem",
+            "sizing",
+            "tco"
+          ],
+          "ownerId": "12458649",
+          "repoUrl": "https://github.com/juxhinr/bindwidth",
+          "archived": false,
+          "fullName": "juxhinr/bindwidth",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/juxhinr",
+          "pushedAt": "2026-08-01T15:17:59+00:00",
+          "createdAt": "2026-08-01T12:50:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T19:33:20+00:00",
+          "description": "Evidence-aware on-prem LLM inference sizing and TCO calculator",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/juxhinr",
+      "topRepo": {
+        "name": "bindwidth",
+        "fullName": "juxhinr/bindwidth",
+        "stars": 54,
+        "url": "https://github.com/juxhinr/bindwidth"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12458649?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "juxhinr/bindwidth"
+      ],
+      "starScore": 54
     },
     {
       "id": "311604427",
-      "rank": 6,
+      "rank": 8,
       "type": "User",
       "login": "gabefishercb508",
       "repos": [
@@ -283,10 +392,10 @@
           "fullName": "gabefishercb508/abay-bot-workflow-tools",
           "language": "HTML",
           "ownerUrl": "https://github.com/gabefishercb508",
-          "pushedAt": "2026-08-01T12:03:07+00:00",
+          "pushedAt": "2026-08-01T18:26:42+00:00",
           "createdAt": "2026-08-01T00:02:59+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:41+00:00",
+          "updatedAt": "2026-08-01T18:26:47+00:00",
           "description": "Telegram automation project for coordinating workflow tasks in the currently available 2026 build, with a compact HTML-oriented source structure, configurable settings, startup guidance, and an outlined update process.",
           "defaultBranch": "main"
         }
@@ -308,7 +417,7 @@
     },
     {
       "id": "311603555",
-      "rank": 7,
+      "rank": 9,
       "type": "User",
       "login": "danielmillersr2593",
       "repos": [
@@ -327,10 +436,10 @@
           "fullName": "danielmillersr2593/3d-print-tools-editor",
           "language": "HTML",
           "ownerUrl": "https://github.com/danielmillersr2593",
-          "pushedAt": "2026-08-01T12:03:18+00:00",
+          "pushedAt": "2026-08-01T18:26:40+00:00",
           "createdAt": "2026-08-01T00:03:03+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:40+00:00",
+          "updatedAt": "2026-08-01T18:26:43+00:00",
           "description": "Client-side browser toolkit for viewing, editing, inspecting, and preparing common 3D-printing files, with support generation and toolpath visualization. Use the hosted version or serve a local checkout.",
           "defaultBranch": "main"
         }
@@ -352,7 +461,7 @@
     },
     {
       "id": "311604392",
-      "rank": 8,
+      "rank": 10,
       "type": "User",
       "login": "ryanphqross9118",
       "repos": [
@@ -371,10 +480,10 @@
           "fullName": "ryanphqross9118/seliware-executor-script-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/ryanphqross9118",
-          "pushedAt": "2026-08-01T12:03:16+00:00",
+          "pushedAt": "2026-08-01T18:26:57+00:00",
           "createdAt": "2026-08-01T00:03:08+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:24+00:00",
+          "updatedAt": "2026-08-01T18:27:01+00:00",
           "description": "Free Windows utility for running Lua scripts in Roblox with one-click injection, a 500+ script hub, saved execution queues, automatic updates, multilingual UI, and no key required. Supports Windows 10/11 64-bit.",
           "defaultBranch": "main"
         }
@@ -396,7 +505,7 @@
     },
     {
       "id": "311603877",
-      "rank": 9,
+      "rank": 11,
       "type": "User",
       "login": "noah-scottqkh6962",
       "repos": [
@@ -415,10 +524,10 @@
           "fullName": "noah-scottqkh6962/addon-ez-bedrock-loader",
           "language": "HTML",
           "ownerUrl": "https://github.com/noah-scottqkh6962",
-          "pushedAt": "2026-08-01T12:02:59+00:00",
+          "pushedAt": "2026-08-01T18:26:45+00:00",
           "createdAt": "2026-08-01T00:27:51+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:07+00:00",
+          "updatedAt": "2026-08-01T18:26:49+00:00",
           "description": "Browser-based utility for discovering, preparing, and installing Bedrock sandbox-game add-ons through a simple web workflow, with an online version, local serving support, deployment guidance, update paths, and troubleshooting resources.",
           "defaultBranch": "main"
         }
@@ -440,7 +549,7 @@
     },
     {
       "id": "311603931",
-      "rank": 10,
+      "rank": 12,
       "type": "User",
       "login": "cooperchrispeo7238",
       "repos": [
@@ -459,10 +568,10 @@
           "fullName": "cooperchrispeo7238/delta-windows-script-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/cooperchrispeo7238",
-          "pushedAt": "2026-08-01T08:43:48+00:00",
+          "pushedAt": "2026-08-01T15:11:52+00:00",
           "createdAt": "2026-08-01T02:48:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:54+00:00",
+          "updatedAt": "2026-08-01T15:12:18+00:00",
           "description": "Windows 10/11 desktop tool for running Lua scripts in Roblox, browsing a 500+ script hub, and using a compact interface. Free, 64-bit, and no key required for the 2026 workflow.",
           "defaultBranch": "main"
         }
@@ -484,7 +593,7 @@
     },
     {
       "id": "311610912",
-      "rank": 11,
+      "rank": 13,
       "type": "User",
       "login": "dylanreedtgqd6652",
       "repos": [
@@ -503,10 +612,10 @@
           "fullName": "dylanreedtgqd6652/roblox-executor-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/dylanreedtgqd6652",
-          "pushedAt": "2026-08-01T08:43:43+00:00",
+          "pushedAt": "2026-08-01T15:11:40+00:00",
           "createdAt": "2026-08-01T02:48:31+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:49+00:00",
+          "updatedAt": "2026-08-01T15:12:06+00:00",
           "description": "Free Roblox script executor for Windows 10/11 64-bit, built for fast Lua and Luau execution, simple setup, no key required, low resource usage, and compatibility support through 2026.",
           "defaultBranch": "main"
         }
@@ -528,7 +637,7 @@
     },
     {
       "id": "311608916",
-      "rank": 12,
+      "rank": 14,
       "type": "User",
       "login": "hughesdylanbfz4294",
       "repos": [
@@ -547,10 +656,10 @@
           "fullName": "hughesdylanbfz4294/ronix-script-hub-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/hughesdylanbfz4294",
-          "pushedAt": "2026-08-01T10:21:07+00:00",
+          "pushedAt": "2026-08-01T16:51:43+00:00",
           "createdAt": "2026-08-01T04:31:57+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T10:21:15+00:00",
+          "updatedAt": "2026-08-01T16:51:46+00:00",
           "description": "A compact Windows utility for running Lua scripts in Roblox, with one-click injection, a 500+ community script hub, batch queues, debugging tools, low resource use, and no key requirement for Windows 10 and 11 in 2026.",
           "defaultBranch": "main"
         }
@@ -571,8 +680,65 @@
       "starScore": 40
     },
     {
+      "id": "25451549",
+      "rank": 15,
+      "type": "User",
+      "login": "ilindaniel",
+      "repos": [
+        {
+          "id": 1319312065,
+          "fork": false,
+          "name": "impeccable-lite",
+          "forks": 0,
+          "owner": "ilindaniel",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/25451549?v=4",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "claude",
+            "claude-code",
+            "claude-code-plugin",
+            "codex",
+            "cursor-rules",
+            "developer-tools",
+            "kiss",
+            "llm",
+            "prompt-engineering",
+            "yagni"
+          ],
+          "ownerId": "25451549",
+          "repoUrl": "https://github.com/ilindaniel/impeccable-lite",
+          "archived": false,
+          "fullName": "ilindaniel/impeccable-lite",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/ilindaniel",
+          "pushedAt": "2026-08-01T15:41:27+00:00",
+          "createdAt": "2026-08-01T13:21:45+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T19:32:50+00:00",
+          "description": "Stop agents from designing sloppy UI. Inspired by Impeccable, but without the plugin machinery. Just one SKILL.md file.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ilindaniel",
+      "topRepo": {
+        "name": "impeccable-lite",
+        "fullName": "ilindaniel/impeccable-lite",
+        "stars": 40,
+        "url": "https://github.com/ilindaniel/impeccable-lite"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25451549?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ilindaniel/impeccable-lite"
+      ],
+      "starScore": 40
+    },
+    {
       "id": "311611645",
-      "rank": 13,
+      "rank": 16,
       "type": "User",
       "login": "will-woodvyzr9966",
       "repos": [
@@ -591,10 +757,10 @@
           "fullName": "will-woodvyzr9966/azhai-seo-utility-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/will-woodvyzr9966",
-          "pushedAt": "2026-08-01T08:43:31+00:00",
+          "pushedAt": "2026-08-01T15:11:29+00:00",
           "createdAt": "2026-08-01T02:41:49+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:46+00:00",
+          "updatedAt": "2026-08-01T15:11:50+00:00",
           "description": "Azhai is a browser-based toolkit with 31+ free AI, text, and SEO utilities for word counting, JSON cleanup, metadata generation, keyword evaluation, and related content workflows.",
           "defaultBranch": "main"
         }
@@ -616,7 +782,7 @@
     },
     {
       "id": "311612506",
-      "rank": 14,
+      "rank": 17,
       "type": "User",
       "login": "adamsbrandonmw4917",
       "repos": [
@@ -660,7 +826,7 @@
     },
     {
       "id": "311613530",
-      "rank": 15,
+      "rank": 18,
       "type": "User",
       "login": "evangrayfu9443",
       "repos": [
@@ -704,7 +870,7 @@
     },
     {
       "id": "311609333",
-      "rank": 16,
+      "rank": 19,
       "type": "User",
       "login": "jasonubhgreen2473",
       "repos": [
@@ -723,10 +889,10 @@
           "fullName": "jasonubhgreen2473/apollo-lunar-script-sim",
           "language": "HTML",
           "ownerUrl": "https://github.com/jasonubhgreen2473",
-          "pushedAt": "2026-08-01T08:43:11+00:00",
+          "pushedAt": "2026-08-01T15:11:07+00:00",
           "createdAt": "2026-08-01T02:18:51+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:15+00:00",
+          "updatedAt": "2026-08-01T15:11:14+00:00",
           "description": "A browser and Adobe Acrobat PDF lunar-landing simulator powered by a deterministic JavaScript physics engine, modeling free fall, lunar gravity, and landing results across two runtime formats.",
           "defaultBranch": "main"
         }
@@ -748,7 +914,7 @@
     },
     {
       "id": "311612095",
-      "rank": 17,
+      "rank": 20,
       "type": "User",
       "login": "jordan-greencz5073",
       "repos": [
@@ -792,7 +958,7 @@
     },
     {
       "id": "311611443",
-      "rank": 18,
+      "rank": 21,
       "type": "User",
       "login": "jordanbennettvwet4128",
       "repos": [
@@ -811,10 +977,10 @@
           "fullName": "jordanbennettvwet4128/delta-executor-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/jordanbennettvwet4128",
-          "pushedAt": "2026-08-01T08:44:01+00:00",
+          "pushedAt": "2026-08-01T15:11:59+00:00",
           "createdAt": "2026-08-01T03:06:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:28+00:00",
+          "updatedAt": "2026-08-01T15:12:09+00:00",
           "description": "A free Windows 10/11 Roblox Lua script executor for 2026 with injection support, a library of 500+ scripts, and a compact interface for quick local operation. No key required.",
           "defaultBranch": "main"
         }
@@ -836,7 +1002,7 @@
     },
     {
       "id": "311604702",
-      "rank": 19,
+      "rank": 22,
       "type": "User",
       "login": "oliverbennettqrzi1259",
       "repos": [
@@ -855,10 +1021,10 @@
           "fullName": "oliverbennettqrzi1259/acuity-enterprise-scheduler",
           "language": "HTML",
           "ownerUrl": "https://github.com/oliverbennettqrzi1259",
-          "pushedAt": "2026-08-01T12:03:06+00:00",
+          "pushedAt": "2026-08-01T16:50:53+00:00",
           "createdAt": "2026-08-01T00:31:37+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:17+00:00",
+          "updatedAt": "2026-08-01T16:50:58+00:00",
           "description": "Acuity Scheduling Enterprise Toolkit v2026.1.0 is a scheduling workflow utility for Windows, macOS, and Linux with profile-driven configuration, license verification support, and API connectivity.",
           "defaultBranch": "main"
         }
@@ -880,7 +1046,7 @@
     },
     {
       "id": "311614752",
-      "rank": 20,
+      "rank": 23,
       "type": "User",
       "login": "alexjameshke884",
       "repos": [
@@ -899,10 +1065,10 @@
           "fullName": "alexjameshke884/roblox-executor-list-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/alexjameshke884",
-          "pushedAt": "2026-08-01T08:43:59+00:00",
+          "pushedAt": "2026-08-01T15:11:53+00:00",
           "createdAt": "2026-08-01T03:06:26+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:05+00:00",
+          "updatedAt": "2026-08-01T15:11:57+00:00",
           "description": "A Windows 10/11 64-bit directory for exploring Roblox executor references, Lua resources, script execution tools, and script hub information in 2026. Free to access with no key required.",
           "defaultBranch": "main"
         }
@@ -924,7 +1090,7 @@
     },
     {
       "id": "311603705",
-      "rank": 21,
+      "rank": 24,
       "type": "User",
       "login": "hallloganxfou2818",
       "repos": [
@@ -943,10 +1109,10 @@
           "fullName": "hallloganxfou2818/a4ther-free-fire-scanner",
           "language": "HTML",
           "ownerUrl": "https://github.com/hallloganxfou2818",
-          "pushedAt": "2026-08-01T08:44:13+00:00",
+          "pushedAt": "2026-08-01T15:12:29+00:00",
           "createdAt": "2026-08-01T03:16:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:26+00:00",
+          "updatedAt": "2026-08-01T15:12:35+00:00",
           "description": "A4ther v4.4.99 is a 2026 cross-platform security scanner for a mobile game, evaluating device, app, process, filesystem, and network indicators on Android and iOS with timestamped text reports.",
           "defaultBranch": "main"
         }
@@ -968,7 +1134,7 @@
     },
     {
       "id": "311604389",
-      "rank": 22,
+      "rank": 25,
       "type": "User",
       "login": "henrycjohayes6144",
       "repos": [
@@ -987,10 +1153,10 @@
           "fullName": "henrycjohayes6144/sols-rng-lua-executor-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/henrycjohayes6144",
-          "pushedAt": "2026-08-01T08:43:59+00:00",
+          "pushedAt": "2026-08-01T15:12:14+00:00",
           "createdAt": "2026-08-01T03:10:08+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:03+00:00",
+          "updatedAt": "2026-08-01T15:12:18+00:00",
           "description": "A Windows 10/11 64-bit Lua executor workflow for a popular Roblox RNG experience, featuring a growing script hub and compact desktop-style interface. Free to use with no key required, focused on 2026 compatibility.",
           "defaultBranch": "main"
         }
@@ -1012,7 +1178,7 @@
     },
     {
       "id": "311612881",
-      "rank": 23,
+      "rank": 26,
       "type": "User",
       "login": "kellybrandondm8808",
       "repos": [
@@ -1031,10 +1197,10 @@
           "fullName": "kellybrandondm8808/roblox-executor-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/kellybrandondm8808",
-          "pushedAt": "2026-08-01T08:44:11+00:00",
+          "pushedAt": "2026-08-01T15:12:07+00:00",
           "createdAt": "2026-08-01T03:10:11+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:17+00:00",
+          "updatedAt": "2026-08-01T15:12:35+00:00",
           "description": "A compact Roblox Lua and Luau script executor for Windows 10 and 11, with a lightweight GUI, built-in hub of 500+ scripts, multi-instance support, free access, and no key required in 2026.",
           "defaultBranch": "main"
         }
@@ -1056,7 +1222,7 @@
     },
     {
       "id": "311614646",
-      "rank": 24,
+      "rank": 27,
       "type": "User",
       "login": "kevin-lewisqd7075",
       "repos": [
@@ -1075,10 +1241,10 @@
           "fullName": "kevin-lewisqd7075/pc-script-executor-windows",
           "language": "HTML",
           "ownerUrl": "https://github.com/kevin-lewisqd7075",
-          "pushedAt": "2026-08-01T08:43:54+00:00",
+          "pushedAt": "2026-08-01T15:12:07+00:00",
           "createdAt": "2026-08-01T03:06:11+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:07+00:00",
+          "updatedAt": "2026-08-01T15:12:42+00:00",
           "description": "A compact Windows 10/11 64-bit Lua script runtime for Roblox with an integrated script hub, keyless access, free distribution, and support for running scripts in 2026.",
           "defaultBranch": "main"
         }
@@ -1100,7 +1266,7 @@
     },
     {
       "id": "311615483",
-      "rank": 25,
+      "rank": 28,
       "type": "User",
       "login": "michaelakyross3566",
       "repos": [
@@ -1144,7 +1310,7 @@
     },
     {
       "id": "311612081",
-      "rank": 26,
+      "rank": 29,
       "type": "User",
       "login": "noah-davisco2450",
       "repos": [
@@ -1163,10 +1329,10 @@
           "fullName": "noah-davisco2450/apexclean-site-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/noah-davisco2450",
-          "pushedAt": "2026-08-01T08:43:13+00:00",
+          "pushedAt": "2026-08-01T15:11:21+00:00",
           "createdAt": "2026-08-01T02:17:09+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:21+00:00",
+          "updatedAt": "2026-08-01T15:11:31+00:00",
           "description": "ApexClean is a browser-based website with the latest available release, published through GitHub Pages. Use the repository to access the site, inspect its source, review project settings, and follow local preview guidance.",
           "defaultBranch": "main"
         }
@@ -1187,8 +1353,52 @@
       "starScore": 38
     },
     {
+      "id": "311604450",
+      "rank": 30,
+      "type": "User",
+      "login": "noahbrooksjixe8400",
+      "repos": [
+        {
+          "id": 1318877719,
+          "fork": false,
+          "name": "ai-learning-gym-hub",
+          "forks": 0,
+          "owner": "noahbrooksjixe8400",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/311604450?v=4",
+          "topics": [],
+          "ownerId": "311604450",
+          "repoUrl": "https://github.com/noahbrooksjixe8400/ai-learning-gym-hub",
+          "archived": false,
+          "fullName": "noahbrooksjixe8400/ai-learning-gym-hub",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/noahbrooksjixe8400",
+          "pushedAt": "2026-08-01T13:43:01+00:00",
+          "createdAt": "2026-08-01T01:38:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:12:44+00:00",
+          "description": "AI Learning Gym is a browser-accessible collection of learning-focused AI utilities for 2026, with a published build, local copy support, configuration settings, customization options, and troubleshooting guidance.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/noahbrooksjixe8400",
+      "topRepo": {
+        "name": "ai-learning-gym-hub",
+        "fullName": "noahbrooksjixe8400/ai-learning-gym-hub",
+        "stars": 38,
+        "url": "https://github.com/noahbrooksjixe8400/ai-learning-gym-hub"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311604450?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "noahbrooksjixe8400/ai-learning-gym-hub"
+      ],
+      "starScore": 38
+    },
+    {
       "id": "311604458",
-      "rank": 27,
+      "rank": 31,
       "type": "User",
       "login": "noahmillerzu731",
       "repos": [
@@ -1207,10 +1417,10 @@
           "fullName": "noahmillerzu731/apex-racing-team-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/noahmillerzu731",
-          "pushedAt": "2026-08-01T12:03:26+00:00",
+          "pushedAt": "2026-08-01T18:27:08+00:00",
           "createdAt": "2026-08-01T02:16:35+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:36+00:00",
+          "updatedAt": "2026-08-01T18:27:12+00:00",
           "description": "Browser-based team management web tool for a racing project in 2026, delivered as an HTML application with setup guidance, configuration notes, system requirements, FAQs, update information, and bug reporting details.",
           "defaultBranch": "main"
         }
@@ -1231,8 +1441,96 @@
       "starScore": 38
     },
     {
+      "id": "311610896",
+      "rank": 32,
+      "type": "User",
+      "login": "owenrnuacarter1995",
+      "repos": [
+        {
+          "id": 1318895527,
+          "fork": false,
+          "name": "apexware-software-hub",
+          "forks": 0,
+          "owner": "owenrnuacarter1995",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/311610896?v=4",
+          "topics": [],
+          "ownerId": "311610896",
+          "repoUrl": "https://github.com/owenrnuacarter1995/apexware-software-hub",
+          "archived": false,
+          "fullName": "owenrnuacarter1995/apexware-software-hub",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/owenrnuacarter1995",
+          "pushedAt": "2026-08-01T15:11:10+00:00",
+          "createdAt": "2026-08-01T02:18:44+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:35:28+00:00",
+          "description": "ApexWare is an HTML-oriented software project accessible through a web browser, providing a repository-based entry point to its available interface, project materials, configuration details, requirements, and support information.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/owenrnuacarter1995",
+      "topRepo": {
+        "name": "apexware-software-hub",
+        "fullName": "owenrnuacarter1995/apexware-software-hub",
+        "stars": 38,
+        "url": "https://github.com/owenrnuacarter1995/apexware-software-hub"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311610896?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "owenrnuacarter1995/apexware-software-hub"
+      ],
+      "starScore": 38
+    },
+    {
+      "id": "311607978",
+      "rank": 33,
+      "type": "User",
+      "login": "priceevanni8533",
+      "repos": [
+        {
+          "id": 1318863451,
+          "fork": false,
+          "name": "agility-pc-lua-executor",
+          "forks": 0,
+          "owner": "priceevanni8533",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/311607978?v=4",
+          "topics": [],
+          "ownerId": "311607978",
+          "repoUrl": "https://github.com/priceevanni8533/agility-pc-lua-executor",
+          "archived": false,
+          "fullName": "priceevanni8533/agility-pc-lua-executor",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/priceevanni8533",
+          "pushedAt": "2026-08-01T13:42:42+00:00",
+          "createdAt": "2026-08-01T01:05:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T19:32:07+00:00",
+          "description": "Agility is a lightweight Windows-first Roblox script runtime for running Lua scripts through a desktop interface, with a workflow focused on script hub usage and support for Windows 10 and 11 64-bit systems in 2026.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/priceevanni8533",
+      "topRepo": {
+        "name": "agility-pc-lua-executor",
+        "fullName": "priceevanni8533/agility-pc-lua-executor",
+        "stars": 38,
+        "url": "https://github.com/priceevanni8533/agility-pc-lua-executor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311607978?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "priceevanni8533/agility-pc-lua-executor"
+      ],
+      "starScore": 38
+    },
+    {
       "id": "311609009",
-      "rank": 28,
+      "rank": 34,
       "type": "User",
       "login": "reedseandup9263",
       "repos": [
@@ -1251,10 +1549,10 @@
           "fullName": "reedseandup9263/silent-castle-apk-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/reedseandup9263",
-          "pushedAt": "2026-08-01T08:44:12+00:00",
+          "pushedAt": "2026-08-01T15:13:51+00:00",
           "createdAt": "2026-08-01T03:16:10+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:31+00:00",
+          "updatedAt": "2026-08-01T15:14:11+00:00",
           "description": "Modified Android survival horror APK for 2026 with expanded gameplay resources, unlocked characters, removed advertisements, money, and diamonds. Includes installation guidance, device configuration details, requirements, and FAQs.",
           "defaultBranch": "main"
         }
@@ -1276,7 +1574,7 @@
     },
     {
       "id": "311604060",
-      "rank": 29,
+      "rank": 35,
       "type": "User",
       "login": "ryansjfwest7106",
       "repos": [
@@ -1295,10 +1593,10 @@
           "fullName": "ryansjfwest7106/aneshub-anesthesia-hub-v5",
           "language": "HTML",
           "ownerUrl": "https://github.com/ryansjfwest7106",
-          "pushedAt": "2026-08-01T12:03:41+00:00",
+          "pushedAt": "2026-08-01T18:26:59+00:00",
           "createdAt": "2026-08-01T01:42:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T12:03:56+00:00",
+          "updatedAt": "2026-08-01T18:27:03+00:00",
           "description": "AnesHub v5 is a browser-accessible suite of smart utilities for anesthesia workflows, with a hosted application, local checkout option, configuration guidance, and local serving support for 2026.",
           "defaultBranch": "main"
         }
@@ -1320,7 +1618,7 @@
     },
     {
       "id": "311615144",
-      "rank": 30,
+      "rank": 36,
       "type": "User",
       "login": "sam-parkercpj1038",
       "repos": [
@@ -1364,7 +1662,7 @@
     },
     {
       "id": "311607657",
-      "rank": 31,
+      "rank": 37,
       "type": "User",
       "login": "sam-scottmecp7505",
       "repos": [
@@ -1407,8 +1705,52 @@
       "starScore": 38
     },
     {
+      "id": "311613078",
+      "rank": 38,
+      "type": "User",
+      "login": "seanyoungvu8300",
+      "repos": [
+        {
+          "id": 1318894312,
+          "fork": false,
+          "name": "apexads-advertising-hub",
+          "forks": 0,
+          "owner": "seanyoungvu8300",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/311613078?v=4",
+          "topics": [],
+          "ownerId": "311613078",
+          "repoUrl": "https://github.com/seanyoungvu8300/apexads-advertising-hub",
+          "archived": false,
+          "fullName": "seanyoungvu8300/apexads-advertising-hub",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/seanyoungvu8300",
+          "pushedAt": "2026-08-01T15:11:05+00:00",
+          "createdAt": "2026-08-01T02:16:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:35:02+00:00",
+          "description": "ApexAds is an HTML-based web advertising project for displaying promotional content in a browser, with guidance for viewing files locally, running a local server, configuring content, and deploying the project in 2026.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/seanyoungvu8300",
+      "topRepo": {
+        "name": "apexads-advertising-hub",
+        "fullName": "seanyoungvu8300/apexads-advertising-hub",
+        "stars": 38,
+        "url": "https://github.com/seanyoungvu8300/apexads-advertising-hub"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311613078?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "seanyoungvu8300/apexads-advertising-hub"
+      ],
+      "starScore": 38
+    },
+    {
       "id": "311614118",
-      "rank": 32,
+      "rank": 39,
       "type": "User",
       "login": "tompriceabg9176",
       "repos": [
@@ -1427,10 +1769,10 @@
           "fullName": "tompriceabg9176/catilus-roblox-script-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/tompriceabg9176",
-          "pushedAt": "2026-08-01T08:43:33+00:00",
+          "pushedAt": "2026-08-01T15:11:29+00:00",
           "createdAt": "2026-08-01T02:42:10+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:48+00:00",
+          "updatedAt": "2026-08-01T15:11:40+00:00",
           "description": "A free Roblox Lua script runtime for Windows 10/11 64-bit, featuring script execution, an easy-to-browse script hub, and a compact desktop interface for the 2026 PC experience. No key required.",
           "defaultBranch": "main"
         }
@@ -1452,7 +1794,7 @@
     },
     {
       "id": "311603471",
-      "rank": 33,
+      "rank": 40,
       "type": "User",
       "login": "victorsjjuking5769",
       "repos": [
@@ -1496,7 +1838,7 @@
     },
     {
       "id": "311604773",
-      "rank": 34,
+      "rank": 41,
       "type": "User",
       "login": "will-coopergt5547",
       "repos": [
@@ -1515,10 +1857,10 @@
           "fullName": "will-coopergt5547/eps-barcode-maker-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/will-coopergt5547",
-          "pushedAt": "2026-08-01T08:43:36+00:00",
+          "pushedAt": "2026-08-01T15:12:07+00:00",
           "createdAt": "2026-08-01T02:41:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:00+00:00",
+          "updatedAt": "2026-08-01T15:12:29+00:00",
           "description": "Offline-capable EPS barcode generator for creating EAN-13 barcodes from individual entries or Excel and CSV imports, with live previews and downloadable vector output.",
           "defaultBranch": "main"
         }
@@ -1539,8 +1881,52 @@
       "starScore": 38
     },
     {
+      "id": "311608331",
+      "rank": 42,
+      "type": "User",
+      "login": "will-hallwhy1803",
+      "repos": [
+        {
+          "id": 1318849655,
+          "fork": false,
+          "name": "adobe-animate-project-hub",
+          "forks": 0,
+          "owner": "will-hallwhy1803",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/311608331?v=4",
+          "topics": [],
+          "ownerId": "311608331",
+          "repoUrl": "https://github.com/will-hallwhy1803/adobe-animate-project-hub",
+          "archived": false,
+          "fullName": "will-hallwhy1803/adobe-animate-project-hub",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/will-hallwhy1803",
+          "pushedAt": "2026-08-01T00:32:48+00:00",
+          "createdAt": "2026-08-01T00:32:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:09:41+00:00",
+          "description": "Adobe Animate 2026 desktop application for creating vector animation, interactive web experiences, and multimedia projects with timeline-based and frame-oriented workflows.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/will-hallwhy1803",
+      "topRepo": {
+        "name": "adobe-animate-project-hub",
+        "fullName": "will-hallwhy1803/adobe-animate-project-hub",
+        "stars": 38,
+        "url": "https://github.com/will-hallwhy1803/adobe-animate-project-hub"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311608331?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "will-hallwhy1803/adobe-animate-project-hub"
+      ],
+      "starScore": 38
+    },
+    {
       "id": "311612099",
-      "rank": 35,
+      "rank": 43,
       "type": "User",
       "login": "brookssamwp6045",
       "repos": [
@@ -1559,10 +1945,10 @@
           "fullName": "brookssamwp6045/foxy-script-executor-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/brookssamwp6045",
-          "pushedAt": "2026-08-01T08:43:51+00:00",
+          "pushedAt": "2026-08-01T15:12:04+00:00",
           "createdAt": "2026-08-01T03:08:14+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:56+00:00",
+          "updatedAt": "2026-08-01T15:12:12+00:00",
           "description": "A free Windows 10/11 Roblox script runtime for 2026 with an HTML-inspired GUI, FE support, 64-bit compatibility, and a compact desktop workflow. No key required.",
           "defaultBranch": "main"
         }
@@ -1583,8 +1969,96 @@
       "starScore": 37
     },
     {
+      "id": "311604841",
+      "rank": 44,
+      "type": "User",
+      "login": "carterdpddavis7397",
+      "repos": [
+        {
+          "id": 1318880080,
+          "fork": false,
+          "name": "ali-uc-store-update",
+          "forks": 0,
+          "owner": "carterdpddavis7397",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/311604841?v=4",
+          "topics": [],
+          "ownerId": "311604841",
+          "repoUrl": "https://github.com/carterdpddavis7397/ali-uc-store-update",
+          "archived": false,
+          "fullName": "carterdpddavis7397/ali-uc-store-update",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/carterdpddavis7397",
+          "pushedAt": "2026-08-01T13:43:06+00:00",
+          "createdAt": "2026-08-01T01:43:35+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:21:36+00:00",
+          "description": "Pakistan-oriented online store for mobile battle royale currency, offering UC purchases with rapid delivery and affordable pricing. Includes storefront setup, pricing and delivery configuration, FAQs, and access to the latest build.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/carterdpddavis7397",
+      "topRepo": {
+        "name": "ali-uc-store-update",
+        "fullName": "carterdpddavis7397/ali-uc-store-update",
+        "stars": 37,
+        "url": "https://github.com/carterdpddavis7397/ali-uc-store-update"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311604841?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "carterdpddavis7397/ali-uc-store-update"
+      ],
+      "starScore": 37
+    },
+    {
+      "id": "311611284",
+      "rank": 45,
+      "type": "User",
+      "login": "carterhughesmoty7368",
+      "repos": [
+        {
+          "id": 1318873139,
+          "fork": false,
+          "name": "accounting-tools-hub",
+          "forks": 0,
+          "owner": "carterhughesmoty7368",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/311611284?v=4",
+          "topics": [],
+          "ownerId": "311611284",
+          "repoUrl": "https://github.com/carterhughesmoty7368/accounting-tools-hub",
+          "archived": false,
+          "fullName": "carterhughesmoty7368/accounting-tools-hub",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/carterhughesmoty7368",
+          "pushedAt": "2026-08-01T13:42:59+00:00",
+          "createdAt": "2026-08-01T01:27:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:07:48+00:00",
+          "description": "Browser-accessible Accounting Tools for everyday accounting tasks in the 2026 release line, with downloadable builds, source access through Git, local setup guidance, configuration options, and troubleshooting support.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/carterhughesmoty7368",
+      "topRepo": {
+        "name": "accounting-tools-hub",
+        "fullName": "carterhughesmoty7368/accounting-tools-hub",
+        "stars": 37,
+        "url": "https://github.com/carterhughesmoty7368/accounting-tools-hub"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311611284?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "carterhughesmoty7368/accounting-tools-hub"
+      ],
+      "starScore": 37
+    },
+    {
       "id": "311608586",
-      "rank": 36,
+      "rank": 46,
       "type": "User",
       "login": "danielhugheshzgk2464",
       "repos": [
@@ -1603,10 +2077,10 @@
           "fullName": "danielhugheshzgk2464/atm-project-2026-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/danielhugheshzgk2464",
-          "pushedAt": "2026-08-01T08:43:20+00:00",
+          "pushedAt": "2026-08-01T15:11:21+00:00",
           "createdAt": "2026-08-01T02:19:46+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:37+00:00",
+          "updatedAt": "2026-08-01T15:11:47+00:00",
           "description": "A browser-based ATM banking application built with HTML, CSS, and JavaScript. Practice essential workflows including PIN validation, balance viewing, deposits, and withdrawals in a straightforward 2026 project.",
           "defaultBranch": "main"
         }
@@ -1628,7 +2102,7 @@
     },
     {
       "id": "311613812",
-      "rank": 37,
+      "rank": 47,
       "type": "User",
       "login": "dylan-fisherndkv6985",
       "repos": [
@@ -1647,10 +2121,10 @@
           "fullName": "dylan-fisherndkv6985/catilus-roblox-script-executor",
           "language": "HTML",
           "ownerUrl": "https://github.com/dylan-fisherndkv6985",
-          "pushedAt": "2026-08-01T08:43:51+00:00",
+          "pushedAt": "2026-08-01T15:12:01+00:00",
           "createdAt": "2026-08-01T03:06:23+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:56+00:00",
+          "updatedAt": "2026-08-01T15:12:09+00:00",
           "description": "A Windows-oriented Roblox Lua script runtime project for PC, featuring a compact desktop-style interface, HTML presentation, and script hub discovery for 2026. Free, 64-bit, and no key required.",
           "defaultBranch": "main"
         }
@@ -1672,7 +2146,7 @@
     },
     {
       "id": "311613612",
-      "rank": 38,
+      "rank": 48,
       "type": "User",
       "login": "graywillweh2519",
       "repos": [
@@ -1691,10 +2165,10 @@
           "fullName": "graywillweh2519/synapse-executor-auto-update",
           "language": "HTML",
           "ownerUrl": "https://github.com/graywillweh2519",
-          "pushedAt": "2026-08-01T08:43:37+00:00",
+          "pushedAt": "2026-08-01T15:11:58+00:00",
           "createdAt": "2026-08-01T02:42:34+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:40+00:00",
+          "updatedAt": "2026-08-01T15:12:19+00:00",
           "description": "Free Roblox Lua script runtime for Windows 10/11 64-bit with single-action injection, a 500+ script hub, batch execution, queued scripts, and no key required.",
           "defaultBranch": "main"
         }
@@ -1716,7 +2190,7 @@
     },
     {
       "id": "311611348",
-      "rank": 39,
+      "rank": 49,
       "type": "User",
       "login": "greenbenkr6668",
       "repos": [
@@ -1735,10 +2209,10 @@
           "fullName": "greenbenkr6668/loara-lua-executor-v2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/greenbenkr6668",
-          "pushedAt": "2026-08-01T08:43:40+00:00",
+          "pushedAt": "2026-08-01T15:11:40+00:00",
           "createdAt": "2026-08-01T02:48:41+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:49+00:00",
+          "updatedAt": "2026-08-01T15:11:46+00:00",
           "description": "A compact Roblox Lua script runtime for Windows and macOS with script execution, a broad script hub, and a straightforward desktop GUI. Free, keyless, 64-bit Windows 10/11 support for 2026.",
           "defaultBranch": "main"
         }
@@ -1760,7 +2234,7 @@
     },
     {
       "id": "311614129",
-      "rank": 40,
+      "rank": 50,
       "type": "User",
       "login": "kevinhnyereed3828",
       "repos": [
@@ -1779,10 +2253,10 @@
           "fullName": "kevinhnyereed3828/xeno-pc-auto-update-exec",
           "language": "HTML",
           "ownerUrl": "https://github.com/kevinhnyereed3828",
-          "pushedAt": "2026-08-01T08:43:36+00:00",
+          "pushedAt": "2026-08-01T15:11:34+00:00",
           "createdAt": "2026-08-01T02:43:00+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:45+00:00",
+          "updatedAt": "2026-08-01T15:11:39+00:00",
           "description": "A free Windows 10/11 64-bit Lua script runtime for Roblox with injection support, a 500+ item script hub, compact desktop GUI, automatic updates, and no key required for 2026.",
           "defaultBranch": "main"
         }
@@ -1804,7 +2278,7 @@
     },
     {
       "id": "311613706",
-      "rank": 41,
+      "rank": 51,
       "type": "User",
       "login": "mooreethangwd5980",
       "repos": [
@@ -1823,10 +2297,10 @@
           "fullName": "mooreethangwd5980/axm-tools-toolbox-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/mooreethangwd5980",
-          "pushedAt": "2026-08-01T08:43:31+00:00",
+          "pushedAt": "2026-08-01T15:11:31+00:00",
           "createdAt": "2026-08-01T02:41:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:53+00:00",
+          "updatedAt": "2026-08-01T15:11:47+00:00",
           "description": "AXM Tools is a static web tools collection for local tracking, organ evolution assessment, PTA legislation monitoring, and evidence-driven workflows using standalone HTML utilities.",
           "defaultBranch": "main"
         }
@@ -1848,7 +2322,7 @@
     },
     {
       "id": "311603771",
-      "rank": 42,
+      "rank": 52,
       "type": "User",
       "login": "sam-youngao134",
       "repos": [
@@ -1891,8 +2365,96 @@
       "starScore": 37
     },
     {
+      "id": "311614417",
+      "rank": 53,
+      "type": "User",
+      "login": "samgreenyn1876",
+      "repos": [
+        {
+          "id": 1318880621,
+          "fork": false,
+          "name": "apex-dashboard-ui",
+          "forks": 0,
+          "owner": "samgreenyn1876",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/311614417?v=4",
+          "topics": [],
+          "ownerId": "311614417",
+          "repoUrl": "https://github.com/samgreenyn1876/apex-dashboard-ui",
+          "archived": false,
+          "fullName": "samgreenyn1876/apex-dashboard-ui",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/samgreenyn1876",
+          "pushedAt": "2026-08-01T13:43:28+00:00",
+          "createdAt": "2026-08-01T01:44:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:12:27+00:00",
+          "description": "Apex Dashboard 2026 is a browser-based HTML project for displaying dashboard content through a web interface, with instructions for downloading files, cloning with Git, launching locally, and publishing a hosted copy.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/samgreenyn1876",
+      "topRepo": {
+        "name": "apex-dashboard-ui",
+        "fullName": "samgreenyn1876/apex-dashboard-ui",
+        "stars": 37,
+        "url": "https://github.com/samgreenyn1876/apex-dashboard-ui"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311614417?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "samgreenyn1876/apex-dashboard-ui"
+      ],
+      "starScore": 37
+    },
+    {
+      "id": "311615466",
+      "rank": 54,
+      "type": "User",
+      "login": "tomrossqzhk8266",
+      "repos": [
+        {
+          "id": 1318910221,
+          "fork": false,
+          "name": "celery-windows-script-exec",
+          "forks": 0,
+          "owner": "tomrossqzhk8266",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/311615466?v=4",
+          "topics": [],
+          "ownerId": "311615466",
+          "repoUrl": "https://github.com/tomrossqzhk8266/celery-windows-script-exec",
+          "archived": false,
+          "fullName": "tomrossqzhk8266/celery-windows-script-exec",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/tomrossqzhk8266",
+          "pushedAt": "2026-08-01T15:11:50+00:00",
+          "createdAt": "2026-08-01T02:49:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:45:33+00:00",
+          "description": "A Windows-based Roblox Lua script runtime for 2026 with a compact desktop interface, built-in library of 500+ scripts, automatic updates, free access, and no key required on 64-bit Windows 10 and 11.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tomrossqzhk8266",
+      "topRepo": {
+        "name": "celery-windows-script-exec",
+        "fullName": "tomrossqzhk8266/celery-windows-script-exec",
+        "stars": 37,
+        "url": "https://github.com/tomrossqzhk8266/celery-windows-script-exec"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311615466?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tomrossqzhk8266/celery-windows-script-exec"
+      ],
+      "starScore": 37
+    },
+    {
       "id": "311603655",
-      "rank": 43,
+      "rank": 55,
       "type": "User",
       "login": "tyler-davisis3420",
       "repos": [
@@ -1936,7 +2498,7 @@
     },
     {
       "id": "311603448",
-      "rank": 44,
+      "rank": 56,
       "type": "User",
       "login": "tylernuhill1443",
       "repos": [
@@ -1955,10 +2517,10 @@
           "fullName": "tylernuhill1443/velocity-windows-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/tylernuhill1443",
-          "pushedAt": "2026-08-01T08:44:10+00:00",
+          "pushedAt": "2026-08-01T15:12:14+00:00",
           "createdAt": "2026-08-01T03:10:19+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:15+00:00",
+          "updatedAt": "2026-08-01T15:12:17+00:00",
           "description": "Windows 10/11 64-bit Roblox Lua script runtime with a lightweight GUI and 500+ item script hub. Free to use, requires no key, and is designed for running scripts on PC with 2026 workflows.",
           "defaultBranch": "main"
         }
@@ -1979,8 +2541,52 @@
       "starScore": 37
     },
     {
+      "id": "311611076",
+      "rank": 57,
+      "type": "User",
+      "login": "zack-stoneljah6156",
+      "repos": [
+        {
+          "id": 1318895666,
+          "fork": false,
+          "name": "apexrar-app-loader",
+          "forks": 0,
+          "owner": "zack-stoneljah6156",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/311611076?v=4",
+          "topics": [],
+          "ownerId": "311611076",
+          "repoUrl": "https://github.com/zack-stoneljah6156/apexrar-app-loader",
+          "archived": false,
+          "fullName": "zack-stoneljah6156/apexrar-app-loader",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/zack-stoneljah6156",
+          "pushedAt": "2026-08-01T15:11:21+00:00",
+          "createdAt": "2026-08-01T02:19:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:37:40+00:00",
+          "description": "ApexRAR is an HTML-oriented software project for 2026 with an unspecified release, unsupported platform details, and no complete feature list currently identified.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/zack-stoneljah6156",
+      "topRepo": {
+        "name": "apexrar-app-loader",
+        "fullName": "zack-stoneljah6156/apexrar-app-loader",
+        "stars": 37,
+        "url": "https://github.com/zack-stoneljah6156/apexrar-app-loader"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311611076?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "zack-stoneljah6156/apexrar-app-loader"
+      ],
+      "starScore": 37
+    },
+    {
       "id": "311614379",
-      "rank": 45,
+      "rank": 58,
       "type": "User",
       "login": "caleb-rossvtf8117",
       "repos": [
@@ -1999,10 +2605,10 @@
           "fullName": "caleb-rossvtf8117/arch-ai-tools-service-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/caleb-rossvtf8117",
-          "pushedAt": "2026-08-01T08:43:21+00:00",
+          "pushedAt": "2026-08-01T15:11:21+00:00",
           "createdAt": "2026-08-01T02:21:12+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:54+00:00",
+          "updatedAt": "2026-08-01T15:11:25+00:00",
           "description": "Arch AI Tools is a unified Node.js interface for AI services, data access, automation, and utility operations, with a native MCP server for building connected tool workflows in 2026.",
           "defaultBranch": "main"
         }
@@ -2024,7 +2630,7 @@
     },
     {
       "id": "311611455",
-      "rank": 46,
+      "rank": 59,
       "type": "User",
       "login": "daniel-wardfc7173",
       "repos": [
@@ -2043,10 +2649,10 @@
           "fullName": "daniel-wardfc7173/roblox-windows-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/daniel-wardfc7173",
-          "pushedAt": "2026-08-01T08:45:21+00:00",
+          "pushedAt": "2026-08-01T15:12:33+00:00",
           "createdAt": "2026-08-01T03:12:31+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:45:37+00:00",
+          "updatedAt": "2026-08-01T15:12:53+00:00",
           "description": "A lightweight, browser-first Roblox currency utility for Windows 10 and 11, featuring a script-hub-style interface and simple Lua-inspired workflow. Free to use with no key required, built for modern browsers in 2026.",
           "defaultBranch": "main"
         }
@@ -2068,7 +2674,7 @@
     },
     {
       "id": "311609095",
-      "rank": 47,
+      "rank": 60,
       "type": "User",
       "login": "danieltkapwest2529",
       "repos": [
@@ -2087,10 +2693,10 @@
           "fullName": "danieltkapwest2529/phoenix-lua-executor-windows",
           "language": "HTML",
           "ownerUrl": "https://github.com/danieltkapwest2529",
-          "pushedAt": "2026-08-01T08:44:09+00:00",
+          "pushedAt": "2026-08-01T15:12:20+00:00",
           "createdAt": "2026-08-01T03:16:11+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:19+00:00",
+          "updatedAt": "2026-08-01T15:12:53+00:00",
           "description": "A compact Windows utility for running Roblox Lua scripts in 2026, featuring one-click injection, a 500+ script hub, modest resource usage, and a straightforward desktop UI. Free for Windows 10/11 64-bit with no key required.",
           "defaultBranch": "main"
         }
@@ -2111,8 +2717,52 @@
       "starScore": 36
     },
     {
+      "id": "311611926",
+      "rank": 61,
+      "type": "User",
+      "login": "felix-woodih6303",
+      "repos": [
+        {
+          "id": 1318918793,
+          "fork": false,
+          "name": "madium-roblox-executor",
+          "forks": 0,
+          "owner": "felix-woodih6303",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311611926?v=4",
+          "topics": [],
+          "ownerId": "311611926",
+          "repoUrl": "https://github.com/felix-woodih6303/madium-roblox-executor",
+          "archived": false,
+          "fullName": "felix-woodih6303/madium-roblox-executor",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/felix-woodih6303",
+          "pushedAt": "2026-08-01T15:11:46+00:00",
+          "createdAt": "2026-08-01T03:06:16+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:53:05+00:00",
+          "description": "A Windows 10/11 Roblox Lua script runtime for 2026 with keyless execution, high UNC support, and a compact desktop-style interface. Free 64-bit software with no key required.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/felix-woodih6303",
+      "topRepo": {
+        "name": "madium-roblox-executor",
+        "fullName": "felix-woodih6303/madium-roblox-executor",
+        "stars": 36,
+        "url": "https://github.com/felix-woodih6303/madium-roblox-executor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311611926?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "felix-woodih6303/madium-roblox-executor"
+      ],
+      "starScore": 36
+    },
+    {
       "id": "311608490",
-      "rank": 48,
+      "rank": 62,
       "type": "User",
       "login": "henryrllflewis3559",
       "repos": [
@@ -2131,10 +2781,10 @@
           "fullName": "henryrllflewis3559/call-of-duty-script-hub",
           "language": "HTML",
           "ownerUrl": "https://github.com/henryrllflewis3559",
-          "pushedAt": "2026-08-01T08:44:08+00:00",
+          "pushedAt": "2026-08-01T15:12:25+00:00",
           "createdAt": "2026-08-01T03:16:32+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:35+00:00",
+          "updatedAt": "2026-08-01T15:12:29+00:00",
           "description": "Android game mod APK with a VIP-oriented menu and script utility, plus installation guidance, compatibility details, supported version notes, device considerations, and 2026 release updates for mobile users.",
           "defaultBranch": "main"
         }
@@ -2155,8 +2805,96 @@
       "starScore": 36
     },
     {
+      "id": "311613543",
+      "rank": 63,
+      "type": "User",
+      "login": "jamesgabeql6450",
+      "repos": [
+        {
+          "id": 1318894278,
+          "fork": false,
+          "name": "apex-product-creative-workflow",
+          "forks": 0,
+          "owner": "jamesgabeql6450",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311613543?v=4",
+          "topics": [],
+          "ownerId": "311613543",
+          "repoUrl": "https://github.com/jamesgabeql6450/apex-product-creative-workflow",
+          "archived": false,
+          "fullName": "jamesgabeql6450/apex-product-creative-workflow",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/jamesgabeql6450",
+          "pushedAt": "2026-08-01T13:43:14+00:00",
+          "createdAt": "2026-08-01T02:16:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:21:51+00:00",
+          "description": "Apex Product Creative Engine is a 2026 text-model workflow for ecommerce product content, using source-grounded facts, evidence-based controls, claim review, and explicit release decisions.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jamesgabeql6450",
+      "topRepo": {
+        "name": "apex-product-creative-workflow",
+        "fullName": "jamesgabeql6450/apex-product-creative-workflow",
+        "stars": 36,
+        "url": "https://github.com/jamesgabeql6450/apex-product-creative-workflow"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311613543?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jamesgabeql6450/apex-product-creative-workflow"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "311603946",
+      "rank": 64,
+      "type": "User",
+      "login": "loganhallce5260",
+      "repos": [
+        {
+          "id": 1318865745,
+          "fork": false,
+          "name": "adid-checker-update-tool",
+          "forks": 0,
+          "owner": "loganhallce5260",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311603946?v=4",
+          "topics": [],
+          "ownerId": "311603946",
+          "repoUrl": "https://github.com/loganhallce5260/adid-checker-update-tool",
+          "archived": false,
+          "fullName": "loganhallce5260/adid-checker-update-tool",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/loganhallce5260",
+          "pushedAt": "2026-08-01T18:26:53+00:00",
+          "createdAt": "2026-08-01T01:10:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T19:30:19+00:00",
+          "description": "ADID Checker is a compact Windows browser utility for validating advertising ID formats locally. After the first page load, it can work offline and provide validation results without requiring an installation wizard.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/loganhallce5260",
+      "topRepo": {
+        "name": "adid-checker-update-tool",
+        "fullName": "loganhallce5260/adid-checker-update-tool",
+        "stars": 36,
+        "url": "https://github.com/loganhallce5260/adid-checker-update-tool"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311603946?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "loganhallce5260/adid-checker-update-tool"
+      ],
+      "starScore": 36
+    },
+    {
       "id": "311607150",
-      "rank": 49,
+      "rank": 65,
       "type": "User",
       "login": "mattcolends4131",
       "repos": [
@@ -2200,7 +2938,7 @@
     },
     {
       "id": "311603551",
-      "rank": 50,
+      "rank": 66,
       "type": "User",
       "login": "olivertwswalker3549",
       "repos": [
@@ -2244,7 +2982,7 @@
     },
     {
       "id": "311606957",
-      "rank": 51,
+      "rank": 67,
       "type": "User",
       "login": "owenqslywalker5724",
       "repos": [
@@ -2263,10 +3001,10 @@
           "fullName": "owenqslywalker5724/ronix-windows-executor-v3",
           "language": "HTML",
           "ownerUrl": "https://github.com/owenqslywalker5724",
-          "pushedAt": "2026-08-01T08:43:56+00:00",
+          "pushedAt": "2026-08-01T15:11:45+00:00",
           "createdAt": "2026-08-01T02:48:12+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:44:00+00:00",
+          "updatedAt": "2026-08-01T15:12:09+00:00",
           "description": "A compact Windows 10/11 64-bit Lua script runtime for Roblox in 2026, with Lua injection, rapid script launching, and an integrated hub containing more than 500 scripts. Free and no key required.",
           "defaultBranch": "main"
         }
@@ -2287,8 +3025,96 @@
       "starScore": 36
     },
     {
+      "id": "311613952",
+      "rank": 68,
+      "type": "User",
+      "login": "sean-edwardsxqe5878",
+      "repos": [
+        {
+          "id": 1318863753,
+          "fork": false,
+          "name": "adobe-xd-version-manager",
+          "forks": 0,
+          "owner": "sean-edwardsxqe5878",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311613952?v=4",
+          "topics": [],
+          "ownerId": "311613952",
+          "repoUrl": "https://github.com/sean-edwardsxqe5878/adobe-xd-version-manager",
+          "archived": false,
+          "fullName": "sean-edwardsxqe5878/adobe-xd-version-manager",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/sean-edwardsxqe5878",
+          "pushedAt": "2026-08-01T18:26:52+00:00",
+          "createdAt": "2026-08-01T01:05:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T19:32:50+00:00",
+          "description": "Windows installer and download manager for acquiring, preparing, verifying, and maintaining Adobe XD packages for offline UI/UX design use, with update channels, download status, and setup troubleshooting guidance.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sean-edwardsxqe5878",
+      "topRepo": {
+        "name": "adobe-xd-version-manager",
+        "fullName": "sean-edwardsxqe5878/adobe-xd-version-manager",
+        "stars": 36,
+        "url": "https://github.com/sean-edwardsxqe5878/adobe-xd-version-manager"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311613952?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sean-edwardsxqe5878/adobe-xd-version-manager"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "311603606",
+      "rank": 69,
+      "type": "User",
+      "login": "tyler-adamszt3707",
+      "repos": [
+        {
+          "id": 1318849343,
+          "fork": false,
+          "name": "adobe-dynamic-media-interactive",
+          "forks": 0,
+          "owner": "tyler-adamszt3707",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311603606?v=4",
+          "topics": [],
+          "ownerId": "311603606",
+          "repoUrl": "https://github.com/tyler-adamszt3707/adobe-dynamic-media-interactive",
+          "archived": false,
+          "fullName": "tyler-adamszt3707/adobe-dynamic-media-interactive",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/tyler-adamszt3707",
+          "pushedAt": "2026-08-01T00:31:57+00:00",
+          "createdAt": "2026-08-01T00:31:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:09:11+00:00",
+          "description": "Browser-ready collection of independent Adobe Dynamic Media interactive HTML demos for Scene7, Dynamic Media Classic, and Dynamic Media with OpenAPI, covering responsive image delivery, media viewers, asset APIs, and interactive media workflows in 2026.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tyler-adamszt3707",
+      "topRepo": {
+        "name": "adobe-dynamic-media-interactive",
+        "fullName": "tyler-adamszt3707/adobe-dynamic-media-interactive",
+        "stars": 36,
+        "url": "https://github.com/tyler-adamszt3707/adobe-dynamic-media-interactive"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311603606?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tyler-adamszt3707/adobe-dynamic-media-interactive"
+      ],
+      "starScore": 36
+    },
+    {
       "id": "311609128",
-      "rank": 52,
+      "rank": 70,
       "type": "User",
       "login": "victorqhwhall8029",
       "repos": [
@@ -2332,7 +3158,7 @@
     },
     {
       "id": "311608876",
-      "rank": 53,
+      "rank": 71,
       "type": "User",
       "login": "victorwscwalker5297",
       "repos": [
@@ -2351,10 +3177,10 @@
           "fullName": "victorwscwalker5297/apex-automated-ea",
           "language": "HTML",
           "ownerUrl": "https://github.com/victorwscwalker5297",
-          "pushedAt": "2026-08-01T08:43:22+00:00",
+          "pushedAt": "2026-08-01T15:11:15+00:00",
           "createdAt": "2026-08-01T02:19:49+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:28+00:00",
+          "updatedAt": "2026-08-01T15:11:23+00:00",
           "description": "Apex EA Pro is an automated forex trading Expert Advisor for MetaTrader 4 and MetaTrader 5, using a fixed 0.5% risk allocation per trade and attaching a hard stop loss to every order.",
           "defaultBranch": "main"
         }
@@ -2375,8 +3201,52 @@
       "starScore": 36
     },
     {
+      "id": "311613319",
+      "rank": 72,
+      "type": "User",
+      "login": "will-wardcw1032",
+      "repos": [
+        {
+          "id": 1318874495,
+          "fork": false,
+          "name": "anime-valorant-guesser-2026",
+          "forks": 0,
+          "owner": "will-wardcw1032",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/311613319?v=4",
+          "topics": [],
+          "ownerId": "311613319",
+          "repoUrl": "https://github.com/will-wardcw1032/anime-valorant-guesser-2026",
+          "archived": false,
+          "fullName": "will-wardcw1032/anime-valorant-guesser-2026",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/will-wardcw1032",
+          "pushedAt": "2026-08-01T13:42:53+00:00",
+          "createdAt": "2026-08-01T01:30:40+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-01T18:09:20+00:00",
+          "description": "Anime-themed browser guessing game with a presentation inspired by a popular tactical shooter. Built in HTML for web browsers, it offers guessing gameplay across supported browser environments with no native or game client integration documented.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/will-wardcw1032",
+      "topRepo": {
+        "name": "anime-valorant-guesser-2026",
+        "fullName": "will-wardcw1032/anime-valorant-guesser-2026",
+        "stars": 36,
+        "url": "https://github.com/will-wardcw1032/anime-valorant-guesser-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311613319?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "will-wardcw1032/anime-valorant-guesser-2026"
+      ],
+      "starScore": 36
+    },
+    {
       "id": "311608723",
-      "rank": 54,
+      "rank": 73,
       "type": "User",
       "login": "zackdavisdtdb2395",
       "repos": [
@@ -2395,10 +3265,10 @@
           "fullName": "zackdavisdtdb2395/solara-executor-update-2026",
           "language": "HTML",
           "ownerUrl": "https://github.com/zackdavisdtdb2395",
-          "pushedAt": "2026-08-01T08:43:35+00:00",
+          "pushedAt": "2026-08-01T15:11:37+00:00",
           "createdAt": "2026-08-01T02:42:17+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-01T08:43:39+00:00",
+          "updatedAt": "2026-08-01T15:12:02+00:00",
           "description": "A free Windows 10/11 64-bit Lua script runtime for Roblox, featuring injection support, an extensive script hub, and a streamlined interface. No key is required, with automatic updates planned for 2026.",
           "defaultBranch": "main"
         }
@@ -2420,7 +3290,7 @@
     },
     {
       "id": "311614633",
-      "rank": 55,
+      "rank": 74,
       "type": "User",
       "login": "alexdvxotaylor4984",
       "repos": [
@@ -2464,7 +3334,7 @@
     },
     {
       "id": "311615164",
-      "rank": 56,
+      "rank": 75,
       "type": "User",
       "login": "calebbifsbrooks3969",
       "repos": [
@@ -2508,7 +3378,7 @@
     },
     {
       "id": "311608771",
-      "rank": 57,
+      "rank": 76,
       "type": "User",
       "login": "dylanscottvvti1997",
       "repos": [
@@ -2552,7 +3422,7 @@
     },
     {
       "id": "311612116",
-      "rank": 58,
+      "rank": 77,
       "type": "User",
       "login": "fosterbenfsyg2406",
       "repos": [
@@ -2596,7 +3466,7 @@
     },
     {
       "id": "311611857",
-      "rank": 59,
+      "rank": 78,
       "type": "User",
       "login": "gabe-millerhjz8660",
       "repos": [
@@ -2640,7 +3510,7 @@
     },
     {
       "id": "311614380",
-      "rank": 60,
+      "rank": 79,
       "type": "User",
       "login": "grayoliveroll8665",
       "repos": [
@@ -2684,7 +3554,7 @@
     },
     {
       "id": "311612634",
-      "rank": 61,
+      "rank": 80,
       "type": "User",
       "login": "greenloganbeqd5894",
       "repos": [
@@ -2728,7 +3598,7 @@
     },
     {
       "id": "311607112",
-      "rank": 62,
+      "rank": 81,
       "type": "User",
       "login": "henrydavispws2950",
       "repos": [
@@ -2772,7 +3642,7 @@
     },
     {
       "id": "311604022",
-      "rank": 63,
+      "rank": 82,
       "type": "User",
       "login": "isaacjamescjf1869",
       "repos": [
@@ -2816,7 +3686,7 @@
     },
     {
       "id": "311603306",
-      "rank": 64,
+      "rank": 83,
       "type": "User",
       "login": "jordanlewiszd8644",
       "repos": [
@@ -2860,7 +3730,7 @@
     },
     {
       "id": "311613370",
-      "rank": 65,
+      "rank": 84,
       "type": "User",
       "login": "nathanteoadams2086",
       "repos": [
@@ -2904,7 +3774,7 @@
     },
     {
       "id": "311607235",
-      "rank": 66,
+      "rank": 85,
       "type": "User",
       "login": "victorhayescvc4999",
       "repos": [
@@ -2948,7 +3818,7 @@
     },
     {
       "id": "311607951",
-      "rank": 67,
+      "rank": 86,
       "type": "User",
       "login": "ben-parkerdngh4116",
       "repos": [
@@ -2992,7 +3862,7 @@
     },
     {
       "id": "311613793",
-      "rank": 68,
+      "rank": 87,
       "type": "User",
       "login": "danieldavisnaza9801",
       "repos": [
@@ -3035,73 +3905,8 @@
       "starScore": 34
     },
     {
-      "id": "244396280",
-      "rank": 69,
-      "type": "User",
-      "login": "egorlebedev83",
-      "repos": [
-        {
-          "id": 1318433676,
-          "fork": false,
-          "name": "Crypto-Checker",
-          "forks": 7,
-          "owner": "egorlebedev83",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/244396280?v=4",
-          "topics": [
-            "bitcoin-address-balances",
-            "bitcoin-checker",
-            "bitcoin-wallet-phrase-generator",
-            "check-crypto-balance",
-            "checker",
-            "checker-crypto",
-            "crypto-checker-tool",
-            "crypto-price-tracking",
-            "cryptochecker",
-            "eth-balance",
-            "ethereum-checker",
-            "ethereum-wallet-balance-checker",
-            "seed-generator",
-            "seed-phrase-searcher",
-            "solan-rpc",
-            "wallet-analyzer",
-            "wallet-checker-api",
-            "wallet-finder-crypto",
-            "wallet-generator-and-checker",
-            "wallet-tracker"
-          ],
-          "ownerId": "244396280",
-          "repoUrl": "https://github.com/egorlebedev83/Crypto-Checker",
-          "archived": false,
-          "fullName": "egorlebedev83/Crypto-Checker",
-          "language": "Python",
-          "ownerUrl": "https://github.com/egorlebedev83",
-          "pushedAt": "2026-07-31T14:31:41+00:00",
-          "createdAt": "2026-07-31T14:28:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-07-31T19:25:59+00:00",
-          "description": "Python-based crypto wallet analysis tool with multi-threaded address and seed phrase checking (up to 50 threads). Supports Bitcoin, Ethereum, Solana, BNB Chain, Polygon, and EVM networks. Includes proxy rotation, portfolio aggregation, USD valuation, token scanning, and TXT/CSV/JSON export for auditing, research, and analytics.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/egorlebedev83",
-      "topRepo": {
-        "name": "Crypto-Checker",
-        "fullName": "egorlebedev83/Crypto-Checker",
-        "stars": 34,
-        "url": "https://github.com/egorlebedev83/Crypto-Checker"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/244396280?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "egorlebedev83/Crypto-Checker"
-      ],
-      "starScore": 34
-    },
-    {
       "id": "311608231",
-      "rank": 70,
+      "rank": 88,
       "type": "User",
       "login": "owen-bakerpuuo4175",
       "repos": [
@@ -3145,7 +3950,7 @@
     },
     {
       "id": "311611548",
-      "rank": 71,
+      "rank": 89,
       "type": "User",
       "login": "willbakeruk4827",
       "repos": [
@@ -3189,7 +3994,7 @@
     },
     {
       "id": "311603300",
-      "rank": 72,
+      "rank": 90,
       "type": "User",
       "login": "ryanmooreirpl3039",
       "repos": [
@@ -3233,7 +4038,7 @@
     },
     {
       "id": "311608366",
-      "rank": 73,
+      "rank": 91,
       "type": "User",
       "login": "zackhugheszjy3208",
       "repos": [
@@ -3277,7 +4082,7 @@
     },
     {
       "id": "311604199",
-      "rank": 74,
+      "rank": 92,
       "type": "User",
       "login": "matt-hughesuvc2003",
       "repos": [
@@ -3320,160 +4125,8 @@
       "starScore": 32
     },
     {
-      "id": "244390961",
-      "rank": 75,
-      "type": "User",
-      "login": "PavelSokolov49",
-      "repos": [
-        {
-          "id": 1318638161,
-          "fork": false,
-          "name": "Seed-Generator",
-          "forks": 1,
-          "owner": "PavelSokolov49",
-          "stars": 30,
-          "avatar": "https://avatars.githubusercontent.com/u/244390961?v=4",
-          "topics": [
-            "brute-force-tool",
-            "mnemonic-code-converter",
-            "mnemonic-generator-solana",
-            "mnemonic-phrase",
-            "mnemonic-recovery",
-            "mnemonic-seed",
-            "mnemonics-generator",
-            "phrase-generator",
-            "seed-phase-checker",
-            "seed-phrases-finder",
-            "seed-phrases-generate",
-            "seed-phrases-generator",
-            "seed-recovery-2025",
-            "seed-recovery-tool",
-            "seed-tool-generate",
-            "seedphrase",
-            "seedphrase-checker",
-            "seedphrase-generator",
-            "seedphrase-generatorseed-generator"
-          ],
-          "ownerId": "244390961",
-          "repoUrl": "https://github.com/PavelSokolov49/Seed-Generator",
-          "archived": false,
-          "fullName": "PavelSokolov49/Seed-Generator",
-          "language": "Python",
-          "ownerUrl": "https://github.com/PavelSokolov49",
-          "pushedAt": "2026-07-31T18:28:30+00:00",
-          "createdAt": "2026-07-31T18:21:12+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-01T02:11:01+00:00",
-          "description": "Professional BIP-39 Seed & HD Wallet Toolkit with 12–24 word mnemonics, checksum validation, BIP-44/49/84 derivation, and multi-chain support (BTC, ETH, SOL, LTC, DOGE, ADA, DOT, AVAX, ATOM, XRP, TRX). Features offline CSPRNG, PBKDF2-HMAC-SHA512, AES-256-GCM encryption, wallet recovery, CSV/JSON export, and custom derivation paths.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/PavelSokolov49",
-      "topRepo": {
-        "name": "Seed-Generator",
-        "fullName": "PavelSokolov49/Seed-Generator",
-        "stars": 30,
-        "url": "https://github.com/PavelSokolov49/Seed-Generator"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/244390961?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "PavelSokolov49/Seed-Generator"
-      ],
-      "starScore": 30
-    },
-    {
-      "id": "311604841",
-      "rank": 76,
-      "type": "User",
-      "login": "carterdpddavis7397",
-      "repos": [
-        {
-          "id": 1318880080,
-          "fork": false,
-          "name": "ali-uc-store-update",
-          "forks": 0,
-          "owner": "carterdpddavis7397",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/311604841?v=4",
-          "topics": [],
-          "ownerId": "311604841",
-          "repoUrl": "https://github.com/carterdpddavis7397/ali-uc-store-update",
-          "archived": false,
-          "fullName": "carterdpddavis7397/ali-uc-store-update",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/carterdpddavis7397",
-          "pushedAt": "2026-08-01T07:08:59+00:00",
-          "createdAt": "2026-08-01T01:43:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-01T07:09:17+00:00",
-          "description": "Pakistan-oriented online store for mobile battle royale currency, offering UC purchases with rapid delivery and affordable pricing. Includes storefront setup, pricing and delivery configuration, FAQs, and access to the latest build.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/carterdpddavis7397",
-      "topRepo": {
-        "name": "ali-uc-store-update",
-        "fullName": "carterdpddavis7397/ali-uc-store-update",
-        "stars": 23,
-        "url": "https://github.com/carterdpddavis7397/ali-uc-store-update"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/311604841?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "carterdpddavis7397/ali-uc-store-update"
-      ],
-      "starScore": 23
-    },
-    {
-      "id": "311613543",
-      "rank": 77,
-      "type": "User",
-      "login": "jamesgabeql6450",
-      "repos": [
-        {
-          "id": 1318894278,
-          "fork": false,
-          "name": "apex-product-creative-workflow",
-          "forks": 0,
-          "owner": "jamesgabeql6450",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/311613543?v=4",
-          "topics": [],
-          "ownerId": "311613543",
-          "repoUrl": "https://github.com/jamesgabeql6450/apex-product-creative-workflow",
-          "archived": false,
-          "fullName": "jamesgabeql6450/apex-product-creative-workflow",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/jamesgabeql6450",
-          "pushedAt": "2026-08-01T02:16:28+00:00",
-          "createdAt": "2026-08-01T02:16:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-01T03:14:56+00:00",
-          "description": "Apex Product Creative Engine is a 2026 text-model workflow for ecommerce product content, using source-grounded facts, evidence-based controls, claim review, and explicit release decisions.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jamesgabeql6450",
-      "topRepo": {
-        "name": "apex-product-creative-workflow",
-        "fullName": "jamesgabeql6450/apex-product-creative-workflow",
-        "stars": 22,
-        "url": "https://github.com/jamesgabeql6450/apex-product-creative-workflow"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/311613543?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jamesgabeql6450/apex-product-creative-workflow"
-      ],
-      "starScore": 22
-    },
-    {
       "id": "278956455",
-      "rank": 78,
+      "rank": 93,
       "type": "User",
       "login": "sam-code-io2094g9",
       "repos": [
@@ -3524,52 +4177,8 @@
       "starScore": 14
     },
     {
-      "id": "18597647",
-      "rank": 79,
-      "type": "Organization",
-      "login": "tsoding",
-      "repos": [
-        {
-          "id": 1318640256,
-          "fork": false,
-          "name": "r8",
-          "forks": 1,
-          "owner": "tsoding",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/18597647?v=4",
-          "topics": [],
-          "ownerId": "18597647",
-          "repoUrl": "https://github.com/tsoding/r8",
-          "archived": false,
-          "fullName": "tsoding/r8",
-          "language": "C",
-          "ownerUrl": "https://github.com/tsoding",
-          "pushedAt": "2026-07-31T18:23:51+00:00",
-          "createdAt": "2026-07-31T18:23:32+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-01T03:25:00+00:00",
-          "description": "Fantasy console based on 6502 and rendered using Raylib",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/tsoding",
-      "topRepo": {
-        "name": "r8",
-        "fullName": "tsoding/r8",
-        "stars": 14,
-        "url": "https://github.com/tsoding/r8"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18597647?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "tsoding/r8"
-      ],
-      "starScore": 14
-    },
-    {
       "id": "5342795",
-      "rank": 80,
+      "rank": 94,
       "type": "User",
       "login": "tvanhens",
       "repos": [
@@ -3610,94 +4219,6 @@
         "tvanhens/cyninja-prompt-demo"
       ],
       "starScore": 12
-    },
-    {
-      "id": "167806754",
-      "rank": 81,
-      "type": "Organization",
-      "login": "bespokelabsai",
-      "repos": [
-        {
-          "id": 1318472445,
-          "fork": false,
-          "name": "conjecture-bench",
-          "forks": 0,
-          "owner": "bespokelabsai",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/167806754?v=4",
-          "topics": [],
-          "ownerId": "167806754",
-          "repoUrl": "https://github.com/bespokelabsai/conjecture-bench",
-          "archived": false,
-          "fullName": "bespokelabsai/conjecture-bench",
-          "language": "Python",
-          "ownerUrl": "https://github.com/bespokelabsai",
-          "pushedAt": "2026-07-31T15:11:42+00:00",
-          "createdAt": "2026-07-31T15:08:43+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-01T00:21:36+00:00",
-          "description": "15k open math problems, linked to their sources.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/bespokelabsai",
-      "topRepo": {
-        "name": "conjecture-bench",
-        "fullName": "bespokelabsai/conjecture-bench",
-        "stars": 9,
-        "url": "https://github.com/bespokelabsai/conjecture-bench"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/167806754?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "bespokelabsai/conjecture-bench"
-      ],
-      "starScore": 9
-    },
-    {
-      "id": "311603946",
-      "rank": 82,
-      "type": "User",
-      "login": "loganhallce5260",
-      "repos": [
-        {
-          "id": 1318865745,
-          "fork": false,
-          "name": "adid-checker-update-tool",
-          "forks": 0,
-          "owner": "loganhallce5260",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/311603946?v=4",
-          "topics": [],
-          "ownerId": "311603946",
-          "repoUrl": "https://github.com/loganhallce5260/adid-checker-update-tool",
-          "archived": false,
-          "fullName": "loganhallce5260/adid-checker-update-tool",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/loganhallce5260",
-          "pushedAt": "2026-08-01T01:11:05+00:00",
-          "createdAt": "2026-08-01T01:10:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-01T02:22:31+00:00",
-          "description": "ADID Checker is a compact Windows browser utility for validating advertising ID formats locally. After the first page load, it can work offline and provide validation results without requiring an installation wizard.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/loganhallce5260",
-      "topRepo": {
-        "name": "adid-checker-update-tool",
-        "fullName": "loganhallce5260/adid-checker-update-tool",
-        "stars": 9,
-        "url": "https://github.com/loganhallce5260/adid-checker-update-tool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/311603946?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "loganhallce5260/adid-checker-update-tool"
-      ],
-      "starScore": 9
     }
   ]
 }
