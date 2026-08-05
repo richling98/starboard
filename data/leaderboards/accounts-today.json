@@ -1,12 +1,1540 @@
 {
-  "generatedAt": "2026-08-05T14:49:26.088Z",
-  "total": 0,
-  "totalIndexedCount": 0,
-  "coverageLabel": "Showing 0 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-05T20:18:31.724Z",
+  "total": 28,
+  "totalIndexedCount": 28,
+  "coverageLabel": "Showing 28 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
     "generatedBy": "scripts/build-leaderboard-snapshots.mjs"
   },
-  "rows": []
+  "rows": [
+    {
+      "id": "155918204",
+      "rank": 1,
+      "type": "User",
+      "login": "0xwilliamortiz",
+      "repos": [
+        {
+          "id": 1324285410,
+          "fork": false,
+          "name": "claude-red",
+          "forks": 12,
+          "owner": "0xwilliamortiz",
+          "stars": 131,
+          "avatar": "https://avatars.githubusercontent.com/u/155918204?v=4",
+          "topics": [
+            "claude",
+            "claude-code",
+            "claude-code-plugin",
+            "claude-skills",
+            "codex",
+            "codex-skill",
+            "redteam",
+            "redteaming",
+            "skill",
+            "skills"
+          ],
+          "ownerId": "155918204",
+          "repoUrl": "https://github.com/0xwilliamortiz/claude-red",
+          "archived": false,
+          "fullName": "0xwilliamortiz/claude-red",
+          "language": "Python",
+          "ownerUrl": "https://github.com/0xwilliamortiz",
+          "pushedAt": "2026-08-05T17:02:04+00:00",
+          "createdAt": "2026-08-05T16:54:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T20:04:18+00:00",
+          "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/0xwilliamortiz",
+      "topRepo": {
+        "name": "claude-red",
+        "fullName": "0xwilliamortiz/claude-red",
+        "stars": 131,
+        "url": "https://github.com/0xwilliamortiz/claude-red"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155918204?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "0xwilliamortiz/claude-red"
+      ],
+      "starScore": 131
+    },
+    {
+      "id": "273874855",
+      "rank": 2,
+      "type": "User",
+      "login": "tamesenseiangular",
+      "repos": [
+        {
+          "id": 1323365214,
+          "fork": false,
+          "name": "blooketauto-soft",
+          "forks": 67,
+          "owner": "tamesenseiangular",
+          "stars": 64,
+          "avatar": "https://avatars.githubusercontent.com/u/273874855?v=4",
+          "topics": [
+            "blooket",
+            "blooket-bot",
+            "blooket-flooder",
+            "blooket-gui",
+            "blooketjs"
+          ],
+          "ownerId": "273874855",
+          "repoUrl": "https://github.com/tamesenseiangular/blooketauto-soft",
+          "archived": false,
+          "fullName": "tamesenseiangular/blooketauto-soft",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/tamesenseiangular",
+          "pushedAt": "2026-08-04T21:06:40+00:00",
+          "createdAt": "2026-08-04T20:43:04+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T20:04:34+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tamesenseiangular",
+      "topRepo": {
+        "name": "blooketauto-soft",
+        "fullName": "tamesenseiangular/blooketauto-soft",
+        "stars": 64,
+        "url": "https://github.com/tamesenseiangular/blooketauto-soft"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/273874855?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tamesenseiangular/blooketauto-soft"
+      ],
+      "starScore": 64
+    },
+    {
+      "id": "25006376",
+      "rank": 3,
+      "type": "User",
+      "login": "fberrez",
+      "repos": [
+        {
+          "id": 1323785624,
+          "fork": false,
+          "name": "towncenter",
+          "forks": 7,
+          "owner": "fberrez",
+          "stars": 61,
+          "avatar": "https://avatars.githubusercontent.com/u/25006376?v=4",
+          "topics": [],
+          "ownerId": "25006376",
+          "repoUrl": "https://github.com/fberrez/towncenter",
+          "archived": false,
+          "fullName": "fberrez/towncenter",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/fberrez",
+          "pushedAt": "2026-08-05T18:31:06+00:00",
+          "createdAt": "2026-08-05T07:56:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:20:31+00:00",
+          "description": "Neighbourhood-business prospecting, played as territory conquest. Draw a sector on a map, the French company register fills it with targets, each carrying a loot and a resistance backed by measured facts.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/fberrez",
+      "topRepo": {
+        "name": "towncenter",
+        "fullName": "fberrez/towncenter",
+        "stars": 61,
+        "url": "https://github.com/fberrez/towncenter"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25006376?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "fberrez/towncenter"
+      ],
+      "starScore": 61
+    },
+    {
+      "id": "310821122",
+      "rank": 4,
+      "type": "User",
+      "login": "Figureryoway",
+      "repos": [
+        {
+          "id": 1324021229,
+          "fork": false,
+          "name": "musescore-fx-premium",
+          "forks": 0,
+          "owner": "Figureryoway",
+          "stars": 60,
+          "avatar": "https://avatars.githubusercontent.com/u/310821122?v=4",
+          "topics": [
+            "musescore-downloader"
+          ],
+          "ownerId": "310821122",
+          "repoUrl": "https://github.com/Figureryoway/musescore-fx-premium",
+          "archived": false,
+          "fullName": "Figureryoway/musescore-fx-premium",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Figureryoway",
+          "pushedAt": "2026-08-05T12:27:44+00:00",
+          "createdAt": "2026-08-05T12:27:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T15:54:05+00:00",
+          "description": "Musescore Fx Premium",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Figureryoway",
+      "topRepo": {
+        "name": "musescore-fx-premium",
+        "fullName": "Figureryoway/musescore-fx-premium",
+        "stars": 60,
+        "url": "https://github.com/Figureryoway/musescore-fx-premium"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/310821122?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Figureryoway/musescore-fx-premium"
+      ],
+      "starScore": 60
+    },
+    {
+      "id": "306971346",
+      "rank": 5,
+      "type": "User",
+      "login": "LeveeLanceSignify",
+      "repos": [
+        {
+          "id": 1323686557,
+          "fork": false,
+          "name": "know-your-customer-process",
+          "forks": 6,
+          "owner": "LeveeLanceSignify",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/306971346?v=4",
+          "topics": [
+            "aml-compliance",
+            "aml-onboarding",
+            "customer-due-diligence",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-compliance",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-drop-off",
+            "kyc-process",
+            "kyc-verification",
+            "risk-scoring"
+          ],
+          "ownerId": "306971346",
+          "repoUrl": "https://github.com/LeveeLanceSignify/know-your-customer-process",
+          "archived": false,
+          "fullName": "LeveeLanceSignify/know-your-customer-process",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/LeveeLanceSignify",
+          "pushedAt": "2026-08-05T05:58:06+00:00",
+          "createdAt": "2026-08-05T05:57:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:17:46+00:00",
+          "description": "A practical step-by-step guide to the KYC process, identity verification, AML screening, and the onboarding points where users commonly abandon",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1323685147,
+          "fork": false,
+          "name": "bic-swift-validator",
+          "forks": 8,
+          "owner": "LeveeLanceSignify",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/306971346?v=4",
+          "topics": [
+            "aml-compliance",
+            "bank-code-validation",
+            "bic-validator",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-tools",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "payment-validation",
+            "swift-code-validator"
+          ],
+          "ownerId": "306971346",
+          "repoUrl": "https://github.com/LeveeLanceSignify/bic-swift-validator",
+          "archived": false,
+          "fullName": "LeveeLanceSignify/bic-swift-validator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/LeveeLanceSignify",
+          "pushedAt": "2026-08-05T05:56:10+00:00",
+          "createdAt": "2026-08-05T05:55:48+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T14:53:11+00:00",
+          "description": "Check a BIC/SWIFT code's structure — bank, country, location, and optional branch — in your browser. A first-line validation for onboarding. Nothing sent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/LeveeLanceSignify",
+      "topRepo": {
+        "name": "know-your-customer-process",
+        "fullName": "LeveeLanceSignify/know-your-customer-process",
+        "stars": 36,
+        "url": "https://github.com/LeveeLanceSignify/know-your-customer-process"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306971346?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "LeveeLanceSignify/know-your-customer-process",
+        "LeveeLanceSignify/bic-swift-validator"
+      ],
+      "starScore": 60
+    },
+    {
+      "id": "310820866",
+      "rank": 6,
+      "type": "User",
+      "login": "Plankerescalator",
+      "repos": [
+        {
+          "id": 1324031533,
+          "fork": false,
+          "name": "mobiletrans-plus-core",
+          "forks": 0,
+          "owner": "Plankerescalator",
+          "stars": 58,
+          "avatar": "https://avatars.githubusercontent.com/u/310820866?v=4",
+          "topics": [
+            "android-phones",
+            "android-tools",
+            "aplicacion-para-android",
+            "coco-ssd-mobilenet",
+            "connected-vehicles",
+            "document-translation",
+            "intelligent-transportation",
+            "language-translator",
+            "mobile-number-tracker",
+            "mobile-tracker",
+            "mobilenetv4",
+            "phone-location",
+            "phone-number-location-tracker",
+            "phone-number-tracker",
+            "phone-tracker",
+            "progress-tracker",
+            "ssd-mobilenet",
+            "tracking-number",
+            "translation-tool",
+            "transport-management-system"
+          ],
+          "ownerId": "310820866",
+          "repoUrl": "https://github.com/Plankerescalator/mobiletrans-plus-core",
+          "archived": false,
+          "fullName": "Plankerescalator/mobiletrans-plus-core",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Plankerescalator",
+          "pushedAt": "2026-08-05T12:39:25+00:00",
+          "createdAt": "2026-08-05T12:38:57+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T15:54:23+00:00",
+          "description": "Mobiletrans Plus Core",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Plankerescalator",
+      "topRepo": {
+        "name": "mobiletrans-plus-core",
+        "fullName": "Plankerescalator/mobiletrans-plus-core",
+        "stars": 58,
+        "url": "https://github.com/Plankerescalator/mobiletrans-plus-core"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/310820866?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Plankerescalator/mobiletrans-plus-core"
+      ],
+      "starScore": 58
+    },
+    {
+      "id": "306974175",
+      "rank": 7,
+      "type": "User",
+      "login": "Dividecledawn25",
+      "repos": [
+        {
+          "id": 1323598628,
+          "fork": false,
+          "name": "payout-fee-calculator",
+          "forks": 6,
+          "owner": "Dividecledawn25",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/306974175?v=4",
+          "topics": [
+            "cross-border-payments",
+            "freelance-invoicing",
+            "freelance-payments",
+            "fx-margin",
+            "get-paid-online",
+            "international-payments",
+            "invoicing",
+            "payment-fees",
+            "payout-fee-calculator"
+          ],
+          "ownerId": "306974175",
+          "repoUrl": "https://github.com/Dividecledawn25/payout-fee-calculator",
+          "archived": false,
+          "fullName": "Dividecledawn25/payout-fee-calculator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Dividecledawn25",
+          "pushedAt": "2026-08-05T03:46:35+00:00",
+          "createdAt": "2026-08-05T03:46:17+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T16:19:24+00:00",
+          "description": "Work out what lands in your account after processing fees and FX margin. You enter your provider's rates; the math is done for you.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1323470318,
+          "fork": false,
+          "name": "face-recognition-integration-guide",
+          "forks": 5,
+          "owner": "Dividecledawn25",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/306974175?v=4",
+          "topics": [
+            "biometric-authentication",
+            "deepfake-detection",
+            "face-anti-spoofing",
+            "face-liveness-detection",
+            "face-matching",
+            "face-recognition",
+            "id-document-verification",
+            "id-verification",
+            "identity-proofing",
+            "liveness-detection",
+            "sdk-integration",
+            "threshold-tuning"
+          ],
+          "ownerId": "306974175",
+          "repoUrl": "https://github.com/Dividecledawn25/face-recognition-integration-guide",
+          "archived": false,
+          "fullName": "Dividecledawn25/face-recognition-integration-guide",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Dividecledawn25",
+          "pushedAt": "2026-08-04T23:58:37+00:00",
+          "createdAt": "2026-08-04T23:58:05+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T16:08:59+00:00",
+          "description": "A practical guide to integrating face recognition SDKs, including enrollment, matching, liveness checks, thresholds, and score interpretation",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Dividecledawn25",
+      "topRepo": {
+        "name": "payout-fee-calculator",
+        "fullName": "Dividecledawn25/payout-fee-calculator",
+        "stars": 28,
+        "url": "https://github.com/Dividecledawn25/payout-fee-calculator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306974175?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "Dividecledawn25/payout-fee-calculator",
+        "Dividecledawn25/face-recognition-integration-guide"
+      ],
+      "starScore": 53
+    },
+    {
+      "id": "66391194",
+      "rank": 8,
+      "type": "User",
+      "login": "smnatale",
+      "repos": [
+        {
+          "id": 1323385729,
+          "fork": false,
+          "name": "nvim_native",
+          "forks": 4,
+          "owner": "smnatale",
+          "stars": 50,
+          "avatar": "https://avatars.githubusercontent.com/u/66391194?v=4",
+          "topics": [],
+          "ownerId": "66391194",
+          "repoUrl": "https://github.com/smnatale/nvim_native",
+          "archived": false,
+          "fullName": "smnatale/nvim_native",
+          "language": "Lua",
+          "ownerUrl": "https://github.com/smnatale",
+          "pushedAt": "2026-08-05T13:49:03+00:00",
+          "createdAt": "2026-08-04T21:15:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:49:22+00:00",
+          "description": "A minimal Neovim config with zero plugins - built on native 0.11+ features",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/smnatale",
+      "topRepo": {
+        "name": "nvim_native",
+        "fullName": "smnatale/nvim_native",
+        "stars": 50,
+        "url": "https://github.com/smnatale/nvim_native"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66391194?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "smnatale/nvim_native"
+      ],
+      "starScore": 50
+    },
+    {
+      "id": "282381153",
+      "rank": 9,
+      "type": "User",
+      "login": "tony-cpp",
+      "repos": [
+        {
+          "id": 1323374201,
+          "fork": false,
+          "name": "walletgen",
+          "forks": 3,
+          "owner": "tony-cpp",
+          "stars": 41,
+          "avatar": "https://avatars.githubusercontent.com/u/282381153?v=4",
+          "topics": [
+            "bitcoin-wallet",
+            "bruteforce-wallet",
+            "btc-wallet",
+            "cryptocompare-api",
+            "cryptography-project",
+            "ethereum-bruteforce",
+            "ethereum-seed-key-finder",
+            "ethereum-tools",
+            "lost-bitcoins",
+            "lost-bitcoins-wallet",
+            "mnemonic-seed-checker",
+            "multithread-bruteforce",
+            "seed-phrase-searcher",
+            "seed-phrases-finder",
+            "seed-phrases-generator",
+            "seedphrase-checker",
+            "seedphrase-generator",
+            "walletgen",
+            "wallets-finder"
+          ],
+          "ownerId": "282381153",
+          "repoUrl": "https://github.com/tony-cpp/walletgen",
+          "archived": false,
+          "fullName": "tony-cpp/walletgen",
+          "language": "C++",
+          "ownerUrl": "https://github.com/tony-cpp",
+          "pushedAt": "2026-08-04T21:02:36+00:00",
+          "createdAt": "2026-08-04T20:56:58+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T15:23:47+00:00",
+          "description": "WalletGen - Seed Phrase generator / checker for Bitcoin (BTC) and ETH (Ethereum) wallets. Find or recovery your wallet via brute force and brain wallet generation",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tony-cpp",
+      "topRepo": {
+        "name": "walletgen",
+        "fullName": "tony-cpp/walletgen",
+        "stars": 41,
+        "url": "https://github.com/tony-cpp/walletgen"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282381153?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tony-cpp/walletgen"
+      ],
+      "starScore": 41
+    },
+    {
+      "id": "313178891",
+      "rank": 10,
+      "type": "User",
+      "login": "Sparkfetch",
+      "repos": [
+        {
+          "id": 1323482446,
+          "fork": false,
+          "name": "sparkfetch",
+          "forks": 8,
+          "owner": "Sparkfetch",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/313178891?v=4",
+          "topics": [
+            "ai",
+            "api",
+            "content-extraction",
+            "data-extraction",
+            "html-to-markdown",
+            "llm",
+            "nodejs",
+            "open-source",
+            "rag",
+            "typescript",
+            "web-crawler",
+            "web-scraping"
+          ],
+          "ownerId": "313178891",
+          "repoUrl": "https://github.com/Sparkfetch/sparkfetch",
+          "archived": false,
+          "fullName": "Sparkfetch/sparkfetch",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Sparkfetch",
+          "pushedAt": "2026-08-05T00:38:16+00:00",
+          "createdAt": "2026-08-05T00:23:26+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T10:58:08+00:00",
+          "description": "🔥 Turn any URL into clean, structured, LLM-ready content. The open-source web fetching & extraction API.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Sparkfetch",
+      "topRepo": {
+        "name": "sparkfetch",
+        "fullName": "Sparkfetch/sparkfetch",
+        "stars": 37,
+        "url": "https://github.com/Sparkfetch/sparkfetch"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/313178891?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Sparkfetch/sparkfetch"
+      ],
+      "starScore": 37
+    },
+    {
+      "id": "129358391",
+      "rank": 11,
+      "type": "User",
+      "login": "1038lab",
+      "repos": [
+        {
+          "id": 1323695358,
+          "fork": false,
+          "name": "ComfyUI-MiniMax-H3-Promptor",
+          "forks": 4,
+          "owner": "1038lab",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/129358391?v=4",
+          "topics": [],
+          "ownerId": "129358391",
+          "repoUrl": "https://github.com/1038lab/ComfyUI-MiniMax-H3-Promptor",
+          "archived": false,
+          "fullName": "1038lab/ComfyUI-MiniMax-H3-Promptor",
+          "language": "Python",
+          "ownerUrl": "https://github.com/1038lab",
+          "pushedAt": "2026-08-05T07:16:36+00:00",
+          "createdAt": "2026-08-05T06:09:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:07:50+00:00",
+          "description": "A powerful, ComfyUI Custom node automation suite for generating cinema-production-grade prompts explicitly formatted for the **MiniMax H3 Video Generation System**.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/1038lab",
+      "topRepo": {
+        "name": "ComfyUI-MiniMax-H3-Promptor",
+        "fullName": "1038lab/ComfyUI-MiniMax-H3-Promptor",
+        "stars": 36,
+        "url": "https://github.com/1038lab/ComfyUI-MiniMax-H3-Promptor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129358391?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "1038lab/ComfyUI-MiniMax-H3-Promptor"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "232173252",
+      "rank": 12,
+      "type": "Organization",
+      "login": "sf-tensor",
+      "repos": [
+        {
+          "id": 1323431058,
+          "fork": false,
+          "name": "tcgen05",
+          "forks": 5,
+          "owner": "sf-tensor",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/232173252?v=4",
+          "topics": [],
+          "ownerId": "232173252",
+          "repoUrl": "https://github.com/sf-tensor/tcgen05",
+          "archived": false,
+          "fullName": "sf-tensor/tcgen05",
+          "language": "Cuda",
+          "ownerUrl": "https://github.com/sf-tensor",
+          "pushedAt": "2026-08-04T22:37:20+00:00",
+          "createdAt": "2026-08-04T22:37:14+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-05T19:08:11+00:00",
+          "description": "",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/sf-tensor",
+      "topRepo": {
+        "name": "tcgen05",
+        "fullName": "sf-tensor/tcgen05",
+        "stars": 36,
+        "url": "https://github.com/sf-tensor/tcgen05"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/232173252?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sf-tensor/tcgen05"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "313371590",
+      "rank": 13,
+      "type": "User",
+      "login": "Sentry-LLM",
+      "repos": [
+        {
+          "id": 1323957541,
+          "fork": false,
+          "name": "SentryLLM",
+          "forks": 1,
+          "owner": "Sentry-LLM",
+          "stars": 34,
+          "avatar": "https://avatars.githubusercontent.com/u/313371590?v=4",
+          "topics": [
+            "ai-security",
+            "jailbreak-detection",
+            "llm",
+            "llm-security",
+            "monitoring",
+            "openai",
+            "owasp",
+            "prompt-injection",
+            "security",
+            "typescript"
+          ],
+          "ownerId": "313371590",
+          "repoUrl": "https://github.com/Sentry-LLM/SentryLLM",
+          "archived": false,
+          "fullName": "Sentry-LLM/SentryLLM",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Sentry-LLM",
+          "pushedAt": "2026-08-05T11:51:04+00:00",
+          "createdAt": "2026-08-05T11:13:46+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T12:13:15+00:00",
+          "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Sentry-LLM",
+      "topRepo": {
+        "name": "SentryLLM",
+        "fullName": "Sentry-LLM/SentryLLM",
+        "stars": 34,
+        "url": "https://github.com/Sentry-LLM/SentryLLM"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/313371590?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Sentry-LLM/SentryLLM"
+      ],
+      "starScore": 34
+    },
+    {
+      "id": "148713530",
+      "rank": 14,
+      "type": "User",
+      "login": "Adudeguyman",
+      "repos": [
+        {
+          "id": 1323463941,
+          "fork": false,
+          "name": "ComfyUI-Fantastic-MiniMaxH3-PromptBuilder",
+          "forks": 2,
+          "owner": "Adudeguyman",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/148713530?v=4",
+          "topics": [],
+          "ownerId": "148713530",
+          "repoUrl": "https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder",
+          "archived": false,
+          "fullName": "Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/Adudeguyman",
+          "pushedAt": "2026-08-05T02:01:08+00:00",
+          "createdAt": "2026-08-04T23:44:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T17:12:05+00:00",
+          "description": "A prompt builder and media manager for MiniMax H3.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Adudeguyman",
+      "topRepo": {
+        "name": "ComfyUI-Fantastic-MiniMaxH3-PromptBuilder",
+        "fullName": "Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder",
+        "stars": 28,
+        "url": "https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148713530?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "306972827",
+      "rank": 15,
+      "type": "User",
+      "login": "Brinkgluroad",
+      "repos": [
+        {
+          "id": 1323521569,
+          "fork": false,
+          "name": "routing-number-validator",
+          "forks": 8,
+          "owner": "Brinkgluroad",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/306972827?v=4",
+          "topics": [
+            "aba-checksum",
+            "aml-compliance",
+            "bank-account-validation",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-tools",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "payment-validation",
+            "routing-number-validator"
+          ],
+          "ownerId": "306972827",
+          "repoUrl": "https://github.com/Brinkgluroad/routing-number-validator",
+          "archived": false,
+          "fullName": "Brinkgluroad/routing-number-validator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Brinkgluroad",
+          "pushedAt": "2026-08-05T01:38:54+00:00",
+          "createdAt": "2026-08-05T01:38:35+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:13:03+00:00",
+          "description": "Validate a US bank routing number's format and ABA checksum in your browser. A first-line check for onboarding and payment forms. Nothing is sent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Brinkgluroad",
+      "topRepo": {
+        "name": "routing-number-validator",
+        "fullName": "Brinkgluroad/routing-number-validator",
+        "stars": 28,
+        "url": "https://github.com/Brinkgluroad/routing-number-validator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306972827?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Brinkgluroad/routing-number-validator"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "313391601",
+      "rank": 16,
+      "type": "Organization",
+      "login": "free-domains",
+      "repos": [
+        {
+          "id": 1323967468,
+          "fork": false,
+          "name": "is-a.bot",
+          "forks": 22,
+          "owner": "free-domains",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/313391601?v=4",
+          "topics": [],
+          "ownerId": "313391601",
+          "repoUrl": "https://github.com/free-domains/is-a.bot",
+          "archived": false,
+          "fullName": "free-domains/is-a.bot",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/free-domains",
+          "pushedAt": "2026-08-05T19:15:39+00:00",
+          "createdAt": "2026-08-05T11:25:55+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-05T19:15:53+00:00",
+          "description": "Grab your own sweet-looking .is-a.bot subdomain.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/free-domains",
+      "topRepo": {
+        "name": "is-a.bot",
+        "fullName": "free-domains/is-a.bot",
+        "stars": 28,
+        "url": "https://github.com/free-domains/is-a.bot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/313391601?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "free-domains/is-a.bot"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "306971959",
+      "rank": 17,
+      "type": "User",
+      "login": "StadiumJonin",
+      "repos": [
+        {
+          "id": 1323459728,
+          "fork": false,
+          "name": "on-premise-face-recognition-guide",
+          "forks": 8,
+          "owner": "StadiumJonin",
+          "stars": 26,
+          "avatar": "https://avatars.githubusercontent.com/u/306971959?v=4",
+          "topics": [
+            "biometric-authentication",
+            "biometric-privacy",
+            "cloud-face-recognition",
+            "compliance",
+            "deepfake-detection",
+            "edge-ai",
+            "face-anti-spoofing",
+            "face-liveness-detection",
+            "face-matching",
+            "face-recognition",
+            "id-document-verification",
+            "id-verification",
+            "liveness-detection",
+            "on-premise-face-recognition"
+          ],
+          "ownerId": "306971959",
+          "repoUrl": "https://github.com/StadiumJonin/on-premise-face-recognition-guide",
+          "archived": false,
+          "fullName": "StadiumJonin/on-premise-face-recognition-guide",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/StadiumJonin",
+          "pushedAt": "2026-08-04T23:36:02+00:00",
+          "createdAt": "2026-08-04T23:35:30+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T15:49:48+00:00",
+          "description": "Guide to choosing on-premise or cloud face recognition for apps that need face matching, liveness detection, and ID verification",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/StadiumJonin",
+      "topRepo": {
+        "name": "on-premise-face-recognition-guide",
+        "fullName": "StadiumJonin/on-premise-face-recognition-guide",
+        "stars": 26,
+        "url": "https://github.com/StadiumJonin/on-premise-face-recognition-guide"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306971959?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "StadiumJonin/on-premise-face-recognition-guide"
+      ],
+      "starScore": 26
+    },
+    {
+      "id": "218348591",
+      "rank": 18,
+      "type": "User",
+      "login": "chulingera2025",
+      "repos": [
+        {
+          "id": 1323597713,
+          "fork": false,
+          "name": "raddy",
+          "forks": 0,
+          "owner": "chulingera2025",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/218348591?v=4",
+          "topics": [],
+          "ownerId": "218348591",
+          "repoUrl": "https://github.com/chulingera2025/raddy",
+          "archived": false,
+          "fullName": "chulingera2025/raddy",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/chulingera2025",
+          "pushedAt": "2026-08-05T08:48:55+00:00",
+          "createdAt": "2026-08-05T03:45:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T20:00:58+00:00",
+          "description": "A minimal high-performance reverse proxy gateway in Rust, built on Cloudflare Pingora.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/chulingera2025",
+      "topRepo": {
+        "name": "raddy",
+        "fullName": "chulingera2025/raddy",
+        "stars": 24,
+        "url": "https://github.com/chulingera2025/raddy"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/218348591?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "chulingera2025/raddy"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "306972643",
+      "rank": 19,
+      "type": "User",
+      "login": "MinisterRivet",
+      "repos": [
+        {
+          "id": 1323731591,
+          "fork": false,
+          "name": "image-brightness-analyzer",
+          "forks": 4,
+          "owner": "MinisterRivet",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/306972643?v=4",
+          "topics": [
+            "biometric-authentication",
+            "deepfake-detection",
+            "exposure-check",
+            "face-anti-spoofing",
+            "face-liveness-detection",
+            "face-recognition",
+            "face-verification",
+            "id-document-verification",
+            "id-verification",
+            "image-brightness-analyzer",
+            "image-quality",
+            "liveness-detection",
+            "liveness-onboarding",
+            "photo-quality-check"
+          ],
+          "ownerId": "306972643",
+          "repoUrl": "https://github.com/MinisterRivet/image-brightness-analyzer",
+          "archived": false,
+          "fullName": "MinisterRivet/image-brightness-analyzer",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/MinisterRivet",
+          "pushedAt": "2026-08-05T06:54:11+00:00",
+          "createdAt": "2026-08-05T06:53:48+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T14:54:32+00:00",
+          "description": "Measure a photo's average brightness, contrast, and exposure balance from the real pixels — the lighting checks a face-verification flow runs first. In-browser.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MinisterRivet",
+      "topRepo": {
+        "name": "image-brightness-analyzer",
+        "fullName": "MinisterRivet/image-brightness-analyzer",
+        "stars": 24,
+        "url": "https://github.com/MinisterRivet/image-brightness-analyzer"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306972643?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MinisterRivet/image-brightness-analyzer"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "121917079",
+      "rank": 20,
+      "type": "User",
+      "login": "febbhav",
+      "repos": [
+        {
+          "id": 1323528326,
+          "fork": false,
+          "name": "number-ninja",
+          "forks": 2,
+          "owner": "febbhav",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/121917079?v=4",
+          "topics": [],
+          "ownerId": "121917079",
+          "repoUrl": "https://github.com/febbhav/number-ninja",
+          "archived": false,
+          "fullName": "febbhav/number-ninja",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/febbhav",
+          "pushedAt": "2026-08-05T01:50:26+00:00",
+          "createdAt": "2026-08-05T01:50:19+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:38:48+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/febbhav",
+      "topRepo": {
+        "name": "number-ninja",
+        "fullName": "febbhav/number-ninja",
+        "stars": 23,
+        "url": "https://github.com/febbhav/number-ninja"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121917079?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "febbhav/number-ninja"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "306972378",
+      "rank": 21,
+      "type": "User",
+      "login": "GulfSkinkForceps",
+      "repos": [
+        {
+          "id": 1323646840,
+          "fork": false,
+          "name": "kyc-verification-guide",
+          "forks": 0,
+          "owner": "GulfSkinkForceps",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/306972378?v=4",
+          "topics": [
+            "aml-compliance",
+            "aml-onboarding",
+            "customer-due-diligence",
+            "digital-onboarding",
+            "document-capture",
+            "document-verification",
+            "fintech-compliance",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "risk-scoring",
+            "sanctions-screening"
+          ],
+          "ownerId": "306972378",
+          "repoUrl": "https://github.com/GulfSkinkForceps/kyc-verification-guide",
+          "archived": false,
+          "fullName": "GulfSkinkForceps/kyc-verification-guide",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/GulfSkinkForceps",
+          "pushedAt": "2026-08-05T05:02:42+00:00",
+          "createdAt": "2026-08-05T05:02:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T17:37:08+00:00",
+          "description": "End-to-end KYC verification guide for developers and compliance teams building identity checks, document capture, and onboarding decisions",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/GulfSkinkForceps",
+      "topRepo": {
+        "name": "kyc-verification-guide",
+        "fullName": "GulfSkinkForceps/kyc-verification-guide",
+        "stars": 23,
+        "url": "https://github.com/GulfSkinkForceps/kyc-verification-guide"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306972378?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "GulfSkinkForceps/kyc-verification-guide"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "310987857",
+      "rank": 22,
+      "type": "User",
+      "login": "okky-x0f",
+      "repos": [
+        {
+          "id": 1324014485,
+          "fork": false,
+          "name": "qoder-creator",
+          "forks": 12,
+          "owner": "okky-x0f",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/310987857?v=4",
+          "topics": [],
+          "ownerId": "310987857",
+          "repoUrl": "https://github.com/okky-x0f/qoder-creator",
+          "archived": false,
+          "fullName": "okky-x0f/qoder-creator",
+          "language": "Python",
+          "ownerUrl": "https://github.com/okky-x0f",
+          "pushedAt": "2026-08-05T12:20:02+00:00",
+          "createdAt": "2026-08-05T12:19:54+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T19:08:12+00:00",
+          "description": "Qoder Automation - Full Automation with UI Interaction (Auto-claim Pro Trial + 300 Credits)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/okky-x0f",
+      "topRepo": {
+        "name": "qoder-creator",
+        "fullName": "okky-x0f/qoder-creator",
+        "stars": 23,
+        "url": "https://github.com/okky-x0f/qoder-creator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/310987857?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "okky-x0f/qoder-creator"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "299151253",
+      "rank": 23,
+      "type": "User",
+      "login": "ah-ai-pixel",
+      "repos": [
+        {
+          "id": 1323926490,
+          "fork": false,
+          "name": "ai-qr-code-generator",
+          "forks": 2,
+          "owner": "ah-ai-pixel",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/299151253?v=4",
+          "topics": [],
+          "ownerId": "299151253",
+          "repoUrl": "https://github.com/ah-ai-pixel/ai-qr-code-generator",
+          "archived": false,
+          "fullName": "ah-ai-pixel/ai-qr-code-generator",
+          "language": "Python",
+          "ownerUrl": "https://github.com/ah-ai-pixel",
+          "pushedAt": "2026-08-05T11:52:40+00:00",
+          "createdAt": "2026-08-05T10:35:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T12:25:31+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ah-ai-pixel",
+      "topRepo": {
+        "name": "ai-qr-code-generator",
+        "fullName": "ah-ai-pixel/ai-qr-code-generator",
+        "stars": 22,
+        "url": "https://github.com/ah-ai-pixel/ai-qr-code-generator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/299151253?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ah-ai-pixel/ai-qr-code-generator"
+      ],
+      "starScore": 22
+    },
+    {
+      "id": "306971350",
+      "rank": 24,
+      "type": "User",
+      "login": "SlowColonelGorge",
+      "repos": [
+        {
+          "id": 1323958968,
+          "fork": false,
+          "name": "card-luhn-validator",
+          "forks": 9,
+          "owner": "SlowColonelGorge",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/306971350?v=4",
+          "topics": [
+            "aml-compliance",
+            "card-validation",
+            "checksum",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-tools",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "luhn-validator",
+            "payment-validation"
+          ],
+          "ownerId": "306971350",
+          "repoUrl": "https://github.com/SlowColonelGorge/card-luhn-validator",
+          "archived": false,
+          "fullName": "SlowColonelGorge/card-luhn-validator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/SlowColonelGorge",
+          "pushedAt": "2026-08-05T11:15:52+00:00",
+          "createdAt": "2026-08-05T11:15:31+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T18:31:19+00:00",
+          "description": "Check whether a card number passes the Luhn checksum and identify the likely network, in your browser. No number is stored or sent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/SlowColonelGorge",
+      "topRepo": {
+        "name": "card-luhn-validator",
+        "fullName": "SlowColonelGorge/card-luhn-validator",
+        "stars": 21,
+        "url": "https://github.com/SlowColonelGorge/card-luhn-validator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306971350?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "SlowColonelGorge/card-luhn-validator"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "306967774",
+      "rank": 25,
+      "type": "User",
+      "login": "Columnduriddle",
+      "repos": [
+        {
+          "id": 1323561324,
+          "fork": false,
+          "name": "routing-number-validator",
+          "forks": 0,
+          "owner": "Columnduriddle",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/306967774?v=4",
+          "topics": [
+            "aba-checksum",
+            "aml-compliance",
+            "bank-account-validation",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-tools",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "payment-validation",
+            "routing-number-validator"
+          ],
+          "ownerId": "306967774",
+          "repoUrl": "https://github.com/Columnduriddle/routing-number-validator",
+          "archived": false,
+          "fullName": "Columnduriddle/routing-number-validator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Columnduriddle",
+          "pushedAt": "2026-08-05T02:46:31+00:00",
+          "createdAt": "2026-08-05T02:46:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T15:10:54+00:00",
+          "description": "Validate a US bank routing number's format and ABA checksum in your browser. A first-line check for onboarding and payment forms. Nothing is sent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Columnduriddle",
+      "topRepo": {
+        "name": "routing-number-validator",
+        "fullName": "Columnduriddle/routing-number-validator",
+        "stars": 20,
+        "url": "https://github.com/Columnduriddle/routing-number-validator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306967774?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Columnduriddle/routing-number-validator"
+      ],
+      "starScore": 20
+    },
+    {
+      "id": "17785569",
+      "rank": 26,
+      "type": "Organization",
+      "login": "IIC2343",
+      "repos": [
+        {
+          "id": 1323642831,
+          "fork": false,
+          "name": "Syllabus-2026-2",
+          "forks": 0,
+          "owner": "IIC2343",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/17785569?v=4",
+          "topics": [],
+          "ownerId": "17785569",
+          "repoUrl": "https://github.com/IIC2343/Syllabus-2026-2",
+          "archived": false,
+          "fullName": "IIC2343/Syllabus-2026-2",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/IIC2343",
+          "pushedAt": "2026-08-05T05:01:03+00:00",
+          "createdAt": "2026-08-05T04:55:57+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-05T15:47:35+00:00",
+          "description": "Material utilizado para el curso Arquitectura de Computadores durante el 2026-2 💻",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/IIC2343",
+      "topRepo": {
+        "name": "Syllabus-2026-2",
+        "fullName": "IIC2343/Syllabus-2026-2",
+        "stars": 20,
+        "url": "https://github.com/IIC2343/Syllabus-2026-2"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17785569?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "IIC2343/Syllabus-2026-2"
+      ],
+      "starScore": 20
+    },
+    {
+      "id": "306972413",
+      "rank": 27,
+      "type": "User",
+      "login": "Momentumnyawhisper",
+      "repos": [
+        {
+          "id": 1323737594,
+          "fork": false,
+          "name": "currency-payout-comparator",
+          "forks": 0,
+          "owner": "Momentumnyawhisper",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/306972413?v=4",
+          "topics": [
+            "cross-border-payments",
+            "currency-conversion-comparison",
+            "freelance-fees",
+            "freelance-invoicing",
+            "freelance-payments",
+            "fx-margin",
+            "get-paid-online",
+            "international-payments",
+            "invoicing",
+            "payment-method-comparison",
+            "payout-comparison"
+          ],
+          "ownerId": "306972413",
+          "repoUrl": "https://github.com/Momentumnyawhisper/currency-payout-comparator",
+          "archived": false,
+          "fullName": "Momentumnyawhisper/currency-payout-comparator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Momentumnyawhisper",
+          "pushedAt": "2026-08-05T07:01:07+00:00",
+          "createdAt": "2026-08-05T07:00:46+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T18:32:57+00:00",
+          "description": "Compare what you'd actually receive across payment methods by entering each one's fee and FX margin. No fabricated rates — your figures, side by side.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Momentumnyawhisper",
+      "topRepo": {
+        "name": "currency-payout-comparator",
+        "fullName": "Momentumnyawhisper/currency-payout-comparator",
+        "stars": 20,
+        "url": "https://github.com/Momentumnyawhisper/currency-payout-comparator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306972413?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Momentumnyawhisper/currency-payout-comparator"
+      ],
+      "starScore": 20
+    },
+    {
+      "id": "306973556",
+      "rank": 28,
+      "type": "User",
+      "login": "HydraContractor19",
+      "repos": [
+        {
+          "id": 1323676489,
+          "fork": false,
+          "name": "card-luhn-validator",
+          "forks": 8,
+          "owner": "HydraContractor19",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/306973556?v=4",
+          "topics": [
+            "aml-compliance",
+            "card-validation",
+            "checksum",
+            "digital-onboarding",
+            "document-verification",
+            "fintech-tools",
+            "identity-verification",
+            "identity-verification-api",
+            "know-your-customer",
+            "kyc",
+            "kyc-verification",
+            "luhn-validator",
+            "payment-validation"
+          ],
+          "ownerId": "306973556",
+          "repoUrl": "https://github.com/HydraContractor19/card-luhn-validator",
+          "archived": false,
+          "fullName": "HydraContractor19/card-luhn-validator",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/HydraContractor19",
+          "pushedAt": "2026-08-05T05:45:22+00:00",
+          "createdAt": "2026-08-05T05:45:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-05T13:22:20+00:00",
+          "description": "Check whether a card number passes the Luhn checksum and identify the likely network, in your browser. No number is stored or sent.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/HydraContractor19",
+      "topRepo": {
+        "name": "card-luhn-validator",
+        "fullName": "HydraContractor19/card-luhn-validator",
+        "stars": 19,
+        "url": "https://github.com/HydraContractor19/card-luhn-validator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306973556?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "HydraContractor19/card-luhn-validator"
+      ],
+      "starScore": 19
+    }
+  ]
 }
