@@ -1,19 +1,95 @@
 {
-  "generatedAt": "2026-08-08T13:57:12.678Z",
+  "generatedAt": "2026-08-08T19:16:57.808Z",
   "source": "scripts/export-semantic-dashboard-data.mjs",
   "coverage": {
-    "eligibleRepositories": 15474,
-    "embeddedRepositories": 14369,
-    "missingEmbeddings": 1105,
+    "eligibleRepositories": 15561,
+    "embeddedRepositories": 14454,
+    "missingEmbeddings": 1107,
     "actionableMissingEmbeddings": 3,
-    "blockedMissingEmbeddings": 1102,
-    "staleEmbeddings": 14069,
-    "rejectedRepositories": 1151,
-    "coveragePercent": 92.86
+    "blockedMissingEmbeddings": 1104,
+    "staleEmbeddings": 14147,
+    "rejectedRepositories": 1153,
+    "coveragePercent": 92.89
   },
   "embeddingModel": "text-embedding-3-small",
   "staleAfterDays": 14,
   "recentRuns": [
+    {
+      "id": "938",
+      "jobType": "backfill-semantic-index",
+      "status": "completed_with_errors",
+      "startedAt": "2026-08-08T19:12:08.656Z",
+      "finishedAt": "2026-08-08T19:16:55.242Z",
+      "durationSeconds": 287,
+      "githubRequests": 498,
+      "reposDiscovered": 480,
+      "accountsDiscovered": 0,
+      "errorMessage": null,
+      "metadata": {
+        "jobType": "backfill-semantic-index",
+        "strategy": "backfill",
+        "staleAfterDays": 14,
+        "includeRejectedAfterDays": 30,
+        "candidates": 500,
+        "documentsUpdated": 480,
+        "embeddingsUpdated": 2,
+        "skipped": 478,
+        "skippedUnchanged": 478,
+        "failed": 3,
+        "githubRequests": 498,
+        "embeddingRequests": 1,
+        "embeddingTokens": 2845,
+        "estimatedEmbeddingCostUsd": 0.000057,
+        "totalDocumentChars": 2607212,
+        "averageCharsPerDocument": 5432,
+        "averageTokensPerDocument": 6,
+        "embeddingRetryCount": 0,
+        "embeddingDropped": 0,
+        "qualityRejected": 17,
+        "qualityRejectsByReason": {
+          "spam_keyword": 2,
+          "weak_metadata": 10,
+          "empty_document": 5
+        }
+      }
+    },
+    {
+      "id": "936",
+      "jobType": "build-semantic-index",
+      "status": "completed_with_errors",
+      "startedAt": "2026-08-08T19:06:15.845Z",
+      "finishedAt": "2026-08-08T19:07:05.708Z",
+      "durationSeconds": 50,
+      "githubRequests": 84,
+      "reposDiscovered": 83,
+      "accountsDiscovered": 0,
+      "errorMessage": null,
+      "metadata": {
+        "jobType": "build-semantic-index",
+        "strategy": "balanced",
+        "staleAfterDays": 14,
+        "includeRejectedAfterDays": 30,
+        "candidates": 100,
+        "documentsUpdated": 83,
+        "embeddingsUpdated": 83,
+        "skipped": 0,
+        "skippedUnchanged": 0,
+        "failed": 1,
+        "githubRequests": 84,
+        "embeddingRequests": 2,
+        "embeddingTokens": 77210,
+        "estimatedEmbeddingCostUsd": 0.001544,
+        "totalDocumentChars": 385970,
+        "averageCharsPerDocument": 4650,
+        "averageTokensPerDocument": 930,
+        "embeddingRetryCount": 0,
+        "embeddingDropped": 0,
+        "qualityRejected": 16,
+        "qualityRejectsByReason": {
+          "spam_keyword": 16
+        }
+      }
+    },
     {
       "id": "934",
       "jobType": "backfill-semantic-index",
@@ -397,88 +473,12 @@
           "empty_document": 5
         }
       }
-    },
-    {
-      "id": "913",
-      "jobType": "build-semantic-index",
-      "status": "completed_with_errors",
-      "startedAt": "2026-08-07T08:02:07.792Z",
-      "finishedAt": "2026-08-07T08:12:43.894Z",
-      "durationSeconds": 636,
-      "githubRequests": 89,
-      "reposDiscovered": 80,
-      "accountsDiscovered": 0,
-      "errorMessage": null,
-      "metadata": {
-        "jobType": "build-semantic-index",
-        "strategy": "balanced",
-        "staleAfterDays": 14,
-        "includeRejectedAfterDays": 30,
-        "candidates": 100,
-        "documentsUpdated": 80,
-        "embeddingsUpdated": 40,
-        "skipped": 40,
-        "skippedUnchanged": 40,
-        "failed": 3,
-        "githubRequests": 89,
-        "embeddingRequests": 1,
-        "embeddingTokens": 48452,
-        "estimatedEmbeddingCostUsd": 0.000969,
-        "totalDocumentChars": 416658,
-        "averageCharsPerDocument": 5208,
-        "averageTokensPerDocument": 606,
-        "embeddingRetryCount": 0,
-        "embeddingDropped": 0,
-        "qualityRejected": 17,
-        "qualityRejectsByReason": {
-          "spam_keyword": 11,
-          "weak_metadata": 2,
-          "empty_document": 4
-        }
-      }
-    },
-    {
-      "id": "912",
-      "jobType": "backfill-semantic-index",
-      "status": "completed_with_errors",
-      "startedAt": "2026-08-07T07:54:36.692Z",
-      "finishedAt": "2026-08-07T08:28:17.563Z",
-      "durationSeconds": 2021,
-      "githubRequests": 490,
-      "reposDiscovered": 449,
-      "accountsDiscovered": 0,
-      "errorMessage": null,
-      "metadata": {
-        "jobType": "backfill-semantic-index",
-        "strategy": "backfill",
-        "staleAfterDays": 14,
-        "includeRejectedAfterDays": 30,
-        "candidates": 500,
-        "documentsUpdated": 449,
-        "embeddingsUpdated": 49,
-        "skipped": 400,
-        "skippedUnchanged": 400,
-        "failed": 41,
-        "githubRequests": 490,
-        "embeddingRequests": 1,
-        "embeddingTokens": 72841,
-        "estimatedEmbeddingCostUsd": 0.001457,
-        "totalDocumentChars": 2372403,
-        "averageCharsPerDocument": 5284,
-        "averageTokensPerDocument": 162,
-        "embeddingRetryCount": 0,
-        "embeddingDropped": 0,
-        "qualityRejected": 10,
-        "qualityRejectsByReason": {
-          "spam_keyword": 10
-        }
-      }
     }
   ],
   "rejectionsByReason": [
     {
       "reason": "spam_keyword",
-      "count": 609
+      "count": 611
     },
     {
       "reason": "empty_document",
@@ -490,6 +490,20 @@
     }
   ],
   "knownIssues": [
+    {
+      "startedAt": "2026-08-08T19:12:08.656Z",
+      "jobType": "backfill-semantic-index",
+      "status": "completed_with_errors",
+      "issue": "3 repository failures reported",
+      "mitigation": "Check the GitHub Actions log and rerun the bounded backfill after the upstream error is fixed."
+    },
+    {
+      "startedAt": "2026-08-08T19:06:15.845Z",
+      "jobType": "build-semantic-index",
+      "status": "completed_with_errors",
+      "issue": "1 repository failures reported",
+      "mitigation": "Check the GitHub Actions log and rerun the bounded backfill after the upstream error is fixed."
+    },
     {
       "startedAt": "2026-08-08T13:29:56.946Z",
       "jobType": "backfill-semantic-index",
@@ -509,20 +523,6 @@
       "jobType": "backfill-semantic-index",
       "status": "completed_with_errors",
       "issue": "12 repository failures reported",
-      "mitigation": "Check the GitHub Actions log and rerun the bounded backfill after the upstream error is fixed."
-    },
-    {
-      "startedAt": "2026-08-08T07:30:56.313Z",
-      "jobType": "build-semantic-index",
-      "status": "completed_with_errors",
-      "issue": "13 repository failures reported",
-      "mitigation": "Check the GitHub Actions log and rerun the bounded backfill after the upstream error is fixed."
-    },
-    {
-      "startedAt": "2026-08-08T02:32:23.848Z",
-      "jobType": "backfill-semantic-index",
-      "status": "completed_with_errors",
-      "issue": "34 repository failures reported",
       "mitigation": "Check the GitHub Actions log and rerun the bounded backfill after the upstream error is fixed."
     }
   ],
