@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T14:12:00.227Z",
-  "total": 44,
-  "totalIndexedCount": 44,
-  "coverageLabel": "Showing 44 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-13T19:46:37.875Z",
+  "total": 33,
+  "totalIndexedCount": 33,
+  "coverageLabel": "Showing 33 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -19,11 +19,15 @@
           "id": 1333065091,
           "fork": false,
           "name": "deepseek-harness",
-          "forks": 1109,
+          "forks": 2881,
           "owner": "deepseek-ai",
-          "stars": 16956,
+          "stars": 37313,
           "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
-          "topics": [],
+          "topics": [
+            "cordis",
+            "dsh",
+            "dsh-plugin"
+          ],
           "ownerId": "148330874",
           "repoUrl": "https://github.com/deepseek-ai/deepseek-harness",
           "archived": false,
@@ -33,8 +37,8 @@
           "pushedAt": "2026-08-13T13:00:21+00:00",
           "createdAt": "2026-08-13T11:56:32+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-08-13T13:58:27+00:00",
-          "description": "",
+          "updatedAt": "2026-08-13T19:35:26+00:00",
+          "description": "DeepSeek Harness: Everything is a Plugin.",
           "defaultBranch": "master"
         }
       ],
@@ -42,7 +46,7 @@
       "topRepo": {
         "name": "deepseek-harness",
         "fullName": "deepseek-ai/deepseek-harness",
-        "stars": 16956,
+        "stars": 37313,
         "url": "https://github.com/deepseek-ai/deepseek-harness"
       },
       "enriched": true,
@@ -51,11 +55,120 @@
       "repoNames": [
         "deepseek-ai/deepseek-harness"
       ],
-      "starScore": 16956
+      "starScore": 37313
+    },
+    {
+      "id": "265765261",
+      "rank": 2,
+      "type": "User",
+      "login": "Leutenegger",
+      "repos": [
+        {
+          "id": 1333135492,
+          "fork": false,
+          "name": "book-to-skill",
+          "forks": 117,
+          "owner": "Leutenegger",
+          "stars": 891,
+          "avatar": "https://avatars.githubusercontent.com/u/265765261?v=4",
+          "topics": [
+            "agent",
+            "agent-memory",
+            "agent-skill",
+            "agent-skills",
+            "agentic",
+            "agentic-ai",
+            "agents",
+            "ai-agents",
+            "claude",
+            "claude-code",
+            "claude-code-plugin",
+            "claude-skills",
+            "github-copilot",
+            "pdf",
+            "pdf-document",
+            "pdf-generation",
+            "pdf-parser",
+            "pdf-tools",
+            "pdf-viewer",
+            "skill-generator"
+          ],
+          "ownerId": "265765261",
+          "repoUrl": "https://github.com/Leutenegger/book-to-skill",
+          "archived": false,
+          "fullName": "Leutenegger/book-to-skill",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Leutenegger",
+          "pushedAt": "2026-08-13T13:30:12+00:00",
+          "createdAt": "2026-08-13T13:15:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-13T19:35:25+00:00",
+          "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Leutenegger",
+      "topRepo": {
+        "name": "book-to-skill",
+        "fullName": "Leutenegger/book-to-skill",
+        "stars": 891,
+        "url": "https://github.com/Leutenegger/book-to-skill"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265765261?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Leutenegger/book-to-skill"
+      ],
+      "starScore": 891
+    },
+    {
+      "id": "12904366",
+      "rank": 3,
+      "type": "User",
+      "login": "xoreaxeaxeax",
+      "repos": [
+        {
+          "id": 1333170396,
+          "fork": false,
+          "name": "skitter-creek-bath-salts",
+          "forks": 74,
+          "owner": "xoreaxeaxeax",
+          "stars": 620,
+          "avatar": "https://avatars.githubusercontent.com/u/12904366?v=4",
+          "topics": [],
+          "ownerId": "12904366",
+          "repoUrl": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+          "archived": false,
+          "fullName": "xoreaxeaxeax/skitter-creek-bath-salts",
+          "language": "C",
+          "ownerUrl": "https://github.com/xoreaxeaxeax",
+          "pushedAt": "2026-08-13T16:59:41+00:00",
+          "createdAt": "2026-08-13T13:50:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-13T19:34:51+00:00",
+          "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/xoreaxeaxeax",
+      "topRepo": {
+        "name": "skitter-creek-bath-salts",
+        "fullName": "xoreaxeaxeax/skitter-creek-bath-salts",
+        "stars": 620,
+        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12904366?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "xoreaxeaxeax/skitter-creek-bath-salts"
+      ],
+      "starScore": 620
     },
     {
       "id": "152786899",
-      "rank": 2,
+      "rank": 4,
       "type": "Organization",
       "login": "cordiverse",
       "repos": [
@@ -63,9 +176,9 @@
           "id": 1332959628,
           "fork": false,
           "name": "paper",
-          "forks": 0,
+          "forks": 10,
           "owner": "cordiverse",
-          "stars": 213,
+          "stars": 574,
           "avatar": "https://avatars.githubusercontent.com/u/152786899?v=4",
           "topics": [],
           "ownerId": "152786899",
@@ -77,7 +190,7 @@
           "pushedAt": "2026-08-13T12:54:03+00:00",
           "createdAt": "2026-08-13T09:53:33+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-08-13T13:58:04+00:00",
+          "updatedAt": "2026-08-13T19:31:22+00:00",
           "description": "A Programming Paradigm for Spatiotemporal Composability",
           "defaultBranch": "main"
         }
@@ -86,7 +199,7 @@
       "topRepo": {
         "name": "paper",
         "fullName": "cordiverse/paper",
-        "stars": 213,
+        "stars": 574,
         "url": "https://github.com/cordiverse/paper"
       },
       "enriched": true,
@@ -95,11 +208,11 @@
       "repoNames": [
         "cordiverse/paper"
       ],
-      "starScore": 213
+      "starScore": 574
     },
     {
       "id": "220020",
-      "rank": 3,
+      "rank": 5,
       "type": "User",
       "login": "gfodor",
       "repos": [
@@ -107,9 +220,9 @@
           "id": 1332450492,
           "fork": false,
           "name": "legal-skills",
-          "forks": 14,
+          "forks": 28,
           "owner": "gfodor",
-          "stars": 130,
+          "stars": 247,
           "avatar": "https://avatars.githubusercontent.com/u/220020?v=4",
           "topics": [],
           "ownerId": "220020",
@@ -121,7 +234,7 @@
           "pushedAt": "2026-08-12T21:46:15+00:00",
           "createdAt": "2026-08-12T21:14:16+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:49:40+00:00",
+          "updatedAt": "2026-08-13T19:34:36+00:00",
           "description": "Replacing lawyers with markdown files",
           "defaultBranch": "main"
         }
@@ -130,7 +243,7 @@
       "topRepo": {
         "name": "legal-skills",
         "fullName": "gfodor/legal-skills",
-        "stars": 130,
+        "stars": 247,
         "url": "https://github.com/gfodor/legal-skills"
       },
       "enriched": true,
@@ -139,155 +252,51 @@
       "repoNames": [
         "gfodor/legal-skills"
       ],
-      "starScore": 130
+      "starScore": 247
     },
     {
-      "id": "133630262",
-      "rank": 4,
-      "type": "User",
-      "login": "wzchav",
-      "repos": [
-        {
-          "id": 1332216413,
-          "fork": false,
-          "name": "tokentab",
-          "forks": 10,
-          "owner": "wzchav",
-          "stars": 111,
-          "avatar": "https://avatars.githubusercontent.com/u/133630262?v=4",
-          "topics": [
-            "ai",
-            "api",
-            "claude",
-            "claude-code",
-            "claude-tool",
-            "gemini",
-            "token-usage"
-          ],
-          "ownerId": "133630262",
-          "repoUrl": "https://github.com/wzchav/tokentab",
-          "archived": false,
-          "fullName": "wzchav/tokentab",
-          "language": "Python",
-          "ownerUrl": "https://github.com/wzchav",
-          "pushedAt": "2026-08-12T16:23:30+00:00",
-          "createdAt": "2026-08-12T16:09:39+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T08:35:47+00:00",
-          "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/wzchav",
-      "topRepo": {
-        "name": "tokentab",
-        "fullName": "wzchav/tokentab",
-        "stars": 111,
-        "url": "https://github.com/wzchav/tokentab"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/133630262?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "wzchav/tokentab"
-      ],
-      "starScore": 111
-    },
-    {
-      "id": "271953583",
-      "rank": 5,
-      "type": "User",
-      "login": "aveifritikqion",
-      "repos": [
-        {
-          "id": 1332321391,
-          "fork": false,
-          "name": "KMSAuto2026",
-          "forks": 50,
-          "owner": "aveifritikqion",
-          "stars": 101,
-          "avatar": "https://avatars.githubusercontent.com/u/271953583?v=4",
-          "topics": [
-            "excel",
-            "kms-pico-free",
-            "software",
-            "software-development",
-            "software-engineering",
-            "windows",
-            "windows11"
-          ],
-          "ownerId": "271953583",
-          "repoUrl": "https://github.com/aveifritikqion/KMSAuto2026",
-          "archived": false,
-          "fullName": "aveifritikqion/KMSAuto2026",
-          "language": "C#",
-          "ownerUrl": "https://github.com/aveifritikqion",
-          "pushedAt": "2026-08-12T18:16:57+00:00",
-          "createdAt": "2026-08-12T18:13:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-12T18:32:32+00:00",
-          "description": "No internet needed, offline . Portable, no install. Download KMSAuto Net free.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/aveifritikqion",
-      "topRepo": {
-        "name": "KMSAuto2026",
-        "fullName": "aveifritikqion/KMSAuto2026",
-        "stars": 101,
-        "url": "https://github.com/aveifritikqion/KMSAuto2026"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/271953583?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "aveifritikqion/KMSAuto2026"
-      ],
-      "starScore": 101
-    },
-    {
-      "id": "77831846",
+      "id": "3090527",
       "rank": 6,
       "type": "User",
-      "login": "stanuwu",
+      "login": "elie222",
       "repos": [
         {
-          "id": 1332371921,
+          "id": 1332781509,
           "fork": false,
-          "name": "Sunrise",
-          "forks": 22,
-          "owner": "stanuwu",
-          "stars": 97,
-          "avatar": "https://avatars.githubusercontent.com/u/77831846?v=4",
+          "name": "rakazo",
+          "forks": 14,
+          "owner": "elie222",
+          "stars": 171,
+          "avatar": "https://avatars.githubusercontent.com/u/3090527?v=4",
           "topics": [],
-          "ownerId": "77831846",
-          "repoUrl": "https://github.com/stanuwu/Sunrise",
+          "ownerId": "3090527",
+          "repoUrl": "https://github.com/elie222/rakazo",
           "archived": false,
-          "fullName": "stanuwu/Sunrise",
-          "language": "C++",
-          "ownerUrl": "https://github.com/stanuwu",
-          "pushedAt": "2026-08-13T13:44:35+00:00",
-          "createdAt": "2026-08-12T19:19:47+00:00",
+          "fullName": "elie222/rakazo",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/elie222",
+          "pushedAt": "2026-08-13T19:15:17+00:00",
+          "createdAt": "2026-08-13T06:28:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:55:01+00:00",
-          "description": "Destiny 2 Offline Exploration Mod",
-          "defaultBranch": "master"
+          "updatedAt": "2026-08-13T19:34:02+00:00",
+          "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+          "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/stanuwu",
+      "htmlUrl": "https://github.com/elie222",
       "topRepo": {
-        "name": "Sunrise",
-        "fullName": "stanuwu/Sunrise",
-        "stars": 97,
-        "url": "https://github.com/stanuwu/Sunrise"
+        "name": "rakazo",
+        "fullName": "elie222/rakazo",
+        "stars": 171,
+        "url": "https://github.com/elie222/rakazo"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/77831846?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3090527?v=4",
       "repoCount": 1,
       "repoNames": [
-        "stanuwu/Sunrise"
+        "elie222/rakazo"
       ],
-      "starScore": 97
+      "starScore": 171
     },
     {
       "id": "101747313",
@@ -299,9 +308,9 @@
           "id": 1332690597,
           "fork": false,
           "name": "linksift",
-          "forks": 66,
+          "forks": 74,
           "owner": "loveisbl1nd",
-          "stars": 81,
+          "stars": 95,
           "avatar": "https://avatars.githubusercontent.com/u/101747313?v=4",
           "topics": [
             "docker",
@@ -315,12 +324,12 @@
           "repoUrl": "https://github.com/loveisbl1nd/linksift",
           "archived": false,
           "fullName": "loveisbl1nd/linksift",
-          "language": "HTML",
+          "language": "Python",
           "ownerUrl": "https://github.com/loveisbl1nd",
-          "pushedAt": "2026-08-13T04:48:56+00:00",
+          "pushedAt": "2026-08-13T17:58:45+00:00",
           "createdAt": "2026-08-13T04:17:32+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:46:08+00:00",
+          "updatedAt": "2026-08-13T19:17:35+00:00",
           "description": "Local-first, self-hosted media downloader powered by yt-dlp, Flask, Docker, and ffmpeg.",
           "defaultBranch": "main"
         }
@@ -329,7 +338,7 @@
       "topRepo": {
         "name": "linksift",
         "fullName": "loveisbl1nd/linksift",
-        "stars": 81,
+        "stars": 95,
         "url": "https://github.com/loveisbl1nd/linksift"
       },
       "enriched": true,
@@ -338,11 +347,55 @@
       "repoNames": [
         "loveisbl1nd/linksift"
       ],
-      "starScore": 81
+      "starScore": 95
+    },
+    {
+      "id": "3333580",
+      "rank": 8,
+      "type": "User",
+      "login": "fellowgeek",
+      "repos": [
+        {
+          "id": 1332590617,
+          "fork": false,
+          "name": "mcp-memory",
+          "forks": 2,
+          "owner": "fellowgeek",
+          "stars": 87,
+          "avatar": "https://avatars.githubusercontent.com/u/3333580?v=4",
+          "topics": [],
+          "ownerId": "3333580",
+          "repoUrl": "https://github.com/fellowgeek/mcp-memory",
+          "archived": false,
+          "fullName": "fellowgeek/mcp-memory",
+          "language": "Python",
+          "ownerUrl": "https://github.com/fellowgeek",
+          "pushedAt": "2026-08-13T02:11:55+00:00",
+          "createdAt": "2026-08-13T01:37:25+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-13T19:30:58+00:00",
+          "description": "An OKF-backed Model Context Protocol (MCP) server delivering persistent long-term memory and SQLite FTS5 search for AI agents.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/fellowgeek",
+      "topRepo": {
+        "name": "mcp-memory",
+        "fullName": "fellowgeek/mcp-memory",
+        "stars": 87,
+        "url": "https://github.com/fellowgeek/mcp-memory"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3333580?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "fellowgeek/mcp-memory"
+      ],
+      "starScore": 87
     },
     {
       "id": "167013782",
-      "rank": 8,
+      "rank": 9,
       "type": "User",
       "login": "thangnqdev",
       "repos": [
@@ -350,9 +403,9 @@
           "id": 1332596477,
           "fork": false,
           "name": "codex-oss-agent-kit",
-          "forks": 71,
+          "forks": 76,
           "owner": "thangnqdev",
-          "stars": 77,
+          "stars": 83,
           "avatar": "https://avatars.githubusercontent.com/u/167013782?v=4",
           "topics": [],
           "ownerId": "167013782",
@@ -364,7 +417,7 @@
           "pushedAt": "2026-08-13T03:43:58+00:00",
           "createdAt": "2026-08-13T01:47:01+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:07:00+00:00",
+          "updatedAt": "2026-08-13T19:26:10+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -373,7 +426,7 @@
       "topRepo": {
         "name": "codex-oss-agent-kit",
         "fullName": "thangnqdev/codex-oss-agent-kit",
-        "stars": 77,
+        "stars": 83,
         "url": "https://github.com/thangnqdev/codex-oss-agent-kit"
       },
       "enriched": true,
@@ -382,11 +435,11 @@
       "repoNames": [
         "thangnqdev/codex-oss-agent-kit"
       ],
-      "starScore": 77
+      "starScore": 83
     },
     {
       "id": "228160384",
-      "rank": 9,
+      "rank": 10,
       "type": "User",
       "login": "duy90utc528",
       "repos": [
@@ -394,9 +447,9 @@
           "id": 1332615975,
           "fork": false,
           "name": "repo-publication-audit",
-          "forks": 71,
+          "forks": 77,
           "owner": "duy90utc528",
-          "stars": 75,
+          "stars": 82,
           "avatar": "https://avatars.githubusercontent.com/u/228160384?v=4",
           "topics": [
             "devtools",
@@ -416,7 +469,7 @@
           "pushedAt": "2026-08-13T02:31:02+00:00",
           "createdAt": "2026-08-13T02:17:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:10:26+00:00",
+          "updatedAt": "2026-08-13T19:28:11+00:00",
           "description": "Dependency-free preflight checks for repositories before making them public",
           "defaultBranch": "main"
         }
@@ -425,7 +478,7 @@
       "topRepo": {
         "name": "repo-publication-audit",
         "fullName": "duy90utc528/repo-publication-audit",
-        "stars": 75,
+        "stars": 82,
         "url": "https://github.com/duy90utc528/repo-publication-audit"
       },
       "enriched": true,
@@ -434,11 +487,11 @@
       "repoNames": [
         "duy90utc528/repo-publication-audit"
       ],
-      "starScore": 75
+      "starScore": 82
     },
     {
       "id": "121505503",
-      "rank": 10,
+      "rank": 11,
       "type": "User",
       "login": "vuphongle",
       "repos": [
@@ -446,9 +499,9 @@
           "id": 1332604484,
           "fork": false,
           "name": "oss-pr-reviewer",
-          "forks": 71,
+          "forks": 76,
           "owner": "vuphongle",
-          "stars": 74,
+          "stars": 80,
           "avatar": "https://avatars.githubusercontent.com/u/121505503?v=4",
           "topics": [
             "ai",
@@ -471,7 +524,7 @@
           "pushedAt": "2026-08-13T05:09:43+00:00",
           "createdAt": "2026-08-13T01:59:03+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:17:13+00:00",
+          "updatedAt": "2026-08-13T19:29:24+00:00",
           "description": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
           "defaultBranch": "main"
         }
@@ -480,7 +533,7 @@
       "topRepo": {
         "name": "oss-pr-reviewer",
         "fullName": "vuphongle/oss-pr-reviewer",
-        "stars": 74,
+        "stars": 80,
         "url": "https://github.com/vuphongle/oss-pr-reviewer"
       },
       "enriched": true,
@@ -489,51 +542,7 @@
       "repoNames": [
         "vuphongle/oss-pr-reviewer"
       ],
-      "starScore": 74
-    },
-    {
-      "id": "108862213",
-      "rank": 11,
-      "type": "User",
-      "login": "manhvann",
-      "repos": [
-        {
-          "id": 1332667033,
-          "fork": false,
-          "name": "codexkit",
-          "forks": 61,
-          "owner": "manhvann",
-          "stars": 72,
-          "avatar": "https://avatars.githubusercontent.com/u/108862213?v=4",
-          "topics": [],
-          "ownerId": "108862213",
-          "repoUrl": "https://github.com/manhvann/codexkit",
-          "archived": false,
-          "fullName": "manhvann/codexkit",
-          "language": "Python",
-          "ownerUrl": "https://github.com/manhvann",
-          "pushedAt": "2026-08-13T13:55:42+00:00",
-          "createdAt": "2026-08-13T03:39:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T12:16:19+00:00",
-          "description": "Project-local Codex workspace kit with reusable skills, agents, hooks, plans, docs, and helper scripts for multi-repository development.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/manhvann",
-      "topRepo": {
-        "name": "codexkit",
-        "fullName": "manhvann/codexkit",
-        "stars": 72,
-        "url": "https://github.com/manhvann/codexkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108862213?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "manhvann/codexkit"
-      ],
-      "starScore": 72
+      "starScore": 80
     },
     {
       "id": "37476132",
@@ -545,9 +554,9 @@
           "id": 1332643644,
           "fork": false,
           "name": "autopentest",
-          "forks": 68,
+          "forks": 73,
           "owner": "hhh0710",
-          "stars": 70,
+          "stars": 76,
           "avatar": "https://avatars.githubusercontent.com/u/37476132?v=4",
           "topics": [],
           "ownerId": "37476132",
@@ -559,7 +568,7 @@
           "pushedAt": "2026-08-13T03:14:10+00:00",
           "createdAt": "2026-08-13T03:01:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:22:35+00:00",
+          "updatedAt": "2026-08-13T19:28:21+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -568,7 +577,7 @@
       "topRepo": {
         "name": "autopentest",
         "fullName": "hhh0710/autopentest",
-        "stars": 70,
+        "stars": 76,
         "url": "https://github.com/hhh0710/autopentest"
       },
       "enriched": true,
@@ -577,7 +586,7 @@
       "repoNames": [
         "hhh0710/autopentest"
       ],
-      "starScore": 70
+      "starScore": 76
     },
     {
       "id": "316407928",
@@ -589,9 +598,9 @@
           "id": 1332621372,
           "fork": false,
           "name": "formkind",
-          "forks": 63,
+          "forks": 68,
           "owner": "khanhcamap2020-sudo",
-          "stars": 68,
+          "stars": 76,
           "avatar": "https://avatars.githubusercontent.com/u/316407928?v=4",
           "topics": [
             "accessibility",
@@ -615,7 +624,7 @@
           "pushedAt": "2026-08-13T11:06:50+00:00",
           "createdAt": "2026-08-13T02:26:28+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:55:35+00:00",
+          "updatedAt": "2026-08-13T19:33:41+00:00",
           "description": "Global-readiness toolkit for international forms across HTML, JSX, Vue, Svelte, and CI.",
           "defaultBranch": "main"
         }
@@ -624,7 +633,7 @@
       "topRepo": {
         "name": "formkind",
         "fullName": "khanhcamap2020-sudo/formkind",
-        "stars": 68,
+        "stars": 76,
         "url": "https://github.com/khanhcamap2020-sudo/formkind"
       },
       "enriched": true,
@@ -633,7 +642,7 @@
       "repoNames": [
         "khanhcamap2020-sudo/formkind"
       ],
-      "starScore": 68
+      "starScore": 76
     },
     {
       "id": "63991838",
@@ -645,9 +654,9 @@
           "id": 1332674770,
           "fork": false,
           "name": "figma-ds-agent",
-          "forks": 65,
+          "forks": 70,
           "owner": "hanvietanh",
-          "stars": 67,
+          "stars": 73,
           "avatar": "https://avatars.githubusercontent.com/u/63991838?v=4",
           "topics": [],
           "ownerId": "63991838",
@@ -659,7 +668,7 @@
           "pushedAt": "2026-08-13T03:52:10+00:00",
           "createdAt": "2026-08-13T03:51:25+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:28:57+00:00",
+          "updatedAt": "2026-08-13T19:29:07+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -668,7 +677,7 @@
       "topRepo": {
         "name": "figma-ds-agent",
         "fullName": "hanvietanh/figma-ds-agent",
-        "stars": 67,
+        "stars": 73,
         "url": "https://github.com/hanvietanh/figma-ds-agent"
       },
       "enriched": true,
@@ -677,11 +686,55 @@
       "repoNames": [
         "hanvietanh/figma-ds-agent"
       ],
-      "starScore": 67
+      "starScore": 73
+    },
+    {
+      "id": "108862213",
+      "rank": 15,
+      "type": "User",
+      "login": "manhvann",
+      "repos": [
+        {
+          "id": 1332667033,
+          "fork": false,
+          "name": "codexkit",
+          "forks": 61,
+          "owner": "manhvann",
+          "stars": 73,
+          "avatar": "https://avatars.githubusercontent.com/u/108862213?v=4",
+          "topics": [],
+          "ownerId": "108862213",
+          "repoUrl": "https://github.com/manhvann/codexkit",
+          "archived": false,
+          "fullName": "manhvann/codexkit",
+          "language": "Python",
+          "ownerUrl": "https://github.com/manhvann",
+          "pushedAt": "2026-08-13T14:29:45+00:00",
+          "createdAt": "2026-08-13T03:39:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-13T15:11:06+00:00",
+          "description": "Project-local Codex workspace kit with reusable skills, agents, hooks, plans, docs, and helper scripts for multi-repository development.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/manhvann",
+      "topRepo": {
+        "name": "codexkit",
+        "fullName": "manhvann/codexkit",
+        "stars": 73,
+        "url": "https://github.com/manhvann/codexkit"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108862213?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "manhvann/codexkit"
+      ],
+      "starScore": 73
     },
     {
       "id": "169594341",
-      "rank": 15,
+      "rank": 16,
       "type": "User",
       "login": "thangnq111203",
       "repos": [
@@ -689,9 +742,9 @@
           "id": 1332652922,
           "fork": false,
           "name": "oss-steward",
-          "forks": 64,
+          "forks": 69,
           "owner": "thangnq111203",
-          "stars": 67,
+          "stars": 73,
           "avatar": "https://avatars.githubusercontent.com/u/169594341?v=4",
           "topics": [],
           "ownerId": "169594341",
@@ -703,7 +756,7 @@
           "pushedAt": "2026-08-13T04:30:55+00:00",
           "createdAt": "2026-08-13T03:16:42+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:24:50+00:00",
+          "updatedAt": "2026-08-13T19:31:33+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -712,7 +765,7 @@
       "topRepo": {
         "name": "oss-steward",
         "fullName": "thangnq111203/oss-steward",
-        "stars": 67,
+        "stars": 73,
         "url": "https://github.com/thangnq111203/oss-steward"
       },
       "enriched": true,
@@ -721,11 +774,11 @@
       "repoNames": [
         "thangnq111203/oss-steward"
       ],
-      "starScore": 67
+      "starScore": 73
     },
     {
       "id": "207671000",
-      "rank": 16,
+      "rank": 17,
       "type": "User",
       "login": "Hung2124",
       "repos": [
@@ -733,9 +786,9 @@
           "id": 1332887136,
           "fork": false,
           "name": "codex-multi-profile",
-          "forks": 61,
+          "forks": 66,
           "owner": "Hung2124",
-          "stars": 63,
+          "stars": 69,
           "avatar": "https://avatars.githubusercontent.com/u/207671000?v=4",
           "topics": [
             "agent-skills",
@@ -753,7 +806,7 @@
           "pushedAt": "2026-08-13T10:32:26+00:00",
           "createdAt": "2026-08-13T08:32:21+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:08:21+00:00",
+          "updatedAt": "2026-08-13T19:22:15+00:00",
           "description": "Windows Codex Desktop multi-account via AuthSwap. Shared workspace, separate ChatGPT logins.",
           "defaultBranch": "main"
         }
@@ -762,7 +815,7 @@
       "topRepo": {
         "name": "codex-multi-profile",
         "fullName": "Hung2124/codex-multi-profile",
-        "stars": 63,
+        "stars": 69,
         "url": "https://github.com/Hung2124/codex-multi-profile"
       },
       "enriched": true,
@@ -771,11 +824,11 @@
       "repoNames": [
         "Hung2124/codex-multi-profile"
       ],
-      "starScore": 63
+      "starScore": 69
     },
     {
       "id": "24351705",
-      "rank": 17,
+      "rank": 18,
       "type": "User",
       "login": "thiientv",
       "repos": [
@@ -783,9 +836,9 @@
           "id": 1332683811,
           "fork": false,
           "name": "godmode",
-          "forks": 62,
+          "forks": 67,
           "owner": "thiientv",
-          "stars": 63,
+          "stars": 69,
           "avatar": "https://avatars.githubusercontent.com/u/24351705?v=4",
           "topics": [
             "agent-evaluation",
@@ -813,7 +866,7 @@
           "pushedAt": "2026-08-13T08:55:21+00:00",
           "createdAt": "2026-08-13T04:06:22+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:36:19+00:00",
+          "updatedAt": "2026-08-13T19:21:20+00:00",
           "description": "Production-grade Agent Skills for AI coding agents—composable workflows for planning, TDD, debugging, review, UI/UX, releases, incidents, and evals.",
           "defaultBranch": "main"
         }
@@ -822,7 +875,7 @@
       "topRepo": {
         "name": "godmode",
         "fullName": "thiientv/godmode",
-        "stars": 63,
+        "stars": 69,
         "url": "https://github.com/thiientv/godmode"
       },
       "enriched": true,
@@ -831,11 +884,11 @@
       "repoNames": [
         "thiientv/godmode"
       ],
-      "starScore": 63
+      "starScore": 69
     },
     {
       "id": "57445333",
-      "rank": 18,
+      "rank": 19,
       "type": "User",
       "login": "nguyenthedat123",
       "repos": [
@@ -843,9 +896,9 @@
           "id": 1332854064,
           "fork": false,
           "name": "agents-md-generator",
-          "forks": 61,
+          "forks": 67,
           "owner": "nguyenthedat123",
-          "stars": 61,
+          "stars": 68,
           "avatar": "https://avatars.githubusercontent.com/u/57445333?v=4",
           "topics": [],
           "ownerId": "57445333",
@@ -857,7 +910,7 @@
           "pushedAt": "2026-08-13T07:55:05+00:00",
           "createdAt": "2026-08-13T07:54:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T12:20:20+00:00",
+          "updatedAt": "2026-08-13T19:32:22+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -866,7 +919,7 @@
       "topRepo": {
         "name": "agents-md-generator",
         "fullName": "nguyenthedat123/agents-md-generator",
-        "stars": 61,
+        "stars": 68,
         "url": "https://github.com/nguyenthedat123/agents-md-generator"
       },
       "enriched": true,
@@ -875,11 +928,11 @@
       "repoNames": [
         "nguyenthedat123/agents-md-generator"
       ],
-      "starScore": 61
+      "starScore": 68
     },
     {
       "id": "316428642",
-      "rank": 19,
+      "rank": 20,
       "type": "User",
       "login": "nguyenvanmanh7773-alt",
       "repos": [
@@ -887,7 +940,7 @@
           "id": 1332692176,
           "fork": false,
           "name": "oss-maintainer-agent",
-          "forks": 56,
+          "forks": 55,
           "owner": "nguyenvanmanh7773-alt",
           "stars": 58,
           "avatar": "https://avatars.githubusercontent.com/u/316428642?v=4",
@@ -922,8 +975,81 @@
       "starScore": 58
     },
     {
+      "id": "312905287",
+      "rank": 21,
+      "type": "Organization",
+      "login": "omdsh-dev",
+      "repos": [
+        {
+          "id": 1333068322,
+          "fork": false,
+          "name": "dsh-open-in-vscode",
+          "forks": 1,
+          "owner": "omdsh-dev",
+          "stars": 33,
+          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
+          "topics": [
+            "dsh",
+            "dsh-plugin"
+          ],
+          "ownerId": "312905287",
+          "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+          "archived": false,
+          "fullName": "omdsh-dev/dsh-open-in-vscode",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/omdsh-dev",
+          "pushedAt": "2026-08-13T16:13:51+00:00",
+          "createdAt": "2026-08-13T12:00:02+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-13T18:37:38+00:00",
+          "description": "Open DeepSeek Harness workspace directories in VS Code directly from the web GUI.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1333068434,
+          "fork": false,
+          "name": "dsh-at-file",
+          "forks": 0,
+          "owner": "omdsh-dev",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
+          "topics": [
+            "dsh",
+            "dsh-plugin"
+          ],
+          "ownerId": "312905287",
+          "repoUrl": "https://github.com/omdsh-dev/dsh-at-file",
+          "archived": false,
+          "fullName": "omdsh-dev/dsh-at-file",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/omdsh-dev",
+          "pushedAt": "2026-08-13T14:12:44+00:00",
+          "createdAt": "2026-08-13T12:00:09+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-13T18:42:12+00:00",
+          "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their contents to prompts.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/omdsh-dev",
+      "topRepo": {
+        "name": "dsh-open-in-vscode",
+        "fullName": "omdsh-dev/dsh-open-in-vscode",
+        "stars": 33,
+        "url": "https://github.com/omdsh-dev/dsh-open-in-vscode"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/312905287?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "omdsh-dev/dsh-open-in-vscode",
+        "omdsh-dev/dsh-at-file"
+      ],
+      "starScore": 58
+    },
+    {
       "id": "309894913",
-      "rank": 20,
+      "rank": 22,
       "type": "User",
       "login": "ruggedraccoon",
       "repos": [
@@ -987,240 +1113,52 @@
       "starScore": 53
     },
     {
-      "id": "265765261",
-      "rank": 21,
-      "type": "User",
-      "login": "Leutenegger",
-      "repos": [
-        {
-          "id": 1333135492,
-          "fork": false,
-          "name": "book-to-skill",
-          "forks": 9,
-          "owner": "Leutenegger",
-          "stars": 52,
-          "avatar": "https://avatars.githubusercontent.com/u/265765261?v=4",
-          "topics": [
-            "agent",
-            "agent-memory",
-            "agent-skill",
-            "agent-skills",
-            "agentic",
-            "agentic-ai",
-            "agents",
-            "ai-agents",
-            "claude",
-            "claude-code",
-            "claude-code-plugin",
-            "claude-skills",
-            "github-copilot",
-            "pdf",
-            "pdf-document",
-            "pdf-generation",
-            "pdf-parser",
-            "pdf-tools",
-            "pdf-viewer",
-            "skill-generator"
-          ],
-          "ownerId": "265765261",
-          "repoUrl": "https://github.com/Leutenegger/book-to-skill",
-          "archived": false,
-          "fullName": "Leutenegger/book-to-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Leutenegger",
-          "pushedAt": "2026-08-13T13:30:12+00:00",
-          "createdAt": "2026-08-13T13:15:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T13:57:36+00:00",
-          "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Leutenegger",
-      "topRepo": {
-        "name": "book-to-skill",
-        "fullName": "Leutenegger/book-to-skill",
-        "stars": 52,
-        "url": "https://github.com/Leutenegger/book-to-skill"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265765261?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Leutenegger/book-to-skill"
-      ],
-      "starScore": 52
-    },
-    {
-      "id": "271953412",
-      "rank": 22,
-      "type": "User",
-      "login": "kingfisherdmxb",
-      "repos": [
-        {
-          "id": 1332340323,
-          "fork": false,
-          "name": "Fortnite-Skin-Swapper-2026",
-          "forks": 0,
-          "owner": "kingfisherdmxb",
-          "stars": 49,
-          "avatar": "https://avatars.githubusercontent.com/u/271953412?v=4",
-          "topics": [
-            "fortnite-exe",
-            "fortnite-github",
-            "skin",
-            "swapper",
-            "utility"
-          ],
-          "ownerId": "271953412",
-          "repoUrl": "https://github.com/kingfisherdmxb/Fortnite-Skin-Swapper-2026",
-          "archived": false,
-          "fullName": "kingfisherdmxb/Fortnite-Skin-Swapper-2026",
-          "language": "C#",
-          "ownerUrl": "https://github.com/kingfisherdmxb",
-          "pushedAt": "2026-08-12T18:42:34+00:00",
-          "createdAt": "2026-08-12T18:37:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-12T18:50:58+00:00",
-          "description": "Modify cosmetic assets in Fortnite using this skin swapper tool for updated 2026 game versions.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kingfisherdmxb",
-      "topRepo": {
-        "name": "Fortnite-Skin-Swapper-2026",
-        "fullName": "kingfisherdmxb/Fortnite-Skin-Swapper-2026",
-        "stars": 49,
-        "url": "https://github.com/kingfisherdmxb/Fortnite-Skin-Swapper-2026"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/271953412?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kingfisherdmxb/Fortnite-Skin-Swapper-2026"
-      ],
-      "starScore": 49
-    },
-    {
-      "id": "312905287",
+      "id": "316576685",
       "rank": 23,
-      "type": "Organization",
-      "login": "omdsh-dev",
-      "repos": [
-        {
-          "id": 1333068322,
-          "fork": false,
-          "name": "dsh-open-in-vscode",
-          "forks": 0,
-          "owner": "omdsh-dev",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-open-in-vscode",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T13:13:12+00:00",
-          "createdAt": "2026-08-13T12:00:02+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-13T13:57:40+00:00",
-          "description": "Open DeepSeek Harness workspace directories in VS Code directly from the web GUI.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1333068434,
-          "fork": false,
-          "name": "dsh-at-file",
-          "forks": 0,
-          "owner": "omdsh-dev",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-at-file",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-at-file",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T13:13:15+00:00",
-          "createdAt": "2026-08-13T12:00:09+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-13T13:45:42+00:00",
-          "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their contents to prompts.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/omdsh-dev",
-      "topRepo": {
-        "name": "dsh-open-in-vscode",
-        "fullName": "omdsh-dev/dsh-open-in-vscode",
-        "stars": 22,
-        "url": "https://github.com/omdsh-dev/dsh-open-in-vscode"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/312905287?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "omdsh-dev/dsh-open-in-vscode",
-        "omdsh-dev/dsh-at-file"
-      ],
-      "starScore": 41
-    },
-    {
-      "id": "114711189",
-      "rank": 24,
       "type": "User",
-      "login": "jessicanataliagta",
+      "login": "femboytapt",
       "repos": [
         {
-          "id": 1332256539,
+          "id": 1333100098,
           "fork": false,
-          "name": "PSPRecomp",
-          "forks": 4,
-          "owner": "jessicanataliagta",
-          "stars": 36,
-          "avatar": "https://avatars.githubusercontent.com/u/114711189?v=4",
+          "name": "meowtils",
+          "forks": 0,
+          "owner": "femboytapt",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/316576685?v=4",
           "topics": [],
-          "ownerId": "114711189",
-          "repoUrl": "https://github.com/jessicanataliagta/PSPRecomp",
+          "ownerId": "316576685",
+          "repoUrl": "https://github.com/femboytapt/meowtils",
           "archived": false,
-          "fullName": "jessicanataliagta/PSPRecomp",
-          "language": "C++",
-          "ownerUrl": "https://github.com/jessicanataliagta",
-          "pushedAt": "2026-08-13T00:34:35+00:00",
-          "createdAt": "2026-08-12T16:54:18+00:00",
+          "fullName": "femboytapt/meowtils",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/femboytapt",
+          "pushedAt": "2026-08-13T12:51:01+00:00",
+          "createdAt": "2026-08-13T12:36:35+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:48:48+00:00",
-          "description": "A static recompilation framework for PSP software",
+          "updatedAt": "2026-08-13T18:20:02+00:00",
+          "description": "Minecraft 1.8.9 utility mod.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/jessicanataliagta",
+      "htmlUrl": "https://github.com/femboytapt",
       "topRepo": {
-        "name": "PSPRecomp",
-        "fullName": "jessicanataliagta/PSPRecomp",
-        "stars": 36,
-        "url": "https://github.com/jessicanataliagta/PSPRecomp"
+        "name": "meowtils",
+        "fullName": "femboytapt/meowtils",
+        "stars": 37,
+        "url": "https://github.com/femboytapt/meowtils"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/114711189?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/316576685?v=4",
       "repoCount": 1,
       "repoNames": [
-        "jessicanataliagta/PSPRecomp"
+        "femboytapt/meowtils"
       ],
-      "starScore": 36
+      "starScore": 37
     },
     {
       "id": "152440535",
-      "rank": 25,
+      "rank": 24,
       "type": "User",
       "login": "ZohebKhan1",
       "repos": [
@@ -1272,6 +1210,52 @@
       "starScore": 35
     },
     {
+      "id": "177086690",
+      "rank": 25,
+      "type": "User",
+      "login": "Alex-Yanggg",
+      "repos": [
+        {
+          "id": 1332582761,
+          "fork": false,
+          "name": "awesome-DSH-plugin",
+          "forks": 11,
+          "owner": "Alex-Yanggg",
+          "stars": 30,
+          "avatar": "https://avatars.githubusercontent.com/u/177086690?v=4",
+          "topics": [
+            "dsh-plugin"
+          ],
+          "ownerId": "177086690",
+          "repoUrl": "https://github.com/Alex-Yanggg/awesome-DSH-plugin",
+          "archived": false,
+          "fullName": "Alex-Yanggg/awesome-DSH-plugin",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Alex-Yanggg",
+          "pushedAt": "2026-08-13T13:50:18+00:00",
+          "createdAt": "2026-08-13T01:23:29+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-13T19:08:31+00:00",
+          "description": "A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Alex-Yanggg",
+      "topRepo": {
+        "name": "awesome-DSH-plugin",
+        "fullName": "Alex-Yanggg/awesome-DSH-plugin",
+        "stars": 30,
+        "url": "https://github.com/Alex-Yanggg/awesome-DSH-plugin"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/177086690?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Alex-Yanggg/awesome-DSH-plugin"
+      ],
+      "starScore": 30
+    },
+    {
       "id": "36806993",
       "rank": 26,
       "type": "User",
@@ -1281,9 +1265,9 @@
           "id": 1332559302,
           "fork": false,
           "name": "Mi-Primer-RAG",
-          "forks": 18,
+          "forks": 20,
           "owner": "RamsesCamas",
-          "stars": 28,
+          "stars": 29,
           "avatar": "https://avatars.githubusercontent.com/u/36806993?v=4",
           "topics": [],
           "ownerId": "36806993",
@@ -1295,7 +1279,7 @@
           "pushedAt": "2026-08-13T00:47:30+00:00",
           "createdAt": "2026-08-13T00:40:44+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T13:39:40+00:00",
+          "updatedAt": "2026-08-13T14:57:56+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -1304,7 +1288,7 @@
       "topRepo": {
         "name": "Mi-Primer-RAG",
         "fullName": "RamsesCamas/Mi-Primer-RAG",
-        "stars": 28,
+        "stars": 29,
         "url": "https://github.com/RamsesCamas/Mi-Primer-RAG"
       },
       "enriched": true,
@@ -1313,59 +1297,60 @@
       "repoNames": [
         "RamsesCamas/Mi-Primer-RAG"
       ],
-      "starScore": 28
+      "starScore": 29
     },
     {
-      "id": "256424385",
+      "id": "37268777",
       "rank": 27,
       "type": "User",
-      "login": "Carlos-Dominguez-faber",
+      "login": "xyiqq",
       "repos": [
         {
-          "id": 1332269543,
+          "id": 1332935366,
           "fork": false,
-          "name": "adversarial-review",
-          "forks": 0,
-          "owner": "Carlos-Dominguez-faber",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/256424385?v=4",
+          "name": "skilldoctor",
+          "forks": 2,
+          "owner": "xyiqq",
+          "stars": 26,
+          "avatar": "https://avatars.githubusercontent.com/u/37268777?v=4",
           "topics": [
-            "adversarial-review",
+            "agent-skills",
             "claude-code",
-            "code-review",
+            "cli",
             "codex",
-            "imperio-agentico",
-            "nextjs",
-            "security-audit"
+            "cursor",
+            "linter",
+            "opencode",
+            "security"
           ],
-          "ownerId": "256424385",
-          "repoUrl": "https://github.com/Carlos-Dominguez-faber/adversarial-review",
+          "ownerId": "37268777",
+          "repoUrl": "https://github.com/xyiqq/skilldoctor",
           "archived": false,
-          "fullName": "Carlos-Dominguez-faber/adversarial-review",
+          "fullName": "xyiqq/skilldoctor",
           "language": "TypeScript",
-          "ownerUrl": "https://github.com/Carlos-Dominguez-faber",
-          "pushedAt": "2026-08-12T17:09:45+00:00",
-          "createdAt": "2026-08-12T17:09:42+00:00",
+          "ownerUrl": "https://github.com/xyiqq",
+          "pushedAt": "2026-08-13T09:29:51+00:00",
+          "createdAt": "2026-08-13T09:25:47+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-12T18:40:01+00:00",
-          "description": "Kit de la clase Adversarial Review (Imperio Agéntico): app de demo con 43 fallas + prompts de auditoría UI/UX/seguridad + checklist + reporte real de Codex Security.",
+          "updatedAt": "2026-08-13T19:03:18+00:00",
+          "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Carlos-Dominguez-faber",
+      "htmlUrl": "https://github.com/xyiqq",
       "topRepo": {
-        "name": "adversarial-review",
-        "fullName": "Carlos-Dominguez-faber/adversarial-review",
-        "stars": 24,
-        "url": "https://github.com/Carlos-Dominguez-faber/adversarial-review"
+        "name": "skilldoctor",
+        "fullName": "xyiqq/skilldoctor",
+        "stars": 26,
+        "url": "https://github.com/xyiqq/skilldoctor"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/256424385?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37268777?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Carlos-Dominguez-faber/adversarial-review"
+        "xyiqq/skilldoctor"
       ],
-      "starScore": 24
+      "starScore": 26
     },
     {
       "id": "278730634",
@@ -1379,7 +1364,7 @@
           "name": "front-2sem-aula-04",
           "forks": 0,
           "owner": "1TDSPJ-26",
-          "stars": 23,
+          "stars": 25,
           "avatar": "https://avatars.githubusercontent.com/u/278730634?v=4",
           "topics": [],
           "ownerId": "278730634",
@@ -1388,10 +1373,10 @@
           "fullName": "1TDSPJ-26/front-2sem-aula-04",
           "language": "Unknown",
           "ownerUrl": "https://github.com/1TDSPJ-26",
-          "pushedAt": "2026-08-13T13:19:19+00:00",
+          "pushedAt": "2026-08-13T19:28:15+00:00",
           "createdAt": "2026-08-13T12:42:33+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-08-13T13:37:59+00:00",
+          "updatedAt": "2026-08-13T14:28:30+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -1400,7 +1385,7 @@
       "topRepo": {
         "name": "front-2sem-aula-04",
         "fullName": "1TDSPJ-26/front-2sem-aula-04",
-        "stars": 23,
+        "stars": 25,
         "url": "https://github.com/1TDSPJ-26/front-2sem-aula-04"
       },
       "enriched": true,
@@ -1409,120 +1394,11 @@
       "repoNames": [
         "1TDSPJ-26/front-2sem-aula-04"
       ],
-      "starScore": 23
-    },
-    {
-      "id": "128882734",
-      "rank": 29,
-      "type": "User",
-      "login": "anshaneja5",
-      "repos": [
-        {
-          "id": 1332348091,
-          "fork": false,
-          "name": "markscrub",
-          "forks": 2,
-          "owner": "anshaneja5",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/128882734?v=4",
-          "topics": [],
-          "ownerId": "128882734",
-          "repoUrl": "https://github.com/anshaneja5/markscrub",
-          "archived": false,
-          "fullName": "anshaneja5/markscrub",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/anshaneja5",
-          "pushedAt": "2026-08-12T18:48:05+00:00",
-          "createdAt": "2026-08-12T18:47:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T12:24:52+00:00",
-          "description": "CLI + agent skill to scrub AI provenance marks from text and files",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/anshaneja5",
-      "topRepo": {
-        "name": "markscrub",
-        "fullName": "anshaneja5/markscrub",
-        "stars": 21,
-        "url": "https://github.com/anshaneja5/markscrub"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/128882734?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "anshaneja5/markscrub"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "68057594",
-      "rank": 30,
-      "type": "User",
-      "login": "Thunderstore-Mod-Manager",
-      "repos": [
-        {
-          "id": 1332318187,
-          "fork": false,
-          "name": "Thunderstore-Mod-Manager",
-          "forks": 0,
-          "owner": "Thunderstore-Mod-Manager",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/68057594?v=4",
-          "topics": [
-            "lethal-company-community",
-            "lethal-company-morecompany-cosmestics",
-            "lethal-company-multiplayer-not-working-fix",
-            "lethalcompany",
-            "lethalreloaded",
-            "mod-manager",
-            "outward",
-            "r2r",
-            "repo-game",
-            "repo-game-free",
-            "repo-mod",
-            "risk-of-rain",
-            "risk-of-rain-2",
-            "risk-of-rain-returns",
-            "risk-of-rain2",
-            "riskofrain",
-            "rounds",
-            "thunderstore",
-            "thunderstore-mod-manager",
-            "tld-mod"
-          ],
-          "ownerId": "68057594",
-          "repoUrl": "https://github.com/Thunderstore-Mod-Manager/Thunderstore-Mod-Manager",
-          "archived": false,
-          "fullName": "Thunderstore-Mod-Manager/Thunderstore-Mod-Manager",
-          "language": "C#",
-          "ownerUrl": "https://github.com/Thunderstore-Mod-Manager",
-          "pushedAt": "2026-08-12T19:24:46+00:00",
-          "createdAt": "2026-08-12T18:09:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:35:32+00:00",
-          "description": "Thunderstore Mod Manager - free standalone mod manager for PEAK, Lethal Company, Valheim, BONELAB and 200+ games. Thunderstore mod manager, thunderstore download, r2modman, peak thunderstore, thunderstore peak, thunderstore mods, thunderstore without overwolf, thunderstore install. Free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Thunderstore-Mod-Manager",
-      "topRepo": {
-        "name": "Thunderstore-Mod-Manager",
-        "fullName": "Thunderstore-Mod-Manager/Thunderstore-Mod-Manager",
-        "stars": 18,
-        "url": "https://github.com/Thunderstore-Mod-Manager/Thunderstore-Mod-Manager"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/68057594?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Thunderstore-Mod-Manager/Thunderstore-Mod-Manager"
-      ],
-      "starScore": 18
+      "starScore": 25
     },
     {
       "id": "187079974",
-      "rank": 31,
+      "rank": 29,
       "type": "User",
       "login": "TUDONG05",
       "repos": [
@@ -1566,7 +1442,7 @@
     },
     {
       "id": "276447020",
-      "rank": 32,
+      "rank": 30,
       "type": "Organization",
       "login": "1TDSPO-26",
       "repos": [
@@ -1609,203 +1485,8 @@
       "starScore": 17
     },
     {
-      "id": "30553680",
-      "rank": 33,
-      "type": "User",
-      "login": "FH6Trainer-AllInOne",
-      "repos": [
-        {
-          "id": 1332338072,
-          "fork": false,
-          "name": "FH6-Trainer-AllInOne",
-          "forks": 0,
-          "owner": "FH6Trainer-AllInOne",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/30553680?v=4",
-          "topics": [
-            "fh5",
-            "fh6",
-            "fh6-mod",
-            "fh6-spotify-radio",
-            "fh6-trainer",
-            "fh6rpc",
-            "forza-horizon",
-            "forza-horizon-4",
-            "forza-horizon-5",
-            "forza-horizon-6",
-            "forza-horizon-6-download",
-            "forza-horizon-6-free",
-            "forza-horizon-6-pc",
-            "forza-horizon-hack",
-            "forza-mods",
-            "forza-setup",
-            "forzahorizon4",
-            "forzahorizon5",
-            "forzahorizon6",
-            "microsoft-gaming"
-          ],
-          "ownerId": "30553680",
-          "repoUrl": "https://github.com/FH6Trainer-AllInOne/FH6-Trainer-AllInOne",
-          "archived": false,
-          "fullName": "FH6Trainer-AllInOne/FH6-Trainer-AllInOne",
-          "language": "C++",
-          "ownerUrl": "https://github.com/FH6Trainer-AllInOne",
-          "pushedAt": "2026-08-12T19:16:33+00:00",
-          "createdAt": "2026-08-12T18:34:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:35:50+00:00",
-          "description": "FH6 Trainer All-in-One - free Forza Horizon 6 trainer and  tool for Windows. Forza horizon 6 trainer, fh6 trainer aio, forza horizon 6  engine alternative, forza horizon 6 money , fh6 trainer wheelspins, forza horizon 6 s money. Unlimited credits, 812 cars. Free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/FH6Trainer-AllInOne",
-      "topRepo": {
-        "name": "FH6-Trainer-AllInOne",
-        "fullName": "FH6Trainer-AllInOne/FH6-Trainer-AllInOne",
-        "stars": 17,
-        "url": "https://github.com/FH6Trainer-AllInOne/FH6-Trainer-AllInOne"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/30553680?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "FH6Trainer-AllInOne/FH6-Trainer-AllInOne"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "41072608",
-      "rank": 34,
-      "type": "User",
-      "login": "FishstrapRobloxFFlags",
-      "repos": [
-        {
-          "id": 1332330424,
-          "fork": false,
-          "name": "Fishstrap-Roblox",
-          "forks": 0,
-          "owner": "FishstrapRobloxFFlags",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/41072608?v=4",
-          "topics": [
-            "bloxstrap",
-            "bootstrapper",
-            "fast-flags",
-            "fastflag",
-            "fastflags",
-            "fflag",
-            "fflag-editor",
-            "fflags",
-            "fishstrap",
-            "fishstrap-download",
-            "fps-unlocker-github",
-            "launcher-plugins",
-            "modulescript",
-            "multi-account",
-            "multi-instance",
-            "rbxdev",
-            "roblox-help",
-            "voidstrap",
-            "voidstrap-client",
-            "voidstrap-github"
-          ],
-          "ownerId": "41072608",
-          "repoUrl": "https://github.com/FishstrapRobloxFFlags/Fishstrap-Roblox",
-          "archived": false,
-          "fullName": "FishstrapRobloxFFlags/Fishstrap-Roblox",
-          "language": "C++",
-          "ownerUrl": "https://github.com/FishstrapRobloxFFlags",
-          "pushedAt": "2026-08-12T19:16:05+00:00",
-          "createdAt": "2026-08-12T18:25:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:35:41+00:00",
-          "description": "Fishstrap Roblox - free FPS unlocker and fast flags optimizer for Windows and macOS. Bloxstrap alternative with multi instance support, voidstrap features, roblox shaders via bloxshade, roblox font loading, fflags editor, discord rich presence. Download free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/FishstrapRobloxFFlags",
-      "topRepo": {
-        "name": "Fishstrap-Roblox",
-        "fullName": "FishstrapRobloxFFlags/Fishstrap-Roblox",
-        "stars": 17,
-        "url": "https://github.com/FishstrapRobloxFFlags/Fishstrap-Roblox"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41072608?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "FishstrapRobloxFFlags/Fishstrap-Roblox"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "266116490",
-      "rank": 35,
-      "type": "User",
-      "login": "kimik3codemoonshot",
-      "repos": [
-        {
-          "id": 1332353550,
-          "fork": false,
-          "name": "Kimi-K3-Code-Free-Desktop-AI",
-          "forks": 0,
-          "owner": "kimik3codemoonshot",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/266116490?v=4",
-          "topics": [
-            "ai-api-free",
-            "ai-desktop",
-            "desktop-ai",
-            "free-ai-tools",
-            "k2-7",
-            "k3-kimi",
-            "kimi",
-            "kimi-api",
-            "kimi-code",
-            "kimi-code-k3",
-            "kimi-k2",
-            "kimi-k2-6",
-            "kimi-k2-7-code",
-            "kimi-k2-ai",
-            "kimi-k26",
-            "kimi-k3",
-            "kimi-k3-free",
-            "kimi-solution",
-            "moonshot",
-            "moonshot-ai"
-          ],
-          "ownerId": "266116490",
-          "repoUrl": "https://github.com/kimik3codemoonshot/Kimi-K3-Code-Free-Desktop-AI",
-          "archived": false,
-          "fullName": "kimik3codemoonshot/Kimi-K3-Code-Free-Desktop-AI",
-          "language": "C++",
-          "ownerUrl": "https://github.com/kimik3codemoonshot",
-          "pushedAt": "2026-08-12T19:17:45+00:00",
-          "createdAt": "2026-08-12T18:54:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:36:00+00:00",
-          "description": "Kimi K3 Code Free Desktop AI - Moonshot coding assistant with 1M context and GitHub integration. Kimi k3 vs fable 5, kimi k3 open weights, kimi k3 huggingface, kimi k3 benchmarks, kimi k3 vs opus 4.8, kimi k3 tech report, kimi k4, chinese ai. Free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kimik3codemoonshot",
-      "topRepo": {
-        "name": "Kimi-K3-Code-Free-Desktop-AI",
-        "fullName": "kimik3codemoonshot/Kimi-K3-Code-Free-Desktop-AI",
-        "stars": 17,
-        "url": "https://github.com/kimik3codemoonshot/Kimi-K3-Code-Free-Desktop-AI"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/266116490?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kimik3codemoonshot/Kimi-K3-Code-Free-Desktop-AI"
-      ],
-      "starScore": 17
-    },
-    {
       "id": "7838414",
-      "rank": 36,
+      "rank": 31,
       "type": "User",
       "login": "soumarcelino",
       "repos": [
@@ -1853,138 +1534,8 @@
       "starScore": 17
     },
     {
-      "id": "290845975",
-      "rank": 37,
-      "type": "User",
-      "login": "mythosclaude5free",
-      "repos": [
-        {
-          "id": 1332357766,
-          "fork": false,
-          "name": "Claude-Mythos-5-AI-Free-Desktop",
-          "forks": 0,
-          "owner": "mythosclaude5free",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/290845975?v=4",
-          "topics": [
-            "ai-free",
-            "anthropic-",
-            "claude-4-6-opus",
-            "claude-4-opus",
-            "claude-5-sonnet",
-            "claude-code-desktop",
-            "claude-code-extension",
-            "claude-code-hooks",
-            "claude-config",
-            "claude-fable",
-            "claude-fable-5",
-            "claude-integration",
-            "claude-mythos",
-            "claude-opus",
-            "claude-opus-4-8",
-            "claude-opus-5",
-            "claude-sessions",
-            "desktop-ai",
-            "fable5",
-            "mythos"
-          ],
-          "ownerId": "290845975",
-          "repoUrl": "https://github.com/mythosclaude5free/Claude-Mythos-5-AI-Free-Desktop",
-          "archived": false,
-          "fullName": "mythosclaude5free/Claude-Mythos-5-AI-Free-Desktop",
-          "language": "C++",
-          "ownerUrl": "https://github.com/mythosclaude5free",
-          "pushedAt": "2026-08-12T19:19:04+00:00",
-          "createdAt": "2026-08-12T19:00:26+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:36:18+00:00",
-          "description": "Claude Mythos 5 AI Free Desktop - Anthropic reasoning model app with 200K context and extended thinking. Mythos claude, claude 5 mythos, claude mythos release date, opus 5, claude sonnet 5, anthropic claude mythos 5 evaluation. Multimodal input. Free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mythosclaude5free",
-      "topRepo": {
-        "name": "Claude-Mythos-5-AI-Free-Desktop",
-        "fullName": "mythosclaude5free/Claude-Mythos-5-AI-Free-Desktop",
-        "stars": 16,
-        "url": "https://github.com/mythosclaude5free/Claude-Mythos-5-AI-Free-Desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/290845975?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mythosclaude5free/Claude-Mythos-5-AI-Free-Desktop"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "176555739",
-      "rank": 38,
-      "type": "User",
-      "login": "OpenAIchatgpt56free",
-      "repos": [
-        {
-          "id": 1332348564,
-          "fork": false,
-          "name": "Chatgpt-5.6-AI-Free-Desktop",
-          "forks": 0,
-          "owner": "OpenAIchatgpt56free",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/176555739?v=4",
-          "topics": [
-            "chatgpt-5",
-            "chatgpt-5-5",
-            "chatgpt-5-pro",
-            "chatgpt-codex",
-            "chatgpt-desktop",
-            "chatgpt-image-2",
-            "chatgpt-openai",
-            "chatgpt-plus",
-            "chatgpt-questions",
-            "chatgpt-work",
-            "chatgpt-work-installer",
-            "chatgpt5",
-            "chatgptfree",
-            "chatpgt-api",
-            "codex-app",
-            "codex-free",
-            "free-chatgpt",
-            "free-gpt-api",
-            "gpt-5-6",
-            "gpt-5-6-api"
-          ],
-          "ownerId": "176555739",
-          "repoUrl": "https://github.com/OpenAIchatgpt56free/Chatgpt-5.6-AI-Free-Desktop",
-          "archived": false,
-          "fullName": "OpenAIchatgpt56free/Chatgpt-5.6-AI-Free-Desktop",
-          "language": "C++",
-          "ownerUrl": "https://github.com/OpenAIchatgpt56free",
-          "pushedAt": "2026-08-12T19:18:03+00:00",
-          "createdAt": "2026-08-12T18:48:26+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T01:36:09+00:00",
-          "description": "ChatGPT 5.6 Sol Luna Terra AI Free Desktop - native OpenAI GPT-5.6 app for Windows, macOS, Linux. Chatgpt 5.6 sol, chatgpt luna, chatgpt 5.6 terra, chatgpt 5.6 cyber, chatgpt 5.6 pro, chatgpt 5.6 vs fable 5. Voice chat, code interpreter, DALL-E. Free 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/OpenAIchatgpt56free",
-      "topRepo": {
-        "name": "Chatgpt-5.6-AI-Free-Desktop",
-        "fullName": "OpenAIchatgpt56free/Chatgpt-5.6-AI-Free-Desktop",
-        "stars": 16,
-        "url": "https://github.com/OpenAIchatgpt56free/Chatgpt-5.6-AI-Free-Desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/176555739?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "OpenAIchatgpt56free/Chatgpt-5.6-AI-Free-Desktop"
-      ],
-      "starScore": 16
-    },
-    {
       "id": "279091915",
-      "rank": 39,
+      "rank": 32,
       "type": "User",
       "login": "leon-wright1900v2",
       "repos": [
@@ -2028,7 +1579,7 @@
     },
     {
       "id": "279092056",
-      "rank": 40,
+      "rank": 33,
       "type": "User",
       "login": "marcus-millerx95r1",
       "repos": [
@@ -2069,194 +1620,6 @@
         "marcus-millerx95r1/adopt-me-script-free-2026"
       ],
       "starScore": 12
-    },
-    {
-      "id": "1248626",
-      "rank": 41,
-      "type": "User",
-      "login": "fabiommendes",
-      "repos": [
-        {
-          "id": 1332121464,
-          "fork": false,
-          "name": "paradigmas-2026-2",
-          "forks": 0,
-          "owner": "fabiommendes",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/1248626?v=4",
-          "topics": [],
-          "ownerId": "1248626",
-          "repoUrl": "https://github.com/fabiommendes/paradigmas-2026-2",
-          "archived": false,
-          "fullName": "fabiommendes/paradigmas-2026-2",
-          "language": "Elm",
-          "ownerUrl": "https://github.com/fabiommendes",
-          "pushedAt": "2026-08-12T19:02:55+00:00",
-          "createdAt": "2026-08-12T14:30:07+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T02:02:25+00:00",
-          "description": "Repositório principal para a disciplina de Paradigmas de Programa",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/fabiommendes",
-      "topRepo": {
-        "name": "paradigmas-2026-2",
-        "fullName": "fabiommendes/paradigmas-2026-2",
-        "stars": 11,
-        "url": "https://github.com/fabiommendes/paradigmas-2026-2"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1248626?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "fabiommendes/paradigmas-2026-2"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "104888135",
-      "rank": 42,
-      "type": "User",
-      "login": "jonortega20",
-      "repos": [
-        {
-          "id": 1332216306,
-          "fork": false,
-          "name": "fantasybot",
-          "forks": 2,
-          "owner": "jonortega20",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/104888135?v=4",
-          "topics": [
-            "automation",
-            "fantasy-football",
-            "laliga",
-            "llm-agent",
-            "python"
-          ],
-          "ownerId": "104888135",
-          "repoUrl": "https://github.com/jonortega20/fantasybot",
-          "archived": false,
-          "fullName": "jonortega20/fantasybot",
-          "language": "Python",
-          "ownerUrl": "https://github.com/jonortega20",
-          "pushedAt": "2026-08-12T23:45:17+00:00",
-          "createdAt": "2026-08-12T16:09:31+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-12T23:45:21+00:00",
-          "description": "Agente autónomo para LALIGA Fantasy: lee el juego, decide y actúa (pujas, ventas, clausulazos, alineación). Python stdlib + agente LLM opcional (Hermes) + UI de supervisión.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jonortega20",
-      "topRepo": {
-        "name": "fantasybot",
-        "fullName": "jonortega20/fantasybot",
-        "stars": 10,
-        "url": "https://github.com/jonortega20/fantasybot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/104888135?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jonortega20/fantasybot"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "16384755",
-      "rank": 43,
-      "type": "User",
-      "login": "RichmondAlake",
-      "repos": [
-        {
-          "id": 1332109784,
-          "fork": false,
-          "name": "agent_harness_course",
-          "forks": 4,
-          "owner": "RichmondAlake",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/16384755?v=4",
-          "topics": [
-            "agent-memory",
-            "ai-agents",
-            "harness-engineering",
-            "langgraph",
-            "python"
-          ],
-          "ownerId": "16384755",
-          "repoUrl": "https://github.com/RichmondAlake/agent_harness_course",
-          "archived": false,
-          "fullName": "RichmondAlake/agent_harness_course",
-          "language": "Python",
-          "ownerUrl": "https://github.com/RichmondAlake",
-          "pushedAt": "2026-08-12T14:18:46+00:00",
-          "createdAt": "2026-08-12T14:18:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-12T15:24:23+00:00",
-          "description": "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/RichmondAlake",
-      "topRepo": {
-        "name": "agent_harness_course",
-        "fullName": "RichmondAlake/agent_harness_course",
-        "stars": 10,
-        "url": "https://github.com/RichmondAlake/agent_harness_course"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16384755?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "RichmondAlake/agent_harness_course"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "202996783",
-      "rank": 44,
-      "type": "User",
-      "login": "McStealinYaBucket",
-      "repos": [
-        {
-          "id": 1332304475,
-          "fork": false,
-          "name": "The-Funnel-Method",
-          "forks": 2,
-          "owner": "McStealinYaBucket",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/202996783?v=4",
-          "topics": [],
-          "ownerId": "202996783",
-          "repoUrl": "https://github.com/McStealinYaBucket/The-Funnel-Method",
-          "archived": false,
-          "fullName": "McStealinYaBucket/The-Funnel-Method",
-          "language": "C++",
-          "ownerUrl": "https://github.com/McStealinYaBucket",
-          "pushedAt": "2026-08-13T02:06:35+00:00",
-          "createdAt": "2026-08-12T17:51:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T02:06:39+00:00",
-          "description": "2016 RCC for 2013L Client :)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/McStealinYaBucket",
-      "topRepo": {
-        "name": "The-Funnel-Method",
-        "fullName": "McStealinYaBucket/The-Funnel-Method",
-        "stars": 9,
-        "url": "https://github.com/McStealinYaBucket/The-Funnel-Method"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/202996783?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "McStealinYaBucket/The-Funnel-Method"
-      ],
-      "starScore": 9
     }
   ]
 }
