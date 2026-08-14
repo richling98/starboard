@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T07:58:51.201Z",
-  "total": 42,
-  "totalIndexedCount": 42,
-  "coverageLabel": "Showing 42 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-14T14:03:52.161Z",
+  "total": 22,
+  "totalIndexedCount": 22,
+  "coverageLabel": "Showing 22 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,410 +10,65 @@
   },
   "rows": [
     {
-      "id": "148330874",
+      "id": "289489188",
       "rank": 1,
       "type": "Organization",
-      "login": "deepseek-ai",
+      "login": "decionis",
       "repos": [
         {
-          "id": 1333065091,
+          "id": 1333556422,
           "fork": false,
-          "name": "deepseek-harness",
-          "forks": 6809,
-          "owner": "deepseek-ai",
-          "stars": 78282,
-          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+          "name": "agent-safe-pipeline",
+          "forks": 3,
+          "owner": "decionis",
+          "stars": 297,
+          "avatar": "https://avatars.githubusercontent.com/u/289489188?v=4",
           "topics": [
-            "cordis",
-            "dsh",
-            "dsh-plugin"
+            "agentic-ai",
+            "ai-agent-permissions",
+            "ai-agents",
+            "ai-governance",
+            "ai-safety",
+            "authorization",
+            "decionis",
+            "human-in-the-loop",
+            "mcp",
+            "policy-as-code",
+            "reference-architecture",
+            "typescript"
           ],
-          "ownerId": "148330874",
-          "repoUrl": "https://github.com/deepseek-ai/deepseek-harness",
+          "ownerId": "289489188",
+          "repoUrl": "https://github.com/decionis/agent-safe-pipeline",
           "archived": false,
-          "fullName": "deepseek-ai/deepseek-harness",
+          "fullName": "decionis/agent-safe-pipeline",
           "language": "TypeScript",
-          "ownerUrl": "https://github.com/deepseek-ai",
-          "pushedAt": "2026-08-13T13:00:21+00:00",
-          "createdAt": "2026-08-13T11:56:32+00:00",
+          "ownerUrl": "https://github.com/decionis",
+          "pushedAt": "2026-08-14T09:29:20+00:00",
+          "createdAt": "2026-08-13T21:36:19+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:55:34+00:00",
-          "description": "DeepSeek Harness: Everything is a Plugin.",
+          "updatedAt": "2026-08-14T13:46:33+00:00",
+          "description": "Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.",
           "defaultBranch": "master"
         }
       ],
-      "htmlUrl": "https://github.com/deepseek-ai",
+      "htmlUrl": "https://github.com/decionis",
       "topRepo": {
-        "name": "deepseek-harness",
-        "fullName": "deepseek-ai/deepseek-harness",
-        "stars": 78282,
-        "url": "https://github.com/deepseek-ai/deepseek-harness"
+        "name": "agent-safe-pipeline",
+        "fullName": "decionis/agent-safe-pipeline",
+        "stars": 297,
+        "url": "https://github.com/decionis/agent-safe-pipeline"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/148330874?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289489188?v=4",
       "repoCount": 1,
       "repoNames": [
-        "deepseek-ai/deepseek-harness"
+        "decionis/agent-safe-pipeline"
       ],
-      "starScore": 78282
-    },
-    {
-      "id": "12904366",
-      "rank": 2,
-      "type": "User",
-      "login": "xoreaxeaxeax",
-      "repos": [
-        {
-          "id": 1333170396,
-          "fork": false,
-          "name": "skitter-creek-bath-salts",
-          "forks": 112,
-          "owner": "xoreaxeaxeax",
-          "stars": 1220,
-          "avatar": "https://avatars.githubusercontent.com/u/12904366?v=4",
-          "topics": [],
-          "ownerId": "12904366",
-          "repoUrl": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-          "archived": false,
-          "fullName": "xoreaxeaxeax/skitter-creek-bath-salts",
-          "language": "C",
-          "ownerUrl": "https://github.com/xoreaxeaxeax",
-          "pushedAt": "2026-08-13T16:59:41+00:00",
-          "createdAt": "2026-08-13T13:50:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:55:33+00:00",
-          "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/xoreaxeaxeax",
-      "topRepo": {
-        "name": "skitter-creek-bath-salts",
-        "fullName": "xoreaxeaxeax/skitter-creek-bath-salts",
-        "stars": 1220,
-        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12904366?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "xoreaxeaxeax/skitter-creek-bath-salts"
-      ],
-      "starScore": 1220
-    },
-    {
-      "id": "265765261",
-      "rank": 3,
-      "type": "User",
-      "login": "Leutenegger",
-      "repos": [
-        {
-          "id": 1333135492,
-          "fork": false,
-          "name": "book-to-skill",
-          "forks": 133,
-          "owner": "Leutenegger",
-          "stars": 1047,
-          "avatar": "https://avatars.githubusercontent.com/u/265765261?v=4",
-          "topics": [
-            "agent",
-            "agent-memory",
-            "agent-skill",
-            "agent-skills",
-            "agentic",
-            "agentic-ai",
-            "agents",
-            "ai-agents",
-            "claude",
-            "claude-code",
-            "claude-code-plugin",
-            "claude-skills",
-            "github-copilot",
-            "pdf",
-            "pdf-document",
-            "pdf-generation",
-            "pdf-parser",
-            "pdf-tools",
-            "pdf-viewer",
-            "skill-generator"
-          ],
-          "ownerId": "265765261",
-          "repoUrl": "https://github.com/Leutenegger/book-to-skill",
-          "archived": false,
-          "fullName": "Leutenegger/book-to-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Leutenegger",
-          "pushedAt": "2026-08-14T02:28:22+00:00",
-          "createdAt": "2026-08-13T13:15:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:15:51+00:00",
-          "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Leutenegger",
-      "topRepo": {
-        "name": "book-to-skill",
-        "fullName": "Leutenegger/book-to-skill",
-        "stars": 1047,
-        "url": "https://github.com/Leutenegger/book-to-skill"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265765261?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Leutenegger/book-to-skill"
-      ],
-      "starScore": 1047
-    },
-    {
-      "id": "152786899",
-      "rank": 4,
-      "type": "Organization",
-      "login": "cordiverse",
-      "repos": [
-        {
-          "id": 1332959628,
-          "fork": false,
-          "name": "paper",
-          "forks": 35,
-          "owner": "cordiverse",
-          "stars": 989,
-          "avatar": "https://avatars.githubusercontent.com/u/152786899?v=4",
-          "topics": [],
-          "ownerId": "152786899",
-          "repoUrl": "https://github.com/cordiverse/paper",
-          "archived": false,
-          "fullName": "cordiverse/paper",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/cordiverse",
-          "pushedAt": "2026-08-13T12:54:03+00:00",
-          "createdAt": "2026-08-13T09:53:33+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:54:12+00:00",
-          "description": "A Programming Paradigm for Spatiotemporal Composability",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/cordiverse",
-      "topRepo": {
-        "name": "paper",
-        "fullName": "cordiverse/paper",
-        "stars": 989,
-        "url": "https://github.com/cordiverse/paper"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/152786899?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "cordiverse/paper"
-      ],
-      "starScore": 989
-    },
-    {
-      "id": "316603077",
-      "rank": 5,
-      "type": "Organization",
-      "login": "awesome-dsh-plugin",
-      "repos": [
-        {
-          "id": 1333175049,
-          "fork": false,
-          "name": "awesome-dsh-plugin",
-          "forks": 76,
-          "owner": "awesome-dsh-plugin",
-          "stars": 437,
-          "avatar": "https://avatars.githubusercontent.com/u/316603077?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "deepseek-harness",
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "316603077",
-          "repoUrl": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-          "archived": false,
-          "fullName": "awesome-dsh-plugin/awesome-dsh-plugin",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/awesome-dsh-plugin",
-          "pushedAt": "2026-08-14T07:51:12+00:00",
-          "createdAt": "2026-08-13T13:55:31+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:55:01+00:00",
-          "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/awesome-dsh-plugin",
-      "topRepo": {
-        "name": "awesome-dsh-plugin",
-        "fullName": "awesome-dsh-plugin/awesome-dsh-plugin",
-        "stars": 437,
-        "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316603077?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "awesome-dsh-plugin/awesome-dsh-plugin"
-      ],
-      "starScore": 437
-    },
-    {
-      "id": "312905287",
-      "rank": 6,
-      "type": "Organization",
-      "login": "omdsh-dev",
-      "repos": [
-        {
-          "id": 1333068434,
-          "fork": false,
-          "name": "dsh-at-file",
-          "forks": 3,
-          "owner": "omdsh-dev",
-          "stars": 86,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-at-file",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-at-file",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-14T07:27:34+00:00",
-          "createdAt": "2026-08-13T12:00:09+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:40:06+00:00",
-          "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their contents to prompts.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1333128726,
-          "fork": false,
-          "name": "dsh-genui",
-          "forks": 3,
-          "owner": "omdsh-dev",
-          "stars": 54,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-genui",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-genui",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T15:22:57+00:00",
-          "createdAt": "2026-08-13T13:07:52+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:37:03+00:00",
-          "description": "GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui fence — layout, charts, plots, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the genui skill.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1333068322,
-          "fork": false,
-          "name": "dsh-open-in-vscode",
-          "forks": 3,
-          "owner": "omdsh-dev",
-          "stars": 37,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-open-in-vscode",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T16:13:51+00:00",
-          "createdAt": "2026-08-13T12:00:02+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T06:38:11+00:00",
-          "description": "Open DeepSeek Harness workspace directories in VS Code directly from the web GUI.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1333068254,
-          "fork": false,
-          "name": "dsh-notification",
-          "forks": 3,
-          "owner": "omdsh-dev",
-          "stars": 29,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-notification",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-notification",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T15:28:50+00:00",
-          "createdAt": "2026-08-13T11:59:59+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:31:16+00:00",
-          "description": "Desktop notifications for DeepSeek Harness turn completions, with per-outcome controls and include/exclude keyword rules.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1333068379,
-          "fork": false,
-          "name": "dsh-custom-tool",
-          "forks": 0,
-          "owner": "omdsh-dev",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/312905287?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "312905287",
-          "repoUrl": "https://github.com/omdsh-dev/dsh-custom-tool",
-          "archived": false,
-          "fullName": "omdsh-dev/dsh-custom-tool",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/omdsh-dev",
-          "pushedAt": "2026-08-13T15:11:37+00:00",
-          "createdAt": "2026-08-13T12:00:05+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-13T16:38:37+00:00",
-          "description": "Create and manage sandboxed JavaScript tools for DeepSeek Harness with a Monaco editor and model-driven tool lifecycle.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/omdsh-dev",
-      "topRepo": {
-        "name": "dsh-at-file",
-        "fullName": "omdsh-dev/dsh-at-file",
-        "stars": 86,
-        "url": "https://github.com/omdsh-dev/dsh-at-file"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/312905287?v=4",
-      "repoCount": 5,
-      "repoNames": [
-        "omdsh-dev/dsh-at-file",
-        "omdsh-dev/dsh-genui",
-        "omdsh-dev/dsh-open-in-vscode",
-        "omdsh-dev/dsh-notification",
-        "omdsh-dev/dsh-custom-tool"
-      ],
-      "starScore": 224
+      "starScore": 297
     },
     {
       "id": "134168893",
-      "rank": 7,
+      "rank": 2,
       "type": "Organization",
       "login": "NousResearch",
       "repos": [
@@ -421,9 +76,9 @@
           "id": 1333329582,
           "fork": false,
           "name": "Hermes-Bot-Mode",
-          "forks": 30,
+          "forks": 41,
           "owner": "NousResearch",
-          "stars": 215,
+          "stars": 290,
           "avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
           "topics": [],
           "ownerId": "134168893",
@@ -432,10 +87,10 @@
           "fullName": "NousResearch/Hermes-Bot-Mode",
           "language": "JavaScript",
           "ownerUrl": "https://github.com/NousResearch",
-          "pushedAt": "2026-08-14T07:41:59+00:00",
+          "pushedAt": "2026-08-14T08:48:35+00:00",
           "createdAt": "2026-08-13T16:40:20+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:55:18+00:00",
+          "updatedAt": "2026-08-14T13:50:06+00:00",
           "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
           "defaultBranch": "main"
         }
@@ -444,7 +99,7 @@
       "topRepo": {
         "name": "Hermes-Bot-Mode",
         "fullName": "NousResearch/Hermes-Bot-Mode",
-        "stars": 215,
+        "stars": 290,
         "url": "https://github.com/NousResearch/Hermes-Bot-Mode"
       },
       "enriched": true,
@@ -453,11 +108,11 @@
       "repoNames": [
         "NousResearch/Hermes-Bot-Mode"
       ],
-      "starScore": 215
+      "starScore": 290
     },
     {
       "id": "152866198",
-      "rank": 8,
+      "rank": 3,
       "type": "User",
       "login": "pemarine",
       "repos": [
@@ -467,7 +122,7 @@
           "name": "cve-2026-41940-PoC",
           "forks": 12,
           "owner": "pemarine",
-          "stars": 160,
+          "stars": 270,
           "avatar": "https://avatars.githubusercontent.com/u/152866198?v=4",
           "topics": [
             "cpanel",
@@ -484,7 +139,7 @@
           "pushedAt": "2026-08-13T16:09:49+00:00",
           "createdAt": "2026-08-13T16:03:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T01:39:30+00:00",
+          "updatedAt": "2026-08-14T12:34:53+00:00",
           "description": "A cPanel and WHM authentication bypassing tool",
           "defaultBranch": "main"
         }
@@ -493,7 +148,7 @@
       "topRepo": {
         "name": "cve-2026-41940-PoC",
         "fullName": "pemarine/cve-2026-41940-PoC",
-        "stars": 160,
+        "stars": 270,
         "url": "https://github.com/pemarine/cve-2026-41940-PoC"
       },
       "enriched": true,
@@ -502,60 +157,11 @@
       "repoNames": [
         "pemarine/cve-2026-41940-PoC"
       ],
-      "starScore": 160
-    },
-    {
-      "id": "103249391",
-      "rank": 9,
-      "type": "Organization",
-      "login": "dataelement",
-      "repos": [
-        {
-          "id": 1333165619,
-          "fork": false,
-          "name": "dsh-desktop",
-          "forks": 7,
-          "owner": "dataelement",
-          "stars": 99,
-          "avatar": "https://avatars.githubusercontent.com/u/103249391?v=4",
-          "topics": [
-            "ai-agents",
-            "deepseek",
-            "desktop",
-            "dsh-plugins"
-          ],
-          "ownerId": "103249391",
-          "repoUrl": "https://github.com/dataelement/dsh-desktop",
-          "archived": false,
-          "fullName": "dataelement/dsh-desktop",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/dataelement",
-          "pushedAt": "2026-08-14T07:30:58+00:00",
-          "createdAt": "2026-08-13T13:45:50+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:54:04+00:00",
-          "description": "Desktop app for DeepSeek Harness",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dataelement",
-      "topRepo": {
-        "name": "dsh-desktop",
-        "fullName": "dataelement/dsh-desktop",
-        "stars": 99,
-        "url": "https://github.com/dataelement/dsh-desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/103249391?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dataelement/dsh-desktop"
-      ],
-      "starScore": 99
+      "starScore": 270
     },
     {
       "id": "3509412",
-      "rank": 10,
+      "rank": 4,
       "type": "User",
       "login": "smontlouis",
       "repos": [
@@ -563,9 +169,9 @@
           "id": 1333398773,
           "fork": false,
           "name": "bible-strong-avatar-lab",
-          "forks": 21,
+          "forks": 30,
           "owner": "smontlouis",
-          "stars": 98,
+          "stars": 132,
           "avatar": "https://avatars.githubusercontent.com/u/3509412?v=4",
           "topics": [],
           "ownerId": "3509412",
@@ -577,7 +183,7 @@
           "pushedAt": "2026-08-14T06:03:18+00:00",
           "createdAt": "2026-08-13T17:58:36+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:45:59+00:00",
+          "updatedAt": "2026-08-14T13:37:08+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -586,7 +192,7 @@
       "topRepo": {
         "name": "bible-strong-avatar-lab",
         "fullName": "smontlouis/bible-strong-avatar-lab",
-        "stars": 98,
+        "stars": 132,
         "url": "https://github.com/smontlouis/bible-strong-avatar-lab"
       },
       "enriched": true,
@@ -595,61 +201,55 @@
       "repoNames": [
         "smontlouis/bible-strong-avatar-lab"
       ],
-      "starScore": 98
+      "starScore": 132
     },
     {
-      "id": "207671000",
-      "rank": 11,
+      "id": "96154058",
+      "rank": 5,
       "type": "User",
-      "login": "Hung2124",
+      "login": "steven-kid",
       "repos": [
         {
-          "id": 1332887136,
+          "id": 1333183397,
           "fork": false,
-          "name": "codex-multi-profile",
-          "forks": 81,
-          "owner": "Hung2124",
-          "stars": 84,
-          "avatar": "https://avatars.githubusercontent.com/u/207671000?v=4",
-          "topics": [
-            "agent-skills",
-            "chatgpt",
-            "openai-codex",
-            "powershell",
-            "windows"
-          ],
-          "ownerId": "207671000",
-          "repoUrl": "https://github.com/Hung2124/codex-multi-profile",
+          "name": "deepseek-harness-desktop",
+          "forks": 7,
+          "owner": "steven-kid",
+          "stars": 104,
+          "avatar": "https://avatars.githubusercontent.com/u/96154058?v=4",
+          "topics": [],
+          "ownerId": "96154058",
+          "repoUrl": "https://github.com/steven-kid/deepseek-harness-desktop",
           "archived": false,
-          "fullName": "Hung2124/codex-multi-profile",
-          "language": "PowerShell",
-          "ownerUrl": "https://github.com/Hung2124",
-          "pushedAt": "2026-08-14T05:14:21+00:00",
-          "createdAt": "2026-08-13T08:32:21+00:00",
+          "fullName": "steven-kid/deepseek-harness-desktop",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/steven-kid",
+          "pushedAt": "2026-08-14T10:21:42+00:00",
+          "createdAt": "2026-08-13T14:04:04+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T05:14:30+00:00",
-          "description": "Windows Codex Desktop multi-account via AuthSwap. Shared workspace, separate ChatGPT logins.",
+          "updatedAt": "2026-08-14T13:42:56+00:00",
+          "description": "Minimal desktop wrapper for DeepSeek Harness 极简 Deespeek Harness 桌面端，跨平台，免配置，开箱即用",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Hung2124",
+      "htmlUrl": "https://github.com/steven-kid",
       "topRepo": {
-        "name": "codex-multi-profile",
-        "fullName": "Hung2124/codex-multi-profile",
-        "stars": 84,
-        "url": "https://github.com/Hung2124/codex-multi-profile"
+        "name": "deepseek-harness-desktop",
+        "fullName": "steven-kid/deepseek-harness-desktop",
+        "stars": 104,
+        "url": "https://github.com/steven-kid/deepseek-harness-desktop"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/207671000?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96154058?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Hung2124/codex-multi-profile"
+        "steven-kid/deepseek-harness-desktop"
       ],
-      "starScore": 84
+      "starScore": 104
     },
     {
       "id": "316773727",
-      "rank": 12,
+      "rank": 6,
       "type": "User",
       "login": "flickzoz",
       "repos": [
@@ -657,9 +257,9 @@
           "id": 1333672877,
           "fork": false,
           "name": "mcp-guard",
-          "forks": 81,
+          "forks": 84,
           "owner": "flickzoz",
-          "stars": 83,
+          "stars": 87,
           "avatar": "https://avatars.githubusercontent.com/u/316773727?v=4",
           "topics": [],
           "ownerId": "316773727",
@@ -671,7 +271,7 @@
           "pushedAt": "2026-08-14T01:27:41+00:00",
           "createdAt": "2026-08-14T01:16:53+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:10:01+00:00",
+          "updatedAt": "2026-08-14T12:55:41+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -680,7 +280,7 @@
       "topRepo": {
         "name": "mcp-guard",
         "fullName": "flickzoz/mcp-guard",
-        "stars": 83,
+        "stars": 87,
         "url": "https://github.com/flickzoz/mcp-guard"
       },
       "enriched": true,
@@ -689,11 +289,11 @@
       "repoNames": [
         "flickzoz/mcp-guard"
       ],
-      "starScore": 83
+      "starScore": 87
     },
     {
       "id": "316777744",
-      "rank": 13,
+      "rank": 7,
       "type": "User",
       "login": "emailhayday10-coder",
       "repos": [
@@ -701,9 +301,9 @@
           "id": 1333681306,
           "fork": false,
           "name": "agent-doctor",
-          "forks": 81,
+          "forks": 86,
           "owner": "emailhayday10-coder",
-          "stars": 81,
+          "stars": 85,
           "avatar": "https://avatars.githubusercontent.com/u/316777744?v=4",
           "topics": [],
           "ownerId": "316777744",
@@ -715,7 +315,7 @@
           "pushedAt": "2026-08-14T01:40:15+00:00",
           "createdAt": "2026-08-14T01:31:52+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T05:10:17+00:00",
+          "updatedAt": "2026-08-14T13:40:35+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -724,7 +324,7 @@
       "topRepo": {
         "name": "agent-doctor",
         "fullName": "emailhayday10-coder/agent-doctor",
-        "stars": 81,
+        "stars": 85,
         "url": "https://github.com/emailhayday10-coder/agent-doctor"
       },
       "enriched": true,
@@ -733,143 +333,55 @@
       "repoNames": [
         "emailhayday10-coder/agent-doctor"
       ],
-      "starScore": 81
+      "starScore": 85
     },
     {
-      "id": "96154058",
-      "rank": 14,
+      "id": "316890520",
+      "rank": 8,
       "type": "User",
-      "login": "steven-kid",
+      "login": "duongdang942",
       "repos": [
         {
-          "id": 1333183397,
+          "id": 1333981728,
           "fork": false,
-          "name": "deepseek-harness-desktop",
-          "forks": 1,
-          "owner": "steven-kid",
-          "stars": 77,
-          "avatar": "https://avatars.githubusercontent.com/u/96154058?v=4",
+          "name": "ai-agent-for-magento2",
+          "forks": 78,
+          "owner": "duongdang942",
+          "stars": 78,
+          "avatar": "https://avatars.githubusercontent.com/u/316890520?v=4",
           "topics": [],
-          "ownerId": "96154058",
-          "repoUrl": "https://github.com/steven-kid/deepseek-harness-desktop",
+          "ownerId": "316890520",
+          "repoUrl": "https://github.com/duongdang942/ai-agent-for-magento2",
           "archived": false,
-          "fullName": "steven-kid/deepseek-harness-desktop",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/steven-kid",
-          "pushedAt": "2026-08-14T06:16:47+00:00",
-          "createdAt": "2026-08-13T14:04:04+00:00",
+          "fullName": "duongdang942/ai-agent-for-magento2",
+          "language": "PHP",
+          "ownerUrl": "https://github.com/duongdang942",
+          "pushedAt": "2026-08-14T09:55:42+00:00",
+          "createdAt": "2026-08-14T08:48:23+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:32:45+00:00",
-          "description": "Minimal desktop wrapper for DeepSeek Harness, Deespeek Harness 桌面端，跨平台，免配置，开箱即用",
+          "updatedAt": "2026-08-14T13:36:04+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/steven-kid",
+      "htmlUrl": "https://github.com/duongdang942",
       "topRepo": {
-        "name": "deepseek-harness-desktop",
-        "fullName": "steven-kid/deepseek-harness-desktop",
-        "stars": 77,
-        "url": "https://github.com/steven-kid/deepseek-harness-desktop"
+        "name": "ai-agent-for-magento2",
+        "fullName": "duongdang942/ai-agent-for-magento2",
+        "stars": 78,
+        "url": "https://github.com/duongdang942/ai-agent-for-magento2"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/96154058?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/316890520?v=4",
       "repoCount": 1,
       "repoNames": [
-        "steven-kid/deepseek-harness-desktop"
+        "duongdang942/ai-agent-for-magento2"
       ],
-      "starScore": 77
-    },
-    {
-      "id": "187079974",
-      "rank": 15,
-      "type": "User",
-      "login": "TUDONG05",
-      "repos": [
-        {
-          "id": 1332903042,
-          "fork": false,
-          "name": "stem-shorts",
-          "forks": 76,
-          "owner": "TUDONG05",
-          "stars": 76,
-          "avatar": "https://avatars.githubusercontent.com/u/187079974?v=4",
-          "topics": [],
-          "ownerId": "187079974",
-          "repoUrl": "https://github.com/TUDONG05/stem-shorts",
-          "archived": false,
-          "fullName": "TUDONG05/stem-shorts",
-          "language": "Python",
-          "ownerUrl": "https://github.com/TUDONG05",
-          "pushedAt": "2026-08-13T08:51:17+00:00",
-          "createdAt": "2026-08-13T08:49:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T03:21:00+00:00",
-          "description": "Vertical STEM explainer videos, built from a validated spec instead of generated animation code",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TUDONG05",
-      "topRepo": {
-        "name": "stem-shorts",
-        "fullName": "TUDONG05/stem-shorts",
-        "stars": 76,
-        "url": "https://github.com/TUDONG05/stem-shorts"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/187079974?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TUDONG05/stem-shorts"
-      ],
-      "starScore": 76
-    },
-    {
-      "id": "299456718",
-      "rank": 16,
-      "type": "User",
-      "login": "a2307588073-arch",
-      "repos": [
-        {
-          "id": 1333097145,
-          "fork": false,
-          "name": "zynq-yolov3-tiny-accelerator",
-          "forks": 1,
-          "owner": "a2307588073-arch",
-          "stars": 69,
-          "avatar": "https://avatars.githubusercontent.com/u/299456718?v=4",
-          "topics": [],
-          "ownerId": "299456718",
-          "repoUrl": "https://github.com/a2307588073-arch/zynq-yolov3-tiny-accelerator",
-          "archived": false,
-          "fullName": "a2307588073-arch/zynq-yolov3-tiny-accelerator",
-          "language": "Verilog",
-          "ownerUrl": "https://github.com/a2307588073-arch",
-          "pushedAt": "2026-08-13T12:35:04+00:00",
-          "createdAt": "2026-08-13T12:33:17+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:52:37+00:00",
-          "description": "INT8 single-class YOLOv3-Tiny accelerator and OV5640-to-HDMI bare-metal demo for Xilinx Zynq-7000 XC7Z100, with PyTorch training and parameter-export tools.  Topics  yolov3-tiny, fpga, zynq-7000, xc7z100, verilog, vivado, vitis, pytorch, int8-quantization, object-detection, axi4-stream, ov5640, hdmi, embedded-systems, computer-vision",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/a2307588073-arch",
-      "topRepo": {
-        "name": "zynq-yolov3-tiny-accelerator",
-        "fullName": "a2307588073-arch/zynq-yolov3-tiny-accelerator",
-        "stars": 69,
-        "url": "https://github.com/a2307588073-arch/zynq-yolov3-tiny-accelerator"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/299456718?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "a2307588073-arch/zynq-yolov3-tiny-accelerator"
-      ],
-      "starScore": 69
+      "starScore": 78
     },
     {
       "id": "130748619",
-      "rank": 17,
+      "rank": 9,
       "type": "User",
       "login": "danyuchn",
       "repos": [
@@ -877,9 +389,9 @@
           "id": 1333266800,
           "fork": false,
           "name": "iso-24495-skill",
-          "forks": 1,
+          "forks": 2,
           "owner": "danyuchn",
-          "stars": 64,
+          "stars": 77,
           "avatar": "https://avatars.githubusercontent.com/u/130748619?v=4",
           "topics": [
             "agent-skills",
@@ -900,7 +412,7 @@
           "pushedAt": "2026-08-13T15:30:33+00:00",
           "createdAt": "2026-08-13T15:30:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:50:10+00:00",
+          "updatedAt": "2026-08-14T13:49:31+00:00",
           "description": "ISO 24495-1 plain language rules as a Claude Code skill — bilingual: English + Traditional Chinese (繁體中文淺白改寫). Reader-outcome rewriting: relevant, findable, understandable, usable.",
           "defaultBranch": "master"
         }
@@ -909,7 +421,7 @@
       "topRepo": {
         "name": "iso-24495-skill",
         "fullName": "danyuchn/iso-24495-skill",
-        "stars": 64,
+        "stars": 77,
         "url": "https://github.com/danyuchn/iso-24495-skill"
       },
       "enriched": true,
@@ -918,113 +430,161 @@
       "repoNames": [
         "danyuchn/iso-24495-skill"
       ],
-      "starScore": 64
+      "starScore": 77
     },
     {
-      "id": "101612750",
-      "rank": 18,
+      "id": "316897483",
+      "rank": 10,
       "type": "User",
-      "login": "Nagi-ovo",
+      "login": "dungoutlook1",
       "repos": [
         {
-          "id": 1333132389,
+          "id": 1334001035,
           "fork": false,
-          "name": "dsh-find-plugins",
-          "forks": 0,
-          "owner": "Nagi-ovo",
-          "stars": 61,
-          "avatar": "https://avatars.githubusercontent.com/u/101612750?v=4",
-          "topics": [
-            "agent-skills",
-            "deepseek-harness",
-            "dsh-plugin",
-            "plugin-discovery"
-          ],
-          "ownerId": "101612750",
-          "repoUrl": "https://github.com/Nagi-ovo/dsh-find-plugins",
+          "name": "ai-super-model",
+          "forks": 76,
+          "owner": "dungoutlook1",
+          "stars": 76,
+          "avatar": "https://avatars.githubusercontent.com/u/316897483?v=4",
+          "topics": [],
+          "ownerId": "316897483",
+          "repoUrl": "https://github.com/dungoutlook1/ai-super-model",
           "archived": false,
-          "fullName": "Nagi-ovo/dsh-find-plugins",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/Nagi-ovo",
-          "pushedAt": "2026-08-14T01:42:38+00:00",
-          "createdAt": "2026-08-13T13:11:56+00:00",
+          "fullName": "dungoutlook1/ai-super-model",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/dungoutlook1",
+          "pushedAt": "2026-08-14T09:36:25+00:00",
+          "createdAt": "2026-08-14T09:11:52+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:40:51+00:00",
+          "updatedAt": "2026-08-14T13:37:52+00:00",
           "description": "",
-          "defaultBranch": "main"
+          "defaultBranch": "master"
         }
       ],
-      "htmlUrl": "https://github.com/Nagi-ovo",
+      "htmlUrl": "https://github.com/dungoutlook1",
       "topRepo": {
-        "name": "dsh-find-plugins",
-        "fullName": "Nagi-ovo/dsh-find-plugins",
-        "stars": 61,
-        "url": "https://github.com/Nagi-ovo/dsh-find-plugins"
+        "name": "ai-super-model",
+        "fullName": "dungoutlook1/ai-super-model",
+        "stars": 76,
+        "url": "https://github.com/dungoutlook1/ai-super-model"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/101612750?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/316897483?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Nagi-ovo/dsh-find-plugins"
+        "dungoutlook1/ai-super-model"
       ],
-      "starScore": 61
+      "starScore": 76
     },
     {
-      "id": "37268777",
-      "rank": 19,
+      "id": "49724027",
+      "rank": 11,
       "type": "User",
-      "login": "xyiqq",
+      "login": "hairyf",
       "repos": [
         {
-          "id": 1332935366,
+          "id": 1333718792,
           "fork": false,
-          "name": "skilldoctor",
+          "name": "deepseek-harness-desktop",
           "forks": 2,
-          "owner": "xyiqq",
-          "stars": 56,
-          "avatar": "https://avatars.githubusercontent.com/u/37268777?v=4",
-          "topics": [
-            "agent-skills",
-            "claude-code",
-            "cli",
-            "codex",
-            "cursor",
-            "linter",
-            "opencode",
-            "security"
-          ],
-          "ownerId": "37268777",
-          "repoUrl": "https://github.com/xyiqq/skilldoctor",
+          "owner": "hairyf",
+          "stars": 63,
+          "avatar": "https://avatars.githubusercontent.com/u/49724027?v=4",
+          "topics": [],
+          "ownerId": "49724027",
+          "repoUrl": "https://github.com/hairyf/deepseek-harness-desktop",
           "archived": false,
-          "fullName": "xyiqq/skilldoctor",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/xyiqq",
-          "pushedAt": "2026-08-14T04:42:12+00:00",
-          "createdAt": "2026-08-13T09:25:47+00:00",
+          "fullName": "hairyf/deepseek-harness-desktop",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/hairyf",
+          "pushedAt": "2026-08-14T12:33:16+00:00",
+          "createdAt": "2026-08-14T02:36:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:38:37+00:00",
-          "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
+          "updatedAt": "2026-08-14T13:42:29+00:00",
+          "description": "One-click desktop app for DeepSeek Harness (dsh) — runs fully local with self-healing core updates and zero environment setup. Windows / macOS / Linux.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/xyiqq",
+      "htmlUrl": "https://github.com/hairyf",
       "topRepo": {
-        "name": "skilldoctor",
-        "fullName": "xyiqq/skilldoctor",
-        "stars": 56,
-        "url": "https://github.com/xyiqq/skilldoctor"
+        "name": "deepseek-harness-desktop",
+        "fullName": "hairyf/deepseek-harness-desktop",
+        "stars": 63,
+        "url": "https://github.com/hairyf/deepseek-harness-desktop"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/37268777?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49724027?v=4",
       "repoCount": 1,
       "repoNames": [
-        "xyiqq/skilldoctor"
+        "hairyf/deepseek-harness-desktop"
       ],
-      "starScore": 56
+      "starScore": 63
+    },
+    {
+      "id": "300096222",
+      "rank": 12,
+      "type": "User",
+      "login": "Digitec-desktop",
+      "repos": [
+        {
+          "id": 1333533139,
+          "fork": false,
+          "name": "Digitec-Desktop",
+          "forks": 0,
+          "owner": "Digitec-desktop",
+          "stars": 53,
+          "avatar": "https://avatars.githubusercontent.com/u/300096222?v=4",
+          "topics": [
+            "cross-platform-app",
+            "desktop-app",
+            "desktop-application",
+            "digitec",
+            "digitec-client",
+            "digitec-desktop",
+            "digitec-desktop-application",
+            "digitec-galaxus",
+            "digitec-galaxus-desktop",
+            "digitec-pc",
+            "digitec-windows",
+            "e-commerce",
+            "galaxus",
+            "galaxus-desktop",
+            "galaxus-windows",
+            "swiss",
+            "switzerland"
+          ],
+          "ownerId": "300096222",
+          "repoUrl": "https://github.com/Digitec-desktop/Digitec-Desktop",
+          "archived": false,
+          "fullName": "Digitec-desktop/Digitec-Desktop",
+          "language": "CSS",
+          "ownerUrl": "https://github.com/Digitec-desktop",
+          "pushedAt": "2026-08-14T11:43:15+00:00",
+          "createdAt": "2026-08-13T20:57:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-14T11:59:58+00:00",
+          "description": "Digitec Desktop PC – eine Desktop-Anwendung zur Interaktion mit der Digitec-Website über deren API",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Digitec-desktop",
+      "topRepo": {
+        "name": "Digitec-Desktop",
+        "fullName": "Digitec-desktop/Digitec-Desktop",
+        "stars": 53,
+        "url": "https://github.com/Digitec-desktop/Digitec-Desktop"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300096222?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Digitec-desktop/Digitec-Desktop"
+      ],
+      "starScore": 53
     },
     {
       "id": "300096161",
-      "rank": 20,
+      "rank": 13,
       "type": "User",
       "login": "SBB-Desktop",
       "repos": [
@@ -1064,10 +624,10 @@
           "fullName": "SBB-Desktop/SBB-Desktop",
           "language": "CSS",
           "ownerUrl": "https://github.com/SBB-Desktop",
-          "pushedAt": "2026-08-13T18:35:13+00:00",
+          "pushedAt": "2026-08-14T11:42:39+00:00",
           "createdAt": "2026-08-13T18:25:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-13T21:03:05+00:00",
+          "updatedAt": "2026-08-14T11:42:52+00:00",
           "description": " SBB Desktop Client auf Basis der API der SBB-Mobile-App – Verbindungen suchen, Fahrpläne anzeigen und SBB-Dienste bequem auf dem Desktop nutzen.",
           "defaultBranch": "main"
         }
@@ -1088,8 +648,111 @@
       "starScore": 52
     },
     {
+      "id": "53948000",
+      "rank": 14,
+      "type": "User",
+      "login": "inevolin",
+      "repos": [
+        {
+          "id": 1334051605,
+          "fork": false,
+          "name": "k8s-cpu-limits-analyzed",
+          "forks": 2,
+          "owner": "inevolin",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/53948000?v=4",
+          "topics": [
+            "cpu",
+            "kubectl",
+            "kubernetes",
+            "kubernetes-cluster",
+            "performance-analysis",
+            "performance-optimization"
+          ],
+          "ownerId": "53948000",
+          "repoUrl": "https://github.com/inevolin/k8s-cpu-limits-analyzed",
+          "archived": false,
+          "fullName": "inevolin/k8s-cpu-limits-analyzed",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/inevolin",
+          "pushedAt": "2026-08-14T10:39:37+00:00",
+          "createdAt": "2026-08-14T10:13:52+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-14T13:35:48+00:00",
+          "description": "Kubernetes CPU limits make your apps (very) slow and costly",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/inevolin",
+      "topRepo": {
+        "name": "k8s-cpu-limits-analyzed",
+        "fullName": "inevolin/k8s-cpu-limits-analyzed",
+        "stars": 40,
+        "url": "https://github.com/inevolin/k8s-cpu-limits-analyzed"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53948000?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "inevolin/k8s-cpu-limits-analyzed"
+      ],
+      "starScore": 40
+    },
+    {
+      "id": "66435047",
+      "rank": 15,
+      "type": "User",
+      "login": "YangJiiii",
+      "repos": [
+        {
+          "id": 1333728741,
+          "fork": false,
+          "name": "3105",
+          "forks": 4,
+          "owner": "YangJiiii",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/66435047?v=4",
+          "topics": [
+            "app-data",
+            "file-manager",
+            "gplv3",
+            "ios",
+            "mobilehousearrest",
+            "swift",
+            "swiftui"
+          ],
+          "ownerId": "66435047",
+          "repoUrl": "https://github.com/YangJiiii/3105",
+          "archived": false,
+          "fullName": "YangJiiii/3105",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/YangJiiii",
+          "pushedAt": "2026-08-14T04:04:31+00:00",
+          "createdAt": "2026-08-14T02:51:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-14T13:21:14+00:00",
+          "description": "Native iOS app-data browser, portable patch manager, limited cleaner, and PosterBoard wallpaper lab.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/YangJiiii",
+      "topRepo": {
+        "name": "3105",
+        "fullName": "YangJiiii/3105",
+        "stars": 40,
+        "url": "https://github.com/YangJiiii/3105"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66435047?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "YangJiiii/3105"
+      ],
+      "starScore": 40
+    },
+    {
       "id": "70762109",
-      "rank": 21,
+      "rank": 16,
       "type": "User",
       "login": "karim1556",
       "repos": [
@@ -1111,7 +774,7 @@
           "pushedAt": "2026-08-14T05:53:41+00:00",
           "createdAt": "2026-08-14T05:53:36+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:46:30+00:00",
+          "updatedAt": "2026-08-14T08:00:58+00:00",
           "description": "",
           "defaultBranch": "master"
         }
@@ -1132,391 +795,102 @@
       "starScore": 38
     },
     {
-      "id": "316576685",
-      "rank": 22,
+      "id": "218287453",
+      "rank": 17,
       "type": "User",
-      "login": "femboytapt",
+      "login": "JCRYDER3",
       "repos": [
         {
-          "id": 1333100098,
+          "id": 1333370330,
           "fork": false,
-          "name": "meowtils",
-          "forks": 0,
-          "owner": "femboytapt",
-          "stars": 37,
-          "avatar": "https://avatars.githubusercontent.com/u/316576685?v=4",
+          "name": "andhbhakt",
+          "forks": 12,
+          "owner": "JCRYDER3",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/218287453?v=4",
           "topics": [],
-          "ownerId": "316576685",
-          "repoUrl": "https://github.com/femboytapt/meowtils",
+          "ownerId": "218287453",
+          "repoUrl": "https://github.com/JCRYDER3/andhbhakt",
           "archived": false,
-          "fullName": "femboytapt/meowtils",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/femboytapt",
-          "pushedAt": "2026-08-13T12:51:01+00:00",
-          "createdAt": "2026-08-13T12:36:35+00:00",
+          "fullName": "JCRYDER3/andhbhakt",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/JCRYDER3",
+          "pushedAt": "2026-08-13T18:49:25+00:00",
+          "createdAt": "2026-08-13T17:25:12+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T00:53:08+00:00",
-          "description": "Minecraft 1.8.9 utility mod.",
+          "updatedAt": "2026-08-14T13:28:40+00:00",
+          "description": "CAG vs PIB govt govt accountabilty website",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/femboytapt",
+      "htmlUrl": "https://github.com/JCRYDER3",
       "topRepo": {
-        "name": "meowtils",
-        "fullName": "femboytapt/meowtils",
-        "stars": 37,
-        "url": "https://github.com/femboytapt/meowtils"
+        "name": "andhbhakt",
+        "fullName": "JCRYDER3/andhbhakt",
+        "stars": 29,
+        "url": "https://github.com/JCRYDER3/andhbhakt"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316576685?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/218287453?v=4",
       "repoCount": 1,
       "repoNames": [
-        "femboytapt/meowtils"
+        "JCRYDER3/andhbhakt"
       ],
-      "starScore": 37
+      "starScore": 29
     },
     {
-      "id": "75023175",
-      "rank": 23,
+      "id": "77105194",
+      "rank": 18,
       "type": "User",
-      "login": "Zhiyuan-Fan",
+      "login": "ysr666",
       "repos": [
         {
-          "id": 1333171737,
+          "id": 1333446374,
           "fork": false,
-          "name": "Awesome-DeepSeek-Harness-Plugins",
-          "forks": 1,
-          "owner": "Zhiyuan-Fan",
-          "stars": 33,
-          "avatar": "https://avatars.githubusercontent.com/u/75023175?v=4",
-          "topics": [],
-          "ownerId": "75023175",
-          "repoUrl": "https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
-          "archived": false,
-          "fullName": "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Zhiyuan-Fan",
-          "pushedAt": "2026-08-14T06:40:50+00:00",
-          "createdAt": "2026-08-13T13:52:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:25:06+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Zhiyuan-Fan",
-      "topRepo": {
-        "name": "Awesome-DeepSeek-Harness-Plugins",
-        "fullName": "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
-        "stars": 33,
-        "url": "https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/75023175?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins"
-      ],
-      "starScore": 33
-    },
-    {
-      "id": "202896035",
-      "rank": 24,
-      "type": "Organization",
-      "login": "AMAP-ML",
-      "repos": [
-        {
-          "id": 1333164825,
-          "fork": false,
-          "name": "DreamX-Phi",
-          "forks": 1,
-          "owner": "AMAP-ML",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/202896035?v=4",
-          "topics": [],
-          "ownerId": "202896035",
-          "repoUrl": "https://github.com/AMAP-ML/DreamX-Phi",
-          "archived": false,
-          "fullName": "AMAP-ML/DreamX-Phi",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/AMAP-ML",
-          "pushedAt": "2026-08-14T03:36:32+00:00",
-          "createdAt": "2026-08-13T13:45:04+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T07:26:03+00:00",
-          "description": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/AMAP-ML",
-      "topRepo": {
-        "name": "DreamX-Phi",
-        "fullName": "AMAP-ML/DreamX-Phi",
-        "stars": 31,
-        "url": "https://github.com/AMAP-ML/DreamX-Phi"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/202896035?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "AMAP-ML/DreamX-Phi"
-      ],
-      "starScore": 31
-    },
-    {
-      "id": "123177548",
-      "rank": 25,
-      "type": "User",
-      "login": "Anionex",
-      "repos": [
-        {
-          "id": 1333100390,
-          "fork": false,
-          "name": "dsh-turn-rewind",
-          "forks": 0,
-          "owner": "Anionex",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/123177548?v=4",
+          "name": "dsh-vision-router",
+          "forks": 7,
+          "owner": "ysr666",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/77105194?v=4",
           "topics": [
-            "agent-rewind",
-            "cordis-plugin",
             "deepseek-harness",
             "dsh",
             "dsh-plugin",
-            "marisa-plugin",
-            "restore-point",
-            "turn-rewind",
-            "workspace-safety"
+            "multimodal",
+            "vision"
           ],
-          "ownerId": "123177548",
-          "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
+          "ownerId": "77105194",
+          "repoUrl": "https://github.com/ysr666/dsh-vision-router",
           "archived": false,
-          "fullName": "Anionex/dsh-turn-rewind",
+          "fullName": "ysr666/dsh-vision-router",
           "language": "JavaScript",
-          "ownerUrl": "https://github.com/Anionex",
-          "pushedAt": "2026-08-14T06:20:06+00:00",
-          "createdAt": "2026-08-13T12:36:53+00:00",
+          "ownerUrl": "https://github.com/ysr666",
+          "pushedAt": "2026-08-14T13:50:48+00:00",
+          "createdAt": "2026-08-13T18:57:47+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T07:30:35+00:00",
-          "description": "deepseek harness对话和代码状态回退插件 | DSH — rewind conversation and workspace state, powered by a persistent Change Ledger",
+          "updatedAt": "2026-08-14T13:50:29+00:00",
+          "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Anionex",
+      "htmlUrl": "https://github.com/ysr666",
       "topRepo": {
-        "name": "dsh-turn-rewind",
-        "fullName": "Anionex/dsh-turn-rewind",
-        "stars": 31,
-        "url": "https://github.com/Anionex/dsh-turn-rewind"
+        "name": "dsh-vision-router",
+        "fullName": "ysr666/dsh-vision-router",
+        "stars": 29,
+        "url": "https://github.com/ysr666/dsh-vision-router"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/123177548?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77105194?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Anionex/dsh-turn-rewind"
+        "ysr666/dsh-vision-router"
       ],
-      "starScore": 31
-    },
-    {
-      "id": "118520300",
-      "rank": 26,
-      "type": "User",
-      "login": "idavidov13",
-      "repos": [
-        {
-          "id": 1332868730,
-          "fork": false,
-          "name": "agentic-playwright",
-          "forks": 17,
-          "owner": "idavidov13",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/118520300?v=4",
-          "topics": [
-            "agentic",
-            "ai",
-            "api-testing",
-            "claude-code",
-            "cursor",
-            "e2e",
-            "github-copilot",
-            "playwright",
-            "test-automation",
-            "testing",
-            "typescript"
-          ],
-          "ownerId": "118520300",
-          "repoUrl": "https://github.com/idavidov13/agentic-playwright",
-          "archived": false,
-          "fullName": "idavidov13/agentic-playwright",
-          "language": "Python",
-          "ownerUrl": "https://github.com/idavidov13",
-          "pushedAt": "2026-08-13T13:09:18+00:00",
-          "createdAt": "2026-08-13T08:12:20+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T06:49:46+00:00",
-          "description": "Production-grade Playwright + TypeScript Scaffold for Agentic Testing. Harness for all major AI coding agents baked in.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/idavidov13",
-      "topRepo": {
-        "name": "agentic-playwright",
-        "fullName": "idavidov13/agentic-playwright",
-        "stars": 31,
-        "url": "https://github.com/idavidov13/agentic-playwright"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/118520300?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "idavidov13/agentic-playwright"
-      ],
-      "starScore": 31
-    },
-    {
-      "id": "94812038",
-      "rank": 27,
-      "type": "User",
-      "login": "real-billsheng",
-      "repos": [
-        {
-          "id": 1333015411,
-          "fork": false,
-          "name": "Polymarket-Taker-Trading-Bot",
-          "forks": 224,
-          "owner": "real-billsheng",
-          "stars": 28,
-          "avatar": "https://avatars.githubusercontent.com/u/94812038?v=4",
-          "topics": [
-            "5m",
-            "binance",
-            "btc",
-            "nodejs",
-            "polymarket-up-down-bot",
-            "sse",
-            "trading-dashboard",
-            "ts"
-          ],
-          "ownerId": "94812038",
-          "repoUrl": "https://github.com/real-billsheng/Polymarket-Taker-Trading-Bot",
-          "archived": false,
-          "fullName": "real-billsheng/Polymarket-Taker-Trading-Bot",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/real-billsheng",
-          "pushedAt": "2026-08-13T11:03:58+00:00",
-          "createdAt": "2026-08-13T10:58:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:53:45+00:00",
-          "description": "Educational local dashboard for Polymarket BTC 5‑minute Up/Down markets — live prices, paper fills, and SSE signal stream. Full trading bot not included. polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket t",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/real-billsheng",
-      "topRepo": {
-        "name": "Polymarket-Taker-Trading-Bot",
-        "fullName": "real-billsheng/Polymarket-Taker-Trading-Bot",
-        "stars": 28,
-        "url": "https://github.com/real-billsheng/Polymarket-Taker-Trading-Bot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/94812038?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "real-billsheng/Polymarket-Taker-Trading-Bot"
-      ],
-      "starScore": 28
-    },
-    {
-      "id": "316555549",
-      "rank": 28,
-      "type": "User",
-      "login": "ghostworker13",
-      "repos": [
-        {
-          "id": 1333084323,
-          "fork": false,
-          "name": "ghostworker13",
-          "forks": 0,
-          "owner": "ghostworker13",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/316555549?v=4",
-          "topics": [],
-          "ownerId": "316555549",
-          "repoUrl": "https://github.com/ghostworker13/ghostworker13",
-          "archived": false,
-          "fullName": "ghostworker13/ghostworker13",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/ghostworker13",
-          "pushedAt": "2026-08-13T12:19:15+00:00",
-          "createdAt": "2026-08-13T12:18:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T03:06:53+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ghostworker13",
-      "topRepo": {
-        "name": "ghostworker13",
-        "fullName": "ghostworker13/ghostworker13",
-        "stars": 27,
-        "url": "https://github.com/ghostworker13/ghostworker13"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316555549?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ghostworker13/ghostworker13"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "278730634",
-      "rank": 29,
-      "type": "Organization",
-      "login": "1TDSPJ-26",
-      "repos": [
-        {
-          "id": 1333105527,
-          "fork": false,
-          "name": "front-2sem-aula-04",
-          "forks": 0,
-          "owner": "1TDSPJ-26",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/278730634?v=4",
-          "topics": [],
-          "ownerId": "278730634",
-          "repoUrl": "https://github.com/1TDSPJ-26/front-2sem-aula-04",
-          "archived": false,
-          "fullName": "1TDSPJ-26/front-2sem-aula-04",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/1TDSPJ-26",
-          "pushedAt": "2026-08-14T05:16:18+00:00",
-          "createdAt": "2026-08-13T12:42:33+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T04:11:03+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/1TDSPJ-26",
-      "topRepo": {
-        "name": "front-2sem-aula-04",
-        "fullName": "1TDSPJ-26/front-2sem-aula-04",
-        "stars": 26,
-        "url": "https://github.com/1TDSPJ-26/front-2sem-aula-04"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/278730634?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "1TDSPJ-26/front-2sem-aula-04"
-      ],
-      "starScore": 26
+      "starScore": 29
     },
     {
       "id": "271704578",
-      "rank": 30,
+      "rank": 19,
       "type": "User",
       "login": "HiWhaleW",
       "repos": [
@@ -1559,364 +933,8 @@
       "starScore": 26
     },
     {
-      "id": "149660620",
-      "rank": 31,
-      "type": "User",
-      "login": "lynch5mo",
-      "repos": [
-        {
-          "id": 1332895635,
-          "fork": false,
-          "name": "SoulWriter",
-          "forks": 0,
-          "owner": "lynch5mo",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/149660620?v=4",
-          "topics": [],
-          "ownerId": "149660620",
-          "repoUrl": "https://github.com/lynch5mo/SoulWriter",
-          "archived": false,
-          "fullName": "lynch5mo/SoulWriter",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/lynch5mo",
-          "pushedAt": "2026-08-13T12:25:23+00:00",
-          "createdAt": "2026-08-13T08:41:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:29:11+00:00",
-          "description": "Mac-native, local-first narrative writing workbench. Source-visible; all rights reserved.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lynch5mo",
-      "topRepo": {
-        "name": "SoulWriter",
-        "fullName": "lynch5mo/SoulWriter",
-        "stars": 26,
-        "url": "https://github.com/lynch5mo/SoulWriter"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/149660620?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lynch5mo/SoulWriter"
-      ],
-      "starScore": 26
-    },
-    {
-      "id": "66435047",
-      "rank": 32,
-      "type": "User",
-      "login": "YangJiiii",
-      "repos": [
-        {
-          "id": 1333728741,
-          "fork": false,
-          "name": "3105",
-          "forks": 2,
-          "owner": "YangJiiii",
-          "stars": 25,
-          "avatar": "https://avatars.githubusercontent.com/u/66435047?v=4",
-          "topics": [
-            "app-data",
-            "file-manager",
-            "gplv3",
-            "ios",
-            "mobilehousearrest",
-            "swift",
-            "swiftui"
-          ],
-          "ownerId": "66435047",
-          "repoUrl": "https://github.com/YangJiiii/3105",
-          "archived": false,
-          "fullName": "YangJiiii/3105",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/YangJiiii",
-          "pushedAt": "2026-08-14T04:04:31+00:00",
-          "createdAt": "2026-08-14T02:51:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:40:08+00:00",
-          "description": "Native iOS app-data browser, portable patch manager, limited cleaner, and PosterBoard wallpaper lab.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/YangJiiii",
-      "topRepo": {
-        "name": "3105",
-        "fullName": "YangJiiii/3105",
-        "stars": 25,
-        "url": "https://github.com/YangJiiii/3105"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66435047?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "YangJiiii/3105"
-      ],
-      "starScore": 25
-    },
-    {
-      "id": "47224289",
-      "rank": 33,
-      "type": "User",
-      "login": "Dominic789654",
-      "repos": [
-        {
-          "id": 1333173677,
-          "fork": false,
-          "name": "awesome-deepseek-harness",
-          "forks": 6,
-          "owner": "Dominic789654",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/47224289?v=4",
-          "topics": [
-            "agent",
-            "agent-framework",
-            "ai-agent",
-            "ai-agents",
-            "awesome",
-            "awesome-list",
-            "coding-agent",
-            "deepseek",
-            "deepseek-ai",
-            "deepseek-harness",
-            "deepseek-harness-plugin",
-            "deepseek-harness-plugins",
-            "dsh",
-            "dsh-plugin",
-            "dsh-plugins",
-            "llm",
-            "llm-agent",
-            "mcp",
-            "plugins"
-          ],
-          "ownerId": "47224289",
-          "repoUrl": "https://github.com/Dominic789654/awesome-deepseek-harness",
-          "archived": false,
-          "fullName": "Dominic789654/awesome-deepseek-harness",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Dominic789654",
-          "pushedAt": "2026-08-14T06:44:38+00:00",
-          "createdAt": "2026-08-13T13:54:05+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:34:02+00:00",
-          "description": "A curated list of plugins, skills, MCP servers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Dominic789654",
-      "topRepo": {
-        "name": "awesome-deepseek-harness",
-        "fullName": "Dominic789654/awesome-deepseek-harness",
-        "stars": 23,
-        "url": "https://github.com/Dominic789654/awesome-deepseek-harness"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47224289?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Dominic789654/awesome-deepseek-harness"
-      ],
-      "starScore": 23
-    },
-    {
-      "id": "181250834",
-      "rank": 34,
-      "type": "User",
-      "login": "xiincs",
-      "repos": [
-        {
-          "id": 1333376987,
-          "fork": false,
-          "name": "deepseek-harness-desktop",
-          "forks": 0,
-          "owner": "xiincs",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/181250834?v=4",
-          "topics": [
-            "agent",
-            "ai-agent",
-            "deepseek-harness",
-            "desktop",
-            "rust",
-            "tauri",
-            "windows"
-          ],
-          "ownerId": "181250834",
-          "repoUrl": "https://github.com/xiincs/deepseek-harness-desktop",
-          "archived": false,
-          "fullName": "xiincs/deepseek-harness-desktop",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/xiincs",
-          "pushedAt": "2026-08-14T05:46:30+00:00",
-          "createdAt": "2026-08-13T17:32:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:53:45+00:00",
-          "description": "DeepSeek Harness 的 Windows 原生桌面版 —— 基于 Tauri 2，在 WebView 中托管 dsh Web 服务，内置 Node.js 运行时。",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/xiincs",
-      "topRepo": {
-        "name": "deepseek-harness-desktop",
-        "fullName": "xiincs/deepseek-harness-desktop",
-        "stars": 23,
-        "url": "https://github.com/xiincs/deepseek-harness-desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/181250834?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "xiincs/deepseek-harness-desktop"
-      ],
-      "starScore": 23
-    },
-    {
-      "id": "190201931",
-      "rank": 35,
-      "type": "User",
-      "login": "Dativerse",
-      "repos": [
-        {
-          "id": 1332915025,
-          "fork": false,
-          "name": "harvard-portfolio",
-          "forks": 6,
-          "owner": "Dativerse",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/190201931?v=4",
-          "topics": [],
-          "ownerId": "190201931",
-          "repoUrl": "https://github.com/Dativerse/harvard-portfolio",
-          "archived": false,
-          "fullName": "Dativerse/harvard-portfolio",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Dativerse",
-          "pushedAt": "2026-08-13T15:41:34+00:00",
-          "createdAt": "2026-08-13T09:03:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T07:47:48+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Dativerse",
-      "topRepo": {
-        "name": "harvard-portfolio",
-        "fullName": "Dativerse/harvard-portfolio",
-        "stars": 20,
-        "url": "https://github.com/Dativerse/harvard-portfolio"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/190201931?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Dativerse/harvard-portfolio"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "316575027",
-      "rank": 36,
-      "type": "User",
-      "login": "chang416",
-      "repos": [
-        {
-          "id": 1333096882,
-          "fork": false,
-          "name": "youtube-card-reader",
-          "forks": 4,
-          "owner": "chang416",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/316575027?v=4",
-          "topics": [
-            "claude",
-            "fastapi",
-            "knowledge-base",
-            "knowledge-management",
-            "llm",
-            "note-taking",
-            "obsidian",
-            "react",
-            "transcription",
-            "youtube",
-            "youtube-api"
-          ],
-          "ownerId": "316575027",
-          "repoUrl": "https://github.com/chang416/youtube-card-reader",
-          "archived": false,
-          "fullName": "chang416/youtube-card-reader",
-          "language": "Python",
-          "ownerUrl": "https://github.com/chang416",
-          "pushedAt": "2026-08-13T12:42:34+00:00",
-          "createdAt": "2026-08-13T12:33:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T02:58:19+00:00",
-          "description": "Turn any YouTube video into a deck of timestamped knowledge cards. Runs locally, works with free models.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/chang416",
-      "topRepo": {
-        "name": "youtube-card-reader",
-        "fullName": "chang416/youtube-card-reader",
-        "stars": 18,
-        "url": "https://github.com/chang416/youtube-card-reader"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316575027?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "chang416/youtube-card-reader"
-      ],
-      "starScore": 18
-    },
-    {
-      "id": "314636325",
-      "rank": 37,
-      "type": "User",
-      "login": "singul-oss",
-      "repos": [
-        {
-          "id": 1333032243,
-          "fork": false,
-          "name": "Singularitys-Collection",
-          "forks": 3,
-          "owner": "singul-oss",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/314636325?v=4",
-          "topics": [],
-          "ownerId": "314636325",
-          "repoUrl": "https://github.com/singul-oss/Singularitys-Collection",
-          "archived": false,
-          "fullName": "singul-oss/Singularitys-Collection",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/singul-oss",
-          "pushedAt": "2026-08-13T11:19:26+00:00",
-          "createdAt": "2026-08-13T11:18:59+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T02:55:10+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/singul-oss",
-      "topRepo": {
-        "name": "Singularitys-Collection",
-        "fullName": "singul-oss/Singularitys-Collection",
-        "stars": 17,
-        "url": "https://github.com/singul-oss/Singularitys-Collection"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/314636325?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "singul-oss/Singularitys-Collection"
-      ],
-      "starScore": 17
-    },
-    {
       "id": "8016841",
-      "rank": 38,
+      "rank": 20,
       "type": "User",
       "login": "diegosouzapw",
       "repos": [
@@ -1969,120 +987,8 @@
       "starScore": 16
     },
     {
-      "id": "175001329",
-      "rank": 39,
-      "type": "User",
-      "login": "huiliyi37",
-      "repos": [
-        {
-          "id": 1333088207,
-          "fork": false,
-          "name": "dsh-tianshu-build",
-          "forks": 0,
-          "owner": "huiliyi37",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/175001329?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin"
-          ],
-          "ownerId": "175001329",
-          "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-build",
-          "archived": false,
-          "fullName": "huiliyi37/dsh-tianshu-build",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/huiliyi37",
-          "pushedAt": "2026-08-13T12:22:53+00:00",
-          "createdAt": "2026-08-13T12:22:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-13T17:11:57+00:00",
-          "description": "dsh-tianshu-tui — DeepSeek Harness terminal UI",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/huiliyi37",
-      "topRepo": {
-        "name": "dsh-tianshu-build",
-        "fullName": "huiliyi37/dsh-tianshu-build",
-        "stars": 15,
-        "url": "https://github.com/huiliyi37/dsh-tianshu-build"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/175001329?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "huiliyi37/dsh-tianshu-build"
-      ],
-      "starScore": 15
-    },
-    {
-      "id": "28573573",
-      "rank": 40,
-      "type": "User",
-      "login": "seyedehsanhadi",
-      "repos": [
-        {
-          "id": 1332866061,
-          "fork": false,
-          "name": "sloptrim",
-          "forks": 2,
-          "owner": "seyedehsanhadi",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/28573573?v=4",
-          "topics": [
-            "ai-agents",
-            "ai-slop",
-            "claude-code",
-            "claude-code-plugin",
-            "claude-code-plugins-marketplace",
-            "claude-code-skills",
-            "de-slop",
-            "developer-tools",
-            "docx",
-            "humanizer",
-            "linter",
-            "llm",
-            "markdown",
-            "prose-linter",
-            "python",
-            "stylometry",
-            "text-analysis",
-            "writing-quality",
-            "writing-tools",
-            "zero-dependency"
-          ],
-          "ownerId": "28573573",
-          "repoUrl": "https://github.com/seyedehsanhadi/sloptrim",
-          "archived": false,
-          "fullName": "seyedehsanhadi/sloptrim",
-          "language": "Python",
-          "ownerUrl": "https://github.com/seyedehsanhadi",
-          "pushedAt": "2026-08-13T16:28:27+00:00",
-          "createdAt": "2026-08-13T08:09:10+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T02:12:14+00:00",
-          "description": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/seyedehsanhadi",
-      "topRepo": {
-        "name": "sloptrim",
-        "fullName": "seyedehsanhadi/sloptrim",
-        "stars": 14,
-        "url": "https://github.com/seyedehsanhadi/sloptrim"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28573573?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "seyedehsanhadi/sloptrim"
-      ],
-      "starScore": 14
-    },
-    {
       "id": "43269513",
-      "rank": 41,
+      "rank": 21,
       "type": "User",
       "login": "FH6-TrainerAllInOne",
       "repos": [
@@ -2147,7 +1053,7 @@
     },
     {
       "id": "184228334",
-      "rank": 42,
+      "rank": 22,
       "type": "User",
       "login": "kinik3freecode",
       "repos": [
