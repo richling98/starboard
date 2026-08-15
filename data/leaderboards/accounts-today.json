@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T19:36:40.266Z",
-  "total": 12,
-  "totalIndexedCount": 12,
-  "coverageLabel": "Showing 12 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-15T01:57:05.644Z",
+  "total": 8,
+  "totalIndexedCount": 8,
+  "coverageLabel": "Showing 8 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,65 +10,8 @@
   },
   "rows": [
     {
-      "id": "289489188",
-      "rank": 1,
-      "type": "Organization",
-      "login": "decionis",
-      "repos": [
-        {
-          "id": 1333556422,
-          "fork": false,
-          "name": "agent-safe-pipeline",
-          "forks": 3,
-          "owner": "decionis",
-          "stars": 358,
-          "avatar": "https://avatars.githubusercontent.com/u/289489188?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent-permissions",
-            "ai-agents",
-            "ai-governance",
-            "ai-safety",
-            "authorization",
-            "decionis",
-            "human-in-the-loop",
-            "mcp",
-            "policy-as-code",
-            "reference-architecture",
-            "typescript"
-          ],
-          "ownerId": "289489188",
-          "repoUrl": "https://github.com/decionis/agent-safe-pipeline",
-          "archived": false,
-          "fullName": "decionis/agent-safe-pipeline",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/decionis",
-          "pushedAt": "2026-08-14T09:29:20+00:00",
-          "createdAt": "2026-08-13T21:36:19+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-14T19:14:57+00:00",
-          "description": "Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/decionis",
-      "topRepo": {
-        "name": "agent-safe-pipeline",
-        "fullName": "decionis/agent-safe-pipeline",
-        "stars": 358,
-        "url": "https://github.com/decionis/agent-safe-pipeline"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/289489188?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "decionis/agent-safe-pipeline"
-      ],
-      "starScore": 358
-    },
-    {
       "id": "104243166",
-      "rank": 2,
+      "rank": 1,
       "type": "User",
       "login": "xiaobright",
       "repos": [
@@ -76,9 +19,9 @@
           "id": 1334245678,
           "fork": false,
           "name": "dsh-anchored-standard",
-          "forks": 5,
+          "forks": 12,
           "owner": "xiaobright",
-          "stars": 248,
+          "stars": 491,
           "avatar": "https://avatars.githubusercontent.com/u/104243166?v=4",
           "topics": [
             "deepseek",
@@ -92,10 +35,10 @@
           "fullName": "xiaobright/dsh-anchored-standard",
           "language": "JavaScript",
           "ownerUrl": "https://github.com/xiaobright",
-          "pushedAt": "2026-08-14T14:06:47+00:00",
+          "pushedAt": "2026-08-15T01:52:55+00:00",
           "createdAt": "2026-08-14T14:06:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T19:23:13+00:00",
+          "updatedAt": "2026-08-15T01:53:48+00:00",
           "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
           "defaultBranch": "main"
         }
@@ -104,7 +47,7 @@
       "topRepo": {
         "name": "dsh-anchored-standard",
         "fullName": "xiaobright/dsh-anchored-standard",
-        "stars": 248,
+        "stars": 491,
         "url": "https://github.com/xiaobright/dsh-anchored-standard"
       },
       "enriched": true,
@@ -113,99 +56,55 @@
       "repoNames": [
         "xiaobright/dsh-anchored-standard"
       ],
-      "starScore": 248
+      "starScore": 491
     },
     {
-      "id": "316773727",
-      "rank": 3,
+      "id": "206584809",
+      "rank": 2,
       "type": "User",
-      "login": "flickzoz",
+      "login": "sjc88661",
       "repos": [
         {
-          "id": 1333672877,
+          "id": 1334362778,
           "fork": false,
-          "name": "mcp-guard",
-          "forks": 84,
-          "owner": "flickzoz",
-          "stars": 87,
-          "avatar": "https://avatars.githubusercontent.com/u/316773727?v=4",
+          "name": "multi-agent-discuss",
+          "forks": 16,
+          "owner": "sjc88661",
+          "stars": 137,
+          "avatar": "https://avatars.githubusercontent.com/u/206584809?v=4",
           "topics": [],
-          "ownerId": "316773727",
-          "repoUrl": "https://github.com/flickzoz/mcp-guard",
+          "ownerId": "206584809",
+          "repoUrl": "https://github.com/sjc88661/multi-agent-discuss",
           "archived": false,
-          "fullName": "flickzoz/mcp-guard",
-          "language": "Python",
-          "ownerUrl": "https://github.com/flickzoz",
-          "pushedAt": "2026-08-14T01:27:41+00:00",
-          "createdAt": "2026-08-14T01:16:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T12:55:41+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/flickzoz",
-      "topRepo": {
-        "name": "mcp-guard",
-        "fullName": "flickzoz/mcp-guard",
-        "stars": 87,
-        "url": "https://github.com/flickzoz/mcp-guard"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316773727?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "flickzoz/mcp-guard"
-      ],
-      "starScore": 87
-    },
-    {
-      "id": "316777744",
-      "rank": 4,
-      "type": "User",
-      "login": "emailhayday10-coder",
-      "repos": [
-        {
-          "id": 1333681306,
-          "fork": false,
-          "name": "agent-doctor",
-          "forks": 86,
-          "owner": "emailhayday10-coder",
-          "stars": 85,
-          "avatar": "https://avatars.githubusercontent.com/u/316777744?v=4",
-          "topics": [],
-          "ownerId": "316777744",
-          "repoUrl": "https://github.com/emailhayday10-coder/agent-doctor",
-          "archived": false,
-          "fullName": "emailhayday10-coder/agent-doctor",
+          "fullName": "sjc88661/multi-agent-discuss",
           "language": "TypeScript",
-          "ownerUrl": "https://github.com/emailhayday10-coder",
-          "pushedAt": "2026-08-14T01:40:15+00:00",
-          "createdAt": "2026-08-14T01:31:52+00:00",
+          "ownerUrl": "https://github.com/sjc88661",
+          "pushedAt": "2026-08-15T00:00:35+00:00",
+          "createdAt": "2026-08-14T16:17:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-14T13:40:35+00:00",
+          "updatedAt": "2026-08-15T01:46:25+00:00",
           "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/emailhayday10-coder",
+      "htmlUrl": "https://github.com/sjc88661",
       "topRepo": {
-        "name": "agent-doctor",
-        "fullName": "emailhayday10-coder/agent-doctor",
-        "stars": 85,
-        "url": "https://github.com/emailhayday10-coder/agent-doctor"
+        "name": "multi-agent-discuss",
+        "fullName": "sjc88661/multi-agent-discuss",
+        "stars": 137,
+        "url": "https://github.com/sjc88661/multi-agent-discuss"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316777744?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206584809?v=4",
       "repoCount": 1,
       "repoNames": [
-        "emailhayday10-coder/agent-doctor"
+        "sjc88661/multi-agent-discuss"
       ],
-      "starScore": 85
+      "starScore": 137
     },
     {
       "id": "316890520",
-      "rank": 5,
+      "rank": 3,
       "type": "User",
       "login": "duongdang942",
       "repos": [
@@ -249,7 +148,7 @@
     },
     {
       "id": "316897483",
-      "rank": 6,
+      "rank": 4,
       "type": "User",
       "login": "dungoutlook1",
       "repos": [
@@ -293,7 +192,7 @@
     },
     {
       "id": "49724027",
-      "rank": 7,
+      "rank": 5,
       "type": "User",
       "login": "hairyf",
       "repos": [
@@ -336,70 +235,8 @@
       "starScore": 63
     },
     {
-      "id": "300096222",
-      "rank": 8,
-      "type": "User",
-      "login": "Digitec-desktop",
-      "repos": [
-        {
-          "id": 1333533139,
-          "fork": false,
-          "name": "Digitec-Desktop",
-          "forks": 0,
-          "owner": "Digitec-desktop",
-          "stars": 53,
-          "avatar": "https://avatars.githubusercontent.com/u/300096222?v=4",
-          "topics": [
-            "cross-platform-app",
-            "desktop-app",
-            "desktop-application",
-            "digitec",
-            "digitec-client",
-            "digitec-desktop",
-            "digitec-desktop-application",
-            "digitec-galaxus",
-            "digitec-galaxus-desktop",
-            "digitec-pc",
-            "digitec-windows",
-            "e-commerce",
-            "galaxus",
-            "galaxus-desktop",
-            "galaxus-windows",
-            "swiss",
-            "switzerland"
-          ],
-          "ownerId": "300096222",
-          "repoUrl": "https://github.com/Digitec-desktop/Digitec-Desktop",
-          "archived": false,
-          "fullName": "Digitec-desktop/Digitec-Desktop",
-          "language": "CSS",
-          "ownerUrl": "https://github.com/Digitec-desktop",
-          "pushedAt": "2026-08-14T11:43:15+00:00",
-          "createdAt": "2026-08-13T20:57:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T11:59:58+00:00",
-          "description": "Digitec Desktop PC – eine Desktop-Anwendung zur Interaktion mit der Digitec-Website über deren API",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Digitec-desktop",
-      "topRepo": {
-        "name": "Digitec-Desktop",
-        "fullName": "Digitec-desktop/Digitec-Desktop",
-        "stars": 53,
-        "url": "https://github.com/Digitec-desktop/Digitec-Desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/300096222?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Digitec-desktop/Digitec-Desktop"
-      ],
-      "starScore": 53
-    },
-    {
       "id": "53948000",
-      "rank": 9,
+      "rank": 6,
       "type": "User",
       "login": "inevolin",
       "repos": [
@@ -450,7 +287,7 @@
     },
     {
       "id": "66435047",
-      "rank": 10,
+      "rank": 7,
       "type": "User",
       "login": "YangJiiii",
       "repos": [
@@ -502,7 +339,7 @@
     },
     {
       "id": "70762109",
-      "rank": 11,
+      "rank": 8,
       "type": "User",
       "login": "karim1556",
       "repos": [
@@ -543,71 +380,6 @@
         "karim1556/skills"
       ],
       "starScore": 38
-    },
-    {
-      "id": "184228334",
-      "rank": 12,
-      "type": "User",
-      "login": "kinik3freecode",
-      "repos": [
-        {
-          "id": 1333583525,
-          "fork": false,
-          "name": "Kimi-K3-Code-Free-Desktop-AI",
-          "forks": 0,
-          "owner": "kinik3freecode",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/184228334?v=4",
-          "topics": [
-            "ai-api-free",
-            "ai-desktop",
-            "desktop-ai",
-            "free-ai-tools",
-            "k2-7",
-            "k3-kimi",
-            "kimi",
-            "kimi-api",
-            "kimi-code",
-            "kimi-code-k3",
-            "kimi-k2",
-            "kimi-k2-6",
-            "kimi-k2-7-code",
-            "kimi-k2-ai",
-            "kimi-k26",
-            "kimi-k3",
-            "kimi-k3-free",
-            "kimi-solution",
-            "moonshot",
-            "moonshot-ai"
-          ],
-          "ownerId": "184228334",
-          "repoUrl": "https://github.com/kinik3freecode/Kimi-K3-Code-Free-Desktop-AI",
-          "archived": false,
-          "fullName": "kinik3freecode/Kimi-K3-Code-Free-Desktop-AI",
-          "language": "C++",
-          "ownerUrl": "https://github.com/kinik3freecode",
-          "pushedAt": "2026-08-13T22:36:42+00:00",
-          "createdAt": "2026-08-13T22:24:33+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-14T01:02:54+00:00",
-          "description": "Kimi K3 Code Free Desktop AI - desktop client for Moonshot's coding LLM with PR review and repo scanning. Kimi k3 vs fable 5, kimi k3 open weights, kimi k3 huggingface, kimi k3 benchmarks, kimi k3 tech report, kimi k4, chinese ai. Bilingual, 200K context. Download 2026.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kinik3freecode",
-      "topRepo": {
-        "name": "Kimi-K3-Code-Free-Desktop-AI",
-        "fullName": "kinik3freecode/Kimi-K3-Code-Free-Desktop-AI",
-        "stars": 13,
-        "url": "https://github.com/kinik3freecode/Kimi-K3-Code-Free-Desktop-AI"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/184228334?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kinik3freecode/Kimi-K3-Code-Free-Desktop-AI"
-      ],
-      "starScore": 13
     }
   ]
 }
