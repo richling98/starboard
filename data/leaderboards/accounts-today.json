@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T07:24:58.522Z",
-  "total": 48,
-  "totalIndexedCount": 48,
-  "coverageLabel": "Showing 48 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-16T13:22:05.052Z",
+  "total": 31,
+  "totalIndexedCount": 31,
+  "coverageLabel": "Showing 31 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,538 +10,179 @@
   },
   "rows": [
     {
-      "id": "135203240",
+      "id": "271215754",
       "rank": 1,
       "type": "User",
-      "login": "alphaparkinc",
+      "login": "voyb",
       "repos": [
         {
-          "id": 1334976068,
+          "id": 1335415986,
           "fork": false,
-          "name": "genpark-agent-decision-provenance-audit-trail-logger-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
+          "name": "aegis-vault",
+          "forks": 1,
+          "owner": "voyb",
+          "stars": 122,
+          "avatar": "https://avatars.githubusercontent.com/u/271215754?v=4",
           "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
+            "2fa",
+            "argon2",
+            "authentication",
+            "cross-platform",
+            "cryptography",
+            "desktop-app",
+            "encryption",
+            "identity",
+            "local-first",
+            "offline",
+            "offline-first",
+            "open-source",
+            "opensource",
+            "password-manager",
+            "privacy",
+            "security",
+            "security-tools",
+            "vanilla-js",
+            "vault",
+            "zero-knowledge"
           ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-agent-decision-provenance-audit-trail-logger-skill",
+          "ownerId": "271215754",
+          "repoUrl": "https://github.com/voyb/aegis-vault",
           "archived": false,
-          "fullName": "alphaparkinc/genpark-agent-decision-provenance-audit-trail-logger-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:59:19+00:00",
-          "createdAt": "2026-08-15T09:59:03+00:00",
+          "fullName": "voyb/aegis-vault",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/voyb",
+          "pushedAt": "2026-08-15T23:19:20+00:00",
+          "createdAt": "2026-08-15T21:08:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-15T15:40:57+00:00",
-          "description": "Agentic decision provenance & cryptographic audit trail logger (Semantica style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334959941,
-          "fork": false,
-          "name": "genpark-autonomous-ai-teammate-task-delegator-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-autonomous-ai-teammate-task-delegator-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-autonomous-ai-teammate-task-delegator-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:32:50+00:00",
-          "createdAt": "2026-08-15T09:32:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:42:33+00:00",
-          "description": "Autonomous AI teammate delegation manager & task scheduler (Grok Bot style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334922451,
-          "fork": false,
-          "name": "genpark-cloud-agent-cluster-container-coordinator-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-cloud-agent-cluster-container-coordinator-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-cloud-agent-cluster-container-coordinator-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T08:31:18+00:00",
-          "createdAt": "2026-08-15T08:31:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:43:18+00:00",
-          "description": "Cloud-hosted multi-LLM agent cluster coordinator & sandbox (AgentSky style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334922687,
-          "fork": false,
-          "name": "genpark-command-line-developer-terminal-agent-scaffolder-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-command-line-developer-terminal-agent-scaffolder-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-command-line-developer-terminal-agent-scaffolder-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T08:31:39+00:00",
-          "createdAt": "2026-08-15T08:31:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:43:26+00:00",
-          "description": "Command-line terminal agent for automated scaffolding & vibe coding (Kane CLI style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334975877,
-          "fork": false,
-          "name": "genpark-composable-agent-plugin-harness-dispatcher-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-composable-agent-plugin-harness-dispatcher-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-composable-agent-plugin-harness-dispatcher-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:58:59+00:00",
-          "createdAt": "2026-08-15T09:58:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:44:27+00:00",
-          "description": "Composable plug-and-play agent harness dispatcher dynamically linking tools",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334975361,
-          "fork": false,
-          "name": "genpark-database-schema-to-llm-context-window-transformer-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-database-schema-to-llm-context-window-transformer-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-database-schema-to-llm-context-window-transformer-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:58:11+00:00",
-          "createdAt": "2026-08-15T09:57:50+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:45:39+00:00",
-          "description": "Database schema & query results transformer into high-density LLM context (Polygres style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334960126,
-          "fork": false,
-          "name": "genpark-desktop-agent-ui-action-recorder-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-desktop-agent-ui-action-recorder-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-desktop-agent-ui-action-recorder-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:33:10+00:00",
-          "createdAt": "2026-08-15T09:32:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:45:45+00:00",
-          "description": "Desktop GUI action recorder & RPA macro generator replay engine",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334976242,
-          "fork": false,
-          "name": "genpark-edge-hardware-model-quantizer-tensor-adapter-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-edge-hardware-model-quantizer-tensor-adapter-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-edge-hardware-model-quantizer-tensor-adapter-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:59:39+00:00",
-          "createdAt": "2026-08-15T09:59:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T15:46:11+00:00",
-          "description": "Edge hardware model quantizer, 4-bit tensor adapter & on-device engine (Soup CLI style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334959322,
-          "fork": false,
-          "name": "genpark-inline-cursor-context-intelligence-rewriter-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-inline-cursor-context-intelligence-rewriter-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-inline-cursor-context-intelligence-rewriter-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:31:49+00:00",
-          "createdAt": "2026-08-15T09:31:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T16:03:38+00:00",
-          "description": "Inline cursor context intelligence, instant text rewriter & screen assistant (Attyn style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334975611,
-          "fork": false,
-          "name": "genpark-llm-opentelemetry-distributed-trace-profiler-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-llm-opentelemetry-distributed-trace-profiler-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-llm-opentelemetry-distributed-trace-profiler-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:58:39+00:00",
-          "createdAt": "2026-08-15T09:58:16+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T16:05:16+00:00",
-          "description": "OpenTelemetry distributed tracing & latency profiler for agent pipelines (TraceLLM style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334959732,
-          "fork": false,
-          "name": "genpark-natural-language-e2e-test-generator-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-natural-language-e2e-test-generator-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-natural-language-e2e-test-generator-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:32:30+00:00",
-          "createdAt": "2026-08-15T09:32:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T16:06:03+00:00",
-          "description": "Natural language to end-to-end browser test generator & validator (Kane CLI style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1335104345,
-          "fork": false,
-          "name": "genpark-sales-pipeline-deal-outcome-forecaster-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-sales-pipeline-deal-outcome-forecaster-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-sales-pipeline-deal-outcome-forecaster-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T13:21:10+00:00",
-          "createdAt": "2026-08-15T13:20:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T14:34:34+00:00",
-          "description": "Autonomous sales pipeline stage velocity & deal outcome forecaster (Outcome style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334923107,
-          "fork": false,
-          "name": "genpark-visual-canvas-workflow-node-layout-synthesizer-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-visual-canvas-workflow-node-layout-synthesizer-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-visual-canvas-workflow-node-layout-synthesizer-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T08:32:22+00:00",
-          "createdAt": "2026-08-15T08:32:03+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T13:32:41+00:00",
-          "description": "Visual canvas workflow node generator & DAG layout synthesizer (Nuphos style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334959543,
-          "fork": false,
-          "name": "genpark-visual-screen-blackboard-explainer-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-visual-screen-blackboard-explainer-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-visual-screen-blackboard-explainer-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T09:32:11+00:00",
-          "createdAt": "2026-08-15T09:31:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T13:32:42+00:00",
-          "description": "Visual screen screenshot analyzer & blackboard diagram explainer (Attyn Blackboard style)",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1335104916,
-          "fork": false,
-          "name": "genpark-voice-to-action-instant-intent-dispatcher-skill",
-          "forks": 0,
-          "owner": "alphaparkinc",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/135203240?v=4",
-          "topics": [
-            "agentic-ai",
-            "ai-agent",
-            "automation",
-            "genpark",
-            "llm-tools",
-            "mcp-server",
-            "python"
-          ],
-          "ownerId": "135203240",
-          "repoUrl": "https://github.com/alphaparkinc/genpark-voice-to-action-instant-intent-dispatcher-skill",
-          "archived": false,
-          "fullName": "alphaparkinc/genpark-voice-to-action-instant-intent-dispatcher-skill",
-          "language": "Python",
-          "ownerUrl": "https://github.com/alphaparkinc",
-          "pushedAt": "2026-08-15T13:21:54+00:00",
-          "createdAt": "2026-08-15T13:21:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T14:36:06+00:00",
-          "description": "Voice-to-action semantic intent parser & webhook dispatcher (Wispr Action style)",
+          "updatedAt": "2026-08-16T12:47:19+00:00",
+          "description": "Offline password, identity, and secret vault. Argon2id + AES-256-GCM, zero servers, zero telemetry.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/alphaparkinc",
+      "htmlUrl": "https://github.com/voyb",
       "topRepo": {
-        "name": "genpark-agent-decision-provenance-audit-trail-logger-skill",
-        "fullName": "alphaparkinc/genpark-agent-decision-provenance-audit-trail-logger-skill",
-        "stars": 8,
-        "url": "https://github.com/alphaparkinc/genpark-agent-decision-provenance-audit-trail-logger-skill"
+        "name": "aegis-vault",
+        "fullName": "voyb/aegis-vault",
+        "stars": 122,
+        "url": "https://github.com/voyb/aegis-vault"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/135203240?v=4",
-      "repoCount": 15,
-      "repoNames": [
-        "alphaparkinc/genpark-agent-decision-provenance-audit-trail-logger-skill",
-        "alphaparkinc/genpark-autonomous-ai-teammate-task-delegator-skill",
-        "alphaparkinc/genpark-cloud-agent-cluster-container-coordinator-skill",
-        "alphaparkinc/genpark-command-line-developer-terminal-agent-scaffolder-skill",
-        "alphaparkinc/genpark-composable-agent-plugin-harness-dispatcher-skill",
-        "alphaparkinc/genpark-database-schema-to-llm-context-window-transformer-skill",
-        "alphaparkinc/genpark-desktop-agent-ui-action-recorder-skill",
-        "alphaparkinc/genpark-edge-hardware-model-quantizer-tensor-adapter-skill",
-        "alphaparkinc/genpark-inline-cursor-context-intelligence-rewriter-skill",
-        "alphaparkinc/genpark-llm-opentelemetry-distributed-trace-profiler-skill",
-        "alphaparkinc/genpark-natural-language-e2e-test-generator-skill",
-        "alphaparkinc/genpark-sales-pipeline-deal-outcome-forecaster-skill",
-        "alphaparkinc/genpark-visual-canvas-workflow-node-layout-synthesizer-skill",
-        "alphaparkinc/genpark-visual-screen-blackboard-explainer-skill",
-        "alphaparkinc/genpark-voice-to-action-instant-intent-dispatcher-skill"
-      ],
-      "starScore": 120
-    },
-    {
-      "id": "181764715",
-      "rank": 2,
-      "type": "User",
-      "login": "Yousuf-developer",
-      "repos": [
-        {
-          "id": 1334924942,
-          "fork": false,
-          "name": "Viscose-carousel",
-          "forks": 22,
-          "owner": "Yousuf-developer",
-          "stars": 114,
-          "avatar": "https://avatars.githubusercontent.com/u/181764715?v=4",
-          "topics": [],
-          "ownerId": "181764715",
-          "repoUrl": "https://github.com/Yousuf-developer/Viscose-carousel",
-          "archived": false,
-          "fullName": "Yousuf-developer/Viscose-carousel",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/Yousuf-developer",
-          "pushedAt": "2026-08-15T09:00:35+00:00",
-          "createdAt": "2026-08-15T08:34:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:00:29+00:00",
-          "description": "A wheel of work that never quite sets. Cards fuse as they meet, and draw into threads as they part.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Yousuf-developer",
-      "topRepo": {
-        "name": "Viscose-carousel",
-        "fullName": "Yousuf-developer/Viscose-carousel",
-        "stars": 114,
-        "url": "https://github.com/Yousuf-developer/Viscose-carousel"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/181764715?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/271215754?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Yousuf-developer/Viscose-carousel"
+        "voyb/aegis-vault"
       ],
-      "starScore": 114
+      "starScore": 122
+    },
+    {
+      "id": "316989449",
+      "rank": 2,
+      "type": "User",
+      "login": "opaxial",
+      "repos": [
+        {
+          "id": 1335407384,
+          "fork": false,
+          "name": "CVE-2026-9830",
+          "forks": 1,
+          "owner": "opaxial",
+          "stars": 111,
+          "avatar": "https://avatars.githubusercontent.com/u/316989449?v=4",
+          "topics": [
+            "cve",
+            "cve-2026-9830",
+            "cvss",
+            "exploit",
+            "exploit-db",
+            "latest",
+            "poc",
+            "proof-of-concept",
+            "python",
+            "vulnerability"
+          ],
+          "ownerId": "316989449",
+          "repoUrl": "https://github.com/opaxial/CVE-2026-9830",
+          "archived": false,
+          "fullName": "opaxial/CVE-2026-9830",
+          "language": "Python",
+          "ownerUrl": "https://github.com/opaxial",
+          "pushedAt": "2026-08-15T22:39:12+00:00",
+          "createdAt": "2026-08-15T20:57:13+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T13:10:09+00:00",
+          "description": "CVE-2026-9830 Proof of Concept",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/opaxial",
+      "topRepo": {
+        "name": "CVE-2026-9830",
+        "fullName": "opaxial/CVE-2026-9830",
+        "stars": 111,
+        "url": "https://github.com/opaxial/CVE-2026-9830"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/316989449?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "opaxial/CVE-2026-9830"
+      ],
+      "starScore": 111
+    },
+    {
+      "id": "1935246",
+      "rank": 3,
+      "type": "User",
+      "login": "anonrig",
+      "repos": [
+        {
+          "id": 1335351545,
+          "fork": false,
+          "name": "router",
+          "forks": 1,
+          "owner": "anonrig",
+          "stars": 97,
+          "avatar": "https://avatars.githubusercontent.com/u/1935246?v=4",
+          "topics": [
+            "react",
+            "react19",
+            "router",
+            "ssr",
+            "tanstack",
+            "typescript"
+          ],
+          "ownerId": "1935246",
+          "repoUrl": "https://github.com/anonrig/router",
+          "archived": false,
+          "fullName": "anonrig/router",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/anonrig",
+          "pushedAt": "2026-08-16T13:10:09+00:00",
+          "createdAt": "2026-08-15T19:21:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:57:13+00:00",
+          "description": "The TanStack Router API. Rebuilt for the hot path.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/anonrig",
+      "topRepo": {
+        "name": "router",
+        "fullName": "anonrig/router",
+        "stars": 97,
+        "url": "https://github.com/anonrig/router"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1935246?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "anonrig/router"
+      ],
+      "starScore": 97
     },
     {
       "id": "278925633",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "romanbhq2000w8",
       "repos": [
@@ -605,151 +246,8 @@
       "starScore": 93
     },
     {
-      "id": "316989449",
-      "rank": 4,
-      "type": "User",
-      "login": "opaxial",
-      "repos": [
-        {
-          "id": 1335407384,
-          "fork": false,
-          "name": "CVE-2026-9830",
-          "forks": 1,
-          "owner": "opaxial",
-          "stars": 67,
-          "avatar": "https://avatars.githubusercontent.com/u/316989449?v=4",
-          "topics": [
-            "cve",
-            "cve-2026-9830",
-            "cvss",
-            "exploit",
-            "exploit-db",
-            "latest",
-            "poc",
-            "proof-of-concept",
-            "python",
-            "vulnerability"
-          ],
-          "ownerId": "316989449",
-          "repoUrl": "https://github.com/opaxial/CVE-2026-9830",
-          "archived": false,
-          "fullName": "opaxial/CVE-2026-9830",
-          "language": "Python",
-          "ownerUrl": "https://github.com/opaxial",
-          "pushedAt": "2026-08-15T22:39:12+00:00",
-          "createdAt": "2026-08-15T20:57:13+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:37:52+00:00",
-          "description": "CVE-2026-9830 Proof of Concept",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/opaxial",
-      "topRepo": {
-        "name": "CVE-2026-9830",
-        "fullName": "opaxial/CVE-2026-9830",
-        "stars": 67,
-        "url": "https://github.com/opaxial/CVE-2026-9830"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316989449?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "opaxial/CVE-2026-9830"
-      ],
-      "starScore": 67
-    },
-    {
-      "id": "90512",
-      "rank": 5,
-      "type": "User",
-      "login": "staltz",
-      "repos": [
-        {
-          "id": 1335016012,
-          "fork": false,
-          "name": "microskills",
-          "forks": 1,
-          "owner": "staltz",
-          "stars": 61,
-          "avatar": "https://avatars.githubusercontent.com/u/90512?v=4",
-          "topics": [],
-          "ownerId": "90512",
-          "repoUrl": "https://github.com/staltz/microskills",
-          "archived": false,
-          "fullName": "staltz/microskills",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/staltz",
-          "pushedAt": "2026-08-15T14:20:31+00:00",
-          "createdAt": "2026-08-15T11:05:03+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:54:37+00:00",
-          "description": "Modular prompts I use every day",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/staltz",
-      "topRepo": {
-        "name": "microskills",
-        "fullName": "staltz/microskills",
-        "stars": 61,
-        "url": "https://github.com/staltz/microskills"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/90512?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "staltz/microskills"
-      ],
-      "starScore": 61
-    },
-    {
-      "id": "285343038",
-      "rank": 6,
-      "type": "User",
-      "login": "bimbimkkay-crypto",
-      "repos": [
-        {
-          "id": 1334938541,
-          "fork": false,
-          "name": "my-food",
-          "forks": 59,
-          "owner": "bimbimkkay-crypto",
-          "stars": 60,
-          "avatar": "https://avatars.githubusercontent.com/u/285343038?v=4",
-          "topics": [],
-          "ownerId": "285343038",
-          "repoUrl": "https://github.com/bimbimkkay-crypto/my-food",
-          "archived": false,
-          "fullName": "bimbimkkay-crypto/my-food",
-          "language": "Java",
-          "ownerUrl": "https://github.com/bimbimkkay-crypto",
-          "pushedAt": "2026-08-15T08:59:30+00:00",
-          "createdAt": "2026-08-15T08:57:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T19:54:00+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/bimbimkkay-crypto",
-      "topRepo": {
-        "name": "my-food",
-        "fullName": "bimbimkkay-crypto/my-food",
-        "stars": 60,
-        "url": "https://github.com/bimbimkkay-crypto/my-food"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/285343038?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "bimbimkkay-crypto/my-food"
-      ],
-      "starScore": 60
-    },
-    {
       "id": "167011311",
-      "rank": 7,
+      "rank": 5,
       "type": "User",
       "login": "LeonQ8",
       "repos": [
@@ -757,9 +255,9 @@
           "id": 1335304622,
           "fork": false,
           "name": "ComfyUI-ALLinONE-MinimaxH3",
-          "forks": 5,
+          "forks": 6,
           "owner": "LeonQ8",
-          "stars": 59,
+          "stars": 86,
           "avatar": "https://avatars.githubusercontent.com/u/167011311?v=4",
           "topics": [],
           "ownerId": "167011311",
@@ -768,10 +266,10 @@
           "fullName": "LeonQ8/ComfyUI-ALLinONE-MinimaxH3",
           "language": "JavaScript",
           "ownerUrl": "https://github.com/LeonQ8",
-          "pushedAt": "2026-08-15T20:48:35+00:00",
+          "pushedAt": "2026-08-16T11:06:18+00:00",
           "createdAt": "2026-08-15T18:04:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T07:02:59+00:00",
+          "updatedAt": "2026-08-16T12:52:15+00:00",
           "description": "All-in-one MiniMax H3 node for ComfyUI - T2V, I2V, R2V, audio drive, keyframes, extend & Motion Context chains in a single node.",
           "defaultBranch": "main"
         }
@@ -780,7 +278,7 @@
       "topRepo": {
         "name": "ComfyUI-ALLinONE-MinimaxH3",
         "fullName": "LeonQ8/ComfyUI-ALLinONE-MinimaxH3",
-        "stars": 59,
+        "stars": 86,
         "url": "https://github.com/LeonQ8/ComfyUI-ALLinONE-MinimaxH3"
       },
       "enriched": true,
@@ -789,311 +287,11 @@
       "repoNames": [
         "LeonQ8/ComfyUI-ALLinONE-MinimaxH3"
       ],
-      "starScore": 59
-    },
-    {
-      "id": "128460054",
-      "rank": 8,
-      "type": "User",
-      "login": "Miisan-png",
-      "repos": [
-        {
-          "id": 1335228600,
-          "fork": false,
-          "name": "godot-liquid-ui",
-          "forks": 7,
-          "owner": "Miisan-png",
-          "stars": 54,
-          "avatar": "https://avatars.githubusercontent.com/u/128460054?v=4",
-          "topics": [],
-          "ownerId": "128460054",
-          "repoUrl": "https://github.com/Miisan-png/godot-liquid-ui",
-          "archived": false,
-          "fullName": "Miisan-png/godot-liquid-ui",
-          "language": "GDScript",
-          "ownerUrl": "https://github.com/Miisan-png",
-          "pushedAt": "2026-08-15T16:42:34+00:00",
-          "createdAt": "2026-08-15T16:11:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:23:43+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Miisan-png",
-      "topRepo": {
-        "name": "godot-liquid-ui",
-        "fullName": "Miisan-png/godot-liquid-ui",
-        "stars": 54,
-        "url": "https://github.com/Miisan-png/godot-liquid-ui"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/128460054?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Miisan-png/godot-liquid-ui"
-      ],
-      "starScore": 54
-    },
-    {
-      "id": "271215754",
-      "rank": 9,
-      "type": "User",
-      "login": "voyb",
-      "repos": [
-        {
-          "id": 1335415986,
-          "fork": false,
-          "name": "aegis-vault",
-          "forks": 0,
-          "owner": "voyb",
-          "stars": 52,
-          "avatar": "https://avatars.githubusercontent.com/u/271215754?v=4",
-          "topics": [
-            "2fa",
-            "argon2",
-            "authentication",
-            "cross-platform",
-            "cryptography",
-            "desktop-app",
-            "encryption",
-            "identity",
-            "local-first",
-            "offline",
-            "offline-first",
-            "open-source",
-            "opensource",
-            "password-manager",
-            "privacy",
-            "security",
-            "security-tools",
-            "vanilla-js",
-            "vault",
-            "zero-knowledge"
-          ],
-          "ownerId": "271215754",
-          "repoUrl": "https://github.com/voyb/aegis-vault",
-          "archived": false,
-          "fullName": "voyb/aegis-vault",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/voyb",
-          "pushedAt": "2026-08-15T23:19:20+00:00",
-          "createdAt": "2026-08-15T21:08:48+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:11:02+00:00",
-          "description": "Offline password, identity, and secret vault. Argon2id + AES-256-GCM, zero servers, zero telemetry.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/voyb",
-      "topRepo": {
-        "name": "aegis-vault",
-        "fullName": "voyb/aegis-vault",
-        "stars": 52,
-        "url": "https://github.com/voyb/aegis-vault"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/271215754?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "voyb/aegis-vault"
-      ],
-      "starScore": 52
-    },
-    {
-      "id": "313921581",
-      "rank": 10,
-      "type": "User",
-      "login": "neilthomas89440-crypto",
-      "repos": [
-        {
-          "id": 1334892591,
-          "fork": false,
-          "name": "inferna-next",
-          "forks": 0,
-          "owner": "neilthomas89440-crypto",
-          "stars": 51,
-          "avatar": "https://avatars.githubusercontent.com/u/313921581?v=4",
-          "topics": [],
-          "ownerId": "313921581",
-          "repoUrl": "https://github.com/neilthomas89440-crypto/inferna-next",
-          "archived": false,
-          "fullName": "neilthomas89440-crypto/inferna-next",
-          "language": "Python",
-          "ownerUrl": "https://github.com/neilthomas89440-crypto",
-          "pushedAt": "2026-08-15T09:15:07+00:00",
-          "createdAt": "2026-08-15T07:41:10+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T21:00:03+00:00",
-          "description": "Self-hosted GPU cluster orchestration: deploy and serve AI models on your own hardware",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/neilthomas89440-crypto",
-      "topRepo": {
-        "name": "inferna-next",
-        "fullName": "neilthomas89440-crypto/inferna-next",
-        "stars": 51,
-        "url": "https://github.com/neilthomas89440-crypto/inferna-next"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/313921581?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "neilthomas89440-crypto/inferna-next"
-      ],
-      "starScore": 51
-    },
-    {
-      "id": "116276652",
-      "rank": 11,
-      "type": "User",
-      "login": "NetroIndonesia",
-      "repos": [
-        {
-          "id": 1335052083,
-          "fork": false,
-          "name": "freebuff2api",
-          "forks": 3,
-          "owner": "NetroIndonesia",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/116276652?v=4",
-          "topics": [],
-          "ownerId": "116276652",
-          "repoUrl": "https://github.com/NetroIndonesia/freebuff2api",
-          "archived": false,
-          "fullName": "NetroIndonesia/freebuff2api",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/NetroIndonesia",
-          "pushedAt": "2026-08-16T06:52:37+00:00",
-          "createdAt": "2026-08-15T12:02:12+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:52:40+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/NetroIndonesia",
-      "topRepo": {
-        "name": "freebuff2api",
-        "fullName": "NetroIndonesia/freebuff2api",
-        "stars": 50,
-        "url": "https://github.com/NetroIndonesia/freebuff2api"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/116276652?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "NetroIndonesia/freebuff2api"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "1935246",
-      "rank": 12,
-      "type": "User",
-      "login": "anonrig",
-      "repos": [
-        {
-          "id": 1335351545,
-          "fork": false,
-          "name": "router",
-          "forks": 0,
-          "owner": "anonrig",
-          "stars": 47,
-          "avatar": "https://avatars.githubusercontent.com/u/1935246?v=4",
-          "topics": [
-            "react",
-            "react19",
-            "router",
-            "ssr",
-            "tanstack",
-            "typescript"
-          ],
-          "ownerId": "1935246",
-          "repoUrl": "https://github.com/anonrig/router",
-          "archived": false,
-          "fullName": "anonrig/router",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/anonrig",
-          "pushedAt": "2026-08-16T06:12:07+00:00",
-          "createdAt": "2026-08-15T19:21:18+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:08:55+00:00",
-          "description": "The TanStack Router API. Rebuilt for the hot path.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/anonrig",
-      "topRepo": {
-        "name": "router",
-        "fullName": "anonrig/router",
-        "stars": 47,
-        "url": "https://github.com/anonrig/router"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1935246?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "anonrig/router"
-      ],
-      "starScore": 47
-    },
-    {
-      "id": "271634304",
-      "rank": 13,
-      "type": "User",
-      "login": "jaredrhod",
-      "repos": [
-        {
-          "id": 1334886021,
-          "fork": false,
-          "name": "barehands",
-          "forks": 7,
-          "owner": "jaredrhod",
-          "stars": 45,
-          "avatar": "https://avatars.githubusercontent.com/u/271634304?v=4",
-          "topics": [
-            "ai-assisstant",
-            "augmented-reality",
-            "claude-code",
-            "gesture-control",
-            "hand-tracking",
-            "mediapipe",
-            "threejs"
-          ],
-          "ownerId": "271634304",
-          "repoUrl": "https://github.com/jaredrhod/barehands",
-          "archived": false,
-          "fullName": "jaredrhod/barehands",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/jaredrhod",
-          "pushedAt": "2026-08-15T19:46:56+00:00",
-          "createdAt": "2026-08-15T07:30:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:14:51+00:00",
-          "description": "Move things on your screen with your bare hands. A webcam-powered, hand-tracked interface for your AI. No headset. No controllers.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jaredrhod",
-      "topRepo": {
-        "name": "barehands",
-        "fullName": "jaredrhod/barehands",
-        "stars": 45,
-        "url": "https://github.com/jaredrhod/barehands"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/271634304?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jaredrhod/barehands"
-      ],
-      "starScore": 45
+      "starScore": 86
     },
     {
       "id": "8277386",
-      "rank": 14,
+      "rank": 6,
       "type": "User",
       "login": "KickNext",
       "repos": [
@@ -1103,7 +301,7 @@
           "name": "morphnext",
           "forks": 1,
           "owner": "KickNext",
-          "stars": 40,
+          "stars": 72,
           "avatar": "https://avatars.githubusercontent.com/u/8277386?v=4",
           "topics": [
             "animation",
@@ -1122,7 +320,7 @@
           "pushedAt": "2026-08-15T20:09:30+00:00",
           "createdAt": "2026-08-15T19:07:40+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T06:34:57+00:00",
+          "updatedAt": "2026-08-16T12:44:20+00:00",
           "description": "Interruptible vector icon morphing for Flutter.",
           "defaultBranch": "main"
         }
@@ -1131,7 +329,7 @@
       "topRepo": {
         "name": "morphnext",
         "fullName": "KickNext/morphnext",
-        "stars": 40,
+        "stars": 72,
         "url": "https://github.com/KickNext/morphnext"
       },
       "enriched": true,
@@ -1140,11 +338,116 @@
       "repoNames": [
         "KickNext/morphnext"
       ],
-      "starScore": 40
+      "starScore": 72
+    },
+    {
+      "id": "128460054",
+      "rank": 7,
+      "type": "User",
+      "login": "Miisan-png",
+      "repos": [
+        {
+          "id": 1335228600,
+          "fork": false,
+          "name": "godot-liquid-ui",
+          "forks": 7,
+          "owner": "Miisan-png",
+          "stars": 64,
+          "avatar": "https://avatars.githubusercontent.com/u/128460054?v=4",
+          "topics": [],
+          "ownerId": "128460054",
+          "repoUrl": "https://github.com/Miisan-png/godot-liquid-ui",
+          "archived": false,
+          "fullName": "Miisan-png/godot-liquid-ui",
+          "language": "GDScript",
+          "ownerUrl": "https://github.com/Miisan-png",
+          "pushedAt": "2026-08-15T16:42:34+00:00",
+          "createdAt": "2026-08-15T16:11:04+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:22:53+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Miisan-png",
+      "topRepo": {
+        "name": "godot-liquid-ui",
+        "fullName": "Miisan-png/godot-liquid-ui",
+        "stars": 64,
+        "url": "https://github.com/Miisan-png/godot-liquid-ui"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128460054?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Miisan-png/godot-liquid-ui"
+      ],
+      "starScore": 64
+    },
+    {
+      "id": "108453477",
+      "rank": 8,
+      "type": "User",
+      "login": "m1ckc3s",
+      "repos": [
+        {
+          "id": 1335434949,
+          "fork": false,
+          "name": "procedural-sounds",
+          "forks": 0,
+          "owner": "m1ckc3s",
+          "stars": 54,
+          "avatar": "https://avatars.githubusercontent.com/u/108453477?v=4",
+          "topics": [
+            "design-tools",
+            "generative-audio",
+            "interface-design",
+            "microinteractions",
+            "nextjs",
+            "open-source",
+            "procedural-audio",
+            "react",
+            "sound-design",
+            "synthesizer",
+            "tailwindcss",
+            "typescript",
+            "ui-sounds",
+            "ux",
+            "web-audio",
+            "web-audio-api"
+          ],
+          "ownerId": "108453477",
+          "repoUrl": "https://github.com/m1ckc3s/procedural-sounds",
+          "archived": false,
+          "fullName": "m1ckc3s/procedural-sounds",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/m1ckc3s",
+          "pushedAt": "2026-08-16T12:26:59+00:00",
+          "createdAt": "2026-08-15T21:36:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T13:07:40+00:00",
+          "description": "Procedural interface sounds, with taste. Generated live in the browser from recipes, steered by a hand-curated library and calibrated by ear. No audio files. Beta, open to collaborators.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/m1ckc3s",
+      "topRepo": {
+        "name": "procedural-sounds",
+        "fullName": "m1ckc3s/procedural-sounds",
+        "stars": 54,
+        "url": "https://github.com/m1ckc3s/procedural-sounds"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108453477?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "m1ckc3s/procedural-sounds"
+      ],
+      "starScore": 54
     },
     {
       "id": "5006546",
-      "rank": 15,
+      "rank": 9,
       "type": "User",
       "login": "AminulBD",
       "repos": [
@@ -1152,9 +455,9 @@
           "id": 1335152456,
           "fork": false,
           "name": "ds",
-          "forks": 11,
+          "forks": 13,
           "owner": "AminulBD",
-          "stars": 37,
+          "stars": 48,
           "avatar": "https://avatars.githubusercontent.com/u/5006546?v=4",
           "topics": [],
           "ownerId": "5006546",
@@ -1166,7 +469,7 @@
           "pushedAt": "2026-08-15T17:48:29+00:00",
           "createdAt": "2026-08-15T14:26:42+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T06:01:49+00:00",
+          "updatedAt": "2026-08-16T11:56:49+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -1175,7 +478,7 @@
       "topRepo": {
         "name": "ds",
         "fullName": "AminulBD/ds",
-        "stars": 37,
+        "stars": 48,
         "url": "https://github.com/AminulBD/ds"
       },
       "enriched": true,
@@ -1184,11 +487,195 @@
       "repoNames": [
         "AminulBD/ds"
       ],
-      "starScore": 37
+      "starScore": 48
+    },
+    {
+      "id": "51721416",
+      "rank": 10,
+      "type": "User",
+      "login": "Danilaa1",
+      "repos": [
+        {
+          "id": 1335384328,
+          "fork": false,
+          "name": "drawably",
+          "forks": 2,
+          "owner": "Danilaa1",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/51721416?v=4",
+          "topics": [],
+          "ownerId": "51721416",
+          "repoUrl": "https://github.com/Danilaa1/drawably",
+          "archived": false,
+          "fullName": "Danilaa1/drawably",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Danilaa1",
+          "pushedAt": "2026-08-15T20:30:17+00:00",
+          "createdAt": "2026-08-15T20:22:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:25:44+00:00",
+          "description": "Hand-drawn UI controls. Every mount generates a fresh pen sketch from seeded randomness, and the stroke boils like an animated doodle. Zero dependencies, 4 KB of JS and one stylesheet.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Danilaa1",
+      "topRepo": {
+        "name": "drawably",
+        "fullName": "Danilaa1/drawably",
+        "stars": 35,
+        "url": "https://github.com/Danilaa1/drawably"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51721416?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Danilaa1/drawably"
+      ],
+      "starScore": 35
+    },
+    {
+      "id": "7037804",
+      "rank": 11,
+      "type": "User",
+      "login": "pcm720",
+      "repos": [
+        {
+          "id": 1335356927,
+          "fork": false,
+          "name": "dvrpwned",
+          "forks": 2,
+          "owner": "pcm720",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/7037804?v=4",
+          "topics": [],
+          "ownerId": "7037804",
+          "repoUrl": "https://github.com/pcm720/dvrpwned",
+          "archived": false,
+          "fullName": "pcm720/dvrpwned",
+          "language": "C",
+          "ownerUrl": "https://github.com/pcm720",
+          "pushedAt": "2026-08-16T01:02:02+00:00",
+          "createdAt": "2026-08-15T19:30:50+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:35:37+00:00",
+          "description": "The first ever working custom firmware for the PSX DESR DVRP",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/pcm720",
+      "topRepo": {
+        "name": "dvrpwned",
+        "fullName": "pcm720/dvrpwned",
+        "stars": 35,
+        "url": "https://github.com/pcm720/dvrpwned"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7037804?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "pcm720/dvrpwned"
+      ],
+      "starScore": 35
+    },
+    {
+      "id": "204397604",
+      "rank": 12,
+      "type": "User",
+      "login": "Wassimyounes01",
+      "repos": [
+        {
+          "id": 1335401089,
+          "fork": false,
+          "name": "qwen36-uncensored",
+          "forks": 5,
+          "owner": "Wassimyounes01",
+          "stars": 33,
+          "avatar": "https://avatars.githubusercontent.com/u/204397604?v=4",
+          "topics": [
+            "gguf",
+            "llama-cpp",
+            "local-llm",
+            "ollama",
+            "qwen",
+            "qwen3",
+            "uncensored"
+          ],
+          "ownerId": "204397604",
+          "repoUrl": "https://github.com/Wassimyounes01/qwen36-uncensored",
+          "archived": false,
+          "fullName": "Wassimyounes01/qwen36-uncensored",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/Wassimyounes01",
+          "pushedAt": "2026-08-15T22:58:28+00:00",
+          "createdAt": "2026-08-15T20:49:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:40:52+00:00",
+          "description": "Local Qwen 3.6 27B Q4_K_M (~16.8 GB) + harvested uncensored SYSTEM pack. Download the Unsloth GGUF or ollama pull, then bake.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Wassimyounes01",
+      "topRepo": {
+        "name": "qwen36-uncensored",
+        "fullName": "Wassimyounes01/qwen36-uncensored",
+        "stars": 33,
+        "url": "https://github.com/Wassimyounes01/qwen36-uncensored"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/204397604?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Wassimyounes01/qwen36-uncensored"
+      ],
+      "starScore": 33
+    },
+    {
+      "id": "43920256",
+      "rank": 13,
+      "type": "User",
+      "login": "ColdP",
+      "repos": [
+        {
+          "id": 1335117729,
+          "fork": false,
+          "name": "HyperChanger",
+          "forks": 0,
+          "owner": "ColdP",
+          "stars": 32,
+          "avatar": "https://avatars.githubusercontent.com/u/43920256?v=4",
+          "topics": [],
+          "ownerId": "43920256",
+          "repoUrl": "https://github.com/ColdP/HyperChanger",
+          "archived": false,
+          "fullName": "ColdP/HyperChanger",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/ColdP",
+          "pushedAt": "2026-08-15T16:42:42+00:00",
+          "createdAt": "2026-08-15T13:39:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T11:28:40+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ColdP",
+      "topRepo": {
+        "name": "HyperChanger",
+        "fullName": "ColdP/HyperChanger",
+        "stars": 32,
+        "url": "https://github.com/ColdP/HyperChanger"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43920256?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ColdP/HyperChanger"
+      ],
+      "starScore": 32
     },
     {
       "id": "279111204",
-      "rank": 16,
+      "rank": 14,
       "type": "User",
       "login": "adam-leelab1998a2",
       "repos": [
@@ -1254,272 +741,52 @@
       "starScore": 30
     },
     {
-      "id": "7037804",
-      "rank": 17,
+      "id": "52071314",
+      "rank": 15,
       "type": "User",
-      "login": "pcm720",
+      "login": "Dr-TSNG",
       "repos": [
         {
-          "id": 1335356927,
+          "id": 1335772547,
           "fork": false,
-          "name": "dvrpwned",
-          "forks": 2,
-          "owner": "pcm720",
-          "stars": 29,
-          "avatar": "https://avatars.githubusercontent.com/u/7037804?v=4",
-          "topics": [],
-          "ownerId": "7037804",
-          "repoUrl": "https://github.com/pcm720/dvrpwned",
-          "archived": false,
-          "fullName": "pcm720/dvrpwned",
-          "language": "C",
-          "ownerUrl": "https://github.com/pcm720",
-          "pushedAt": "2026-08-16T01:02:02+00:00",
-          "createdAt": "2026-08-15T19:30:50+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T05:57:02+00:00",
-          "description": "The first ever working custom firmware for the PSX DESR DVRP",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/pcm720",
-      "topRepo": {
-        "name": "dvrpwned",
-        "fullName": "pcm720/dvrpwned",
-        "stars": 29,
-        "url": "https://github.com/pcm720/dvrpwned"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7037804?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "pcm720/dvrpwned"
-      ],
-      "starScore": 29
-    },
-    {
-      "id": "43920256",
-      "rank": 18,
-      "type": "User",
-      "login": "ColdP",
-      "repos": [
-        {
-          "id": 1335117729,
-          "fork": false,
-          "name": "HyperChanger",
+          "name": "LPAUnbound",
           "forks": 0,
-          "owner": "ColdP",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/43920256?v=4",
-          "topics": [],
-          "ownerId": "43920256",
-          "repoUrl": "https://github.com/ColdP/HyperChanger",
-          "archived": false,
-          "fullName": "ColdP/HyperChanger",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/ColdP",
-          "pushedAt": "2026-08-15T16:42:42+00:00",
-          "createdAt": "2026-08-15T13:39:41+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:31:00+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ColdP",
-      "topRepo": {
-        "name": "HyperChanger",
-        "fullName": "ColdP/HyperChanger",
-        "stars": 27,
-        "url": "https://github.com/ColdP/HyperChanger"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43920256?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ColdP/HyperChanger"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "8530705",
-      "rank": 19,
-      "type": "User",
-      "login": "sebbbi",
-      "repos": [
-        {
-          "id": 1334913671,
-          "fork": false,
-          "name": "clean_gfx",
-          "forks": 0,
-          "owner": "sebbbi",
+          "owner": "Dr-TSNG",
           "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/8530705?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/52071314?v=4",
           "topics": [],
-          "ownerId": "8530705",
-          "repoUrl": "https://github.com/sebbbi/clean_gfx",
+          "ownerId": "52071314",
+          "repoUrl": "https://github.com/Dr-TSNG/LPAUnbound",
           "archived": false,
-          "fullName": "sebbbi/clean_gfx",
-          "language": "C++",
-          "ownerUrl": "https://github.com/sebbbi",
-          "pushedAt": "2026-08-15T11:25:56+00:00",
-          "createdAt": "2026-08-15T08:17:19+00:00",
+          "fullName": "Dr-TSNG/LPAUnbound",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/Dr-TSNG",
+          "pushedAt": "2026-08-16T09:16:21+00:00",
+          "createdAt": "2026-08-16T09:10:26+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T05:47:22+00:00",
-          "description": "Clean graphics API on top of Vulkan with latest extensions. As close as possibly to my blog post and SIGGRAPH talk.",
-          "defaultBranch": "main"
+          "updatedAt": "2026-08-16T13:08:49+00:00",
+          "description": "HyperOS CN eSIM unlocker",
+          "defaultBranch": "master"
         }
       ],
-      "htmlUrl": "https://github.com/sebbbi",
+      "htmlUrl": "https://github.com/Dr-TSNG",
       "topRepo": {
-        "name": "clean_gfx",
-        "fullName": "sebbbi/clean_gfx",
+        "name": "LPAUnbound",
+        "fullName": "Dr-TSNG/LPAUnbound",
         "stars": 24,
-        "url": "https://github.com/sebbbi/clean_gfx"
+        "url": "https://github.com/Dr-TSNG/LPAUnbound"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8530705?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52071314?v=4",
       "repoCount": 1,
       "repoNames": [
-        "sebbbi/clean_gfx"
+        "Dr-TSNG/LPAUnbound"
       ],
       "starScore": 24
     },
     {
-      "id": "171281175",
-      "rank": 20,
-      "type": "User",
-      "login": "0xkaize",
-      "repos": [
-        {
-          "id": 1334935003,
-          "fork": false,
-          "name": "LIBERTY-PROMTS",
-          "forks": 1,
-          "owner": "0xkaize",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/171281175?v=4",
-          "topics": [],
-          "ownerId": "171281175",
-          "repoUrl": "https://github.com/0xkaize/LIBERTY-PROMTS",
-          "archived": false,
-          "fullName": "0xkaize/LIBERTY-PROMTS",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/0xkaize",
-          "pushedAt": "2026-08-15T08:53:01+00:00",
-          "createdAt": "2026-08-15T08:51:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:46:09+00:00",
-          "description": "LIBERTY PROMPTS FOR JAILBREAK AI MODELS <I AM NOT RESPONSIBLE FOR WHAT YOU DO WITH THEM> ENJOY😈",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/0xkaize",
-      "topRepo": {
-        "name": "LIBERTY-PROMTS",
-        "fullName": "0xkaize/LIBERTY-PROMTS",
-        "stars": 23,
-        "url": "https://github.com/0xkaize/LIBERTY-PROMTS"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/171281175?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "0xkaize/LIBERTY-PROMTS"
-      ],
-      "starScore": 23
-    },
-    {
-      "id": "83042094",
-      "rank": 21,
-      "type": "User",
-      "login": "MiaAI-Lab",
-      "repos": [
-        {
-          "id": 1335005265,
-          "fork": false,
-          "name": "Qwen3.8-27B-SGLang-DGX-Spark",
-          "forks": 2,
-          "owner": "MiaAI-Lab",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/83042094?v=4",
-          "topics": [],
-          "ownerId": "83042094",
-          "repoUrl": "https://github.com/MiaAI-Lab/Qwen3.8-27B-SGLang-DGX-Spark",
-          "archived": false,
-          "fullName": "MiaAI-Lab/Qwen3.8-27B-SGLang-DGX-Spark",
-          "language": "Shell",
-          "ownerUrl": "https://github.com/MiaAI-Lab",
-          "pushedAt": "2026-08-15T10:49:20+00:00",
-          "createdAt": "2026-08-15T10:47:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:01:37+00:00",
-          "description": "Qwen3.8 27B on SGLang for DGX Spark",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MiaAI-Lab",
-      "topRepo": {
-        "name": "Qwen3.8-27B-SGLang-DGX-Spark",
-        "fullName": "MiaAI-Lab/Qwen3.8-27B-SGLang-DGX-Spark",
-        "stars": 22,
-        "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-SGLang-DGX-Spark"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/83042094?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MiaAI-Lab/Qwen3.8-27B-SGLang-DGX-Spark"
-      ],
-      "starScore": 22
-    },
-    {
-      "id": "8736607",
-      "rank": 22,
-      "type": "User",
-      "login": "XIAZY",
-      "repos": [
-        {
-          "id": 1334893847,
-          "fork": false,
-          "name": "wcctl",
-          "forks": 7,
-          "owner": "XIAZY",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/8736607?v=4",
-          "topics": [],
-          "ownerId": "8736607",
-          "repoUrl": "https://github.com/XIAZY/wcctl",
-          "archived": false,
-          "fullName": "XIAZY/wcctl",
-          "language": "C",
-          "ownerUrl": "https://github.com/XIAZY",
-          "pushedAt": "2026-08-16T05:16:40+00:00",
-          "createdAt": "2026-08-15T07:43:09+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:49:45+00:00",
-          "description": "wcctl is a command line tool to bridge the gap between WeChat and other tools",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/XIAZY",
-      "topRepo": {
-        "name": "wcctl",
-        "fullName": "XIAZY/wcctl",
-        "stars": 22,
-        "url": "https://github.com/XIAZY/wcctl"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8736607?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "XIAZY/wcctl"
-      ],
-      "starScore": 22
-    },
-    {
       "id": "169415895",
-      "rank": 23,
+      "rank": 16,
       "type": "User",
       "login": "Greninja9257",
       "repos": [
@@ -1529,7 +796,7 @@
           "name": "LabLLM",
           "forks": 0,
           "owner": "Greninja9257",
-          "stars": 21,
+          "stars": 22,
           "avatar": "https://avatars.githubusercontent.com/u/169415895?v=4",
           "topics": [
             "ai",
@@ -1562,7 +829,7 @@
           "pushedAt": "2026-08-16T04:02:49+00:00",
           "createdAt": "2026-08-15T22:16:40+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T06:47:30+00:00",
+          "updatedAt": "2026-08-16T07:28:34+00:00",
           "description": "A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.",
           "defaultBranch": "master"
         }
@@ -1571,7 +838,7 @@
       "topRepo": {
         "name": "LabLLM",
         "fullName": "Greninja9257/LabLLM",
-        "stars": 21,
+        "stars": 22,
         "url": "https://github.com/Greninja9257/LabLLM"
       },
       "enriched": true,
@@ -1580,72 +847,11 @@
       "repoNames": [
         "Greninja9257/LabLLM"
       ],
-      "starScore": 21
-    },
-    {
-      "id": "108453477",
-      "rank": 24,
-      "type": "User",
-      "login": "m1ckc3s",
-      "repos": [
-        {
-          "id": 1335434949,
-          "fork": false,
-          "name": "procedural-sounds",
-          "forks": 0,
-          "owner": "m1ckc3s",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/108453477?v=4",
-          "topics": [
-            "design-tools",
-            "generative-audio",
-            "interface-design",
-            "microinteractions",
-            "nextjs",
-            "open-source",
-            "procedural-audio",
-            "react",
-            "sound-design",
-            "synthesizer",
-            "tailwindcss",
-            "typescript",
-            "ui-sounds",
-            "ux",
-            "web-audio",
-            "web-audio-api"
-          ],
-          "ownerId": "108453477",
-          "repoUrl": "https://github.com/m1ckc3s/procedural-sounds",
-          "archived": false,
-          "fullName": "m1ckc3s/procedural-sounds",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/m1ckc3s",
-          "pushedAt": "2026-08-15T23:02:30+00:00",
-          "createdAt": "2026-08-15T21:36:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:09:24+00:00",
-          "description": "Procedural interface sounds, with taste. Generated live in the browser from recipes, steered by a hand-curated library and calibrated by ear. No audio files. Beta, open to collaborators.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/m1ckc3s",
-      "topRepo": {
-        "name": "procedural-sounds",
-        "fullName": "m1ckc3s/procedural-sounds",
-        "stars": 21,
-        "url": "https://github.com/m1ckc3s/procedural-sounds"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108453477?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "m1ckc3s/procedural-sounds"
-      ],
-      "starScore": 21
+      "starScore": 22
     },
     {
       "id": "161784452",
-      "rank": 25,
+      "rank": 17,
       "type": "User",
       "login": "N0zoM1z0",
       "repos": [
@@ -1655,7 +861,7 @@
           "name": "gensokyo-skills",
           "forks": 0,
           "owner": "N0zoM1z0",
-          "stars": 12,
+          "stars": 22,
           "avatar": "https://avatars.githubusercontent.com/u/161784452?v=4",
           "topics": [
             "agent",
@@ -1676,37 +882,8 @@
           "pushedAt": "2026-08-15T16:05:16+00:00",
           "createdAt": "2026-08-15T14:15:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T02:50:16+00:00",
+          "updatedAt": "2026-08-16T10:51:56+00:00",
           "description": "Touhou-inspired Agent Skills: distinct, testable, composable problem-solving workflows.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1334952973,
-          "fork": false,
-          "name": "touhou-osu-index",
-          "forks": 1,
-          "owner": "N0zoM1z0",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/161784452?v=4",
-          "topics": [
-            "beatmaps",
-            "dataset",
-            "osu",
-            "preservation",
-            "rhythm-game",
-            "touhou"
-          ],
-          "ownerId": "161784452",
-          "repoUrl": "https://github.com/N0zoM1z0/touhou-osu-index",
-          "archived": false,
-          "fullName": "N0zoM1z0/touhou-osu-index",
-          "language": "Python",
-          "ownerUrl": "https://github.com/N0zoM1z0",
-          "pushedAt": "2026-08-15T12:08:31+00:00",
-          "createdAt": "2026-08-15T09:21:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-15T17:15:06+00:00",
-          "description": "Open, reproducible index of Touhou Project music mapped in osu!",
           "defaultBranch": "main"
         }
       ],
@@ -1714,161 +891,257 @@
       "topRepo": {
         "name": "gensokyo-skills",
         "fullName": "N0zoM1z0/gensokyo-skills",
-        "stars": 12,
+        "stars": 22,
         "url": "https://github.com/N0zoM1z0/gensokyo-skills"
       },
       "enriched": true,
       "avatarUrl": "https://avatars.githubusercontent.com/u/161784452?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "N0zoM1z0/gensokyo-skills",
-        "N0zoM1z0/touhou-osu-index"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "204397604",
-      "rank": 26,
-      "type": "User",
-      "login": "Wassimyounes01",
-      "repos": [
-        {
-          "id": 1335401089,
-          "fork": false,
-          "name": "qwen36-uncensored",
-          "forks": 1,
-          "owner": "Wassimyounes01",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/204397604?v=4",
-          "topics": [
-            "gguf",
-            "llama-cpp",
-            "local-llm",
-            "ollama",
-            "qwen",
-            "qwen3",
-            "uncensored"
-          ],
-          "ownerId": "204397604",
-          "repoUrl": "https://github.com/Wassimyounes01/qwen36-uncensored",
-          "archived": false,
-          "fullName": "Wassimyounes01/qwen36-uncensored",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/Wassimyounes01",
-          "pushedAt": "2026-08-15T22:58:28+00:00",
-          "createdAt": "2026-08-15T20:49:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:09:59+00:00",
-          "description": "Local Qwen 3.6 27B Q4_K_M (~16.8 GB) + harvested uncensored SYSTEM pack. Download the Unsloth GGUF or ollama pull, then bake.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Wassimyounes01",
-      "topRepo": {
-        "name": "qwen36-uncensored",
-        "fullName": "Wassimyounes01/qwen36-uncensored",
-        "stars": 20,
-        "url": "https://github.com/Wassimyounes01/qwen36-uncensored"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/204397604?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Wassimyounes01/qwen36-uncensored"
+        "N0zoM1z0/gensokyo-skills"
       ],
-      "starScore": 20
+      "starScore": 22
     },
     {
-      "id": "258176326",
-      "rank": 27,
-      "type": "Organization",
-      "login": "EchoMusicApp",
+      "id": "114713818",
+      "rank": 18,
+      "type": "User",
+      "login": "simonleybovich",
       "repos": [
         {
-          "id": 1334903895,
+          "id": 1335480912,
           "fork": false,
-          "name": "Echo-Music",
-          "forks": 1,
-          "owner": "EchoMusicApp",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/258176326?v=4",
+          "name": "linkedin-job-alerts",
+          "forks": 6,
+          "owner": "simonleybovich",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/114713818?v=4",
           "topics": [],
-          "ownerId": "258176326",
-          "repoUrl": "https://github.com/EchoMusicApp/Echo-Music",
+          "ownerId": "114713818",
+          "repoUrl": "https://github.com/simonleybovich/linkedin-job-alerts",
           "archived": false,
-          "fullName": "EchoMusicApp/Echo-Music",
+          "fullName": "simonleybovich/linkedin-job-alerts",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/EchoMusicApp",
-          "pushedAt": "2026-08-15T08:04:31+00:00",
-          "createdAt": "2026-08-15T08:00:26+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-16T06:38:52+00:00",
-          "description": "Echo Music has been discontinued due to a copyright takedown notice. The project is no longer active or maintained.",
+          "ownerUrl": "https://github.com/simonleybovich",
+          "pushedAt": "2026-08-15T22:56:34+00:00",
+          "createdAt": "2026-08-15T22:53:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:00:09+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/EchoMusicApp",
+      "htmlUrl": "https://github.com/simonleybovich",
       "topRepo": {
-        "name": "Echo-Music",
-        "fullName": "EchoMusicApp/Echo-Music",
-        "stars": 19,
-        "url": "https://github.com/EchoMusicApp/Echo-Music"
+        "name": "linkedin-job-alerts",
+        "fullName": "simonleybovich/linkedin-job-alerts",
+        "stars": 22,
+        "url": "https://github.com/simonleybovich/linkedin-job-alerts"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/258176326?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114713818?v=4",
       "repoCount": 1,
       "repoNames": [
-        "EchoMusicApp/Echo-Music"
+        "simonleybovich/linkedin-job-alerts"
       ],
-      "starScore": 19
+      "starScore": 22
     },
     {
-      "id": "51721416",
-      "rank": 28,
+      "id": "179743083",
+      "rank": 19,
       "type": "User",
-      "login": "Danilaa1",
+      "login": "TraceCohenTech",
       "repos": [
         {
-          "id": 1335384328,
+          "id": 1335305955,
           "fork": false,
-          "name": "drawably",
-          "forks": 0,
-          "owner": "Danilaa1",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/51721416?v=4",
-          "topics": [],
-          "ownerId": "51721416",
-          "repoUrl": "https://github.com/Danilaa1/drawably",
+          "name": "ai-seo-playbook",
+          "forks": 3,
+          "owner": "TraceCohenTech",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/179743083?v=4",
+          "topics": [
+            "ai-content",
+            "ai-seo",
+            "content-audit",
+            "content-optimization",
+            "content-strategy",
+            "generative-engine-optimization",
+            "google-search-console",
+            "keyword-research",
+            "nextjs",
+            "search-engine-optimization",
+            "seo",
+            "seo-analysis",
+            "seo-tools",
+            "sitemap",
+            "structured-data",
+            "technical-seo"
+          ],
+          "ownerId": "179743083",
+          "repoUrl": "https://github.com/TraceCohenTech/ai-seo-playbook",
           "archived": false,
-          "fullName": "Danilaa1/drawably",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Danilaa1",
-          "pushedAt": "2026-08-15T20:30:17+00:00",
-          "createdAt": "2026-08-15T20:22:43+00:00",
+          "fullName": "TraceCohenTech/ai-seo-playbook",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/TraceCohenTech",
+          "pushedAt": "2026-08-15T20:41:29+00:00",
+          "createdAt": "2026-08-15T18:06:45+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T05:43:56+00:00",
-          "description": "Hand-drawn UI controls. Every mount generates a fresh pen sketch from seeded randomness, and the stroke boils like an animated doodle. Zero dependencies, 4 KB of JS and one stylesheet.",
+          "updatedAt": "2026-08-16T12:38:36+00:00",
+          "description": "The complete AI SEO playbook: methodology, scripts, and safety guards behind a 4.6M-impression content engine. GSC feedback loops, multi-model agent orchestration, quality gates, and build cost control.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Danilaa1",
+      "htmlUrl": "https://github.com/TraceCohenTech",
       "topRepo": {
-        "name": "drawably",
-        "fullName": "Danilaa1/drawably",
-        "stars": 17,
-        "url": "https://github.com/Danilaa1/drawably"
+        "name": "ai-seo-playbook",
+        "fullName": "TraceCohenTech/ai-seo-playbook",
+        "stars": 22,
+        "url": "https://github.com/TraceCohenTech/ai-seo-playbook"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/51721416?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179743083?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Danilaa1/drawably"
+        "TraceCohenTech/ai-seo-playbook"
+      ],
+      "starScore": 22
+    },
+    {
+      "id": "106878486",
+      "rank": 20,
+      "type": "User",
+      "login": "Chrissshere",
+      "repos": [
+        {
+          "id": 1335364237,
+          "fork": false,
+          "name": "Surrealra1nGUI",
+          "forks": 2,
+          "owner": "Chrissshere",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/106878486?v=4",
+          "topics": [],
+          "ownerId": "106878486",
+          "repoUrl": "https://github.com/Chrissshere/Surrealra1nGUI",
+          "archived": false,
+          "fullName": "Chrissshere/Surrealra1nGUI",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/Chrissshere",
+          "pushedAt": "2026-08-16T10:05:47+00:00",
+          "createdAt": "2026-08-15T19:44:20+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:57:17+00:00",
+          "description": "A Surrealra1n GUI client ",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Chrissshere",
+      "topRepo": {
+        "name": "Surrealra1nGUI",
+        "fullName": "Chrissshere/Surrealra1nGUI",
+        "stars": 21,
+        "url": "https://github.com/Chrissshere/Surrealra1nGUI"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106878486?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Chrissshere/Surrealra1nGUI"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "134822157",
+      "rank": 21,
+      "type": "User",
+      "login": "Shshtwy",
+      "repos": [
+        {
+          "id": 1335438980,
+          "fork": false,
+          "name": "chromium-extend",
+          "forks": 0,
+          "owner": "Shshtwy",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/134822157?v=4",
+          "topics": [],
+          "ownerId": "134822157",
+          "repoUrl": "https://github.com/Shshtwy/chromium-extend",
+          "archived": false,
+          "fullName": "Shshtwy/chromium-extend",
+          "language": "Dockerfile",
+          "ownerUrl": "https://github.com/Shshtwy",
+          "pushedAt": "2026-08-16T08:44:56+00:00",
+          "createdAt": "2026-08-15T21:42:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T11:03:41+00:00",
+          "description": "De-Googled Chromium Android: a five-patch series removing Google tracking, telemetry, and AI integration while keeping browser extensions and video playback working.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Shshtwy",
+      "topRepo": {
+        "name": "chromium-extend",
+        "fullName": "Shshtwy/chromium-extend",
+        "stars": 21,
+        "url": "https://github.com/Shshtwy/chromium-extend"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134822157?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Shshtwy/chromium-extend"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "264866615",
+      "rank": 22,
+      "type": "User",
+      "login": "drowzeys",
+      "repos": [
+        {
+          "id": 1335591771,
+          "fork": false,
+          "name": "keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark",
+          "forks": 0,
+          "owner": "drowzeys",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/264866615?v=4",
+          "topics": [],
+          "ownerId": "264866615",
+          "repoUrl": "https://github.com/drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark",
+          "archived": false,
+          "fullName": "drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark",
+          "language": "Python",
+          "ownerUrl": "https://github.com/drowzeys",
+          "pushedAt": "2026-08-16T07:59:22+00:00",
+          "createdAt": "2026-08-16T03:26:13+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:52:30+00:00",
+          "description": "Qwen3.8-27B ADay777-Ablit · NVFP4 · A4Q · NVFP4-KV (4M+ pool) · MTP-3 — single DGX Spark (GB10/sm121), eugr vLLM 0.27. 1M ctx @ c=4.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/drowzeys",
+      "topRepo": {
+        "name": "keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark",
+        "fullName": "drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark",
+        "stars": 17,
+        "url": "https://github.com/drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/264866615?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark"
       ],
       "starScore": 17
     },
     {
       "id": "317339548",
-      "rank": 29,
+      "rank": 23,
       "type": "User",
       "login": "jasoncraw",
       "repos": [
@@ -1926,470 +1199,96 @@
       "starScore": 17
     },
     {
-      "id": "114713818",
-      "rank": 30,
+      "id": "57465570",
+      "rank": 24,
       "type": "User",
-      "login": "simonleybovich",
+      "login": "oil-oil",
       "repos": [
         {
-          "id": 1335480912,
+          "id": 1335502205,
           "fork": false,
-          "name": "linkedin-job-alerts",
-          "forks": 1,
-          "owner": "simonleybovich",
+          "name": "build-deepseek-harness-plugin",
+          "forks": 0,
+          "owner": "oil-oil",
           "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/114713818?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
           "topics": [],
-          "ownerId": "114713818",
-          "repoUrl": "https://github.com/simonleybovich/linkedin-job-alerts",
+          "ownerId": "57465570",
+          "repoUrl": "https://github.com/oil-oil/build-deepseek-harness-plugin",
           "archived": false,
-          "fullName": "simonleybovich/linkedin-job-alerts",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/simonleybovich",
-          "pushedAt": "2026-08-15T22:56:34+00:00",
-          "createdAt": "2026-08-15T22:53:39+00:00",
+          "fullName": "oil-oil/build-deepseek-harness-plugin",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/oil-oil",
+          "pushedAt": "2026-08-16T00:03:21+00:00",
+          "createdAt": "2026-08-15T23:46:25+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T06:34:54+00:00",
-          "description": "",
+          "updatedAt": "2026-08-16T13:01:40+00:00",
+          "description": "Agent skill for installed DeepSeek Harness plugins (slots, Typert remotes, credentials).",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/simonleybovich",
+      "htmlUrl": "https://github.com/oil-oil",
       "topRepo": {
-        "name": "linkedin-job-alerts",
-        "fullName": "simonleybovich/linkedin-job-alerts",
+        "name": "build-deepseek-harness-plugin",
+        "fullName": "oil-oil/build-deepseek-harness-plugin",
         "stars": 17,
-        "url": "https://github.com/simonleybovich/linkedin-job-alerts"
+        "url": "https://github.com/oil-oil/build-deepseek-harness-plugin"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/114713818?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57465570?v=4",
       "repoCount": 1,
       "repoNames": [
-        "simonleybovich/linkedin-job-alerts"
+        "oil-oil/build-deepseek-harness-plugin"
       ],
       "starScore": 17
     },
     {
-      "id": "21026657",
-      "rank": 31,
+      "id": "3279952",
+      "rank": 25,
       "type": "User",
-      "login": "olkham",
+      "login": "CharlesHoskinson",
       "repos": [
         {
-          "id": 1334968342,
+          "id": 1335530417,
           "fork": false,
-          "name": "popwatch",
+          "name": "anthropies",
           "forks": 2,
-          "owner": "olkham",
+          "owner": "CharlesHoskinson",
           "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/21026657?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/3279952?v=4",
           "topics": [],
-          "ownerId": "21026657",
-          "repoUrl": "https://github.com/olkham/popwatch",
+          "ownerId": "3279952",
+          "repoUrl": "https://github.com/CharlesHoskinson/anthropies",
           "archived": false,
-          "fullName": "olkham/popwatch",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/olkham",
-          "pushedAt": "2026-08-15T09:50:06+00:00",
-          "createdAt": "2026-08-15T09:46:01+00:00",
+          "fullName": "CharlesHoskinson/anthropies",
+          "language": "Python",
+          "ownerUrl": "https://github.com/CharlesHoskinson",
+          "pushedAt": "2026-08-16T08:30:24+00:00",
+          "createdAt": "2026-08-16T00:57:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T05:52:22+00:00",
-          "description": "",
+          "updatedAt": "2026-08-16T13:06:02+00:00",
+          "description": "Restore clean title in work you already own. Strip vendor marks from Outputs Anthropic assigned to you.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/olkham",
+      "htmlUrl": "https://github.com/CharlesHoskinson",
       "topRepo": {
-        "name": "popwatch",
-        "fullName": "olkham/popwatch",
+        "name": "anthropies",
+        "fullName": "CharlesHoskinson/anthropies",
         "stars": 16,
-        "url": "https://github.com/olkham/popwatch"
+        "url": "https://github.com/CharlesHoskinson/anthropies"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21026657?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3279952?v=4",
       "repoCount": 1,
       "repoNames": [
-        "olkham/popwatch"
+        "CharlesHoskinson/anthropies"
       ],
       "starScore": 16
-    },
-    {
-      "id": "179743083",
-      "rank": 32,
-      "type": "User",
-      "login": "TraceCohenTech",
-      "repos": [
-        {
-          "id": 1335305955,
-          "fork": false,
-          "name": "ai-seo-playbook",
-          "forks": 2,
-          "owner": "TraceCohenTech",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/179743083?v=4",
-          "topics": [
-            "ai-content",
-            "ai-seo",
-            "content-audit",
-            "content-optimization",
-            "content-strategy",
-            "generative-engine-optimization",
-            "google-search-console",
-            "keyword-research",
-            "nextjs",
-            "search-engine-optimization",
-            "seo",
-            "seo-analysis",
-            "seo-tools",
-            "sitemap",
-            "structured-data",
-            "technical-seo"
-          ],
-          "ownerId": "179743083",
-          "repoUrl": "https://github.com/TraceCohenTech/ai-seo-playbook",
-          "archived": false,
-          "fullName": "TraceCohenTech/ai-seo-playbook",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/TraceCohenTech",
-          "pushedAt": "2026-08-15T20:41:29+00:00",
-          "createdAt": "2026-08-15T18:06:45+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T04:26:03+00:00",
-          "description": "The complete AI SEO playbook: methodology, scripts, and safety guards behind a 4.6M-impression content engine. GSC feedback loops, multi-model agent orchestration, quality gates, and build cost control.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TraceCohenTech",
-      "topRepo": {
-        "name": "ai-seo-playbook",
-        "fullName": "TraceCohenTech/ai-seo-playbook",
-        "stars": 16,
-        "url": "https://github.com/TraceCohenTech/ai-seo-playbook"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/179743083?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TraceCohenTech/ai-seo-playbook"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "50271892",
-      "rank": 33,
-      "type": "User",
-      "login": "MarinJursic",
-      "repos": [
-        {
-          "id": 1335018935,
-          "fork": false,
-          "name": "production-readiness-checklist",
-          "forks": 2,
-          "owner": "MarinJursic",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/50271892?v=4",
-          "topics": [
-            "ai-agents",
-            "checklist",
-            "claude",
-            "claude-code",
-            "deployment",
-            "devops",
-            "devsecops",
-            "incident-response",
-            "open-source",
-            "production-readiness",
-            "release-checklist",
-            "release-engineering",
-            "security",
-            "software-quality",
-            "sre",
-            "web-development",
-            "web-security"
-          ],
-          "ownerId": "50271892",
-          "repoUrl": "https://github.com/MarinJursic/production-readiness-checklist",
-          "archived": false,
-          "fullName": "MarinJursic/production-readiness-checklist",
-          "language": "Python",
-          "ownerUrl": "https://github.com/MarinJursic",
-          "pushedAt": "2026-08-15T17:45:02+00:00",
-          "createdAt": "2026-08-15T11:09:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T05:02:43+00:00",
-          "description": "Evidence-driven production readiness checklist for shipping web applications with confidence",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MarinJursic",
-      "topRepo": {
-        "name": "production-readiness-checklist",
-        "fullName": "MarinJursic/production-readiness-checklist",
-        "stars": 15,
-        "url": "https://github.com/MarinJursic/production-readiness-checklist"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50271892?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MarinJursic/production-readiness-checklist"
-      ],
-      "starScore": 15
-    },
-    {
-      "id": "31670012",
-      "rank": 34,
-      "type": "User",
-      "login": "zhu168",
-      "repos": [
-        {
-          "id": 1335082381,
-          "fork": false,
-          "name": "dsh-save-money",
-          "forks": 1,
-          "owner": "zhu168",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/31670012?v=4",
-          "topics": [
-            "dsh",
-            "dsh-plugin",
-            "dsh-plugins"
-          ],
-          "ownerId": "31670012",
-          "repoUrl": "https://github.com/zhu168/dsh-save-money",
-          "archived": false,
-          "fullName": "zhu168/dsh-save-money",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/zhu168",
-          "pushedAt": "2026-08-16T05:46:51+00:00",
-          "createdAt": "2026-08-15T12:48:07+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T05:46:53+00:00",
-          "description": "Save-money plugin for DSH (DeepSeek Harness) — define your own \"pause / resume\" time windows; at pause time running long tasks are paused (not stopped) automatically, and they resume when the window ends. ",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/zhu168",
-      "topRepo": {
-        "name": "dsh-save-money",
-        "fullName": "zhu168/dsh-save-money",
-        "stars": 14,
-        "url": "https://github.com/zhu168/dsh-save-money"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/31670012?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "zhu168/dsh-save-money"
-      ],
-      "starScore": 14
-    },
-    {
-      "id": "106878486",
-      "rank": 35,
-      "type": "User",
-      "login": "Chrissshere",
-      "repos": [
-        {
-          "id": 1335364237,
-          "fork": false,
-          "name": "Surrealra1nGUI",
-          "forks": 1,
-          "owner": "Chrissshere",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/106878486?v=4",
-          "topics": [],
-          "ownerId": "106878486",
-          "repoUrl": "https://github.com/Chrissshere/Surrealra1nGUI",
-          "archived": false,
-          "fullName": "Chrissshere/Surrealra1nGUI",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Chrissshere",
-          "pushedAt": "2026-08-15T19:45:53+00:00",
-          "createdAt": "2026-08-15T19:44:20+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T05:46:38+00:00",
-          "description": "A Surrealra1n GUI client ",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Chrissshere",
-      "topRepo": {
-        "name": "Surrealra1nGUI",
-        "fullName": "Chrissshere/Surrealra1nGUI",
-        "stars": 13,
-        "url": "https://github.com/Chrissshere/Surrealra1nGUI"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106878486?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Chrissshere/Surrealra1nGUI"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "68786196",
-      "rank": 36,
-      "type": "User",
-      "login": "Nzy189",
-      "repos": [
-        {
-          "id": 1334942230,
-          "fork": false,
-          "name": "Metaagent",
-          "forks": 1,
-          "owner": "Nzy189",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/68786196?v=4",
-          "topics": [],
-          "ownerId": "68786196",
-          "repoUrl": "https://github.com/Nzy189/Metaagent",
-          "archived": false,
-          "fullName": "Nzy189/Metaagent",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Nzy189",
-          "pushedAt": "2026-08-15T10:42:15+00:00",
-          "createdAt": "2026-08-15T09:03:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:45:16+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Nzy189",
-      "topRepo": {
-        "name": "Metaagent",
-        "fullName": "Nzy189/Metaagent",
-        "stars": 13,
-        "url": "https://github.com/Nzy189/Metaagent"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/68786196?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Nzy189/Metaagent"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "95725645",
-      "rank": 37,
-      "type": "User",
-      "login": "taovietducofficial",
-      "repos": [
-        {
-          "id": 1334898731,
-          "fork": false,
-          "name": "OOP-Junior",
-          "forks": 3,
-          "owner": "taovietducofficial",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/95725645?v=4",
-          "topics": [
-            "advanced-oop",
-            "clean-code",
-            "cplusplus",
-            "cpp",
-            "dependency-injection",
-            "dependency-inversion",
-            "design-patterns",
-            "domain-driven-design",
-            "java",
-            "object-oriented-programming",
-            "oop",
-            "oop-junior",
-            "python",
-            "software-architecture",
-            "software-design",
-            "solid",
-            "testability",
-            "unit-testing"
-          ],
-          "ownerId": "95725645",
-          "repoUrl": "https://github.com/taovietducofficial/OOP-Junior",
-          "archived": false,
-          "fullName": "taovietducofficial/OOP-Junior",
-          "language": "Java",
-          "ownerUrl": "https://github.com/taovietducofficial",
-          "pushedAt": "2026-08-15T11:28:21+00:00",
-          "createdAt": "2026-08-15T07:51:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:05:35+00:00",
-          "description": "OOP-Junior is the next level after OOP-Student, advancing Object-Oriented Programming through practical design, SOLID, Clean Code, Design Patterns, testing, and software architecture with Java, C++, and Python.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/taovietducofficial",
-      "topRepo": {
-        "name": "OOP-Junior",
-        "fullName": "taovietducofficial/OOP-Junior",
-        "stars": 13,
-        "url": "https://github.com/taovietducofficial/OOP-Junior"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/95725645?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "taovietducofficial/OOP-Junior"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "57547133",
-      "rank": 38,
-      "type": "User",
-      "login": "jeremy-prt",
-      "repos": [
-        {
-          "id": 1335104760,
-          "fork": false,
-          "name": "bloub",
-          "forks": 0,
-          "owner": "jeremy-prt",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/57547133?v=4",
-          "topics": [
-            "animation",
-            "avatar",
-            "morphing",
-            "svg",
-            "svg-animation",
-            "typescript",
-            "vue"
-          ],
-          "ownerId": "57547133",
-          "repoUrl": "https://github.com/jeremy-prt/bloub",
-          "archived": false,
-          "fullName": "jeremy-prt/bloub",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/jeremy-prt",
-          "pushedAt": "2026-08-15T13:31:36+00:00",
-          "createdAt": "2026-08-15T13:21:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T04:07:15+00:00",
-          "description": "SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jeremy-prt",
-      "topRepo": {
-        "name": "bloub",
-        "fullName": "jeremy-prt/bloub",
-        "stars": 12,
-        "url": "https://github.com/jeremy-prt/bloub"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/57547133?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jeremy-prt/bloub"
-      ],
-      "starScore": 12
     },
     {
       "id": "3107277",
-      "rank": 39,
+      "rank": 26,
       "type": "User",
       "login": "alexanderradahl",
       "repos": [
@@ -2397,9 +1296,9 @@
           "id": 1335212806,
           "fork": false,
           "name": "mac-developer-bridge",
-          "forks": 2,
+          "forks": 3,
           "owner": "alexanderradahl",
-          "stars": 11,
+          "stars": 14,
           "avatar": "https://avatars.githubusercontent.com/u/3107277?v=4",
           "topics": [
             "ai-agents",
@@ -2428,7 +1327,7 @@
           "pushedAt": "2026-08-15T19:12:42+00:00",
           "createdAt": "2026-08-15T15:49:17+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T01:28:17+00:00",
+          "updatedAt": "2026-08-16T09:11:30+00:00",
           "description": "Give ChatGPT a real terminal on your Mac. Open-source MCP bridge for shell, files, PTY sessions, jobs, and Codex history.",
           "defaultBranch": "main"
         }
@@ -2437,7 +1336,7 @@
       "topRepo": {
         "name": "mac-developer-bridge",
         "fullName": "alexanderradahl/mac-developer-bridge",
-        "stars": 11,
+        "stars": 14,
         "url": "https://github.com/alexanderradahl/mac-developer-bridge"
       },
       "enriched": true,
@@ -2446,110 +1345,11 @@
       "repoNames": [
         "alexanderradahl/mac-developer-bridge"
       ],
-      "starScore": 11
-    },
-    {
-      "id": "7377421",
-      "rank": 40,
-      "type": "User",
-      "login": "musichen",
-      "repos": [
-        {
-          "id": 1335068806,
-          "fork": false,
-          "name": "pi-telegram-multiacc",
-          "forks": 4,
-          "owner": "musichen",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/7377421?v=4",
-          "topics": [],
-          "ownerId": "7377421",
-          "repoUrl": "https://github.com/musichen/pi-telegram-multiacc",
-          "archived": false,
-          "fullName": "musichen/pi-telegram-multiacc",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/musichen",
-          "pushedAt": "2026-08-16T03:17:49+00:00",
-          "createdAt": "2026-08-15T12:28:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T03:17:56+00:00",
-          "description": "pi-telegram-multiacc",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/musichen",
-      "topRepo": {
-        "name": "pi-telegram-multiacc",
-        "fullName": "musichen/pi-telegram-multiacc",
-        "stars": 11,
-        "url": "https://github.com/musichen/pi-telegram-multiacc"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7377421?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "musichen/pi-telegram-multiacc"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "167393834",
-      "rank": 41,
-      "type": "Organization",
-      "login": "agi-fans",
-      "repos": [
-        {
-          "id": 1335030435,
-          "fork": false,
-          "name": "oh-my-dsh",
-          "forks": 2,
-          "owner": "agi-fans",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/167393834?v=4",
-          "topics": [
-            "coding-agent",
-            "deepseek",
-            "deepseek-harness",
-            "dsh",
-            "dsh-plugin",
-            "dsh-plugins",
-            "harness",
-            "oh-my-pi",
-            "omdsh",
-            "tui"
-          ],
-          "ownerId": "167393834",
-          "repoUrl": "https://github.com/agi-fans/oh-my-dsh",
-          "archived": false,
-          "fullName": "agi-fans/oh-my-dsh",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/agi-fans",
-          "pushedAt": "2026-08-15T18:29:06+00:00",
-          "createdAt": "2026-08-15T11:28:19+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-15T18:29:29+00:00",
-          "description": "omdsh is a plugin-first terminal coding agent built on DeepSeek Harness, with an interaction model inspired by oh-my-pi.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/agi-fans",
-      "topRepo": {
-        "name": "oh-my-dsh",
-        "fullName": "agi-fans/oh-my-dsh",
-        "stars": 10,
-        "url": "https://github.com/agi-fans/oh-my-dsh"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/167393834?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "agi-fans/oh-my-dsh"
-      ],
-      "starScore": 10
+      "starScore": 14
     },
     {
       "id": "58586966",
-      "rank": 42,
+      "rank": 27,
       "type": "User",
       "login": "cuddly-guacamole",
       "repos": [
@@ -2559,7 +1359,7 @@
           "name": "opencode-routing-suite",
           "forks": 0,
           "owner": "cuddly-guacamole",
-          "stars": 10,
+          "stars": 13,
           "avatar": "https://avatars.githubusercontent.com/u/58586966?v=4",
           "topics": [
             "ai-agent",
@@ -2577,7 +1377,7 @@
           "pushedAt": "2026-08-16T04:56:01+00:00",
           "createdAt": "2026-08-15T17:41:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T05:46:23+00:00",
+          "updatedAt": "2026-08-16T09:20:39+00:00",
           "description": "Task-aware reasoning-mode routing for opencode: spec/react/weak three-band agent routing, ported from yjh051108/dsh-routing-suite",
           "defaultBranch": "main"
         }
@@ -2586,7 +1386,7 @@
       "topRepo": {
         "name": "opencode-routing-suite",
         "fullName": "cuddly-guacamole/opencode-routing-suite",
-        "stars": 10,
+        "stars": 13,
         "url": "https://github.com/cuddly-guacamole/opencode-routing-suite"
       },
       "enriched": true,
@@ -2595,62 +1395,99 @@
       "repoNames": [
         "cuddly-guacamole/opencode-routing-suite"
       ],
-      "starScore": 10
+      "starScore": 13
     },
     {
-      "id": "73422693",
-      "rank": 43,
+      "id": "275450857",
+      "rank": 28,
       "type": "User",
-      "login": "kxh4892636",
+      "login": "rharir35-netizen",
       "repos": [
         {
-          "id": 1334939552,
+          "id": 1335743026,
           "fork": false,
-          "name": "pi-deepseek-anchor",
+          "name": "Scientific-Ai",
           "forks": 0,
-          "owner": "kxh4892636",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/73422693?v=4",
-          "topics": [
-            "deepseek",
-            "deepseek-harness",
-            "dsh-plugin",
-            "pi-agent",
-            "pi-extension",
-            "pi-package"
-          ],
-          "ownerId": "73422693",
-          "repoUrl": "https://github.com/kxh4892636/pi-deepseek-anchor",
+          "owner": "rharir35-netizen",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/275450857?v=4",
+          "topics": [],
+          "ownerId": "275450857",
+          "repoUrl": "https://github.com/rharir35-netizen/Scientific-Ai",
           "archived": false,
-          "fullName": "kxh4892636/pi-deepseek-anchor",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/kxh4892636",
-          "pushedAt": "2026-08-15T09:14:49+00:00",
-          "createdAt": "2026-08-15T08:59:05+00:00",
+          "fullName": "rharir35-netizen/Scientific-Ai",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/rharir35-netizen",
+          "pushedAt": "2026-08-16T08:22:31+00:00",
+          "createdAt": "2026-08-16T08:22:30+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-16T06:05:27+00:00",
-          "description": "pi extension: DeepSeek V4 Pro Minimal-anchored bootstrap, then full Standard tools (port of dsh-anchored-standard)",
+          "updatedAt": "2026-08-16T09:08:21+00:00",
+          "description": "A new scientific Ai tool integrating both codex and Claude using mpc",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/kxh4892636",
+      "htmlUrl": "https://github.com/rharir35-netizen",
       "topRepo": {
-        "name": "pi-deepseek-anchor",
-        "fullName": "kxh4892636/pi-deepseek-anchor",
-        "stars": 10,
-        "url": "https://github.com/kxh4892636/pi-deepseek-anchor"
+        "name": "Scientific-Ai",
+        "fullName": "rharir35-netizen/Scientific-Ai",
+        "stars": 13,
+        "url": "https://github.com/rharir35-netizen/Scientific-Ai"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73422693?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/275450857?v=4",
       "repoCount": 1,
       "repoNames": [
-        "kxh4892636/pi-deepseek-anchor"
+        "rharir35-netizen/Scientific-Ai"
       ],
-      "starScore": 10
+      "starScore": 13
+    },
+    {
+      "id": "202732481",
+      "rank": 29,
+      "type": "User",
+      "login": "TanShilongMario",
+      "repos": [
+        {
+          "id": 1335595428,
+          "fork": false,
+          "name": "NiuLai-Skill",
+          "forks": 3,
+          "owner": "TanShilongMario",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/202732481?v=4",
+          "topics": [],
+          "ownerId": "202732481",
+          "repoUrl": "https://github.com/TanShilongMario/NiuLai-Skill",
+          "archived": false,
+          "fullName": "TanShilongMario/NiuLai-Skill",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/TanShilongMario",
+          "pushedAt": "2026-08-16T04:26:50+00:00",
+          "createdAt": "2026-08-16T03:35:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-16T12:44:25+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/TanShilongMario",
+      "topRepo": {
+        "name": "NiuLai-Skill",
+        "fullName": "TanShilongMario/NiuLai-Skill",
+        "stars": 13,
+        "url": "https://github.com/TanShilongMario/NiuLai-Skill"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/202732481?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "TanShilongMario/NiuLai-Skill"
+      ],
+      "starScore": 13
     },
     {
       "id": "22145370",
-      "rank": 44,
+      "rank": 30,
       "type": "User",
       "login": "lucianommartins",
       "repos": [
@@ -2693,96 +1530,8 @@
       "starScore": 10
     },
     {
-      "id": "144611728",
-      "rank": 45,
-      "type": "User",
-      "login": "scorpion4545",
-      "repos": [
-        {
-          "id": 1335012385,
-          "fork": false,
-          "name": "Instagram-Content-Creator-Analysis",
-          "forks": 0,
-          "owner": "scorpion4545",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/144611728?v=4",
-          "topics": [],
-          "ownerId": "144611728",
-          "repoUrl": "https://github.com/scorpion4545/Instagram-Content-Creator-Analysis",
-          "archived": false,
-          "fullName": "scorpion4545/Instagram-Content-Creator-Analysis",
-          "language": "Jupyter Notebook",
-          "ownerUrl": "https://github.com/scorpion4545",
-          "pushedAt": "2026-08-15T11:04:39+00:00",
-          "createdAt": "2026-08-15T10:59:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T05:01:33+00:00",
-          "description": "Instagram Creator Analytics Dashboard — An end-to-end data analytics project using Python, Pandas, and Power BI to analyze content performance, engagement, reach, and follower growth, providing actionable insights for improving content strategy.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/scorpion4545",
-      "topRepo": {
-        "name": "Instagram-Content-Creator-Analysis",
-        "fullName": "scorpion4545/Instagram-Content-Creator-Analysis",
-        "stars": 10,
-        "url": "https://github.com/scorpion4545/Instagram-Content-Creator-Analysis"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/144611728?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "scorpion4545/Instagram-Content-Creator-Analysis"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "134822157",
-      "rank": 46,
-      "type": "User",
-      "login": "Shshtwy",
-      "repos": [
-        {
-          "id": 1335438980,
-          "fork": false,
-          "name": "chromium-extend",
-          "forks": 0,
-          "owner": "Shshtwy",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/134822157?v=4",
-          "topics": [],
-          "ownerId": "134822157",
-          "repoUrl": "https://github.com/Shshtwy/chromium-extend",
-          "archived": false,
-          "fullName": "Shshtwy/chromium-extend",
-          "language": "Dockerfile",
-          "ownerUrl": "https://github.com/Shshtwy",
-          "pushedAt": "2026-08-16T05:34:19+00:00",
-          "createdAt": "2026-08-15T21:42:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T07:09:26+00:00",
-          "description": "De-Googled Chromium Android: a five-patch series removing Google tracking, telemetry, and AI integration while keeping browser extensions and video playback working.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Shshtwy",
-      "topRepo": {
-        "name": "chromium-extend",
-        "fullName": "Shshtwy/chromium-extend",
-        "stars": 10,
-        "url": "https://github.com/Shshtwy/chromium-extend"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/134822157?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Shshtwy/chromium-extend"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "109309526",
-      "rank": 47,
+      "rank": 31,
       "type": "User",
       "login": "vavilonska",
       "repos": [
@@ -2832,56 +1581,6 @@
       "repoCount": 1,
       "repoNames": [
         "vavilonska/SeekAnchor"
-      ],
-      "starScore": 9
-    },
-    {
-      "id": "299141922",
-      "rank": 48,
-      "type": "User",
-      "login": "zetaluolang-cyber",
-      "repos": [
-        {
-          "id": 1334892882,
-          "fork": false,
-          "name": "deepseek-harness-phone-remote",
-          "forks": 1,
-          "owner": "zetaluolang-cyber",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/299141922?v=4",
-          "topics": [
-            "deepseek-harness",
-            "dsh-plugin",
-            "remote-access",
-            "remote-desktop",
-            "tailscale"
-          ],
-          "ownerId": "299141922",
-          "repoUrl": "https://github.com/zetaluolang-cyber/deepseek-harness-phone-remote",
-          "archived": false,
-          "fullName": "zetaluolang-cyber/deepseek-harness-phone-remote",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/zetaluolang-cyber",
-          "pushedAt": "2026-08-16T06:44:55+00:00",
-          "createdAt": "2026-08-15T07:41:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-16T06:45:42+00:00",
-          "description": "DeepSeek Harness phone remote control via Tailscale - persistent file/workspace plugin - tested on OPPO Find X8 Ultra",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/zetaluolang-cyber",
-      "topRepo": {
-        "name": "deepseek-harness-phone-remote",
-        "fullName": "zetaluolang-cyber/deepseek-harness-phone-remote",
-        "stars": 9,
-        "url": "https://github.com/zetaluolang-cyber/deepseek-harness-phone-remote"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/299141922?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "zetaluolang-cyber/deepseek-harness-phone-remote"
       ],
       "starScore": 9
     }
