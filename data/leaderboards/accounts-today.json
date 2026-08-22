@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T02:09:53.296Z",
-  "total": 96,
-  "totalIndexedCount": 96,
-  "coverageLabel": "Showing 96 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-08-22T07:08:32.629Z",
+  "total": 94,
+  "totalIndexedCount": 94,
+  "coverageLabel": "Showing 94 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,8 +10,58 @@
   },
   "rows": [
     {
-      "id": "265765261",
+      "id": "1065452",
       "rank": 1,
+      "type": "User",
+      "login": "MengTo",
+      "repos": [
+        {
+          "id": 1341759590,
+          "fork": false,
+          "name": "threeui",
+          "forks": 85,
+          "owner": "MengTo",
+          "stars": 834,
+          "avatar": "https://avatars.githubusercontent.com/u/1065452?v=4",
+          "topics": [
+            "react",
+            "shaders",
+            "threejs",
+            "ui-components",
+            "webgl"
+          ],
+          "ownerId": "1065452",
+          "repoUrl": "https://github.com/MengTo/threeui",
+          "archived": false,
+          "fullName": "MengTo/threeui",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/MengTo",
+          "pushedAt": "2026-08-21T17:43:38+00:00",
+          "createdAt": "2026-08-21T11:56:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T07:04:03+00:00",
+          "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MengTo",
+      "topRepo": {
+        "name": "threeui",
+        "fullName": "MengTo/threeui",
+        "stars": 834,
+        "url": "https://github.com/MengTo/threeui"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1065452?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MengTo/threeui"
+      ],
+      "starScore": 834
+    },
+    {
+      "id": "265765261",
+      "rank": 2,
       "type": "User",
       "login": "Leutenegger",
       "repos": [
@@ -54,58 +104,52 @@
       "starScore": 579
     },
     {
-      "id": "1065452",
-      "rank": 2,
+      "id": "1079003",
+      "rank": 3,
       "type": "User",
-      "login": "MengTo",
+      "login": "adnanakil",
       "repos": [
         {
-          "id": 1341759590,
+          "id": 1341889261,
           "fork": false,
-          "name": "threeui",
-          "forks": 63,
-          "owner": "MengTo",
-          "stars": 565,
-          "avatar": "https://avatars.githubusercontent.com/u/1065452?v=4",
-          "topics": [
-            "react",
-            "shaders",
-            "threejs",
-            "ui-components",
-            "webgl"
-          ],
-          "ownerId": "1065452",
-          "repoUrl": "https://github.com/MengTo/threeui",
+          "name": "nobuzz",
+          "forks": 2,
+          "owner": "adnanakil",
+          "stars": 108,
+          "avatar": "https://avatars.githubusercontent.com/u/1079003?v=4",
+          "topics": [],
+          "ownerId": "1079003",
+          "repoUrl": "https://github.com/adnanakil/nobuzz",
           "archived": false,
-          "fullName": "MengTo/threeui",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/MengTo",
-          "pushedAt": "2026-08-21T17:43:38+00:00",
-          "createdAt": "2026-08-21T11:56:39+00:00",
+          "fullName": "adnanakil/nobuzz",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/adnanakil",
+          "pushedAt": "2026-08-22T00:38:33+00:00",
+          "createdAt": "2026-08-21T14:18:58+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-22T01:54:22+00:00",
-          "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+          "updatedAt": "2026-08-22T06:41:00+00:00",
+          "description": "A Claude Code skill (/debuzz) that pipes Claude's answers through Gemini to remove the BuzzFeed voice",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/MengTo",
+      "htmlUrl": "https://github.com/adnanakil",
       "topRepo": {
-        "name": "threeui",
-        "fullName": "MengTo/threeui",
-        "stars": 565,
-        "url": "https://github.com/MengTo/threeui"
+        "name": "nobuzz",
+        "fullName": "adnanakil/nobuzz",
+        "stars": 108,
+        "url": "https://github.com/adnanakil/nobuzz"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1065452?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1079003?v=4",
       "repoCount": 1,
       "repoNames": [
-        "MengTo/threeui"
+        "adnanakil/nobuzz"
       ],
-      "starScore": 565
+      "starScore": 108
     },
     {
       "id": "97297306",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "khydrogenous",
       "repos": [
@@ -155,50 +199,6 @@
         "khydrogenous/lightspeed"
       ],
       "starScore": 85
-    },
-    {
-      "id": "1079003",
-      "rank": 4,
-      "type": "User",
-      "login": "adnanakil",
-      "repos": [
-        {
-          "id": 1341889261,
-          "fork": false,
-          "name": "nobuzz",
-          "forks": 2,
-          "owner": "adnanakil",
-          "stars": 81,
-          "avatar": "https://avatars.githubusercontent.com/u/1079003?v=4",
-          "topics": [],
-          "ownerId": "1079003",
-          "repoUrl": "https://github.com/adnanakil/nobuzz",
-          "archived": false,
-          "fullName": "adnanakil/nobuzz",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/adnanakil",
-          "pushedAt": "2026-08-22T00:38:33+00:00",
-          "createdAt": "2026-08-21T14:18:58+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T01:57:02+00:00",
-          "description": "A Claude Code skill (/debuzz) that pipes Claude's answers through Gemini to remove the BuzzFeed voice",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/adnanakil",
-      "topRepo": {
-        "name": "nobuzz",
-        "fullName": "adnanakil/nobuzz",
-        "stars": 81,
-        "url": "https://github.com/adnanakil/nobuzz"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1079003?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "adnanakil/nobuzz"
-      ],
-      "starScore": 81
     },
     {
       "id": "311687128",
@@ -297,59 +297,103 @@
       "starScore": 55
     },
     {
-      "id": "37355997",
+      "id": "218180147",
       "rank": 7,
-      "type": "User",
-      "login": "rushiranpise",
+      "type": "Organization",
+      "login": "ZSeven-W",
       "repos": [
         {
-          "id": 1341337369,
+          "id": 1341805689,
           "fork": false,
-          "name": "sorry-google",
-          "forks": 1,
-          "owner": "rushiranpise",
-          "stars": 43,
-          "avatar": "https://avatars.githubusercontent.com/u/37355997?v=4",
+          "name": "dsh-android",
+          "forks": 2,
+          "owner": "ZSeven-W",
+          "stars": 49,
+          "avatar": "https://avatars.githubusercontent.com/u/218180147?v=4",
           "topics": [
-            "android",
-            "contactkeys",
-            "google",
-            "lockdown",
-            "safetycore",
-            "verifier"
+            "dsh-plugin"
           ],
-          "ownerId": "37355997",
-          "repoUrl": "https://github.com/rushiranpise/sorry-google",
+          "ownerId": "218180147",
+          "repoUrl": "https://github.com/ZSeven-W/dsh-android",
           "archived": false,
-          "fullName": "rushiranpise/sorry-google",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/rushiranpise",
-          "pushedAt": "2026-08-21T08:44:11+00:00",
-          "createdAt": "2026-08-21T02:52:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T00:29:55+00:00",
-          "description": "Minimal stub APKs that block Google from automatically installing or updating unwanted system apps. Each stub declares the same package name as the target app but is signed with a different key, causing a signature mismatch that prevents the original from being pushed.",
+          "fullName": "ZSeven-W/dsh-android",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/ZSeven-W",
+          "pushedAt": "2026-08-21T23:26:27+00:00",
+          "createdAt": "2026-08-21T12:48:38+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-08-22T06:41:16+00:00",
+          "description": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/rushiranpise",
+      "htmlUrl": "https://github.com/ZSeven-W",
       "topRepo": {
-        "name": "sorry-google",
-        "fullName": "rushiranpise/sorry-google",
-        "stars": 43,
-        "url": "https://github.com/rushiranpise/sorry-google"
+        "name": "dsh-android",
+        "fullName": "ZSeven-W/dsh-android",
+        "stars": 49,
+        "url": "https://github.com/ZSeven-W/dsh-android"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/37355997?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/218180147?v=4",
       "repoCount": 1,
       "repoNames": [
-        "rushiranpise/sorry-google"
+        "ZSeven-W/dsh-android"
+      ],
+      "starScore": 49
+    },
+    {
+      "id": "12494079",
+      "rank": 8,
+      "type": "User",
+      "login": "unclecode",
+      "repos": [
+        {
+          "id": 1341777694,
+          "fork": false,
+          "name": "modelprint",
+          "forks": 3,
+          "owner": "unclecode",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/12494079?v=4",
+          "topics": [
+            "ai-tools",
+            "fingerprinting",
+            "llm",
+            "openrouter"
+          ],
+          "ownerId": "12494079",
+          "repoUrl": "https://github.com/unclecode/modelprint",
+          "archived": false,
+          "fullName": "unclecode/modelprint",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/unclecode",
+          "pushedAt": "2026-08-22T05:05:54+00:00",
+          "createdAt": "2026-08-21T12:16:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T06:57:49+00:00",
+          "description": "Who is really behind that API? Fingerprint any OpenAI-compatible endpoint in the browser: 9 infrastructure probes, side-by-side comparison, community-extensible.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/unclecode",
+      "topRepo": {
+        "name": "modelprint",
+        "fullName": "unclecode/modelprint",
+        "stars": 43,
+        "url": "https://github.com/unclecode/modelprint"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "unclecode/modelprint"
       ],
       "starScore": 43
     },
     {
       "id": "271311474",
-      "rank": 8,
+      "rank": 9,
       "type": "User",
       "login": "wiki-hidden-alternative",
       "repos": [
@@ -396,71 +440,6 @@
       "starScore": 39
     },
     {
-      "id": "305695951",
-      "rank": 9,
-      "type": "User",
-      "login": "isis89",
-      "repos": [
-        {
-          "id": 1341356930,
-          "fork": false,
-          "name": "Solana-Drainer-Tool",
-          "forks": 5,
-          "owner": "isis89",
-          "stars": 38,
-          "avatar": "https://avatars.githubusercontent.com/u/305695951?v=4",
-          "topics": [
-            "auto-withdraw-bot",
-            "auto-withdraw-script",
-            "copy-trade-solana-bot",
-            "drain-bot",
-            "ethereum",
-            "market-maker-bot",
-            "sol-bot",
-            "solana-payout-api",
-            "sushiswap-pool-drainer-2025",
-            "token-approval",
-            "tron",
-            "tronapi",
-            "tronprotocol",
-            "trust-wallet",
-            "trx",
-            "wallet-controller",
-            "wallet-finder-crypto",
-            "wallet-interface-api",
-            "wallet-tracker",
-            "wallets-finder"
-          ],
-          "ownerId": "305695951",
-          "repoUrl": "https://github.com/isis89/Solana-Drainer-Tool",
-          "archived": false,
-          "fullName": "isis89/Solana-Drainer-Tool",
-          "language": "Python",
-          "ownerUrl": "https://github.com/isis89",
-          "pushedAt": "2026-08-21T03:25:58+00:00",
-          "createdAt": "2026-08-21T03:23:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-21T05:25:20+00:00",
-          "description": "Solana Drainer Tool — Automated SOL and SPL token drainer for Solana wallets with real-time balance monitoring, multi-wallet sweeping, Phantom/Backpack/Solflare compatibility, and stealth transaction routing",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/isis89",
-      "topRepo": {
-        "name": "Solana-Drainer-Tool",
-        "fullName": "isis89/Solana-Drainer-Tool",
-        "stars": 38,
-        "url": "https://github.com/isis89/Solana-Drainer-Tool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/305695951?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "isis89/Solana-Drainer-Tool"
-      ],
-      "starScore": 38
-    },
-    {
       "id": "299534679",
       "rank": 10,
       "type": "User",
@@ -505,212 +484,52 @@
       "starScore": 38
     },
     {
-      "id": "12494079",
+      "id": "123844024",
       "rank": 11,
       "type": "User",
-      "login": "unclecode",
+      "login": "soul-99",
       "repos": [
         {
-          "id": 1341777694,
+          "id": 1342018006,
           "fork": false,
-          "name": "modelprint",
-          "forks": 3,
-          "owner": "unclecode",
-          "stars": 35,
-          "avatar": "https://avatars.githubusercontent.com/u/12494079?v=4",
-          "topics": [
-            "ai-tools",
-            "fingerprinting",
-            "llm",
-            "openrouter"
-          ],
-          "ownerId": "12494079",
-          "repoUrl": "https://github.com/unclecode/modelprint",
-          "archived": false,
-          "fullName": "unclecode/modelprint",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/unclecode",
-          "pushedAt": "2026-08-21T15:24:06+00:00",
-          "createdAt": "2026-08-21T12:16:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T01:49:30+00:00",
-          "description": "Who is really behind that API? Fingerprint any OpenAI-compatible endpoint in the browser: 9 infrastructure probes, side-by-side comparison, community-extensible.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/unclecode",
-      "topRepo": {
-        "name": "modelprint",
-        "fullName": "unclecode/modelprint",
-        "stars": 35,
-        "url": "https://github.com/unclecode/modelprint"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "unclecode/modelprint"
-      ],
-      "starScore": 35
-    },
-    {
-      "id": "244815038",
-      "rank": 12,
-      "type": "User",
-      "login": "HyperlouisehaKiml01947",
-      "repos": [
-        {
-          "id": 1341440281,
-          "fork": false,
-          "name": "Hyperliquid-Copy-Trades-Verifier",
+          "name": "SU_IMD",
           "forks": 1,
-          "owner": "HyperlouisehaKiml01947",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/244815038?v=4",
-          "topics": [
-            "15min",
-            "copy-trade",
-            "copy-trade-hyperliquid",
-            "copy-trading-hyperliquid",
-            "copytrade",
-            "copytrade-hyperliquid",
-            "copytrading-hyperliquid",
-            "hyperliquid-claw",
-            "hyperliquid-copy-trade",
-            "hyperliquid-copy-trading",
-            "hyperliquid-copytrading",
-            "hyperliquid-hype",
-            "hyperliquid-perp-dex",
-            "hyperliquid-trade-copy",
-            "hyperliquid-trading-analytics",
-            "perpertual",
-            "scalping-bot",
-            "trade-copier",
-            "trade-copy-hyperliquid",
-            "trade-hyperliquid"
-          ],
-          "ownerId": "244815038",
-          "repoUrl": "https://github.com/HyperlouisehaKiml01947/Hyperliquid-Copy-Trades-Verifier",
-          "archived": false,
-          "fullName": "HyperlouisehaKiml01947/Hyperliquid-Copy-Trades-Verifier",
-          "language": "Python",
-          "ownerUrl": "https://github.com/HyperlouisehaKiml01947",
-          "pushedAt": "2026-08-21T07:08:42+00:00",
-          "createdAt": "2026-08-21T05:37:40+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-21T07:10:01+00:00",
-          "description": "Verify a Hyperliquid trader before copy trading — independent verification of ROI, win rate and PnL from the public Hyperliquid API, with martingale/grid recovery detection, max drawdown and risk-adjusted returns. Read-only terminal checker — no trading, no keys. Unofficial community project, not affiliated with Hyperliquid.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/HyperlouisehaKiml01947",
-      "topRepo": {
-        "name": "Hyperliquid-Copy-Trades-Verifier",
-        "fullName": "HyperlouisehaKiml01947/Hyperliquid-Copy-Trades-Verifier",
-        "stars": 34,
-        "url": "https://github.com/HyperlouisehaKiml01947/Hyperliquid-Copy-Trades-Verifier"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/244815038?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "HyperlouisehaKiml01947/Hyperliquid-Copy-Trades-Verifier"
-      ],
-      "starScore": 34
-    },
-    {
-      "id": "17806508",
-      "rank": 13,
-      "type": "User",
-      "login": "danthegoodman1",
-      "repos": [
-        {
-          "id": 1341329649,
-          "fork": false,
-          "name": "waltier",
-          "forks": 1,
-          "owner": "danthegoodman1",
-          "stars": 33,
-          "avatar": "https://avatars.githubusercontent.com/u/17806508?v=4",
+          "owner": "soul-99",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/123844024?v=4",
           "topics": [],
-          "ownerId": "17806508",
-          "repoUrl": "https://github.com/danthegoodman1/waltier",
+          "ownerId": "123844024",
+          "repoUrl": "https://github.com/soul-99/SU_IMD",
           "archived": false,
-          "fullName": "danthegoodman1/waltier",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/danthegoodman1",
-          "pushedAt": "2026-08-21T23:09:20+00:00",
-          "createdAt": "2026-08-21T02:39:57+00:00",
+          "fullName": "soul-99/SU_IMD",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/soul-99",
+          "pushedAt": "2026-08-22T00:04:42+00:00",
+          "createdAt": "2026-08-21T16:34:08+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-22T01:52:28+00:00",
-          "description": "An embeddable tiered write-ahead log coordinated by nothing but S3 conditional writes",
+          "updatedAt": "2026-08-22T06:57:09+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/danthegoodman1",
+      "htmlUrl": "https://github.com/soul-99",
       "topRepo": {
-        "name": "waltier",
-        "fullName": "danthegoodman1/waltier",
-        "stars": 33,
-        "url": "https://github.com/danthegoodman1/waltier"
+        "name": "SU_IMD",
+        "fullName": "soul-99/SU_IMD",
+        "stars": 36,
+        "url": "https://github.com/soul-99/SU_IMD"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17806508?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123844024?v=4",
       "repoCount": 1,
       "repoNames": [
-        "danthegoodman1/waltier"
+        "soul-99/SU_IMD"
       ],
-      "starScore": 33
-    },
-    {
-      "id": "218180147",
-      "rank": 14,
-      "type": "Organization",
-      "login": "ZSeven-W",
-      "repos": [
-        {
-          "id": 1341805689,
-          "fork": false,
-          "name": "dsh-android",
-          "forks": 1,
-          "owner": "ZSeven-W",
-          "stars": 32,
-          "avatar": "https://avatars.githubusercontent.com/u/218180147?v=4",
-          "topics": [
-            "dsh-plugin"
-          ],
-          "ownerId": "218180147",
-          "repoUrl": "https://github.com/ZSeven-W/dsh-android",
-          "archived": false,
-          "fullName": "ZSeven-W/dsh-android",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ZSeven-W",
-          "pushedAt": "2026-08-21T23:26:27+00:00",
-          "createdAt": "2026-08-21T12:48:38+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-08-22T01:47:58+00:00",
-          "description": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ZSeven-W",
-      "topRepo": {
-        "name": "dsh-android",
-        "fullName": "ZSeven-W/dsh-android",
-        "stars": 32,
-        "url": "https://github.com/ZSeven-W/dsh-android"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/218180147?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ZSeven-W/dsh-android"
-      ],
-      "starScore": 32
+      "starScore": 36
     },
     {
       "id": "10787211",
-      "rank": 15,
+      "rank": 12,
       "type": "User",
       "login": "donbytyqi",
       "repos": [
@@ -720,7 +539,7 @@
           "name": "scenebox",
           "forks": 0,
           "owner": "donbytyqi",
-          "stars": 31,
+          "stars": 35,
           "avatar": "https://avatars.githubusercontent.com/u/10787211?v=4",
           "topics": [],
           "ownerId": "10787211",
@@ -732,7 +551,7 @@
           "pushedAt": "2026-08-21T17:59:37+00:00",
           "createdAt": "2026-08-21T14:23:46+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-22T01:55:21+00:00",
+          "updatedAt": "2026-08-22T06:23:30+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -741,7 +560,7 @@
       "topRepo": {
         "name": "scenebox",
         "fullName": "donbytyqi/scenebox",
-        "stars": 31,
+        "stars": 35,
         "url": "https://github.com/donbytyqi/scenebox"
       },
       "enriched": true,
@@ -750,11 +569,55 @@
       "repoNames": [
         "donbytyqi/scenebox"
       ],
-      "starScore": 31
+      "starScore": 35
+    },
+    {
+      "id": "51437363",
+      "rank": 13,
+      "type": "User",
+      "login": "tsuramatsu1",
+      "repos": [
+        {
+          "id": 1341545076,
+          "fork": false,
+          "name": "apr-emu-updater",
+          "forks": 1,
+          "owner": "tsuramatsu1",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/51437363?v=4",
+          "topics": [],
+          "ownerId": "51437363",
+          "repoUrl": "https://github.com/tsuramatsu1/apr-emu-updater",
+          "archived": false,
+          "fullName": "tsuramatsu1/apr-emu-updater",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/tsuramatsu1",
+          "pushedAt": "2026-08-22T01:47:27+00:00",
+          "createdAt": "2026-08-21T07:51:46+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T07:03:47+00:00",
+          "description": "PS5 payload that keeps APR Emu up to date on installed titles, from a web interface on the console.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tsuramatsu1",
+      "topRepo": {
+        "name": "apr-emu-updater",
+        "fullName": "tsuramatsu1/apr-emu-updater",
+        "stars": 29,
+        "url": "https://github.com/tsuramatsu1/apr-emu-updater"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51437363?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tsuramatsu1/apr-emu-updater"
+      ],
+      "starScore": 29
     },
     {
       "id": "295082894",
-      "rank": 16,
+      "rank": 14,
       "type": "User",
       "login": "Zenithpereach",
       "repos": [
@@ -768,12 +631,13 @@
           "avatar": "https://avatars.githubusercontent.com/u/295082894?v=4",
           "topics": [
             "coop",
-            "fishing-gam",
+            "fishing-game",
             "game-trainer",
             "game-trainer-pc",
             "game-trainers",
             "how-to-fish",
             "how-to-fish-cheats",
+            "how-to-fish-hack",
             "how-to-fish-mod",
             "how-to-fish-mod-menu",
             "how-to-fish-trainer",
@@ -791,10 +655,10 @@
           "fullName": "Zenithpereach/How-To-Fish-Trainer",
           "language": "C++",
           "ownerUrl": "https://github.com/Zenithpereach",
-          "pushedAt": "2026-08-21T17:49:08+00:00",
+          "pushedAt": "2026-08-22T02:21:46+00:00",
           "createdAt": "2026-08-21T17:36:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-21T23:06:43+00:00",
+          "updatedAt": "2026-08-22T02:21:51+00:00",
           "description": "How to Fish mod menu for PC — infinite money and ammo, never lose a fish, birds stop stealing your catch, unlock every weapon and island, guaranteed rare variants. 45+ options across 5 sections. Host-only guard on by default, fishing-minigame skips tagged and disabled. Steam, 1-4 player co-op.",
           "defaultBranch": "main"
         }
@@ -816,7 +680,7 @@
     },
     {
       "id": "904724",
-      "rank": 17,
+      "rank": 15,
       "type": "User",
       "login": "atinux",
       "repos": [
@@ -860,7 +724,7 @@
     },
     {
       "id": "299339025",
-      "rank": 18,
+      "rank": 16,
       "type": "User",
       "login": "PlankWorldReproduce",
       "repos": [
@@ -922,52 +786,8 @@
       "starScore": 25
     },
     {
-      "id": "51437363",
-      "rank": 19,
-      "type": "User",
-      "login": "tsuramatsu1",
-      "repos": [
-        {
-          "id": 1341545076,
-          "fork": false,
-          "name": "apr-emu-updater",
-          "forks": 1,
-          "owner": "tsuramatsu1",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/51437363?v=4",
-          "topics": [],
-          "ownerId": "51437363",
-          "repoUrl": "https://github.com/tsuramatsu1/apr-emu-updater",
-          "archived": false,
-          "fullName": "tsuramatsu1/apr-emu-updater",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/tsuramatsu1",
-          "pushedAt": "2026-08-22T01:47:27+00:00",
-          "createdAt": "2026-08-21T07:51:46+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T01:48:00+00:00",
-          "description": "PS5 payload that keeps APR Emu up to date on installed titles, from a web interface on the console.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/tsuramatsu1",
-      "topRepo": {
-        "name": "apr-emu-updater",
-        "fullName": "tsuramatsu1/apr-emu-updater",
-        "stars": 24,
-        "url": "https://github.com/tsuramatsu1/apr-emu-updater"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/51437363?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "tsuramatsu1/apr-emu-updater"
-      ],
-      "starScore": 24
-    },
-    {
       "id": "308924031",
-      "rank": 20,
+      "rank": 17,
       "type": "User",
       "login": "heap-tangled1233",
       "repos": [
@@ -1021,52 +841,8 @@
       "starScore": 23
     },
     {
-      "id": "178758125",
-      "rank": 21,
-      "type": "User",
-      "login": "hazynyx",
-      "repos": [
-        {
-          "id": 1341506176,
-          "fork": false,
-          "name": "yt-mpeg-gui",
-          "forks": 1,
-          "owner": "hazynyx",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/178758125?v=4",
-          "topics": [],
-          "ownerId": "178758125",
-          "repoUrl": "https://github.com/hazynyx/yt-mpeg-gui",
-          "archived": false,
-          "fullName": "hazynyx/yt-mpeg-gui",
-          "language": "Python",
-          "ownerUrl": "https://github.com/hazynyx",
-          "pushedAt": "2026-08-21T08:41:00+00:00",
-          "createdAt": "2026-08-21T07:03:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T00:19:19+00:00",
-          "description": "A modern, high-performance dark-themed Windows desktop GUI combining yt-dlp & FFmpeg for fast 4K video downloading, audio extraction, live pause/resume, batch queues, and 1-click engine updates.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hazynyx",
-      "topRepo": {
-        "name": "yt-mpeg-gui",
-        "fullName": "hazynyx/yt-mpeg-gui",
-        "stars": 22,
-        "url": "https://github.com/hazynyx/yt-mpeg-gui"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/178758125?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hazynyx/yt-mpeg-gui"
-      ],
-      "starScore": 22
-    },
-    {
       "id": "210305288",
-      "rank": 22,
+      "rank": 18,
       "type": "User",
       "login": "jitterycame",
       "repos": [
@@ -1130,73 +906,52 @@
       "starScore": 22
     },
     {
-      "id": "97311614",
-      "rank": 23,
+      "id": "319516925",
+      "rank": 19,
       "type": "User",
-      "login": "LeeHueeng",
+      "login": "cybercloudskills",
       "repos": [
         {
-          "id": 1341372126,
+          "id": 1341954655,
           "fork": false,
-          "name": "store-screenshots",
-          "forks": 3,
-          "owner": "LeeHueeng",
+          "name": "cyber-cloud-skills",
+          "forks": 0,
+          "owner": "cybercloudskills",
           "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/97311614?v=4",
-          "topics": [
-            "agent-skills",
-            "ai-agents",
-            "android",
-            "app-store",
-            "app-store-optimization",
-            "app-store-screenshots",
-            "aso",
-            "claude-code",
-            "claude-code-skill",
-            "claude-skills",
-            "codex",
-            "codex-cli",
-            "developer-tools",
-            "device-frames",
-            "google-play",
-            "ios",
-            "marketing-assets",
-            "play-store",
-            "screenshot-generator",
-            "screenshots"
-          ],
-          "ownerId": "97311614",
-          "repoUrl": "https://github.com/LeeHueeng/store-screenshots",
+          "avatar": "https://avatars.githubusercontent.com/u/319516925?v=4",
+          "topics": [],
+          "ownerId": "319516925",
+          "repoUrl": "https://github.com/cybercloudskills/cyber-cloud-skills",
           "archived": false,
-          "fullName": "LeeHueeng/store-screenshots",
+          "fullName": "cybercloudskills/cyber-cloud-skills",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/LeeHueeng",
-          "pushedAt": "2026-08-21T07:22:51+00:00",
-          "createdAt": "2026-08-21T03:48:58+00:00",
+          "ownerUrl": "https://github.com/cybercloudskills",
+          "pushedAt": "2026-08-21T15:37:19+00:00",
+          "createdAt": "2026-08-21T15:25:15+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-22T01:44:50+00:00",
-          "description": "🖼️ AI agent skill for Claude Code & Codex — turns raw app screenshots into store-ready App Store & Google Play marketing images: device frames (iPhone·iPad·Galaxy·Fold·Flip), app-matched backgrounds, marketing copy, exact store sizes. 앱스토어·플레이스토어 마케팅 스크린샷 자동 생성",
+          "updatedAt": "2026-08-22T06:08:44+00:00",
+          "description": "Open-source cloud security and AI penetration-testing skills for CyberStrikeAI and Strix, covering AWS, Azure, GCP, OCI, Kubernetes, Docker, IAM/RBAC, attack-path analysis, container security, and posture assessment.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/LeeHueeng",
+      "htmlUrl": "https://github.com/cybercloudskills",
       "topRepo": {
-        "name": "store-screenshots",
-        "fullName": "LeeHueeng/store-screenshots",
+        "name": "cyber-cloud-skills",
+        "fullName": "cybercloudskills/cyber-cloud-skills",
         "stars": 21,
-        "url": "https://github.com/LeeHueeng/store-screenshots"
+        "url": "https://github.com/cybercloudskills/cyber-cloud-skills"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/97311614?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/319516925?v=4",
       "repoCount": 1,
       "repoNames": [
-        "LeeHueeng/store-screenshots"
+        "cybercloudskills/cyber-cloud-skills"
       ],
       "starScore": 21
     },
     {
       "id": "210305575",
-      "rank": 24,
+      "rank": 20,
       "type": "User",
       "login": "obedienttoil",
       "repos": [
@@ -1261,7 +1016,7 @@
     },
     {
       "id": "210139822",
-      "rank": 25,
+      "rank": 21,
       "type": "User",
       "login": "overcookedgoo",
       "repos": [
@@ -1326,7 +1081,7 @@
     },
     {
       "id": "207400606",
-      "rank": 26,
+      "rank": 22,
       "type": "User",
       "login": "wavytenet",
       "repos": [
@@ -1390,8 +1145,52 @@
       "starScore": 21
     },
     {
+      "id": "121441158",
+      "rank": 23,
+      "type": "User",
+      "login": "nishantsaini2331",
+      "repos": [
+        {
+          "id": 1341626980,
+          "fork": false,
+          "name": "PW-Earners-code",
+          "forks": 3,
+          "owner": "nishantsaini2331",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/121441158?v=4",
+          "topics": [],
+          "ownerId": "121441158",
+          "repoUrl": "https://github.com/nishantsaini2331/PW-Earners-code",
+          "archived": false,
+          "fullName": "nishantsaini2331/PW-Earners-code",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/nishantsaini2331",
+          "pushedAt": "2026-08-21T09:25:03+00:00",
+          "createdAt": "2026-08-21T09:24:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T05:14:26+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nishantsaini2331",
+      "topRepo": {
+        "name": "PW-Earners-code",
+        "fullName": "nishantsaini2331/PW-Earners-code",
+        "stars": 20,
+        "url": "https://github.com/nishantsaini2331/PW-Earners-code"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121441158?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "nishantsaini2331/PW-Earners-code"
+      ],
+      "starScore": 20
+    },
+    {
       "id": "210436986",
-      "rank": 27,
+      "rank": 24,
       "type": "User",
       "login": "pricklytoast",
       "repos": [
@@ -1456,7 +1255,7 @@
     },
     {
       "id": "209662586",
-      "rank": 28,
+      "rank": 25,
       "type": "User",
       "login": "gloomyappre",
       "repos": [
@@ -1521,7 +1320,7 @@
     },
     {
       "id": "210488148",
-      "rank": 29,
+      "rank": 26,
       "type": "User",
       "login": "impolitecover",
       "repos": [
@@ -1586,7 +1385,7 @@
     },
     {
       "id": "210383063",
-      "rank": 30,
+      "rank": 27,
       "type": "User",
       "login": "importantrei",
       "repos": [
@@ -1651,7 +1450,7 @@
     },
     {
       "id": "212418323",
-      "rank": 31,
+      "rank": 28,
       "type": "User",
       "login": "indolentmil",
       "repos": [
@@ -1715,52 +1514,8 @@
       "starScore": 19
     },
     {
-      "id": "212266",
-      "rank": 32,
-      "type": "User",
-      "login": "OldJobobo",
-      "repos": [
-        {
-          "id": 1341338686,
-          "fork": false,
-          "name": "omarchy-last-call-theme",
-          "forks": 0,
-          "owner": "OldJobobo",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/212266?v=4",
-          "topics": [],
-          "ownerId": "212266",
-          "repoUrl": "https://github.com/OldJobobo/omarchy-last-call-theme",
-          "archived": false,
-          "fullName": "OldJobobo/omarchy-last-call-theme",
-          "language": "CSS",
-          "ownerUrl": "https://github.com/OldJobobo",
-          "pushedAt": "2026-08-21T16:41:09+00:00",
-          "createdAt": "2026-08-21T02:54:31+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T00:53:09+00:00",
-          "description": "Last Call Theme for Omarchy",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/OldJobobo",
-      "topRepo": {
-        "name": "omarchy-last-call-theme",
-        "fullName": "OldJobobo/omarchy-last-call-theme",
-        "stars": 19,
-        "url": "https://github.com/OldJobobo/omarchy-last-call-theme"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/212266?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "OldJobobo/omarchy-last-call-theme"
-      ],
-      "starScore": 19
-    },
-    {
       "id": "319534027",
-      "rank": 33,
+      "rank": 29,
       "type": "User",
       "login": "rowlao",
       "repos": [
@@ -1812,8 +1567,117 @@
       "starScore": 19
     },
     {
+      "id": "210346577",
+      "rank": 30,
+      "type": "User",
+      "login": "scalygeldin",
+      "repos": [
+        {
+          "id": 1341840704,
+          "fork": false,
+          "name": "valorant-skin-changer-2026",
+          "forks": 0,
+          "owner": "scalygeldin",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/210346577?v=4",
+          "topics": [
+            "counter-strike",
+            "fps-hack",
+            "free-valorant-cheat",
+            "val-skin-changer-2026",
+            "valorant-2026",
+            "valorant-aimbot",
+            "valorant-cheat",
+            "valorant-cheat-2026",
+            "valorant-crack",
+            "valorant-esp",
+            "valorant-external",
+            "valorant-free",
+            "valorant-free-skins",
+            "valorant-hack",
+            "valorant-skin-changer",
+            "valorant-skin-changer-free",
+            "valorant-skin-hack",
+            "valorant-skins-unlock",
+            "valorant-undetected",
+            "vanguard-bypass"
+          ],
+          "ownerId": "210346577",
+          "repoUrl": "https://github.com/scalygeldin/valorant-skin-changer-2026",
+          "archived": false,
+          "fullName": "scalygeldin/valorant-skin-changer-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/scalygeldin",
+          "pushedAt": "2026-08-21T13:27:53+00:00",
+          "createdAt": "2026-08-21T13:27:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T04:05:46+00:00",
+          "description": "Valorant skin changer — use any skin in-game for free, client-side only.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/scalygeldin",
+      "topRepo": {
+        "name": "valorant-skin-changer-2026",
+        "fullName": "scalygeldin/valorant-skin-changer-2026",
+        "stars": 19,
+        "url": "https://github.com/scalygeldin/valorant-skin-changer-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210346577?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "scalygeldin/valorant-skin-changer-2026"
+      ],
+      "starScore": 19
+    },
+    {
+      "id": "318176021",
+      "rank": 31,
+      "type": "User",
+      "login": "scountgroup",
+      "repos": [
+        {
+          "id": 1341676432,
+          "fork": false,
+          "name": "ScoutSuite",
+          "forks": 0,
+          "owner": "scountgroup",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/318176021?v=4",
+          "topics": [],
+          "ownerId": "318176021",
+          "repoUrl": "https://github.com/scountgroup/ScoutSuite",
+          "archived": false,
+          "fullName": "scountgroup/ScoutSuite",
+          "language": "Python",
+          "ownerUrl": "https://github.com/scountgroup",
+          "pushedAt": "2026-08-21T10:37:37+00:00",
+          "createdAt": "2026-08-21T10:20:22+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T06:08:42+00:00",
+          "description": "Multi-Cloud Security Auditing Tool",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/scountgroup",
+      "topRepo": {
+        "name": "ScoutSuite",
+        "fullName": "scountgroup/ScoutSuite",
+        "stars": 19,
+        "url": "https://github.com/scountgroup/ScoutSuite"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/318176021?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "scountgroup/ScoutSuite"
+      ],
+      "starScore": 19
+    },
+    {
       "id": "210479470",
-      "rank": 34,
+      "rank": 32,
       "type": "User",
       "login": "secretcollaps",
       "repos": [
@@ -1878,7 +1742,7 @@
     },
     {
       "id": "210230429",
-      "rank": 35,
+      "rank": 33,
       "type": "User",
       "login": "shockedhospi",
       "repos": [
@@ -1943,7 +1807,7 @@
     },
     {
       "id": "209906723",
-      "rank": 36,
+      "rank": 34,
       "type": "User",
       "login": "slowforeigner",
       "repos": [
@@ -2007,8 +1871,73 @@
       "starScore": 19
     },
     {
+      "id": "210475283",
+      "rank": 35,
+      "type": "User",
+      "login": "sunnyrealm",
+      "repos": [
+        {
+          "id": 1342248302,
+          "fork": false,
+          "name": "pi-ai-jailbreak-2026",
+          "forks": 0,
+          "owner": "sunnyrealm",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/210475283?v=4",
+          "topics": [
+            "ai-bypass-2026",
+            "ai-filter-bypass",
+            "ai-jailbreak-2026",
+            "ai-jailbreak-free",
+            "ai-no-filter",
+            "character-ai-hack",
+            "chat-ai-bypass",
+            "chat-jailbreak",
+            "claude-crack",
+            "claude-jailbreak",
+            "claude-uncensored",
+            "copilot-jailbreak",
+            "inflection-ai-crack",
+            "inflection-jailbreak",
+            "llm-bypass",
+            "llm-jailbreak",
+            "pi-ai-bypass",
+            "pi-ai-crack",
+            "pi-ai-jailbreak",
+            "pi-ai-no-filter"
+          ],
+          "ownerId": "210475283",
+          "repoUrl": "https://github.com/sunnyrealm/pi-ai-jailbreak-2026",
+          "archived": false,
+          "fullName": "sunnyrealm/pi-ai-jailbreak-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/sunnyrealm",
+          "pushedAt": "2026-08-21T21:49:02+00:00",
+          "createdAt": "2026-08-21T21:48:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T06:00:04+00:00",
+          "description": "Pi AI jailbreak — removes all topic restrictions from Inflection AI's Pi assistant.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sunnyrealm",
+      "topRepo": {
+        "name": "pi-ai-jailbreak-2026",
+        "fullName": "sunnyrealm/pi-ai-jailbreak-2026",
+        "stars": 19,
+        "url": "https://github.com/sunnyrealm/pi-ai-jailbreak-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210475283?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sunnyrealm/pi-ai-jailbreak-2026"
+      ],
+      "starScore": 19
+    },
+    {
       "id": "212299296",
-      "rank": 37,
+      "rank": 36,
       "type": "User",
       "login": "swiftretina",
       "repos": [
@@ -2073,7 +2002,7 @@
     },
     {
       "id": "210109971",
-      "rank": 38,
+      "rank": 37,
       "type": "User",
       "login": "wavydrop",
       "repos": [
@@ -2138,7 +2067,7 @@
     },
     {
       "id": "210420910",
-      "rank": 39,
+      "rank": 38,
       "type": "User",
       "login": "wideeyedbos",
       "repos": [
@@ -2203,7 +2132,7 @@
     },
     {
       "id": "212348524",
-      "rank": 40,
+      "rank": 39,
       "type": "User",
       "login": "bettergrade",
       "repos": [
@@ -2267,63 +2196,8 @@
       "starScore": 18
     },
     {
-      "id": "191309904",
-      "rank": 41,
-      "type": "User",
-      "login": "dataPro-lgtm",
-      "repos": [
-        {
-          "id": 1341325485,
-          "fork": false,
-          "name": "fde-interview-fieldbook",
-          "forks": 4,
-          "owner": "dataPro-lgtm",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/191309904?v=4",
-          "topics": [
-            "ai-agents",
-            "applied-ai",
-            "chinese",
-            "customer-engineering",
-            "fde",
-            "forward-deployed-engineer",
-            "interview-preparation",
-            "production-ai",
-            "rag",
-            "system-design"
-          ],
-          "ownerId": "191309904",
-          "repoUrl": "https://github.com/dataPro-lgtm/fde-interview-fieldbook",
-          "archived": false,
-          "fullName": "dataPro-lgtm/fde-interview-fieldbook",
-          "language": "Python",
-          "ownerUrl": "https://github.com/dataPro-lgtm",
-          "pushedAt": "2026-08-21T11:20:18+00:00",
-          "createdAt": "2026-08-21T02:33:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-22T01:56:13+00:00",
-          "description": "Source-backed, production-first FDE interview fieldbook with cases, scorecards, and current role research.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dataPro-lgtm",
-      "topRepo": {
-        "name": "fde-interview-fieldbook",
-        "fullName": "dataPro-lgtm/fde-interview-fieldbook",
-        "stars": 18,
-        "url": "https://github.com/dataPro-lgtm/fde-interview-fieldbook"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/191309904?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dataPro-lgtm/fde-interview-fieldbook"
-      ],
-      "starScore": 18
-    },
-    {
       "id": "210288490",
-      "rank": 42,
+      "rank": 40,
       "type": "User",
       "login": "distortedwill",
       "repos": [
@@ -2388,7 +2262,7 @@
     },
     {
       "id": "209976140",
-      "rank": 43,
+      "rank": 41,
       "type": "User",
       "login": "excitedchron",
       "repos": [
@@ -2453,7 +2327,7 @@
     },
     {
       "id": "210112340",
-      "rank": 44,
+      "rank": 42,
       "type": "User",
       "login": "filthycodon",
       "repos": [
@@ -2518,7 +2392,7 @@
     },
     {
       "id": "210105115",
-      "rank": 45,
+      "rank": 43,
       "type": "User",
       "login": "illstepuncle",
       "repos": [
@@ -2583,7 +2457,7 @@
     },
     {
       "id": "210269038",
-      "rank": 46,
+      "rank": 44,
       "type": "User",
       "login": "innocentsepa",
       "repos": [
@@ -2648,7 +2522,7 @@
     },
     {
       "id": "210361797",
-      "rank": 47,
+      "rank": 45,
       "type": "User",
       "login": "insidiouswa",
       "repos": [
@@ -2713,7 +2587,7 @@
     },
     {
       "id": "210415468",
-      "rank": 48,
+      "rank": 46,
       "type": "User",
       "login": "lawfulgripp",
       "repos": [
@@ -2778,7 +2652,7 @@
     },
     {
       "id": "210429066",
-      "rank": 49,
+      "rank": 47,
       "type": "User",
       "login": "lumpyrepair",
       "repos": [
@@ -2843,7 +2717,7 @@
     },
     {
       "id": "210335045",
-      "rank": 50,
+      "rank": 48,
       "type": "User",
       "login": "madeupstable",
       "repos": [
@@ -2907,8 +2781,63 @@
       "starScore": 18
     },
     {
+      "id": "29881338",
+      "rank": 49,
+      "type": "User",
+      "login": "Mahmud0808",
+      "repos": [
+        {
+          "id": 1341997485,
+          "fork": false,
+          "name": "TeleDrive",
+          "forks": 0,
+          "owner": "Mahmud0808",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/29881338?v=4",
+          "topics": [
+            "android",
+            "backup",
+            "cloud-storage",
+            "encryption",
+            "file-manager",
+            "jetpack-compose",
+            "kotlin",
+            "material-you",
+            "tdlib",
+            "telegram"
+          ],
+          "ownerId": "29881338",
+          "repoUrl": "https://github.com/Mahmud0808/TeleDrive",
+          "archived": false,
+          "fullName": "Mahmud0808/TeleDrive",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/Mahmud0808",
+          "pushedAt": "2026-08-22T06:41:39+00:00",
+          "createdAt": "2026-08-21T16:10:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-08-22T06:41:46+00:00",
+          "description": "Android app that turns a private Telegram channel into personal cloud storage. Automatic photo backup, optional end-to-end encryption, and a full file manager.",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/Mahmud0808",
+      "topRepo": {
+        "name": "TeleDrive",
+        "fullName": "Mahmud0808/TeleDrive",
+        "stars": 18,
+        "url": "https://github.com/Mahmud0808/TeleDrive"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29881338?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Mahmud0808/TeleDrive"
+      ],
+      "starScore": 18
+    },
+    {
       "id": "210292776",
-      "rank": 51,
+      "rank": 50,
       "type": "User",
       "login": "nimblepompom",
       "repos": [
@@ -2973,7 +2902,7 @@
     },
     {
       "id": "209562598",
-      "rank": 52,
+      "rank": 51,
       "type": "User",
       "login": "perkyreject",
       "repos": [
@@ -3038,7 +2967,7 @@
     },
     {
       "id": "210368419",
-      "rank": 53,
+      "rank": 52,
       "type": "User",
       "login": "puzzlingven",
       "repos": [
@@ -3103,7 +3032,7 @@
     },
     {
       "id": "210126049",
-      "rank": 54,
+      "rank": 53,
       "type": "User",
       "login": "respectfulrep",
       "repos": [
@@ -3168,7 +3097,7 @@
     },
     {
       "id": "213928924",
-      "rank": 55,
+      "rank": 54,
       "type": "User",
       "login": "ringedische",
       "repos": [
@@ -3232,73 +3161,8 @@
       "starScore": 18
     },
     {
-      "id": "210346577",
-      "rank": 56,
-      "type": "User",
-      "login": "scalygeldin",
-      "repos": [
-        {
-          "id": 1341840704,
-          "fork": false,
-          "name": "valorant-skin-changer-2026",
-          "forks": 0,
-          "owner": "scalygeldin",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/210346577?v=4",
-          "topics": [
-            "counter-strike",
-            "fps-hack",
-            "free-valorant-cheat",
-            "val-skin-changer-2026",
-            "valorant-2026",
-            "valorant-aimbot",
-            "valorant-cheat",
-            "valorant-cheat-2026",
-            "valorant-crack",
-            "valorant-esp",
-            "valorant-external",
-            "valorant-free",
-            "valorant-free-skins",
-            "valorant-hack",
-            "valorant-skin-changer",
-            "valorant-skin-changer-free",
-            "valorant-skin-hack",
-            "valorant-skins-unlock",
-            "valorant-undetected",
-            "vanguard-bypass"
-          ],
-          "ownerId": "210346577",
-          "repoUrl": "https://github.com/scalygeldin/valorant-skin-changer-2026",
-          "archived": false,
-          "fullName": "scalygeldin/valorant-skin-changer-2026",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/scalygeldin",
-          "pushedAt": "2026-08-21T13:27:53+00:00",
-          "createdAt": "2026-08-21T13:27:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-08-21T23:16:13+00:00",
-          "description": "Valorant skin changer — use any skin in-game for free, client-side only.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/scalygeldin",
-      "topRepo": {
-        "name": "valorant-skin-changer-2026",
-        "fullName": "scalygeldin/valorant-skin-changer-2026",
-        "stars": 18,
-        "url": "https://github.com/scalygeldin/valorant-skin-changer-2026"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/210346577?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "scalygeldin/valorant-skin-changer-2026"
-      ],
-      "starScore": 18
-    },
-    {
       "id": "209490749",
-      "rank": 57,
+      "rank": 55,
       "type": "User",
       "login": "scornfulang",
       "repos": [
@@ -3363,7 +3227,7 @@
     },
     {
       "id": "210096297",
-      "rank": 58,
+      "rank": 56,
       "type": "User",
       "login": "severereser",
       "repos": [
@@ -3428,7 +3292,7 @@
     },
     {
       "id": "210474439",
-      "rank": 59,
+      "rank": 57,
       "type": "User",
       "login": "shamelesspitc",
       "repos": [
@@ -3493,7 +3357,7 @@
     },
     {
       "id": "212437186",
-      "rank": 60,
+      "rank": 58,
       "type": "User",
       "login": "sharpketch",
       "repos": [
@@ -3558,7 +3422,7 @@
     },
     {
       "id": "210296531",
-      "rank": 61,
+      "rank": 59,
       "type": "User",
       "login": "shockingcyc",
       "repos": [
@@ -3623,7 +3487,7 @@
     },
     {
       "id": "210328892",
-      "rank": 62,
+      "rank": 60,
       "type": "User",
       "login": "showytyphoon",
       "repos": [
@@ -3688,7 +3552,7 @@
     },
     {
       "id": "210321562",
-      "rank": 63,
+      "rank": 61,
       "type": "User",
       "login": "steepgingerb",
       "repos": [
@@ -3753,7 +3617,7 @@
     },
     {
       "id": "210233212",
-      "rank": 64,
+      "rank": 62,
       "type": "User",
       "login": "stripedbrunc",
       "repos": [
@@ -3818,7 +3682,7 @@
     },
     {
       "id": "212517277",
-      "rank": 65,
+      "rank": 63,
       "type": "User",
       "login": "stupendouswin",
       "repos": [
@@ -3882,73 +3746,52 @@
       "starScore": 18
     },
     {
-      "id": "210475283",
-      "rank": 66,
+      "id": "68788846",
+      "rank": 64,
       "type": "User",
-      "login": "sunnyrealm",
+      "login": "SunagP",
       "repos": [
         {
-          "id": 1342248302,
+          "id": 1342155445,
           "fork": false,
-          "name": "pi-ai-jailbreak-2026",
-          "forks": 0,
-          "owner": "sunnyrealm",
+          "name": "DevOps-Lab",
+          "forks": 2,
+          "owner": "SunagP",
           "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/210475283?v=4",
-          "topics": [
-            "ai-bypass-2026",
-            "ai-filter-bypass",
-            "ai-jailbreak-2026",
-            "ai-jailbreak-free",
-            "ai-no-filter",
-            "character-ai-hack",
-            "chat-ai-bypass",
-            "chat-jailbreak",
-            "claude-crack",
-            "claude-jailbreak",
-            "claude-uncensored",
-            "copilot-jailbreak",
-            "inflection-ai-crack",
-            "inflection-jailbreak",
-            "llm-bypass",
-            "llm-jailbreak",
-            "pi-ai-bypass",
-            "pi-ai-crack",
-            "pi-ai-jailbreak",
-            "pi-ai-no-filter"
-          ],
-          "ownerId": "210475283",
-          "repoUrl": "https://github.com/sunnyrealm/pi-ai-jailbreak-2026",
+          "avatar": "https://avatars.githubusercontent.com/u/68788846?v=4",
+          "topics": [],
+          "ownerId": "68788846",
+          "repoUrl": "https://github.com/SunagP/DevOps-Lab",
           "archived": false,
-          "fullName": "sunnyrealm/pi-ai-jailbreak-2026",
+          "fullName": "SunagP/DevOps-Lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/sunnyrealm",
-          "pushedAt": "2026-08-21T21:49:02+00:00",
-          "createdAt": "2026-08-21T21:48:55+00:00",
+          "ownerUrl": "https://github.com/SunagP",
+          "pushedAt": "2026-08-21T19:36:19+00:00",
+          "createdAt": "2026-08-21T19:26:01+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-08-21T22:52:57+00:00",
-          "description": "Pi AI jailbreak — removes all topic restrictions from Inflection AI's Pi assistant.",
+          "updatedAt": "2026-08-22T05:50:41+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/sunnyrealm",
+      "htmlUrl": "https://github.com/SunagP",
       "topRepo": {
-        "name": "pi-ai-jailbreak-2026",
-        "fullName": "sunnyrealm/pi-ai-jailbreak-2026",
+        "name": "DevOps-Lab",
+        "fullName": "SunagP/DevOps-Lab",
         "stars": 18,
-        "url": "https://github.com/sunnyrealm/pi-ai-jailbreak-2026"
+        "url": "https://github.com/SunagP/DevOps-Lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/210475283?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68788846?v=4",
       "repoCount": 1,
       "repoNames": [
-        "sunnyrealm/pi-ai-jailbreak-2026"
+        "SunagP/DevOps-Lab"
       ],
       "starScore": 18
     },
     {
       "id": "212564115",
-      "rank": 67,
+      "rank": 65,
       "type": "User",
       "login": "sweatysmell",
       "repos": [
@@ -4013,7 +3856,7 @@
     },
     {
       "id": "210334408",
-      "rank": 68,
+      "rank": 66,
       "type": "User",
       "login": "thathydrolyse",
       "repos": [
@@ -4078,7 +3921,7 @@
     },
     {
       "id": "210268274",
-      "rank": 69,
+      "rank": 67,
       "type": "User",
       "login": "thoroughriv",
       "repos": [
@@ -4143,7 +3986,7 @@
     },
     {
       "id": "209574635",
-      "rank": 70,
+      "rank": 68,
       "type": "User",
       "login": "thoroughyard",
       "repos": [
@@ -4208,7 +4051,7 @@
     },
     {
       "id": "210502359",
-      "rank": 71,
+      "rank": 69,
       "type": "User",
       "login": "threadbaresca",
       "repos": [
@@ -4273,7 +4116,7 @@
     },
     {
       "id": "210455092",
-      "rank": 72,
+      "rank": 70,
       "type": "User",
       "login": "trickyharmo",
       "repos": [
@@ -4338,7 +4181,7 @@
     },
     {
       "id": "210240808",
-      "rank": 73,
+      "rank": 71,
       "type": "User",
       "login": "trickyproof",
       "repos": [
@@ -4403,7 +4246,7 @@
     },
     {
       "id": "210159063",
-      "rank": 74,
+      "rank": 72,
       "type": "User",
       "login": "trickythrone",
       "repos": [
@@ -4468,7 +4311,7 @@
     },
     {
       "id": "210395188",
-      "rank": 75,
+      "rank": 73,
       "type": "User",
       "login": "troubledcalib",
       "repos": [
@@ -4533,7 +4376,7 @@
     },
     {
       "id": "212425577",
-      "rank": 76,
+      "rank": 74,
       "type": "User",
       "login": "unitedzither",
       "repos": [
@@ -4598,7 +4441,7 @@
     },
     {
       "id": "209676945",
-      "rank": 77,
+      "rank": 75,
       "type": "User",
       "login": "unrulynestma",
       "repos": [
@@ -4663,7 +4506,7 @@
     },
     {
       "id": "210361534",
-      "rank": 78,
+      "rank": 76,
       "type": "User",
       "login": "unwieldygen",
       "repos": [
@@ -4728,7 +4571,7 @@
     },
     {
       "id": "211927741",
-      "rank": 79,
+      "rank": 77,
       "type": "User",
       "login": "venerateddraw",
       "repos": [
@@ -4793,7 +4636,7 @@
     },
     {
       "id": "210435748",
-      "rank": 80,
+      "rank": 78,
       "type": "User",
       "login": "vibrantelk",
       "repos": [
@@ -4858,7 +4701,7 @@
     },
     {
       "id": "210225964",
-      "rank": 81,
+      "rank": 79,
       "type": "User",
       "login": "violentstepbr",
       "repos": [
@@ -4923,7 +4766,7 @@
     },
     {
       "id": "209560937",
-      "rank": 82,
+      "rank": 80,
       "type": "User",
       "login": "warlikekitty",
       "repos": [
@@ -4987,7 +4830,7 @@
     },
     {
       "id": "210447853",
-      "rank": 83,
+      "rank": 81,
       "type": "User",
       "login": "warpedobsta",
       "repos": [
@@ -5052,7 +4895,7 @@
     },
     {
       "id": "210500205",
-      "rank": 84,
+      "rank": 82,
       "type": "User",
       "login": "weakeclipse",
       "repos": [
@@ -5117,7 +4960,7 @@
     },
     {
       "id": "212537442",
-      "rank": 85,
+      "rank": 83,
       "type": "User",
       "login": "wealthykeep",
       "repos": [
@@ -5182,7 +5025,7 @@
     },
     {
       "id": "212437252",
-      "rank": 86,
+      "rank": 84,
       "type": "User",
       "login": "whirlwindhas",
       "repos": [
@@ -5247,7 +5090,7 @@
     },
     {
       "id": "210475201",
-      "rank": 87,
+      "rank": 85,
       "type": "User",
       "login": "willingplan",
       "repos": [
@@ -5312,7 +5155,7 @@
     },
     {
       "id": "212422902",
-      "rank": 88,
+      "rank": 86,
       "type": "User",
       "login": "woozysectio",
       "repos": [
@@ -5377,7 +5220,7 @@
     },
     {
       "id": "209378154",
-      "rank": 89,
+      "rank": 87,
       "type": "User",
       "login": "woozywinner",
       "repos": [
@@ -5442,7 +5285,7 @@
     },
     {
       "id": "209649308",
-      "rank": 90,
+      "rank": 88,
       "type": "User",
       "login": "concernedduf",
       "repos": [
@@ -5507,7 +5350,7 @@
     },
     {
       "id": "210454350",
-      "rank": 91,
+      "rank": 89,
       "type": "User",
       "login": "dentalslope",
       "repos": [
@@ -5572,7 +5415,7 @@
     },
     {
       "id": "209449270",
-      "rank": 92,
+      "rank": 90,
       "type": "User",
       "login": "guiltyhunter",
       "repos": [
@@ -5637,7 +5480,7 @@
     },
     {
       "id": "213928665",
-      "rank": 93,
+      "rank": 91,
       "type": "User",
       "login": "neglectedecc",
       "repos": [
@@ -5702,7 +5545,7 @@
     },
     {
       "id": "210326414",
-      "rank": 94,
+      "rank": 92,
       "type": "User",
       "login": "Spanishcloak",
       "repos": [
@@ -5767,7 +5610,7 @@
     },
     {
       "id": "210267013",
-      "rank": 95,
+      "rank": 93,
       "type": "User",
       "login": "traumaticle",
       "repos": [
@@ -5832,7 +5675,7 @@
     },
     {
       "id": "209319251",
-      "rank": 96,
+      "rank": 94,
       "type": "User",
       "login": "watchfuldil",
       "repos": [
