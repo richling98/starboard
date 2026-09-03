@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T11:29:00.585Z",
-  "total": 44,
-  "totalIndexedCount": 44,
-  "coverageLabel": "Showing 44 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-03T16:41:45.108Z",
+  "total": 49,
+  "totalIndexedCount": 49,
+  "coverageLabel": "Showing 49 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,8 +10,52 @@
   },
   "rows": [
     {
-      "id": "260782224",
+      "id": "291905677",
       "rank": 1,
+      "type": "User",
+      "login": "MSNightmare",
+      "repos": [
+        {
+          "id": 1355442495,
+          "fork": false,
+          "name": "FalconFlank",
+          "forks": 86,
+          "owner": "MSNightmare",
+          "stars": 353,
+          "avatar": "https://avatars.githubusercontent.com/u/291905677?v=4",
+          "topics": [],
+          "ownerId": "291905677",
+          "repoUrl": "https://github.com/MSNightmare/FalconFlank",
+          "archived": false,
+          "fullName": "MSNightmare/FalconFlank",
+          "language": "C",
+          "ownerUrl": "https://github.com/MSNightmare",
+          "pushedAt": "2026-09-03T03:44:38+00:00",
+          "createdAt": "2026-09-03T02:48:22+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:33:11+00:00",
+          "description": "Crowdstrike Falcon 0day Privilege Escalation Vulnerability",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MSNightmare",
+      "topRepo": {
+        "name": "FalconFlank",
+        "fullName": "MSNightmare/FalconFlank",
+        "stars": 353,
+        "url": "https://github.com/MSNightmare/FalconFlank"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291905677?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MSNightmare/FalconFlank"
+      ],
+      "starScore": 353
+    },
+    {
+      "id": "260782224",
+      "rank": 2,
       "type": "Organization",
       "login": "PhiloLabs",
       "repos": [
@@ -19,9 +63,9 @@
           "id": 1355092388,
           "fork": false,
           "name": "fable51-worlds",
-          "forks": 10,
+          "forks": 13,
           "owner": "PhiloLabs",
-          "stars": 259,
+          "stars": 344,
           "avatar": "https://avatars.githubusercontent.com/u/260782224?v=4",
           "topics": [
             "3d-reconstruction",
@@ -44,7 +88,7 @@
           "pushedAt": "2026-09-03T06:09:40+00:00",
           "createdAt": "2026-09-02T18:19:55+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-03T11:17:59+00:00",
+          "updatedAt": "2026-09-03T16:17:02+00:00",
           "description": "worlds via code, from fable 5.1",
           "defaultBranch": "main"
         }
@@ -53,7 +97,7 @@
       "topRepo": {
         "name": "fable51-worlds",
         "fullName": "PhiloLabs/fable51-worlds",
-        "stars": 259,
+        "stars": 344,
         "url": "https://github.com/PhiloLabs/fable51-worlds"
       },
       "enriched": true,
@@ -62,51 +106,7 @@
       "repoNames": [
         "PhiloLabs/fable51-worlds"
       ],
-      "starScore": 259
-    },
-    {
-      "id": "291905677",
-      "rank": 2,
-      "type": "User",
-      "login": "MSNightmare",
-      "repos": [
-        {
-          "id": 1355442495,
-          "fork": false,
-          "name": "FalconFlank",
-          "forks": 54,
-          "owner": "MSNightmare",
-          "stars": 243,
-          "avatar": "https://avatars.githubusercontent.com/u/291905677?v=4",
-          "topics": [],
-          "ownerId": "291905677",
-          "repoUrl": "https://github.com/MSNightmare/FalconFlank",
-          "archived": false,
-          "fullName": "MSNightmare/FalconFlank",
-          "language": "C",
-          "ownerUrl": "https://github.com/MSNightmare",
-          "pushedAt": "2026-09-03T03:44:38+00:00",
-          "createdAt": "2026-09-03T02:48:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T11:24:29+00:00",
-          "description": "Crowdstrike Falcon 0day Privilege Escalation Vulnerability",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MSNightmare",
-      "topRepo": {
-        "name": "FalconFlank",
-        "fullName": "MSNightmare/FalconFlank",
-        "stars": 243,
-        "url": "https://github.com/MSNightmare/FalconFlank"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291905677?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MSNightmare/FalconFlank"
-      ],
-      "starScore": 243
+      "starScore": 344
     },
     {
       "id": "52658655",
@@ -118,9 +118,9 @@
           "id": 1355259034,
           "fork": false,
           "name": "fable-orchestrator",
-          "forks": 24,
+          "forks": 38,
           "owner": "codejunkie99",
-          "stars": 132,
+          "stars": 207,
           "avatar": "https://avatars.githubusercontent.com/u/52658655?v=4",
           "topics": [],
           "ownerId": "52658655",
@@ -132,7 +132,7 @@
           "pushedAt": "2026-09-02T22:02:04+00:00",
           "createdAt": "2026-09-02T21:48:23+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T11:25:15+00:00",
+          "updatedAt": "2026-09-03T16:29:52+00:00",
           "description": "Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement.",
           "defaultBranch": "main"
         }
@@ -141,7 +141,7 @@
       "topRepo": {
         "name": "fable-orchestrator",
         "fullName": "codejunkie99/fable-orchestrator",
-        "stars": 132,
+        "stars": 207,
         "url": "https://github.com/codejunkie99/fable-orchestrator"
       },
       "enriched": true,
@@ -150,154 +150,11 @@
       "repoNames": [
         "codejunkie99/fable-orchestrator"
       ],
-      "starScore": 132
-    },
-    {
-      "id": "61998747",
-      "rank": 4,
-      "type": "User",
-      "login": "what1f",
-      "repos": [
-        {
-          "id": 1354945198,
-          "fork": false,
-          "name": "kitter",
-          "forks": 7,
-          "owner": "what1f",
-          "stars": 76,
-          "avatar": "https://avatars.githubusercontent.com/u/61998747?v=4",
-          "topics": [],
-          "ownerId": "61998747",
-          "repoUrl": "https://github.com/what1f/kitter",
-          "archived": false,
-          "fullName": "what1f/kitter",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/what1f",
-          "pushedAt": "2026-09-02T18:29:51+00:00",
-          "createdAt": "2026-09-02T15:44:45+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T10:52:27+00:00",
-          "description": "A local-first Skill manager: one library, only what each project needs.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/what1f",
-      "topRepo": {
-        "name": "kitter",
-        "fullName": "what1f/kitter",
-        "stars": 76,
-        "url": "https://github.com/what1f/kitter"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/61998747?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "what1f/kitter"
-      ],
-      "starScore": 76
-    },
-    {
-      "id": "260893928",
-      "rank": 5,
-      "type": "Organization",
-      "login": "localai-org",
-      "repos": [
-        {
-          "id": 1354807227,
-          "fork": false,
-          "name": "motion-bricks.cpp",
-          "forks": 3,
-          "owner": "localai-org",
-          "stars": 72,
-          "avatar": "https://avatars.githubusercontent.com/u/260893928?v=4",
-          "topics": [],
-          "ownerId": "260893928",
-          "repoUrl": "https://github.com/localai-org/motion-bricks.cpp",
-          "archived": false,
-          "fullName": "localai-org/motion-bricks.cpp",
-          "language": "C++",
-          "ownerUrl": "https://github.com/localai-org",
-          "pushedAt": "2026-09-02T13:37:34+00:00",
-          "createdAt": "2026-09-02T13:36:52+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-03T10:19:44+00:00",
-          "description": "NVIDIA MotionBricks ported to GGML/C++; dynamically generates animations from keyframes using a neural network. Can be used in games or with robots",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/localai-org",
-      "topRepo": {
-        "name": "motion-bricks.cpp",
-        "fullName": "localai-org/motion-bricks.cpp",
-        "stars": 72,
-        "url": "https://github.com/localai-org/motion-bricks.cpp"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/260893928?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "localai-org/motion-bricks.cpp"
-      ],
-      "starScore": 72
-    },
-    {
-      "id": "306811885",
-      "rank": 6,
-      "type": "User",
-      "login": "Maas6696",
-      "repos": [
-        {
-          "id": 1354997816,
-          "fork": false,
-          "name": "cloudflare-challenge-clearance",
-          "forks": 4,
-          "owner": "Maas6696",
-          "stars": 65,
-          "avatar": "https://avatars.githubusercontent.com/u/306811885?v=4",
-          "topics": [
-            "anti-bot",
-            "captcha-solver",
-            "cf-clearance",
-            "cloudflare",
-            "cloudflare-bypass",
-            "cloudflare-challenge",
-            "cloudflare-scraper",
-            "just-a-moment",
-            "python",
-            "web-scraping"
-          ],
-          "ownerId": "306811885",
-          "repoUrl": "https://github.com/Maas6696/cloudflare-challenge-clearance",
-          "archived": false,
-          "fullName": "Maas6696/cloudflare-challenge-clearance",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Maas6696",
-          "pushedAt": "2026-09-02T16:39:33+00:00",
-          "createdAt": "2026-09-02T16:39:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-02T17:05:52+00:00",
-          "description": "Bypass the Cloudflare challenge (Just a moment / 5s) in Python and get a valid cf_clearance cookie via the Peak API - headless-friendly, proxy-aware.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Maas6696",
-      "topRepo": {
-        "name": "cloudflare-challenge-clearance",
-        "fullName": "Maas6696/cloudflare-challenge-clearance",
-        "stars": 65,
-        "url": "https://github.com/Maas6696/cloudflare-challenge-clearance"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/306811885?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Maas6696/cloudflare-challenge-clearance"
-      ],
-      "starScore": 65
+      "starScore": 207
     },
     {
       "id": "173838289",
-      "rank": 7,
+      "rank": 4,
       "type": "User",
       "login": "blendi-remade",
       "repos": [
@@ -305,9 +162,9 @@
           "id": 1355405465,
           "fork": false,
           "name": "unreel",
-          "forks": 9,
+          "forks": 15,
           "owner": "blendi-remade",
-          "stars": 64,
+          "stars": 85,
           "avatar": "https://avatars.githubusercontent.com/u/173838289?v=4",
           "topics": [],
           "ownerId": "173838289",
@@ -319,7 +176,7 @@
           "pushedAt": "2026-09-03T01:52:05+00:00",
           "createdAt": "2026-09-03T01:49:07+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T11:25:00+00:00",
+          "updatedAt": "2026-09-03T16:31:36+00:00",
           "description": "your personal AI video streaming service",
           "defaultBranch": "main"
         }
@@ -328,7 +185,7 @@
       "topRepo": {
         "name": "unreel",
         "fullName": "blendi-remade/unreel",
-        "stars": 64,
+        "stars": 85,
         "url": "https://github.com/blendi-remade/unreel"
       },
       "enriched": true,
@@ -337,67 +194,155 @@
       "repoNames": [
         "blendi-remade/unreel"
       ],
-      "starScore": 64
+      "starScore": 85
     },
     {
-      "id": "306815143",
-      "rank": 8,
+      "id": "324444804",
+      "rank": 5,
       "type": "User",
-      "login": "kowalski76057",
+      "login": "podsfamily",
       "repos": [
         {
-          "id": 1354970515,
+          "id": 1355892492,
           "fork": false,
-          "name": "cf-turnstile-token",
-          "forks": 2,
-          "owner": "kowalski76057",
-          "stars": 63,
-          "avatar": "https://avatars.githubusercontent.com/u/306815143?v=4",
+          "name": "pods",
+          "forks": 9,
+          "owner": "podsfamily",
+          "stars": 73,
+          "avatar": "https://avatars.githubusercontent.com/u/324444804?v=4",
           "topics": [
-            "anti-bot",
-            "api-client",
-            "automation",
-            "captcha",
-            "cli",
-            "cloudflare",
-            "cloudflare-turnstile",
-            "developer-tools",
-            "token",
-            "turnstile",
-            "web-scraping"
+            "depin",
+            "distributed-computing",
+            "ethereum",
+            "gpu",
+            "tokenized-equity"
           ],
-          "ownerId": "306815143",
-          "repoUrl": "https://github.com/kowalski76057/cf-turnstile-token",
+          "ownerId": "324444804",
+          "repoUrl": "https://github.com/podsfamily/pods",
           "archived": false,
-          "fullName": "kowalski76057/cf-turnstile-token",
-          "language": "Python",
-          "ownerUrl": "https://github.com/kowalski76057",
-          "pushedAt": "2026-09-02T16:11:01+00:00",
-          "createdAt": "2026-09-02T16:10:51+00:00",
+          "fullName": "podsfamily/pods",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/podsfamily",
+          "pushedAt": "2026-09-03T12:55:31+00:00",
+          "createdAt": "2026-09-03T11:32:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-02T16:38:58+00:00",
-          "description": "Scriptable Cloudflare Turnstile token CLI via the Peak API - sitekey discovery, solve, and token output for CI and automation.",
+          "updatedAt": "2026-09-03T15:41:29+00:00",
+          "description": "Rent out your idle GPU, get paid in tokenized NVDA on Robinhood Chain.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/kowalski76057",
+      "htmlUrl": "https://github.com/podsfamily",
       "topRepo": {
-        "name": "cf-turnstile-token",
-        "fullName": "kowalski76057/cf-turnstile-token",
-        "stars": 63,
-        "url": "https://github.com/kowalski76057/cf-turnstile-token"
+        "name": "pods",
+        "fullName": "podsfamily/pods",
+        "stars": 73,
+        "url": "https://github.com/podsfamily/pods"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/306815143?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324444804?v=4",
       "repoCount": 1,
       "repoNames": [
-        "kowalski76057/cf-turnstile-token"
+        "podsfamily/pods"
       ],
-      "starScore": 63
+      "starScore": 73
+    },
+    {
+      "id": "138802404",
+      "rank": 6,
+      "type": "User",
+      "login": "nahrek",
+      "repos": [
+        {
+          "id": 1355017800,
+          "fork": false,
+          "name": "polyledger",
+          "forks": 27,
+          "owner": "nahrek",
+          "stars": 72,
+          "avatar": "https://avatars.githubusercontent.com/u/138802404?v=4",
+          "topics": [
+            "data-science",
+            "hypersync",
+            "polymarket",
+            "polymarketprediction-markets",
+            "prediction-market"
+          ],
+          "ownerId": "138802404",
+          "repoUrl": "https://github.com/nahrek/polyledger",
+          "archived": false,
+          "fullName": "nahrek/polyledger",
+          "language": "Python",
+          "ownerUrl": "https://github.com/nahrek",
+          "pushedAt": "2026-09-02T19:48:22+00:00",
+          "createdAt": "2026-09-02T17:00:13+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:32:31+00:00",
+          "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nahrek",
+      "topRepo": {
+        "name": "polyledger",
+        "fullName": "nahrek/polyledger",
+        "stars": 72,
+        "url": "https://github.com/nahrek/polyledger"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/138802404?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "nahrek/polyledger"
+      ],
+      "starScore": 72
+    },
+    {
+      "id": "125107286",
+      "rank": 7,
+      "type": "User",
+      "login": "internetphysics",
+      "repos": [
+        {
+          "id": 1355150344,
+          "fork": false,
+          "name": "live-classroom",
+          "forks": 13,
+          "owner": "internetphysics",
+          "stars": 66,
+          "avatar": "https://avatars.githubusercontent.com/u/125107286?v=4",
+          "topics": [],
+          "ownerId": "125107286",
+          "repoUrl": "https://github.com/internetphysics/live-classroom",
+          "archived": false,
+          "fullName": "internetphysics/live-classroom",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/internetphysics",
+          "pushedAt": "2026-09-02T19:38:44+00:00",
+          "createdAt": "2026-09-02T19:24:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:30:02+00:00",
+          "description": "A live TV channel that teaches whatever you type — LLM-planned lessons rendered just-in-time as 1970s-style cartoons by MiniMax H3 Max Turbo, playing on a CRT in a 3D classroom. Bring your own fal key.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/internetphysics",
+      "topRepo": {
+        "name": "live-classroom",
+        "fullName": "internetphysics/live-classroom",
+        "stars": 66,
+        "url": "https://github.com/internetphysics/live-classroom"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125107286?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "internetphysics/live-classroom"
+      ],
+      "starScore": 66
     },
     {
       "id": "300654937",
-      "rank": 9,
+      "rank": 8,
       "type": "Organization",
       "login": "pgrundev",
       "repos": [
@@ -407,7 +352,7 @@
           "name": "pgbook",
           "forks": 2,
           "owner": "pgrundev",
-          "stars": 51,
+          "stars": 56,
           "avatar": "https://avatars.githubusercontent.com/u/300654937?v=4",
           "topics": [],
           "ownerId": "300654937",
@@ -419,7 +364,7 @@
           "pushedAt": "2026-09-02T19:00:06+00:00",
           "createdAt": "2026-09-02T16:55:32+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-03T11:13:42+00:00",
+          "updatedAt": "2026-09-03T13:28:52+00:00",
           "description": "Postgres Book, one topic at a time.",
           "defaultBranch": "main"
         }
@@ -428,7 +373,7 @@
       "topRepo": {
         "name": "pgbook",
         "fullName": "pgrundev/pgbook",
-        "stars": 51,
+        "stars": 56,
         "url": "https://github.com/pgrundev/pgbook"
       },
       "enriched": true,
@@ -437,55 +382,62 @@
       "repoNames": [
         "pgrundev/pgbook"
       ],
-      "starScore": 51
+      "starScore": 56
     },
     {
-      "id": "97675594",
-      "rank": 10,
+      "id": "321657499",
+      "rank": 9,
       "type": "User",
-      "login": "GEXIMUZ",
+      "login": "leah-anderson393",
       "repos": [
         {
-          "id": 1354754471,
+          "id": 1355966596,
           "fork": false,
-          "name": "GexZ-LabZ-Homepage",
-          "forks": 3,
-          "owner": "GEXIMUZ",
-          "stars": 49,
-          "avatar": "https://avatars.githubusercontent.com/u/97675594?v=4",
-          "topics": [],
-          "ownerId": "97675594",
-          "repoUrl": "https://github.com/GEXIMUZ/GexZ-LabZ-Homepage",
+          "name": "Palworld-menu",
+          "forks": 0,
+          "owner": "leah-anderson393",
+          "stars": 55,
+          "avatar": "https://avatars.githubusercontent.com/u/321657499?v=4",
+          "topics": [
+            "palworld",
+            "palworld-cheat-2026",
+            "palworld-docker",
+            "palworld-editor",
+            "palworld-save-fix",
+            "palworld-server"
+          ],
+          "ownerId": "321657499",
+          "repoUrl": "https://github.com/leah-anderson393/Palworld-menu",
           "archived": false,
-          "fullName": "GEXIMUZ/GexZ-LabZ-Homepage",
-          "language": "CSS",
-          "ownerUrl": "https://github.com/GEXIMUZ",
-          "pushedAt": "2026-09-02T13:28:55+00:00",
-          "createdAt": "2026-09-02T12:44:14+00:00",
+          "fullName": "leah-anderson393/Palworld-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/leah-anderson393",
+          "pushedAt": "2026-09-03T12:50:34+00:00",
+          "createdAt": "2026-09-03T12:44:16+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T10:34:12+00:00",
-          "description": "My custom self-hosted Homepage dashboard for GexZ LabZ — widgets, styling and sanitized example configs.",
+          "updatedAt": "2026-09-03T13:52:10+00:00",
+          "description": "Palworld Cheat Menu Guide and Tips for 2026",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/GEXIMUZ",
+      "htmlUrl": "https://github.com/leah-anderson393",
       "topRepo": {
-        "name": "GexZ-LabZ-Homepage",
-        "fullName": "GEXIMUZ/GexZ-LabZ-Homepage",
-        "stars": 49,
-        "url": "https://github.com/GEXIMUZ/GexZ-LabZ-Homepage"
+        "name": "Palworld-menu",
+        "fullName": "leah-anderson393/Palworld-menu",
+        "stars": 55,
+        "url": "https://github.com/leah-anderson393/Palworld-menu"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/97675594?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321657499?v=4",
       "repoCount": 1,
       "repoNames": [
-        "GEXIMUZ/GexZ-LabZ-Homepage"
+        "leah-anderson393/Palworld-menu"
       ],
-      "starScore": 49
+      "starScore": 55
     },
     {
       "id": "4465236",
-      "rank": 11,
+      "rank": 10,
       "type": "User",
       "login": "adenaufal",
       "repos": [
@@ -495,7 +447,7 @@
           "name": "nafkah",
           "forks": 5,
           "owner": "adenaufal",
-          "stars": 47,
+          "stars": 53,
           "avatar": "https://avatars.githubusercontent.com/u/4465236?v=4",
           "topics": [
             "choropleth",
@@ -515,7 +467,7 @@
           "pushedAt": "2026-09-03T08:14:45+00:00",
           "createdAt": "2026-09-03T03:01:49+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T11:17:45+00:00",
+          "updatedAt": "2026-09-03T15:26:30+00:00",
           "description": "Peta interaktif kecukupan UMK/UMP terhadap biaya hidup di 514 kabupaten/kota Indonesia. Static Next.js, data CC BY 4.0.",
           "defaultBranch": "main"
         }
@@ -524,7 +476,7 @@
       "topRepo": {
         "name": "nafkah",
         "fullName": "adenaufal/nafkah",
-        "stars": 47,
+        "stars": 53,
         "url": "https://github.com/adenaufal/nafkah"
       },
       "enriched": true,
@@ -533,154 +485,66 @@
       "repoNames": [
         "adenaufal/nafkah"
       ],
-      "starScore": 47
+      "starScore": 53
     },
     {
-      "id": "125107286",
-      "rank": 12,
+      "id": "322206907",
+      "rank": 11,
       "type": "User",
-      "login": "internetphysics",
+      "login": "jessica-6120",
       "repos": [
         {
-          "id": 1355150344,
+          "id": 1355985203,
           "fork": false,
-          "name": "live-classroom",
-          "forks": 8,
-          "owner": "internetphysics",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/125107286?v=4",
-          "topics": [],
-          "ownerId": "125107286",
-          "repoUrl": "https://github.com/internetphysics/live-classroom",
-          "archived": false,
-          "fullName": "internetphysics/live-classroom",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/internetphysics",
-          "pushedAt": "2026-09-02T19:38:44+00:00",
-          "createdAt": "2026-09-02T19:24:07+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T11:24:23+00:00",
-          "description": "A live TV channel that teaches whatever you type — LLM-planned lessons rendered just-in-time as 1970s-style cartoons by MiniMax H3 Max Turbo, playing on a CRT in a 3D classroom. Bring your own fal key.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/internetphysics",
-      "topRepo": {
-        "name": "live-classroom",
-        "fullName": "internetphysics/live-classroom",
-        "stars": 46,
-        "url": "https://github.com/internetphysics/live-classroom"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125107286?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "internetphysics/live-classroom"
-      ],
-      "starScore": 46
-    },
-    {
-      "id": "138802404",
-      "rank": 13,
-      "type": "User",
-      "login": "nahrek",
-      "repos": [
-        {
-          "id": 1355017800,
-          "fork": false,
-          "name": "polyledger",
-          "forks": 20,
-          "owner": "nahrek",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/138802404?v=4",
-          "topics": [
-            "data-science",
-            "hypersync",
-            "polymarket",
-            "polymarketprediction-markets",
-            "prediction-market"
-          ],
-          "ownerId": "138802404",
-          "repoUrl": "https://github.com/nahrek/polyledger",
-          "archived": false,
-          "fullName": "nahrek/polyledger",
-          "language": "Python",
-          "ownerUrl": "https://github.com/nahrek",
-          "pushedAt": "2026-09-02T19:48:22+00:00",
-          "createdAt": "2026-09-02T17:00:13+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T08:21:55+00:00",
-          "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/nahrek",
-      "topRepo": {
-        "name": "polyledger",
-        "fullName": "nahrek/polyledger",
-        "stars": 46,
-        "url": "https://github.com/nahrek/polyledger"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/138802404?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "nahrek/polyledger"
-      ],
-      "starScore": 46
-    },
-    {
-      "id": "15620553",
-      "rank": 14,
-      "type": "User",
-      "login": "ForrestKnight",
-      "repos": [
-        {
-          "id": 1354798926,
-          "fork": false,
-          "name": "omarchy-forest-night-theme",
+          "name": "sea-of-thieves-hack-pirate-intel",
           "forks": 0,
-          "owner": "ForrestKnight",
-          "stars": 43,
-          "avatar": "https://avatars.githubusercontent.com/u/15620553?v=4",
+          "owner": "jessica-6120",
+          "stars": 53,
+          "avatar": "https://avatars.githubusercontent.com/u/322206907?v=4",
           "topics": [
-            "hyprland",
-            "omarchy",
-            "omarchy-theme",
-            "omarchy-themes"
+            "sea-of-thieves-2026",
+            "sea-of-thieves-esp-2026",
+            "sea-of-thieves-esp-latest",
+            "sea-of-thieves-esp-windows",
+            "sea-of-thieves-fix",
+            "sea-of-thieves-hack-2026",
+            "sea-of-thieves-hack-latest",
+            "sea-of-thieves-optimization",
+            "sea-of-thieves-pc-setup",
+            "sea-of-thieves-windows"
           ],
-          "ownerId": "15620553",
-          "repoUrl": "https://github.com/ForrestKnight/omarchy-forest-night-theme",
+          "ownerId": "322206907",
+          "repoUrl": "https://github.com/jessica-6120/sea-of-thieves-hack-pirate-intel",
           "archived": false,
-          "fullName": "ForrestKnight/omarchy-forest-night-theme",
+          "fullName": "jessica-6120/sea-of-thieves-hack-pirate-intel",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/ForrestKnight",
-          "pushedAt": "2026-09-02T16:02:46+00:00",
-          "createdAt": "2026-09-02T13:29:00+00:00",
+          "ownerUrl": "https://github.com/jessica-6120",
+          "pushedAt": "2026-09-03T13:03:19+00:00",
+          "createdAt": "2026-09-03T13:02:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T10:50:56+00:00",
-          "description": "Forest Night — a dark forest-green theme for Omarchy",
+          "updatedAt": "2026-09-03T13:10:39+00:00",
+          "description": "Advanced Sea of Thieves hack-themed gameplay analysis toolkit for studying PvP encounters, ship combat, treasure routes, hidden mechanics, resource management and gold efficiency",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/ForrestKnight",
+      "htmlUrl": "https://github.com/jessica-6120",
       "topRepo": {
-        "name": "omarchy-forest-night-theme",
-        "fullName": "ForrestKnight/omarchy-forest-night-theme",
-        "stars": 43,
-        "url": "https://github.com/ForrestKnight/omarchy-forest-night-theme"
+        "name": "sea-of-thieves-hack-pirate-intel",
+        "fullName": "jessica-6120/sea-of-thieves-hack-pirate-intel",
+        "stars": 53,
+        "url": "https://github.com/jessica-6120/sea-of-thieves-hack-pirate-intel"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15620553?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322206907?v=4",
       "repoCount": 1,
       "repoNames": [
-        "ForrestKnight/omarchy-forest-night-theme"
+        "jessica-6120/sea-of-thieves-hack-pirate-intel"
       ],
-      "starScore": 43
+      "starScore": 53
     },
     {
       "id": "299343674",
-      "rank": 15,
+      "rank": 12,
       "type": "User",
       "login": "MacroDiplomat",
       "repos": [
@@ -690,7 +554,7 @@
           "name": "Xeno-Executor",
           "forks": 10,
           "owner": "MacroDiplomat",
-          "stars": 38,
+          "stars": 49,
           "avatar": "https://avatars.githubusercontent.com/u/299343674?v=4",
           "topics": [
             "xeno-exec-2026",
@@ -706,7 +570,7 @@
           "pushedAt": "2026-09-02T17:35:48+00:00",
           "createdAt": "2026-09-02T17:23:29+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-02T17:41:28+00:00",
+          "updatedAt": "2026-09-03T11:35:50+00:00",
           "description": "Xeno Executor — Free keyless script runner for Windows. No keys, no paywalls.",
           "defaultBranch": "main"
         }
@@ -715,7 +579,7 @@
       "topRepo": {
         "name": "Xeno-Executor",
         "fullName": "MacroDiplomat/Xeno-Executor",
-        "stars": 38,
+        "stars": 49,
         "url": "https://github.com/MacroDiplomat/Xeno-Executor"
       },
       "enriched": true,
@@ -724,11 +588,905 @@
       "repoNames": [
         "MacroDiplomat/Xeno-Executor"
       ],
-      "starScore": 38
+      "starScore": 49
+    },
+    {
+      "id": "321675734",
+      "rank": 13,
+      "type": "User",
+      "login": "jhamilton18-blip",
+      "repos": [
+        {
+          "id": 1355993856,
+          "fork": false,
+          "name": "fortnite-hack-aim-intelligence",
+          "forks": 0,
+          "owner": "jhamilton18-blip",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321675734?v=4",
+          "topics": [
+            "fortnite-aim-hack",
+            "fortnite-aimbot-2026",
+            "fortnite-battleye-bypass",
+            "fortnite-esp-2026",
+            "fortnite-exe",
+            "fortnite-github",
+            "fortnite-glitch-2026",
+            "fortnite-hack-latest",
+            "fortnite-skin-swapper-2026",
+            "fortnite-sprites"
+          ],
+          "ownerId": "321675734",
+          "repoUrl": "https://github.com/jhamilton18-blip/fortnite-hack-aim-intelligence",
+          "archived": false,
+          "fullName": "jhamilton18-blip/fortnite-hack-aim-intelligence",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/jhamilton18-blip",
+          "pushedAt": "2026-09-03T13:12:17+00:00",
+          "createdAt": "2026-09-03T13:11:57+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:18:46+00:00",
+          "description": "Advanced Fortnite hack-themed gameplay intelligence lab for analyzing aim consistency, combat decisions, positioning, movement, engagements and match performance.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jhamilton18-blip",
+      "topRepo": {
+        "name": "fortnite-hack-aim-intelligence",
+        "fullName": "jhamilton18-blip/fortnite-hack-aim-intelligence",
+        "stars": 48,
+        "url": "https://github.com/jhamilton18-blip/fortnite-hack-aim-intelligence"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321675734?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jhamilton18-blip/fortnite-hack-aim-intelligence"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321682494",
+      "rank": 14,
+      "type": "User",
+      "login": "joelblack-94",
+      "repos": [
+        {
+          "id": 1355998576,
+          "fork": false,
+          "name": "ready-or-not-hack-tactical-lab",
+          "forks": 0,
+          "owner": "joelblack-94",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321682494?v=4",
+          "topics": [
+            "ready-or-not",
+            "ready-or-not-aim",
+            "ready-or-not-esp",
+            "ready-or-not-free--download",
+            "ready-or-not-hack",
+            "ready-or-not-hack-esp",
+            "ready-or-not-hacks",
+            "ready-or-not-hacks-download",
+            "ready-or-not-mod",
+            "ready-or-not-software"
+          ],
+          "ownerId": "321682494",
+          "repoUrl": "https://github.com/joelblack-94/ready-or-not-hack-tactical-lab",
+          "archived": false,
+          "fullName": "joelblack-94/ready-or-not-hack-tactical-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/joelblack-94",
+          "pushedAt": "2026-09-03T13:17:53+00:00",
+          "createdAt": "2026-09-03T13:16:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:24:40+00:00",
+          "description": "Advanced Ready or Not hack-themed gameplay analysis lab for studying aim, positioning, tactical decisions, enemy encounters, mission performance and squad coordination.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/joelblack-94",
+      "topRepo": {
+        "name": "ready-or-not-hack-tactical-lab",
+        "fullName": "joelblack-94/ready-or-not-hack-tactical-lab",
+        "stars": 48,
+        "url": "https://github.com/joelblack-94/ready-or-not-hack-tactical-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321682494?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "joelblack-94/ready-or-not-hack-tactical-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321656196",
+      "rank": 15,
+      "type": "User",
+      "login": "john-nguyen327",
+      "repos": [
+        {
+          "id": 1356005373,
+          "fork": false,
+          "name": "megabonk-hack-build-lab",
+          "forks": 0,
+          "owner": "john-nguyen327",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321656196?v=4",
+          "topics": [
+            "megabonk",
+            "megabonk-fps-boost-pc",
+            "megabonk-fps-tweak",
+            "megabonk-optimization",
+            "megabonk-optimization-pc",
+            "megabonk-optimizer-settings",
+            "megabonk-performance-tweak-windows"
+          ],
+          "ownerId": "321656196",
+          "repoUrl": "https://github.com/john-nguyen327/megabonk-hack-build-lab",
+          "archived": false,
+          "fullName": "john-nguyen327/megabonk-hack-build-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/john-nguyen327",
+          "pushedAt": "2026-09-03T13:24:17+00:00",
+          "createdAt": "2026-09-03T13:23:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:30:13+00:00",
+          "description": "Advanced MegaBonk hack-themed gameplay analysis lab for studying builds, upgrades, combat patterns, progression, survival efficiency and run performance.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/john-nguyen327",
+      "topRepo": {
+        "name": "megabonk-hack-build-lab",
+        "fullName": "john-nguyen327/megabonk-hack-build-lab",
+        "stars": 48,
+        "url": "https://github.com/john-nguyen327/megabonk-hack-build-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321656196?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "john-nguyen327/megabonk-hack-build-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321658816",
+      "rank": 16,
+      "type": "User",
+      "login": "jonathan7129-ai",
+      "repos": [
+        {
+          "id": 1356008964,
+          "fork": false,
+          "name": "cs2-skin-changer-visual-lab",
+          "forks": 0,
+          "owner": "jonathan7129-ai",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321658816?v=4",
+          "topics": [
+            "counter-strike-2",
+            "counter-strike-2-aim-2026",
+            "counter-strike-2-driver",
+            "counter-strike-2-easy-play",
+            "counter-strike-2-requirements",
+            "counter-strike-2-settings",
+            "counter-strike-2-vision",
+            "counter-strike-2-weapons",
+            "counter-strike-2-wiki",
+            "counter-strike-2-zip-file-download"
+          ],
+          "ownerId": "321658816",
+          "repoUrl": "https://github.com/jonathan7129-ai/cs2-skin-changer-visual-lab",
+          "archived": false,
+          "fullName": "jonathan7129-ai/cs2-skin-changer-visual-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/jonathan7129-ai",
+          "pushedAt": "2026-09-03T13:28:19+00:00",
+          "createdAt": "2026-09-03T13:27:30+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:35:49+00:00",
+          "description": "Advanced CS2 skin changer visualization lab for studying weapon finishes, inventory layouts, skin collections, wear patterns, case-opening simulations and cosmetic customization concepts.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jonathan7129-ai",
+      "topRepo": {
+        "name": "cs2-skin-changer-visual-lab",
+        "fullName": "jonathan7129-ai/cs2-skin-changer-visual-lab",
+        "stars": 48,
+        "url": "https://github.com/jonathan7129-ai/cs2-skin-changer-visual-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321658816?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jonathan7129-ai/cs2-skin-changer-visual-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321924412",
+      "rank": 17,
+      "type": "User",
+      "login": "jordanmurray01",
+      "repos": [
+        {
+          "id": 1356014308,
+          "fork": false,
+          "name": "gta-5-project-alpha-mod-lab",
+          "forks": 0,
+          "owner": "jordanmurray01",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321924412?v=4",
+          "topics": [
+            "gta-5-2026",
+            "gta-5-bypass",
+            "gta-5-cheat-engine",
+            "gta-5-exploit",
+            "gta-5-external-hack",
+            "gta-5-free",
+            "gta-5-glitch-2026",
+            "gta-5-hack-2026",
+            "gta-5-hack-2026-free",
+            "gta-5-utility"
+          ],
+          "ownerId": "321924412",
+          "repoUrl": "https://github.com/jordanmurray01/gta-5-project-alpha-mod-lab",
+          "archived": false,
+          "fullName": "jordanmurray01/gta-5-project-alpha-mod-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/jordanmurray01",
+          "pushedAt": "2026-09-03T13:33:38+00:00",
+          "createdAt": "2026-09-03T13:33:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:41:01+00:00",
+          "description": "Advanced GTA 5 Project Alpha mod-themed research lab for studying UI concepts, vehicle systems, mission statistics, player progression, economy simulations and single-player customization workflows",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jordanmurray01",
+      "topRepo": {
+        "name": "gta-5-project-alpha-mod-lab",
+        "fullName": "jordanmurray01/gta-5-project-alpha-mod-lab",
+        "stars": 48,
+        "url": "https://github.com/jordanmurray01/gta-5-project-alpha-mod-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321924412?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jordanmurray01/gta-5-project-alpha-mod-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322002189",
+      "rank": 18,
+      "type": "User",
+      "login": "joseph1533-design",
+      "repos": [
+        {
+          "id": 1356018610,
+          "fork": false,
+          "name": "poe-2-hack-intelligence-lab",
+          "forks": 0,
+          "owner": "joseph1533-design",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322002189?v=4",
+          "topics": [
+            "poe-2",
+            "poe-2-atlas",
+            "poe-2-auto-loot",
+            "poe-2-auto-loot-free",
+            "poe-2-bot",
+            "poe-2-bot-farm",
+            "poe-2-build",
+            "poe-2-cheat",
+            "poe-2-gpt",
+            "poe-2-openai"
+          ],
+          "ownerId": "322002189",
+          "repoUrl": "https://github.com/joseph1533-design/poe-2-hack-intelligence-lab",
+          "archived": false,
+          "fullName": "joseph1533-design/poe-2-hack-intelligence-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/joseph1533-design",
+          "pushedAt": "2026-09-03T13:37:34+00:00",
+          "createdAt": "2026-09-03T13:37:17+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T13:46:54+00:00",
+          "description": "Advanced Path of Exile 2 hack-themed gameplay analysis lab for studying builds, farming efficiency, loot patterns, combat performance and progression.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/joseph1533-design",
+      "topRepo": {
+        "name": "poe-2-hack-intelligence-lab",
+        "fullName": "joseph1533-design/poe-2-hack-intelligence-lab",
+        "stars": 48,
+        "url": "https://github.com/joseph1533-design/poe-2-hack-intelligence-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322002189?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "joseph1533-design/poe-2-hack-intelligence-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321960723",
+      "rank": 19,
+      "type": "User",
+      "login": "kelly-bailey-480",
+      "repos": [
+        {
+          "id": 1356172534,
+          "fork": false,
+          "name": "league-of-legends-mod",
+          "forks": 0,
+          "owner": "kelly-bailey-480",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321960723?v=4",
+          "topics": [
+            "leauge-of-legends",
+            "leauge-of-legends-esp",
+            "leauge-of-legends-hack",
+            "leauge-of-legends-lasthit",
+            "leauge-of-legends-orbwalker"
+          ],
+          "ownerId": "321960723",
+          "repoUrl": "https://github.com/kelly-bailey-480/league-of-legends-mod",
+          "archived": false,
+          "fullName": "kelly-bailey-480/league-of-legends-mod",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kelly-bailey-480",
+          "pushedAt": "2026-09-03T16:11:54+00:00",
+          "createdAt": "2026-09-03T16:09:50+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:19:48+00:00",
+          "description": "League of Legends Skin Swapper 2026",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kelly-bailey-480",
+      "topRepo": {
+        "name": "league-of-legends-mod",
+        "fullName": "kelly-bailey-480/league-of-legends-mod",
+        "stars": 48,
+        "url": "https://github.com/kelly-bailey-480/league-of-legends-mod"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321960723?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kelly-bailey-480/league-of-legends-mod"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321678940",
+      "rank": 20,
+      "type": "User",
+      "login": "kennhall5793",
+      "repos": [
+        {
+          "id": 1356149292,
+          "fork": false,
+          "name": "rust-ext-2026",
+          "forks": 0,
+          "owner": "kennhall5793",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321678940?v=4",
+          "topics": [
+            "rust-examples",
+            "rust-plugins",
+            "rust-treasures",
+            "rust-tutorial"
+          ],
+          "ownerId": "321678940",
+          "repoUrl": "https://github.com/kennhall5793/rust-ext-2026",
+          "archived": false,
+          "fullName": "kennhall5793/rust-ext-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kennhall5793",
+          "pushedAt": "2026-09-03T15:53:46+00:00",
+          "createdAt": "2026-09-03T15:44:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:00:26+00:00",
+          "description": "Best Rust ESP & No-Recoil Aim Assist 2026 – Advanced Optics Suite",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kennhall5793",
+      "topRepo": {
+        "name": "rust-ext-2026",
+        "fullName": "kennhall5793/rust-ext-2026",
+        "stars": 48,
+        "url": "https://github.com/kennhall5793/rust-ext-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321678940?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kennhall5793/rust-ext-2026"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322227154",
+      "rank": 21,
+      "type": "User",
+      "login": "kimberlyjordan87",
+      "repos": [
+        {
+          "id": 1356125442,
+          "fork": false,
+          "name": "overwatch2-menu",
+          "forks": 0,
+          "owner": "kimberlyjordan87",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322227154?v=4",
+          "topics": [
+            "overwatch-2",
+            "overwatch-2-macro",
+            "overwatch2",
+            "overwatch2-tool",
+            "ow2-aim-2026",
+            "ow2-aim-hack",
+            "ow2-cheat-free",
+            "rust-hack-2026-free",
+            "shooter-hack-2026"
+          ],
+          "ownerId": "322227154",
+          "repoUrl": "https://github.com/kimberlyjordan87/overwatch2-menu",
+          "archived": false,
+          "fullName": "kimberlyjordan87/overwatch2-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kimberlyjordan87",
+          "pushedAt": "2026-09-03T15:28:22+00:00",
+          "createdAt": "2026-09-03T15:20:29+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T15:36:57+00:00",
+          "description": "Top Overwatch 2 Gameplay Enhancement Suite 2026: ESP & No Recoil",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kimberlyjordan87",
+      "topRepo": {
+        "name": "overwatch2-menu",
+        "fullName": "kimberlyjordan87/overwatch2-menu",
+        "stars": 48,
+        "url": "https://github.com/kimberlyjordan87/overwatch2-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322227154?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kimberlyjordan87/overwatch2-menu"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322204488",
+      "rank": 22,
+      "type": "User",
+      "login": "kimberlymurray69",
+      "repos": [
+        {
+          "id": 1356111444,
+          "fork": false,
+          "name": "pubg-menu",
+          "forks": 0,
+          "owner": "kimberlymurray69",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322204488?v=4",
+          "topics": [
+            "pubg",
+            "pubg-maps",
+            "pubg-mobile-pc",
+            "pubg-overlay",
+            "pubg-tools",
+            "pubg-utility"
+          ],
+          "ownerId": "322204488",
+          "repoUrl": "https://github.com/kimberlymurray69/pubg-menu",
+          "archived": false,
+          "fullName": "kimberlymurray69/pubg-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kimberlymurray69",
+          "pushedAt": "2026-09-03T15:08:42+00:00",
+          "createdAt": "2026-09-03T15:06:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T15:17:24+00:00",
+          "description": "Best Software Menu For Pubg Yet",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kimberlymurray69",
+      "topRepo": {
+        "name": "pubg-menu",
+        "fullName": "kimberlymurray69/pubg-menu",
+        "stars": 48,
+        "url": "https://github.com/kimberlymurray69/pubg-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322204488?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kimberlymurray69/pubg-menu"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322186110",
+      "rank": 23,
+      "type": "User",
+      "login": "kimberlywilliams124",
+      "repos": [
+        {
+          "id": 1356090956,
+          "fork": false,
+          "name": "dota2-umbrella-menu",
+          "forks": 0,
+          "owner": "kimberlywilliams124",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322186110?v=4",
+          "topics": [
+            "dota",
+            "dota-2",
+            "dota-2-tools",
+            "external",
+            "steam",
+            "steam-games"
+          ],
+          "ownerId": "322186110",
+          "repoUrl": "https://github.com/kimberlywilliams124/dota2-umbrella-menu",
+          "archived": false,
+          "fullName": "kimberlywilliams124/dota2-umbrella-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kimberlywilliams124",
+          "pushedAt": "2026-09-03T14:51:34+00:00",
+          "createdAt": "2026-09-03T14:46:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:59:42+00:00",
+          "description": "Dota 2 Umbrella (2026) is a specialized software utility for advanced gameplay data tracking and visual overlays. Maximize your match performance with optimized real-time analysis tools.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kimberlywilliams124",
+      "topRepo": {
+        "name": "dota2-umbrella-menu",
+        "fullName": "kimberlywilliams124/dota2-umbrella-menu",
+        "stars": 48,
+        "url": "https://github.com/kimberlywilliams124/dota2-umbrella-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322186110?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kimberlywilliams124/dota2-umbrella-menu"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322212097",
+      "rank": 24,
+      "type": "User",
+      "login": "kyle-graham-63",
+      "repos": [
+        {
+          "id": 1356076313,
+          "fork": false,
+          "name": "warzone-menu",
+          "forks": 0,
+          "owner": "kyle-graham-63",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322212097?v=4",
+          "topics": [
+            "blackops6",
+            "call-of-duty",
+            "patchguard-bypass",
+            "warzone-dma",
+            "warzone-modification",
+            "warzone-toolkit"
+          ],
+          "ownerId": "322212097",
+          "repoUrl": "https://github.com/kyle-graham-63/warzone-menu",
+          "archived": false,
+          "fullName": "kyle-graham-63/warzone-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kyle-graham-63",
+          "pushedAt": "2026-09-03T14:38:02+00:00",
+          "createdAt": "2026-09-03T14:32:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:42:08+00:00",
+          "description": "Warzone Menu 2026 - Aimbot, ESP, No Recoil, Triggerbot | Best Warzone Undetected Cheat 2026 | MW3 & Warzone",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kyle-graham-63",
+      "topRepo": {
+        "name": "warzone-menu",
+        "fullName": "kyle-graham-63/warzone-menu",
+        "stars": 48,
+        "url": "https://github.com/kyle-graham-63/warzone-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322212097?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kyle-graham-63/warzone-menu"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321890483",
+      "rank": 25,
+      "type": "User",
+      "login": "larry-marshall-224",
+      "repos": [
+        {
+          "id": 1356057720,
+          "fork": false,
+          "name": "rdr2-menu-2026",
+          "forks": 0,
+          "owner": "larry-marshall-224",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321890483?v=4",
+          "topics": [
+            "rdr2",
+            "rdr2-bot",
+            "rdr2-mod"
+          ],
+          "ownerId": "321890483",
+          "repoUrl": "https://github.com/larry-marshall-224/rdr2-menu-2026",
+          "archived": false,
+          "fullName": "larry-marshall-224/rdr2-menu-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/larry-marshall-224",
+          "pushedAt": "2026-09-03T14:20:45+00:00",
+          "createdAt": "2026-09-03T14:15:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:27:54+00:00",
+          "description": "This repository contains cheat codes and mods for the popular game Red Dead Redemption 2. Enhance your gaming experience with unique cheats and tweaks to explore the Wild West in a whole new way.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/larry-marshall-224",
+      "topRepo": {
+        "name": "rdr2-menu-2026",
+        "fullName": "larry-marshall-224/rdr2-menu-2026",
+        "stars": 48,
+        "url": "https://github.com/larry-marshall-224/rdr2-menu-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321890483?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "larry-marshall-224/rdr2-menu-2026"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "322182054",
+      "rank": 26,
+      "type": "User",
+      "login": "larrythomas78",
+      "repos": [
+        {
+          "id": 1356046619,
+          "fork": false,
+          "name": "marvel-rivals-menu",
+          "forks": 0,
+          "owner": "larrythomas78",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/322182054?v=4",
+          "topics": [
+            "marvel",
+            "pc",
+            "rivals",
+            "safe",
+            "tools",
+            "update",
+            "windows",
+            "working"
+          ],
+          "ownerId": "322182054",
+          "repoUrl": "https://github.com/larrythomas78/marvel-rivals-menu",
+          "archived": false,
+          "fullName": "larrythomas78/marvel-rivals-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/larrythomas78",
+          "pushedAt": "2026-09-03T14:06:50+00:00",
+          "createdAt": "2026-09-03T14:05:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:13:56+00:00",
+          "description": "Marvel Rivals Menu - undetected cheat with anti-cheat bypass",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/larrythomas78",
+      "topRepo": {
+        "name": "marvel-rivals-menu",
+        "fullName": "larrythomas78/marvel-rivals-menu",
+        "stars": 48,
+        "url": "https://github.com/larrythomas78/marvel-rivals-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322182054?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "larrythomas78/marvel-rivals-menu"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "321650367",
+      "rank": 27,
+      "type": "User",
+      "login": "laurengonzalez95",
+      "repos": [
+        {
+          "id": 1356027200,
+          "fork": false,
+          "name": "tf2-menu-2026",
+          "forks": 0,
+          "owner": "laurengonzalez95",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/321650367?v=4",
+          "topics": [
+            "counter-strike",
+            "teamfortress2",
+            "tf2-config",
+            "tf2-hud"
+          ],
+          "ownerId": "321650367",
+          "repoUrl": "https://github.com/laurengonzalez95/tf2-menu-2026",
+          "archived": false,
+          "fullName": "laurengonzalez95/tf2-menu-2026",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/laurengonzalez95",
+          "pushedAt": "2026-09-03T13:47:19+00:00",
+          "createdAt": "2026-09-03T13:46:05+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:07:41+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/laurengonzalez95",
+      "topRepo": {
+        "name": "tf2-menu-2026",
+        "fullName": "laurengonzalez95/tf2-menu-2026",
+        "stars": 48,
+        "url": "https://github.com/laurengonzalez95/tf2-menu-2026"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321650367?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "laurengonzalez95/tf2-menu-2026"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "84208527",
+      "rank": 28,
+      "type": "User",
+      "login": "Saganaki22",
+      "repos": [
+        {
+          "id": 1355519841,
+          "fork": false,
+          "name": "ComfyUI-VDN-H3",
+          "forks": 0,
+          "owner": "Saganaki22",
+          "stars": 44,
+          "avatar": "https://avatars.githubusercontent.com/u/84208527?v=4",
+          "topics": [
+            "attention-mechanism",
+            "comfyui",
+            "comfyui-nodes",
+            "fl2va",
+            "minimax-h3",
+            "t2v"
+          ],
+          "ownerId": "84208527",
+          "repoUrl": "https://github.com/Saganaki22/ComfyUI-VDN-H3",
+          "archived": false,
+          "fullName": "Saganaki22/ComfyUI-VDN-H3",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Saganaki22",
+          "pushedAt": "2026-09-03T16:16:58+00:00",
+          "createdAt": "2026-09-03T04:44:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:22:33+00:00",
+          "description": "Video Delta Net hybrid attention for MiniMax-H3 as a native ComfyUI node. ",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Saganaki22",
+      "topRepo": {
+        "name": "ComfyUI-VDN-H3",
+        "fullName": "Saganaki22/ComfyUI-VDN-H3",
+        "stars": 44,
+        "url": "https://github.com/Saganaki22/ComfyUI-VDN-H3"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84208527?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Saganaki22/ComfyUI-VDN-H3"
+      ],
+      "starScore": 44
+    },
+    {
+      "id": "6305864",
+      "rank": 29,
+      "type": "User",
+      "login": "cyptnpassira",
+      "repos": [
+        {
+          "id": 1355507861,
+          "fork": false,
+          "name": "PromptLedger",
+          "forks": 0,
+          "owner": "cyptnpassira",
+          "stars": 41,
+          "avatar": "https://avatars.githubusercontent.com/u/6305864?v=4",
+          "topics": [
+            "benchmark",
+            "diff",
+            "evaluation",
+            "experiments",
+            "go",
+            "llm",
+            "machine-learning",
+            "prompt-engineering",
+            "promptledger",
+            "python",
+            "reporting",
+            "reproducibility",
+            "snapshots",
+            "templates",
+            "versioning"
+          ],
+          "ownerId": "6305864",
+          "repoUrl": "https://github.com/cyptnpassira/PromptLedger",
+          "archived": false,
+          "fullName": "cyptnpassira/PromptLedger",
+          "language": "Python",
+          "ownerUrl": "https://github.com/cyptnpassira",
+          "pushedAt": "2026-09-03T08:24:07+00:00",
+          "createdAt": "2026-09-03T04:26:04+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T14:23:53+00:00",
+          "description": "PromptLedger - version prompt templates, run deterministic comparison snapshots, score candidate responses, and ship diffable experiment reports. Python core plus a Go companion CLI.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cyptnpassira",
+      "topRepo": {
+        "name": "PromptLedger",
+        "fullName": "cyptnpassira/PromptLedger",
+        "stars": 41,
+        "url": "https://github.com/cyptnpassira/PromptLedger"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6305864?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cyptnpassira/PromptLedger"
+      ],
+      "starScore": 41
     },
     {
       "id": "324413472",
-      "rank": 16,
+      "rank": 30,
       "type": "User",
       "login": "StillChill-code",
       "repos": [
@@ -738,7 +1496,7 @@
           "name": "Roblox-Script",
           "forks": 16,
           "owner": "StillChill-code",
-          "stars": 38,
+          "stars": 39,
           "avatar": "https://avatars.githubusercontent.com/u/324413472?v=4",
           "topics": [
             "adoptme-automation",
@@ -771,7 +1529,7 @@
           "pushedAt": "2026-09-03T09:44:51+00:00",
           "createdAt": "2026-09-03T09:11:34+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T10:21:43+00:00",
+          "updatedAt": "2026-09-03T14:46:03+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -780,7 +1538,7 @@
       "topRepo": {
         "name": "Roblox-Script",
         "fullName": "StillChill-code/Roblox-Script",
-        "stars": 38,
+        "stars": 39,
         "url": "https://github.com/StillChill-code/Roblox-Script"
       },
       "enriched": true,
@@ -789,11 +1547,65 @@
       "repoNames": [
         "StillChill-code/Roblox-Script"
       ],
-      "starScore": 38
+      "starScore": 39
+    },
+    {
+      "id": "315104785",
+      "rank": 31,
+      "type": "User",
+      "login": "PerfectionCraneMall",
+      "repos": [
+        {
+          "id": 1355053251,
+          "fork": false,
+          "name": "facebook-reporting-bot",
+          "forks": 0,
+          "owner": "PerfectionCraneMall",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/315104785?v=4",
+          "topics": [
+            "autobot",
+            "ban-account",
+            "ban-facebook-bot",
+            "ban-facebook-tool",
+            "fb-bot",
+            "report-facebook-bot",
+            "report-facebook-tool",
+            "reporter-facebook-bot",
+            "reporter-facebook-tool"
+          ],
+          "ownerId": "315104785",
+          "repoUrl": "https://github.com/PerfectionCraneMall/facebook-reporting-bot",
+          "archived": false,
+          "fullName": "PerfectionCraneMall/facebook-reporting-bot",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/PerfectionCraneMall",
+          "pushedAt": "2026-09-02T17:37:55+00:00",
+          "createdAt": "2026-09-02T17:37:15+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T15:15:33+00:00",
+          "description": "Bots are automated tools designed to streamline the process of submitting reports on FaceBook accounts that may violate the platform’s Community Guidelines. They can assist with reporting issues such as spam, report reporter mass acc ban bot page group impersonation, fake profile account, or other policy violations. Depending on their functionality",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/PerfectionCraneMall",
+      "topRepo": {
+        "name": "facebook-reporting-bot",
+        "fullName": "PerfectionCraneMall/facebook-reporting-bot",
+        "stars": 36,
+        "url": "https://github.com/PerfectionCraneMall/facebook-reporting-bot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/315104785?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "PerfectionCraneMall/facebook-reporting-bot"
+      ],
+      "starScore": 36
     },
     {
       "id": "320176098",
-      "rank": 17,
+      "rank": 32,
       "type": "User",
       "login": "ChoppDev",
       "repos": [
@@ -850,96 +1662,8 @@
       "starScore": 35
     },
     {
-      "id": "279227221",
-      "rank": 18,
-      "type": "User",
-      "login": "luke-mops95t4",
-      "repos": [
-        {
-          "id": 1354754851,
-          "fork": false,
-          "name": "CyberLeek-GTA6-Torrent",
-          "forks": 12,
-          "owner": "luke-mops95t4",
-          "stars": 32,
-          "avatar": "https://avatars.githubusercontent.com/u/279227221?v=4",
-          "topics": [],
-          "ownerId": "279227221",
-          "repoUrl": "https://github.com/luke-mops95t4/CyberLeek-GTA6-Torrent",
-          "archived": false,
-          "fullName": "luke-mops95t4/CyberLeek-GTA6-Torrent",
-          "language": "Python",
-          "ownerUrl": "https://github.com/luke-mops95t4",
-          "pushedAt": "2026-09-03T11:21:51+00:00",
-          "createdAt": "2026-09-02T12:44:41+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T11:24:19+00:00",
-          "description": "GTA 6 PC build leaked by CyberLeek – full game download (113GB). Play before official console release. For educational purposes only.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/luke-mops95t4",
-      "topRepo": {
-        "name": "CyberLeek-GTA6-Torrent",
-        "fullName": "luke-mops95t4/CyberLeek-GTA6-Torrent",
-        "stars": 32,
-        "url": "https://github.com/luke-mops95t4/CyberLeek-GTA6-Torrent"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/279227221?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "luke-mops95t4/CyberLeek-GTA6-Torrent"
-      ],
-      "starScore": 32
-    },
-    {
-      "id": "279227424",
-      "rank": 19,
-      "type": "User",
-      "login": "danielsantosops1905n4",
-      "repos": [
-        {
-          "id": 1354768728,
-          "fork": false,
-          "name": "CyberLeek-GTAVI-Torrent",
-          "forks": 13,
-          "owner": "danielsantosops1905n4",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/279227424?v=4",
-          "topics": [],
-          "ownerId": "279227424",
-          "repoUrl": "https://github.com/danielsantosops1905n4/CyberLeek-GTAVI-Torrent",
-          "archived": false,
-          "fullName": "danielsantosops1905n4/CyberLeek-GTAVI-Torrent",
-          "language": "Python",
-          "ownerUrl": "https://github.com/danielsantosops1905n4",
-          "pushedAt": "2026-09-02T13:07:33+00:00",
-          "createdAt": "2026-09-02T12:58:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-02T13:53:37+00:00",
-          "description": "GTA 6 / GTA VI PC build leaked by CyberLeek – full game download (113GB). Play before official console release. For educational purposes only.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/danielsantosops1905n4",
-      "topRepo": {
-        "name": "CyberLeek-GTAVI-Torrent",
-        "fullName": "danielsantosops1905n4/CyberLeek-GTAVI-Torrent",
-        "stars": 26,
-        "url": "https://github.com/danielsantosops1905n4/CyberLeek-GTAVI-Torrent"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/279227424?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "danielsantosops1905n4/CyberLeek-GTAVI-Torrent"
-      ],
-      "starScore": 26
-    },
-    {
       "id": "89211796",
-      "rank": 20,
+      "rank": 33,
       "type": "User",
       "login": "R44VC0RP",
       "repos": [
@@ -949,7 +1673,7 @@
           "name": "superlocal",
           "forks": 1,
           "owner": "R44VC0RP",
-          "stars": 25,
+          "stars": 35,
           "avatar": "https://avatars.githubusercontent.com/u/89211796?v=4",
           "topics": [
             "email",
@@ -965,7 +1689,7 @@
           "pushedAt": "2026-09-03T04:06:30+00:00",
           "createdAt": "2026-09-03T01:18:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T11:23:31+00:00",
+          "updatedAt": "2026-09-03T16:18:04+00:00",
           "description": "An email client & provider gateway so you can build your best email experience. ",
           "defaultBranch": "main"
         }
@@ -974,7 +1698,7 @@
       "topRepo": {
         "name": "superlocal",
         "fullName": "R44VC0RP/superlocal",
-        "stars": 25,
+        "stars": 35,
         "url": "https://github.com/R44VC0RP/superlocal"
       },
       "enriched": true,
@@ -983,11 +1707,109 @@
       "repoNames": [
         "R44VC0RP/superlocal"
       ],
-      "starScore": 25
+      "starScore": 35
+    },
+    {
+      "id": "186366929",
+      "rank": 34,
+      "type": "User",
+      "login": "Albert-Weasker",
+      "repos": [
+        {
+          "id": 1356159928,
+          "fork": false,
+          "name": "niubigeo",
+          "forks": 0,
+          "owner": "Albert-Weasker",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/186366929?v=4",
+          "topics": [],
+          "ownerId": "186366929",
+          "repoUrl": "https://github.com/Albert-Weasker/niubigeo",
+          "archived": false,
+          "fullName": "Albert-Weasker/niubigeo",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Albert-Weasker",
+          "pushedAt": "2026-09-03T15:56:03+00:00",
+          "createdAt": "2026-09-03T15:55:54+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:34:13+00:00",
+          "description": "Open-source AI brand visibility and competitor reports",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Albert-Weasker",
+      "topRepo": {
+        "name": "niubigeo",
+        "fullName": "Albert-Weasker/niubigeo",
+        "stars": 28,
+        "url": "https://github.com/Albert-Weasker/niubigeo"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186366929?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Albert-Weasker/niubigeo"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "118018127",
+      "rank": 35,
+      "type": "User",
+      "login": "ByteV0rtex",
+      "repos": [
+        {
+          "id": 1355190514,
+          "fork": false,
+          "name": "CVE-2026-65343",
+          "forks": 4,
+          "owner": "ByteV0rtex",
+          "stars": 26,
+          "avatar": "https://avatars.githubusercontent.com/u/118018127?v=4",
+          "topics": [
+            "cve",
+            "cve-2026",
+            "ios",
+            "kernel",
+            "poc",
+            "reverse-engineering",
+            "security",
+            "security-research",
+            "vulnerability"
+          ],
+          "ownerId": "118018127",
+          "repoUrl": "https://github.com/ByteV0rtex/CVE-2026-65343",
+          "archived": false,
+          "fullName": "ByteV0rtex/CVE-2026-65343",
+          "language": "Objective-C",
+          "ownerUrl": "https://github.com/ByteV0rtex",
+          "pushedAt": "2026-09-03T11:53:44+00:00",
+          "createdAt": "2026-09-02T20:12:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:31:28+00:00",
+          "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ByteV0rtex",
+      "topRepo": {
+        "name": "CVE-2026-65343",
+        "fullName": "ByteV0rtex/CVE-2026-65343",
+        "stars": 26,
+        "url": "https://github.com/ByteV0rtex/CVE-2026-65343"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118018127?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ByteV0rtex/CVE-2026-65343"
+      ],
+      "starScore": 26
     },
     {
       "id": "135203240",
-      "rank": 21,
+      "rank": 36,
       "type": "User",
       "login": "alphaparkinc",
       "repos": [
@@ -1112,150 +1934,8 @@
       "starScore": 24
     },
     {
-      "id": "315104785",
-      "rank": 22,
-      "type": "User",
-      "login": "PerfectionCraneMall",
-      "repos": [
-        {
-          "id": 1355053251,
-          "fork": false,
-          "name": "facebook-reporting-bot",
-          "forks": 0,
-          "owner": "PerfectionCraneMall",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/315104785?v=4",
-          "topics": [
-            "autobot",
-            "ban-account",
-            "ban-facebook-bot",
-            "ban-facebook-tool",
-            "fb-bot",
-            "report-facebook-bot",
-            "report-facebook-tool",
-            "reporter-facebook-bot",
-            "reporter-facebook-tool"
-          ],
-          "ownerId": "315104785",
-          "repoUrl": "https://github.com/PerfectionCraneMall/facebook-reporting-bot",
-          "archived": false,
-          "fullName": "PerfectionCraneMall/facebook-reporting-bot",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/PerfectionCraneMall",
-          "pushedAt": "2026-09-02T17:37:55+00:00",
-          "createdAt": "2026-09-02T17:37:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T09:52:14+00:00",
-          "description": "Bots are automated tools designed to streamline the process of submitting reports on FaceBook accounts that may violate the platform’s Community Guidelines. They can assist with reporting issues such as spam, report reporter mass acc ban bot page group impersonation, fake profile account, or other policy violations. Depending on their functionality",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/PerfectionCraneMall",
-      "topRepo": {
-        "name": "facebook-reporting-bot",
-        "fullName": "PerfectionCraneMall/facebook-reporting-bot",
-        "stars": 21,
-        "url": "https://github.com/PerfectionCraneMall/facebook-reporting-bot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/315104785?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "PerfectionCraneMall/facebook-reporting-bot"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "280034184",
-      "rank": 23,
-      "type": "User",
-      "login": "Ring0lw",
-      "repos": [
-        {
-          "id": 1354863896,
-          "fork": false,
-          "name": "dbh-wh",
-          "forks": 1,
-          "owner": "Ring0lw",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/280034184?v=4",
-          "topics": [],
-          "ownerId": "280034184",
-          "repoUrl": "https://github.com/Ring0lw/dbh-wh",
-          "archived": false,
-          "fullName": "Ring0lw/dbh-wh",
-          "language": "C++",
-          "ownerUrl": "https://github.com/Ring0lw",
-          "pushedAt": "2026-09-02T14:54:33+00:00",
-          "createdAt": "2026-09-02T14:27:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T08:18:58+00:00",
-          "description": "esp for detroit become human as a vulkan layer under proton",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/Ring0lw",
-      "topRepo": {
-        "name": "dbh-wh",
-        "fullName": "Ring0lw/dbh-wh",
-        "stars": 21,
-        "url": "https://github.com/Ring0lw/dbh-wh"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/280034184?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Ring0lw/dbh-wh"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "280343716",
-      "rank": 24,
-      "type": "Organization",
-      "login": "1TDSPF-26",
-      "repos": [
-        {
-          "id": 1354769908,
-          "fork": false,
-          "name": "front-2sem-aula-10",
-          "forks": 0,
-          "owner": "1TDSPF-26",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/280343716?v=4",
-          "topics": [],
-          "ownerId": "280343716",
-          "repoUrl": "https://github.com/1TDSPF-26/front-2sem-aula-10",
-          "archived": false,
-          "fullName": "1TDSPF-26/front-2sem-aula-10",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/1TDSPF-26",
-          "pushedAt": "2026-09-02T21:22:28+00:00",
-          "createdAt": "2026-09-02T12:59:50+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-02T15:46:10+00:00",
-          "description": "Revisando",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/1TDSPF-26",
-      "topRepo": {
-        "name": "front-2sem-aula-10",
-        "fullName": "1TDSPF-26/front-2sem-aula-10",
-        "stars": 20,
-        "url": "https://github.com/1TDSPF-26/front-2sem-aula-10"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/280343716?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "1TDSPF-26/front-2sem-aula-10"
-      ],
-      "starScore": 20
-    },
-    {
       "id": "1512227",
-      "rank": 25,
+      "rank": 37,
       "type": "User",
       "login": "njpatel",
       "repos": [
@@ -1265,7 +1945,7 @@
           "name": "omabot",
           "forks": 2,
           "owner": "njpatel",
-          "stars": 20,
+          "stars": 24,
           "avatar": "https://avatars.githubusercontent.com/u/1512227?v=4",
           "topics": [],
           "ownerId": "1512227",
@@ -1277,7 +1957,7 @@
           "pushedAt": "2026-09-02T19:49:27+00:00",
           "createdAt": "2026-09-02T18:33:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T11:08:29+00:00",
+          "updatedAt": "2026-09-03T15:42:28+00:00",
           "description": "Grok Bot in the Omarchy bar",
           "defaultBranch": "main"
         }
@@ -1286,7 +1966,7 @@
       "topRepo": {
         "name": "omabot",
         "fullName": "njpatel/omabot",
-        "stars": 20,
+        "stars": 24,
         "url": "https://github.com/njpatel/omabot"
       },
       "enriched": true,
@@ -1295,122 +1975,11 @@
       "repoNames": [
         "njpatel/omabot"
       ],
-      "starScore": 20
-    },
-    {
-      "id": "213162760",
-      "rank": 26,
-      "type": "User",
-      "login": "fengxinbo558",
-      "repos": [
-        {
-          "id": 1354734860,
-          "fork": false,
-          "name": "daxia",
-          "forks": 0,
-          "owner": "fengxinbo558",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/213162760?v=4",
-          "topics": [],
-          "ownerId": "213162760",
-          "repoUrl": "https://github.com/fengxinbo558/daxia",
-          "archived": false,
-          "fullName": "fengxinbo558/daxia",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/fengxinbo558",
-          "pushedAt": "2026-09-02T12:23:39+00:00",
-          "createdAt": "2026-09-02T12:23:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-02T13:23:37+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1354735069,
-          "fork": false,
-          "name": "fengkuang",
-          "forks": 0,
-          "owner": "fengxinbo558",
-          "stars": 9,
-          "avatar": "https://avatars.githubusercontent.com/u/213162760?v=4",
-          "topics": [],
-          "ownerId": "213162760",
-          "repoUrl": "https://github.com/fengxinbo558/fengkuang",
-          "archived": false,
-          "fullName": "fengxinbo558/fengkuang",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/fengxinbo558",
-          "pushedAt": "2026-09-02T12:23:53+00:00",
-          "createdAt": "2026-09-02T12:23:52+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-02T13:23:36+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/fengxinbo558",
-      "topRepo": {
-        "name": "daxia",
-        "fullName": "fengxinbo558/daxia",
-        "stars": 9,
-        "url": "https://github.com/fengxinbo558/daxia"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/213162760?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "fengxinbo558/daxia",
-        "fengxinbo558/fengkuang"
-      ],
-      "starScore": 18
-    },
-    {
-      "id": "75739081",
-      "rank": 27,
-      "type": "User",
-      "login": "pangoleen",
-      "repos": [
-        {
-          "id": 1354877827,
-          "fork": false,
-          "name": "qwen3.8-27b-dgx-spark-dflash2",
-          "forks": 0,
-          "owner": "pangoleen",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/75739081?v=4",
-          "topics": [],
-          "ownerId": "75739081",
-          "repoUrl": "https://github.com/pangoleen/qwen3.8-27b-dgx-spark-dflash2",
-          "archived": false,
-          "fullName": "pangoleen/qwen3.8-27b-dgx-spark-dflash2",
-          "language": "Python",
-          "ownerUrl": "https://github.com/pangoleen",
-          "pushedAt": "2026-09-03T08:15:34+00:00",
-          "createdAt": "2026-09-02T14:40:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T10:04:01+00:00",
-          "description": "Qwen3.8-27B on one DGX Spark: SGLang + DFlash2 recipe, engine image, benchmarks, data and charts. By @redp314",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/pangoleen",
-      "topRepo": {
-        "name": "qwen3.8-27b-dgx-spark-dflash2",
-        "fullName": "pangoleen/qwen3.8-27b-dgx-spark-dflash2",
-        "stars": 18,
-        "url": "https://github.com/pangoleen/qwen3.8-27b-dgx-spark-dflash2"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/75739081?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "pangoleen/qwen3.8-27b-dgx-spark-dflash2"
-      ],
-      "starScore": 18
+      "starScore": 24
     },
     {
       "id": "64429409",
-      "rank": 28,
+      "rank": 38,
       "type": "User",
       "login": "IPedrax",
       "repos": [
@@ -1420,7 +1989,7 @@
           "name": "SteamFlipper",
           "forks": 0,
           "owner": "IPedrax",
-          "stars": 17,
+          "stars": 21,
           "avatar": "https://avatars.githubusercontent.com/u/64429409?v=4",
           "topics": [],
           "ownerId": "64429409",
@@ -1432,7 +2001,7 @@
           "pushedAt": "2026-09-02T18:25:32+00:00",
           "createdAt": "2026-09-02T17:46:24+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-03T10:44:23+00:00",
+          "updatedAt": "2026-09-03T13:36:36+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -1441,7 +2010,7 @@
       "topRepo": {
         "name": "SteamFlipper",
         "fullName": "IPedrax/SteamFlipper",
-        "stars": 17,
+        "stars": 21,
         "url": "https://github.com/IPedrax/SteamFlipper"
       },
       "enriched": true,
@@ -1450,159 +2019,112 @@
       "repoNames": [
         "IPedrax/SteamFlipper"
       ],
-      "starScore": 17
+      "starScore": 21
     },
     {
-      "id": "84208527",
-      "rank": 29,
+      "id": "1065452",
+      "rank": 39,
       "type": "User",
-      "login": "Saganaki22",
+      "login": "MengTo",
       "repos": [
         {
-          "id": 1355519841,
+          "id": 1355732302,
           "fork": false,
-          "name": "ComfyUI-VDN-H3",
+          "name": "sublevel-studio",
+          "forks": 3,
+          "owner": "MengTo",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/1065452?v=4",
+          "topics": [
+            "creative-coding",
+            "interaction-design",
+            "portfolio",
+            "single-file",
+            "threejs",
+            "webgl"
+          ],
+          "ownerId": "1065452",
+          "repoUrl": "https://github.com/MengTo/sublevel-studio",
+          "archived": false,
+          "fullName": "MengTo/sublevel-studio",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/MengTo",
+          "pushedAt": "2026-09-03T08:54:40+00:00",
+          "createdAt": "2026-09-03T08:47:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-03T16:17:05+00:00",
+          "description": "A single-file Three.js studio concept with an interactive Kyoto lobby, arcade, portfolio CRTs, and editorial case studies.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MengTo",
+      "topRepo": {
+        "name": "sublevel-studio",
+        "fullName": "MengTo/sublevel-studio",
+        "stars": 21,
+        "url": "https://github.com/MengTo/sublevel-studio"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1065452?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MengTo/sublevel-studio"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "324504550",
+      "rank": 40,
+      "type": "User",
+      "login": "jmoore19972",
+      "repos": [
+        {
+          "id": 1356034581,
+          "fork": false,
+          "name": "instagram-reporting-bot",
           "forks": 0,
-          "owner": "Saganaki22",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/84208527?v=4",
+          "owner": "jmoore19972",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/324504550?v=4",
           "topics": [
-            "attention-mechanism",
-            "comfyui",
-            "comfyui-nodes",
-            "fl2va",
-            "minimax-h3",
-            "t2v"
+            "ig-report-bot-mass",
+            "ig-report-bot-tool",
+            "instagram-report-bot-sof",
+            "instahack",
+            "priv8tools"
           ],
-          "ownerId": "84208527",
-          "repoUrl": "https://github.com/Saganaki22/ComfyUI-VDN-H3",
+          "ownerId": "324504550",
+          "repoUrl": "https://github.com/jmoore19972/instagram-reporting-bot",
           "archived": false,
-          "fullName": "Saganaki22/ComfyUI-VDN-H3",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Saganaki22",
-          "pushedAt": "2026-09-03T06:49:24+00:00",
-          "createdAt": "2026-09-03T04:44:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T11:23:30+00:00",
-          "description": "Video Delta Net hybrid attention for MiniMax-H3 as a native ComfyUI node. ",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Saganaki22",
-      "topRepo": {
-        "name": "ComfyUI-VDN-H3",
-        "fullName": "Saganaki22/ComfyUI-VDN-H3",
-        "stars": 16,
-        "url": "https://github.com/Saganaki22/ComfyUI-VDN-H3"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/84208527?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Saganaki22/ComfyUI-VDN-H3"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "299343715",
-      "rank": 30,
-      "type": "User",
-      "login": "facebrawlerflourish",
-      "repos": [
-        {
-          "id": 1354891938,
-          "fork": false,
-          "name": "HowToFish-Trainer",
-          "forks": 10,
-          "owner": "facebrawlerflourish",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/299343715?v=4",
-          "topics": [
-            "how-to",
-            "how-to-fish",
-            "how-to-fish-2026",
-            "how-to-fish-cheats",
-            "how-to-fish-hack",
-            "how-to-fish-mod",
-            "how-to-fish-mod-menu",
-            "how-to-fish-trainer"
-          ],
-          "ownerId": "299343715",
-          "repoUrl": "https://github.com/facebrawlerflourish/HowToFish-Trainer",
-          "archived": false,
-          "fullName": "facebrawlerflourish/HowToFish-Trainer",
+          "fullName": "jmoore19972/instagram-reporting-bot",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/facebrawlerflourish",
-          "pushedAt": "2026-09-02T15:04:25+00:00",
-          "createdAt": "2026-09-02T14:53:02+00:00",
+          "ownerUrl": "https://github.com/jmoore19972",
+          "pushedAt": "2026-09-03T15:49:23+00:00",
+          "createdAt": "2026-09-03T13:53:22+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-02T15:11:56+00:00",
-          "description": "How To Fish",
+          "updatedAt": "2026-09-03T15:45:52+00:00",
+          "description": "Bots are automated tools designed to streamline the process of submitting reports on FaceBook accounts that may violate the platform’s Community Guidelines. They can assist with reporting issues such as spam, report reporter mass acc ban bot page group impersonation, fake profile account, or other policy violations. Depending on their functionality",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/facebrawlerflourish",
+      "htmlUrl": "https://github.com/jmoore19972",
       "topRepo": {
-        "name": "HowToFish-Trainer",
-        "fullName": "facebrawlerflourish/HowToFish-Trainer",
-        "stars": 14,
-        "url": "https://github.com/facebrawlerflourish/HowToFish-Trainer"
+        "name": "instagram-reporting-bot",
+        "fullName": "jmoore19972/instagram-reporting-bot",
+        "stars": 20,
+        "url": "https://github.com/jmoore19972/instagram-reporting-bot"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/299343715?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324504550?v=4",
       "repoCount": 1,
       "repoNames": [
-        "facebrawlerflourish/HowToFish-Trainer"
+        "jmoore19972/instagram-reporting-bot"
       ],
-      "starScore": 14
-    },
-    {
-      "id": "253086874",
-      "rank": 31,
-      "type": "User",
-      "login": "notmaj0r",
-      "repos": [
-        {
-          "id": 1354952621,
-          "fork": false,
-          "name": "JailbreakStore",
-          "forks": 4,
-          "owner": "notmaj0r",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/253086874?v=4",
-          "topics": [],
-          "ownerId": "253086874",
-          "repoUrl": "https://github.com/notmaj0r/JailbreakStore",
-          "archived": false,
-          "fullName": "notmaj0r/JailbreakStore",
-          "language": "C",
-          "ownerUrl": "https://github.com/notmaj0r",
-          "pushedAt": "2026-09-02T16:14:50+00:00",
-          "createdAt": "2026-09-02T15:52:11+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T11:10:31+00:00",
-          "description": "Payload that rebrands the PlayStation Store (NPXS40047).",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/notmaj0r",
-      "topRepo": {
-        "name": "JailbreakStore",
-        "fullName": "notmaj0r/JailbreakStore",
-        "stars": 14,
-        "url": "https://github.com/notmaj0r/JailbreakStore"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/253086874?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "notmaj0r/JailbreakStore"
-      ],
-      "starScore": 14
+      "starScore": 20
     },
     {
       "id": "176883745",
-      "rank": 32,
+      "rank": 41,
       "type": "Organization",
       "login": "OwnGoalStudio",
       "repos": [
@@ -1646,7 +2168,7 @@
     },
     {
       "id": "225611623",
-      "rank": 33,
+      "rank": 42,
       "type": "Organization",
       "login": "Proximal-Labs",
       "repos": [
@@ -1689,52 +2211,8 @@
       "starScore": 14
     },
     {
-      "id": "127410589",
-      "rank": 34,
-      "type": "User",
-      "login": "Artificial-Age",
-      "repos": [
-        {
-          "id": 1354733708,
-          "fork": false,
-          "name": "PixelRamp-SNES-Remaster-Toolkit",
-          "forks": 0,
-          "owner": "Artificial-Age",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/127410589?v=4",
-          "topics": [],
-          "ownerId": "127410589",
-          "repoUrl": "https://github.com/Artificial-Age/PixelRamp-SNES-Remaster-Toolkit",
-          "archived": false,
-          "fullName": "Artificial-Age/PixelRamp-SNES-Remaster-Toolkit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Artificial-Age",
-          "pushedAt": "2026-09-02T17:24:37+00:00",
-          "createdAt": "2026-09-02T12:22:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T09:12:19+00:00",
-          "description": "Pixelramp remaster Toolkit for Snes",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Artificial-Age",
-      "topRepo": {
-        "name": "PixelRamp-SNES-Remaster-Toolkit",
-        "fullName": "Artificial-Age/PixelRamp-SNES-Remaster-Toolkit",
-        "stars": 13,
-        "url": "https://github.com/Artificial-Age/PixelRamp-SNES-Remaster-Toolkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/127410589?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Artificial-Age/PixelRamp-SNES-Remaster-Toolkit"
-      ],
-      "starScore": 13
-    },
-    {
       "id": "279227708",
-      "rank": 35,
+      "rank": 43,
       "type": "User",
       "login": "kyle-h-hq99z1",
       "repos": [
@@ -1784,52 +2262,8 @@
       "starScore": 13
     },
     {
-      "id": "145704090",
-      "rank": 36,
-      "type": "User",
-      "login": "SanjayKumaran2805",
-      "repos": [
-        {
-          "id": 1354792311,
-          "fork": false,
-          "name": "8X8-Sequential-Multiplier-Using-Verilog",
-          "forks": 0,
-          "owner": "SanjayKumaran2805",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/145704090?v=4",
-          "topics": [],
-          "ownerId": "145704090",
-          "repoUrl": "https://github.com/SanjayKumaran2805/8X8-Sequential-Multiplier-Using-Verilog",
-          "archived": false,
-          "fullName": "SanjayKumaran2805/8X8-Sequential-Multiplier-Using-Verilog",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/SanjayKumaran2805",
-          "pushedAt": "2026-09-02T13:39:09+00:00",
-          "createdAt": "2026-09-02T13:22:27+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-02T17:47:23+00:00",
-          "description": "RTL-to-GDSII ASIC flow of an 8x8 sequential multiplier in SystemVerilog using Cadence. Tailored for low-power SoCs with an 8-cycle shift-and-add FSM controller and 16-bit joint accumulator. Verified via dynamic testbenches, with full physical design executed from Genus synthesis through Innovus P&R to layout.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SanjayKumaran2805",
-      "topRepo": {
-        "name": "8X8-Sequential-Multiplier-Using-Verilog",
-        "fullName": "SanjayKumaran2805/8X8-Sequential-Multiplier-Using-Verilog",
-        "stars": 13,
-        "url": "https://github.com/SanjayKumaran2805/8X8-Sequential-Multiplier-Using-Verilog"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/145704090?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SanjayKumaran2805/8X8-Sequential-Multiplier-Using-Verilog"
-      ],
-      "starScore": 13
-    },
-    {
       "id": "320677708",
-      "rank": 37,
+      "rank": 44,
       "type": "User",
       "login": "drJhonatan00",
       "repos": [
@@ -1872,52 +2306,8 @@
       "starScore": 12
     },
     {
-      "id": "8096590",
-      "rank": 38,
-      "type": "User",
-      "login": "ashemag",
-      "repos": [
-        {
-          "id": 1354812853,
-          "fork": false,
-          "name": "grok-topic-modeling",
-          "forks": 0,
-          "owner": "ashemag",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/8096590?v=4",
-          "topics": [],
-          "ownerId": "8096590",
-          "repoUrl": "https://github.com/ashemag/grok-topic-modeling",
-          "archived": false,
-          "fullName": "ashemag/grok-topic-modeling",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ashemag",
-          "pushedAt": "2026-09-02T13:42:12+00:00",
-          "createdAt": "2026-09-02T13:42:09+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T00:08:38+00:00",
-          "description": "Open-source X/Grok topic modeling dashboard for clustering recent posts into ranked themes, gotchas, examples, and a radial topic map.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ashemag",
-      "topRepo": {
-        "name": "grok-topic-modeling",
-        "fullName": "ashemag/grok-topic-modeling",
-        "stars": 11,
-        "url": "https://github.com/ashemag/grok-topic-modeling"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8096590?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ashemag/grok-topic-modeling"
-      ],
-      "starScore": 11
-    },
-    {
       "id": "30143637",
-      "rank": 39,
+      "rank": 45,
       "type": "User",
       "login": "mr-ravi26",
       "repos": [
@@ -1961,7 +2351,7 @@
     },
     {
       "id": "62356719",
-      "rank": 40,
+      "rank": 46,
       "type": "User",
       "login": "vizart-vj",
       "repos": [
@@ -2005,7 +2395,7 @@
     },
     {
       "id": "6953237",
-      "rank": 41,
+      "rank": 47,
       "type": "User",
       "login": "Vottivott",
       "repos": [
@@ -2060,7 +2450,7 @@
     },
     {
       "id": "276447020",
-      "rank": 42,
+      "rank": 48,
       "type": "Organization",
       "login": "1TDSPO-26",
       "repos": [
@@ -2104,7 +2494,7 @@
     },
     {
       "id": "64530102",
-      "rank": 43,
+      "rank": 49,
       "type": "User",
       "login": "MrZoic",
       "repos": [
@@ -2145,50 +2535,6 @@
         "MrZoic/zenspark-browser"
       ],
       "starScore": 10
-    },
-    {
-      "id": "324091308",
-      "rank": 44,
-      "type": "User",
-      "login": "vamp1nn",
-      "repos": [
-        {
-          "id": 1354956414,
-          "fork": false,
-          "name": "vanguard",
-          "forks": 0,
-          "owner": "vamp1nn",
-          "stars": 8,
-          "avatar": "https://avatars.githubusercontent.com/u/324091308?v=4",
-          "topics": [],
-          "ownerId": "324091308",
-          "repoUrl": "https://github.com/vamp1nn/vanguard",
-          "archived": false,
-          "fullName": "vamp1nn/vanguard",
-          "language": "Scheme",
-          "ownerUrl": "https://github.com/vamp1nn",
-          "pushedAt": "2026-09-02T16:48:42+00:00",
-          "createdAt": "2026-09-02T15:56:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-03T04:24:42+00:00",
-          "description": "Compiler and offline partial evaluator aimed at the 3 futamura projections",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/vamp1nn",
-      "topRepo": {
-        "name": "vanguard",
-        "fullName": "vamp1nn/vanguard",
-        "stars": 8,
-        "url": "https://github.com/vamp1nn/vanguard"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324091308?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "vamp1nn/vanguard"
-      ],
-      "starScore": 8
     }
   ]
 }
