@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-06T11:19:30.388Z",
-  "total": 52,
-  "totalIndexedCount": 52,
-  "coverageLabel": "Showing 52 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-06T15:44:05.653Z",
+  "total": 44,
+  "totalIndexedCount": 44,
+  "coverageLabel": "Showing 44 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,102 +10,8 @@
   },
   "rows": [
     {
-      "id": "121039398",
-      "rank": 1,
-      "type": "User",
-      "login": "pierrenade",
-      "repos": [
-        {
-          "id": 1358140812,
-          "fork": false,
-          "name": "short-video-generator-AI",
-          "forks": 153,
-          "owner": "pierrenade",
-          "stars": 460,
-          "avatar": "https://avatars.githubusercontent.com/u/121039398?v=4",
-          "topics": [
-            "ai",
-            "ai-video",
-            "python",
-            "short-video-maker",
-            "video-generation"
-          ],
-          "ownerId": "121039398",
-          "repoUrl": "https://github.com/pierrenade/short-video-generator-AI",
-          "archived": false,
-          "fullName": "pierrenade/short-video-generator-AI",
-          "language": "Python",
-          "ownerUrl": "https://github.com/pierrenade",
-          "pushedAt": "2026-09-05T12:12:29+00:00",
-          "createdAt": "2026-09-05T11:55:18+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:08:59+00:00",
-          "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/pierrenade",
-      "topRepo": {
-        "name": "short-video-generator-AI",
-        "fullName": "pierrenade/short-video-generator-AI",
-        "stars": 460,
-        "url": "https://github.com/pierrenade/short-video-generator-AI"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/121039398?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "pierrenade/short-video-generator-AI"
-      ],
-      "starScore": 460
-    },
-    {
-      "id": "199352226",
-      "rank": 2,
-      "type": "User",
-      "login": "vinzdg",
-      "repos": [
-        {
-          "id": 1358295353,
-          "fork": false,
-          "name": "codenotch",
-          "forks": 56,
-          "owner": "vinzdg",
-          "stars": 417,
-          "avatar": "https://avatars.githubusercontent.com/u/199352226?v=4",
-          "topics": [],
-          "ownerId": "199352226",
-          "repoUrl": "https://github.com/vinzdg/codenotch",
-          "archived": false,
-          "fullName": "vinzdg/codenotch",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/vinzdg",
-          "pushedAt": "2026-09-06T05:36:03+00:00",
-          "createdAt": "2026-09-05T14:55:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:07:17+00:00",
-          "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/vinzdg",
-      "topRepo": {
-        "name": "codenotch",
-        "fullName": "vinzdg/codenotch",
-        "stars": 417,
-        "url": "https://github.com/vinzdg/codenotch"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/199352226?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "vinzdg/codenotch"
-      ],
-      "starScore": 417
-    },
-    {
       "id": "322091575",
-      "rank": 3,
+      "rank": 1,
       "type": "Organization",
       "login": "okf-memory",
       "repos": [
@@ -113,9 +19,9 @@
           "id": 1358571386,
           "fork": false,
           "name": "okf-agent-memory",
-          "forks": 11,
+          "forks": 13,
           "owner": "okf-memory",
-          "stars": 191,
+          "stars": 283,
           "avatar": "https://avatars.githubusercontent.com/u/322091575?v=4",
           "topics": [],
           "ownerId": "322091575",
@@ -124,10 +30,10 @@
           "fullName": "okf-memory/okf-agent-memory",
           "language": "Go",
           "ownerUrl": "https://github.com/okf-memory",
-          "pushedAt": "2026-09-05T21:30:17+00:00",
+          "pushedAt": "2026-09-06T15:20:56+00:00",
           "createdAt": "2026-09-05T21:26:04+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-06T11:08:38+00:00",
+          "updatedAt": "2026-09-06T15:33:50+00:00",
           "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
           "defaultBranch": "main"
         }
@@ -136,7 +42,7 @@
       "topRepo": {
         "name": "okf-agent-memory",
         "fullName": "okf-memory/okf-agent-memory",
-        "stars": 191,
+        "stars": 283,
         "url": "https://github.com/okf-memory/okf-agent-memory"
       },
       "enriched": true,
@@ -145,11 +51,11 @@
       "repoNames": [
         "okf-memory/okf-agent-memory"
       ],
-      "starScore": 191
+      "starScore": 283
     },
     {
       "id": "890270",
-      "rank": 4,
+      "rank": 2,
       "type": "User",
       "login": "donvito",
       "repos": [
@@ -157,9 +63,9 @@
           "id": 1358346534,
           "fork": false,
           "name": "codex-astra-luna-orchestrator",
-          "forks": 5,
+          "forks": 6,
           "owner": "donvito",
-          "stars": 104,
+          "stars": 133,
           "avatar": "https://avatars.githubusercontent.com/u/890270?v=4",
           "topics": [],
           "ownerId": "890270",
@@ -171,7 +77,7 @@
           "pushedAt": "2026-09-06T08:39:23+00:00",
           "createdAt": "2026-09-05T16:03:06+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T10:59:33+00:00",
+          "updatedAt": "2026-09-06T15:35:32+00:00",
           "description": "Use Astra as orchestrator and Luna as implementor",
           "defaultBranch": "main"
         }
@@ -180,7 +86,7 @@
       "topRepo": {
         "name": "codex-astra-luna-orchestrator",
         "fullName": "donvito/codex-astra-luna-orchestrator",
-        "stars": 104,
+        "stars": 133,
         "url": "https://github.com/donvito/codex-astra-luna-orchestrator"
       },
       "enriched": true,
@@ -189,11 +95,11 @@
       "repoNames": [
         "donvito/codex-astra-luna-orchestrator"
       ],
-      "starScore": 104
+      "starScore": 133
     },
     {
       "id": "116974793",
-      "rank": 5,
+      "rank": 3,
       "type": "User",
       "login": "RhuanCruz",
       "repos": [
@@ -201,9 +107,9 @@
           "id": 1358480028,
           "fork": false,
           "name": "swiftui-logo-draw",
-          "forks": 7,
+          "forks": 9,
           "owner": "RhuanCruz",
-          "stars": 91,
+          "stars": 98,
           "avatar": "https://avatars.githubusercontent.com/u/116974793?v=4",
           "topics": [],
           "ownerId": "116974793",
@@ -215,7 +121,7 @@
           "pushedAt": "2026-09-05T18:59:05+00:00",
           "createdAt": "2026-09-05T18:59:01+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T10:48:09+00:00",
+          "updatedAt": "2026-09-06T15:27:29+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -224,7 +130,7 @@
       "topRepo": {
         "name": "swiftui-logo-draw",
         "fullName": "RhuanCruz/swiftui-logo-draw",
-        "stars": 91,
+        "stars": 98,
         "url": "https://github.com/RhuanCruz/swiftui-logo-draw"
       },
       "enriched": true,
@@ -233,11 +139,75 @@
       "repoNames": [
         "RhuanCruz/swiftui-logo-draw"
       ],
-      "starScore": 91
+      "starScore": 98
+    },
+    {
+      "id": "286898453",
+      "rank": 4,
+      "type": "Organization",
+      "login": "v-modal",
+      "repos": [
+        {
+          "id": 1358878061,
+          "fork": false,
+          "name": "vmodal_sdk_robotics",
+          "forks": 0,
+          "owner": "v-modal",
+          "stars": 77,
+          "avatar": "https://avatars.githubusercontent.com/u/286898453?v=4",
+          "topics": [
+            "multimodal",
+            "multimodal-ai",
+            "multimodal-data",
+            "multimodal-fusion",
+            "multimodal-llm",
+            "physical-ai",
+            "robotics",
+            "robotics-algorithms",
+            "robotics-control",
+            "robotics-libraries",
+            "robotics-programming",
+            "robotics-simulation",
+            "search",
+            "search-api",
+            "search-engine",
+            "search-interface",
+            "vision",
+            "vision-ai",
+            "visual-language-models"
+          ],
+          "ownerId": "286898453",
+          "repoUrl": "https://github.com/v-modal/vmodal_sdk_robotics",
+          "archived": false,
+          "fullName": "v-modal/vmodal_sdk_robotics",
+          "language": "Python",
+          "ownerUrl": "https://github.com/v-modal",
+          "pushedAt": "2026-09-06T13:25:30+00:00",
+          "createdAt": "2026-09-06T07:05:33+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-06T13:26:04+00:00",
+          "description": "Robotics vision SDK",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/v-modal",
+      "topRepo": {
+        "name": "vmodal_sdk_robotics",
+        "fullName": "v-modal/vmodal_sdk_robotics",
+        "stars": 77,
+        "url": "https://github.com/v-modal/vmodal_sdk_robotics"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/286898453?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "v-modal/vmodal_sdk_robotics"
+      ],
+      "starScore": 77
     },
     {
       "id": "306808534",
-      "rank": 6,
+      "rank": 5,
       "type": "User",
       "login": "Nicholas2519",
       "repos": [
@@ -280,6 +250,63 @@
       "starScore": 76
     },
     {
+      "id": "250180300",
+      "rank": 6,
+      "type": "Organization",
+      "login": "RankSpotAI",
+      "repos": [
+        {
+          "id": 1359136297,
+          "fork": false,
+          "name": "awesome-seo-agent-skills",
+          "forks": 0,
+          "owner": "RankSpotAI",
+          "stars": 59,
+          "avatar": "https://avatars.githubusercontent.com/u/250180300?v=4",
+          "topics": [
+            "aeo",
+            "agent-skills",
+            "ai-seo",
+            "awesome",
+            "awesome-list",
+            "claude-code",
+            "claude-skills",
+            "generative-engine-optimization",
+            "geo",
+            "seo",
+            "seo-tools",
+            "skills"
+          ],
+          "ownerId": "250180300",
+          "repoUrl": "https://github.com/RankSpotAI/awesome-seo-agent-skills",
+          "archived": false,
+          "fullName": "RankSpotAI/awesome-seo-agent-skills",
+          "language": "Python",
+          "ownerUrl": "https://github.com/RankSpotAI",
+          "pushedAt": "2026-09-06T12:53:53+00:00",
+          "createdAt": "2026-09-06T12:47:33+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-06T15:35:25+00:00",
+          "description": "A curated list of Agent Skills for SEO. Technical audits, keyword research, content briefs, schema, GEO and AI visibility, for Claude Code, Codex, Cursor and OpenClaw.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/RankSpotAI",
+      "topRepo": {
+        "name": "awesome-seo-agent-skills",
+        "fullName": "RankSpotAI/awesome-seo-agent-skills",
+        "stars": 59,
+        "url": "https://github.com/RankSpotAI/awesome-seo-agent-skills"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/250180300?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "RankSpotAI/awesome-seo-agent-skills"
+      ],
+      "starScore": 59
+    },
+    {
       "id": "307757446",
       "rank": 7,
       "type": "User",
@@ -293,7 +320,20 @@
           "owner": "BadgeCorporal",
           "stars": 50,
           "avatar": "https://avatars.githubusercontent.com/u/307757446?v=4",
-          "topics": [],
+          "topics": [
+            "adobe",
+            "adobe-mcp",
+            "ai-automation",
+            "ai-tool",
+            "ai-video-editor",
+            "audio-mixing",
+            "claude-code",
+            "color-grading",
+            "mcp-tools",
+            "motion-graphics",
+            "uxp",
+            "video-editing"
+          ],
           "ownerId": "307757446",
           "repoUrl": "https://github.com/BadgeCorporal/Adobe-Tool-Premiere-Pro",
           "archived": false,
@@ -303,8 +343,8 @@
           "pushedAt": "2026-09-05T23:30:56+00:00",
           "createdAt": "2026-09-05T23:17:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T09:43:34+00:00",
-          "description": "",
+          "updatedAt": "2026-09-06T13:49:30+00:00",
+          "description": "Adobe PremierePro, for Windows, Advanced video editing software, 4K video workflows, transitions, audio tools, color correction, media management, and creative post-production",
           "defaultBranch": "main"
         }
       ],
@@ -324,385 +364,631 @@
       "starScore": 50
     },
     {
-      "id": "324236429",
+      "id": "324261151",
       "rank": 8,
       "type": "User",
-      "login": "lewise-2065",
+      "login": "margaret-martin445",
       "repos": [
         {
-          "id": 1358186177,
+          "id": 1359234416,
           "fork": false,
-          "name": "age-of-empires-4-cheats-strategy-lab",
+          "name": "cs2-free-cheats-radar-aim-lab",
           "forks": 0,
-          "owner": "lewise-2065",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/324236429?v=4",
-          "topics": [
-            "age-of-empires-4",
-            "age-of-empires-4-cheat-engine-table-windows-11",
-            "age-of-empires-4-trainer",
-            "age-of-empires-4-trainer-2026",
-            "age-of-empires-4-trainer-download-pc",
-            "age-of-empires-4-trainer-fling-age-of-empires-2026"
-          ],
-          "ownerId": "324236429",
-          "repoUrl": "https://github.com/lewise-2065/age-of-empires-4-cheats-strategy-lab",
-          "archived": false,
-          "fullName": "lewise-2065/age-of-empires-4-cheats-strategy-lab",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/lewise-2065",
-          "pushedAt": "2026-09-05T12:52:04+00:00",
-          "createdAt": "2026-09-05T12:51:48+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T12:58:03+00:00",
-          "description": "Age of Empires IV Cheats themed strategy toolkit for official cheat-code references, build orders, civilization analytics, economy planning, unit counters, mods and trainer-style UI experiments.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lewise-2065",
-      "topRepo": {
-        "name": "age-of-empires-4-cheats-strategy-lab",
-        "fullName": "lewise-2065/age-of-empires-4-cheats-strategy-lab",
-        "stars": 50,
-        "url": "https://github.com/lewise-2065/age-of-empires-4-cheats-strategy-lab"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324236429?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lewise-2065/age-of-empires-4-cheats-strategy-lab"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "129048583",
-      "rank": 9,
-      "type": "User",
-      "login": "scottstts",
-      "repos": [
-        {
-          "id": 1358300780,
-          "fork": false,
-          "name": "Jelly-Baby",
-          "forks": 19,
-          "owner": "scottstts",
+          "owner": "margaret-martin445",
           "stars": 49,
-          "avatar": "https://avatars.githubusercontent.com/u/129048583?v=4",
-          "topics": [],
-          "ownerId": "129048583",
-          "repoUrl": "https://github.com/scottstts/Jelly-Baby",
+          "avatar": "https://avatars.githubusercontent.com/u/324261151?v=4",
+          "topics": [
+            "counter-strike-silent-aim",
+            "cs2-aim-redirect",
+            "cs2-aimbot-v2",
+            "cs2-sa-free",
+            "cs2-silent-aim-2026",
+            "cs2-silent-aimbot",
+            "cs2-silent-free",
+            "cs2-wallhack-2026",
+            "vac-bypass-2026"
+          ],
+          "ownerId": "324261151",
+          "repoUrl": "https://github.com/margaret-martin445/cs2-free-cheats-radar-aim-lab",
           "archived": false,
-          "fullName": "scottstts/Jelly-Baby",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/scottstts",
-          "pushedAt": "2026-09-06T09:54:30+00:00",
-          "createdAt": "2026-09-05T15:02:43+00:00",
+          "fullName": "margaret-martin445/cs2-free-cheats-radar-aim-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/margaret-martin445",
+          "pushedAt": "2026-09-06T14:44:47+00:00",
+          "createdAt": "2026-09-06T14:44:23+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T11:05:21+00:00",
-          "description": "A bouncy shiny jelly baby game",
+          "updatedAt": "2026-09-06T14:51:58+00:00",
+          "description": "CS2 Cheats themed gameplay research toolkit for aim analytics, radar-style replay visualization, weapon statistics, match analysis, ESP-style overlays and training dashboards.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/scottstts",
+      "htmlUrl": "https://github.com/margaret-martin445",
       "topRepo": {
-        "name": "Jelly-Baby",
-        "fullName": "scottstts/Jelly-Baby",
+        "name": "cs2-free-cheats-radar-aim-lab",
+        "fullName": "margaret-martin445/cs2-free-cheats-radar-aim-lab",
         "stars": 49,
-        "url": "https://github.com/scottstts/Jelly-Baby"
+        "url": "https://github.com/margaret-martin445/cs2-free-cheats-radar-aim-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/129048583?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324261151?v=4",
       "repoCount": 1,
       "repoNames": [
-        "scottstts/Jelly-Baby"
+        "margaret-martin445/cs2-free-cheats-radar-aim-lab"
       ],
       "starScore": 49
     },
     {
-      "id": "324162199",
+      "id": "324276699",
+      "rank": 9,
+      "type": "User",
+      "login": "linda1331-oss",
+      "repos": [
+        {
+          "id": 1359150658,
+          "fork": false,
+          "name": "dead-by-daylight-cheat-2026-trials-lab",
+          "forks": 0,
+          "owner": "linda1331-oss",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/324276699?v=4",
+          "topics": [
+            "daylight",
+            "dbd-auto-skill-check",
+            "dbd-bypass",
+            "dbd-external",
+            "dbd-injector",
+            "dbd-item-esp",
+            "dbd-overlay",
+            "dbd-steam",
+            "dead-by-daylight-plugin",
+            "deadbydaylight",
+            "pakbypass"
+          ],
+          "ownerId": "324276699",
+          "repoUrl": "https://github.com/linda1331-oss/dead-by-daylight-cheat-2026-trials-lab",
+          "archived": false,
+          "fullName": "linda1331-oss/dead-by-daylight-cheat-2026-trials-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/linda1331-oss",
+          "pushedAt": "2026-09-06T13:07:44+00:00",
+          "createdAt": "2026-09-06T13:07:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T13:14:52+00:00",
+          "description": "Dead by Daylight Cheat 2026 themed gameplay toolkit for Survivor and Killer analytics, perk builds, Bloodpoint tracking, map research, chase statistics, progression and mod-menu-style UI experiments.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/linda1331-oss",
+      "topRepo": {
+        "name": "dead-by-daylight-cheat-2026-trials-lab",
+        "fullName": "linda1331-oss/dead-by-daylight-cheat-2026-trials-lab",
+        "stars": 48,
+        "url": "https://github.com/linda1331-oss/dead-by-daylight-cheat-2026-trials-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324276699?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "linda1331-oss/dead-by-daylight-cheat-2026-trials-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "324206865",
       "rank": 10,
       "type": "User",
-      "login": "lewisr-9592",
+      "login": "luke8230",
       "repos": [
         {
-          "id": 1358190961,
+          "id": 1359180711,
           "fork": false,
-          "name": "civilization-vi-cheats-strategy-lab",
+          "name": "grow-a-garden-2-script-pet-seed-lab",
           "forks": 0,
-          "owner": "lewisr-9592",
+          "owner": "luke8230",
           "stars": 48,
-          "avatar": "https://avatars.githubusercontent.com/u/324162199?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/324206865?v=4",
           "topics": [
-            "civ-vi-nexus",
-            "civ5",
-            "civilization",
-            "civilization-vi",
-            "civilization-vi-download",
-            "civilization-vi-fix",
-            "civilization-vi-mods",
-            "civilization-vi-pc",
-            "civilization-vi-windows",
-            "mod",
-            "mods",
-            "performance-boost",
-            "steam",
-            "steam-game",
-            "strategy-game",
-            "valkrana"
+            "gag2",
+            "grow-a-garden-2",
+            "grow-a-garden-2-api",
+            "growagarden2"
           ],
-          "ownerId": "324162199",
-          "repoUrl": "https://github.com/lewisr-9592/civilization-vi-cheats-strategy-lab",
+          "ownerId": "324206865",
+          "repoUrl": "https://github.com/luke8230/grow-a-garden-2-script-pet-seed-lab",
           "archived": false,
-          "fullName": "lewisr-9592/civilization-vi-cheats-strategy-lab",
+          "fullName": "luke8230/grow-a-garden-2-script-pet-seed-lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/lewisr-9592",
-          "pushedAt": "2026-09-05T12:57:23+00:00",
-          "createdAt": "2026-09-05T12:56:50+00:00",
+          "ownerUrl": "https://github.com/luke8230",
+          "pushedAt": "2026-09-06T13:45:12+00:00",
+          "createdAt": "2026-09-06T13:44:36+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T13:04:58+00:00",
-          "description": "Sid Meier's Civilization VI themed strategy toolkit for civilization analytics, city planning, technology and civic research, mods, trainers, victory planning and gameplay optimization.",
+          "updatedAt": "2026-09-06T13:54:27+00:00",
+          "description": "Grow a Garden 2 Script themed Roblox gameplay toolkit for garden planning, pet collection tracking, seed analytics, farming routes, inventory management and script-style GUI experiments.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lewisr-9592",
+      "htmlUrl": "https://github.com/luke8230",
       "topRepo": {
-        "name": "civilization-vi-cheats-strategy-lab",
-        "fullName": "lewisr-9592/civilization-vi-cheats-strategy-lab",
+        "name": "grow-a-garden-2-script-pet-seed-lab",
+        "fullName": "luke8230/grow-a-garden-2-script-pet-seed-lab",
         "stars": 48,
-        "url": "https://github.com/lewisr-9592/civilization-vi-cheats-strategy-lab"
+        "url": "https://github.com/luke8230/grow-a-garden-2-script-pet-seed-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324162199?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324206865?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lewisr-9592/civilization-vi-cheats-strategy-lab"
+        "luke8230/grow-a-garden-2-script-pet-seed-lab"
       ],
       "starScore": 48
     },
     {
-      "id": "324201081",
+      "id": "324280584",
       "rank": 11,
       "type": "User",
-      "login": "lillian2784",
+      "login": "lukemurray-08",
       "repos": [
         {
-          "id": 1358204337,
+          "id": 1359188033,
           "fork": false,
-          "name": "murder-mystery-2-script-2026-analysis-lab",
+          "name": "doors-script-2026-entity-lab",
           "forks": 0,
-          "owner": "lillian2784",
+          "owner": "lukemurray-08",
           "stars": 48,
-          "avatar": "https://avatars.githubusercontent.com/u/324201081?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/324280584?v=4",
           "topics": [
-            "game-bot",
-            "game-scripts",
-            "grow-a-garden-2",
-            "lua",
-            "mm2",
-            "murder-mystery"
+            "door",
+            "door-system",
+            "garrys-mod",
+            "gmod",
+            "lock"
           ],
-          "ownerId": "324201081",
-          "repoUrl": "https://github.com/lillian2784/murder-mystery-2-script-2026-analysis-lab",
+          "ownerId": "324280584",
+          "repoUrl": "https://github.com/lukemurray-08/doors-script-2026-entity-lab",
           "archived": false,
-          "fullName": "lillian2784/murder-mystery-2-script-2026-analysis-lab",
+          "fullName": "lukemurray-08/doors-script-2026-entity-lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/lillian2784",
-          "pushedAt": "2026-09-05T13:11:10+00:00",
-          "createdAt": "2026-09-05T13:10:59+00:00",
+          "ownerUrl": "https://github.com/lukemurray-08",
+          "pushedAt": "2026-09-06T13:54:26+00:00",
+          "createdAt": "2026-09-06T13:53:33+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T13:17:47+00:00",
-          "description": "Roblox Murder Mystery 2 Script 2026 themed gameplay toolkit for round analytics, map knowledge, role statistics, coin-route planning, progression tracking and GUI-style experiments",
+          "updatedAt": "2026-09-06T14:00:48+00:00",
+          "description": "DOORS Script 2026 themed Roblox gameplay toolkit for entity tracking, room progression, hide timing practice, route analysis, recorded-session ESP visualization and script-style GUI experiments for PC and mobile.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lillian2784",
+      "htmlUrl": "https://github.com/lukemurray-08",
       "topRepo": {
-        "name": "murder-mystery-2-script-2026-analysis-lab",
-        "fullName": "lillian2784/murder-mystery-2-script-2026-analysis-lab",
+        "name": "doors-script-2026-entity-lab",
+        "fullName": "lukemurray-08/doors-script-2026-entity-lab",
         "stars": 48,
-        "url": "https://github.com/lillian2784/murder-mystery-2-script-2026-analysis-lab"
+        "url": "https://github.com/lukemurray-08/doors-script-2026-entity-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324201081?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324280584?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lillian2784/murder-mystery-2-script-2026-analysis-lab"
+        "lukemurray-08/doors-script-2026-entity-lab"
       ],
       "starScore": 48
     },
     {
-      "id": "324257983",
+      "id": "324242061",
       "rank": 12,
       "type": "User",
-      "login": "l-hernandez-591",
+      "login": "madisonellis-24",
       "repos": [
         {
-          "id": 1358197769,
+          "id": 1359213467,
           "fork": false,
-          "name": "forza-horizon-6-unlock-all-garage-lab",
+          "name": "mm2-script-no-key-detective-lab",
           "forks": 0,
-          "owner": "l-hernandez-591",
-          "stars": 47,
-          "avatar": "https://avatars.githubusercontent.com/u/324257983?v=4",
+          "owner": "madisonellis-24",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/324242061?v=4",
           "topics": [
-            "fh5",
-            "fh6",
-            "fh6-mod",
-            "fh6-spotify-radio",
-            "fh6-trainer",
-            "fh6rpc",
-            "forza-horizon",
-            "forza-horizon-4",
-            "forza-horizon-5",
-            "forza-horizon-6",
-            "forza-horizon-6-cars",
-            "forza-horizon-6-free",
-            "forza-horizon-6-spotify-download",
-            "forza-horizon-hack",
-            "forza-mods",
-            "forza-setup",
-            "forzahorizon4",
-            "forzahorizon5",
-            "forzahorizon6",
-            "microsoft-gaming"
+            "github",
+            "mm2",
+            "murder-mystery",
+            "murder-mystery-dupe",
+            "murder-mystery-hack"
           ],
-          "ownerId": "324257983",
-          "repoUrl": "https://github.com/l-hernandez-591/forza-horizon-6-unlock-all-garage-lab",
+          "ownerId": "324242061",
+          "repoUrl": "https://github.com/madisonellis-24/mm2-script-no-key-detective-lab",
           "archived": false,
-          "fullName": "l-hernandez-591/forza-horizon-6-unlock-all-garage-lab",
+          "fullName": "madisonellis-24/mm2-script-no-key-detective-lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/l-hernandez-591",
-          "pushedAt": "2026-09-05T13:03:31+00:00",
-          "createdAt": "2026-09-05T13:03:20+00:00",
+          "ownerUrl": "https://github.com/madisonellis-24",
+          "pushedAt": "2026-09-06T14:19:15+00:00",
+          "createdAt": "2026-09-06T14:18:45+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T13:10:53+00:00",
-          "description": "Forza Horizon 6 themed garage toolkit for car collection tracking, unlock planning, credits analytics, Wheelspin statistics, tuning and mod-menu-style UI experiments.",
+          "updatedAt": "2026-09-06T14:25:53+00:00",
+          "description": "Murder Mystery 2 Script 2026 themed Roblox toolkit for role statistics, coin-route planning, map research, Sheriff aim analytics, inventory tracking and script-style GUI experiments.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/l-hernandez-591",
+      "htmlUrl": "https://github.com/madisonellis-24",
       "topRepo": {
-        "name": "forza-horizon-6-unlock-all-garage-lab",
-        "fullName": "l-hernandez-591/forza-horizon-6-unlock-all-garage-lab",
-        "stars": 47,
-        "url": "https://github.com/l-hernandez-591/forza-horizon-6-unlock-all-garage-lab"
+        "name": "mm2-script-no-key-detective-lab",
+        "fullName": "madisonellis-24/mm2-script-no-key-detective-lab",
+        "stars": 48,
+        "url": "https://github.com/madisonellis-24/mm2-script-no-key-detective-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324257983?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324242061?v=4",
       "repoCount": 1,
       "repoNames": [
-        "l-hernandez-591/forza-horizon-6-unlock-all-garage-lab"
+        "madisonellis-24/mm2-script-no-key-detective-lab"
       ],
-      "starScore": 47
+      "starScore": 48
     },
     {
-      "id": "324183633",
+      "id": "324145126",
       "rank": 13,
       "type": "User",
-      "login": "lilygordon-832",
+      "login": "marcus9119",
       "repos": [
         {
-          "id": 1358212114,
+          "id": 1359217324,
           "fork": false,
-          "name": "brawlhalla-mod-menu-combat-lab",
+          "name": "jailbreak-script-2026-heist-lab",
           "forks": 0,
-          "owner": "lilygordon-832",
-          "stars": 47,
-          "avatar": "https://avatars.githubusercontent.com/u/324183633?v=4",
+          "owner": "marcus9119",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/324145126?v=4",
           "topics": [
-            "brawlhalla",
-            "brawlhalla-bots",
-            "discord-py",
-            "elo-list",
-            "elo-rating"
+            "bulgarian",
+            "jailbreak",
+            "jailbreak-script",
+            "manifest-v3",
+            "smartest",
+            "smartestbg",
+            "typescript"
           ],
-          "ownerId": "324183633",
-          "repoUrl": "https://github.com/lilygordon-832/brawlhalla-mod-menu-combat-lab",
+          "ownerId": "324145126",
+          "repoUrl": "https://github.com/marcus9119/jailbreak-script-2026-heist-lab",
           "archived": false,
-          "fullName": "lilygordon-832/brawlhalla-mod-menu-combat-lab",
+          "fullName": "marcus9119/jailbreak-script-2026-heist-lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/lilygordon-832",
-          "pushedAt": "2026-09-05T13:21:16+00:00",
-          "createdAt": "2026-09-05T13:19:45+00:00",
+          "ownerUrl": "https://github.com/marcus9119",
+          "pushedAt": "2026-09-06T14:23:55+00:00",
+          "createdAt": "2026-09-06T14:23:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T13:29:26+00:00",
-          "description": "Brawlhalla Mod Menu 2026 themed gameplay toolkit for combo analysis, legend statistics, matchup research, movement training, replay visualization and customizable menu UI experiments.",
+          "updatedAt": "2026-09-06T14:31:14+00:00",
+          "description": "Jailbreak Script 2026 themed Roblox gameplay toolkit for robbery-route planning, vehicle analytics, credits tracking, police and criminal statistics, map research and script-style GUI experiments.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lilygordon-832",
+      "htmlUrl": "https://github.com/marcus9119",
       "topRepo": {
-        "name": "brawlhalla-mod-menu-combat-lab",
-        "fullName": "lilygordon-832/brawlhalla-mod-menu-combat-lab",
-        "stars": 47,
-        "url": "https://github.com/lilygordon-832/brawlhalla-mod-menu-combat-lab"
+        "name": "jailbreak-script-2026-heist-lab",
+        "fullName": "marcus9119/jailbreak-script-2026-heist-lab",
+        "stars": 48,
+        "url": "https://github.com/marcus9119/jailbreak-script-2026-heist-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324183633?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324145126?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lilygordon-832/brawlhalla-mod-menu-combat-lab"
+        "marcus9119/jailbreak-script-2026-heist-lab"
+      ],
+      "starScore": 48
+    },
+    {
+      "id": "324256907",
+      "rank": 14,
+      "type": "User",
+      "login": "ariabrooks89",
+      "repos": [
+        {
+          "id": 1359265445,
+          "fork": false,
+          "name": "Solo-Levening-Arise-menu",
+          "forks": 0,
+          "owner": "ariabrooks89",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/324256907?v=4",
+          "topics": [
+            "solo-leveling",
+            "solo-leveling-arise-hack"
+          ],
+          "ownerId": "324256907",
+          "repoUrl": "https://github.com/ariabrooks89/Solo-Levening-Arise-menu",
+          "archived": false,
+          "fullName": "ariabrooks89/Solo-Levening-Arise-menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/ariabrooks89",
+          "pushedAt": "2026-09-06T15:18:30+00:00",
+          "createdAt": "2026-09-06T15:16:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:29:03+00:00",
+          "description": "Solo leveling free hacks,solo leveling cheat,solo leveling arise hacks,solo leveling arise cheats, vlcious-v, ps4 modding, ps4 hacks, ps4 cheats, ps4 glitches, solo leveling arise, solo leveling arise cheats, pc cheats, ios cheats, android cheats, solo leveling arise hacks, solo leveling arise xp,",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ariabrooks89",
+      "topRepo": {
+        "name": "Solo-Levening-Arise-menu",
+        "fullName": "ariabrooks89/Solo-Levening-Arise-menu",
+        "stars": 47,
+        "url": "https://github.com/ariabrooks89/Solo-Levening-Arise-menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324256907?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ariabrooks89/Solo-Levening-Arise-menu"
       ],
       "starScore": 47
     },
     {
-      "id": "324187700",
-      "rank": 14,
+      "id": "159762123",
+      "rank": 15,
       "type": "User",
-      "login": "lilyramos132",
+      "login": "Jarvis322",
       "repos": [
         {
-          "id": 1358221990,
+          "id": 1358633852,
           "fork": false,
-          "name": "phasmophobia-mod-menu-ghost-lab",
-          "forks": 0,
-          "owner": "lilyramos132",
+          "name": "macos-sysdata",
+          "forks": 2,
+          "owner": "Jarvis322",
           "stars": 47,
-          "avatar": "https://avatars.githubusercontent.com/u/324187700?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/159762123?v=4",
           "topics": [
-            "phasmophobia",
-            "phasmophobia-equipment-guide",
-            "phasmophobia-fling",
-            "phasmophobia-gameplay-hacks",
-            "phasmophobia-hack-latest",
-            "phasmophobia-hack-pc",
-            "phasmophobia-hack-tool",
-            "phasmophobia-mods",
-            "phasmophobia-steam",
-            "phasmophobiamod"
+            "disk-cleanup",
+            "macos",
+            "menubar",
+            "swiftui",
+            "system-data",
+            "xcode"
           ],
-          "ownerId": "324187700",
-          "repoUrl": "https://github.com/lilyramos132/phasmophobia-mod-menu-ghost-lab",
+          "ownerId": "159762123",
+          "repoUrl": "https://github.com/Jarvis322/macos-sysdata",
           "archived": false,
-          "fullName": "lilyramos132/phasmophobia-mod-menu-ghost-lab",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/lilyramos132",
-          "pushedAt": "2026-09-05T13:30:43+00:00",
-          "createdAt": "2026-09-05T13:30:21+00:00",
+          "fullName": "Jarvis322/macos-sysdata",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/Jarvis322",
+          "pushedAt": "2026-09-06T15:34:15+00:00",
+          "createdAt": "2026-09-05T23:29:13+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T13:36:28+00:00",
-          "description": "Phasmophobia Mod Menu themed investigation toolkit for ghost evidence tracking, map analysis, equipment planning, money and level statistics, investigation reports and trainer-style UI experiments.",
+          "updatedAt": "2026-09-06T15:34:43+00:00",
+          "description": "See what is really inside macOS System Data and delete it, item by item, from the menu bar.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lilyramos132",
+      "htmlUrl": "https://github.com/Jarvis322",
       "topRepo": {
-        "name": "phasmophobia-mod-menu-ghost-lab",
-        "fullName": "lilyramos132/phasmophobia-mod-menu-ghost-lab",
+        "name": "macos-sysdata",
+        "fullName": "Jarvis322/macos-sysdata",
         "stars": 47,
-        "url": "https://github.com/lilyramos132/phasmophobia-mod-menu-ghost-lab"
+        "url": "https://github.com/Jarvis322/macos-sysdata"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324187700?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159762123?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lilyramos132/phasmophobia-mod-menu-ghost-lab"
+        "Jarvis322/macos-sysdata"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "324194241",
+      "rank": 16,
+      "type": "User",
+      "login": "lperry4401",
+      "repos": [
+        {
+          "id": 1359169594,
+          "fork": false,
+          "name": "adopt-me-scripts-trading-pet-lab",
+          "forks": 0,
+          "owner": "lperry4401",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/324194241?v=4",
+          "topics": [
+            "adopt-me-auto-play",
+            "adopt-me-auto-upgrade",
+            "adopt-me-lua",
+            "adopt-me-pastebin-2026",
+            "adopt-me-pet-script",
+            "adopt-me-script-2026",
+            "adopt-me-script-executor",
+            "adopt-me-script-free",
+            "adopt-me-script-pc",
+            "adopt-method",
+            "balance",
+            "balance-glitch",
+            "starpets"
+          ],
+          "ownerId": "324194241",
+          "repoUrl": "https://github.com/lperry4401/adopt-me-scripts-trading-pet-lab",
+          "archived": false,
+          "fullName": "lperry4401/adopt-me-scripts-trading-pet-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/lperry4401",
+          "pushedAt": "2026-09-06T13:32:53+00:00",
+          "createdAt": "2026-09-06T13:30:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T13:39:55+00:00",
+          "description": "Adopt Me Scripts themed Roblox gameplay toolkit for pet progression, farming-route planning, trading analytics, task tracking, collection management, strategies and script-style GUI experiments.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/lperry4401",
+      "topRepo": {
+        "name": "adopt-me-scripts-trading-pet-lab",
+        "fullName": "lperry4401/adopt-me-scripts-trading-pet-lab",
+        "stars": 47,
+        "url": "https://github.com/lperry4401/adopt-me-scripts-trading-pet-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324194241?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "lperry4401/adopt-me-scripts-trading-pet-lab"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "324215256",
+      "rank": 17,
+      "type": "User",
+      "login": "marcushayes-23",
+      "repos": [
+        {
+          "id": 1359223986,
+          "fork": false,
+          "name": "arsenal-script-nokey-aim-training-lab",
+          "forks": 0,
+          "owner": "marcushayes-23",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/324215256?v=4",
+          "topics": [
+            "arsenal-nokey",
+            "arsenal-pastebin",
+            "arsenal-script"
+          ],
+          "ownerId": "324215256",
+          "repoUrl": "https://github.com/marcushayes-23/arsenal-script-nokey-aim-training-lab",
+          "archived": false,
+          "fullName": "marcushayes-23/arsenal-script-nokey-aim-training-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/marcushayes-23",
+          "pushedAt": "2026-09-06T14:32:00+00:00",
+          "createdAt": "2026-09-06T14:31:44+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T14:38:32+00:00",
+          "description": "Arsenal Script NOKEY themed Roblox FPS toolkit for aim analytics, weapon statistics, farming-route planning, gun progression, match analysis and script-style GUI experiments for PC and mobile.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/marcushayes-23",
+      "topRepo": {
+        "name": "arsenal-script-nokey-aim-training-lab",
+        "fullName": "marcushayes-23/arsenal-script-nokey-aim-training-lab",
+        "stars": 47,
+        "url": "https://github.com/marcushayes-23/arsenal-script-nokey-aim-training-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324215256?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "marcushayes-23/arsenal-script-nokey-aim-training-lab"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "324181166",
+      "rank": 18,
+      "type": "User",
+      "login": "margaretreynolds90",
+      "repos": [
+        {
+          "id": 1359240075,
+          "fork": false,
+          "name": "valorant-hack-2026-tactical-aim-lab",
+          "forks": 0,
+          "owner": "margaretreynolds90",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/324181166?v=4",
+          "topics": [
+            "val-aimbot-2026",
+            "val-cheat-2026",
+            "val-trigger-2026",
+            "val-trigger-free",
+            "val-triggerbot",
+            "valorant-aimbot-v2",
+            "valorant-auto-fire",
+            "valorant-auto-shoot",
+            "valorant-cheat-2026",
+            "valorant-triggerbot-2026",
+            "valorant-undetected-2026",
+            "vanguard-bypass-2026"
+          ],
+          "ownerId": "324181166",
+          "repoUrl": "https://github.com/margaretreynolds90/valorant-hack-2026-tactical-aim-lab",
+          "archived": false,
+          "fullName": "margaretreynolds90/valorant-hack-2026-tactical-aim-lab",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/margaretreynolds90",
+          "pushedAt": "2026-09-06T14:51:37+00:00",
+          "createdAt": "2026-09-06T14:51:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:03:22+00:00",
+          "description": "Valorant Hack 2026 themed gameplay research toolkit for aim analytics, recoil training, radar-style replay visualization, trigger timing, match statistics and tactical performance tracking.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/margaretreynolds90",
+      "topRepo": {
+        "name": "valorant-hack-2026-tactical-aim-lab",
+        "fullName": "margaretreynolds90/valorant-hack-2026-tactical-aim-lab",
+        "stars": 47,
+        "url": "https://github.com/margaretreynolds90/valorant-hack-2026-tactical-aim-lab"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324181166?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "margaretreynolds90/valorant-hack-2026-tactical-aim-lab"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "324191346",
+      "rank": 19,
+      "type": "User",
+      "login": "mark4279",
+      "repos": [
+        {
+          "id": 1359256120,
+          "fork": false,
+          "name": "fortnite-hack-2026-aim-esp-training",
+          "forks": 0,
+          "owner": "mark4279",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/324191346?v=4",
+          "topics": [
+            "epic-games-hack",
+            "fn-wallhack",
+            "fn-wh-free",
+            "fortnite-wallhack-2026",
+            "fortnite-walls",
+            "fortnite-wh-2026"
+          ],
+          "ownerId": "324191346",
+          "repoUrl": "https://github.com/mark4279/fortnite-hack-2026-aim-esp-training",
+          "archived": false,
+          "fullName": "mark4279/fortnite-hack-2026-aim-esp-training",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/mark4279",
+          "pushedAt": "2026-09-06T15:05:44+00:00",
+          "createdAt": "2026-09-06T15:04:48+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:10:57+00:00",
+          "description": "Fortnite Hack 2026 themed gameplay research toolkit for aim analytics, ESP-style replay visualization, combat statistics, weapon tracking, map rotations and PC training.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mark4279",
+      "topRepo": {
+        "name": "fortnite-hack-2026-aim-esp-training",
+        "fullName": "mark4279/fortnite-hack-2026-aim-esp-training",
+        "stars": 47,
+        "url": "https://github.com/mark4279/fortnite-hack-2026-aim-esp-training"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324191346?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mark4279/fortnite-hack-2026-aim-esp-training"
       ],
       "starScore": 47
     },
     {
       "id": "324283429",
-      "rank": 15,
+      "rank": 20,
       "type": "User",
       "login": "ryan9012",
       "repos": [
@@ -754,101 +1040,103 @@
       "starScore": 47
     },
     {
-      "id": "315106805",
-      "rank": 16,
+      "id": "293643277",
+      "rank": 21,
       "type": "User",
-      "login": "Downloadalblast",
+      "login": "gireeshkumarreddy",
       "repos": [
         {
-          "id": 1358329596,
+          "id": 1358585087,
           "fork": false,
-          "name": "bodycam-external",
-          "forks": 10,
-          "owner": "Downloadalblast",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/315106805?v=4",
+          "name": "cinematic-portofilo",
+          "forks": 14,
+          "owner": "gireeshkumarreddy",
+          "stars": 44,
+          "avatar": "https://avatars.githubusercontent.com/u/293643277?v=4",
           "topics": [],
-          "ownerId": "315106805",
-          "repoUrl": "https://github.com/Downloadalblast/bodycam-external",
+          "ownerId": "293643277",
+          "repoUrl": "https://github.com/gireeshkumarreddy/cinematic-portofilo",
           "archived": false,
-          "fullName": "Downloadalblast/bodycam-external",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Downloadalblast",
-          "pushedAt": "2026-09-05T15:45:40+00:00",
-          "createdAt": "2026-09-05T15:40:47+00:00",
+          "fullName": "gireeshkumarreddy/cinematic-portofilo",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/gireeshkumarreddy",
+          "pushedAt": "2026-09-05T22:02:26+00:00",
+          "createdAt": "2026-09-05T21:50:00+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T16:07:07+00:00",
-          "description": "Bodycam (Trainer) ESP & Aimbot undetected 2026 — external overlay, player boxes, skeleton, no recoil, radar. Free, no key.",
+          "updatedAt": "2026-09-06T15:27:15+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Downloadalblast",
+      "htmlUrl": "https://github.com/gireeshkumarreddy",
       "topRepo": {
-        "name": "bodycam-external",
-        "fullName": "Downloadalblast/bodycam-external",
-        "stars": 46,
-        "url": "https://github.com/Downloadalblast/bodycam-external"
+        "name": "cinematic-portofilo",
+        "fullName": "gireeshkumarreddy/cinematic-portofilo",
+        "stars": 44,
+        "url": "https://github.com/gireeshkumarreddy/cinematic-portofilo"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/315106805?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/293643277?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Downloadalblast/bodycam-external"
+        "gireeshkumarreddy/cinematic-portofilo"
       ],
-      "starScore": 46
+      "starScore": 44
     },
     {
-      "id": "315106589",
-      "rank": 17,
+      "id": "324262927",
+      "rank": 22,
       "type": "User",
-      "login": "BrookOverlordFigure",
+      "login": "markcooper967",
       "repos": [
         {
-          "id": 1358319744,
+          "id": 1359276089,
           "fork": false,
-          "name": "blood-of-dawnwalker-trainer",
-          "forks": 10,
-          "owner": "BrookOverlordFigure",
-          "stars": 37,
-          "avatar": "https://avatars.githubusercontent.com/u/315106589?v=4",
+          "name": "mw4-warzone-cheats-ranked-combat-lab",
+          "forks": 0,
+          "owner": "markcooper967",
+          "stars": 41,
+          "avatar": "https://avatars.githubusercontent.com/u/324262927?v=4",
           "topics": [
-            "dawnwalker",
-            "dawnwalker-trainer",
-            "free",
-            "game-trainer-2026"
+            "activision",
+            "blackops6",
+            "call-of-duty",
+            "cod",
+            "warzone-dma",
+            "warzone-modification"
           ],
-          "ownerId": "315106589",
-          "repoUrl": "https://github.com/BrookOverlordFigure/blood-of-dawnwalker-trainer",
+          "ownerId": "324262927",
+          "repoUrl": "https://github.com/markcooper967/mw4-warzone-cheats-ranked-combat-lab",
           "archived": false,
-          "fullName": "BrookOverlordFigure/blood-of-dawnwalker-trainer",
+          "fullName": "markcooper967/mw4-warzone-cheats-ranked-combat-lab",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/BrookOverlordFigure",
-          "pushedAt": "2026-09-05T15:31:55+00:00",
-          "createdAt": "2026-09-05T15:27:49+00:00",
+          "ownerUrl": "https://github.com/markcooper967",
+          "pushedAt": "2026-09-06T15:31:29+00:00",
+          "createdAt": "2026-09-06T15:30:22+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T16:05:06+00:00",
-          "description": "Blood of Dawnwalker trainer — God Mode, Infinite Health, Stamina, Edit Money, Fly Mode & 36 options. Free, no key.",
+          "updatedAt": "2026-09-06T15:36:12+00:00",
+          "description": "MW4 and Warzone Cheats themed gameplay toolkit for aim training, ranked analytics, weapon statistics, tactical radar visualization, combat analysis and Call of Duty performance tracking.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/BrookOverlordFigure",
+      "htmlUrl": "https://github.com/markcooper967",
       "topRepo": {
-        "name": "blood-of-dawnwalker-trainer",
-        "fullName": "BrookOverlordFigure/blood-of-dawnwalker-trainer",
-        "stars": 37,
-        "url": "https://github.com/BrookOverlordFigure/blood-of-dawnwalker-trainer"
+        "name": "mw4-warzone-cheats-ranked-combat-lab",
+        "fullName": "markcooper967/mw4-warzone-cheats-ranked-combat-lab",
+        "stars": 41,
+        "url": "https://github.com/markcooper967/mw4-warzone-cheats-ranked-combat-lab"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/315106589?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324262927?v=4",
       "repoCount": 1,
       "repoNames": [
-        "BrookOverlordFigure/blood-of-dawnwalker-trainer"
+        "markcooper967/mw4-warzone-cheats-ranked-combat-lab"
       ],
-      "starScore": 37
+      "starScore": 41
     },
     {
       "id": "224245234",
-      "rank": 18,
+      "rank": 23,
       "type": "Organization",
       "login": "appeeky",
       "repos": [
@@ -858,7 +1146,7 @@
           "name": "expo-healthkit",
           "forks": 1,
           "owner": "appeeky",
-          "stars": 35,
+          "stars": 39,
           "avatar": "https://avatars.githubusercontent.com/u/224245234?v=4",
           "topics": [
             "apple-healthkit",
@@ -875,7 +1163,7 @@
           "pushedAt": "2026-09-05T19:25:52+00:00",
           "createdAt": "2026-09-05T17:09:04+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-06T10:45:34+00:00",
+          "updatedAt": "2026-09-06T15:13:49+00:00",
           "description": "Apple HealthKit and Android Health Connect for Expo and React Native, built on the Expo Modules API. One JavaScript API on both platforms.",
           "defaultBranch": "main"
         }
@@ -884,7 +1172,7 @@
       "topRepo": {
         "name": "expo-healthkit",
         "fullName": "appeeky/expo-healthkit",
-        "stars": 35,
+        "stars": 39,
         "url": "https://github.com/appeeky/expo-healthkit"
       },
       "enriched": true,
@@ -893,11 +1181,102 @@
       "repoNames": [
         "appeeky/expo-healthkit"
       ],
-      "starScore": 35
+      "starScore": 39
+    },
+    {
+      "id": "8263411",
+      "rank": 24,
+      "type": "User",
+      "login": "biusberline",
+      "repos": [
+        {
+          "id": 1359247858,
+          "fork": false,
+          "name": "cloudflare-turnstile-solver",
+          "forks": 2,
+          "owner": "biusberline",
+          "stars": 39,
+          "avatar": "https://avatars.githubusercontent.com/u/8263411?v=4",
+          "topics": [
+            "cloudfare",
+            "turnstile"
+          ],
+          "ownerId": "8263411",
+          "repoUrl": "https://github.com/biusberline/cloudflare-turnstile-solver",
+          "archived": false,
+          "fullName": "biusberline/cloudflare-turnstile-solver",
+          "language": "Python",
+          "ownerUrl": "https://github.com/biusberline",
+          "pushedAt": "2026-09-06T15:16:13+00:00",
+          "createdAt": "2026-09-06T14:58:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:36:10+00:00",
+          "description": "A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/biusberline",
+      "topRepo": {
+        "name": "cloudflare-turnstile-solver",
+        "fullName": "biusberline/cloudflare-turnstile-solver",
+        "stars": 39,
+        "url": "https://github.com/biusberline/cloudflare-turnstile-solver"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8263411?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "biusberline/cloudflare-turnstile-solver"
+      ],
+      "starScore": 39
+    },
+    {
+      "id": "186030518",
+      "rank": 25,
+      "type": "User",
+      "login": "Imirushik",
+      "repos": [
+        {
+          "id": 1358408582,
+          "fork": false,
+          "name": "sunbreak-downhill-3D-game",
+          "forks": 9,
+          "owner": "Imirushik",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/186030518?v=4",
+          "topics": [],
+          "ownerId": "186030518",
+          "repoUrl": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
+          "archived": false,
+          "fullName": "Imirushik/sunbreak-downhill-3D-game",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Imirushik",
+          "pushedAt": "2026-09-05T17:28:02+00:00",
+          "createdAt": "2026-09-05T17:22:29+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:04:15+00:00",
+          "description": "A procedural cel-shaded downhill BMX racer built with Three.js—four riders, bike physics, tricks, dynamic weather and wild speed effects.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Imirushik",
+      "topRepo": {
+        "name": "sunbreak-downhill-3D-game",
+        "fullName": "Imirushik/sunbreak-downhill-3D-game",
+        "stars": 37,
+        "url": "https://github.com/Imirushik/sunbreak-downhill-3D-game"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186030518?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Imirushik/sunbreak-downhill-3D-game"
+      ],
+      "starScore": 37
     },
     {
       "id": "325181940",
-      "rank": 19,
+      "rank": 26,
       "type": "User",
       "login": "pcm469768-droid",
       "repos": [
@@ -951,149 +1330,102 @@
       "starScore": 31
     },
     {
-      "id": "315102078",
-      "rank": 20,
+      "id": "325058581",
+      "rank": 27,
       "type": "User",
-      "login": "TeamHelpFortress",
+      "login": "JackandBeans",
       "repos": [
         {
-          "id": 1358259903,
+          "id": 1358365242,
           "fork": false,
-          "name": "wardogs-cheats",
-          "forks": 11,
-          "owner": "TeamHelpFortress",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/315102078?v=4",
+          "name": "Snap64Recomp",
+          "forks": 4,
+          "owner": "JackandBeans",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/325058581?v=4",
           "topics": [
-            "wardogs-cheat",
-            "wardogs-cheats",
-            "wardogs-control-zone",
-            "wardogs-external-menu",
-            "wardogs-map-tools",
-            "wardogs-mod-menu",
-            "wardogs-overlay",
-            "wardogs-trainer"
+            "n64",
+            "n64recomp",
+            "pokemon-snap",
+            "recompilation",
+            "rt64"
           ],
-          "ownerId": "315102078",
-          "repoUrl": "https://github.com/TeamHelpFortress/wardogs-cheats",
+          "ownerId": "325058581",
+          "repoUrl": "https://github.com/JackandBeans/Snap64Recomp",
           "archived": false,
-          "fullName": "TeamHelpFortress/wardogs-cheats",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/TeamHelpFortress",
-          "pushedAt": "2026-09-05T14:54:15+00:00",
-          "createdAt": "2026-09-05T14:15:13+00:00",
+          "fullName": "JackandBeans/Snap64Recomp",
+          "language": "C++",
+          "ownerUrl": "https://github.com/JackandBeans",
+          "pushedAt": "2026-09-05T18:02:18+00:00",
+          "createdAt": "2026-09-05T16:28:12+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-05T14:54:18+00:00",
-          "description": "wardogs cheats",
+          "updatedAt": "2026-09-06T15:04:31+00:00",
+          "description": "Native Windows port of Pokémon Snap (N64) by static recompilation. You supply your own cartridge dump; no game data is included.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/TeamHelpFortress",
+      "htmlUrl": "https://github.com/JackandBeans",
       "topRepo": {
-        "name": "wardogs-cheats",
-        "fullName": "TeamHelpFortress/wardogs-cheats",
-        "stars": 31,
-        "url": "https://github.com/TeamHelpFortress/wardogs-cheats"
+        "name": "Snap64Recomp",
+        "fullName": "JackandBeans/Snap64Recomp",
+        "stars": 29,
+        "url": "https://github.com/JackandBeans/Snap64Recomp"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/315102078?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/325058581?v=4",
       "repoCount": 1,
       "repoNames": [
-        "TeamHelpFortress/wardogs-cheats"
+        "JackandBeans/Snap64Recomp"
       ],
-      "starScore": 31
+      "starScore": 29
     },
     {
-      "id": "293643277",
-      "rank": 21,
-      "type": "User",
-      "login": "gireeshkumarreddy",
+      "id": "66570915",
+      "rank": 28,
+      "type": "Organization",
+      "login": "anomalyco",
       "repos": [
         {
-          "id": 1358585087,
+          "id": 1358555793,
           "fork": false,
-          "name": "cinematic-portofilo",
-          "forks": 8,
-          "owner": "gireeshkumarreddy",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/293643277?v=4",
+          "name": "haunt",
+          "forks": 1,
+          "owner": "anomalyco",
+          "stars": 26,
+          "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
           "topics": [],
-          "ownerId": "293643277",
-          "repoUrl": "https://github.com/gireeshkumarreddy/cinematic-portofilo",
+          "ownerId": "66570915",
+          "repoUrl": "https://github.com/anomalyco/haunt",
           "archived": false,
-          "fullName": "gireeshkumarreddy/cinematic-portofilo",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/gireeshkumarreddy",
-          "pushedAt": "2026-09-05T22:02:26+00:00",
-          "createdAt": "2026-09-05T21:50:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T10:58:10+00:00",
+          "fullName": "anomalyco/haunt",
+          "language": "Zig",
+          "ownerUrl": "https://github.com/anomalyco",
+          "pushedAt": "2026-09-05T22:59:12+00:00",
+          "createdAt": "2026-09-05T20:58:37+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-06T14:46:02+00:00",
           "description": "",
-          "defaultBranch": "main"
+          "defaultBranch": "dev"
         }
       ],
-      "htmlUrl": "https://github.com/gireeshkumarreddy",
+      "htmlUrl": "https://github.com/anomalyco",
       "topRepo": {
-        "name": "cinematic-portofilo",
-        "fullName": "gireeshkumarreddy/cinematic-portofilo",
-        "stars": 27,
-        "url": "https://github.com/gireeshkumarreddy/cinematic-portofilo"
+        "name": "haunt",
+        "fullName": "anomalyco/haunt",
+        "stars": 26,
+        "url": "https://github.com/anomalyco/haunt"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293643277?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66570915?v=4",
       "repoCount": 1,
       "repoNames": [
-        "gireeshkumarreddy/cinematic-portofilo"
+        "anomalyco/haunt"
       ],
-      "starScore": 27
-    },
-    {
-      "id": "186030518",
-      "rank": 22,
-      "type": "User",
-      "login": "Imirushik",
-      "repos": [
-        {
-          "id": 1358408582,
-          "fork": false,
-          "name": "sunbreak-downhill-3D-game",
-          "forks": 7,
-          "owner": "Imirushik",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/186030518?v=4",
-          "topics": [],
-          "ownerId": "186030518",
-          "repoUrl": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
-          "archived": false,
-          "fullName": "Imirushik/sunbreak-downhill-3D-game",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Imirushik",
-          "pushedAt": "2026-09-05T17:28:02+00:00",
-          "createdAt": "2026-09-05T17:22:29+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T10:50:33+00:00",
-          "description": "A procedural cel-shaded downhill BMX racer built with Three.js—four riders, bike physics, tricks, dynamic weather and wild speed effects.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Imirushik",
-      "topRepo": {
-        "name": "sunbreak-downhill-3D-game",
-        "fullName": "Imirushik/sunbreak-downhill-3D-game",
-        "stars": 27,
-        "url": "https://github.com/Imirushik/sunbreak-downhill-3D-game"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/186030518?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Imirushik/sunbreak-downhill-3D-game"
-      ],
-      "starScore": 27
+      "starScore": 26
     },
     {
       "id": "16067529",
-      "rank": 23,
+      "rank": 29,
       "type": "User",
       "login": "Mujung",
       "repos": [
@@ -1136,249 +1468,237 @@
       "starScore": 25
     },
     {
-      "id": "325058581",
-      "rank": 24,
-      "type": "User",
-      "login": "JackandBeans",
+      "id": "204849768",
+      "rank": 30,
+      "type": "Organization",
+      "login": "wbso-ai",
       "repos": [
         {
-          "id": 1358365242,
+          "id": 1359108765,
           "fork": false,
-          "name": "Snap64Recomp",
-          "forks": 4,
-          "owner": "JackandBeans",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/325058581?v=4",
-          "topics": [
-            "n64",
-            "n64recomp",
-            "pokemon-snap",
-            "recompilation",
-            "rt64"
-          ],
-          "ownerId": "325058581",
-          "repoUrl": "https://github.com/JackandBeans/Snap64Recomp",
+          "name": "omarchy-plugin-security-skill",
+          "forks": 1,
+          "owner": "wbso-ai",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/204849768?v=4",
+          "topics": [],
+          "ownerId": "204849768",
+          "repoUrl": "https://github.com/wbso-ai/omarchy-plugin-security-skill",
           "archived": false,
-          "fullName": "JackandBeans/Snap64Recomp",
-          "language": "C++",
-          "ownerUrl": "https://github.com/JackandBeans",
-          "pushedAt": "2026-09-05T18:02:18+00:00",
-          "createdAt": "2026-09-05T16:28:12+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T09:57:45+00:00",
-          "description": "Native Windows port of Pokémon Snap (N64) by static recompilation. You supply your own cartridge dump; no game data is included.",
+          "fullName": "wbso-ai/omarchy-plugin-security-skill",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/wbso-ai",
+          "pushedAt": "2026-09-06T13:30:45+00:00",
+          "createdAt": "2026-09-06T12:15:40+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-06T15:24:59+00:00",
+          "description": "Agent skill and field guide: the security pitfalls that block Omarchy plugins on the marketplace, from 5,000+ maintainer reviews",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/JackandBeans",
+      "htmlUrl": "https://github.com/wbso-ai",
       "topRepo": {
-        "name": "Snap64Recomp",
-        "fullName": "JackandBeans/Snap64Recomp",
-        "stars": 24,
-        "url": "https://github.com/JackandBeans/Snap64Recomp"
+        "name": "omarchy-plugin-security-skill",
+        "fullName": "wbso-ai/omarchy-plugin-security-skill",
+        "stars": 25,
+        "url": "https://github.com/wbso-ai/omarchy-plugin-security-skill"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/325058581?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/204849768?v=4",
       "repoCount": 1,
       "repoNames": [
-        "JackandBeans/Snap64Recomp"
+        "wbso-ai/omarchy-plugin-security-skill"
+      ],
+      "starScore": 25
+    },
+    {
+      "id": "6948894",
+      "rank": 31,
+      "type": "User",
+      "login": "jangtrinh",
+      "repos": [
+        {
+          "id": 1358657723,
+          "fork": false,
+          "name": "design-os-3d-blender",
+          "forks": 8,
+          "owner": "jangtrinh",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/6948894?v=4",
+          "topics": [
+            "3d-printing",
+            "ai-agent",
+            "blender",
+            "bpy",
+            "claude-code",
+            "codex",
+            "mcp",
+            "robotics"
+          ],
+          "ownerId": "6948894",
+          "repoUrl": "https://github.com/jangtrinh/design-os-3d-blender",
+          "archived": false,
+          "fullName": "jangtrinh/design-os-3d-blender",
+          "language": "Python",
+          "ownerUrl": "https://github.com/jangtrinh",
+          "pushedAt": "2026-09-06T14:31:16+00:00",
+          "createdAt": "2026-09-06T00:18:05+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T14:53:24+00:00",
+          "description": "AI-agent operating system for Blender 5.2: skills, verified bpy knowledge base, AGENT_OK/AGENT_FAIL execution contract, production gate for 3D-printable parts, robot-arm demo",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jangtrinh",
+      "topRepo": {
+        "name": "design-os-3d-blender",
+        "fullName": "jangtrinh/design-os-3d-blender",
+        "stars": 24,
+        "url": "https://github.com/jangtrinh/design-os-3d-blender"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6948894?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jangtrinh/design-os-3d-blender"
       ],
       "starScore": 24
     },
     {
-      "id": "320151072",
-      "rank": 25,
+      "id": "239540651",
+      "rank": 32,
       "type": "User",
-      "login": "Hicod-ghl",
+      "login": "i-am-manware",
       "repos": [
         {
-          "id": 1358312084,
+          "id": 1358378778,
           "fork": false,
-          "name": "Astra",
+          "name": "Manware-s-AI-Learning-Toolkit",
           "forks": 0,
-          "owner": "Hicod-ghl",
+          "owner": "i-am-manware",
           "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/320151072?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/239540651?v=4",
           "topics": [],
-          "ownerId": "320151072",
-          "repoUrl": "https://github.com/Hicod-ghl/Astra",
+          "ownerId": "239540651",
+          "repoUrl": "https://github.com/i-am-manware/Manware-s-AI-Learning-Toolkit",
           "archived": false,
-          "fullName": "Hicod-ghl/Astra",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/Hicod-ghl",
-          "pushedAt": "2026-09-05T15:22:10+00:00",
-          "createdAt": "2026-09-05T15:17:26+00:00",
+          "fullName": "i-am-manware/Manware-s-AI-Learning-Toolkit",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/i-am-manware",
+          "pushedAt": "2026-09-06T03:57:39+00:00",
+          "createdAt": "2026-09-05T16:46:07+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T11:01:17+00:00",
-          "description": "",
-          "defaultBranch": "main"
+          "updatedAt": "2026-09-06T15:26:46+00:00",
+          "description": "An AI toolkit that turns agents into teachers rather than code yapping machines",
+          "defaultBranch": "copilot"
         }
       ],
-      "htmlUrl": "https://github.com/Hicod-ghl",
+      "htmlUrl": "https://github.com/i-am-manware",
       "topRepo": {
-        "name": "Astra",
-        "fullName": "Hicod-ghl/Astra",
+        "name": "Manware-s-AI-Learning-Toolkit",
+        "fullName": "i-am-manware/Manware-s-AI-Learning-Toolkit",
         "stars": 23,
-        "url": "https://github.com/Hicod-ghl/Astra"
+        "url": "https://github.com/i-am-manware/Manware-s-AI-Learning-Toolkit"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/320151072?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239540651?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Hicod-ghl/Astra"
+        "i-am-manware/Manware-s-AI-Learning-Toolkit"
       ],
       "starScore": 23
     },
     {
-      "id": "66570915",
-      "rank": 26,
-      "type": "Organization",
-      "login": "anomalyco",
+      "id": "60907456",
+      "rank": 33,
+      "type": "User",
+      "login": "leochlon",
       "repos": [
         {
-          "id": 1358555793,
+          "id": 1358891011,
           "fork": false,
-          "name": "haunt",
-          "forks": 0,
-          "owner": "anomalyco",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
+          "name": "secant",
+          "forks": 1,
+          "owner": "leochlon",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/60907456?v=4",
           "topics": [],
-          "ownerId": "66570915",
-          "repoUrl": "https://github.com/anomalyco/haunt",
+          "ownerId": "60907456",
+          "repoUrl": "https://github.com/leochlon/secant",
           "archived": false,
-          "fullName": "anomalyco/haunt",
-          "language": "Zig",
-          "ownerUrl": "https://github.com/anomalyco",
-          "pushedAt": "2026-09-05T22:59:12+00:00",
-          "createdAt": "2026-09-05T20:58:37+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-06T10:07:24+00:00",
-          "description": "",
-          "defaultBranch": "dev"
+          "fullName": "leochlon/secant",
+          "language": "Jupyter Notebook",
+          "ownerUrl": "https://github.com/leochlon",
+          "pushedAt": "2026-09-06T08:08:14+00:00",
+          "createdAt": "2026-09-06T07:24:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:27:43+00:00",
+          "description": "RoPE attention is an exact forward-pass gradient step with softmax intact",
+          "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/anomalyco",
+      "htmlUrl": "https://github.com/leochlon",
       "topRepo": {
-        "name": "haunt",
-        "fullName": "anomalyco/haunt",
-        "stars": 22,
-        "url": "https://github.com/anomalyco/haunt"
+        "name": "secant",
+        "fullName": "leochlon/secant",
+        "stars": 23,
+        "url": "https://github.com/leochlon/secant"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66570915?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60907456?v=4",
       "repoCount": 1,
       "repoNames": [
-        "anomalyco/haunt"
+        "leochlon/secant"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "84521318",
+      "rank": 34,
+      "type": "User",
+      "login": "somerandomviolinkid",
+      "repos": [
+        {
+          "id": 1358695180,
+          "fork": false,
+          "name": "bob16",
+          "forks": 2,
+          "owner": "somerandomviolinkid",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/84521318?v=4",
+          "topics": [],
+          "ownerId": "84521318",
+          "repoUrl": "https://github.com/somerandomviolinkid/bob16",
+          "archived": false,
+          "fullName": "somerandomviolinkid/bob16",
+          "language": "C",
+          "ownerUrl": "https://github.com/somerandomviolinkid",
+          "pushedAt": "2026-09-06T04:58:14+00:00",
+          "createdAt": "2026-09-06T01:37:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-06T15:14:52+00:00",
+          "description": "extremely simple custom 16 bit cpu emulator and assembler as seen on youtube",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/somerandomviolinkid",
+      "topRepo": {
+        "name": "bob16",
+        "fullName": "somerandomviolinkid/bob16",
+        "stars": 22,
+        "url": "https://github.com/somerandomviolinkid/bob16"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84521318?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "somerandomviolinkid/bob16"
       ],
       "starScore": 22
     },
     {
-      "id": "324444043",
-      "rank": 27,
-      "type": "User",
-      "login": "fidetolabs",
-      "repos": [
-        {
-          "id": 1358286075,
-          "fork": false,
-          "name": "qanat",
-          "forks": 2,
-          "owner": "fidetolabs",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/324444043?v=4",
-          "topics": [
-            "alpha-research",
-            "backtesting",
-            "dag",
-            "duckdb",
-            "mcp",
-            "quantitative-finance",
-            "trading-toolkit"
-          ],
-          "ownerId": "324444043",
-          "repoUrl": "https://github.com/fidetolabs/qanat",
-          "archived": false,
-          "fullName": "fidetolabs/qanat",
-          "language": "Python",
-          "ownerUrl": "https://github.com/fidetolabs",
-          "pushedAt": "2026-09-06T07:35:55+00:00",
-          "createdAt": "2026-09-05T14:43:40+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:04:09+00:00",
-          "description": "Agent-native workflow engine for building and backtesting alphas as DAGs.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/fidetolabs",
-      "topRepo": {
-        "name": "qanat",
-        "fullName": "fidetolabs/qanat",
-        "stars": 21,
-        "url": "https://github.com/fidetolabs/qanat"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324444043?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "fidetolabs/qanat"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "159762123",
-      "rank": 28,
-      "type": "User",
-      "login": "Jarvis322",
-      "repos": [
-        {
-          "id": 1358633852,
-          "fork": false,
-          "name": "macos-sysdata",
-          "forks": 1,
-          "owner": "Jarvis322",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/159762123?v=4",
-          "topics": [
-            "disk-cleanup",
-            "macos",
-            "menubar",
-            "swiftui",
-            "system-data",
-            "xcode"
-          ],
-          "ownerId": "159762123",
-          "repoUrl": "https://github.com/Jarvis322/macos-sysdata",
-          "archived": false,
-          "fullName": "Jarvis322/macos-sysdata",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/Jarvis322",
-          "pushedAt": "2026-09-06T07:37:40+00:00",
-          "createdAt": "2026-09-05T23:29:13+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:02:30+00:00",
-          "description": "See what is really inside macOS System Data and delete it, item by item, from the menu bar.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Jarvis322",
-      "topRepo": {
-        "name": "macos-sysdata",
-        "fullName": "Jarvis322/macos-sysdata",
-        "stars": 20,
-        "url": "https://github.com/Jarvis322/macos-sysdata"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159762123?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Jarvis322/macos-sysdata"
-      ],
-      "starScore": 20
-    },
-    {
       "id": "258679365",
-      "rank": 29,
+      "rank": 35,
       "type": "User",
       "login": "domoretechnet",
       "repos": [
@@ -1388,7 +1708,7 @@
           "name": "allarise-ios",
           "forks": 0,
           "owner": "domoretechnet",
-          "stars": 19,
+          "stars": 20,
           "avatar": "https://avatars.githubusercontent.com/u/258679365?v=4",
           "topics": [],
           "ownerId": "258679365",
@@ -1400,7 +1720,7 @@
           "pushedAt": "2026-09-05T20:05:00+00:00",
           "createdAt": "2026-09-05T20:04:45+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-06T07:19:58+00:00",
+          "updatedAt": "2026-09-06T11:17:29+00:00",
           "description": "Allarise iOS app (public mirror)",
           "defaultBranch": "main"
         }
@@ -1409,7 +1729,7 @@
       "topRepo": {
         "name": "allarise-ios",
         "fullName": "domoretechnet/allarise-ios",
-        "stars": 19,
+        "stars": 20,
         "url": "https://github.com/domoretechnet/allarise-ios"
       },
       "enriched": true,
@@ -1418,11 +1738,11 @@
       "repoNames": [
         "domoretechnet/allarise-ios"
       ],
-      "starScore": 19
+      "starScore": 20
     },
     {
       "id": "148798365",
-      "rank": 30,
+      "rank": 36,
       "type": "User",
       "login": "atharvotech",
       "repos": [
@@ -1486,204 +1806,8 @@
       "starScore": 18
     },
     {
-      "id": "535509",
-      "rank": 31,
-      "type": "User",
-      "login": "Dimillian",
-      "repos": [
-        {
-          "id": 1358319367,
-          "fork": false,
-          "name": "Evergrow",
-          "forks": 3,
-          "owner": "Dimillian",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/535509?v=4",
-          "topics": [],
-          "ownerId": "535509",
-          "repoUrl": "https://github.com/Dimillian/Evergrow",
-          "archived": false,
-          "fullName": "Dimillian/Evergrow",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Dimillian",
-          "pushedAt": "2026-09-06T10:48:53+00:00",
-          "createdAt": "2026-09-05T15:27:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:06:05+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Dimillian",
-      "topRepo": {
-        "name": "Evergrow",
-        "fullName": "Dimillian/Evergrow",
-        "stars": 17,
-        "url": "https://github.com/Dimillian/Evergrow"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/535509?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Dimillian/Evergrow"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "51323452",
-      "rank": 32,
-      "type": "User",
-      "login": "david66l",
-      "repos": [
-        {
-          "id": 1358118158,
-          "fork": false,
-          "name": "Paw-memory",
-          "forks": 0,
-          "owner": "david66l",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/51323452?v=4",
-          "topics": [],
-          "ownerId": "51323452",
-          "repoUrl": "https://github.com/david66l/Paw-memory",
-          "archived": false,
-          "fullName": "david66l/Paw-memory",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/david66l",
-          "pushedAt": "2026-09-05T11:43:59+00:00",
-          "createdAt": "2026-09-05T11:23:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T11:04:54+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/david66l",
-      "topRepo": {
-        "name": "Paw-memory",
-        "fullName": "david66l/Paw-memory",
-        "stars": 16,
-        "url": "https://github.com/david66l/Paw-memory"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/51323452?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "david66l/Paw-memory"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "276398174",
-      "rank": 33,
-      "type": "Organization",
-      "login": "DartNative",
-      "repos": [
-        {
-          "id": 1358163597,
-          "fork": false,
-          "name": "dartnative",
-          "forks": 1,
-          "owner": "DartNative",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/276398174?v=4",
-          "topics": [],
-          "ownerId": "276398174",
-          "repoUrl": "https://github.com/DartNative/dartnative",
-          "archived": false,
-          "fullName": "DartNative/dartnative",
-          "language": "Dart",
-          "ownerUrl": "https://github.com/DartNative",
-          "pushedAt": "2026-09-06T00:52:48+00:00",
-          "createdAt": "2026-09-05T12:23:33+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-06T10:18:33+00:00",
-          "description": "Native iOS and Android apps from Dart",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/DartNative",
-      "topRepo": {
-        "name": "dartnative",
-        "fullName": "DartNative/dartnative",
-        "stars": 15,
-        "url": "https://github.com/DartNative/dartnative"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/276398174?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "DartNative/dartnative"
-      ],
-      "starScore": 15
-    },
-    {
-      "id": "76990859",
-      "rank": 34,
-      "type": "User",
-      "login": "wanshuiyin",
-      "repos": [
-        {
-          "id": 1358316829,
-          "fork": false,
-          "name": "ALIGN-Agentic-Loop-Image-GeneratioN",
-          "forks": 0,
-          "owner": "wanshuiyin",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/76990859?v=4",
-          "topics": [
-            "adversarial-review",
-            "agent-skills",
-            "agentic-loop",
-            "ai-agents",
-            "aris",
-            "claude-code",
-            "claude-code-skills",
-            "codex",
-            "codex-skills",
-            "creative-coding",
-            "cross-model-review",
-            "generative-art",
-            "image-generation",
-            "mcp",
-            "p5js",
-            "procedural-generation",
-            "scientific-figures",
-            "svg",
-            "visual-feedback"
-          ],
-          "ownerId": "76990859",
-          "repoUrl": "https://github.com/wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN",
-          "archived": false,
-          "fullName": "wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/wanshuiyin",
-          "pushedAt": "2026-09-06T03:16:42+00:00",
-          "createdAt": "2026-09-05T15:23:52+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-06T09:58:50+00:00",
-          "description": "Agentic loop image generation without diffusion or autoregressive image models. Coding agents draw in p5.js, using iterative refinement and adversarial visual review for high-fidelity art and method figures. Skills for Claude Code and Codex.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/wanshuiyin",
-      "topRepo": {
-        "name": "ALIGN-Agentic-Loop-Image-GeneratioN",
-        "fullName": "wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN",
-        "stars": 15,
-        "url": "https://github.com/wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76990859?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN"
-      ],
-      "starScore": 15
-    },
-    {
       "id": "93692472",
-      "rank": 35,
+      "rank": 37,
       "type": "User",
       "login": "DITlieD",
       "repos": [
@@ -1739,70 +1863,8 @@
       "starScore": 14
     },
     {
-      "id": "325334558",
-      "rank": 36,
-      "type": "User",
-      "login": "rwright4",
-      "repos": [
-        {
-          "id": 1358331635,
-          "fork": false,
-          "name": "facebook-reporting-tool",
-          "forks": 0,
-          "owner": "rwright4",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/325334558?v=4",
-          "topics": [
-            "facebook-bot",
-            "fb-bot",
-            "instagram-bot-tool",
-            "report-facebook",
-            "report-facebook-account",
-            "report-facebook-accounts",
-            "report-facebook-bot",
-            "report-facebook-page",
-            "report-facebook-tool",
-            "report-instagram-bot",
-            "report-instagram-tool",
-            "report-tiktok-acccount",
-            "report-tiktok-auto-bot",
-            "report-tiktok-bot",
-            "report-tiktok-tool",
-            "tiktok-bot-2026",
-            "tiktok-bot-reporters"
-          ],
-          "ownerId": "325334558",
-          "repoUrl": "https://github.com/rwright4/facebook-reporting-tool",
-          "archived": false,
-          "fullName": "rwright4/facebook-reporting-tool",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/rwright4",
-          "pushedAt": "2026-09-05T15:50:41+00:00",
-          "createdAt": "2026-09-05T15:43:33+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T18:44:05+00:00",
-          "description": "Bots are automated tools designed to streamline the process of submitting reports on FaceBook accounts that may violate the platform’s Community Guidelines. They can assist with reporting issues such as spam, report reporter mass acc ban bot page group impersonation, fake profile account, or other policy violations. Depending on their functionality",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/rwright4",
-      "topRepo": {
-        "name": "facebook-reporting-tool",
-        "fullName": "rwright4/facebook-reporting-tool",
-        "stars": 14,
-        "url": "https://github.com/rwright4/facebook-reporting-tool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/325334558?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "rwright4/facebook-reporting-tool"
-      ],
-      "starScore": 14
-    },
-    {
       "id": "195518959",
-      "rank": 37,
+      "rank": 38,
       "type": "User",
       "login": "bangtutorial",
       "repos": [
@@ -1841,61 +1903,6 @@
       "repoCount": 1,
       "repoNames": [
         "bangtutorial/bang-motion"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "144544824",
-      "rank": 38,
-      "type": "Organization",
-      "login": "disrex-group",
-      "repos": [
-        {
-          "id": 1358198137,
-          "fork": false,
-          "name": "stylesmuggler-mitigation",
-          "forks": 0,
-          "owner": "disrex-group",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/144544824?v=4",
-          "topics": [
-            "adobe-commerce",
-            "ecommerce-security",
-            "incident-response",
-            "magento",
-            "magento-security",
-            "magento2",
-            "mitigation",
-            "rce",
-            "security",
-            "stylesmuggler"
-          ],
-          "ownerId": "144544824",
-          "repoUrl": "https://github.com/disrex-group/stylesmuggler-mitigation",
-          "archived": false,
-          "fullName": "disrex-group/stylesmuggler-mitigation",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/disrex-group",
-          "pushedAt": "2026-09-05T21:52:03+00:00",
-          "createdAt": "2026-09-05T13:03:44+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-06T09:38:20+00:00",
-          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/disrex-group",
-      "topRepo": {
-        "name": "stylesmuggler-mitigation",
-        "fullName": "disrex-group/stylesmuggler-mitigation",
-        "stars": 13,
-        "url": "https://github.com/disrex-group/stylesmuggler-mitigation"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/144544824?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "disrex-group/stylesmuggler-mitigation"
       ],
       "starScore": 13
     },
@@ -1988,127 +1995,8 @@
       "starScore": 12
     },
     {
-      "id": "324203596",
-      "rank": 41,
-      "type": "User",
-      "login": "kperez1438",
-      "repos": [
-        {
-          "id": 1358121836,
-          "fork": false,
-          "name": "starfield-cheat-2026-explorer-lab",
-          "forks": 0,
-          "owner": "kperez1438",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324203596?v=4",
-          "topics": [
-            "cheat-engine-table",
-            "diablo-4-trainer",
-            "game-god-mode",
-            "game-hack-trainer",
-            "game-mod-trainer",
-            "game-trainer-2026",
-            "game-trainer-free",
-            "game-unlimited-money",
-            "offline-trainer",
-            "single-player-hack",
-            "starfield-god-mode",
-            "starfield-hack",
-            "starfield-trainer-2026",
-            "starfield-trainer-free",
-            "starfield-unlimited-credits",
-            "trainer-2026",
-            "trainer-free"
-          ],
-          "ownerId": "324203596",
-          "repoUrl": "https://github.com/kperez1438/starfield-cheat-2026-explorer-lab",
-          "archived": false,
-          "fullName": "kperez1438/starfield-cheat-2026-explorer-lab",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/kperez1438",
-          "pushedAt": "2026-09-05T11:28:53+00:00",
-          "createdAt": "2026-09-05T11:28:33+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T11:32:00+00:00",
-          "description": "Starfield Cheat 2026 themed single-player toolkit for character builds, ship analytics, inventory planning, exploration tools, combat statistics and trainer-style menu UI experiments.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kperez1438",
-      "topRepo": {
-        "name": "starfield-cheat-2026-explorer-lab",
-        "fullName": "kperez1438/starfield-cheat-2026-explorer-lab",
-        "stars": 10,
-        "url": "https://github.com/kperez1438/starfield-cheat-2026-explorer-lab"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324203596?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kperez1438/starfield-cheat-2026-explorer-lab"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324202142",
-      "rank": 42,
-      "type": "User",
-      "login": "lbarnes1415",
-      "repos": [
-        {
-          "id": 1358169571,
-          "fork": false,
-          "name": "rocket-league-ai-ranked-training-lab",
-          "forks": 0,
-          "owner": "lbarnes1415",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324202142?v=4",
-          "topics": [
-            "ai-game-bot",
-            "competitive-gaming-tools",
-            "game-assistance",
-            "game-automation",
-            "game-enhancer",
-            "rocket-league",
-            "rocket-league-ai",
-            "rocket-league-enhancer",
-            "rocket-league-research",
-            "rocket-league-tools",
-            "rocket-league-visuals",
-            "unreal-engine-research"
-          ],
-          "ownerId": "324202142",
-          "repoUrl": "https://github.com/lbarnes1415/rocket-league-ai-ranked-training-lab",
-          "archived": false,
-          "fullName": "lbarnes1415/rocket-league-ai-ranked-training-lab",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/lbarnes1415",
-          "pushedAt": "2026-09-05T12:31:59+00:00",
-          "createdAt": "2026-09-05T12:31:50+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T12:35:25+00:00",
-          "description": "Rocket League themed gameplay toolkit for ranked analysis, AI training concepts, mechanics practice, replay statistics, highlights, clips and customizable training dashboards.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lbarnes1415",
-      "topRepo": {
-        "name": "rocket-league-ai-ranked-training-lab",
-        "fullName": "lbarnes1415/rocket-league-ai-ranked-training-lab",
-        "stars": 10,
-        "url": "https://github.com/lbarnes1415/rocket-league-ai-ranked-training-lab"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324202142?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lbarnes1415/rocket-league-ai-ranked-training-lab"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "324248684",
-      "rank": 43,
+      "rank": 41,
       "type": "User",
       "login": "ryanjimenez-41",
       "repos": [
@@ -2159,7 +2047,7 @@
     },
     {
       "id": "324221756",
-      "rank": 44,
+      "rank": 42,
       "type": "User",
       "login": "samantha-7756",
       "repos": [
@@ -2205,7 +2093,7 @@
     },
     {
       "id": "324266095",
-      "rank": 45,
+      "rank": 43,
       "type": "User",
       "login": "sara-palmer15",
       "repos": [
@@ -2254,7 +2142,7 @@
     },
     {
       "id": "324199650",
-      "rank": 46,
+      "rank": 44,
       "type": "User",
       "login": "sarahgray00",
       "repos": [
@@ -2298,307 +2186,6 @@
       "repoCount": 1,
       "repoNames": [
         "sarahgray00/heartopia-mod-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324287343",
-      "rank": 47,
-      "type": "User",
-      "login": "sgarcia3819",
-      "repos": [
-        {
-          "id": 1358277116,
-          "fork": false,
-          "name": "steal-ab-menu",
-          "forks": 0,
-          "owner": "sgarcia3819",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324287343?v=4",
-          "topics": [
-            "mm2",
-            "murder-mystery",
-            "steal-a-brainrot-hack",
-            "stealabrainrotscript"
-          ],
-          "ownerId": "324287343",
-          "repoUrl": "https://github.com/sgarcia3819/steal-ab-menu",
-          "archived": false,
-          "fullName": "sgarcia3819/steal-ab-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/sgarcia3819",
-          "pushedAt": "2026-09-05T14:36:16+00:00",
-          "createdAt": "2026-09-05T14:33:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T14:40:14+00:00",
-          "description": "A playful and customizable tool designed for enhanced in-game experiences. Built for stability and fun, offering unique features compatible with multiple platforms. Use responsibly and creatively.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sgarcia3819",
-      "topRepo": {
-        "name": "steal-ab-menu",
-        "fullName": "sgarcia3819/steal-ab-menu",
-        "stars": 10,
-        "url": "https://github.com/sgarcia3819/steal-ab-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324287343?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sgarcia3819/steal-ab-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324224275",
-      "rank": 48,
-      "type": "User",
-      "login": "shane-8216",
-      "repos": [
-        {
-          "id": 1358270250,
-          "fork": false,
-          "name": "black-squad-mod-menu",
-          "forks": 0,
-          "owner": "shane-8216",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324224275?v=4",
-          "topics": [
-            "black-squad",
-            "black-squad-aim",
-            "black-squad-bot",
-            "black-squad-scripts",
-            "squad-aim"
-          ],
-          "ownerId": "324224275",
-          "repoUrl": "https://github.com/shane-8216/black-squad-mod-menu",
-          "archived": false,
-          "fullName": "shane-8216/black-squad-mod-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/shane-8216",
-          "pushedAt": "2026-09-05T14:28:42+00:00",
-          "createdAt": "2026-09-05T14:26:25+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T14:31:42+00:00",
-          "description": "Black Squad Cheats 2026 Best Tips and Tricks for Winning",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/shane-8216",
-      "topRepo": {
-        "name": "black-squad-mod-menu",
-        "fullName": "shane-8216/black-squad-mod-menu",
-        "stars": 10,
-        "url": "https://github.com/shane-8216/black-squad-mod-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324224275?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "shane-8216/black-squad-mod-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324274526",
-      "rank": 49,
-      "type": "User",
-      "login": "sharon-baker-52",
-      "repos": [
-        {
-          "id": 1358264437,
-          "fork": false,
-          "name": "crimson-desert-menu",
-          "forks": 0,
-          "owner": "sharon-baker-52",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324274526?v=4",
-          "topics": [
-            "crimson-desert",
-            "crimson-desert-cheats",
-            "crimson-desert-mods",
-            "crimson-desert-tools"
-          ],
-          "ownerId": "324274526",
-          "repoUrl": "https://github.com/sharon-baker-52/crimson-desert-menu",
-          "archived": false,
-          "fullName": "sharon-baker-52/crimson-desert-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/sharon-baker-52",
-          "pushedAt": "2026-09-05T14:20:42+00:00",
-          "createdAt": "2026-09-05T14:19:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T14:24:26+00:00",
-          "description": "Everything about Crimson Desert trainer, cheats, mods, features, and safe usage guide for players.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sharon-baker-52",
-      "topRepo": {
-        "name": "crimson-desert-menu",
-        "fullName": "sharon-baker-52/crimson-desert-menu",
-        "stars": 10,
-        "url": "https://github.com/sharon-baker-52/crimson-desert-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324274526?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sharon-baker-52/crimson-desert-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324249491",
-      "rank": 50,
-      "type": "User",
-      "login": "sophiapatel187",
-      "repos": [
-        {
-          "id": 1358168778,
-          "fork": false,
-          "name": "8ball-pool-menu",
-          "forks": 0,
-          "owner": "sophiapatel187",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324249491?v=4",
-          "topics": [
-            "8-ball-pool",
-            "8ball",
-            "8ball-pool-hack",
-            "8ballpool",
-            "8ballpool-cheto",
-            "8ballpool-hacker"
-          ],
-          "ownerId": "324249491",
-          "repoUrl": "https://github.com/sophiapatel187/8ball-pool-menu",
-          "archived": false,
-          "fullName": "sophiapatel187/8ball-pool-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/sophiapatel187",
-          "pushedAt": "2026-09-05T12:33:54+00:00",
-          "createdAt": "2026-09-05T12:30:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T12:38:42+00:00",
-          "description": "Pro 8 Ball Pool Aim Hack Cheat Guide 🎱 Easy Aiming Tips and Smart Mod Help",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sophiapatel187",
-      "topRepo": {
-        "name": "8ball-pool-menu",
-        "fullName": "sophiapatel187/8ball-pool-menu",
-        "stars": 10,
-        "url": "https://github.com/sophiapatel187/8ball-pool-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324249491?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sophiapatel187/8ball-pool-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324269102",
-      "rank": 51,
-      "type": "User",
-      "login": "sophreyes28",
-      "repos": [
-        {
-          "id": 1358151178,
-          "fork": false,
-          "name": "ready-or-not-mod-menu",
-          "forks": 0,
-          "owner": "sophreyes28",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324269102?v=4",
-          "topics": [
-            "ready-or-not",
-            "ready-or-not-hack",
-            "ready-or-not-hack-esp"
-          ],
-          "ownerId": "324269102",
-          "repoUrl": "https://github.com/sophreyes28/ready-or-not-mod-menu",
-          "archived": false,
-          "fullName": "sophreyes28/ready-or-not-mod-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/sophreyes28",
-          "pushedAt": "2026-09-05T12:14:02+00:00",
-          "createdAt": "2026-09-05T12:08:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T12:18:01+00:00",
-          "description": "Ready Or Not Trainers & Mods",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sophreyes28",
-      "topRepo": {
-        "name": "ready-or-not-mod-menu",
-        "fullName": "sophreyes28/ready-or-not-mod-menu",
-        "stars": 10,
-        "url": "https://github.com/sophreyes28/ready-or-not-mod-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324269102?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sophreyes28/ready-or-not-mod-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324261606",
-      "rank": 52,
-      "type": "User",
-      "login": "stelgraham01",
-      "repos": [
-        {
-          "id": 1358115623,
-          "fork": false,
-          "name": "mta-mod-menu",
-          "forks": 0,
-          "owner": "stelgraham01",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324261606?v=4",
-          "topics": [
-            "mta-aim-bot",
-            "mta-hack",
-            "mta-mod",
-            "mta-script",
-            "mta-sobeit",
-            "multi-theft-auto-aim-bot",
-            "multi-theft-auto-bot",
-            "multi-theft-auto-hack",
-            "samp-hack"
-          ],
-          "ownerId": "324261606",
-          "repoUrl": "https://github.com/stelgraham01/mta-mod-menu",
-          "archived": false,
-          "fullName": "stelgraham01/mta-mod-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/stelgraham01",
-          "pushedAt": "2026-09-05T11:23:23+00:00",
-          "createdAt": "2026-09-05T11:20:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-05T11:30:27+00:00",
-          "description": "Truly unique software for Multi Theft Auto developed using advanced technologies and reverse expertise. We proudly present a reliable solution that will give you an edge over your competitors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/stelgraham01",
-      "topRepo": {
-        "name": "mta-mod-menu",
-        "fullName": "stelgraham01/mta-mod-menu",
-        "stars": 10,
-        "url": "https://github.com/stelgraham01/mta-mod-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324261606?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "stelgraham01/mta-mod-menu"
       ],
       "starScore": 10
     }
