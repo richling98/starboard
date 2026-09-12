@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T11:00:46.927Z",
-  "total": 77,
-  "totalIndexedCount": 77,
-  "coverageLabel": "Showing 77 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-12T15:53:02.367Z",
+  "total": 55,
+  "totalIndexedCount": 55,
+  "coverageLabel": "Showing 55 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,52 +10,8 @@
   },
   "rows": [
     {
-      "id": "327971531",
-      "rank": 1,
-      "type": "Organization",
-      "login": "flybook-git",
-      "repos": [
-        {
-          "id": 1366100077,
-          "fork": false,
-          "name": "Main",
-          "forks": 44,
-          "owner": "flybook-git",
-          "stars": 237,
-          "avatar": "https://avatars.githubusercontent.com/u/327971531?v=4",
-          "topics": [],
-          "ownerId": "327971531",
-          "repoUrl": "https://github.com/flybook-git/Main",
-          "archived": false,
-          "fullName": "flybook-git/Main",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/flybook-git",
-          "pushedAt": "2026-09-10T02:40:34+00:00",
-          "createdAt": "2026-09-11T12:51:43+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-11T14:37:16+00:00",
-          "description": "A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/flybook-git",
-      "topRepo": {
-        "name": "Main",
-        "fullName": "flybook-git/Main",
-        "stars": 237,
-        "url": "https://github.com/flybook-git/Main"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/327971531?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "flybook-git/Main"
-      ],
-      "starScore": 237
-    },
-    {
       "id": "307801315",
-      "rank": 2,
+      "rank": 1,
       "type": "User",
       "login": "minotaurmiteblast",
       "repos": [
@@ -145,7 +101,7 @@
     },
     {
       "id": "307801287",
-      "rank": 3,
+      "rank": 2,
       "type": "User",
       "login": "SharkStronghold",
       "repos": [
@@ -235,7 +191,7 @@
     },
     {
       "id": "146877884",
-      "rank": 4,
+      "rank": 3,
       "type": "User",
       "login": "Argona7",
       "repos": [
@@ -243,9 +199,9 @@
           "id": 1366426802,
           "fork": false,
           "name": "stampede",
-          "forks": 16,
+          "forks": 22,
           "owner": "Argona7",
-          "stars": 127,
+          "stars": 134,
           "avatar": "https://avatars.githubusercontent.com/u/146877884?v=4",
           "topics": [
             "fastapi",
@@ -265,10 +221,10 @@
           "fullName": "Argona7/stampede",
           "language": "Python",
           "ownerUrl": "https://github.com/Argona7",
-          "pushedAt": "2026-09-12T10:55:21+00:00",
+          "pushedAt": "2026-09-12T15:37:35+00:00",
           "createdAt": "2026-09-11T16:23:28+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T10:55:26+00:00",
+          "updatedAt": "2026-09-12T15:37:38+00:00",
           "description": "Read-only explorer of observed wallet rotations on Robinhood Chain (PONS v2): terminal + web, replay of a recorded sample without API keys",
           "defaultBranch": "main"
         }
@@ -277,7 +233,7 @@
       "topRepo": {
         "name": "stampede",
         "fullName": "Argona7/stampede",
-        "stars": 127,
+        "stars": 134,
         "url": "https://github.com/Argona7/stampede"
       },
       "enriched": true,
@@ -286,7 +242,56 @@
       "repoNames": [
         "Argona7/stampede"
       ],
-      "starScore": 127
+      "starScore": 134
+    },
+    {
+      "id": "250558869",
+      "rank": 4,
+      "type": "User",
+      "login": "kruzovic7",
+      "repos": [
+        {
+          "id": 1366546611,
+          "fork": false,
+          "name": "ai-data-extractor",
+          "forks": 36,
+          "owner": "kruzovic7",
+          "stars": 113,
+          "avatar": "https://avatars.githubusercontent.com/u/250558869?v=4",
+          "topics": [
+            "ai",
+            "ai-data-extraction",
+            "claude-code",
+            "cursor"
+          ],
+          "ownerId": "250558869",
+          "repoUrl": "https://github.com/kruzovic7/ai-data-extractor",
+          "archived": false,
+          "fullName": "kruzovic7/ai-data-extractor",
+          "language": "Python",
+          "ownerUrl": "https://github.com/kruzovic7",
+          "pushedAt": "2026-09-11T18:20:56+00:00",
+          "createdAt": "2026-09-11T18:12:58+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:35:22+00:00",
+          "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kruzovic7",
+      "topRepo": {
+        "name": "ai-data-extractor",
+        "fullName": "kruzovic7/ai-data-extractor",
+        "stars": 113,
+        "url": "https://github.com/kruzovic7/ai-data-extractor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/250558869?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kruzovic7/ai-data-extractor"
+      ],
+      "starScore": 113
     },
     {
       "id": "307801453",
@@ -356,57 +361,8 @@
       "starScore": 111
     },
     {
-      "id": "250558869",
-      "rank": 6,
-      "type": "User",
-      "login": "kruzovic7",
-      "repos": [
-        {
-          "id": 1366546611,
-          "fork": false,
-          "name": "ai-data-extractor",
-          "forks": 29,
-          "owner": "kruzovic7",
-          "stars": 84,
-          "avatar": "https://avatars.githubusercontent.com/u/250558869?v=4",
-          "topics": [
-            "ai",
-            "ai-data-extraction",
-            "claude-code",
-            "cursor"
-          ],
-          "ownerId": "250558869",
-          "repoUrl": "https://github.com/kruzovic7/ai-data-extractor",
-          "archived": false,
-          "fullName": "kruzovic7/ai-data-extractor",
-          "language": "Python",
-          "ownerUrl": "https://github.com/kruzovic7",
-          "pushedAt": "2026-09-11T18:20:56+00:00",
-          "createdAt": "2026-09-11T18:12:58+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:38:55+00:00",
-          "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kruzovic7",
-      "topRepo": {
-        "name": "ai-data-extractor",
-        "fullName": "kruzovic7/ai-data-extractor",
-        "stars": 84,
-        "url": "https://github.com/kruzovic7/ai-data-extractor"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/250558869?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kruzovic7/ai-data-extractor"
-      ],
-      "starScore": 84
-    },
-    {
       "id": "307801237",
-      "rank": 7,
+      "rank": 6,
       "type": "User",
       "login": "CustodianWrench68",
       "repos": [
@@ -473,7 +429,7 @@
     },
     {
       "id": "290130823",
-      "rank": 8,
+      "rank": 7,
       "type": "User",
       "login": "tropicalpackerroad",
       "repos": [
@@ -524,6 +480,66 @@
         "tropicalpackerroad/Fortnite-ESP-Soft-Aim-2026-SlowLow-Team-Visual-Assist-Tool"
       ],
       "starScore": 76
+    },
+    {
+      "id": "327702698",
+      "rank": 8,
+      "type": "User",
+      "login": "SyntaxMethod",
+      "repos": [
+        {
+          "id": 1366640598,
+          "fork": false,
+          "name": "CVE-2026-42978-PoC-Research",
+          "forks": 0,
+          "owner": "SyntaxMethod",
+          "stars": 61,
+          "avatar": "https://avatars.githubusercontent.com/u/327702698?v=4",
+          "topics": [
+            "ai-security-tool",
+            "cve-2026-42978",
+            "cve-2026-42978-poc",
+            "cwe-362",
+            "local-system-eop",
+            "privilege-escalation",
+            "race-conditions",
+            "security-research",
+            "threat-hunting",
+            "use-after-free",
+            "vulnerability-scanner",
+            "windows-eop",
+            "wpncore-dll",
+            "wpnservice",
+            "zero-day-research"
+          ],
+          "ownerId": "327702698",
+          "repoUrl": "https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research",
+          "archived": false,
+          "fullName": "SyntaxMethod/CVE-2026-42978-PoC-Research",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/SyntaxMethod",
+          "pushedAt": "2026-09-11T20:53:46+00:00",
+          "createdAt": "2026-09-11T19:58:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:18:03+00:00",
+          "description": "CVE-2026-42978 Windows Push Notifications (WpnService) Use-After-Free & Race Condition PoC research, diagnostic scanner, and security audit module for AI Security Tool.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/SyntaxMethod",
+      "topRepo": {
+        "name": "CVE-2026-42978-PoC-Research",
+        "fullName": "SyntaxMethod/CVE-2026-42978-PoC-Research",
+        "stars": 61,
+        "url": "https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/327702698?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "SyntaxMethod/CVE-2026-42978-PoC-Research"
+      ],
+      "starScore": 61
     },
     {
       "id": "322326979",
@@ -790,8 +806,52 @@
       "starScore": 57
     },
     {
-      "id": "322330650",
+      "id": "39563522",
       "rank": 15,
+      "type": "User",
+      "login": "atbender",
+      "repos": [
+        {
+          "id": 1366668024,
+          "fork": false,
+          "name": "deepseek-v41-flash-mac-mini",
+          "forks": 1,
+          "owner": "atbender",
+          "stars": 57,
+          "avatar": "https://avatars.githubusercontent.com/u/39563522?v=4",
+          "topics": [],
+          "ownerId": "39563522",
+          "repoUrl": "https://github.com/atbender/deepseek-v41-flash-mac-mini",
+          "archived": false,
+          "fullName": "atbender/deepseek-v41-flash-mac-mini",
+          "language": "Python",
+          "ownerUrl": "https://github.com/atbender",
+          "pushedAt": "2026-09-11T20:33:23+00:00",
+          "createdAt": "2026-09-11T20:33:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:00:21+00:00",
+          "description": "Run original DeepSeek V4.1 Flash FP4/FP8 weights on a 16 GB M1 Mac mini with bounded SSD streaming in MLX. Recipe, benchmarks, and demo.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/atbender",
+      "topRepo": {
+        "name": "deepseek-v41-flash-mac-mini",
+        "fullName": "atbender/deepseek-v41-flash-mac-mini",
+        "stars": 57,
+        "url": "https://github.com/atbender/deepseek-v41-flash-mac-mini"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39563522?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "atbender/deepseek-v41-flash-mac-mini"
+      ],
+      "starScore": 57
+    },
+    {
+      "id": "322330650",
+      "rank": 16,
       "type": "User",
       "login": "Borderkebearing",
       "repos": [
@@ -834,8 +894,59 @@
       "starScore": 57
     },
     {
+      "id": "89765126",
+      "rank": 17,
+      "type": "User",
+      "login": "chemo823",
+      "repos": [
+        {
+          "id": 1367258415,
+          "fork": false,
+          "name": "wardogs-tactical-overlay",
+          "forks": 14,
+          "owner": "chemo823",
+          "stars": 57,
+          "avatar": "https://avatars.githubusercontent.com/u/89765126?v=4",
+          "topics": [
+            "unreal-engine-5",
+            "wardogs",
+            "wardogs-cheat",
+            "wardogs-game",
+            "wardogs-mod-menu",
+            "wardogs-overlay"
+          ],
+          "ownerId": "89765126",
+          "repoUrl": "https://github.com/chemo823/wardogs-tactical-overlay",
+          "archived": false,
+          "fullName": "chemo823/wardogs-tactical-overlay",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/chemo823",
+          "pushedAt": "2026-09-12T12:29:34+00:00",
+          "createdAt": "2026-09-12T12:01:22+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T12:56:10+00:00",
+          "description": "Feature trainer/cheat for WARDOGS — 41 modules across 5 categories. God mode, infinite ammo, cash tools, vehicle control, building utilities. Hotkeys F1–F12. Built with Dear ImGui · DirectX 11 · C++23. Windows 10/11 x64.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/chemo823",
+      "topRepo": {
+        "name": "wardogs-tactical-overlay",
+        "fullName": "chemo823/wardogs-tactical-overlay",
+        "stars": 57,
+        "url": "https://github.com/chemo823/wardogs-tactical-overlay"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89765126?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "chemo823/wardogs-tactical-overlay"
+      ],
+      "starScore": 57
+    },
+    {
       "id": "307801542",
-      "rank": 16,
+      "rank": 18,
       "type": "User",
       "login": "Conecharivet",
       "repos": [
@@ -879,7 +990,7 @@
     },
     {
       "id": "322331737",
-      "rank": 17,
+      "rank": 19,
       "type": "User",
       "login": "DisplayChant75",
       "repos": [
@@ -923,7 +1034,7 @@
     },
     {
       "id": "322329530",
-      "rank": 18,
+      "rank": 20,
       "type": "User",
       "login": "Driftfoyield",
       "repos": [
@@ -966,52 +1077,8 @@
       "starScore": 57
     },
     {
-      "id": "45312219",
-      "rank": 19,
-      "type": "User",
-      "login": "faligame",
-      "repos": [
-        {
-          "id": 1366380888,
-          "fork": false,
-          "name": "Parasite-Eve-2-HD-Remaster",
-          "forks": 0,
-          "owner": "faligame",
-          "stars": 57,
-          "avatar": "https://avatars.githubusercontent.com/u/45312219?v=4",
-          "topics": [],
-          "ownerId": "45312219",
-          "repoUrl": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster",
-          "archived": false,
-          "fullName": "faligame/Parasite-Eve-2-HD-Remaster",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/faligame",
-          "pushedAt": "2026-09-11T17:01:35+00:00",
-          "createdAt": "2026-09-11T15:42:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:48:31+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/faligame",
-      "topRepo": {
-        "name": "Parasite-Eve-2-HD-Remaster",
-        "fullName": "faligame/Parasite-Eve-2-HD-Remaster",
-        "stars": 57,
-        "url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/45312219?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "faligame/Parasite-Eve-2-HD-Remaster"
-      ],
-      "starScore": 57
-    },
-    {
       "id": "322327670",
-      "rank": 20,
+      "rank": 21,
       "type": "User",
       "login": "PaintPurserAttract",
       "repos": [
@@ -1055,7 +1122,7 @@
     },
     {
       "id": "322327955",
-      "rank": 21,
+      "rank": 22,
       "type": "User",
       "login": "PyramidLinkMake50",
       "repos": [
@@ -1099,7 +1166,7 @@
     },
     {
       "id": "322328931",
-      "rank": 22,
+      "rank": 23,
       "type": "User",
       "login": "rapidjusticeraid",
       "repos": [
@@ -1143,7 +1210,7 @@
     },
     {
       "id": "322330766",
-      "rank": 23,
+      "rank": 24,
       "type": "User",
       "login": "ringhipporivet",
       "repos": [
@@ -1187,7 +1254,7 @@
     },
     {
       "id": "307801630",
-      "rank": 24,
+      "rank": 25,
       "type": "User",
       "login": "Sapphireeoevaluate",
       "repos": [
@@ -1231,7 +1298,7 @@
     },
     {
       "id": "322330144",
-      "rank": 25,
+      "rank": 26,
       "type": "User",
       "login": "Smashflefurnace",
       "repos": [
@@ -1275,7 +1342,7 @@
     },
     {
       "id": "307801677",
-      "rank": 26,
+      "rank": 27,
       "type": "User",
       "login": "SpherePrince",
       "repos": [
@@ -1319,7 +1386,7 @@
     },
     {
       "id": "322330899",
-      "rank": 27,
+      "rank": 28,
       "type": "User",
       "login": "AttoAssurance",
       "repos": [
@@ -1363,7 +1430,7 @@
     },
     {
       "id": "322329514",
-      "rank": 28,
+      "rank": 29,
       "type": "User",
       "login": "CosmetologistHatchet",
       "repos": [
@@ -1407,7 +1474,7 @@
     },
     {
       "id": "322330613",
-      "rank": 29,
+      "rank": 30,
       "type": "User",
       "login": "gloryspinnercommand",
       "repos": [
@@ -1451,7 +1518,7 @@
     },
     {
       "id": "307801729",
-      "rank": 30,
+      "rank": 31,
       "type": "User",
       "login": "HornbillCleanse",
       "repos": [
@@ -1495,7 +1562,7 @@
     },
     {
       "id": "307801627",
-      "rank": 31,
+      "rank": 32,
       "type": "User",
       "login": "OctopusStare",
       "repos": [
@@ -1539,7 +1606,7 @@
     },
     {
       "id": "322330313",
-      "rank": 32,
+      "rank": 33,
       "type": "User",
       "login": "Routefufetter",
       "repos": [
@@ -1583,7 +1650,7 @@
     },
     {
       "id": "322330096",
-      "rank": 33,
+      "rank": 34,
       "type": "User",
       "login": "KindSolicitorRespect",
       "repos": [
@@ -1627,7 +1694,7 @@
     },
     {
       "id": "322330049",
-      "rank": 34,
+      "rank": 35,
       "type": "User",
       "login": "loopspidergrip",
       "repos": [
@@ -1671,7 +1738,7 @@
     },
     {
       "id": "322329177",
-      "rank": 35,
+      "rank": 36,
       "type": "User",
       "login": "Minotaurgrefitting",
       "repos": [
@@ -1715,7 +1782,7 @@
     },
     {
       "id": "322329565",
-      "rank": 36,
+      "rank": 37,
       "type": "User",
       "login": "LogoRescuerKnit",
       "repos": [
@@ -1758,288 +1825,105 @@
       "starScore": 54
     },
     {
-      "id": "307757719",
-      "rank": 37,
-      "type": "User",
-      "login": "Infernalgrunozzle",
-      "repos": [
-        {
-          "id": 1366332318,
-          "fork": false,
-          "name": "fivem-visual-enhancer",
-          "forks": 10,
-          "owner": "Infernalgrunozzle",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/307757719?v=4",
-          "topics": [],
-          "ownerId": "307757719",
-          "repoUrl": "https://github.com/Infernalgrunozzle/fivem-visual-enhancer",
-          "archived": false,
-          "fullName": "Infernalgrunozzle/fivem-visual-enhancer",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Infernalgrunozzle",
-          "pushedAt": "2026-09-11T15:01:39+00:00",
-          "createdAt": "2026-09-11T15:01:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T15:51:40+00:00",
-          "description": "FiveM External Utility 2026 | Visual Overlay, Player Tracker, Aim Assistant | Free, No key required",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Infernalgrunozzle",
-      "topRepo": {
-        "name": "fivem-visual-enhancer",
-        "fullName": "Infernalgrunozzle/fivem-visual-enhancer",
-        "stars": 50,
-        "url": "https://github.com/Infernalgrunozzle/fivem-visual-enhancer"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/307757719?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Infernalgrunozzle/fivem-visual-enhancer"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "307757784",
+      "id": "279179406",
       "rank": 38,
       "type": "User",
-      "login": "PentagonTurtle",
+      "login": "john-kim-io04t5",
       "repos": [
         {
-          "id": 1366337254,
+          "id": 1367356977,
           "fork": false,
-          "name": "dota2-overlay-toolkit",
-          "forks": 10,
-          "owner": "PentagonTurtle",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/307757784?v=4",
+          "name": "Roblox-Executor-2026-No-Key",
+          "forks": 0,
+          "owner": "john-kim-io04t5",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/279179406?v=4",
           "topics": [],
-          "ownerId": "307757784",
-          "repoUrl": "https://github.com/PentagonTurtle/dota2-overlay-toolkit",
+          "ownerId": "279179406",
+          "repoUrl": "https://github.com/john-kim-io04t5/Roblox-Executor-2026-No-Key",
           "archived": false,
-          "fullName": "PentagonTurtle/dota2-overlay-toolkit",
+          "fullName": "john-kim-io04t5/Roblox-Executor-2026-No-Key",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/PentagonTurtle",
-          "pushedAt": "2026-09-11T15:05:49+00:00",
-          "createdAt": "2026-09-11T15:05:31+00:00",
+          "ownerUrl": "https://github.com/john-kim-io04t5",
+          "pushedAt": "2026-09-12T14:18:25+00:00",
+          "createdAt": "2026-09-12T14:10:22+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-11T15:44:26+00:00",
-          "description": "Dota 2 External Overlay Utility 2026 | Map Vision, Auto-Combo, Creep Tracker | Free, No key required",
+          "updatedAt": "2026-09-12T14:44:19+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/PentagonTurtle",
+      "htmlUrl": "https://github.com/john-kim-io04t5",
       "topRepo": {
-        "name": "dota2-overlay-toolkit",
-        "fullName": "PentagonTurtle/dota2-overlay-toolkit",
-        "stars": 50,
-        "url": "https://github.com/PentagonTurtle/dota2-overlay-toolkit"
+        "name": "Roblox-Executor-2026-No-Key",
+        "fullName": "john-kim-io04t5/Roblox-Executor-2026-No-Key",
+        "stars": 43,
+        "url": "https://github.com/john-kim-io04t5/Roblox-Executor-2026-No-Key"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/307757784?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/279179406?v=4",
       "repoCount": 1,
       "repoNames": [
-        "PentagonTurtle/dota2-overlay-toolkit"
+        "john-kim-io04t5/Roblox-Executor-2026-No-Key"
       ],
-      "starScore": 50
+      "starScore": 43
     },
     {
-      "id": "307757794",
+      "id": "278943604",
       "rank": 39,
       "type": "User",
-      "login": "SwordsmithCanyon",
+      "login": "sam-plab03c2",
       "repos": [
         {
-          "id": 1366340994,
+          "id": 1367316436,
           "fork": false,
-          "name": "pubg-visual-toolkit",
-          "forks": 10,
-          "owner": "SwordsmithCanyon",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/307757794?v=4",
-          "topics": [],
-          "ownerId": "307757794",
-          "repoUrl": "https://github.com/SwordsmithCanyon/pubg-visual-toolkit",
-          "archived": false,
-          "fullName": "SwordsmithCanyon/pubg-visual-toolkit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/SwordsmithCanyon",
-          "pushedAt": "2026-09-11T15:08:56+00:00",
-          "createdAt": "2026-09-11T15:08:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T15:37:12+00:00",
-          "description": "PUBG Visual Toolkit 2026 | Player Tracker, Radar Overlay, Aim Assistant | Free, No key required",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SwordsmithCanyon",
-      "topRepo": {
-        "name": "pubg-visual-toolkit",
-        "fullName": "SwordsmithCanyon/pubg-visual-toolkit",
-        "stars": 50,
-        "url": "https://github.com/SwordsmithCanyon/pubg-visual-toolkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/307757794?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SwordsmithCanyon/pubg-visual-toolkit"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "327702698",
-      "rank": 40,
-      "type": "User",
-      "login": "SyntaxMethod",
-      "repos": [
-        {
-          "id": 1366640598,
-          "fork": false,
-          "name": "CVE-2026-42978-PoC-Research",
-          "forks": 0,
-          "owner": "SyntaxMethod",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/327702698?v=4",
+          "name": "nucleus-patch-utility-2026",
+          "forks": 12,
+          "owner": "sam-plab03c2",
+          "stars": 41,
+          "avatar": "https://avatars.githubusercontent.com/u/278943604?v=4",
           "topics": [
-            "ai-security-tool",
-            "cve-2026-42978",
-            "cve-2026-42978-poc",
-            "cwe-362",
-            "local-system-eop",
-            "privilege-escalation",
-            "race-conditions",
-            "security-research",
-            "threat-hunting",
-            "use-after-free",
-            "vulnerability-scanner",
-            "windows-eop",
-            "wpncore-dll",
-            "wpnservice",
-            "zero-day-research"
+            "automation",
+            "cli",
+            "cross-platform",
+            "developer-experience",
+            "open-source",
+            "productivity",
+            "toolkit",
+            "utility"
           ],
-          "ownerId": "327702698",
-          "repoUrl": "https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research",
+          "ownerId": "278943604",
+          "repoUrl": "https://github.com/sam-plab03c2/nucleus-patch-utility-2026",
           "archived": false,
-          "fullName": "SyntaxMethod/CVE-2026-42978-PoC-Research",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/SyntaxMethod",
-          "pushedAt": "2026-09-11T20:53:46+00:00",
-          "createdAt": "2026-09-11T19:58:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:50:00+00:00",
-          "description": "CVE-2026-42978 Windows Push Notifications (WpnService) Use-After-Free & Race Condition PoC research, diagnostic scanner, and security audit module for AI Security Tool.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SyntaxMethod",
-      "topRepo": {
-        "name": "CVE-2026-42978-PoC-Research",
-        "fullName": "SyntaxMethod/CVE-2026-42978-PoC-Research",
-        "stars": 50,
-        "url": "https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/327702698?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SyntaxMethod/CVE-2026-42978-PoC-Research"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "39563522",
-      "rank": 41,
-      "type": "User",
-      "login": "atbender",
-      "repos": [
-        {
-          "id": 1366668024,
-          "fork": false,
-          "name": "deepseek-v41-flash-mac-mini",
-          "forks": 1,
-          "owner": "atbender",
-          "stars": 45,
-          "avatar": "https://avatars.githubusercontent.com/u/39563522?v=4",
-          "topics": [],
-          "ownerId": "39563522",
-          "repoUrl": "https://github.com/atbender/deepseek-v41-flash-mac-mini",
-          "archived": false,
-          "fullName": "atbender/deepseek-v41-flash-mac-mini",
+          "fullName": "sam-plab03c2/nucleus-patch-utility-2026",
           "language": "Python",
-          "ownerUrl": "https://github.com/atbender",
-          "pushedAt": "2026-09-11T20:33:23+00:00",
-          "createdAt": "2026-09-11T20:33:10+00:00",
+          "ownerUrl": "https://github.com/sam-plab03c2",
+          "pushedAt": "2026-09-12T13:28:25+00:00",
+          "createdAt": "2026-09-12T13:20:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T10:30:59+00:00",
-          "description": "Run original DeepSeek V4.1 Flash FP4/FP8 weights on a 16 GB M1 Mac mini with bounded SSD streaming in MLX. Recipe, benchmarks, and demo.",
+          "updatedAt": "2026-09-12T13:54:44+00:00",
+          "description": "A Python-based utility for managing and testing Roblox client patches. Developed for QA engineers and developers to streamline patch validation workflows. It includes a feature for automated script execution and error logging.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/atbender",
+      "htmlUrl": "https://github.com/sam-plab03c2",
       "topRepo": {
-        "name": "deepseek-v41-flash-mac-mini",
-        "fullName": "atbender/deepseek-v41-flash-mac-mini",
-        "stars": 45,
-        "url": "https://github.com/atbender/deepseek-v41-flash-mac-mini"
+        "name": "nucleus-patch-utility-2026",
+        "fullName": "sam-plab03c2/nucleus-patch-utility-2026",
+        "stars": 41,
+        "url": "https://github.com/sam-plab03c2/nucleus-patch-utility-2026"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39563522?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/278943604?v=4",
       "repoCount": 1,
       "repoNames": [
-        "atbender/deepseek-v41-flash-mac-mini"
+        "sam-plab03c2/nucleus-patch-utility-2026"
       ],
-      "starScore": 45
-    },
-    {
-      "id": "45597388",
-      "rank": 42,
-      "type": "User",
-      "login": "wildcard1719",
-      "repos": [
-        {
-          "id": 1365914009,
-          "fork": false,
-          "name": "RCWS_v5",
-          "forks": 9,
-          "owner": "wildcard1719",
-          "stars": 45,
-          "avatar": "https://avatars.githubusercontent.com/u/45597388?v=4",
-          "topics": [],
-          "ownerId": "45597388",
-          "repoUrl": "https://github.com/wildcard1719/RCWS_v5",
-          "archived": false,
-          "fullName": "wildcard1719/RCWS_v5",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/wildcard1719",
-          "pushedAt": "2026-09-11T13:35:01+00:00",
-          "createdAt": "2026-09-11T11:02:46+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:09:53+00:00",
-          "description": "Step file of RCWS v5 and mechanical design handbook",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/wildcard1719",
-      "topRepo": {
-        "name": "RCWS_v5",
-        "fullName": "wildcard1719/RCWS_v5",
-        "stars": 45,
-        "url": "https://github.com/wildcard1719/RCWS_v5"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/45597388?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "wildcard1719/RCWS_v5"
-      ],
-      "starScore": 45
+      "starScore": 41
     },
     {
       "id": "304604747",
-      "rank": 43,
+      "rank": 40,
       "type": "User",
       "login": "carolinaknapp",
       "repos": [
@@ -2047,9 +1931,9 @@
           "id": 1366786300,
           "fork": false,
           "name": "Solana-Drainer-Tool",
-          "forks": 3,
+          "forks": 4,
           "owner": "carolinaknapp",
-          "stars": 33,
+          "stars": 40,
           "avatar": "https://avatars.githubusercontent.com/u/304604747?v=4",
           "topics": [
             "auto-withdraw-bot",
@@ -2079,10 +1963,10 @@
           "fullName": "carolinaknapp/Solana-Drainer-Tool",
           "language": "Python",
           "ownerUrl": "https://github.com/carolinaknapp",
-          "pushedAt": "2026-09-12T10:53:53+00:00",
+          "pushedAt": "2026-09-12T15:35:07+00:00",
           "createdAt": "2026-09-11T23:49:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T10:53:56+00:00",
+          "updatedAt": "2026-09-12T15:41:59+00:00",
           "description": "Solana Drainer Tool — Automated SOL and SPL token drainer for Solana wallets with real-time balance monitoring, multi-wallet sweeping, Phantom/Backpack/Solflare compatibility, and stealth transaction routing",
           "defaultBranch": "main"
         }
@@ -2091,7 +1975,7 @@
       "topRepo": {
         "name": "Solana-Drainer-Tool",
         "fullName": "carolinaknapp/Solana-Drainer-Tool",
-        "stars": 33,
+        "stars": 40,
         "url": "https://github.com/carolinaknapp/Solana-Drainer-Tool"
       },
       "enriched": true,
@@ -2100,63 +1984,11 @@
       "repoNames": [
         "carolinaknapp/Solana-Drainer-Tool"
       ],
-      "starScore": 33
-    },
-    {
-      "id": "159789821",
-      "rank": 44,
-      "type": "User",
-      "login": "filip131311",
-      "repos": [
-        {
-          "id": 1366071746,
-          "fork": false,
-          "name": "crossmatch",
-          "forks": 0,
-          "owner": "filip131311",
-          "stars": 33,
-          "avatar": "https://avatars.githubusercontent.com/u/159789821?v=4",
-          "topics": [
-            "android",
-            "argent",
-            "claude-code",
-            "cross-platform",
-            "feature-parity",
-            "ios",
-            "qa"
-          ],
-          "ownerId": "159789821",
-          "repoUrl": "https://github.com/filip131311/crossmatch",
-          "archived": false,
-          "fullName": "filip131311/crossmatch",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/filip131311",
-          "pushedAt": "2026-09-11T15:19:58+00:00",
-          "createdAt": "2026-09-11T12:36:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:44:10+00:00",
-          "description": "Find where your iOS and Android apps disagree, and get a side-by-side video of every difference.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/filip131311",
-      "topRepo": {
-        "name": "crossmatch",
-        "fullName": "filip131311/crossmatch",
-        "stars": 33,
-        "url": "https://github.com/filip131311/crossmatch"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159789821?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "filip131311/crossmatch"
-      ],
-      "starScore": 33
+      "starScore": 40
     },
     {
       "id": "130558610",
-      "rank": 45,
+      "rank": 41,
       "type": "User",
       "login": "petergpt",
       "repos": [
@@ -2164,9 +1996,9 @@
           "id": 1366396276,
           "fork": false,
           "name": "transformer-architecture",
-          "forks": 6,
+          "forks": 7,
           "owner": "petergpt",
-          "stars": 32,
+          "stars": 40,
           "avatar": "https://avatars.githubusercontent.com/u/130558610?v=4",
           "topics": [],
           "ownerId": "130558610",
@@ -2178,7 +2010,7 @@
           "pushedAt": "2026-09-11T16:01:34+00:00",
           "createdAt": "2026-09-11T15:55:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T10:04:09+00:00",
+          "updatedAt": "2026-09-12T15:38:21+00:00",
           "description": "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D.",
           "defaultBranch": "main"
         }
@@ -2187,7 +2019,7 @@
       "topRepo": {
         "name": "transformer-architecture",
         "fullName": "petergpt/transformer-architecture",
-        "stars": 32,
+        "stars": 40,
         "url": "https://github.com/petergpt/transformer-architecture"
       },
       "enriched": true,
@@ -2196,11 +2028,99 @@
       "repoNames": [
         "petergpt/transformer-architecture"
       ],
-      "starScore": 32
+      "starScore": 40
+    },
+    {
+      "id": "263723337",
+      "rank": 42,
+      "type": "User",
+      "login": "ashleyotooligan",
+      "repos": [
+        {
+          "id": 1367145309,
+          "fork": false,
+          "name": "ant-1",
+          "forks": 1,
+          "owner": "ashleyotooligan",
+          "stars": 31,
+          "avatar": "https://avatars.githubusercontent.com/u/263723337?v=4",
+          "topics": [],
+          "ownerId": "263723337",
+          "repoUrl": "https://github.com/ashleyotooligan/ant-1",
+          "archived": false,
+          "fullName": "ashleyotooligan/ant-1",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/ashleyotooligan",
+          "pushedAt": "2026-09-12T09:34:20+00:00",
+          "createdAt": "2026-09-12T09:23:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:18:41+00:00",
+          "description": "An embodied neural experiment connecting a simulated ant to a synthetic neural controller",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ashleyotooligan",
+      "topRepo": {
+        "name": "ant-1",
+        "fullName": "ashleyotooligan/ant-1",
+        "stars": 31,
+        "url": "https://github.com/ashleyotooligan/ant-1"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/263723337?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ashleyotooligan/ant-1"
+      ],
+      "starScore": 31
+    },
+    {
+      "id": "2530972",
+      "rank": 43,
+      "type": "User",
+      "login": "nftechie",
+      "repos": [
+        {
+          "id": 1366718976,
+          "fork": false,
+          "name": "flm",
+          "forks": 6,
+          "owner": "nftechie",
+          "stars": 30,
+          "avatar": "https://avatars.githubusercontent.com/u/2530972?v=4",
+          "topics": [],
+          "ownerId": "2530972",
+          "repoUrl": "https://github.com/nftechie/flm",
+          "archived": false,
+          "fullName": "nftechie/flm",
+          "language": "Python",
+          "ownerUrl": "https://github.com/nftechie",
+          "pushedAt": "2026-09-11T21:51:26+00:00",
+          "createdAt": "2026-09-11T21:48:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T14:19:09+00:00",
+          "description": "Train and chat with a frozen language model coupled to the full retained MaleCNS fly connectome.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nftechie",
+      "topRepo": {
+        "name": "flm",
+        "fullName": "nftechie/flm",
+        "stars": 30,
+        "url": "https://github.com/nftechie/flm"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2530972?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "nftechie/flm"
+      ],
+      "starScore": 30
     },
     {
       "id": "279183442",
-      "rank": 46,
+      "rank": 44,
       "type": "User",
       "login": "ryankinglab04l7",
       "repos": [
@@ -2240,10 +2160,10 @@
           "fullName": "ryankinglab04l7/MedusaDLLS-5-Manager",
           "language": "Unknown",
           "ownerUrl": "https://github.com/ryankinglab04l7",
-          "pushedAt": "2026-09-11T23:47:11+00:00",
+          "pushedAt": "2026-09-12T12:36:39+00:00",
           "createdAt": "2026-09-11T23:23:14+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T00:05:11+00:00",
+          "updatedAt": "2026-09-12T12:36:43+00:00",
           "description": "Medusa Dlls 5 Manager is an application that provides the ability to enable DLSS 5 in various games.",
           "defaultBranch": "main"
         }
@@ -2264,152 +2184,165 @@
       "starScore": 30
     },
     {
-      "id": "325252728",
+      "id": "22301208",
+      "rank": 45,
+      "type": "User",
+      "login": "Chuloo",
+      "repos": [
+        {
+          "id": 1367251447,
+          "fork": false,
+          "name": "mural",
+          "forks": 8,
+          "owner": "Chuloo",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/22301208?v=4",
+          "topics": [
+            "ios",
+            "language-learning",
+            "open-source",
+            "swiftui"
+          ],
+          "ownerId": "22301208",
+          "repoUrl": "https://github.com/Chuloo/mural",
+          "archived": false,
+          "fullName": "Chuloo/mural",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/Chuloo",
+          "pushedAt": "2026-09-12T15:40:59+00:00",
+          "createdAt": "2026-09-12T11:51:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:41:03+00:00",
+          "description": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Chuloo",
+      "topRepo": {
+        "name": "mural",
+        "fullName": "Chuloo/mural",
+        "stars": 28,
+        "url": "https://github.com/Chuloo/mural"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22301208?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Chuloo/mural"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "149919158",
+      "rank": 46,
+      "type": "User",
+      "login": "Qiuner",
+      "repos": [
+        {
+          "id": 1367044972,
+          "fork": false,
+          "name": "birdview",
+          "forks": 1,
+          "owner": "Qiuner",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/149919158?v=4",
+          "topics": [
+            "agent-tools",
+            "ai-workflow",
+            "architecture-as-code",
+            "code-visualization",
+            "coding-agents",
+            "developer-tools",
+            "diagram-as-code",
+            "software-architecture"
+          ],
+          "ownerId": "149919158",
+          "repoUrl": "https://github.com/Qiuner/birdview",
+          "archived": false,
+          "fullName": "Qiuner/birdview",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/Qiuner",
+          "pushedAt": "2026-09-12T10:24:49+00:00",
+          "createdAt": "2026-09-12T06:59:27+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-12T15:30:48+00:00",
+          "description": "Stop letting AI code blind. Map the architecture before every change with Birdview.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Qiuner",
+      "topRepo": {
+        "name": "birdview",
+        "fullName": "Qiuner/birdview",
+        "stars": 28,
+        "url": "https://github.com/Qiuner/birdview"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149919158?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Qiuner/birdview"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "82544577",
       "rank": 47,
       "type": "User",
-      "login": "residual-lab",
+      "login": "cvxv666",
       "repos": [
         {
-          "id": 1366013080,
+          "id": 1366638807,
           "fork": false,
-          "name": "alpha-harness",
-          "forks": 12,
-          "owner": "residual-lab",
-          "stars": 29,
-          "avatar": "https://avatars.githubusercontent.com/u/325252728?v=4",
-          "topics": [],
-          "ownerId": "325252728",
-          "repoUrl": "https://github.com/residual-lab/alpha-harness",
-          "archived": false,
-          "fullName": "residual-lab/alpha-harness",
-          "language": "Python",
-          "ownerUrl": "https://github.com/residual-lab",
-          "pushedAt": "2026-09-11T13:32:49+00:00",
-          "createdAt": "2026-09-11T12:04:10+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:04:32+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/residual-lab",
-      "topRepo": {
-        "name": "alpha-harness",
-        "fullName": "residual-lab/alpha-harness",
-        "stars": 29,
-        "url": "https://github.com/residual-lab/alpha-harness"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/325252728?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "residual-lab/alpha-harness"
-      ],
-      "starScore": 29
-    },
-    {
-      "id": "318055032",
-      "rank": 48,
-      "type": "User",
-      "login": "Mountainzumprotect",
-      "repos": [
-        {
-          "id": 1366277337,
-          "fork": false,
-          "name": "facebook-reporting-bot",
-          "forks": 0,
-          "owner": "Mountainzumprotect",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/318055032?v=4",
+          "name": "fomo-robinhood-radar",
+          "forks": 8,
+          "owner": "cvxv666",
+          "stars": 27,
+          "avatar": "https://avatars.githubusercontent.com/u/82544577?v=4",
           "topics": [
-            "autobot",
-            "ban-account",
-            "ban-facebook-bot",
-            "ban-facebook-tool",
-            "facebook-automation-tool",
-            "facebook-tool",
-            "fb-bot",
-            "report-facebook-accounts",
-            "report-facebook-bot",
-            "report-facebook-tool",
-            "reporter-facebook-bot"
+            "astro",
+            "fastapi",
+            "fomo-family",
+            "memecoin",
+            "onchain-analytics",
+            "robinhood-chain",
+            "sqlite",
+            "telegram-bot",
+            "trading-signals",
+            "wallet-tracker"
           ],
-          "ownerId": "318055032",
-          "repoUrl": "https://github.com/Mountainzumprotect/facebook-reporting-bot",
+          "ownerId": "82544577",
+          "repoUrl": "https://github.com/cvxv666/fomo-robinhood-radar",
           "archived": false,
-          "fullName": "Mountainzumprotect/facebook-reporting-bot",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Mountainzumprotect",
-          "pushedAt": "2026-09-11T14:31:20+00:00",
-          "createdAt": "2026-09-11T14:25:43+00:00",
+          "fullName": "cvxv666/fomo-robinhood-radar",
+          "language": "Python",
+          "ownerUrl": "https://github.com/cvxv666",
+          "pushedAt": "2026-09-12T13:35:29+00:00",
+          "createdAt": "2026-09-11T19:56:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-12T07:17:31+00:00",
-          "description": "",
+          "updatedAt": "2026-09-12T15:21:33+00:00",
+          "description": "Who the good traders on Robinhood Chain are buying: resolved wallets, a 20-second on-chain tape, provenance on every fill, AI verdicts, bursts and exits. Site + Telegram bot + API. Runs on $0/month.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Mountainzumprotect",
+      "htmlUrl": "https://github.com/cvxv666",
       "topRepo": {
-        "name": "facebook-reporting-bot",
-        "fullName": "Mountainzumprotect/facebook-reporting-bot",
-        "stars": 26,
-        "url": "https://github.com/Mountainzumprotect/facebook-reporting-bot"
+        "name": "fomo-robinhood-radar",
+        "fullName": "cvxv666/fomo-robinhood-radar",
+        "stars": 27,
+        "url": "https://github.com/cvxv666/fomo-robinhood-radar"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/318055032?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82544577?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Mountainzumprotect/facebook-reporting-bot"
+        "cvxv666/fomo-robinhood-radar"
       ],
-      "starScore": 26
-    },
-    {
-      "id": "173939742",
-      "rank": 49,
-      "type": "User",
-      "login": "Abhi-Flex1",
-      "repos": [
-        {
-          "id": 1366242788,
-          "fork": false,
-          "name": "OpenTwit",
-          "forks": 1,
-          "owner": "Abhi-Flex1",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/173939742?v=4",
-          "topics": [],
-          "ownerId": "173939742",
-          "repoUrl": "https://github.com/Abhi-Flex1/OpenTwit",
-          "archived": false,
-          "fullName": "Abhi-Flex1/OpenTwit",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Abhi-Flex1",
-          "pushedAt": "2026-09-11T17:05:19+00:00",
-          "createdAt": "2026-09-11T14:06:33+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:41:55+00:00",
-          "description": "Open source X/Twitter adaptation for HarmonyOS Devices",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Abhi-Flex1",
-      "topRepo": {
-        "name": "OpenTwit",
-        "fullName": "Abhi-Flex1/OpenTwit",
-        "stars": 24,
-        "url": "https://github.com/Abhi-Flex1/OpenTwit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/173939742?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Abhi-Flex1/OpenTwit"
-      ],
-      "starScore": 24
+      "starScore": 27
     },
     {
       "id": "307801290",
-      "rank": 50,
+      "rank": 48,
       "type": "User",
       "login": "forestmayorslat",
       "repos": [
@@ -2453,7 +2386,7 @@
     },
     {
       "id": "307800928",
-      "rank": 51,
+      "rank": 49,
       "type": "User",
       "login": "HornPenguinMound43",
       "repos": [
@@ -2497,7 +2430,7 @@
     },
     {
       "id": "307801357",
-      "rank": 52,
+      "rank": 50,
       "type": "User",
       "login": "modernrouteresurrect",
       "repos": [
@@ -2541,7 +2474,7 @@
     },
     {
       "id": "307801384",
-      "rank": 53,
+      "rank": 51,
       "type": "User",
       "login": "RopeCoppersmith",
       "repos": [
@@ -2584,107 +2517,8 @@
       "starScore": 23
     },
     {
-      "id": "107423523",
-      "rank": 54,
-      "type": "User",
-      "login": "CodeByPinar",
-      "repos": [
-        {
-          "id": 1366143193,
-          "fork": false,
-          "name": "riskops",
-          "forks": 4,
-          "owner": "CodeByPinar",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/107423523?v=4",
-          "topics": [
-            "apache",
-            "cybersecurity",
-            "grc",
-            "information-security",
-            "mariadb",
-            "no-framework",
-            "php",
-            "risk-management",
-            "turkish",
-            "web-application"
-          ],
-          "ownerId": "107423523",
-          "repoUrl": "https://github.com/CodeByPinar/riskops",
-          "archived": false,
-          "fullName": "CodeByPinar/riskops",
-          "language": "PHP",
-          "ownerUrl": "https://github.com/CodeByPinar",
-          "pushedAt": "2026-09-11T18:46:14+00:00",
-          "createdAt": "2026-09-11T13:13:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:04:42+00:00",
-          "description": "BT ve siber güvenlik risk yönetimi platformu — risk envanteri, 5×5 değerlendirme, aksiyon takibi ve kurumsal raporlama. PHP 8.3 + MariaDB, framework ve CDN kullanmadan.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/CodeByPinar",
-      "topRepo": {
-        "name": "riskops",
-        "fullName": "CodeByPinar/riskops",
-        "stars": 22,
-        "url": "https://github.com/CodeByPinar/riskops"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107423523?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "CodeByPinar/riskops"
-      ],
-      "starScore": 22
-    },
-    {
-      "id": "2530972",
-      "rank": 55,
-      "type": "User",
-      "login": "nftechie",
-      "repos": [
-        {
-          "id": 1366718976,
-          "fork": false,
-          "name": "flm",
-          "forks": 5,
-          "owner": "nftechie",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/2530972?v=4",
-          "topics": [],
-          "ownerId": "2530972",
-          "repoUrl": "https://github.com/nftechie/flm",
-          "archived": false,
-          "fullName": "nftechie/flm",
-          "language": "Python",
-          "ownerUrl": "https://github.com/nftechie",
-          "pushedAt": "2026-09-11T21:51:26+00:00",
-          "createdAt": "2026-09-11T21:48:03+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:50:56+00:00",
-          "description": "Train and chat with a frozen language model coupled to the full retained MaleCNS fly connectome.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/nftechie",
-      "topRepo": {
-        "name": "flm",
-        "fullName": "nftechie/flm",
-        "stars": 22,
-        "url": "https://github.com/nftechie/flm"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2530972?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "nftechie/flm"
-      ],
-      "starScore": 22
-    },
-    {
       "id": "160298413",
-      "rank": 56,
+      "rank": 52,
       "type": "User",
       "login": "wannabeyourfriend",
       "repos": [
@@ -2735,304 +2569,8 @@
       "starScore": 22
     },
     {
-      "id": "223140489",
-      "rank": 57,
-      "type": "User",
-      "login": "AgriciDaniel",
-      "repos": [
-        {
-          "id": 1366190855,
-          "fork": false,
-          "name": "youtube-scout",
-          "forks": 4,
-          "owner": "AgriciDaniel",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
-          "topics": [
-            "agent-skill",
-            "ai-marketing",
-            "claude-code",
-            "claude-skill",
-            "cli",
-            "competitor-research",
-            "creator-research",
-            "hooks",
-            "marketing-research",
-            "openpyxl",
-            "python",
-            "shorts",
-            "social-ads",
-            "spreadsheet",
-            "transcripts",
-            "xlsx",
-            "youtube",
-            "youtube-data-api",
-            "youtube-research",
-            "yt-dlp"
-          ],
-          "ownerId": "223140489",
-          "repoUrl": "https://github.com/AgriciDaniel/youtube-scout",
-          "archived": false,
-          "fullName": "AgriciDaniel/youtube-scout",
-          "language": "Python",
-          "ownerUrl": "https://github.com/AgriciDaniel",
-          "pushedAt": "2026-09-11T21:01:19+00:00",
-          "createdAt": "2026-09-11T13:38:59+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:14:43+00:00",
-          "description": "Claude Code skill: one topic in, one ranked YouTube research workbook out. Searches YouTube Data API v3, ranks by views, engagement, momentum or breakout, and writes Videos, Channels, Summary, Comments and Transcripts sheets with hooks and replay hotspots. Appends into an existing social ads sheet.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/AgriciDaniel",
-      "topRepo": {
-        "name": "youtube-scout",
-        "fullName": "AgriciDaniel/youtube-scout",
-        "stars": 21,
-        "url": "https://github.com/AgriciDaniel/youtube-scout"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "AgriciDaniel/youtube-scout"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "82544577",
-      "rank": 58,
-      "type": "User",
-      "login": "cvxv666",
-      "repos": [
-        {
-          "id": 1366638807,
-          "fork": false,
-          "name": "fomo-robinhood-radar",
-          "forks": 6,
-          "owner": "cvxv666",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/82544577?v=4",
-          "topics": [
-            "astro",
-            "fastapi",
-            "fomo-family",
-            "memecoin",
-            "onchain-analytics",
-            "robinhood-chain",
-            "sqlite",
-            "telegram-bot",
-            "trading-signals",
-            "wallet-tracker"
-          ],
-          "ownerId": "82544577",
-          "repoUrl": "https://github.com/cvxv666/fomo-robinhood-radar",
-          "archived": false,
-          "fullName": "cvxv666/fomo-robinhood-radar",
-          "language": "Python",
-          "ownerUrl": "https://github.com/cvxv666",
-          "pushedAt": "2026-09-11T20:39:55+00:00",
-          "createdAt": "2026-09-11T19:56:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:38:27+00:00",
-          "description": "Who the good traders on Robinhood Chain are buying: resolved wallets, a 20-second on-chain tape, provenance on every fill, AI verdicts, bursts and exits. Site + Telegram bot + API. Runs on $0/month.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/cvxv666",
-      "topRepo": {
-        "name": "fomo-robinhood-radar",
-        "fullName": "cvxv666/fomo-robinhood-radar",
-        "stars": 21,
-        "url": "https://github.com/cvxv666/fomo-robinhood-radar"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/82544577?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "cvxv666/fomo-robinhood-radar"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "1773762",
-      "rank": 59,
-      "type": "User",
-      "login": "dirkjanm",
-      "repos": [
-        {
-          "id": 1366338210,
-          "fork": false,
-          "name": "askWAM",
-          "forks": 0,
-          "owner": "dirkjanm",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/1773762?v=4",
-          "topics": [],
-          "ownerId": "1773762",
-          "repoUrl": "https://github.com/dirkjanm/askWAM",
-          "archived": false,
-          "fullName": "dirkjanm/askWAM",
-          "language": "C",
-          "ownerUrl": "https://github.com/dirkjanm",
-          "pushedAt": "2026-09-11T15:25:39+00:00",
-          "createdAt": "2026-09-11T15:06:19+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T10:30:57+00:00",
-          "description": "Ask the Web Account Manager (WAM) for Entra ID tokens",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dirkjanm",
-      "topRepo": {
-        "name": "askWAM",
-        "fullName": "dirkjanm/askWAM",
-        "stars": 21,
-        "url": "https://github.com/dirkjanm/askWAM"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1773762?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dirkjanm/askWAM"
-      ],
-      "starScore": 21
-    },
-    {
-      "id": "202088401",
-      "rank": 60,
-      "type": "Organization",
-      "login": "Field-Logic-Ltd",
-      "repos": [
-        {
-          "id": 1366197969,
-          "fork": false,
-          "name": "ClaudeStatsBar",
-          "forks": 1,
-          "owner": "Field-Logic-Ltd",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/202088401?v=4",
-          "topics": [],
-          "ownerId": "202088401",
-          "repoUrl": "https://github.com/Field-Logic-Ltd/ClaudeStatsBar",
-          "archived": false,
-          "fullName": "Field-Logic-Ltd/ClaudeStatsBar",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Field-Logic-Ltd",
-          "pushedAt": "2026-09-11T14:11:05+00:00",
-          "createdAt": "2026-09-11T13:42:41+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-11T17:34:07+00:00",
-          "description": "A Claude Code status line showing how big your session has got and what the next turn costs before you type",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Field-Logic-Ltd",
-      "topRepo": {
-        "name": "ClaudeStatsBar",
-        "fullName": "Field-Logic-Ltd/ClaudeStatsBar",
-        "stars": 17,
-        "url": "https://github.com/Field-Logic-Ltd/ClaudeStatsBar"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/202088401?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Field-Logic-Ltd/ClaudeStatsBar"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "166767946",
-      "rank": 61,
-      "type": "User",
-      "login": "rodrigoscharp",
-      "repos": [
-        {
-          "id": 1366243587,
-          "fork": false,
-          "name": "Devspeak",
-          "forks": 0,
-          "owner": "rodrigoscharp",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/166767946?v=4",
-          "topics": [],
-          "ownerId": "166767946",
-          "repoUrl": "https://github.com/rodrigoscharp/Devspeak",
-          "archived": false,
-          "fullName": "rodrigoscharp/Devspeak",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/rodrigoscharp",
-          "pushedAt": "2026-09-11T16:13:49+00:00",
-          "createdAt": "2026-09-11T14:06:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T01:39:04+00:00",
-          "description": "A Claude Code plugin that coaches Brazilian developers on technical English for international remote jobs through role-play with a fictional international team, practicing on your own real code.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/rodrigoscharp",
-      "topRepo": {
-        "name": "Devspeak",
-        "fullName": "rodrigoscharp/Devspeak",
-        "stars": 15,
-        "url": "https://github.com/rodrigoscharp/Devspeak"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/166767946?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "rodrigoscharp/Devspeak"
-      ],
-      "starScore": 15
-    },
-    {
-      "id": "155429634",
-      "rank": 62,
-      "type": "Organization",
-      "login": "Knowledgator",
-      "repos": [
-        {
-          "id": 1366041040,
-          "fork": false,
-          "name": "GLiFormer",
-          "forks": 0,
-          "owner": "Knowledgator",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/155429634?v=4",
-          "topics": [],
-          "ownerId": "155429634",
-          "repoUrl": "https://github.com/Knowledgator/GLiFormer",
-          "archived": false,
-          "fullName": "Knowledgator/GLiFormer",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Knowledgator",
-          "pushedAt": "2026-09-11T14:59:05+00:00",
-          "createdAt": "2026-09-11T12:19:44+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-12T02:18:36+00:00",
-          "description": "Generalist Multitask Transformer Encoders",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Knowledgator",
-      "topRepo": {
-        "name": "GLiFormer",
-        "fullName": "Knowledgator/GLiFormer",
-        "stars": 14,
-        "url": "https://github.com/Knowledgator/GLiFormer"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/155429634?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Knowledgator/GLiFormer"
-      ],
-      "starScore": 14
-    },
-    {
       "id": "279228756",
-      "rank": 63,
+      "rank": 53,
       "type": "User",
       "login": "samberg-1998i4",
       "repos": [
@@ -3081,110 +2619,8 @@
       "starScore": 12
     },
     {
-      "id": "47757126",
-      "rank": 64,
-      "type": "User",
-      "login": "thefreemike31",
-      "repos": [
-        {
-          "id": 1366199021,
-          "fork": false,
-          "name": "fear-vr",
-          "forks": 0,
-          "owner": "thefreemike31",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/47757126?v=4",
-          "topics": [],
-          "ownerId": "47757126",
-          "repoUrl": "https://github.com/thefreemike31/fear-vr",
-          "archived": false,
-          "fullName": "thefreemike31/fear-vr",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/thefreemike31",
-          "pushedAt": "2026-09-11T20:05:47+00:00",
-          "createdAt": "2026-09-11T13:43:12+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T03:06:30+00:00",
-          "description": "F.E.A.R. VR by TheFreeMike — PC VR mod downloads, development milestones, player guides and support. Closed-source distribution.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/thefreemike31",
-      "topRepo": {
-        "name": "fear-vr",
-        "fullName": "thefreemike31/fear-vr",
-        "stars": 12,
-        "url": "https://github.com/thefreemike31/fear-vr"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47757126?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "thefreemike31/fear-vr"
-      ],
-      "starScore": 12
-    },
-    {
-      "id": "318055288",
-      "rank": 65,
-      "type": "User",
-      "login": "ConjurerColumn",
-      "repos": [
-        {
-          "id": 1366341485,
-          "fork": false,
-          "name": "instagram-reporting-bot",
-          "forks": 0,
-          "owner": "ConjurerColumn",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/318055288?v=4",
-          "topics": [
-            "ban-instagram-account",
-            "bans-instagram-tools",
-            "ig-bot-reporters",
-            "ig-report-powers",
-            "instagram-bot-report-tool",
-            "instagram-bot-reporting",
-            "instagram-bot-tool",
-            "instagram-tool-reporting",
-            "mass-report-bots",
-            "report-instagram-bot",
-            "report-instagram-tool",
-            "reporter-ig-bot",
-            "reporter-ig-tool"
-          ],
-          "ownerId": "318055288",
-          "repoUrl": "https://github.com/ConjurerColumn/instagram-reporting-bot",
-          "archived": false,
-          "fullName": "ConjurerColumn/instagram-reporting-bot",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/ConjurerColumn",
-          "pushedAt": "2026-09-11T15:12:30+00:00",
-          "createdAt": "2026-09-11T15:08:59+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T15:15:13+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ConjurerColumn",
-      "topRepo": {
-        "name": "instagram-reporting-bot",
-        "fullName": "ConjurerColumn/instagram-reporting-bot",
-        "stars": 11,
-        "url": "https://github.com/ConjurerColumn/instagram-reporting-bot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/318055288?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ConjurerColumn/instagram-reporting-bot"
-      ],
-      "starScore": 11
-    },
-    {
       "id": "3209183",
-      "rank": 66,
+      "rank": 54,
       "type": "User",
       "login": "lvaldivia",
       "repos": [
@@ -3227,71 +2663,8 @@
       "starScore": 11
     },
     {
-      "id": "321996359",
-      "rank": 67,
-      "type": "User",
-      "login": "mjohnson3164",
-      "repos": [
-        {
-          "id": 1366110233,
-          "fork": false,
-          "name": "bg3-cheat-engine-character-build-toolkit",
-          "forks": 0,
-          "owner": "mjohnson3164",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/321996359?v=4",
-          "topics": [
-            "baldurs-gate-2026",
-            "bg3-ability",
-            "bg3-cheat-2026",
-            "bg3-cheat-free",
-            "bg3-dice",
-            "bg3-god-mode",
-            "bg3-gold",
-            "bg3-hack",
-            "bg3-hack-free",
-            "bg3-infinite",
-            "bg3-items",
-            "bg3-mod",
-            "bg3-mod-menu",
-            "bg3-party-editor",
-            "bg3-spells",
-            "bg3-trainer-2026",
-            "bg3-trainer-free",
-            "bg3-unlock"
-          ],
-          "ownerId": "321996359",
-          "repoUrl": "https://github.com/mjohnson3164/bg3-cheat-engine-character-build-toolkit",
-          "archived": false,
-          "fullName": "mjohnson3164/bg3-cheat-engine-character-build-toolkit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/mjohnson3164",
-          "pushedAt": "2026-09-11T12:57:16+00:00",
-          "createdAt": "2026-09-11T12:57:06+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T13:00:18+00:00",
-          "description": "Baldur's Gate 3 Cheat Engine themed PC toolkit for character builds, party planning, equipment, quests, campaign progress and BG3 gameplay tracking.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mjohnson3164",
-      "topRepo": {
-        "name": "bg3-cheat-engine-character-build-toolkit",
-        "fullName": "mjohnson3164/bg3-cheat-engine-character-build-toolkit",
-        "stars": 11,
-        "url": "https://github.com/mjohnson3164/bg3-cheat-engine-character-build-toolkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/321996359?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mjohnson3164/bg3-cheat-engine-character-build-toolkit"
-      ],
-      "starScore": 11
-    },
-    {
       "id": "46540468",
-      "rank": 68,
+      "rank": 55,
       "type": "User",
       "login": "super-continent",
       "repos": [
@@ -3332,475 +2705,6 @@
         "super-continent/Angel"
       ],
       "starScore": 11
-    },
-    {
-      "id": "73878474",
-      "rank": 69,
-      "type": "User",
-      "login": "ZGQ-inc",
-      "repos": [
-        {
-          "id": 1366112775,
-          "fork": false,
-          "name": "spotx-spicetify-fusion",
-          "forks": 0,
-          "owner": "ZGQ-inc",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/73878474?v=4",
-          "topics": [
-            "spicetify",
-            "spotify",
-            "spotx"
-          ],
-          "ownerId": "73878474",
-          "repoUrl": "https://github.com/ZGQ-inc/spotx-spicetify-fusion",
-          "archived": false,
-          "fullName": "ZGQ-inc/spotx-spicetify-fusion",
-          "language": "PowerShell",
-          "ownerUrl": "https://github.com/ZGQ-inc",
-          "pushedAt": "2026-09-11T19:49:46+00:00",
-          "createdAt": "2026-09-11T12:58:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T04:02:43+00:00",
-          "description": "Seamlessly combine SpotX and Spicetify with Marketplace. Fully unattended automated installer & unified compatibility hotfix for Spotify 1.2.x and 1.3.x+ (Rspack).",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ZGQ-inc",
-      "topRepo": {
-        "name": "spotx-spicetify-fusion",
-        "fullName": "ZGQ-inc/spotx-spicetify-fusion",
-        "stars": 11,
-        "url": "https://github.com/ZGQ-inc/spotx-spicetify-fusion"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73878474?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ZGQ-inc/spotx-spicetify-fusion"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "324155987",
-      "rank": 70,
-      "type": "User",
-      "login": "annar6169",
-      "repos": [
-        {
-          "id": 1366163475,
-          "fork": false,
-          "name": "solo-leveling-arise-mod-toolkit",
-          "forks": 0,
-          "owner": "annar6169",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324155987?v=4",
-          "topics": [
-            "solo-leveling",
-            "solo-leveling-arise",
-            "solo-leveling-arise-hack",
-            "solo-leveling-arise-hacks"
-          ],
-          "ownerId": "324155987",
-          "repoUrl": "https://github.com/annar6169/solo-leveling-arise-mod-toolkit",
-          "archived": false,
-          "fullName": "annar6169/solo-leveling-arise-mod-toolkit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/annar6169",
-          "pushedAt": "2026-09-11T13:25:12+00:00",
-          "createdAt": "2026-09-11T13:24:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T13:27:54+00:00",
-          "description": "Modern MOD MENU toolkit and companion utilities for Solo Leveling: ARISE.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/annar6169",
-      "topRepo": {
-        "name": "solo-leveling-arise-mod-toolkit",
-        "fullName": "annar6169/solo-leveling-arise-mod-toolkit",
-        "stars": 10,
-        "url": "https://github.com/annar6169/solo-leveling-arise-mod-toolkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324155987?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "annar6169/solo-leveling-arise-mod-toolkit"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324232818",
-      "rank": 71,
-      "type": "User",
-      "login": "annav-7531",
-      "repos": [
-        {
-          "id": 1366180255,
-          "fork": false,
-          "name": "dying-light-beast-menu",
-          "forks": 0,
-          "owner": "annav-7531",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324232818?v=4",
-          "topics": [
-            "dying-2026",
-            "dying-light",
-            "dying-light-2",
-            "dying-light-beast-trainer",
-            "dying-light-beast-trainer-2026",
-            "dying-light-the-beast-cheat-engine-table-windows-1"
-          ],
-          "ownerId": "324232818",
-          "repoUrl": "https://github.com/annav-7531/dying-light-beast-menu",
-          "archived": false,
-          "fullName": "annav-7531/dying-light-beast-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/annav-7531",
-          "pushedAt": "2026-09-11T13:35:17+00:00",
-          "createdAt": "2026-09-11T13:33:19+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T13:38:19+00:00",
-          "description": "Dying Light 2 Beast Mode Trainer Setup Guide 2026",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/annav-7531",
-      "topRepo": {
-        "name": "dying-light-beast-menu",
-        "fullName": "annav-7531/dying-light-beast-menu",
-        "stars": 10,
-        "url": "https://github.com/annav-7531/dying-light-beast-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324232818?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "annav-7531/dying-light-beast-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324224837",
-      "rank": 72,
-      "type": "User",
-      "login": "arianelson565",
-      "repos": [
-        {
-          "id": 1366218383,
-          "fork": false,
-          "name": "my-hero-ultra-rumble-menu",
-          "forks": 0,
-          "owner": "arianelson565",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324224837?v=4",
-          "topics": [
-            "boku-no-hero-academia",
-            "mha",
-            "mha-ur",
-            "mhaur",
-            "mhur",
-            "my-hero-academia",
-            "my-hero-ultra-rumble",
-            "ultra-rumble"
-          ],
-          "ownerId": "324224837",
-          "repoUrl": "https://github.com/arianelson565/my-hero-ultra-rumble-menu",
-          "archived": false,
-          "fullName": "arianelson565/my-hero-ultra-rumble-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/arianelson565",
-          "pushedAt": "2026-09-11T13:55:01+00:00",
-          "createdAt": "2026-09-11T13:53:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T13:57:34+00:00",
-          "description": "A community-driven, in-depth guide for the free-to-play game My Hero Ultra Rumble.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/arianelson565",
-      "topRepo": {
-        "name": "my-hero-ultra-rumble-menu",
-        "fullName": "arianelson565/my-hero-ultra-rumble-menu",
-        "stars": 10,
-        "url": "https://github.com/arianelson565/my-hero-ultra-rumble-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324224837?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "arianelson565/my-hero-ultra-rumble-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324278633",
-      "rank": 73,
-      "type": "User",
-      "login": "arianelson89",
-      "repos": [
-        {
-          "id": 1366209197,
-          "fork": false,
-          "name": "lost-light-menu",
-          "forks": 0,
-          "owner": "arianelson89",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324278633?v=4",
-          "topics": [
-            "lost-light",
-            "lost-light-aim",
-            "lost-light-esp",
-            "lost-light-mod",
-            "lost-light-new-hack",
-            "lost-light-radar",
-            "lost-light-script",
-            "lost-light-wh"
-          ],
-          "ownerId": "324278633",
-          "repoUrl": "https://github.com/arianelson89/lost-light-menu",
-          "archived": false,
-          "fullName": "arianelson89/lost-light-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/arianelson89",
-          "pushedAt": "2026-09-11T13:49:18+00:00",
-          "createdAt": "2026-09-11T13:48:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T13:52:39+00:00",
-          "description": "Lost Light Mod Menu",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/arianelson89",
-      "topRepo": {
-        "name": "lost-light-menu",
-        "fullName": "arianelson89/lost-light-menu",
-        "stars": 10,
-        "url": "https://github.com/arianelson89/lost-light-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324278633?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "arianelson89/lost-light-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "324213999",
-      "rank": 74,
-      "type": "User",
-      "login": "audrreyes53",
-      "repos": [
-        {
-          "id": 1366261172,
-          "fork": false,
-          "name": "titanfall2-mod-menu",
-          "forks": 0,
-          "owner": "audrreyes53",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/324213999?v=4",
-          "topics": [
-            "titanfall",
-            "titanfall-2"
-          ],
-          "ownerId": "324213999",
-          "repoUrl": "https://github.com/audrreyes53/titanfall2-mod-menu",
-          "archived": false,
-          "fullName": "audrreyes53/titanfall2-mod-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/audrreyes53",
-          "pushedAt": "2026-09-11T14:18:00+00:00",
-          "createdAt": "2026-09-11T14:16:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T14:19:54+00:00",
-          "description": "👁️ Titanfall 2 Wallhack – See Through Walls, Spot Pilots & Titans Instantly",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/audrreyes53",
-      "topRepo": {
-        "name": "titanfall2-mod-menu",
-        "fullName": "audrreyes53/titanfall2-mod-menu",
-        "stars": 10,
-        "url": "https://github.com/audrreyes53/titanfall2-mod-menu"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324213999?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "audrreyes53/titanfall2-mod-menu"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "73786423",
-      "rank": 75,
-      "type": "User",
-      "login": "crypt0p3g",
-      "repos": [
-        {
-          "id": 1366351429,
-          "fork": false,
-          "name": "adexsnap",
-          "forks": 2,
-          "owner": "crypt0p3g",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/73786423?v=4",
-          "topics": [],
-          "ownerId": "73786423",
-          "repoUrl": "https://github.com/crypt0p3g/adexsnap",
-          "archived": false,
-          "fullName": "crypt0p3g/adexsnap",
-          "language": "Python",
-          "ownerUrl": "https://github.com/crypt0p3g",
-          "pushedAt": "2026-09-11T15:27:58+00:00",
-          "createdAt": "2026-09-11T15:17:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-12T04:30:45+00:00",
-          "description": "Active Directory snapshots from Linux and macOS in the AD Explorer .dat format. Opens in AD Explorer, works with ADExplorerSnapshot.py and BOFHound.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/crypt0p3g",
-      "topRepo": {
-        "name": "adexsnap",
-        "fullName": "crypt0p3g/adexsnap",
-        "stars": 10,
-        "url": "https://github.com/crypt0p3g/adexsnap"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73786423?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "crypt0p3g/adexsnap"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "322001361",
-      "rank": 76,
-      "type": "User",
-      "login": "maxwellhunt-19",
-      "repos": [
-        {
-          "id": 1366042559,
-          "fork": false,
-          "name": "fc-27-pc-install-performance-companion",
-          "forks": 0,
-          "owner": "maxwellhunt-19",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/322001361?v=4",
-          "topics": [
-            "download-ea-fc-25-coin-generator",
-            "ea",
-            "ea-2026",
-            "ea-fc",
-            "ea-fc-2026",
-            "ea-fc-25-coin-generator",
-            "ea-fc-25-coin-generator-2026",
-            "ea-fc-25-coin-generator-download",
-            "ea-fc-25-coin-generator-free",
-            "ea-fc-25-coin-generator-free-download",
-            "ea-fc-25-coin-generator-latest",
-            "ea-fc-25-coin-generator-pc",
-            "ea-fc-25-coin-generator-windows",
-            "ea-fc-free",
-            "ea-fc-hack",
-            "ea-free-download",
-            "ea-sports-cheat",
-            "free-generator-download",
-            "generator-free-2026",
-            "get-ea-fc-25-coin-generator-free"
-          ],
-          "ownerId": "322001361",
-          "repoUrl": "https://github.com/maxwellhunt-19/fc-27-pc-install-performance-companion",
-          "archived": false,
-          "fullName": "maxwellhunt-19/fc-27-pc-install-performance-companion",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/maxwellhunt-19",
-          "pushedAt": "2026-09-11T12:20:53+00:00",
-          "createdAt": "2026-09-11T12:20:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T12:24:04+00:00",
-          "description": "EA SPORTS FC 27 PC companion for installation preparation, Steam and EA app setup, controller profiles, graphics optimization, laptop performance and gameplay tracking.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/maxwellhunt-19",
-      "topRepo": {
-        "name": "fc-27-pc-install-performance-companion",
-        "fullName": "maxwellhunt-19/fc-27-pc-install-performance-companion",
-        "stars": 10,
-        "url": "https://github.com/maxwellhunt-19/fc-27-pc-install-performance-companion"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/322001361?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "maxwellhunt-19/fc-27-pc-install-performance-companion"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "322173214",
-      "rank": 77,
-      "type": "User",
-      "login": "mboyd-1240",
-      "repos": [
-        {
-          "id": 1366048814,
-          "fork": false,
-          "name": "ea-fc-27-pc-setup-gameplay-hub",
-          "forks": 0,
-          "owner": "mboyd-1240",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/322173214?v=4",
-          "topics": [
-            "ea-sports-fc-27",
-            "early-build",
-            "fc27",
-            "football",
-            "football-simulation",
-            "gameplay",
-            "leaked-build",
-            "pc-game",
-            "pre-release",
-            "soccer",
-            "sports-game",
-            "the-grounds",
-            "unfinished-game",
-            "windows-game"
-          ],
-          "ownerId": "322173214",
-          "repoUrl": "https://github.com/mboyd-1240/ea-fc-27-pc-setup-gameplay-hub",
-          "archived": false,
-          "fullName": "mboyd-1240/ea-fc-27-pc-setup-gameplay-hub",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/mboyd-1240",
-          "pushedAt": "2026-09-11T12:24:16+00:00",
-          "createdAt": "2026-09-11T12:24:05+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-11T12:26:56+00:00",
-          "description": "EA SPORTS FC 27 PC setup hub for installation planning, Windows and laptop configuration, graphics presets, controllers, gameplay profiles and performance tracking.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mboyd-1240",
-      "topRepo": {
-        "name": "ea-fc-27-pc-setup-gameplay-hub",
-        "fullName": "mboyd-1240/ea-fc-27-pc-setup-gameplay-hub",
-        "stars": 10,
-        "url": "https://github.com/mboyd-1240/ea-fc-27-pc-setup-gameplay-hub"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/322173214?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mboyd-1240/ea-fc-27-pc-setup-gameplay-hub"
-      ],
-      "starScore": 10
     }
   ]
 }
