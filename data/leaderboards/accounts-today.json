@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-15T05:09:46.570Z",
-  "total": 8,
-  "totalIndexedCount": 8,
-  "coverageLabel": "Showing 8 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-15T12:06:33.382Z",
+  "total": 33,
+  "totalIndexedCount": 33,
+  "coverageLabel": "Showing 33 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,353 +10,811 @@
   },
   "rows": [
     {
-      "id": "4921183",
+      "id": "314304570",
       "rank": 1,
       "type": "User",
-      "login": "nilbuild",
+      "login": "FSECDEV",
       "repos": [
         {
-          "id": 1369428487,
+          "id": 1370720584,
           "fork": false,
-          "name": "page-mascot",
-          "forks": 12,
-          "owner": "nilbuild",
-          "stars": 315,
-          "avatar": "https://avatars.githubusercontent.com/u/4921183?v=4",
+          "name": "Threat-Intelligence-Hackers-Forums",
+          "forks": 4,
+          "owner": "FSECDEV",
+          "stars": 115,
+          "avatar": "https://avatars.githubusercontent.com/u/314304570?v=4",
           "topics": [],
-          "ownerId": "4921183",
-          "repoUrl": "https://github.com/nilbuild/page-mascot",
+          "ownerId": "314304570",
+          "repoUrl": "https://github.com/FSECDEV/Threat-Intelligence-Hackers-Forums",
           "archived": false,
-          "fullName": "nilbuild/page-mascot",
-          "language": "Python",
-          "ownerUrl": "https://github.com/nilbuild",
-          "pushedAt": "2026-09-14T10:26:58+00:00",
-          "createdAt": "2026-09-14T06:55:59+00:00",
+          "fullName": "FSECDEV/Threat-Intelligence-Hackers-Forums",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/FSECDEV",
+          "pushedAt": "2026-09-15T01:23:08+00:00",
+          "createdAt": "2026-09-15T01:12:06+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-15T05:02:40+00:00",
-          "description": "A mascot that watches the cursor and blinks when you poke it",
+          "updatedAt": "2026-09-15T11:50:49+00:00",
+          "description": "A directory of hacker forums",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/nilbuild",
+      "htmlUrl": "https://github.com/FSECDEV",
       "topRepo": {
-        "name": "page-mascot",
-        "fullName": "nilbuild/page-mascot",
-        "stars": 315,
-        "url": "https://github.com/nilbuild/page-mascot"
+        "name": "Threat-Intelligence-Hackers-Forums",
+        "fullName": "FSECDEV/Threat-Intelligence-Hackers-Forums",
+        "stars": 115,
+        "url": "https://github.com/FSECDEV/Threat-Intelligence-Hackers-Forums"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4921183?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/314304570?v=4",
       "repoCount": 1,
       "repoNames": [
-        "nilbuild/page-mascot"
+        "FSECDEV/Threat-Intelligence-Hackers-Forums"
       ],
-      "starScore": 315
+      "starScore": 115
     },
     {
-      "id": "15010780",
+      "id": "160126967",
       "rank": 2,
       "type": "User",
-      "login": "Matthew0822",
+      "login": "githubuser420x",
       "repos": [
         {
-          "id": 1369710615,
+          "id": 1369965040,
           "fork": false,
-          "name": "ToolReplay",
-          "forks": 18,
-          "owner": "Matthew0822",
-          "stars": 168,
-          "avatar": "https://avatars.githubusercontent.com/u/15010780?v=4",
+          "name": "FGOAC-scooby",
+          "forks": 8,
+          "owner": "githubuser420x",
+          "stars": 91,
+          "avatar": "https://avatars.githubusercontent.com/u/160126967?v=4",
           "topics": [
-            "ai-agents",
-            "audit",
-            "cli",
-            "determinism",
-            "hash-chain",
-            "jsonl",
-            "permissions",
-            "python",
-            "replay",
-            "scope",
-            "security",
-            "tool-call"
+            "dotnet",
+            "english-patch",
+            "fate-grand-order",
+            "fgo-arcade",
+            "launcher",
+            "wpf"
           ],
-          "ownerId": "15010780",
-          "repoUrl": "https://github.com/Matthew0822/ToolReplay",
+          "ownerId": "160126967",
+          "repoUrl": "https://github.com/githubuser420x/FGOAC-scooby",
           "archived": false,
-          "fullName": "Matthew0822/ToolReplay",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Matthew0822",
-          "pushedAt": "2026-09-14T12:09:08+00:00",
-          "createdAt": "2026-09-14T10:11:00+00:00",
+          "fullName": "githubuser420x/FGOAC-scooby",
+          "language": "C#",
+          "ownerUrl": "https://github.com/githubuser420x",
+          "pushedAt": "2026-09-15T03:32:42+00:00",
+          "createdAt": "2026-09-14T13:32:28+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-15T02:53:43+00:00",
-          "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
+          "updatedAt": "2026-09-15T11:40:15+00:00",
+          "description": "English launcher and patch for the FGO Arcade local platform",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/githubuser420x",
+      "topRepo": {
+        "name": "FGOAC-scooby",
+        "fullName": "githubuser420x/FGOAC-scooby",
+        "stars": 91,
+        "url": "https://github.com/githubuser420x/FGOAC-scooby"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/160126967?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "githubuser420x/FGOAC-scooby"
+      ],
+      "starScore": 91
+    },
+    {
+      "id": "804684",
+      "rank": 3,
+      "type": "User",
+      "login": "mpociot",
+      "repos": [
+        {
+          "id": 1370124649,
+          "fork": false,
+          "name": "claude-siri-ai",
+          "forks": 10,
+          "owner": "mpociot",
+          "stars": 77,
+          "avatar": "https://avatars.githubusercontent.com/u/804684?v=4",
+          "topics": [],
+          "ownerId": "804684",
+          "repoUrl": "https://github.com/mpociot/claude-siri-ai",
+          "archived": false,
+          "fullName": "mpociot/claude-siri-ai",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/mpociot",
+          "pushedAt": "2026-09-15T05:11:18+00:00",
+          "createdAt": "2026-09-14T15:20:19+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:50:57+00:00",
+          "description": "Experimental macOS 27 App Intents model delegation provider backed by Claude Code",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Matthew0822",
+      "htmlUrl": "https://github.com/mpociot",
       "topRepo": {
-        "name": "ToolReplay",
-        "fullName": "Matthew0822/ToolReplay",
-        "stars": 168,
-        "url": "https://github.com/Matthew0822/ToolReplay"
+        "name": "claude-siri-ai",
+        "fullName": "mpociot/claude-siri-ai",
+        "stars": 77,
+        "url": "https://github.com/mpociot/claude-siri-ai"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15010780?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/804684?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Matthew0822/ToolReplay"
+        "mpociot/claude-siri-ai"
       ],
-      "starScore": 168
+      "starScore": 77
     },
     {
-      "id": "293485813",
-      "rank": 3,
-      "type": "User",
-      "login": "loudpilotchart",
+      "id": "327971531",
+      "rank": 4,
+      "type": "Organization",
+      "login": "FLModel",
       "repos": [
         {
-          "id": 1369699944,
+          "id": 1370727152,
           "fork": false,
-          "name": "lol-skinchanger",
-          "forks": 12,
-          "owner": "loudpilotchart",
-          "stars": 44,
-          "avatar": "https://avatars.githubusercontent.com/u/293485813?v=4",
-          "topics": [
-            "league-skin",
-            "league-skin-changer-2026",
-            "league-skin-mod",
-            "league-skins-changer",
-            "leagueoflegends",
-            "lol",
-            "lol-skin",
-            "lol-skin-manager",
-            "lol-skin-mod",
-            "lol-skin-tool",
-            "lol-skins",
-            "skinchager"
-          ],
-          "ownerId": "293485813",
-          "repoUrl": "https://github.com/loudpilotchart/lol-skinchanger",
+          "name": "flm",
+          "forks": 13,
+          "owner": "FLModel",
+          "stars": 68,
+          "avatar": "https://avatars.githubusercontent.com/u/327971531?v=4",
+          "topics": [],
+          "ownerId": "327971531",
+          "repoUrl": "https://github.com/FLModel/flm",
           "archived": false,
-          "fullName": "loudpilotchart/lol-skinchanger",
-          "language": "C++",
-          "ownerUrl": "https://github.com/loudpilotchart",
-          "pushedAt": "2026-09-14T10:22:56+00:00",
-          "createdAt": "2026-09-14T10:02:27+00:00",
+          "fullName": "FLModel/flm",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/FLModel",
+          "pushedAt": "2026-09-11T21:51:26+00:00",
+          "createdAt": "2026-09-15T01:22:11+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T07:17:12+00:00",
+          "description": "Train and chat with a frozen language model coupled to the full retained MaleCNS fly connectome.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/FLModel",
+      "topRepo": {
+        "name": "flm",
+        "fullName": "FLModel/flm",
+        "stars": 68,
+        "url": "https://github.com/FLModel/flm"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/327971531?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "FLModel/flm"
+      ],
+      "starScore": 68
+    },
+    {
+      "id": "139477411",
+      "rank": 5,
+      "type": "User",
+      "login": "letorig",
+      "repos": [
+        {
+          "id": 1370331779,
+          "fork": false,
+          "name": "video-generator-client",
+          "forks": 18,
+          "owner": "letorig",
+          "stars": 62,
+          "avatar": "https://avatars.githubusercontent.com/u/139477411?v=4",
+          "topics": [
+            "kling",
+            "kling-ai",
+            "minimax-h3",
+            "seedance",
+            "seedance-2-5",
+            "video-generation",
+            "video-generation-api",
+            "video-generation-tool"
+          ],
+          "ownerId": "139477411",
+          "repoUrl": "https://github.com/letorig/video-generator-client",
+          "archived": false,
+          "fullName": "letorig/video-generator-client",
+          "language": "Python",
+          "ownerUrl": "https://github.com/letorig",
+          "pushedAt": "2026-09-14T18:31:47+00:00",
+          "createdAt": "2026-09-14T17:46:01+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-14T11:03:50+00:00",
-          "description": "Skin changer for League of Legends (LOL)",
+          "updatedAt": "2026-09-15T11:54:23+00:00",
+          "description": "Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/letorig",
+      "topRepo": {
+        "name": "video-generator-client",
+        "fullName": "letorig/video-generator-client",
+        "stars": 62,
+        "url": "https://github.com/letorig/video-generator-client"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139477411?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "letorig/video-generator-client"
+      ],
+      "starScore": 62
+    },
+    {
+      "id": "46409262",
+      "rank": 6,
+      "type": "User",
+      "login": "KillaBoi",
+      "repos": [
+        {
+          "id": 1370507931,
+          "fork": false,
+          "name": "BrokenPipe",
+          "forks": 4,
+          "owner": "KillaBoi",
+          "stars": 55,
+          "avatar": "https://avatars.githubusercontent.com/u/46409262?v=4",
+          "topics": [],
+          "ownerId": "46409262",
+          "repoUrl": "https://github.com/KillaBoi/BrokenPipe",
+          "archived": false,
+          "fullName": "KillaBoi/BrokenPipe",
+          "language": "C++",
+          "ownerUrl": "https://github.com/KillaBoi",
+          "pushedAt": "2026-09-15T01:44:51+00:00",
+          "createdAt": "2026-09-14T20:10:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:28:04+00:00",
+          "description": "Steam Client Service Local Privilege Escalation Vulnerability",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/KillaBoi",
+      "topRepo": {
+        "name": "BrokenPipe",
+        "fullName": "KillaBoi/BrokenPipe",
+        "stars": 55,
+        "url": "https://github.com/KillaBoi/BrokenPipe"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46409262?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "KillaBoi/BrokenPipe"
+      ],
+      "starScore": 55
+    },
+    {
+      "id": "86906",
+      "rank": 7,
+      "type": "User",
+      "login": "JamesRyanATX",
+      "repos": [
+        {
+          "id": 1370583949,
+          "fork": false,
+          "name": "fcbnerd",
+          "forks": 1,
+          "owner": "JamesRyanATX",
+          "stars": 49,
+          "avatar": "https://avatars.githubusercontent.com/u/86906?v=4",
+          "topics": [
+            "fcb1010",
+            "macos",
+            "midi"
+          ],
+          "ownerId": "86906",
+          "repoUrl": "https://github.com/JamesRyanATX/fcbnerd",
+          "archived": false,
+          "fullName": "JamesRyanATX/fcbnerd",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/JamesRyanATX",
+          "pushedAt": "2026-09-14T23:55:03+00:00",
+          "createdAt": "2026-09-14T21:33:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:25:32+00:00",
+          "description": "Do things with a Behringer FCB1010 MIDI pedalboard in MacOS",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/JamesRyanATX",
+      "topRepo": {
+        "name": "fcbnerd",
+        "fullName": "JamesRyanATX/fcbnerd",
+        "stars": 49,
+        "url": "https://github.com/JamesRyanATX/fcbnerd"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86906?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "JamesRyanATX/fcbnerd"
+      ],
+      "starScore": 49
+    },
+    {
+      "id": "306849817",
+      "rank": 8,
+      "type": "User",
+      "login": "janice20435",
+      "repos": [
+        {
+          "id": 1371089279,
+          "fork": false,
+          "name": "cf-turnstile-token",
+          "forks": 6,
+          "owner": "janice20435",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/306849817?v=4",
+          "topics": [
+            "cloudflare",
+            "solver",
+            "turnstile"
+          ],
+          "ownerId": "306849817",
+          "repoUrl": "https://github.com/janice20435/cf-turnstile-token",
+          "archived": false,
+          "fullName": "janice20435/cf-turnstile-token",
+          "language": "Python",
+          "ownerUrl": "https://github.com/janice20435",
+          "pushedAt": "2026-09-15T08:27:45+00:00",
+          "createdAt": "2026-09-15T07:45:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T08:27:49+00:00",
+          "description": "Command-line Cloudflare Turnstile token generator: discover the sitekey on any page and print a cf-turnstile-response token for your scripts, tests and CI.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/janice20435",
+      "topRepo": {
+        "name": "cf-turnstile-token",
+        "fullName": "janice20435/cf-turnstile-token",
+        "stars": 47,
+        "url": "https://github.com/janice20435/cf-turnstile-token"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306849817?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "janice20435/cf-turnstile-token"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "319700097",
+      "rank": 9,
+      "type": "Organization",
+      "login": "Fenon-Robotics",
+      "repos": [
+        {
+          "id": 1370617579,
+          "fork": false,
+          "name": "egodup",
+          "forks": 0,
+          "owner": "Fenon-Robotics",
+          "stars": 26,
+          "avatar": "https://avatars.githubusercontent.com/u/319700097?v=4",
+          "topics": [
+            "computer-vision",
+            "copy-detection",
+            "digital-forensics",
+            "egocentric-video",
+            "faiss",
+            "pytorch",
+            "video-similarity"
+          ],
+          "ownerId": "319700097",
+          "repoUrl": "https://github.com/Fenon-Robotics/egodup",
+          "archived": false,
+          "fullName": "Fenon-Robotics/egodup",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Fenon-Robotics",
+          "pushedAt": "2026-09-14T23:02:17+00:00",
+          "createdAt": "2026-09-14T22:20:23+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T11:42:16+00:00",
+          "description": "Local-first detection and temporal localization of reused footage in egocentric video.",
           "defaultBranch": "main"
         },
         {
-          "id": 1369745309,
+          "id": 1370643532,
           "fork": false,
-          "name": "wardogs-cheat",
-          "forks": 12,
-          "owner": "loudpilotchart",
-          "stars": 43,
-          "avatar": "https://avatars.githubusercontent.com/u/293485813?v=4",
-          "topics": [
-            "cheats-wardogs",
-            "wardogs",
-            "wardogs-cheat",
-            "wardogs-cheat-menu",
-            "wardogs-cheats",
-            "wardogs-control-zone",
-            "wardogs-external-menu",
-            "wardogs-free",
-            "wardogs-free-hack",
-            "wardogs-game",
-            "wardogs-mod-menu",
-            "wardogs-overlay",
-            "wardogs-player-info"
-          ],
-          "ownerId": "293485813",
-          "repoUrl": "https://github.com/loudpilotchart/wardogs-cheat",
+          "name": "fgate",
+          "forks": 0,
+          "owner": "Fenon-Robotics",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/319700097?v=4",
+          "topics": [],
+          "ownerId": "319700097",
+          "repoUrl": "https://github.com/Fenon-Robotics/fgate",
           "archived": false,
-          "fullName": "loudpilotchart/wardogs-cheat",
-          "language": "C++",
-          "ownerUrl": "https://github.com/loudpilotchart",
-          "pushedAt": "2026-09-14T10:47:24+00:00",
-          "createdAt": "2026-09-14T10:39:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-14T11:09:55+00:00",
-          "description": "WARDOGS Advanced Multihack",
+          "fullName": "Fenon-Robotics/fgate",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Fenon-Robotics",
+          "pushedAt": "2026-09-14T23:20:20+00:00",
+          "createdAt": "2026-09-14T23:01:07+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T11:42:43+00:00",
+          "description": "GPU-native quality gate for first-person video",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/loudpilotchart",
+      "htmlUrl": "https://github.com/Fenon-Robotics",
       "topRepo": {
-        "name": "lol-skinchanger",
-        "fullName": "loudpilotchart/lol-skinchanger",
-        "stars": 44,
-        "url": "https://github.com/loudpilotchart/lol-skinchanger"
+        "name": "egodup",
+        "fullName": "Fenon-Robotics/egodup",
+        "stars": 26,
+        "url": "https://github.com/Fenon-Robotics/egodup"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293485813?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/319700097?v=4",
       "repoCount": 2,
       "repoNames": [
-        "loudpilotchart/lol-skinchanger",
-        "loudpilotchart/wardogs-cheat"
+        "Fenon-Robotics/egodup",
+        "Fenon-Robotics/fgate"
       ],
-      "starScore": 87
+      "starScore": 46
     },
     {
-      "id": "117959902",
-      "rank": 4,
+      "id": "223814728",
+      "rank": 10,
       "type": "User",
-      "login": "callbacked",
+      "login": "jsyzlbw",
       "repos": [
         {
-          "id": 1369814603,
+          "id": 1370696319,
           "fork": false,
-          "name": "kinesis",
-          "forks": 1,
-          "owner": "callbacked",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/117959902?v=4",
-          "topics": [
-            "emg",
-            "gesture-control",
-            "human-computer-interaction",
-            "wearables"
-          ],
-          "ownerId": "117959902",
-          "repoUrl": "https://github.com/callbacked/kinesis",
-          "archived": false,
-          "fullName": "callbacked/kinesis",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/callbacked",
-          "pushedAt": "2026-09-14T12:45:35+00:00",
-          "createdAt": "2026-09-14T11:30:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-14T13:04:03+00:00",
-          "description": "native macos controls for the meta neural band",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/callbacked",
-      "topRepo": {
-        "name": "kinesis",
-        "fullName": "callbacked/kinesis",
-        "stars": 20,
-        "url": "https://github.com/callbacked/kinesis"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/117959902?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "callbacked/kinesis"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "318054780",
-      "rank": 5,
-      "type": "User",
-      "login": "Flowcloclippers",
-      "repos": [
-        {
-          "id": 1369815140,
-          "fork": false,
-          "name": "WarDogs-Tool",
-          "forks": 0,
-          "owner": "Flowcloclippers",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/318054780?v=4",
-          "topics": [
-            "cheats-wardogs",
-            "wardogs-cheat",
-            "wardogs-cheat-menu",
-            "wardogs-cheats",
-            "wardogs-control-zone",
-            "wardogs-external-menu",
-            "wardogs-free",
-            "wardogs-free-hack",
-            "wardogs-game",
-            "wardogs-mod-menu",
-            "wardogs-overlay",
-            "wardogs-player-info"
-          ],
-          "ownerId": "318054780",
-          "repoUrl": "https://github.com/Flowcloclippers/WarDogs-Tool",
-          "archived": false,
-          "fullName": "Flowcloclippers/WarDogs-Tool",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Flowcloclippers",
-          "pushedAt": "2026-09-14T11:37:12+00:00",
-          "createdAt": "2026-09-14T11:31:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-14T13:04:20+00:00",
-          "description": "Advanced WarDogs enhancement tool with useful features for better gameplay experience.   Regularly updated and fully optimized for the latest game version.   Clean interface and stable performance for comfortable use.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Flowcloclippers",
-      "topRepo": {
-        "name": "WarDogs-Tool",
-        "fullName": "Flowcloclippers/WarDogs-Tool",
-        "stars": 20,
-        "url": "https://github.com/Flowcloclippers/WarDogs-Tool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/318054780?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Flowcloclippers/WarDogs-Tool"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "79745143",
-      "rank": 6,
-      "type": "User",
-      "login": "34306",
-      "repos": [
-        {
-          "id": 1369456651,
-          "fork": false,
-          "name": "DuoBar",
-          "forks": 5,
-          "owner": "34306",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/79745143?v=4",
+          "name": "PhD-Yang",
+          "forks": 2,
+          "owner": "jsyzlbw",
+          "stars": 44,
+          "avatar": "https://avatars.githubusercontent.com/u/223814728?v=4",
           "topics": [],
-          "ownerId": "79745143",
-          "repoUrl": "https://github.com/34306/DuoBar",
+          "ownerId": "223814728",
+          "repoUrl": "https://github.com/jsyzlbw/PhD-Yang",
           "archived": false,
-          "fullName": "34306/DuoBar",
-          "language": "Objective-C",
-          "ownerUrl": "https://github.com/34306",
-          "pushedAt": "2026-09-14T13:00:46+00:00",
-          "createdAt": "2026-09-14T07:16:56+00:00",
+          "fullName": "jsyzlbw/PhD-Yang",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/jsyzlbw",
+          "pushedAt": "2026-09-15T00:37:57+00:00",
+          "createdAt": "2026-09-15T00:32:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-14T13:00:56+00:00",
-          "description": "Battery ring for jailbroken device based on iPhone Duo style",
+          "updatedAt": "2026-09-15T10:52:05+00:00",
+          "description": "The details about Wuhan University University Yang Jingyuan Incident",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/34306",
+      "htmlUrl": "https://github.com/jsyzlbw",
       "topRepo": {
-        "name": "DuoBar",
-        "fullName": "34306/DuoBar",
-        "stars": 19,
-        "url": "https://github.com/34306/DuoBar"
+        "name": "PhD-Yang",
+        "fullName": "jsyzlbw/PhD-Yang",
+        "stars": 44,
+        "url": "https://github.com/jsyzlbw/PhD-Yang"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79745143?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/223814728?v=4",
       "repoCount": 1,
       "repoNames": [
-        "34306/DuoBar"
+        "jsyzlbw/PhD-Yang"
+      ],
+      "starScore": 44
+    },
+    {
+      "id": "25566320",
+      "rank": 11,
+      "type": "User",
+      "login": "kevinnbass",
+      "repos": [
+        {
+          "id": 1370599694,
+          "fork": false,
+          "name": "metr-money-figure",
+          "forks": 13,
+          "owner": "kevinnbass",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/25566320?v=4",
+          "topics": [],
+          "ownerId": "25566320",
+          "repoUrl": "https://github.com/kevinnbass/metr-money-figure",
+          "archived": false,
+          "fullName": "kevinnbass/metr-money-figure",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/kevinnbass",
+          "pushedAt": "2026-09-15T03:36:10+00:00",
+          "createdAt": "2026-09-14T21:56:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:16:16+00:00",
+          "description": "One figure on the money behind METR and Anthropic, with every row of evidence, the audits, and ten companion figures",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/kevinnbass",
+      "topRepo": {
+        "name": "metr-money-figure",
+        "fullName": "kevinnbass/metr-money-figure",
+        "stars": 35,
+        "url": "https://github.com/kevinnbass/metr-money-figure"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25566320?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kevinnbass/metr-money-figure"
+      ],
+      "starScore": 35
+    },
+    {
+      "id": "1421181",
+      "rank": 12,
+      "type": "User",
+      "login": "finna",
+      "repos": [
+        {
+          "id": 1370624327,
+          "fork": false,
+          "name": "herdr-hud",
+          "forks": 0,
+          "owner": "finna",
+          "stars": 34,
+          "avatar": "https://avatars.githubusercontent.com/u/1421181?v=4",
+          "topics": [],
+          "ownerId": "1421181",
+          "repoUrl": "https://github.com/finna/herdr-hud",
+          "archived": false,
+          "fullName": "finna/herdr-hud",
+          "language": "C#",
+          "ownerUrl": "https://github.com/finna",
+          "pushedAt": "2026-09-15T03:38:46+00:00",
+          "createdAt": "2026-09-14T22:30:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:40:15+00:00",
+          "description": "Manage your Herdr agents while gaming. Floating desktop HUD for macOS and Windows; Omarchy plugin linked inside.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/finna",
+      "topRepo": {
+        "name": "herdr-hud",
+        "fullName": "finna/herdr-hud",
+        "stars": 34,
+        "url": "https://github.com/finna/herdr-hud"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1421181?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "finna/herdr-hud"
+      ],
+      "starScore": 34
+    },
+    {
+      "id": "320677708",
+      "rank": 13,
+      "type": "User",
+      "login": "drJhonatan00",
+      "repos": [
+        {
+          "id": 1370264078,
+          "fork": false,
+          "name": "SlowPokeTail-EMU",
+          "forks": 0,
+          "owner": "drJhonatan00",
+          "stars": 32,
+          "avatar": "https://avatars.githubusercontent.com/u/320677708?v=4",
+          "topics": [],
+          "ownerId": "320677708",
+          "repoUrl": "https://github.com/drJhonatan00/SlowPokeTail-EMU",
+          "archived": false,
+          "fullName": "drJhonatan00/SlowPokeTail-EMU",
+          "language": "Java",
+          "ownerUrl": "https://github.com/drJhonatan00",
+          "pushedAt": "2026-09-14T17:11:14+00:00",
+          "createdAt": "2026-09-14T16:57:48+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-14T17:33:26+00:00",
+          "description": "Unofficial modification of the Citra emulator for Android, developed with a focus on a customized visual identity, resource optimization, and an improved user experience on mobile devices.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/drJhonatan00",
+      "topRepo": {
+        "name": "SlowPokeTail-EMU",
+        "fullName": "drJhonatan00/SlowPokeTail-EMU",
+        "stars": 32,
+        "url": "https://github.com/drJhonatan00/SlowPokeTail-EMU"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/320677708?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "drJhonatan00/SlowPokeTail-EMU"
+      ],
+      "starScore": 32
+    },
+    {
+      "id": "320416956",
+      "rank": 14,
+      "type": "Organization",
+      "login": "RLE-Bench",
+      "repos": [
+        {
+          "id": 1370172544,
+          "fork": false,
+          "name": "RLE-Bench",
+          "forks": 1,
+          "owner": "RLE-Bench",
+          "stars": 27,
+          "avatar": "https://avatars.githubusercontent.com/u/320416956?v=4",
+          "topics": [],
+          "ownerId": "320416956",
+          "repoUrl": "https://github.com/RLE-Bench/RLE-Bench",
+          "archived": false,
+          "fullName": "RLE-Bench/RLE-Bench",
+          "language": "Python",
+          "ownerUrl": "https://github.com/RLE-Bench",
+          "pushedAt": "2026-09-14T16:12:07+00:00",
+          "createdAt": "2026-09-14T15:54:55+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T10:32:10+00:00",
+          "description": "A Qualifying Exam for Coding Agent as Robot Learning Engineers",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/RLE-Bench",
+      "topRepo": {
+        "name": "RLE-Bench",
+        "fullName": "RLE-Bench/RLE-Bench",
+        "stars": 27,
+        "url": "https://github.com/RLE-Bench/RLE-Bench"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/320416956?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "RLE-Bench/RLE-Bench"
+      ],
+      "starScore": 27
+    },
+    {
+      "id": "220945292",
+      "rank": 15,
+      "type": "Organization",
+      "login": "AlayaLab",
+      "repos": [
+        {
+          "id": 1370844777,
+          "fork": false,
+          "name": "KaiNinja",
+          "forks": 0,
+          "owner": "AlayaLab",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/220945292?v=4",
+          "topics": [],
+          "ownerId": "220945292",
+          "repoUrl": "https://github.com/AlayaLab/KaiNinja",
+          "archived": false,
+          "fullName": "AlayaLab/KaiNinja",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/AlayaLab",
+          "pushedAt": "2026-09-15T04:05:41+00:00",
+          "createdAt": "2026-09-15T03:44:21+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T11:52:09+00:00",
+          "description": "KaiNinja: Extending Native 3D Generators to the Part Level",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/AlayaLab",
+      "topRepo": {
+        "name": "KaiNinja",
+        "fullName": "AlayaLab/KaiNinja",
+        "stars": 21,
+        "url": "https://github.com/AlayaLab/KaiNinja"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/220945292?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "AlayaLab/KaiNinja"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "860985",
+      "rank": 16,
+      "type": "User",
+      "login": "jtydhr88",
+      "repos": [
+        {
+          "id": 1369922198,
+          "fork": false,
+          "name": "ComfyUI-WorldSculpt",
+          "forks": 1,
+          "owner": "jtydhr88",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/860985?v=4",
+          "topics": [],
+          "ownerId": "860985",
+          "repoUrl": "https://github.com/jtydhr88/ComfyUI-WorldSculpt",
+          "archived": false,
+          "fullName": "jtydhr88/ComfyUI-WorldSculpt",
+          "language": "Python",
+          "ownerUrl": "https://github.com/jtydhr88",
+          "pushedAt": "2026-09-14T13:00:52+00:00",
+          "createdAt": "2026-09-14T13:00:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T10:04:06+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jtydhr88",
+      "topRepo": {
+        "name": "ComfyUI-WorldSculpt",
+        "fullName": "jtydhr88/ComfyUI-WorldSculpt",
+        "stars": 21,
+        "url": "https://github.com/jtydhr88/ComfyUI-WorldSculpt"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/860985?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jtydhr88/ComfyUI-WorldSculpt"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "2127498",
+      "rank": 17,
+      "type": "User",
+      "login": "iebb",
+      "repos": [
+        {
+          "id": 1370258311,
+          "fork": false,
+          "name": "petex",
+          "forks": 2,
+          "owner": "iebb",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/2127498?v=4",
+          "topics": [],
+          "ownerId": "2127498",
+          "repoUrl": "https://github.com/iebb/petex",
+          "archived": false,
+          "fullName": "iebb/petex",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/iebb",
+          "pushedAt": "2026-09-15T09:18:15+00:00",
+          "createdAt": "2026-09-14T16:54:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:45:45+00:00",
+          "description": "Standalone macOS and Windows desktop pets with Codex pet imports.",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/iebb",
+      "topRepo": {
+        "name": "petex",
+        "fullName": "iebb/petex",
+        "stars": 19,
+        "url": "https://github.com/iebb/petex"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2127498?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "iebb/petex"
       ],
       "starScore": 19
     },
     {
       "id": "305107872",
-      "rank": 7,
+      "rank": 18,
       "type": "User",
       "login": "Ceciliajansson",
       "repos": [
@@ -420,64 +878,692 @@
       "starScore": 17
     },
     {
-      "id": "265748764",
-      "rank": 8,
-      "type": "Organization",
-      "login": "nexscope-ai",
+      "id": "326137603",
+      "rank": 19,
+      "type": "User",
+      "login": "eymenkaratas3347-dot",
       "repos": [
         {
-          "id": 1369663769,
+          "id": 1370794908,
           "fork": false,
-          "name": "ecommerce-ai-tools",
+          "name": "first-project",
           "forks": 0,
-          "owner": "nexscope-ai",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/265748764?v=4",
-          "topics": [
-            "ai-agents",
-            "ai-tools",
-            "amazon-reviews",
-            "amazon-seller-tools",
-            "ecommerce",
-            "ecommerce-api",
-            "geo",
-            "image-generation",
-            "keyword-research",
-            "mcp",
-            "product-research",
-            "rest-api",
-            "seo",
-            "video-generation",
-            "website-audit"
-          ],
-          "ownerId": "265748764",
-          "repoUrl": "https://github.com/nexscope-ai/ecommerce-ai-tools",
+          "owner": "eymenkaratas3347-dot",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/326137603?v=4",
+          "topics": [],
+          "ownerId": "326137603",
+          "repoUrl": "https://github.com/eymenkaratas3347-dot/first-project",
           "archived": false,
-          "fullName": "nexscope-ai/ecommerce-ai-tools",
+          "fullName": "eymenkaratas3347-dot/first-project",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/nexscope-ai",
-          "pushedAt": "2026-09-14T10:54:29+00:00",
-          "createdAt": "2026-09-14T09:35:50+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-14T12:09:51+00:00",
-          "description": "Ecommerce data, SEO/GEO, and creative AI APIs for Amazon research, sourcing, product imagery, and video generation. New users get 1,000 free credits. Official support via Issues.",
+          "ownerUrl": "https://github.com/eymenkaratas3347-dot",
+          "pushedAt": "2026-09-15T07:46:30+00:00",
+          "createdAt": "2026-09-15T02:55:45+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T08:16:19+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/nexscope-ai",
+      "htmlUrl": "https://github.com/eymenkaratas3347-dot",
       "topRepo": {
-        "name": "ecommerce-ai-tools",
-        "fullName": "nexscope-ai/ecommerce-ai-tools",
-        "stars": 14,
-        "url": "https://github.com/nexscope-ai/ecommerce-ai-tools"
+        "name": "first-project",
+        "fullName": "eymenkaratas3347-dot/first-project",
+        "stars": 16,
+        "url": "https://github.com/eymenkaratas3347-dot/first-project"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265748764?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/326137603?v=4",
       "repoCount": 1,
       "repoNames": [
-        "nexscope-ai/ecommerce-ai-tools"
+        "eymenkaratas3347-dot/first-project"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "26909152",
+      "rank": 20,
+      "type": "User",
+      "login": "MOEG-5",
+      "repos": [
+        {
+          "id": 1370530163,
+          "fork": false,
+          "name": "consultant",
+          "forks": 1,
+          "owner": "MOEG-5",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/26909152?v=4",
+          "topics": [],
+          "ownerId": "26909152",
+          "repoUrl": "https://github.com/MOEG-5/consultant",
+          "archived": false,
+          "fullName": "MOEG-5/consultant",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/MOEG-5",
+          "pushedAt": "2026-09-14T20:43:12+00:00",
+          "createdAt": "2026-09-14T20:28:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T08:30:13+00:00",
+          "description": "consultant skill for Pi",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/MOEG-5",
+      "topRepo": {
+        "name": "consultant",
+        "fullName": "MOEG-5/consultant",
+        "stars": 16,
+        "url": "https://github.com/MOEG-5/consultant"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26909152?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MOEG-5/consultant"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "320905564",
+      "rank": 21,
+      "type": "User",
+      "login": "murayamate1224",
+      "repos": [
+        {
+          "id": 1370770883,
+          "fork": false,
+          "name": "first-repo",
+          "forks": 0,
+          "owner": "murayamate1224",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/320905564?v=4",
+          "topics": [],
+          "ownerId": "320905564",
+          "repoUrl": "https://github.com/murayamate1224/first-repo",
+          "archived": false,
+          "fullName": "murayamate1224/first-repo",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/murayamate1224",
+          "pushedAt": "2026-09-15T09:16:48+00:00",
+          "createdAt": "2026-09-15T02:21:20+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T09:16:52+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/murayamate1224",
+      "topRepo": {
+        "name": "first-repo",
+        "fullName": "murayamate1224/first-repo",
+        "stars": 16,
+        "url": "https://github.com/murayamate1224/first-repo"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/320905564?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "murayamate1224/first-repo"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "18309862",
+      "rank": 22,
+      "type": "User",
+      "login": "rogerwwww",
+      "repos": [
+        {
+          "id": 1370251971,
+          "fork": false,
+          "name": "awesome-ai-mass-spec",
+          "forks": 0,
+          "owner": "rogerwwww",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/18309862?v=4",
+          "topics": [],
+          "ownerId": "18309862",
+          "repoUrl": "https://github.com/rogerwwww/awesome-ai-mass-spec",
+          "archived": false,
+          "fullName": "rogerwwww/awesome-ai-mass-spec",
+          "language": "Python",
+          "ownerUrl": "https://github.com/rogerwwww",
+          "pushedAt": "2026-09-15T04:28:49+00:00",
+          "createdAt": "2026-09-14T16:49:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T09:54:34+00:00",
+          "description": "Awesome AI for mass spectrometry papers.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/rogerwwww",
+      "topRepo": {
+        "name": "awesome-ai-mass-spec",
+        "fullName": "rogerwwww/awesome-ai-mass-spec",
+        "stars": 16,
+        "url": "https://github.com/rogerwwww/awesome-ai-mass-spec"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18309862?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "rogerwwww/awesome-ai-mass-spec"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "7002620",
+      "rank": 23,
+      "type": "User",
+      "login": "nickfromlater",
+      "repos": [
+        {
+          "id": 1370185812,
+          "fork": false,
+          "name": "afterlight",
+          "forks": 2,
+          "owner": "nickfromlater",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/7002620?v=4",
+          "topics": [],
+          "ownerId": "7002620",
+          "repoUrl": "https://github.com/nickfromlater/afterlight",
+          "archived": false,
+          "fullName": "nickfromlater/afterlight",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/nickfromlater",
+          "pushedAt": "2026-09-14T16:58:15+00:00",
+          "createdAt": "2026-09-14T16:03:59+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:05:30+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nickfromlater",
+      "topRepo": {
+        "name": "afterlight",
+        "fullName": "nickfromlater/afterlight",
+        "stars": 15,
+        "url": "https://github.com/nickfromlater/afterlight"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7002620?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "nickfromlater/afterlight"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "229880707",
+      "rank": 24,
+      "type": "User",
+      "login": "viswajit-maker",
+      "repos": [
+        {
+          "id": 1370017894,
+          "fork": false,
+          "name": "studenterp",
+          "forks": 29,
+          "owner": "viswajit-maker",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/229880707?v=4",
+          "topics": [],
+          "ownerId": "229880707",
+          "repoUrl": "https://github.com/viswajit-maker/studenterp",
+          "archived": false,
+          "fullName": "viswajit-maker/studenterp",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/viswajit-maker",
+          "pushedAt": "2026-09-15T08:36:59+00:00",
+          "createdAt": "2026-09-14T14:09:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T08:40:12+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/viswajit-maker",
+      "topRepo": {
+        "name": "studenterp",
+        "fullName": "viswajit-maker/studenterp",
+        "stars": 15,
+        "url": "https://github.com/viswajit-maker/studenterp"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/229880707?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "viswajit-maker/studenterp"
+      ],
+      "starScore": 15
+    },
+    {
+      "id": "130952152",
+      "rank": 25,
+      "type": "User",
+      "login": "0xmariowu",
+      "repos": [
+        {
+          "id": 1370976292,
+          "fork": false,
+          "name": "cloudkeep",
+          "forks": 1,
+          "owner": "0xmariowu",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/130952152?v=4",
+          "topics": [],
+          "ownerId": "130952152",
+          "repoUrl": "https://github.com/0xmariowu/cloudkeep",
+          "archived": false,
+          "fullName": "0xmariowu/cloudkeep",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/0xmariowu",
+          "pushedAt": "2026-09-15T06:01:20+00:00",
+          "createdAt": "2026-09-15T06:00:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T09:44:57+00:00",
+          "description": "A handcrafted 3D sky exploration and creature-capture game. Original prompt, complete Three.js source, Blender models, and procedural asset scripts.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/0xmariowu",
+      "topRepo": {
+        "name": "cloudkeep",
+        "fullName": "0xmariowu/cloudkeep",
+        "stars": 14,
+        "url": "https://github.com/0xmariowu/cloudkeep"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130952152?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "0xmariowu/cloudkeep"
       ],
       "starScore": 14
+    },
+    {
+      "id": "149274873",
+      "rank": 26,
+      "type": "User",
+      "login": "codetesla51",
+      "repos": [
+        {
+          "id": 1370887913,
+          "fork": false,
+          "name": "screentime",
+          "forks": 1,
+          "owner": "codetesla51",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/149274873?v=4",
+          "topics": [],
+          "ownerId": "149274873",
+          "repoUrl": "https://github.com/codetesla51/screentime",
+          "archived": false,
+          "fullName": "codetesla51/screentime",
+          "language": "Go",
+          "ownerUrl": "https://github.com/codetesla51",
+          "pushedAt": "2026-09-15T09:16:02+00:00",
+          "createdAt": "2026-09-15T04:33:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T09:17:00+00:00",
+          "description": "",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/codetesla51",
+      "topRepo": {
+        "name": "screentime",
+        "fullName": "codetesla51/screentime",
+        "stars": 12,
+        "url": "https://github.com/codetesla51/screentime"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149274873?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "codetesla51/screentime"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "4427706",
+      "rank": 27,
+      "type": "User",
+      "login": "dhtoan",
+      "repos": [
+        {
+          "id": 1370597377,
+          "fork": false,
+          "name": "AunoStudio",
+          "forks": 0,
+          "owner": "dhtoan",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/4427706?v=4",
+          "topics": [],
+          "ownerId": "4427706",
+          "repoUrl": "https://github.com/dhtoan/AunoStudio",
+          "archived": false,
+          "fullName": "dhtoan/AunoStudio",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/dhtoan",
+          "pushedAt": "2026-09-15T11:56:29+00:00",
+          "createdAt": "2026-09-14T21:53:04+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:56:33+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/dhtoan",
+      "topRepo": {
+        "name": "AunoStudio",
+        "fullName": "dhtoan/AunoStudio",
+        "stars": 12,
+        "url": "https://github.com/dhtoan/AunoStudio"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4427706?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "dhtoan/AunoStudio"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "234804",
+      "rank": 28,
+      "type": "User",
+      "login": "greggman",
+      "repos": [
+        {
+          "id": 1370636174,
+          "fork": false,
+          "name": "webgpu-aquarium",
+          "forks": 1,
+          "owner": "greggman",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/234804?v=4",
+          "topics": [],
+          "ownerId": "234804",
+          "repoUrl": "https://github.com/greggman/webgpu-aquarium",
+          "archived": false,
+          "fullName": "greggman/webgpu-aquarium",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/greggman",
+          "pushedAt": "2026-09-14T23:17:31+00:00",
+          "createdAt": "2026-09-14T22:49:22+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T10:42:00+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/greggman",
+      "topRepo": {
+        "name": "webgpu-aquarium",
+        "fullName": "greggman/webgpu-aquarium",
+        "stars": 12,
+        "url": "https://github.com/greggman/webgpu-aquarium"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/234804?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "greggman/webgpu-aquarium"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "64804972",
+      "rank": 29,
+      "type": "User",
+      "login": "ismailivanov",
+      "repos": [
+        {
+          "id": 1370668025,
+          "fork": false,
+          "name": "TressFX-Godot",
+          "forks": 1,
+          "owner": "ismailivanov",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/64804972?v=4",
+          "topics": [
+            "fur",
+            "gdextension",
+            "godot",
+            "godot-addon",
+            "godot4",
+            "hair",
+            "tressfx"
+          ],
+          "ownerId": "64804972",
+          "repoUrl": "https://github.com/ismailivanov/TressFX-Godot",
+          "archived": false,
+          "fullName": "ismailivanov/TressFX-Godot",
+          "language": "Wolfram Language",
+          "ownerUrl": "https://github.com/ismailivanov",
+          "pushedAt": "2026-09-15T00:49:39+00:00",
+          "createdAt": "2026-09-14T23:43:52+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:51:38+00:00",
+          "description": "Real-time hair and fur for Godot 4: a native GDExtension port of AMD TressFX",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ismailivanov",
+      "topRepo": {
+        "name": "TressFX-Godot",
+        "fullName": "ismailivanov/TressFX-Godot",
+        "stars": 12,
+        "url": "https://github.com/ismailivanov/TressFX-Godot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64804972?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ismailivanov/TressFX-Godot"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "324507453",
+      "rank": 30,
+      "type": "Organization",
+      "login": "OpenQARP",
+      "repos": [
+        {
+          "id": 1369889091,
+          "fork": false,
+          "name": "openqarp",
+          "forks": 0,
+          "owner": "OpenQARP",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/324507453?v=4",
+          "topics": [
+            "quantum-algorithms",
+            "quantum-chemistry",
+            "quantum-computing",
+            "quantum-simulation"
+          ],
+          "ownerId": "324507453",
+          "repoUrl": "https://github.com/OpenQARP/openqarp",
+          "archived": false,
+          "fullName": "OpenQARP/openqarp",
+          "language": "Python",
+          "ownerUrl": "https://github.com/OpenQARP",
+          "pushedAt": "2026-09-14T18:33:43+00:00",
+          "createdAt": "2026-09-14T12:32:56+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-15T09:08:05+00:00",
+          "description": "Open Quantum Application Research Package",
+          "defaultBranch": "develop"
+        }
+      ],
+      "htmlUrl": "https://github.com/OpenQARP",
+      "topRepo": {
+        "name": "openqarp",
+        "fullName": "OpenQARP/openqarp",
+        "stars": 12,
+        "url": "https://github.com/OpenQARP/openqarp"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324507453?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "OpenQARP/openqarp"
+      ],
+      "starScore": 12
+    },
+    {
+      "id": "1680273",
+      "rank": 31,
+      "type": "User",
+      "login": "jaywcjlove",
+      "repos": [
+        {
+          "id": 1371019405,
+          "fork": false,
+          "name": "awesome-rust-apps",
+          "forks": 2,
+          "owner": "jaywcjlove",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/1680273?v=4",
+          "topics": [
+            "apps",
+            "awesome",
+            "awesome-list",
+            "awesome-rust",
+            "mac",
+            "macos",
+            "macos-app",
+            "rust",
+            "rust-app",
+            "rust-application",
+            "rust-apps",
+            "windows",
+            "windows-app",
+            "windows-desktop"
+          ],
+          "ownerId": "1680273",
+          "repoUrl": "https://github.com/jaywcjlove/awesome-rust-apps",
+          "archived": false,
+          "fullName": "jaywcjlove/awesome-rust-apps",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/jaywcjlove",
+          "pushedAt": "2026-09-15T11:11:24+00:00",
+          "createdAt": "2026-09-15T06:43:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:51:58+00:00",
+          "description": "A curated list of applications built with Rust",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jaywcjlove",
+      "topRepo": {
+        "name": "awesome-rust-apps",
+        "fullName": "jaywcjlove/awesome-rust-apps",
+        "stars": 11,
+        "url": "https://github.com/jaywcjlove/awesome-rust-apps"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1680273?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jaywcjlove/awesome-rust-apps"
+      ],
+      "starScore": 11
+    },
+    {
+      "id": "247616730",
+      "rank": 32,
+      "type": "User",
+      "login": "matchaDataHub",
+      "repos": [
+        {
+          "id": 1370103519,
+          "fork": false,
+          "name": "wortkiste",
+          "forks": 1,
+          "owner": "matchaDataHub",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/247616730?v=4",
+          "topics": [],
+          "ownerId": "247616730",
+          "repoUrl": "https://github.com/matchaDataHub/wortkiste",
+          "archived": false,
+          "fullName": "matchaDataHub/wortkiste",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/matchaDataHub",
+          "pushedAt": "2026-09-14T15:16:51+00:00",
+          "createdAt": "2026-09-14T15:05:15+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:47:25+00:00",
+          "description": "Free German A1–B1 vocab trainer: Goethe word list built in, Leitner spaced repetition, zero setup.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/matchaDataHub",
+      "topRepo": {
+        "name": "wortkiste",
+        "fullName": "matchaDataHub/wortkiste",
+        "stars": 11,
+        "url": "https://github.com/matchaDataHub/wortkiste"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/247616730?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "matchaDataHub/wortkiste"
+      ],
+      "starScore": 11
+    },
+    {
+      "id": "11903204",
+      "rank": 33,
+      "type": "User",
+      "login": "pgodlews",
+      "repos": [
+        {
+          "id": 1370294294,
+          "fork": false,
+          "name": "wormhole-display",
+          "forks": 0,
+          "owner": "pgodlews",
+          "stars": 11,
+          "avatar": "https://avatars.githubusercontent.com/u/11903204?v=4",
+          "topics": [],
+          "ownerId": "11903204",
+          "repoUrl": "https://github.com/pgodlews/wormhole-display",
+          "archived": false,
+          "fullName": "pgodlews/wormhole-display",
+          "language": "C",
+          "ownerUrl": "https://github.com/pgodlews",
+          "pushedAt": "2026-09-14T18:03:38+00:00",
+          "createdAt": "2026-09-14T17:18:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-15T11:13:41+00:00",
+          "description": "Give your Meta Portal a second life as a wireless display and speaker for Mac, iPhone and iPad (AirPlay-compatible receiver)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/pgodlews",
+      "topRepo": {
+        "name": "wormhole-display",
+        "fullName": "pgodlews/wormhole-display",
+        "stars": 11,
+        "url": "https://github.com/pgodlews/wormhole-display"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11903204?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "pgodlews/wormhole-display"
+      ],
+      "starScore": 11
     }
   ]
 }
