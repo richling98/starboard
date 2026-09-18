@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T11:37:30.024Z",
-  "total": 43,
-  "totalIndexedCount": 43,
-  "coverageLabel": "Showing 43 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-18T16:37:30.863Z",
+  "total": 37,
+  "totalIndexedCount": 37,
+  "coverageLabel": "Showing 37 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,52 +10,119 @@
   },
   "rows": [
     {
-      "id": "214398454",
+      "id": "273996259",
       "rank": 1,
       "type": "Organization",
-      "login": "thruwire",
+      "login": "Continuum-AI-Corp",
       "repos": [
         {
-          "id": 1374349137,
+          "id": 1375487141,
           "fork": false,
-          "name": "foreman",
-          "forks": 16,
-          "owner": "thruwire",
-          "stars": 249,
-          "avatar": "https://avatars.githubusercontent.com/u/214398454?v=4",
+          "name": "OrcaBonsai-27B-Uncensored",
+          "forks": 24,
+          "owner": "Continuum-AI-Corp",
+          "stars": 258,
+          "avatar": "https://avatars.githubusercontent.com/u/273996259?v=4",
           "topics": [],
-          "ownerId": "214398454",
-          "repoUrl": "https://github.com/thruwire/foreman",
+          "ownerId": "273996259",
+          "repoUrl": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
           "archived": false,
-          "fullName": "thruwire/foreman",
+          "fullName": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
           "language": "Python",
-          "ownerUrl": "https://github.com/thruwire",
-          "pushedAt": "2026-09-17T12:32:51+00:00",
-          "createdAt": "2026-09-17T11:46:13+00:00",
+          "ownerUrl": "https://github.com/Continuum-AI-Corp",
+          "pushedAt": "2026-09-18T12:58:46+00:00",
+          "createdAt": "2026-09-18T06:45:54+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-18T11:23:07+00:00",
-          "description": "Software Factory Foreman based on TypeSafe Jev model",
+          "updatedAt": "2026-09-18T16:30:48+00:00",
+          "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/thruwire",
+      "htmlUrl": "https://github.com/Continuum-AI-Corp",
       "topRepo": {
-        "name": "foreman",
-        "fullName": "thruwire/foreman",
-        "stars": 249,
-        "url": "https://github.com/thruwire/foreman"
+        "name": "OrcaBonsai-27B-Uncensored",
+        "fullName": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+        "stars": 258,
+        "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/214398454?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/273996259?v=4",
       "repoCount": 1,
       "repoNames": [
-        "thruwire/foreman"
+        "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"
       ],
-      "starScore": 249
+      "starScore": 258
+    },
+    {
+      "id": "109552121",
+      "rank": 2,
+      "type": "User",
+      "login": "realZachi",
+      "repos": [
+        {
+          "id": 1375026016,
+          "fork": false,
+          "name": "pg-jev",
+          "forks": 6,
+          "owner": "realZachi",
+          "stars": 141,
+          "avatar": "https://avatars.githubusercontent.com/u/109552121?v=4",
+          "topics": [],
+          "ownerId": "109552121",
+          "repoUrl": "https://github.com/realZachi/pg-jev",
+          "archived": false,
+          "fullName": "realZachi/pg-jev",
+          "language": "Python",
+          "ownerUrl": "https://github.com/realZachi",
+          "pushedAt": "2026-09-18T03:17:54+00:00",
+          "createdAt": "2026-09-17T20:04:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:33:23+00:00",
+          "description": "Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.",
+          "defaultBranch": "master"
+        },
+        {
+          "id": 1374815225,
+          "fork": false,
+          "name": "typesafe-adblock",
+          "forks": 3,
+          "owner": "realZachi",
+          "stars": 48,
+          "avatar": "https://avatars.githubusercontent.com/u/109552121?v=4",
+          "topics": [],
+          "ownerId": "109552121",
+          "repoUrl": "https://github.com/realZachi/typesafe-adblock",
+          "archived": false,
+          "fullName": "realZachi/typesafe-adblock",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/realZachi",
+          "pushedAt": "2026-09-17T17:35:25+00:00",
+          "createdAt": "2026-09-17T17:35:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:29:33+00:00",
+          "description": "🧹 Fun project: a Chrome extension that asks a tiny AI decision model (TypeSafe Jev) \"is this DOM element an ad?\" and pops it off the page. BYOK, no backend, not a real ad blocker.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/realZachi",
+      "topRepo": {
+        "name": "pg-jev",
+        "fullName": "realZachi/pg-jev",
+        "stars": 141,
+        "url": "https://github.com/realZachi/pg-jev"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109552121?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "realZachi/pg-jev",
+        "realZachi/typesafe-adblock"
+      ],
+      "starScore": 189
     },
     {
       "id": "1160594",
-      "rank": 2,
+      "rank": 3,
       "type": "User",
       "login": "kitze",
       "repos": [
@@ -65,7 +132,7 @@
           "name": "skillbox",
           "forks": 11,
           "owner": "kitze",
-          "stars": 135,
+          "stars": 151,
           "avatar": "https://avatars.githubusercontent.com/u/1160594?v=4",
           "topics": [],
           "ownerId": "1160594",
@@ -77,30 +144,8 @@
           "pushedAt": "2026-09-18T08:11:37+00:00",
           "createdAt": "2026-09-17T17:23:37+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-18T11:23:03+00:00",
+          "updatedAt": "2026-09-18T16:07:17+00:00",
           "description": "Self-hosted, versioned skills library for AI agents. MCP, scoped clients, and optional Jev recommendations.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1374363973,
-          "fork": false,
-          "name": "unclutter",
-          "forks": 3,
-          "owner": "kitze",
-          "stars": 62,
-          "avatar": "https://avatars.githubusercontent.com/u/1160594?v=4",
-          "topics": [],
-          "ownerId": "1160594",
-          "repoUrl": "https://github.com/kitze/unclutter",
-          "archived": false,
-          "fullName": "kitze/unclutter",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/kitze",
-          "pushedAt": "2026-09-18T08:12:00+00:00",
-          "createdAt": "2026-09-17T11:58:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:02:30+00:00",
-          "description": "WXT browser extension: Jev-powered page clutter removal with reusable template rules.",
           "defaultBranch": "main"
         }
       ],
@@ -108,57 +153,542 @@
       "topRepo": {
         "name": "skillbox",
         "fullName": "kitze/skillbox",
-        "stars": 135,
+        "stars": 151,
         "url": "https://github.com/kitze/skillbox"
       },
       "enriched": true,
       "avatarUrl": "https://avatars.githubusercontent.com/u/1160594?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kitze/skillbox"
+      ],
+      "starScore": 151
+    },
+    {
+      "id": "1857282",
+      "rank": 4,
+      "type": "User",
+      "login": "dabit3",
+      "repos": [
+        {
+          "id": 1375172727,
+          "fork": false,
+          "name": "jev-experiments",
+          "forks": 14,
+          "owner": "dabit3",
+          "stars": 149,
+          "avatar": "https://avatars.githubusercontent.com/u/1857282?v=4",
+          "topics": [],
+          "ownerId": "1857282",
+          "repoUrl": "https://github.com/dabit3/jev-experiments",
+          "archived": false,
+          "fullName": "dabit3/jev-experiments",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/dabit3",
+          "pushedAt": "2026-09-18T13:41:41+00:00",
+          "createdAt": "2026-09-17T23:36:37+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:30:52+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/dabit3",
+      "topRepo": {
+        "name": "jev-experiments",
+        "fullName": "dabit3/jev-experiments",
+        "stars": 149,
+        "url": "https://github.com/dabit3/jev-experiments"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1857282?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "dabit3/jev-experiments"
+      ],
+      "starScore": 149
+    },
+    {
+      "id": "7550632",
+      "rank": 5,
+      "type": "User",
+      "login": "ekzhang",
+      "repos": [
+        {
+          "id": 1374869789,
+          "fork": false,
+          "name": "openjev-sglang",
+          "forks": 11,
+          "owner": "ekzhang",
+          "stars": 126,
+          "avatar": "https://avatars.githubusercontent.com/u/7550632?v=4",
+          "topics": [
+            "jev",
+            "llm",
+            "structured-generation",
+            "systemone"
+          ],
+          "ownerId": "7550632",
+          "repoUrl": "https://github.com/ekzhang/openjev-sglang",
+          "archived": false,
+          "fullName": "ekzhang/openjev-sglang",
+          "language": "Python",
+          "ownerUrl": "https://github.com/ekzhang",
+          "pushedAt": "2026-09-18T15:46:43+00:00",
+          "createdAt": "2026-09-17T18:11:49+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:32:47+00:00",
+          "description": "Jev-compatible API endpoint based on open models (prefill-only)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ekzhang",
+      "topRepo": {
+        "name": "openjev-sglang",
+        "fullName": "ekzhang/openjev-sglang",
+        "stars": 126,
+        "url": "https://github.com/ekzhang/openjev-sglang"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7550632?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ekzhang/openjev-sglang"
+      ],
+      "starScore": 126
+    },
+    {
+      "id": "277176978",
+      "rank": 6,
+      "type": "User",
+      "login": "kuhnhomeuk-cell",
+      "repos": [
+        {
+          "id": 1374789451,
+          "fork": false,
+          "name": "procedural-film",
+          "forks": 16,
+          "owner": "kuhnhomeuk-cell",
+          "stars": 125,
+          "avatar": "https://avatars.githubusercontent.com/u/277176978?v=4",
+          "topics": [],
+          "ownerId": "277176978",
+          "repoUrl": "https://github.com/kuhnhomeuk-cell/procedural-film",
+          "archived": false,
+          "fullName": "kuhnhomeuk-cell/procedural-film",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/kuhnhomeuk-cell",
+          "pushedAt": "2026-09-17T19:44:16+00:00",
+          "createdAt": "2026-09-17T17:15:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:07:08+00:00",
+          "description": "Agent skill: turn a topic into a 30s vertical film drawn and scored entirely in JavaScript. Reference film: the life of a monarch butterfly.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kuhnhomeuk-cell",
+      "topRepo": {
+        "name": "procedural-film",
+        "fullName": "kuhnhomeuk-cell/procedural-film",
+        "stars": 125,
+        "url": "https://github.com/kuhnhomeuk-cell/procedural-film"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/277176978?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kuhnhomeuk-cell/procedural-film"
+      ],
+      "starScore": 125
+    },
+    {
+      "id": "48623612",
+      "rank": 7,
+      "type": "User",
+      "login": "NandhaKishorM",
+      "repos": [
+        {
+          "id": 1375382253,
+          "fork": false,
+          "name": "laya",
+          "forks": 19,
+          "owner": "NandhaKishorM",
+          "stars": 113,
+          "avatar": "https://avatars.githubusercontent.com/u/48623612?v=4",
+          "topics": [],
+          "ownerId": "48623612",
+          "repoUrl": "https://github.com/NandhaKishorM/laya",
+          "archived": false,
+          "fullName": "NandhaKishorM/laya",
+          "language": "Jupyter Notebook",
+          "ownerUrl": "https://github.com/NandhaKishorM",
+          "pushedAt": "2026-09-18T16:22:00+00:00",
+          "createdAt": "2026-09-18T04:46:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:27:23+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/NandhaKishorM",
+      "topRepo": {
+        "name": "laya",
+        "fullName": "NandhaKishorM/laya",
+        "stars": 113,
+        "url": "https://github.com/NandhaKishorM/laya"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48623612?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "NandhaKishorM/laya"
+      ],
+      "starScore": 113
+    },
+    {
+      "id": "328999928",
+      "rank": 8,
+      "type": "User",
+      "login": "dashscope-sdk",
+      "repos": [
+        {
+          "id": 1375069018,
+          "fork": false,
+          "name": "idempotency-shield",
+          "forks": 10,
+          "owner": "dashscope-sdk",
+          "stars": 55,
+          "avatar": "https://avatars.githubusercontent.com/u/328999928?v=4",
+          "topics": [
+            "express",
+            "express-js",
+            "expressjs",
+            "nodejs"
+          ],
+          "ownerId": "328999928",
+          "repoUrl": "https://github.com/dashscope-sdk/idempotency-shield",
+          "archived": false,
+          "fullName": "dashscope-sdk/idempotency-shield",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/dashscope-sdk",
+          "pushedAt": "2026-09-17T20:48:41+00:00",
+          "createdAt": "2026-09-17T20:48:37+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:21:32+00:00",
+          "description": "Express middleware that makes handlers safe to retry — replays the cached response for a duplicate Idempotency-Key instead of re-running it, with pluggable in-memory or Redis storage.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1375422454,
+          "fork": false,
+          "name": "dashcope-sdk-python",
+          "forks": 18,
+          "owner": "dashscope-sdk",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/328999928?v=4",
+          "topics": [
+            "dashscope"
+          ],
+          "ownerId": "328999928",
+          "repoUrl": "https://github.com/dashscope-sdk/dashcope-sdk-python",
+          "archived": false,
+          "fullName": "dashscope-sdk/dashcope-sdk-python",
+          "language": "Python",
+          "ownerUrl": "https://github.com/dashscope-sdk",
+          "pushedAt": "2026-09-18T16:07:22+00:00",
+          "createdAt": "2026-09-18T05:35:14+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:07:26+00:00",
+          "description": "python sdk for dashscope [model studio](https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/dashscope-sdk",
+      "topRepo": {
+        "name": "idempotency-shield",
+        "fullName": "dashscope-sdk/idempotency-shield",
+        "stars": 55,
+        "url": "https://github.com/dashscope-sdk/idempotency-shield"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/328999928?v=4",
       "repoCount": 2,
       "repoNames": [
-        "kitze/skillbox",
-        "kitze/unclutter"
+        "dashscope-sdk/idempotency-shield",
+        "dashscope-sdk/dashcope-sdk-python"
       ],
-      "starScore": 197
+      "starScore": 102
+    },
+    {
+      "id": "159284258",
+      "rank": 9,
+      "type": "User",
+      "login": "hr98w",
+      "repos": [
+        {
+          "id": 1374829176,
+          "fork": false,
+          "name": "jev-visual",
+          "forks": 11,
+          "owner": "hr98w",
+          "stars": 97,
+          "avatar": "https://avatars.githubusercontent.com/u/159284258?v=4",
+          "topics": [],
+          "ownerId": "159284258",
+          "repoUrl": "https://github.com/hr98w/jev-visual",
+          "archived": false,
+          "fullName": "hr98w/jev-visual",
+          "language": "Python",
+          "ownerUrl": "https://github.com/hr98w",
+          "pushedAt": "2026-09-18T08:53:11+00:00",
+          "createdAt": "2026-09-17T17:45:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:22:38+00:00",
+          "description": "An educational Jev-like visual inference experiment on Apple Silicon: shared context, direct candidate scoring, and local visual demos.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/hr98w",
+      "topRepo": {
+        "name": "jev-visual",
+        "fullName": "hr98w/jev-visual",
+        "stars": 97,
+        "url": "https://github.com/hr98w/jev-visual"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159284258?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "hr98w/jev-visual"
+      ],
+      "starScore": 97
+    },
+    {
+      "id": "330850285",
+      "rank": 10,
+      "type": "User",
+      "login": "666dragon6",
+      "repos": [
+        {
+          "id": 1375743792,
+          "fork": false,
+          "name": "polymarket-multistrategy-trading-bot",
+          "forks": 8,
+          "owner": "666dragon6",
+          "stars": 88,
+          "avatar": "https://avatars.githubusercontent.com/u/330850285?v=4",
+          "topics": [],
+          "ownerId": "330850285",
+          "repoUrl": "https://github.com/666dragon6/polymarket-multistrategy-trading-bot",
+          "archived": false,
+          "fullName": "666dragon6/polymarket-multistrategy-trading-bot",
+          "language": "Python",
+          "ownerUrl": "https://github.com/666dragon6",
+          "pushedAt": "2026-09-18T11:25:20+00:00",
+          "createdAt": "2026-09-18T11:05:24+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:10:00+00:00",
+          "description": "Polymarket bot with pluggable strategies, paper trading by default, and a readable engine. Polygon · CLOB · risk limits.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/666dragon6",
+      "topRepo": {
+        "name": "polymarket-multistrategy-trading-bot",
+        "fullName": "666dragon6/polymarket-multistrategy-trading-bot",
+        "stars": 88,
+        "url": "https://github.com/666dragon6/polymarket-multistrategy-trading-bot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/330850285?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "666dragon6/polymarket-multistrategy-trading-bot"
+      ],
+      "starScore": 88
+    },
+    {
+      "id": "87581101",
+      "rank": 11,
+      "type": "User",
+      "login": "isinternets",
+      "repos": [
+        {
+          "id": 1375175234,
+          "fork": false,
+          "name": "Dawn",
+          "forks": 12,
+          "owner": "isinternets",
+          "stars": 84,
+          "avatar": "https://avatars.githubusercontent.com/u/87581101?v=4",
+          "topics": [],
+          "ownerId": "87581101",
+          "repoUrl": "https://github.com/isinternets/Dawn",
+          "archived": false,
+          "fullName": "isinternets/Dawn",
+          "language": "C++",
+          "ownerUrl": "https://github.com/isinternets",
+          "pushedAt": "2026-09-18T15:27:23+00:00",
+          "createdAt": "2026-09-17T23:41:10+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:15:44+00:00",
+          "description": "Dawn Production Releases ",
+          "defaultBranch": "production"
+        }
+      ],
+      "htmlUrl": "https://github.com/isinternets",
+      "topRepo": {
+        "name": "Dawn",
+        "fullName": "isinternets/Dawn",
+        "stars": 84,
+        "url": "https://github.com/isinternets/Dawn"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87581101?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "isinternets/Dawn"
+      ],
+      "starScore": 84
+    },
+    {
+      "id": "25005362",
+      "rank": 12,
+      "type": "User",
+      "login": "chaseleantj",
+      "repos": [
+        {
+          "id": 1375594818,
+          "fork": false,
+          "name": "desktop-habitats",
+          "forks": 12,
+          "owner": "chaseleantj",
+          "stars": 82,
+          "avatar": "https://avatars.githubusercontent.com/u/25005362?v=4",
+          "topics": [],
+          "ownerId": "25005362",
+          "repoUrl": "https://github.com/chaseleantj/desktop-habitats",
+          "archived": false,
+          "fullName": "chaseleantj/desktop-habitats",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/chaseleantj",
+          "pushedAt": "2026-09-18T10:19:58+00:00",
+          "createdAt": "2026-09-18T08:31:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:31:29+00:00",
+          "description": "Living ecosystems you can interact with on your desktop",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/chaseleantj",
+      "topRepo": {
+        "name": "desktop-habitats",
+        "fullName": "chaseleantj/desktop-habitats",
+        "stars": 82,
+        "url": "https://github.com/chaseleantj/desktop-habitats"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25005362?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "chaseleantj/desktop-habitats"
+      ],
+      "starScore": 82
+    },
+    {
+      "id": "81794",
+      "rank": 13,
+      "type": "User",
+      "login": "dbreunig",
+      "repos": [
+        {
+          "id": 1375083492,
+          "fork": false,
+          "name": "building-with-jev-skill",
+          "forks": 2,
+          "owner": "dbreunig",
+          "stars": 81,
+          "avatar": "https://avatars.githubusercontent.com/u/81794?v=4",
+          "topics": [],
+          "ownerId": "81794",
+          "repoUrl": "https://github.com/dbreunig/building-with-jev-skill",
+          "archived": false,
+          "fullName": "dbreunig/building-with-jev-skill",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/dbreunig",
+          "pushedAt": "2026-09-17T21:09:01+00:00",
+          "createdAt": "2026-09-17T21:07:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:28:44+00:00",
+          "description": "A skill for writing and improving programs that call Jev, TypeSafe's System One model",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/dbreunig",
+      "topRepo": {
+        "name": "building-with-jev-skill",
+        "fullName": "dbreunig/building-with-jev-skill",
+        "stars": 81,
+        "url": "https://github.com/dbreunig/building-with-jev-skill"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81794?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "dbreunig/building-with-jev-skill"
+      ],
+      "starScore": 81
+    },
+    {
+      "id": "260253",
+      "rank": 14,
+      "type": "User",
+      "login": "jkudish",
+      "repos": [
+        {
+          "id": 1374967555,
+          "fork": false,
+          "name": "jev-browser",
+          "forks": 4,
+          "owner": "jkudish",
+          "stars": 77,
+          "avatar": "https://avatars.githubusercontent.com/u/260253?v=4",
+          "topics": [],
+          "ownerId": "260253",
+          "repoUrl": "https://github.com/jkudish/jev-browser",
+          "archived": false,
+          "fullName": "jkudish/jev-browser",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/jkudish",
+          "pushedAt": "2026-09-18T09:39:39+00:00",
+          "createdAt": "2026-09-17T19:22:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:31:22+00:00",
+          "description": "Browser use using Typesafe's Jev model",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/jkudish",
+      "topRepo": {
+        "name": "jev-browser",
+        "fullName": "jkudish/jev-browser",
+        "stars": 77,
+        "url": "https://github.com/jkudish/jev-browser"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/260253?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jkudish/jev-browser"
+      ],
+      "starScore": 77
     },
     {
       "id": "330359374",
-      "rank": 3,
+      "rank": 15,
       "type": "Organization",
       "login": "repoboost-hq",
       "repos": [
-        {
-          "id": 1374730640,
-          "fork": false,
-          "name": "github-launch-checklist",
-          "forks": 4,
-          "owner": "repoboost-hq",
-          "stars": 114,
-          "avatar": "https://avatars.githubusercontent.com/u/330359374?v=4",
-          "topics": [
-            "developer-tools",
-            "github",
-            "github-api",
-            "launch-checklist",
-            "launch-readiness",
-            "open-source",
-            "pre-launch-checklist",
-            "python",
-            "repository-management",
-            "seo"
-          ],
-          "ownerId": "330359374",
-          "repoUrl": "https://github.com/repoboost-hq/github-launch-checklist",
-          "archived": false,
-          "fullName": "repoboost-hq/github-launch-checklist",
-          "language": "Python",
-          "ownerUrl": "https://github.com/repoboost-hq",
-          "pushedAt": "2026-09-17T19:05:06+00:00",
-          "createdAt": "2026-09-17T16:30:57+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T08:18:08+00:00",
-          "description": "Audit a GitHub repository before launch - ten readiness checks scored 0-10: name, description, topics, README, license, demo, installation, contributing guide and issue templates. Free and open source.",
-          "defaultBranch": "main"
-        },
         {
           "id": 1374805957,
           "fork": false,
@@ -193,1544 +723,22 @@
       ],
       "htmlUrl": "https://github.com/repoboost-hq",
       "topRepo": {
-        "name": "github-launch-checklist",
-        "fullName": "repoboost-hq/github-launch-checklist",
-        "stars": 114,
-        "url": "https://github.com/repoboost-hq/github-launch-checklist"
+        "name": "github-search-ranking",
+        "fullName": "repoboost-hq/github-search-ranking",
+        "stars": 77,
+        "url": "https://github.com/repoboost-hq/github-search-ranking"
       },
       "enriched": true,
       "avatarUrl": "https://avatars.githubusercontent.com/u/330359374?v=4",
-      "repoCount": 2,
+      "repoCount": 1,
       "repoNames": [
-        "repoboost-hq/github-launch-checklist",
         "repoboost-hq/github-search-ranking"
       ],
-      "starScore": 191
-    },
-    {
-      "id": "48460209",
-      "rank": 4,
-      "type": "User",
-      "login": "TianyuCodings",
-      "repos": [
-        {
-          "id": 1374702542,
-          "fork": false,
-          "name": "NanoJev",
-          "forks": 12,
-          "owner": "TianyuCodings",
-          "stars": 183,
-          "avatar": "https://avatars.githubusercontent.com/u/48460209?v=4",
-          "topics": [],
-          "ownerId": "48460209",
-          "repoUrl": "https://github.com/TianyuCodings/NanoJev",
-          "archived": false,
-          "fullName": "TianyuCodings/NanoJev",
-          "language": "Python",
-          "ownerUrl": "https://github.com/TianyuCodings",
-          "pushedAt": "2026-09-17T23:24:13+00:00",
-          "createdAt": "2026-09-17T16:08:30+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:29:50+00:00",
-          "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TianyuCodings",
-      "topRepo": {
-        "name": "NanoJev",
-        "fullName": "TianyuCodings/NanoJev",
-        "stars": 183,
-        "url": "https://github.com/TianyuCodings/NanoJev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48460209?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TianyuCodings/NanoJev"
-      ],
-      "starScore": 183
-    },
-    {
-      "id": "109552121",
-      "rank": 5,
-      "type": "User",
-      "login": "realZachi",
-      "repos": [
-        {
-          "id": 1375026016,
-          "fork": false,
-          "name": "pg-jev",
-          "forks": 4,
-          "owner": "realZachi",
-          "stars": 102,
-          "avatar": "https://avatars.githubusercontent.com/u/109552121?v=4",
-          "topics": [],
-          "ownerId": "109552121",
-          "repoUrl": "https://github.com/realZachi/pg-jev",
-          "archived": false,
-          "fullName": "realZachi/pg-jev",
-          "language": "Python",
-          "ownerUrl": "https://github.com/realZachi",
-          "pushedAt": "2026-09-18T03:17:54+00:00",
-          "createdAt": "2026-09-17T20:04:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:07:23+00:00",
-          "description": "Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.",
-          "defaultBranch": "master"
-        },
-        {
-          "id": 1374815225,
-          "fork": false,
-          "name": "typesafe-adblock",
-          "forks": 3,
-          "owner": "realZachi",
-          "stars": 39,
-          "avatar": "https://avatars.githubusercontent.com/u/109552121?v=4",
-          "topics": [],
-          "ownerId": "109552121",
-          "repoUrl": "https://github.com/realZachi/typesafe-adblock",
-          "archived": false,
-          "fullName": "realZachi/typesafe-adblock",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/realZachi",
-          "pushedAt": "2026-09-17T17:35:25+00:00",
-          "createdAt": "2026-09-17T17:35:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:13:08+00:00",
-          "description": "🧹 Fun project: a Chrome extension that asks a tiny AI decision model (TypeSafe Jev) \"is this DOM element an ad?\" and pops it off the page. BYOK, no backend, not a real ad blocker.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/realZachi",
-      "topRepo": {
-        "name": "pg-jev",
-        "fullName": "realZachi/pg-jev",
-        "stars": 102,
-        "url": "https://github.com/realZachi/pg-jev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/109552121?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "realZachi/pg-jev",
-        "realZachi/typesafe-adblock"
-      ],
-      "starScore": 141
-    },
-    {
-      "id": "860985",
-      "rank": 6,
-      "type": "User",
-      "login": "jtydhr88",
-      "repos": [
-        {
-          "id": 1374657933,
-          "fork": false,
-          "name": "music-composition-skills",
-          "forks": 6,
-          "owner": "jtydhr88",
-          "stars": 73,
-          "avatar": "https://avatars.githubusercontent.com/u/860985?v=4",
-          "topics": [],
-          "ownerId": "860985",
-          "repoUrl": "https://github.com/jtydhr88/music-composition-skills",
-          "archived": false,
-          "fullName": "jtydhr88/music-composition-skills",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/jtydhr88",
-          "pushedAt": "2026-09-17T19:45:43+00:00",
-          "createdAt": "2026-09-17T15:33:58+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:58:10+00:00",
-          "description": "Professional agent skills for composing and arranging popular music",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1374660415,
-          "fork": false,
-          "name": "lyric-writing-skills",
-          "forks": 6,
-          "owner": "jtydhr88",
-          "stars": 55,
-          "avatar": "https://avatars.githubusercontent.com/u/860985?v=4",
-          "topics": [],
-          "ownerId": "860985",
-          "repoUrl": "https://github.com/jtydhr88/lyric-writing-skills",
-          "archived": false,
-          "fullName": "jtydhr88/lyric-writing-skills",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/jtydhr88",
-          "pushedAt": "2026-09-17T19:45:24+00:00",
-          "createdAt": "2026-09-17T15:35:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:57:58+00:00",
-          "description": "Professional agent skills for writing song lyrics",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jtydhr88",
-      "topRepo": {
-        "name": "music-composition-skills",
-        "fullName": "jtydhr88/music-composition-skills",
-        "stars": 73,
-        "url": "https://github.com/jtydhr88/music-composition-skills"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/860985?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "jtydhr88/music-composition-skills",
-        "jtydhr88/lyric-writing-skills"
-      ],
-      "starScore": 128
-    },
-    {
-      "id": "277176978",
-      "rank": 7,
-      "type": "User",
-      "login": "kuhnhomeuk-cell",
-      "repos": [
-        {
-          "id": 1374789451,
-          "fork": false,
-          "name": "procedural-film",
-          "forks": 15,
-          "owner": "kuhnhomeuk-cell",
-          "stars": 113,
-          "avatar": "https://avatars.githubusercontent.com/u/277176978?v=4",
-          "topics": [],
-          "ownerId": "277176978",
-          "repoUrl": "https://github.com/kuhnhomeuk-cell/procedural-film",
-          "archived": false,
-          "fullName": "kuhnhomeuk-cell/procedural-film",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/kuhnhomeuk-cell",
-          "pushedAt": "2026-09-17T19:44:16+00:00",
-          "createdAt": "2026-09-17T17:15:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:38:07+00:00",
-          "description": "Agent skill: turn a topic into a 30s vertical film drawn and scored entirely in JavaScript. Reference film: the life of a monarch butterfly.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kuhnhomeuk-cell",
-      "topRepo": {
-        "name": "procedural-film",
-        "fullName": "kuhnhomeuk-cell/procedural-film",
-        "stars": 113,
-        "url": "https://github.com/kuhnhomeuk-cell/procedural-film"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/277176978?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kuhnhomeuk-cell/procedural-film"
-      ],
-      "starScore": 113
-    },
-    {
-      "id": "7550632",
-      "rank": 8,
-      "type": "User",
-      "login": "ekzhang",
-      "repos": [
-        {
-          "id": 1374869789,
-          "fork": false,
-          "name": "openjev-sglang",
-          "forks": 10,
-          "owner": "ekzhang",
-          "stars": 106,
-          "avatar": "https://avatars.githubusercontent.com/u/7550632?v=4",
-          "topics": [
-            "jev",
-            "llm",
-            "structured-generation",
-            "systemone"
-          ],
-          "ownerId": "7550632",
-          "repoUrl": "https://github.com/ekzhang/openjev-sglang",
-          "archived": false,
-          "fullName": "ekzhang/openjev-sglang",
-          "language": "Python",
-          "ownerUrl": "https://github.com/ekzhang",
-          "pushedAt": "2026-09-18T06:41:35+00:00",
-          "createdAt": "2026-09-17T18:11:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:29:14+00:00",
-          "description": "Jev-compatible API endpoint based on open models (prefill-only)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ekzhang",
-      "topRepo": {
-        "name": "openjev-sglang",
-        "fullName": "ekzhang/openjev-sglang",
-        "stars": 106,
-        "url": "https://github.com/ekzhang/openjev-sglang"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7550632?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ekzhang/openjev-sglang"
-      ],
-      "starScore": 106
-    },
-    {
-      "id": "35612527",
-      "rank": 9,
-      "type": "Organization",
-      "login": "planetscale",
-      "repos": [
-        {
-          "id": 1374570446,
-          "fork": false,
-          "name": "lead",
-          "forks": 3,
-          "owner": "planetscale",
-          "stars": 100,
-          "avatar": "https://avatars.githubusercontent.com/u/35612527?v=4",
-          "topics": [],
-          "ownerId": "35612527",
-          "repoUrl": "https://github.com/planetscale/lead",
-          "archived": false,
-          "fullName": "planetscale/lead",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/planetscale",
-          "pushedAt": "2026-09-17T21:16:50+00:00",
-          "createdAt": "2026-09-17T14:29:30+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T10:45:52+00:00",
-          "description": "A non-production Postgres text-search extension for exercising TIN-compatible application SQL in development, test, CI, and staging environments",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/planetscale",
-      "topRepo": {
-        "name": "lead",
-        "fullName": "planetscale/lead",
-        "stars": 100,
-        "url": "https://github.com/planetscale/lead"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/35612527?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "planetscale/lead"
-      ],
-      "starScore": 100
-    },
-    {
-      "id": "1857282",
-      "rank": 10,
-      "type": "User",
-      "login": "dabit3",
-      "repos": [
-        {
-          "id": 1375172727,
-          "fork": false,
-          "name": "jev-experiments",
-          "forks": 8,
-          "owner": "dabit3",
-          "stars": 95,
-          "avatar": "https://avatars.githubusercontent.com/u/1857282?v=4",
-          "topics": [],
-          "ownerId": "1857282",
-          "repoUrl": "https://github.com/dabit3/jev-experiments",
-          "archived": false,
-          "fullName": "dabit3/jev-experiments",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/dabit3",
-          "pushedAt": "2026-09-18T07:39:30+00:00",
-          "createdAt": "2026-09-17T23:36:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:28:14+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dabit3",
-      "topRepo": {
-        "name": "jev-experiments",
-        "fullName": "dabit3/jev-experiments",
-        "stars": 95,
-        "url": "https://github.com/dabit3/jev-experiments"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1857282?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dabit3/jev-experiments"
-      ],
-      "starScore": 95
-    },
-    {
-      "id": "273996259",
-      "rank": 11,
-      "type": "Organization",
-      "login": "Continuum-AI-Corp",
-      "repos": [
-        {
-          "id": 1375487141,
-          "fork": false,
-          "name": "OrcaBonsai-27B-Uncensored",
-          "forks": 5,
-          "owner": "Continuum-AI-Corp",
-          "stars": 94,
-          "avatar": "https://avatars.githubusercontent.com/u/273996259?v=4",
-          "topics": [],
-          "ownerId": "273996259",
-          "repoUrl": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
-          "archived": false,
-          "fullName": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Continuum-AI-Corp",
-          "pushedAt": "2026-09-18T10:04:00+00:00",
-          "createdAt": "2026-09-18T06:45:54+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T11:27:36+00:00",
-          "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Continuum-AI-Corp",
-      "topRepo": {
-        "name": "OrcaBonsai-27B-Uncensored",
-        "fullName": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
-        "stars": 94,
-        "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/273996259?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"
-      ],
-      "starScore": 94
-    },
-    {
-      "id": "365484",
-      "rank": 12,
-      "type": "User",
-      "login": "yibie",
-      "repos": [
-        {
-          "id": 1374561793,
-          "fork": false,
-          "name": "awesome-jev",
-          "forks": 6,
-          "owner": "yibie",
-          "stars": 82,
-          "avatar": "https://avatars.githubusercontent.com/u/365484?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "jev",
-            "llm"
-          ],
-          "ownerId": "365484",
-          "repoUrl": "https://github.com/yibie/awesome-jev",
-          "archived": false,
-          "fullName": "yibie/awesome-jev",
-          "language": "Python",
-          "ownerUrl": "https://github.com/yibie",
-          "pushedAt": "2026-09-18T11:05:20+00:00",
-          "createdAt": "2026-09-17T14:23:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:17:54+00:00",
-          "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/yibie",
-      "topRepo": {
-        "name": "awesome-jev",
-        "fullName": "yibie/awesome-jev",
-        "stars": 82,
-        "url": "https://github.com/yibie/awesome-jev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/365484?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "yibie/awesome-jev"
-      ],
-      "starScore": 82
-    },
-    {
-      "id": "159284258",
-      "rank": 13,
-      "type": "User",
-      "login": "hr98w",
-      "repos": [
-        {
-          "id": 1374829176,
-          "fork": false,
-          "name": "jev-visual",
-          "forks": 8,
-          "owner": "hr98w",
-          "stars": 80,
-          "avatar": "https://avatars.githubusercontent.com/u/159284258?v=4",
-          "topics": [],
-          "ownerId": "159284258",
-          "repoUrl": "https://github.com/hr98w/jev-visual",
-          "archived": false,
-          "fullName": "hr98w/jev-visual",
-          "language": "Python",
-          "ownerUrl": "https://github.com/hr98w",
-          "pushedAt": "2026-09-18T08:53:11+00:00",
-          "createdAt": "2026-09-17T17:45:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:28:46+00:00",
-          "description": "An educational Jev-like visual inference experiment on Apple Silicon: shared context, direct candidate scoring, and local visual demos.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hr98w",
-      "topRepo": {
-        "name": "jev-visual",
-        "fullName": "hr98w/jev-visual",
-        "stars": 80,
-        "url": "https://github.com/hr98w/jev-visual"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159284258?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hr98w/jev-visual"
-      ],
-      "starScore": 80
-    },
-    {
-      "id": "328999928",
-      "rank": 14,
-      "type": "User",
-      "login": "dashscope-sdk",
-      "repos": [
-        {
-          "id": 1375069018,
-          "fork": false,
-          "name": "idempotency-shield",
-          "forks": 10,
-          "owner": "dashscope-sdk",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/328999928?v=4",
-          "topics": [
-            "express",
-            "express-js",
-            "expressjs",
-            "nodejs"
-          ],
-          "ownerId": "328999928",
-          "repoUrl": "https://github.com/dashscope-sdk/idempotency-shield",
-          "archived": false,
-          "fullName": "dashscope-sdk/idempotency-shield",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/dashscope-sdk",
-          "pushedAt": "2026-09-17T20:48:41+00:00",
-          "createdAt": "2026-09-17T20:48:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:02:54+00:00",
-          "description": "Express middleware that makes handlers safe to retry — replays the cached response for a duplicate Idempotency-Key instead of re-running it, with pluggable in-memory or Redis storage.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1375422454,
-          "fork": false,
-          "name": "dashcope-sdk-python",
-          "forks": 0,
-          "owner": "dashscope-sdk",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/328999928?v=4",
-          "topics": [
-            "dashscope"
-          ],
-          "ownerId": "328999928",
-          "repoUrl": "https://github.com/dashscope-sdk/dashcope-sdk-python",
-          "archived": false,
-          "fullName": "dashscope-sdk/dashcope-sdk-python",
-          "language": "Python",
-          "ownerUrl": "https://github.com/dashscope-sdk",
-          "pushedAt": "2026-09-18T05:35:21+00:00",
-          "createdAt": "2026-09-18T05:35:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:13:24+00:00",
-          "description": "python sdk for dashscope [model studio](https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dashscope-sdk",
-      "topRepo": {
-        "name": "idempotency-shield",
-        "fullName": "dashscope-sdk/idempotency-shield",
-        "stars": 46,
-        "url": "https://github.com/dashscope-sdk/idempotency-shield"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/328999928?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "dashscope-sdk/idempotency-shield",
-        "dashscope-sdk/dashcope-sdk-python"
-      ],
-      "starScore": 68
-    },
-    {
-      "id": "87581101",
-      "rank": 15,
-      "type": "User",
-      "login": "isinternets",
-      "repos": [
-        {
-          "id": 1375175234,
-          "fork": false,
-          "name": "Dawn",
-          "forks": 6,
-          "owner": "isinternets",
-          "stars": 68,
-          "avatar": "https://avatars.githubusercontent.com/u/87581101?v=4",
-          "topics": [],
-          "ownerId": "87581101",
-          "repoUrl": "https://github.com/isinternets/Dawn",
-          "archived": false,
-          "fullName": "isinternets/Dawn",
-          "language": "C++",
-          "ownerUrl": "https://github.com/isinternets",
-          "pushedAt": "2026-09-18T05:12:40+00:00",
-          "createdAt": "2026-09-17T23:41:10+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:27:08+00:00",
-          "description": "Dawn Production Releases ",
-          "defaultBranch": "codex/production"
-        }
-      ],
-      "htmlUrl": "https://github.com/isinternets",
-      "topRepo": {
-        "name": "Dawn",
-        "fullName": "isinternets/Dawn",
-        "stars": 68,
-        "url": "https://github.com/isinternets/Dawn"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/87581101?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "isinternets/Dawn"
-      ],
-      "starScore": 68
-    },
-    {
-      "id": "575723",
-      "rank": 16,
-      "type": "User",
-      "login": "inikolax",
-      "repos": [
-        {
-          "id": 1374457005,
-          "fork": false,
-          "name": "remiqora",
-          "forks": 5,
-          "owner": "inikolax",
-          "stars": 64,
-          "avatar": "https://avatars.githubusercontent.com/u/575723?v=4",
-          "topics": [
-            "ace-step",
-            "ai-music",
-            "daw",
-            "fastapi",
-            "generative-ai",
-            "local-ai",
-            "lora",
-            "midi",
-            "music-generation",
-            "music-production",
-            "self-hosted",
-            "stem-separation",
-            "text-to-music",
-            "typescript",
-            "vue3",
-            "yue2",
-            "yue2-3b"
-          ],
-          "ownerId": "575723",
-          "repoUrl": "https://github.com/inikolax/remiqora",
-          "archived": false,
-          "fullName": "inikolax/remiqora",
-          "language": "Vue",
-          "ownerUrl": "https://github.com/inikolax",
-          "pushedAt": "2026-09-18T11:16:39+00:00",
-          "createdAt": "2026-09-17T13:09:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:25:35+00:00",
-          "description": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/inikolax",
-      "topRepo": {
-        "name": "remiqora",
-        "fullName": "inikolax/remiqora",
-        "stars": 64,
-        "url": "https://github.com/inikolax/remiqora"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/575723?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "inikolax/remiqora"
-      ],
-      "starScore": 64
-    },
-    {
-      "id": "34152111",
-      "rank": 17,
-      "type": "User",
-      "login": "jianglongye",
-      "repos": [
-        {
-          "id": 1374557065,
-          "fork": false,
-          "name": "dexterous-astra",
-          "forks": 3,
-          "owner": "jianglongye",
-          "stars": 58,
-          "avatar": "https://avatars.githubusercontent.com/u/34152111?v=4",
-          "topics": [],
-          "ownerId": "34152111",
-          "repoUrl": "https://github.com/jianglongye/dexterous-astra",
-          "archived": false,
-          "fullName": "jianglongye/dexterous-astra",
-          "language": "Python",
-          "ownerUrl": "https://github.com/jianglongye",
-          "pushedAt": "2026-09-17T22:31:09+00:00",
-          "createdAt": "2026-09-17T14:20:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:10:44+00:00",
-          "description": "Dexterous pen spinning and Rubik's cube: sim environments, zero-shot scripts, trained checkpoints",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jianglongye",
-      "topRepo": {
-        "name": "dexterous-astra",
-        "fullName": "jianglongye/dexterous-astra",
-        "stars": 58,
-        "url": "https://github.com/jianglongye/dexterous-astra"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/34152111?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jianglongye/dexterous-astra"
-      ],
-      "starScore": 58
-    },
-    {
-      "id": "81794",
-      "rank": 18,
-      "type": "User",
-      "login": "dbreunig",
-      "repos": [
-        {
-          "id": 1375083492,
-          "fork": false,
-          "name": "building-with-jev-skill",
-          "forks": 2,
-          "owner": "dbreunig",
-          "stars": 57,
-          "avatar": "https://avatars.githubusercontent.com/u/81794?v=4",
-          "topics": [],
-          "ownerId": "81794",
-          "repoUrl": "https://github.com/dbreunig/building-with-jev-skill",
-          "archived": false,
-          "fullName": "dbreunig/building-with-jev-skill",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/dbreunig",
-          "pushedAt": "2026-09-17T21:09:01+00:00",
-          "createdAt": "2026-09-17T21:07:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:26:48+00:00",
-          "description": "A skill for writing and improving programs that call Jev, TypeSafe's System One model",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dbreunig",
-      "topRepo": {
-        "name": "building-with-jev-skill",
-        "fullName": "dbreunig/building-with-jev-skill",
-        "stars": 57,
-        "url": "https://github.com/dbreunig/building-with-jev-skill"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/81794?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dbreunig/building-with-jev-skill"
-      ],
-      "starScore": 57
-    },
-    {
-      "id": "13711526",
-      "rank": 19,
-      "type": "User",
-      "login": "dimentary",
-      "repos": [
-        {
-          "id": 1374827115,
-          "fork": false,
-          "name": "llm-robotics-playground",
-          "forks": 3,
-          "owner": "dimentary",
-          "stars": 54,
-          "avatar": "https://avatars.githubusercontent.com/u/13711526?v=4",
-          "topics": [],
-          "ownerId": "13711526",
-          "repoUrl": "https://github.com/dimentary/llm-robotics-playground",
-          "archived": false,
-          "fullName": "dimentary/llm-robotics-playground",
-          "language": "Python",
-          "ownerUrl": "https://github.com/dimentary",
-          "pushedAt": "2026-09-17T22:17:42+00:00",
-          "createdAt": "2026-09-17T17:44:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:26:14+00:00",
-          "description": "A library of experiments using frontier LLMs/VLMs for robotics tasks, currently focusing on GPT-6 Astra.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dimentary",
-      "topRepo": {
-        "name": "llm-robotics-playground",
-        "fullName": "dimentary/llm-robotics-playground",
-        "stars": 54,
-        "url": "https://github.com/dimentary/llm-robotics-playground"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13711526?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dimentary/llm-robotics-playground"
-      ],
-      "starScore": 54
-    },
-    {
-      "id": "307365119",
-      "rank": 20,
-      "type": "User",
-      "login": "tony-devbtc",
-      "repos": [
-        {
-          "id": 1374660815,
-          "fork": false,
-          "name": "Seed-Phrase-Generator",
-          "forks": 6,
-          "owner": "tony-devbtc",
-          "stars": 51,
-          "avatar": "https://avatars.githubusercontent.com/u/307365119?v=4",
-          "topics": [
-            "bitcoin-core",
-            "brute-force",
-            "brute-force-tool",
-            "brute-force-wallet",
-            "bruteforce",
-            "bruteforce-attack",
-            "checker-crypto",
-            "earn-crypto",
-            "finder-bitcoin",
-            "finder-crypto",
-            "lost-bitcoin-wallet",
-            "lost-wallet-recovery",
-            "phrase-generator",
-            "recover-btc",
-            "recovery-phrase",
-            "seed-generator",
-            "seed-phrases-generate",
-            "seed-recovery-tool",
-            "wallet-finder-crypto",
-            "wallets-management"
-          ],
-          "ownerId": "307365119",
-          "repoUrl": "https://github.com/tony-devbtc/Seed-Phrase-Generator",
-          "archived": false,
-          "fullName": "tony-devbtc/Seed-Phrase-Generator",
-          "language": "C++",
-          "ownerUrl": "https://github.com/tony-devbtc",
-          "pushedAt": "2026-09-17T15:54:00+00:00",
-          "createdAt": "2026-09-17T15:36:05+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-17T19:38:01+00:00",
-          "description": "WalletGen - Seed Phrase generator / checker for Bitcoin (BTC) and ETH (Ethereum) wallets. Find or recovery your wallet via brute force and brain wallet generation",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/tony-devbtc",
-      "topRepo": {
-        "name": "Seed-Phrase-Generator",
-        "fullName": "tony-devbtc/Seed-Phrase-Generator",
-        "stars": 51,
-        "url": "https://github.com/tony-devbtc/Seed-Phrase-Generator"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/307365119?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "tony-devbtc/Seed-Phrase-Generator"
-      ],
-      "starScore": 51
-    },
-    {
-      "id": "47847235",
-      "rank": 21,
-      "type": "User",
-      "login": "indada",
-      "repos": [
-        {
-          "id": 1375327232,
-          "fork": false,
-          "name": "repopilot",
-          "forks": 3,
-          "owner": "indada",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/47847235?v=4",
-          "topics": [],
-          "ownerId": "47847235",
-          "repoUrl": "https://github.com/indada/repopilot",
-          "archived": false,
-          "fullName": "indada/repopilot",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/indada",
-          "pushedAt": "2026-09-18T09:26:16+00:00",
-          "createdAt": "2026-09-18T03:36:12+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:27:10+00:00",
-          "description": "Verification-driven AI software iteration, powered by the OpenAI Codex SDK. Self-hosted agents turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution and human control over merging and deployment.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/indada",
-      "topRepo": {
-        "name": "repopilot",
-        "fullName": "indada/repopilot",
-        "stars": 50,
-        "url": "https://github.com/indada/repopilot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47847235?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "indada/repopilot"
-      ],
-      "starScore": 50
-    },
-    {
-      "id": "140589714",
-      "rank": 22,
-      "type": "User",
-      "login": "ChetasLua",
-      "repos": [
-        {
-          "id": 1374340897,
-          "fork": false,
-          "name": "jevmeter",
-          "forks": 4,
-          "owner": "ChetasLua",
-          "stars": 48,
-          "avatar": "https://avatars.githubusercontent.com/u/140589714?v=4",
-          "topics": [
-            "debate",
-            "jev",
-            "typesafe",
-            "video-editing",
-            "whisper"
-          ],
-          "ownerId": "140589714",
-          "repoUrl": "https://github.com/ChetasLua/jevmeter",
-          "archived": false,
-          "fullName": "ChetasLua/jevmeter",
-          "language": "Python",
-          "ownerUrl": "https://github.com/ChetasLua",
-          "pushedAt": "2026-09-17T12:36:32+00:00",
-          "createdAt": "2026-09-17T11:39:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T09:49:08+00:00",
-          "description": "Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ChetasLua",
-      "topRepo": {
-        "name": "jevmeter",
-        "fullName": "ChetasLua/jevmeter",
-        "stars": 48,
-        "url": "https://github.com/ChetasLua/jevmeter"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/140589714?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ChetasLua/jevmeter"
-      ],
-      "starScore": 48
-    },
-    {
-      "id": "247467195",
-      "rank": 23,
-      "type": "Organization",
-      "login": "standardagents",
-      "repos": [
-        {
-          "id": 1374676481,
-          "fork": false,
-          "name": "jevpilot",
-          "forks": 8,
-          "owner": "standardagents",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/247467195?v=4",
-          "topics": [],
-          "ownerId": "247467195",
-          "repoUrl": "https://github.com/standardagents/jevpilot",
-          "archived": false,
-          "fullName": "standardagents/jevpilot",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/standardagents",
-          "pushedAt": "2026-09-17T21:22:33+00:00",
-          "createdAt": "2026-09-17T15:47:59+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T10:36:54+00:00",
-          "description": "A playable Three.js driving simulator with Jev-powered autopilot",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/standardagents",
-      "topRepo": {
-        "name": "jevpilot",
-        "fullName": "standardagents/jevpilot",
-        "stars": 46,
-        "url": "https://github.com/standardagents/jevpilot"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/247467195?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "standardagents/jevpilot"
-      ],
-      "starScore": 46
-    },
-    {
-      "id": "260253",
-      "rank": 24,
-      "type": "User",
-      "login": "jkudish",
-      "repos": [
-        {
-          "id": 1374967555,
-          "fork": false,
-          "name": "jev-browser",
-          "forks": 3,
-          "owner": "jkudish",
-          "stars": 45,
-          "avatar": "https://avatars.githubusercontent.com/u/260253?v=4",
-          "topics": [],
-          "ownerId": "260253",
-          "repoUrl": "https://github.com/jkudish/jev-browser",
-          "archived": false,
-          "fullName": "jkudish/jev-browser",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/jkudish",
-          "pushedAt": "2026-09-18T09:39:39+00:00",
-          "createdAt": "2026-09-17T19:22:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:18:58+00:00",
-          "description": "Browser use using Typesafe's Jev model",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jkudish",
-      "topRepo": {
-        "name": "jev-browser",
-        "fullName": "jkudish/jev-browser",
-        "stars": 45,
-        "url": "https://github.com/jkudish/jev-browser"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/260253?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jkudish/jev-browser"
-      ],
-      "starScore": 45
-    },
-    {
-      "id": "62269186",
-      "rank": 25,
-      "type": "User",
-      "login": "AnotiaWang",
-      "repos": [
-        {
-          "id": 1374404623,
-          "fork": false,
-          "name": "awesome-jev",
-          "forks": 11,
-          "owner": "AnotiaWang",
-          "stars": 44,
-          "avatar": "https://avatars.githubusercontent.com/u/62269186?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "jev",
-            "system-one",
-            "typesafe"
-          ],
-          "ownerId": "62269186",
-          "repoUrl": "https://github.com/AnotiaWang/awesome-jev",
-          "archived": false,
-          "fullName": "AnotiaWang/awesome-jev",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/AnotiaWang",
-          "pushedAt": "2026-09-18T09:38:29+00:00",
-          "createdAt": "2026-09-17T12:30:31+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T09:43:58+00:00",
-          "description": "A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/AnotiaWang",
-      "topRepo": {
-        "name": "awesome-jev",
-        "fullName": "AnotiaWang/awesome-jev",
-        "stars": 44,
-        "url": "https://github.com/AnotiaWang/awesome-jev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/62269186?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "AnotiaWang/awesome-jev"
-      ],
-      "starScore": 44
-    },
-    {
-      "id": "25647582",
-      "rank": 26,
-      "type": "User",
-      "login": "kshetrajna12",
-      "repos": [
-        {
-          "id": 1375155214,
-          "fork": false,
-          "name": "reflex",
-          "forks": 4,
-          "owner": "kshetrajna12",
-          "stars": 44,
-          "avatar": "https://avatars.githubusercontent.com/u/25647582?v=4",
-          "topics": [],
-          "ownerId": "25647582",
-          "repoUrl": "https://github.com/kshetrajna12/reflex",
-          "archived": false,
-          "fullName": "kshetrajna12/reflex",
-          "language": "Python",
-          "ownerUrl": "https://github.com/kshetrajna12",
-          "pushedAt": "2026-09-17T23:17:02+00:00",
-          "createdAt": "2026-09-17T23:03:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:20:07+00:00",
-          "description": "A small open decision model: state + typed questions -> calibrated probabilities. A Jev / System One re-creation on Qwen3.5.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kshetrajna12",
-      "topRepo": {
-        "name": "reflex",
-        "fullName": "kshetrajna12/reflex",
-        "stars": 44,
-        "url": "https://github.com/kshetrajna12/reflex"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25647582?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kshetrajna12/reflex"
-      ],
-      "starScore": 44
-    },
-    {
-      "id": "330011387",
-      "rank": 27,
-      "type": "Organization",
-      "login": "elsechord",
-      "repos": [
-        {
-          "id": 1374828484,
-          "fork": false,
-          "name": "CyberGuard",
-          "forks": 0,
-          "owner": "elsechord",
-          "stars": 42,
-          "avatar": "https://avatars.githubusercontent.com/u/330011387?v=4",
-          "topics": [
-            "agent-infra",
-            "agentscope",
-            "agentteams",
-            "ai-soc",
-            "audit",
-            "human-in-the-loop",
-            "incident-response",
-            "llm-agents",
-            "mcp",
-            "multi-agent",
-            "security-operations",
-            "soc"
-          ],
-          "ownerId": "330011387",
-          "repoUrl": "https://github.com/elsechord/CyberGuard",
-          "archived": false,
-          "fullName": "elsechord/CyberGuard",
-          "language": "Python",
-          "ownerUrl": "https://github.com/elsechord",
-          "pushedAt": "2026-09-17T18:58:59+00:00",
-          "createdAt": "2026-09-17T17:45:32+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T11:26:33+00:00",
-          "description": "Evidence-driven autonomous SOC team on AgentTeams: hash-bound approvals, HMAC audit chain, rollback and reproducible attack scenarios — auditable governance primitives for agent infrastructure.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/elsechord",
-      "topRepo": {
-        "name": "CyberGuard",
-        "fullName": "elsechord/CyberGuard",
-        "stars": 42,
-        "url": "https://github.com/elsechord/CyberGuard"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330011387?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "elsechord/CyberGuard"
-      ],
-      "starScore": 42
-    },
-    {
-      "id": "48623612",
-      "rank": 28,
-      "type": "User",
-      "login": "NandhaKishorM",
-      "repos": [
-        {
-          "id": 1375382253,
-          "fork": false,
-          "name": "laya",
-          "forks": 7,
-          "owner": "NandhaKishorM",
-          "stars": 42,
-          "avatar": "https://avatars.githubusercontent.com/u/48623612?v=4",
-          "topics": [],
-          "ownerId": "48623612",
-          "repoUrl": "https://github.com/NandhaKishorM/laya",
-          "archived": false,
-          "fullName": "NandhaKishorM/laya",
-          "language": "Jupyter Notebook",
-          "ownerUrl": "https://github.com/NandhaKishorM",
-          "pushedAt": "2026-09-18T10:22:09+00:00",
-          "createdAt": "2026-09-18T04:46:33+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:29:43+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/NandhaKishorM",
-      "topRepo": {
-        "name": "laya",
-        "fullName": "NandhaKishorM/laya",
-        "stars": 42,
-        "url": "https://github.com/NandhaKishorM/laya"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48623612?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "NandhaKishorM/laya"
-      ],
-      "starScore": 42
-    },
-    {
-      "id": "25274700",
-      "rank": 29,
-      "type": "User",
-      "login": "ScriptedAlchemy",
-      "repos": [
-        {
-          "id": 1375175642,
-          "fork": false,
-          "name": "pstack-codex",
-          "forks": 3,
-          "owner": "ScriptedAlchemy",
-          "stars": 35,
-          "avatar": "https://avatars.githubusercontent.com/u/25274700?v=4",
-          "topics": [],
-          "ownerId": "25274700",
-          "repoUrl": "https://github.com/ScriptedAlchemy/pstack-codex",
-          "archived": false,
-          "fullName": "ScriptedAlchemy/pstack-codex",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ScriptedAlchemy",
-          "pushedAt": "2026-09-18T00:12:58+00:00",
-          "createdAt": "2026-09-17T23:42:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:29:05+00:00",
-          "description": "Codex-native port of Lauren Tan's pstack: 47 skills, 23 playbooks, agent personas, multi-agent workflows, and Benny automation adapters. Includes a Codex marketplace and installer.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ScriptedAlchemy",
-      "topRepo": {
-        "name": "pstack-codex",
-        "fullName": "ScriptedAlchemy/pstack-codex",
-        "stars": 35,
-        "url": "https://github.com/ScriptedAlchemy/pstack-codex"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25274700?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ScriptedAlchemy/pstack-codex"
-      ],
-      "starScore": 35
-    },
-    {
-      "id": "25005362",
-      "rank": 30,
-      "type": "User",
-      "login": "chaseleantj",
-      "repos": [
-        {
-          "id": 1375594818,
-          "fork": false,
-          "name": "desktop-habitats",
-          "forks": 4,
-          "owner": "chaseleantj",
-          "stars": 30,
-          "avatar": "https://avatars.githubusercontent.com/u/25005362?v=4",
-          "topics": [],
-          "ownerId": "25005362",
-          "repoUrl": "https://github.com/chaseleantj/desktop-habitats",
-          "archived": false,
-          "fullName": "chaseleantj/desktop-habitats",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/chaseleantj",
-          "pushedAt": "2026-09-18T10:19:58+00:00",
-          "createdAt": "2026-09-18T08:31:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:28:11+00:00",
-          "description": "Living ecosystems you can interact with on your desktop",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/chaseleantj",
-      "topRepo": {
-        "name": "desktop-habitats",
-        "fullName": "chaseleantj/desktop-habitats",
-        "stars": 30,
-        "url": "https://github.com/chaseleantj/desktop-habitats"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25005362?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "chaseleantj/desktop-habitats"
-      ],
-      "starScore": 30
-    },
-    {
-      "id": "209955039",
-      "rank": 31,
-      "type": "Organization",
-      "login": "itsPLK",
-      "repos": [
-        {
-          "id": 1374451836,
-          "fork": false,
-          "name": "ps5-pkg-manager",
-          "forks": 0,
-          "owner": "itsPLK",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/209955039?v=4",
-          "topics": [],
-          "ownerId": "209955039",
-          "repoUrl": "https://github.com/itsPLK/ps5-pkg-manager",
-          "archived": false,
-          "fullName": "itsPLK/ps5-pkg-manager",
-          "language": "C",
-          "ownerUrl": "https://github.com/itsPLK",
-          "pushedAt": "2026-09-17T17:53:40+00:00",
-          "createdAt": "2026-09-17T13:05:29+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T10:26:00+00:00",
-          "description": "A clean and intuitive package manager for PlayStation 5.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/itsPLK",
-      "topRepo": {
-        "name": "ps5-pkg-manager",
-        "fullName": "itsPLK/ps5-pkg-manager",
-        "stars": 27,
-        "url": "https://github.com/itsPLK/ps5-pkg-manager"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/209955039?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "itsPLK/ps5-pkg-manager"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "4214509",
-      "rank": 32,
-      "type": "User",
-      "login": "trungdq88",
-      "repos": [
-        {
-          "id": 1375177733,
-          "fork": false,
-          "name": "youtube-sponsor-detection",
-          "forks": 4,
-          "owner": "trungdq88",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/4214509?v=4",
-          "topics": [],
-          "ownerId": "4214509",
-          "repoUrl": "https://github.com/trungdq88/youtube-sponsor-detection",
-          "archived": false,
-          "fullName": "trungdq88/youtube-sponsor-detection",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/trungdq88",
-          "pushedAt": "2026-09-18T03:38:10+00:00",
-          "createdAt": "2026-09-17T23:46:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:16:38+00:00",
-          "description": "Detect youtube sponsor segment with live audio and transcript powered by Jev",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/trungdq88",
-      "topRepo": {
-        "name": "youtube-sponsor-detection",
-        "fullName": "trungdq88/youtube-sponsor-detection",
-        "stars": 27,
-        "url": "https://github.com/trungdq88/youtube-sponsor-detection"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4214509?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "trungdq88/youtube-sponsor-detection"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "242542061",
-      "rank": 33,
-      "type": "Organization",
-      "login": "hellogumbo",
-      "repos": [
-        {
-          "id": 1374652607,
-          "fork": false,
-          "name": "awesome-jev",
-          "forks": 1,
-          "owner": "hellogumbo",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/242542061?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "jev",
-            "system-one",
-            "typesafe",
-            "typesafe-ai"
-          ],
-          "ownerId": "242542061",
-          "repoUrl": "https://github.com/hellogumbo/awesome-jev",
-          "archived": false,
-          "fullName": "hellogumbo/awesome-jev",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/hellogumbo",
-          "pushedAt": "2026-09-18T11:26:31+00:00",
-          "createdAt": "2026-09-17T15:30:09+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-18T11:26:35+00:00",
-          "description": "A community directory of projects built on Jev, TypeSafe AI's System One model.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hellogumbo",
-      "topRepo": {
-        "name": "awesome-jev",
-        "fullName": "hellogumbo/awesome-jev",
-        "stars": 23,
-        "url": "https://github.com/hellogumbo/awesome-jev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/242542061?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hellogumbo/awesome-jev"
-      ],
-      "starScore": 23
-    },
-    {
-      "id": "66517906",
-      "rank": 34,
-      "type": "User",
-      "login": "zeredy879",
-      "repos": [
-        {
-          "id": 1375466726,
-          "fork": false,
-          "name": "minojev",
-          "forks": 1,
-          "owner": "zeredy879",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/66517906?v=4",
-          "topics": [],
-          "ownerId": "66517906",
-          "repoUrl": "https://github.com/zeredy879/minojev",
-          "archived": false,
-          "fullName": "zeredy879/minojev",
-          "language": "Python",
-          "ownerUrl": "https://github.com/zeredy879",
-          "pushedAt": "2026-09-18T07:53:34+00:00",
-          "createdAt": "2026-09-18T06:25:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:45:08+00:00",
-          "description": "Decisions, not tokens: minojev reads calibrated, typed probability distributions straight from hidden states in one forward pass — zero output tokens, fully reproducible on a laptop CPU.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/zeredy879",
-      "topRepo": {
-        "name": "minojev",
-        "fullName": "zeredy879/minojev",
-        "stars": 22,
-        "url": "https://github.com/zeredy879/minojev"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66517906?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "zeredy879/minojev"
-      ],
-      "starScore": 22
+      "starScore": 77
     },
     {
       "id": "29142615",
-      "rank": 35,
+      "rank": 16,
       "type": "User",
       "login": "cobanov",
       "repos": [
@@ -1738,9 +746,9 @@
           "id": 1375694187,
           "fork": false,
           "name": "awesome-jev",
-          "forks": 0,
+          "forks": 6,
           "owner": "cobanov",
-          "stars": 20,
+          "stars": 76,
           "avatar": "https://avatars.githubusercontent.com/u/29142615?v=4",
           "topics": [
             "ai-agents",
@@ -1765,7 +773,7 @@
           "pushedAt": "2026-09-18T10:16:51+00:00",
           "createdAt": "2026-09-18T10:12:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-18T11:23:24+00:00",
+          "updatedAt": "2026-09-18T16:27:53+00:00",
           "description": "A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.",
           "defaultBranch": "main"
         }
@@ -1774,7 +782,7 @@
       "topRepo": {
         "name": "awesome-jev",
         "fullName": "cobanov/awesome-jev",
-        "stars": 20,
+        "stars": 76,
         "url": "https://github.com/cobanov/awesome-jev"
       },
       "enriched": true,
@@ -1783,57 +791,844 @@
       "repoNames": [
         "cobanov/awesome-jev"
       ],
-      "starScore": 20
+      "starScore": 76
     },
     {
-      "id": "324247769",
-      "rank": 36,
+      "id": "13711526",
+      "rank": 17,
       "type": "User",
-      "login": "cookc8441",
+      "login": "dimentary",
       "repos": [
         {
-          "id": 1374489778,
+          "id": 1374827115,
           "fork": false,
-          "name": "rivals-mod-menu",
-          "forks": 0,
-          "owner": "cookc8441",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/324247769?v=4",
-          "topics": [
-            "rivals-script"
-          ],
-          "ownerId": "324247769",
-          "repoUrl": "https://github.com/cookc8441/rivals-mod-menu",
+          "name": "llm-robotics-playground",
+          "forks": 4,
+          "owner": "dimentary",
+          "stars": 75,
+          "avatar": "https://avatars.githubusercontent.com/u/13711526?v=4",
+          "topics": [],
+          "ownerId": "13711526",
+          "repoUrl": "https://github.com/dimentary/llm-robotics-playground",
           "archived": false,
-          "fullName": "cookc8441/rivals-mod-menu",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/cookc8441",
-          "pushedAt": "2026-09-17T13:33:40+00:00",
-          "createdAt": "2026-09-17T13:33:01+00:00",
+          "fullName": "dimentary/llm-robotics-playground",
+          "language": "Python",
+          "ownerUrl": "https://github.com/dimentary",
+          "pushedAt": "2026-09-17T22:17:42+00:00",
+          "createdAt": "2026-09-17T17:44:32+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-18T04:40:48+00:00",
-          "description": "Ultimate Rivals Menu",
+          "updatedAt": "2026-09-18T16:19:04+00:00",
+          "description": "A library of experiments using frontier LLMs/VLMs for robotics tasks, currently focusing on GPT-6 Astra.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/cookc8441",
+      "htmlUrl": "https://github.com/dimentary",
       "topRepo": {
-        "name": "rivals-mod-menu",
-        "fullName": "cookc8441/rivals-mod-menu",
-        "stars": 19,
-        "url": "https://github.com/cookc8441/rivals-mod-menu"
+        "name": "llm-robotics-playground",
+        "fullName": "dimentary/llm-robotics-playground",
+        "stars": 75,
+        "url": "https://github.com/dimentary/llm-robotics-playground"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324247769?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13711526?v=4",
       "repoCount": 1,
       "repoNames": [
-        "cookc8441/rivals-mod-menu"
+        "dimentary/llm-robotics-playground"
       ],
-      "starScore": 19
+      "starScore": 75
+    },
+    {
+      "id": "157000758",
+      "rank": 18,
+      "type": "Organization",
+      "login": "Taurine-Technology",
+      "repos": [
+        {
+          "id": 1375653764,
+          "fork": false,
+          "name": "axon-pulse-foss",
+          "forks": 10,
+          "owner": "Taurine-Technology",
+          "stars": 72,
+          "avatar": "https://avatars.githubusercontent.com/u/157000758?v=4",
+          "topics": [
+            "internet-measurements",
+            "qoe",
+            "qos",
+            "speedtest"
+          ],
+          "ownerId": "157000758",
+          "repoUrl": "https://github.com/Taurine-Technology/axon-pulse-foss",
+          "archived": false,
+          "fullName": "Taurine-Technology/axon-pulse-foss",
+          "language": "Go",
+          "ownerUrl": "https://github.com/Taurine-Technology",
+          "pushedAt": "2026-09-18T13:02:50+00:00",
+          "createdAt": "2026-09-18T09:30:27+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-18T15:54:27+00:00",
+          "description": "A lightweight subscriber-side network quality sensor that can be run with Axon or in standalone local mode.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Taurine-Technology",
+      "topRepo": {
+        "name": "axon-pulse-foss",
+        "fullName": "Taurine-Technology/axon-pulse-foss",
+        "stars": 72,
+        "url": "https://github.com/Taurine-Technology/axon-pulse-foss"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/157000758?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Taurine-Technology/axon-pulse-foss"
+      ],
+      "starScore": 72
+    },
+    {
+      "id": "47847235",
+      "rank": 19,
+      "type": "User",
+      "login": "indada",
+      "repos": [
+        {
+          "id": 1375327232,
+          "fork": false,
+          "name": "repopilot",
+          "forks": 4,
+          "owner": "indada",
+          "stars": 67,
+          "avatar": "https://avatars.githubusercontent.com/u/47847235?v=4",
+          "topics": [],
+          "ownerId": "47847235",
+          "repoUrl": "https://github.com/indada/repopilot",
+          "archived": false,
+          "fullName": "indada/repopilot",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/indada",
+          "pushedAt": "2026-09-18T09:26:16+00:00",
+          "createdAt": "2026-09-18T03:36:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:29:29+00:00",
+          "description": "Verification-driven AI software iteration, powered by the OpenAI Codex SDK. Self-hosted agents turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution and human control over merging and deployment.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/indada",
+      "topRepo": {
+        "name": "repopilot",
+        "fullName": "indada/repopilot",
+        "stars": 67,
+        "url": "https://github.com/indada/repopilot"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47847235?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "indada/repopilot"
+      ],
+      "starScore": 67
+    },
+    {
+      "id": "25647582",
+      "rank": 20,
+      "type": "User",
+      "login": "kshetrajna12",
+      "repos": [
+        {
+          "id": 1375155214,
+          "fork": false,
+          "name": "reflex",
+          "forks": 3,
+          "owner": "kshetrajna12",
+          "stars": 56,
+          "avatar": "https://avatars.githubusercontent.com/u/25647582?v=4",
+          "topics": [],
+          "ownerId": "25647582",
+          "repoUrl": "https://github.com/kshetrajna12/reflex",
+          "archived": false,
+          "fullName": "kshetrajna12/reflex",
+          "language": "Python",
+          "ownerUrl": "https://github.com/kshetrajna12",
+          "pushedAt": "2026-09-18T15:25:46+00:00",
+          "createdAt": "2026-09-17T23:03:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:32:23+00:00",
+          "description": "A small open decision model: state + typed questions -> calibrated probabilities. A Jev / System One re-creation on Qwen3.5.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kshetrajna12",
+      "topRepo": {
+        "name": "reflex",
+        "fullName": "kshetrajna12/reflex",
+        "stars": 56,
+        "url": "https://github.com/kshetrajna12/reflex"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25647582?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kshetrajna12/reflex"
+      ],
+      "starScore": 56
+    },
+    {
+      "id": "53456266",
+      "rank": 21,
+      "type": "User",
+      "login": "LingxiangXu",
+      "repos": [
+        {
+          "id": 1375448950,
+          "fork": false,
+          "name": "traceclause",
+          "forks": 3,
+          "owner": "LingxiangXu",
+          "stars": 52,
+          "avatar": "https://avatars.githubusercontent.com/u/53456266?v=4",
+          "topics": [
+            "bm25",
+            "document-analysis",
+            "evidence",
+            "fastapi",
+            "local-first",
+            "open-source",
+            "python",
+            "requirements"
+          ],
+          "ownerId": "53456266",
+          "repoUrl": "https://github.com/LingxiangXu/traceclause",
+          "archived": false,
+          "fullName": "LingxiangXu/traceclause",
+          "language": "Python",
+          "ownerUrl": "https://github.com/LingxiangXu",
+          "pushedAt": "2026-09-18T06:25:28+00:00",
+          "createdAt": "2026-09-18T06:05:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:30:40+00:00",
+          "description": "Local-first document requirements and evidence review workbench with traceable citations and human review.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/LingxiangXu",
+      "topRepo": {
+        "name": "traceclause",
+        "fullName": "LingxiangXu/traceclause",
+        "stars": 52,
+        "url": "https://github.com/LingxiangXu/traceclause"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53456266?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "LingxiangXu/traceclause"
+      ],
+      "starScore": 52
+    },
+    {
+      "id": "134143178",
+      "rank": 22,
+      "type": "User",
+      "login": "fatwang2",
+      "repos": [
+        {
+          "id": 1375286981,
+          "fork": false,
+          "name": "awesome-jev",
+          "forks": 8,
+          "owner": "fatwang2",
+          "stars": 51,
+          "avatar": "https://avatars.githubusercontent.com/u/134143178?v=4",
+          "topics": [
+            "awesome",
+            "awesome-list",
+            "github-actions",
+            "jev",
+            "open-source",
+            "typesafe"
+          ],
+          "ownerId": "134143178",
+          "repoUrl": "https://github.com/fatwang2/awesome-jev",
+          "archived": false,
+          "fullName": "fatwang2/awesome-jev",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/fatwang2",
+          "pushedAt": "2026-09-18T16:33:18+00:00",
+          "createdAt": "2026-09-18T02:45:39+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:33:23+00:00",
+          "description": "A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/fatwang2",
+      "topRepo": {
+        "name": "awesome-jev",
+        "fullName": "fatwang2/awesome-jev",
+        "stars": 51,
+        "url": "https://github.com/fatwang2/awesome-jev"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134143178?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "fatwang2/awesome-jev"
+      ],
+      "starScore": 51
+    },
+    {
+      "id": "25274700",
+      "rank": 23,
+      "type": "User",
+      "login": "ScriptedAlchemy",
+      "repos": [
+        {
+          "id": 1375175642,
+          "fork": false,
+          "name": "pstack-codex",
+          "forks": 4,
+          "owner": "ScriptedAlchemy",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/25274700?v=4",
+          "topics": [],
+          "ownerId": "25274700",
+          "repoUrl": "https://github.com/ScriptedAlchemy/pstack-codex",
+          "archived": false,
+          "fullName": "ScriptedAlchemy/pstack-codex",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/ScriptedAlchemy",
+          "pushedAt": "2026-09-18T00:12:58+00:00",
+          "createdAt": "2026-09-17T23:42:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:04:25+00:00",
+          "description": "Codex-native port of Lauren Tan's pstack: 47 skills, 23 playbooks, agent personas, multi-agent workflows, and Benny automation adapters. Includes a Codex marketplace and installer.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ScriptedAlchemy",
+      "topRepo": {
+        "name": "pstack-codex",
+        "fullName": "ScriptedAlchemy/pstack-codex",
+        "stars": 47,
+        "url": "https://github.com/ScriptedAlchemy/pstack-codex"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25274700?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ScriptedAlchemy/pstack-codex"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "4214509",
+      "rank": 24,
+      "type": "User",
+      "login": "trungdq88",
+      "repos": [
+        {
+          "id": 1375177733,
+          "fork": false,
+          "name": "youtube-sponsor-detection",
+          "forks": 5,
+          "owner": "trungdq88",
+          "stars": 46,
+          "avatar": "https://avatars.githubusercontent.com/u/4214509?v=4",
+          "topics": [],
+          "ownerId": "4214509",
+          "repoUrl": "https://github.com/trungdq88/youtube-sponsor-detection",
+          "archived": false,
+          "fullName": "trungdq88/youtube-sponsor-detection",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/trungdq88",
+          "pushedAt": "2026-09-18T03:38:10+00:00",
+          "createdAt": "2026-09-17T23:46:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:21:07+00:00",
+          "description": "Detect youtube sponsor segment with live audio and transcript powered by Jev",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/trungdq88",
+      "topRepo": {
+        "name": "youtube-sponsor-detection",
+        "fullName": "trungdq88/youtube-sponsor-detection",
+        "stars": 46,
+        "url": "https://github.com/trungdq88/youtube-sponsor-detection"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4214509?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "trungdq88/youtube-sponsor-detection"
+      ],
+      "starScore": 46
+    },
+    {
+      "id": "330011387",
+      "rank": 25,
+      "type": "Organization",
+      "login": "elsechord",
+      "repos": [
+        {
+          "id": 1374828484,
+          "fork": false,
+          "name": "CyberGuard",
+          "forks": 0,
+          "owner": "elsechord",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/330011387?v=4",
+          "topics": [
+            "agent-infra",
+            "agentscope",
+            "agentteams",
+            "ai-soc",
+            "audit",
+            "human-in-the-loop",
+            "incident-response",
+            "llm-agents",
+            "mcp",
+            "multi-agent",
+            "security-operations",
+            "soc"
+          ],
+          "ownerId": "330011387",
+          "repoUrl": "https://github.com/elsechord/CyberGuard",
+          "archived": false,
+          "fullName": "elsechord/CyberGuard",
+          "language": "Python",
+          "ownerUrl": "https://github.com/elsechord",
+          "pushedAt": "2026-09-18T14:36:46+00:00",
+          "createdAt": "2026-09-17T17:45:32+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-18T14:36:50+00:00",
+          "description": "Evidence-driven autonomous SOC team on AgentTeams: hash-bound approvals, HMAC audit chain, rollback and reproducible attack scenarios — auditable governance primitives for agent infrastructure.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/elsechord",
+      "topRepo": {
+        "name": "CyberGuard",
+        "fullName": "elsechord/CyberGuard",
+        "stars": 43,
+        "url": "https://github.com/elsechord/CyberGuard"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/330011387?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "elsechord/CyberGuard"
+      ],
+      "starScore": 43
+    },
+    {
+      "id": "270369317",
+      "rank": 26,
+      "type": "Organization",
+      "login": "superagents-lab",
+      "repos": [
+        {
+          "id": 1374858514,
+          "fork": false,
+          "name": "jev-search",
+          "forks": 7,
+          "owner": "superagents-lab",
+          "stars": 42,
+          "avatar": "https://avatars.githubusercontent.com/u/270369317?v=4",
+          "topics": [],
+          "ownerId": "270369317",
+          "repoUrl": "https://github.com/superagents-lab/jev-search",
+          "archived": false,
+          "fullName": "superagents-lab/jev-search",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/superagents-lab",
+          "pushedAt": "2026-09-18T16:09:30+00:00",
+          "createdAt": "2026-09-17T18:05:10+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-18T16:31:01+00:00",
+          "description": "Search the web with TypeSafe's Jev: source selection, query understanding and relevance ranking. Built with Search1API.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/superagents-lab",
+      "topRepo": {
+        "name": "jev-search",
+        "fullName": "superagents-lab/jev-search",
+        "stars": 42,
+        "url": "https://github.com/superagents-lab/jev-search"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/270369317?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "superagents-lab/jev-search"
+      ],
+      "starScore": 42
+    },
+    {
+      "id": "33087790",
+      "rank": 27,
+      "type": "User",
+      "login": "moritzkremb",
+      "repos": [
+        {
+          "id": 1375142045,
+          "fork": false,
+          "name": "jev-voice-browser",
+          "forks": 6,
+          "owner": "moritzkremb",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/33087790?v=4",
+          "topics": [],
+          "ownerId": "33087790",
+          "repoUrl": "https://github.com/moritzkremb/jev-voice-browser",
+          "archived": false,
+          "fullName": "moritzkremb/jev-voice-browser",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/moritzkremb",
+          "pushedAt": "2026-09-17T22:40:26+00:00",
+          "createdAt": "2026-09-17T22:40:19+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:15:04+00:00",
+          "description": "Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/moritzkremb",
+      "topRepo": {
+        "name": "jev-voice-browser",
+        "fullName": "moritzkremb/jev-voice-browser",
+        "stars": 36,
+        "url": "https://github.com/moritzkremb/jev-voice-browser"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33087790?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "moritzkremb/jev-voice-browser"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "30455008",
+      "rank": 28,
+      "type": "User",
+      "login": "wy-coliney",
+      "repos": [
+        {
+          "id": 1375500090,
+          "fork": false,
+          "name": "jev-browser-use",
+          "forks": 1,
+          "owner": "wy-coliney",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/30455008?v=4",
+          "topics": [],
+          "ownerId": "30455008",
+          "repoUrl": "https://github.com/wy-coliney/jev-browser-use",
+          "archived": false,
+          "fullName": "wy-coliney/jev-browser-use",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/wy-coliney",
+          "pushedAt": "2026-09-18T09:34:55+00:00",
+          "createdAt": "2026-09-18T06:58:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:26:15+00:00",
+          "description": "5–10x faster browser operations: Jev clicks, Codex thinks and verifies. Built at EZCollegeApp.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/wy-coliney",
+      "topRepo": {
+        "name": "jev-browser-use",
+        "fullName": "wy-coliney/jev-browser-use",
+        "stars": 36,
+        "url": "https://github.com/wy-coliney/jev-browser-use"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30455008?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "wy-coliney/jev-browser-use"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "119659853",
+      "rank": 29,
+      "type": "User",
+      "login": "rit3zh",
+      "repos": [
+        {
+          "id": 1375784018,
+          "fork": false,
+          "name": "expo-dynamic-notifications",
+          "forks": 6,
+          "owner": "rit3zh",
+          "stars": 34,
+          "avatar": "https://avatars.githubusercontent.com/u/119659853?v=4",
+          "topics": [],
+          "ownerId": "119659853",
+          "repoUrl": "https://github.com/rit3zh/expo-dynamic-notifications",
+          "archived": false,
+          "fullName": "rit3zh/expo-dynamic-notifications",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/rit3zh",
+          "pushedAt": "2026-09-18T11:45:31+00:00",
+          "createdAt": "2026-09-18T11:42:27+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:28:00+00:00",
+          "description": "💧 Dynamic Island–style in-app notifications for React Native.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/rit3zh",
+      "topRepo": {
+        "name": "expo-dynamic-notifications",
+        "fullName": "rit3zh/expo-dynamic-notifications",
+        "stars": 34,
+        "url": "https://github.com/rit3zh/expo-dynamic-notifications"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119659853?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "rit3zh/expo-dynamic-notifications"
+      ],
+      "starScore": 34
+    },
+    {
+      "id": "16850531",
+      "rank": 30,
+      "type": "User",
+      "login": "IAmUnbounded",
+      "repos": [
+        {
+          "id": 1375442342,
+          "fork": false,
+          "name": "save-token-jev-clean",
+          "forks": 7,
+          "owner": "IAmUnbounded",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/16850531?v=4",
+          "topics": [],
+          "ownerId": "16850531",
+          "repoUrl": "https://github.com/IAmUnbounded/save-token-jev-clean",
+          "archived": false,
+          "fullName": "IAmUnbounded/save-token-jev-clean",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/IAmUnbounded",
+          "pushedAt": "2026-09-18T06:08:12+00:00",
+          "createdAt": "2026-09-18T05:58:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:18:36+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/IAmUnbounded",
+      "topRepo": {
+        "name": "save-token-jev-clean",
+        "fullName": "IAmUnbounded/save-token-jev-clean",
+        "stars": 29,
+        "url": "https://github.com/IAmUnbounded/save-token-jev-clean"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16850531?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "IAmUnbounded/save-token-jev-clean"
+      ],
+      "starScore": 29
+    },
+    {
+      "id": "1185253",
+      "rank": 31,
+      "type": "User",
+      "login": "mrnugget",
+      "repos": [
+        {
+          "id": 1375573671,
+          "fork": false,
+          "name": "jev-shell-history",
+          "forks": 0,
+          "owner": "mrnugget",
+          "stars": 27,
+          "avatar": "https://avatars.githubusercontent.com/u/1185253?v=4",
+          "topics": [],
+          "ownerId": "1185253",
+          "repoUrl": "https://github.com/mrnugget/jev-shell-history",
+          "archived": false,
+          "fullName": "mrnugget/jev-shell-history",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/mrnugget",
+          "pushedAt": "2026-09-18T08:11:11+00:00",
+          "createdAt": "2026-09-18T08:11:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T15:26:32+00:00",
+          "description": "Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mrnugget",
+      "topRepo": {
+        "name": "jev-shell-history",
+        "fullName": "mrnugget/jev-shell-history",
+        "stars": 27,
+        "url": "https://github.com/mrnugget/jev-shell-history"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1185253?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mrnugget/jev-shell-history"
+      ],
+      "starScore": 27
+    },
+    {
+      "id": "330287855",
+      "rank": 32,
+      "type": "User",
+      "login": "ayandexyz",
+      "repos": [
+        {
+          "id": 1374929660,
+          "fork": false,
+          "name": "omarchy-android-mirror",
+          "forks": 0,
+          "owner": "ayandexyz",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/330287855?v=4",
+          "topics": [],
+          "ownerId": "330287855",
+          "repoUrl": "https://github.com/ayandexyz/omarchy-android-mirror",
+          "archived": false,
+          "fullName": "ayandexyz/omarchy-android-mirror",
+          "language": "QML",
+          "ownerUrl": "https://github.com/ayandexyz",
+          "pushedAt": "2026-09-17T19:34:31+00:00",
+          "createdAt": "2026-09-17T18:53:31+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:10:45+00:00",
+          "description": "Mirror and control your Android phone from the Omarchy bar — USB or Wi-Fi, keyboard and mouse, via adb + scrcpy",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ayandexyz",
+      "topRepo": {
+        "name": "omarchy-android-mirror",
+        "fullName": "ayandexyz/omarchy-android-mirror",
+        "stars": 24,
+        "url": "https://github.com/ayandexyz/omarchy-android-mirror"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/330287855?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ayandexyz/omarchy-android-mirror"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "34853455",
+      "rank": 33,
+      "type": "User",
+      "login": "logicrw",
+      "repos": [
+        {
+          "id": 1375482713,
+          "fork": false,
+          "name": "awesome-jev-projects",
+          "forks": 2,
+          "owner": "logicrw",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/34853455?v=4",
+          "topics": [
+            "ai-agents",
+            "awesome",
+            "awesome-list",
+            "developer-tools",
+            "jev",
+            "typesafe-ai"
+          ],
+          "ownerId": "34853455",
+          "repoUrl": "https://github.com/logicrw/awesome-jev-projects",
+          "archived": false,
+          "fullName": "logicrw/awesome-jev-projects",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/logicrw",
+          "pushedAt": "2026-09-18T16:05:39+00:00",
+          "createdAt": "2026-09-18T06:41:50+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T16:29:51+00:00",
+          "description": "Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/logicrw",
+      "topRepo": {
+        "name": "awesome-jev-projects",
+        "fullName": "logicrw/awesome-jev-projects",
+        "stars": 23,
+        "url": "https://github.com/logicrw/awesome-jev-projects"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34853455?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "logicrw/awesome-jev-projects"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "66517906",
+      "rank": 34,
+      "type": "User",
+      "login": "zeredy879",
+      "repos": [
+        {
+          "id": 1375466726,
+          "fork": false,
+          "name": "minojev",
+          "forks": 1,
+          "owner": "zeredy879",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/66517906?v=4",
+          "topics": [],
+          "ownerId": "66517906",
+          "repoUrl": "https://github.com/zeredy879/minojev",
+          "archived": false,
+          "fullName": "zeredy879/minojev",
+          "language": "Python",
+          "ownerUrl": "https://github.com/zeredy879",
+          "pushedAt": "2026-09-18T07:53:34+00:00",
+          "createdAt": "2026-09-18T06:25:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-18T11:44:37+00:00",
+          "description": "Decisions, not tokens: minojev reads calibrated, typed probability distributions straight from hidden states in one forward pass — zero output tokens, fully reproducible on a laptop CPU.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/zeredy879",
+      "topRepo": {
+        "name": "minojev",
+        "fullName": "zeredy879/minojev",
+        "stars": 23,
+        "url": "https://github.com/zeredy879/minojev"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66517906?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "zeredy879/minojev"
+      ],
+      "starScore": 23
     },
     {
       "id": "209268950",
-      "rank": 37,
+      "rank": 35,
       "type": "User",
       "login": "nclamvn",
       "repos": [
@@ -1876,96 +1671,8 @@
       "starScore": 19
     },
     {
-      "id": "73786423",
-      "rank": 38,
-      "type": "User",
-      "login": "crypt0p3g",
-      "repos": [
-        {
-          "id": 1374614791,
-          "fork": false,
-          "name": "adnullenum",
-          "forks": 2,
-          "owner": "crypt0p3g",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/73786423?v=4",
-          "topics": [],
-          "ownerId": "73786423",
-          "repoUrl": "https://github.com/crypt0p3g/adnullenum",
-          "archived": false,
-          "fullName": "crypt0p3g/adnullenum",
-          "language": "Python",
-          "ownerUrl": "https://github.com/crypt0p3g",
-          "pushedAt": "2026-09-17T15:11:17+00:00",
-          "createdAt": "2026-09-17T15:02:14+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T10:46:20+00:00",
-          "description": "One-pass anonymous Active Directory enumeration over SAMR and LSARPC — null session, no credentials, with structured reusable output.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/crypt0p3g",
-      "topRepo": {
-        "name": "adnullenum",
-        "fullName": "crypt0p3g/adnullenum",
-        "stars": 18,
-        "url": "https://github.com/crypt0p3g/adnullenum"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73786423?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "crypt0p3g/adnullenum"
-      ],
-      "starScore": 18
-    },
-    {
-      "id": "16850531",
-      "rank": 39,
-      "type": "User",
-      "login": "IAmUnbounded",
-      "repos": [
-        {
-          "id": 1375442342,
-          "fork": false,
-          "name": "save-token-jev-clean",
-          "forks": 5,
-          "owner": "IAmUnbounded",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/16850531?v=4",
-          "topics": [],
-          "ownerId": "16850531",
-          "repoUrl": "https://github.com/IAmUnbounded/save-token-jev-clean",
-          "archived": false,
-          "fullName": "IAmUnbounded/save-token-jev-clean",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/IAmUnbounded",
-          "pushedAt": "2026-09-18T06:08:12+00:00",
-          "createdAt": "2026-09-18T05:58:07+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T11:26:30+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/IAmUnbounded",
-      "topRepo": {
-        "name": "save-token-jev-clean",
-        "fullName": "IAmUnbounded/save-token-jev-clean",
-        "stars": 17,
-        "url": "https://github.com/IAmUnbounded/save-token-jev-clean"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16850531?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "IAmUnbounded/save-token-jev-clean"
-      ],
-      "starScore": 17
-    },
-    {
       "id": "291947778",
-      "rank": 40,
+      "rank": 36,
       "type": "User",
       "login": "Brightgrotrip21",
       "repos": [
@@ -2009,7 +1716,7 @@
     },
     {
       "id": "291947704",
-      "rank": 41,
+      "rank": 37,
       "type": "User",
       "login": "OctopusStrait43",
       "repos": [
@@ -2050,94 +1757,6 @@
         "OctopusStrait43/Photoshop-Cracked"
       ],
       "starScore": 16
-    },
-    {
-      "id": "291940010",
-      "rank": 42,
-      "type": "User",
-      "login": "RatioRatPier",
-      "repos": [
-        {
-          "id": 1374728820,
-          "fork": false,
-          "name": "RimAssistantLimbusCompany",
-          "forks": 10,
-          "owner": "RatioRatPier",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/291940010?v=4",
-          "topics": [],
-          "ownerId": "291940010",
-          "repoUrl": "https://github.com/RatioRatPier/RimAssistantLimbusCompany",
-          "archived": false,
-          "fullName": "RatioRatPier/RimAssistantLimbusCompany",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/RatioRatPier",
-          "pushedAt": "2026-09-17T18:49:39+00:00",
-          "createdAt": "2026-09-17T16:29:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-17T18:49:44+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/RatioRatPier",
-      "topRepo": {
-        "name": "RimAssistantLimbusCompany",
-        "fullName": "RatioRatPier/RimAssistantLimbusCompany",
-        "stars": 16,
-        "url": "https://github.com/RatioRatPier/RimAssistantLimbusCompany"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291940010?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "RatioRatPier/RimAssistantLimbusCompany"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "1419214",
-      "rank": 43,
-      "type": "User",
-      "login": "bjarneo",
-      "repos": [
-        {
-          "id": 1374405049,
-          "fork": false,
-          "name": "omarchy-ring-light-plugin",
-          "forks": 0,
-          "owner": "bjarneo",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
-          "topics": [],
-          "ownerId": "1419214",
-          "repoUrl": "https://github.com/bjarneo/omarchy-ring-light-plugin",
-          "archived": false,
-          "fullName": "bjarneo/omarchy-ring-light-plugin",
-          "language": "QML",
-          "ownerUrl": "https://github.com/bjarneo",
-          "pushedAt": "2026-09-17T17:06:13+00:00",
-          "createdAt": "2026-09-17T12:30:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-18T04:27:50+00:00",
-          "description": "A white screen border that lights your face during video calls, for the Omarchy desktop.",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/bjarneo",
-      "topRepo": {
-        "name": "omarchy-ring-light-plugin",
-        "fullName": "bjarneo/omarchy-ring-light-plugin",
-        "stars": 13,
-        "url": "https://github.com/bjarneo/omarchy-ring-light-plugin"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "bjarneo/omarchy-ring-light-plugin"
-      ],
-      "starScore": 13
     }
   ]
 }
