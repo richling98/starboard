@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T17:08:11.077Z",
-  "total": 41,
-  "totalIndexedCount": 41,
-  "coverageLabel": "Showing 41 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-22T21:37:27.004Z",
+  "total": 29,
+  "totalIndexedCount": 29,
+  "coverageLabel": "Showing 29 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,8 +10,96 @@
   },
   "rows": [
     {
-      "id": "13965825",
+      "id": "181495282",
       "rank": 1,
+      "type": "Organization",
+      "login": "unreallabsai",
+      "repos": [
+        {
+          "id": 1380635125,
+          "fork": false,
+          "name": "unreal-agent",
+          "forks": 34,
+          "owner": "unreallabsai",
+          "stars": 681,
+          "avatar": "https://avatars.githubusercontent.com/u/181495282?v=4",
+          "topics": [],
+          "ownerId": "181495282",
+          "repoUrl": "https://github.com/unreallabsai/unreal-agent",
+          "archived": false,
+          "fullName": "unreallabsai/unreal-agent",
+          "language": "Go",
+          "ownerUrl": "https://github.com/unreallabsai",
+          "pushedAt": "2026-09-22T17:00:39+00:00",
+          "createdAt": "2026-09-21T23:14:02+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-22T21:28:52+00:00",
+          "description": "Async-first agent harness",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/unreallabsai",
+      "topRepo": {
+        "name": "unreal-agent",
+        "fullName": "unreallabsai/unreal-agent",
+        "stars": 681,
+        "url": "https://github.com/unreallabsai/unreal-agent"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181495282?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "unreallabsai/unreal-agent"
+      ],
+      "starScore": 681
+    },
+    {
+      "id": "147659719",
+      "rank": 2,
+      "type": "User",
+      "login": "miuuyy",
+      "repos": [
+        {
+          "id": 1381675602,
+          "fork": false,
+          "name": "Astra-Ares",
+          "forks": 3,
+          "owner": "miuuyy",
+          "stars": 130,
+          "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4",
+          "topics": [],
+          "ownerId": "147659719",
+          "repoUrl": "https://github.com/miuuyy/Astra-Ares",
+          "archived": false,
+          "fullName": "miuuyy/Astra-Ares",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/miuuyy",
+          "pushedAt": "2026-09-22T14:21:37+00:00",
+          "createdAt": "2026-09-22T14:10:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T21:10:41+00:00",
+          "description": "Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/miuuyy",
+      "topRepo": {
+        "name": "Astra-Ares",
+        "fullName": "miuuyy/Astra-Ares",
+        "stars": 130,
+        "url": "https://github.com/miuuyy/Astra-Ares"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147659719?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "miuuyy/Astra-Ares"
+      ],
+      "starScore": 130
+    },
+    {
+      "id": "13965825",
+      "rank": 3,
       "type": "User",
       "login": "ipenywis",
       "repos": [
@@ -19,9 +107,9 @@
           "id": 1380600226,
           "fork": false,
           "name": "laya-ultrafast",
-          "forks": 11,
+          "forks": 15,
           "owner": "ipenywis",
-          "stars": 99,
+          "stars": 110,
           "avatar": "https://avatars.githubusercontent.com/u/13965825?v=4",
           "topics": [],
           "ownerId": "13965825",
@@ -33,7 +121,7 @@
           "pushedAt": "2026-09-22T13:33:34+00:00",
           "createdAt": "2026-09-21T22:21:52+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T16:41:51+00:00",
+          "updatedAt": "2026-09-22T21:14:25+00:00",
           "description": "Same as jev-ultrafast but using Laya",
           "defaultBranch": "main"
         }
@@ -42,7 +130,7 @@
       "topRepo": {
         "name": "laya-ultrafast",
         "fullName": "ipenywis/laya-ultrafast",
-        "stars": 99,
+        "stars": 110,
         "url": "https://github.com/ipenywis/laya-ultrafast"
       },
       "enriched": true,
@@ -51,55 +139,11 @@
       "repoNames": [
         "ipenywis/laya-ultrafast"
       ],
-      "starScore": 99
-    },
-    {
-      "id": "296553177",
-      "rank": 2,
-      "type": "User",
-      "login": "Re1nhard-1",
-      "repos": [
-        {
-          "id": 1380224948,
-          "fork": false,
-          "name": "deconv-preflight",
-          "forks": 3,
-          "owner": "Re1nhard-1",
-          "stars": 99,
-          "avatar": "https://avatars.githubusercontent.com/u/296553177?v=4",
-          "topics": [],
-          "ownerId": "296553177",
-          "repoUrl": "https://github.com/Re1nhard-1/deconv-preflight",
-          "archived": false,
-          "fullName": "Re1nhard-1/deconv-preflight",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Re1nhard-1",
-          "pushedAt": "2026-09-21T17:33:38+00:00",
-          "createdAt": "2026-09-21T17:29:19+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T16:56:16+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Re1nhard-1",
-      "topRepo": {
-        "name": "deconv-preflight",
-        "fullName": "Re1nhard-1/deconv-preflight",
-        "stars": 99,
-        "url": "https://github.com/Re1nhard-1/deconv-preflight"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/296553177?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Re1nhard-1/deconv-preflight"
-      ],
-      "starScore": 99
+      "starScore": 110
     },
     {
       "id": "25813255",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "lhlGitHub",
       "repos": [
@@ -107,9 +151,9 @@
           "id": 1380797051,
           "fork": false,
           "name": "threejs-architecture-effects",
-          "forks": 21,
+          "forks": 22,
           "owner": "lhlGitHub",
-          "stars": 92,
+          "stars": 99,
           "avatar": "https://avatars.githubusercontent.com/u/25813255?v=4",
           "topics": [],
           "ownerId": "25813255",
@@ -121,7 +165,7 @@
           "pushedAt": "2026-09-22T03:27:27+00:00",
           "createdAt": "2026-09-22T03:01:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T17:01:49+00:00",
+          "updatedAt": "2026-09-22T18:58:04+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -130,7 +174,7 @@
       "topRepo": {
         "name": "threejs-architecture-effects",
         "fullName": "lhlGitHub/threejs-architecture-effects",
-        "stars": 92,
+        "stars": 99,
         "url": "https://github.com/lhlGitHub/threejs-architecture-effects"
       },
       "enriched": true,
@@ -139,67 +183,109 @@
       "repoNames": [
         "lhlGitHub/threejs-architecture-effects"
       ],
-      "starScore": 92
+      "starScore": 99
     },
     {
-      "id": "332245567",
-      "rank": 4,
+      "id": "70966491",
+      "rank": 5,
       "type": "User",
-      "login": "maxperry2",
+      "login": "Michael-Jiahao-Zhang",
       "repos": [
         {
-          "id": 1380550188,
+          "id": 1380633782,
           "fork": false,
-          "name": "facebook-reporting-bot",
-          "forks": 0,
-          "owner": "maxperry2",
-          "stars": 91,
-          "avatar": "https://avatars.githubusercontent.com/u/332245567?v=4",
+          "name": "game-the-llm-reviewer",
+          "forks": 3,
+          "owner": "Michael-Jiahao-Zhang",
+          "stars": 90,
+          "avatar": "https://avatars.githubusercontent.com/u/70966491?v=4",
           "topics": [
-            "autobot",
-            "ban-account",
-            "ban-facebook-bot",
-            "ban-facebook-tool",
-            "facebook-automation-tool",
-            "facebook-tool",
-            "fb-bot",
-            "report-facebook-accounts",
-            "report-facebook-bot",
-            "report-facebook-tool",
-            "reporter-facebook-bot"
+            "academic-writing",
+            "agent-skills",
+            "ai-research",
+            "llm",
+            "llm-reviewer",
+            "paper-writing",
+            "peer-review",
+            "prompt-engineering",
+            "scientific-writing"
           ],
-          "ownerId": "332245567",
-          "repoUrl": "https://github.com/maxperry2/facebook-reporting-bot",
+          "ownerId": "70966491",
+          "repoUrl": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
           "archived": false,
-          "fullName": "maxperry2/facebook-reporting-bot",
+          "fullName": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/maxperry2",
-          "pushedAt": "2026-09-21T21:21:15+00:00",
-          "createdAt": "2026-09-21T21:20:30+00:00",
+          "ownerUrl": "https://github.com/Michael-Jiahao-Zhang",
+          "pushedAt": "2026-09-22T18:55:19+00:00",
+          "createdAt": "2026-09-21T23:11:47+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T01:06:56+00:00",
-          "description": "",
+          "updatedAt": "2026-09-22T20:24:23+00:00",
+          "description": "Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/maxperry2",
+      "htmlUrl": "https://github.com/Michael-Jiahao-Zhang",
       "topRepo": {
-        "name": "facebook-reporting-bot",
-        "fullName": "maxperry2/facebook-reporting-bot",
-        "stars": 91,
-        "url": "https://github.com/maxperry2/facebook-reporting-bot"
+        "name": "game-the-llm-reviewer",
+        "fullName": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
+        "stars": 90,
+        "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/332245567?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70966491?v=4",
       "repoCount": 1,
       "repoNames": [
-        "maxperry2/facebook-reporting-bot"
+        "Michael-Jiahao-Zhang/game-the-llm-reviewer"
       ],
-      "starScore": 91
+      "starScore": 90
+    },
+    {
+      "id": "300999740",
+      "rank": 6,
+      "type": "User",
+      "login": "sontakkevipul",
+      "repos": [
+        {
+          "id": 1381910160,
+          "fork": false,
+          "name": "python-projects",
+          "forks": 0,
+          "owner": "sontakkevipul",
+          "stars": 90,
+          "avatar": "https://avatars.githubusercontent.com/u/300999740?v=4",
+          "topics": [],
+          "ownerId": "300999740",
+          "repoUrl": "https://github.com/sontakkevipul/python-projects",
+          "archived": false,
+          "fullName": "sontakkevipul/python-projects",
+          "language": "Python",
+          "ownerUrl": "https://github.com/sontakkevipul",
+          "pushedAt": "2026-09-22T17:42:53+00:00",
+          "createdAt": "2026-09-22T16:15:37+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T17:45:14+00:00",
+          "description": "Python projects demonstrating programming fundamentals, data structures, validation, automation and application logic.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sontakkevipul",
+      "topRepo": {
+        "name": "python-projects",
+        "fullName": "sontakkevipul/python-projects",
+        "stars": 90,
+        "url": "https://github.com/sontakkevipul/python-projects"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/300999740?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sontakkevipul/python-projects"
+      ],
+      "starScore": 90
     },
     {
       "id": "75060932",
-      "rank": 5,
+      "rank": 7,
       "type": "User",
       "login": "kydlikebtc",
       "repos": [
@@ -258,106 +344,52 @@
       "starScore": 80
     },
     {
-      "id": "70966491",
-      "rank": 6,
+      "id": "61940396",
+      "rank": 8,
       "type": "User",
-      "login": "Michael-Jiahao-Zhang",
+      "login": "rgem227",
       "repos": [
         {
-          "id": 1380633782,
+          "id": 1380873237,
           "fork": false,
-          "name": "game-the-llm-reviewer",
-          "forks": 3,
-          "owner": "Michael-Jiahao-Zhang",
+          "name": "knoweldge-base",
+          "forks": 2,
+          "owner": "rgem227",
           "stars": 79,
-          "avatar": "https://avatars.githubusercontent.com/u/70966491?v=4",
-          "topics": [
-            "academic-writing",
-            "agent-skills",
-            "ai-research",
-            "llm",
-            "llm-reviewer",
-            "paper-writing",
-            "peer-review",
-            "prompt-engineering",
-            "scientific-writing"
-          ],
-          "ownerId": "70966491",
-          "repoUrl": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "avatar": "https://avatars.githubusercontent.com/u/61940396?v=4",
+          "topics": [],
+          "ownerId": "61940396",
+          "repoUrl": "https://github.com/rgem227/knoweldge-base",
           "archived": false,
-          "fullName": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Michael-Jiahao-Zhang",
-          "pushedAt": "2026-09-22T02:10:43+00:00",
-          "createdAt": "2026-09-21T23:11:47+00:00",
+          "fullName": "rgem227/knoweldge-base",
+          "language": "Python",
+          "ownerUrl": "https://github.com/rgem227",
+          "pushedAt": "2026-09-22T05:28:17+00:00",
+          "createdAt": "2026-09-22T04:28:59+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T16:54:55+00:00",
-          "description": "Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "updatedAt": "2026-09-22T21:26:00+00:00",
+          "description": "Personal or team knowledge base, supports MCP API calls.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Michael-Jiahao-Zhang",
+      "htmlUrl": "https://github.com/rgem227",
       "topRepo": {
-        "name": "game-the-llm-reviewer",
-        "fullName": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
+        "name": "knoweldge-base",
+        "fullName": "rgem227/knoweldge-base",
         "stars": 79,
-        "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer"
+        "url": "https://github.com/rgem227/knoweldge-base"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70966491?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61940396?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Michael-Jiahao-Zhang/game-the-llm-reviewer"
+        "rgem227/knoweldge-base"
       ],
       "starScore": 79
     },
     {
-      "id": "147659719",
-      "rank": 7,
-      "type": "User",
-      "login": "miuuyy",
-      "repos": [
-        {
-          "id": 1381675602,
-          "fork": false,
-          "name": "Astra-Ares",
-          "forks": 1,
-          "owner": "miuuyy",
-          "stars": 71,
-          "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4",
-          "topics": [],
-          "ownerId": "147659719",
-          "repoUrl": "https://github.com/miuuyy/Astra-Ares",
-          "archived": false,
-          "fullName": "miuuyy/Astra-Ares",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/miuuyy",
-          "pushedAt": "2026-09-22T14:21:37+00:00",
-          "createdAt": "2026-09-22T14:10:07+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T17:02:36+00:00",
-          "description": "Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/miuuyy",
-      "topRepo": {
-        "name": "Astra-Ares",
-        "fullName": "miuuyy/Astra-Ares",
-        "stars": 71,
-        "url": "https://github.com/miuuyy/Astra-Ares"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/147659719?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "miuuyy/Astra-Ares"
-      ],
-      "starScore": 71
-    },
-    {
       "id": "208120464",
-      "rank": 8,
+      "rank": 9,
       "type": "User",
       "login": "wt-develo-per",
       "repos": [
@@ -410,52 +442,58 @@
       "starScore": 56
     },
     {
-      "id": "61940396",
-      "rank": 9,
+      "id": "34412250",
+      "rank": 10,
       "type": "User",
-      "login": "rgem227",
+      "login": "deepakness",
       "repos": [
         {
-          "id": 1380873237,
+          "id": 1380729698,
           "fork": false,
-          "name": "knoweldge-base",
-          "forks": 2,
-          "owner": "rgem227",
-          "stars": 47,
-          "avatar": "https://avatars.githubusercontent.com/u/61940396?v=4",
-          "topics": [],
-          "ownerId": "61940396",
-          "repoUrl": "https://github.com/rgem227/knoweldge-base",
+          "name": "cogsend",
+          "forks": 10,
+          "owner": "deepakness",
+          "stars": 51,
+          "avatar": "https://avatars.githubusercontent.com/u/34412250?v=4",
+          "topics": [
+            "cloudflare-workers",
+            "self-hosted",
+            "social-media",
+            "social-media-scheduler",
+            "sveltekit"
+          ],
+          "ownerId": "34412250",
+          "repoUrl": "https://github.com/deepakness/cogsend",
           "archived": false,
-          "fullName": "rgem227/knoweldge-base",
-          "language": "Python",
-          "ownerUrl": "https://github.com/rgem227",
-          "pushedAt": "2026-09-22T05:28:17+00:00",
-          "createdAt": "2026-09-22T04:28:59+00:00",
+          "fullName": "deepakness/cogsend",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/deepakness",
+          "pushedAt": "2026-09-22T16:44:07+00:00",
+          "createdAt": "2026-09-22T01:41:32+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T17:01:03+00:00",
-          "description": "Personal or team knowledge base, supports MCP API calls.",
+          "updatedAt": "2026-09-22T20:54:42+00:00",
+          "description": "Self-hosted social media scheduler. Write once, publish to any connected platform. Runs on your own Cloudflare account.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/rgem227",
+      "htmlUrl": "https://github.com/deepakness",
       "topRepo": {
-        "name": "knoweldge-base",
-        "fullName": "rgem227/knoweldge-base",
-        "stars": 47,
-        "url": "https://github.com/rgem227/knoweldge-base"
+        "name": "cogsend",
+        "fullName": "deepakness/cogsend",
+        "stars": 51,
+        "url": "https://github.com/deepakness/cogsend"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/61940396?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34412250?v=4",
       "repoCount": 1,
       "repoNames": [
-        "rgem227/knoweldge-base"
+        "deepakness/cogsend"
       ],
-      "starScore": 47
+      "starScore": 51
     },
     {
       "id": "15134283",
-      "rank": 10,
+      "rank": 11,
       "type": "User",
       "login": "cn0xroot",
       "repos": [
@@ -463,9 +501,9 @@
           "id": 1380877618,
           "fork": false,
           "name": "Tesla_OS_On_QEMU",
-          "forks": 9,
+          "forks": 10,
           "owner": "cn0xroot",
-          "stars": 45,
+          "stars": 49,
           "avatar": "https://avatars.githubusercontent.com/u/15134283?v=4",
           "topics": [],
           "ownerId": "15134283",
@@ -477,7 +515,7 @@
           "pushedAt": "2026-09-22T07:39:14+00:00",
           "createdAt": "2026-09-22T04:34:21+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T17:03:25+00:00",
+          "updatedAt": "2026-09-22T18:34:08+00:00",
           "description": "Run Tesla OS On QEMU",
           "defaultBranch": "main"
         }
@@ -486,7 +524,7 @@
       "topRepo": {
         "name": "Tesla_OS_On_QEMU",
         "fullName": "cn0xroot/Tesla_OS_On_QEMU",
-        "stars": 45,
+        "stars": 49,
         "url": "https://github.com/cn0xroot/Tesla_OS_On_QEMU"
       },
       "enriched": true,
@@ -495,11 +533,11 @@
       "repoNames": [
         "cn0xroot/Tesla_OS_On_QEMU"
       ],
-      "starScore": 45
+      "starScore": 49
     },
     {
       "id": "19947331",
-      "rank": 11,
+      "rank": 12,
       "type": "User",
       "login": "JunMa11",
       "repos": [
@@ -507,9 +545,9 @@
           "id": 1380739864,
           "fork": false,
           "name": "MedJev",
-          "forks": 3,
+          "forks": 4,
           "owner": "JunMa11",
-          "stars": 44,
+          "stars": 48,
           "avatar": "https://avatars.githubusercontent.com/u/19947331?v=4",
           "topics": [],
           "ownerId": "19947331",
@@ -521,7 +559,7 @@
           "pushedAt": "2026-09-22T03:03:40+00:00",
           "createdAt": "2026-09-22T01:53:56+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T17:03:16+00:00",
+          "updatedAt": "2026-09-22T19:57:18+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -530,7 +568,7 @@
       "topRepo": {
         "name": "MedJev",
         "fullName": "JunMa11/MedJev",
-        "stars": 44,
+        "stars": 48,
         "url": "https://github.com/JunMa11/MedJev"
       },
       "enriched": true,
@@ -539,11 +577,11 @@
       "repoNames": [
         "JunMa11/MedJev"
       ],
-      "starScore": 44
+      "starScore": 48
     },
     {
       "id": "261772828",
-      "rank": 12,
+      "rank": 13,
       "type": "Organization",
       "login": "lordsinstitute",
       "repos": [
@@ -551,9 +589,9 @@
           "id": 1380743175,
           "fork": false,
           "name": "star-projects",
-          "forks": 38,
+          "forks": 39,
           "owner": "lordsinstitute",
-          "stars": 41,
+          "stars": 42,
           "avatar": "https://avatars.githubusercontent.com/u/261772828?v=4",
           "topics": [],
           "ownerId": "261772828",
@@ -565,7 +603,7 @@
           "pushedAt": "2026-09-22T02:42:09+00:00",
           "createdAt": "2026-09-22T01:58:01+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-22T13:21:49+00:00",
+          "updatedAt": "2026-09-22T18:37:32+00:00",
           "description": "A showcase of exceptional student projects from Lords Institute of Engineering and Technology",
           "defaultBranch": "main"
         }
@@ -574,7 +612,7 @@
       "topRepo": {
         "name": "star-projects",
         "fullName": "lordsinstitute/star-projects",
-        "stars": 41,
+        "stars": 42,
         "url": "https://github.com/lordsinstitute/star-projects"
       },
       "enriched": true,
@@ -583,11 +621,11 @@
       "repoNames": [
         "lordsinstitute/star-projects"
       ],
-      "starScore": 41
+      "starScore": 42
     },
     {
       "id": "79420609",
-      "rank": 13,
+      "rank": 14,
       "type": "User",
       "login": "mattxslv",
       "repos": [
@@ -595,9 +633,9 @@
           "id": 1380871501,
           "fork": false,
           "name": "childstream",
-          "forks": 2,
+          "forks": 3,
           "owner": "mattxslv",
-          "stars": 40,
+          "stars": 42,
           "avatar": "https://avatars.githubusercontent.com/u/79420609?v=4",
           "topics": [],
           "ownerId": "79420609",
@@ -609,7 +647,7 @@
           "pushedAt": "2026-09-22T07:01:44+00:00",
           "createdAt": "2026-09-22T04:26:53+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T16:54:06+00:00",
+          "updatedAt": "2026-09-22T20:00:54+00:00",
           "description": "Stream games from a second Windows desktop while you keep using your PC - via Windows child sessions + Sunshine",
           "defaultBranch": "master"
         }
@@ -618,7 +656,7 @@
       "topRepo": {
         "name": "childstream",
         "fullName": "mattxslv/childstream",
-        "stars": 40,
+        "stars": 42,
         "url": "https://github.com/mattxslv/childstream"
       },
       "enriched": true,
@@ -627,55 +665,55 @@
       "repoNames": [
         "mattxslv/childstream"
       ],
-      "starScore": 40
+      "starScore": 42
     },
     {
-      "id": "20580715",
-      "rank": 14,
+      "id": "332520371",
+      "rank": 15,
       "type": "User",
-      "login": "lvgalvao",
+      "login": "BnbAgentChainL2",
       "repos": [
         {
-          "id": 1380481477,
+          "id": 1381916762,
           "fork": false,
-          "name": "Imersao-Jornada-Databricks",
-          "forks": 5,
-          "owner": "lvgalvao",
-          "stars": 36,
-          "avatar": "https://avatars.githubusercontent.com/u/20580715?v=4",
+          "name": "bnb-agent-chain",
+          "forks": 6,
+          "owner": "BnbAgentChainL2",
+          "stars": 41,
+          "avatar": "https://avatars.githubusercontent.com/u/332520371?v=4",
           "topics": [],
-          "ownerId": "20580715",
-          "repoUrl": "https://github.com/lvgalvao/Imersao-Jornada-Databricks",
+          "ownerId": "332520371",
+          "repoUrl": "https://github.com/BnbAgentChainL2/bnb-agent-chain",
           "archived": false,
-          "fullName": "lvgalvao/Imersao-Jornada-Databricks",
-          "language": "Python",
-          "ownerUrl": "https://github.com/lvgalvao",
-          "pushedAt": "2026-09-21T22:32:11+00:00",
-          "createdAt": "2026-09-21T20:20:36+00:00",
+          "fullName": "BnbAgentChainL2/bnb-agent-chain",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/BnbAgentChainL2",
+          "pushedAt": "2026-09-22T16:20:03+00:00",
+          "createdAt": "2026-09-22T16:19:25+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T15:18:41+00:00",
-          "description": "",
+          "updatedAt": "2026-09-22T20:01:54+00:00",
+          "description": "A Flap tax token on BNB Smart Chain, a separate Besu QBFT chain that automated agents enter by passing a timed on-chain challenge, and the bridge between them. Pre-launch: nothing is deployed.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lvgalvao",
+      "htmlUrl": "https://github.com/BnbAgentChainL2",
       "topRepo": {
-        "name": "Imersao-Jornada-Databricks",
-        "fullName": "lvgalvao/Imersao-Jornada-Databricks",
-        "stars": 36,
-        "url": "https://github.com/lvgalvao/Imersao-Jornada-Databricks"
+        "name": "bnb-agent-chain",
+        "fullName": "BnbAgentChainL2/bnb-agent-chain",
+        "stars": 41,
+        "url": "https://github.com/BnbAgentChainL2/bnb-agent-chain"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20580715?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/332520371?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lvgalvao/Imersao-Jornada-Databricks"
+        "BnbAgentChainL2/bnb-agent-chain"
       ],
-      "starScore": 36
+      "starScore": 41
     },
     {
       "id": "61247483",
-      "rank": 15,
+      "rank": 16,
       "type": "User",
       "login": "Calcium-Ion",
       "repos": [
@@ -683,9 +721,9 @@
           "id": 1380866691,
           "fork": false,
           "name": "AstrLink",
-          "forks": 11,
+          "forks": 12,
           "owner": "Calcium-Ion",
-          "stars": 34,
+          "stars": 39,
           "avatar": "https://avatars.githubusercontent.com/u/61247483?v=4",
           "topics": [
             "ai-gateway"
@@ -699,7 +737,7 @@
           "pushedAt": "2026-09-22T15:04:43+00:00",
           "createdAt": "2026-09-22T04:20:28+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T16:04:11+00:00",
+          "updatedAt": "2026-09-22T21:01:46+00:00",
           "description": "A local AI gateway for AI agents, unifying your subscriptions and API providers with smart routing and on-device privacy protection.",
           "defaultBranch": "main"
         }
@@ -708,7 +746,7 @@
       "topRepo": {
         "name": "AstrLink",
         "fullName": "Calcium-Ion/AstrLink",
-        "stars": 34,
+        "stars": 39,
         "url": "https://github.com/Calcium-Ion/AstrLink"
       },
       "enriched": true,
@@ -717,51 +755,7 @@
       "repoNames": [
         "Calcium-Ion/AstrLink"
       ],
-      "starScore": 34
-    },
-    {
-      "id": "121799615",
-      "rank": 16,
-      "type": "User",
-      "login": "LaurentVoanh",
-      "repos": [
-        {
-          "id": 1380301543,
-          "fork": false,
-          "name": "Agnes-free-ai-video-unlimited",
-          "forks": 4,
-          "owner": "LaurentVoanh",
-          "stars": 33,
-          "avatar": "https://avatars.githubusercontent.com/u/121799615?v=4",
-          "topics": [],
-          "ownerId": "121799615",
-          "repoUrl": "https://github.com/LaurentVoanh/Agnes-free-ai-video-unlimited",
-          "archived": false,
-          "fullName": "LaurentVoanh/Agnes-free-ai-video-unlimited",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/LaurentVoanh",
-          "pushedAt": "2026-09-21T21:41:16+00:00",
-          "createdAt": "2026-09-21T18:16:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:47:31+00:00",
-          "description": "Créer des vidéos gratuitement 24 heures sur 24 à peu près une minute trente pour générer une vidéo de 10 secondes",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/LaurentVoanh",
-      "topRepo": {
-        "name": "Agnes-free-ai-video-unlimited",
-        "fullName": "LaurentVoanh/Agnes-free-ai-video-unlimited",
-        "stars": 33,
-        "url": "https://github.com/LaurentVoanh/Agnes-free-ai-video-unlimited"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/121799615?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "LaurentVoanh/Agnes-free-ai-video-unlimited"
-      ],
-      "starScore": 33
+      "starScore": 39
     },
     {
       "id": "36907108",
@@ -775,7 +769,7 @@
           "name": "jev-poly-crypto-demo",
           "forks": 11,
           "owner": "frankda",
-          "stars": 32,
+          "stars": 34,
           "avatar": "https://avatars.githubusercontent.com/u/36907108?v=4",
           "topics": [],
           "ownerId": "36907108",
@@ -787,7 +781,7 @@
           "pushedAt": "2026-09-22T10:25:11+00:00",
           "createdAt": "2026-09-21T23:52:21+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T17:02:38+00:00",
+          "updatedAt": "2026-09-22T18:24:01+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -796,7 +790,7 @@
       "topRepo": {
         "name": "jev-poly-crypto-demo",
         "fullName": "frankda/jev-poly-crypto-demo",
-        "stars": 32,
+        "stars": 34,
         "url": "https://github.com/frankda/jev-poly-crypto-demo"
       },
       "enriched": true,
@@ -805,62 +799,151 @@
       "repoNames": [
         "frankda/jev-poly-crypto-demo"
       ],
-      "starScore": 32
+      "starScore": 34
     },
     {
-      "id": "316117818",
+      "id": "332587460",
       "rank": 18,
-      "type": "User",
-      "login": "open-ai-jobs",
+      "type": "Organization",
+      "login": "kryvora-network",
       "repos": [
         {
-          "id": 1380270430,
+          "id": 1381900816,
           "fork": false,
-          "name": "firecrawl-api-examples",
+          "name": "kryvora-node",
           "forks": 0,
-          "owner": "open-ai-jobs",
-          "stars": 29,
-          "avatar": "https://avatars.githubusercontent.com/u/316117818?v=4",
+          "owner": "kryvora-network",
+          "stars": 33,
+          "avatar": "https://avatars.githubusercontent.com/u/332587460?v=4",
           "topics": [
-            "api-examples",
-            "crawler",
-            "examples",
-            "firecrawl-api",
-            "firecrawl-api-github",
-            "web-scraping"
+            "depin",
+            "distributed-systems",
+            "golang",
+            "infrastructure",
+            "node-runner",
+            "telemetry",
+            "worker-daemon"
           ],
-          "ownerId": "316117818",
-          "repoUrl": "https://github.com/open-ai-jobs/firecrawl-api-examples",
+          "ownerId": "332587460",
+          "repoUrl": "https://github.com/kryvora-network/kryvora-node",
           "archived": false,
-          "fullName": "open-ai-jobs/firecrawl-api-examples",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/open-ai-jobs",
-          "pushedAt": "2026-09-22T04:56:21+00:00",
-          "createdAt": "2026-09-21T17:56:59+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T09:39:21+00:00",
-          "description": "Firecrawl API examples in Python: scrape one URL, map then batch scrape, start a crawl and poll its status.",
+          "fullName": "kryvora-network/kryvora-node",
+          "language": "Go",
+          "ownerUrl": "https://github.com/kryvora-network",
+          "pushedAt": "2026-09-22T19:02:39+00:00",
+          "createdAt": "2026-09-22T16:10:23+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-22T21:22:22+00:00",
+          "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/open-ai-jobs",
+      "htmlUrl": "https://github.com/kryvora-network",
       "topRepo": {
-        "name": "firecrawl-api-examples",
-        "fullName": "open-ai-jobs/firecrawl-api-examples",
-        "stars": 29,
-        "url": "https://github.com/open-ai-jobs/firecrawl-api-examples"
+        "name": "kryvora-node",
+        "fullName": "kryvora-network/kryvora-node",
+        "stars": 33,
+        "url": "https://github.com/kryvora-network/kryvora-node"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117818?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/332587460?v=4",
       "repoCount": 1,
       "repoNames": [
-        "open-ai-jobs/firecrawl-api-examples"
+        "kryvora-network/kryvora-node"
       ],
-      "starScore": 29
+      "starScore": 33
+    },
+    {
+      "id": "219747476",
+      "rank": 19,
+      "type": "User",
+      "login": "tonyd2wild",
+      "repos": [
+        {
+          "id": 1380712325,
+          "fork": false,
+          "name": "MiMo-V2.6-Flash-DGX-Spark-Recipe",
+          "forks": 2,
+          "owner": "tonyd2wild",
+          "stars": 31,
+          "avatar": "https://avatars.githubusercontent.com/u/219747476?v=4",
+          "topics": [],
+          "ownerId": "219747476",
+          "repoUrl": "https://github.com/tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
+          "archived": false,
+          "fullName": "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
+          "language": "Python",
+          "ownerUrl": "https://github.com/tonyd2wild",
+          "pushedAt": "2026-09-22T14:40:13+00:00",
+          "createdAt": "2026-09-22T01:17:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T19:48:52+00:00",
+          "description": "MiMo-V2.6-Flash-RL on 2x NVIDIA DGX Spark (GB10): vLLM TP2 + DFlash + vision/audio, fp8 KV 300K, four fixes for the stock image, measured baselines",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tonyd2wild",
+      "topRepo": {
+        "name": "MiMo-V2.6-Flash-DGX-Spark-Recipe",
+        "fullName": "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
+        "stars": 31,
+        "url": "https://github.com/tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/219747476?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe"
+      ],
+      "starScore": 31
+    },
+    {
+      "id": "97473894",
+      "rank": 20,
+      "type": "User",
+      "login": "Aayan-DEV",
+      "repos": [
+        {
+          "id": 1381473673,
+          "fork": false,
+          "name": "aayans-yc-indexor",
+          "forks": 3,
+          "owner": "Aayan-DEV",
+          "stars": 30,
+          "avatar": "https://avatars.githubusercontent.com/u/97473894?v=4",
+          "topics": [],
+          "ownerId": "97473894",
+          "repoUrl": "https://github.com/Aayan-DEV/aayans-yc-indexor",
+          "archived": false,
+          "fullName": "Aayan-DEV/aayans-yc-indexor",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Aayan-DEV",
+          "pushedAt": "2026-09-22T13:59:51+00:00",
+          "createdAt": "2026-09-22T12:28:16+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T20:44:21+00:00",
+          "description": "Describe a YC startup in any words and the matching logos float up out of a physics pile, each with how likely it is. 6,241 companies, searchable by what they do, what their logo looks like, and what it says inside.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Aayan-DEV",
+      "topRepo": {
+        "name": "aayans-yc-indexor",
+        "fullName": "Aayan-DEV/aayans-yc-indexor",
+        "stars": 30,
+        "url": "https://github.com/Aayan-DEV/aayans-yc-indexor"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97473894?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Aayan-DEV/aayans-yc-indexor"
+      ],
+      "starScore": 30
     },
     {
       "id": "331533552",
-      "rank": 19,
+      "rank": 21,
       "type": "User",
       "login": "satellitedown",
       "repos": [
@@ -903,8 +986,96 @@
       "starScore": 29
     },
     {
+      "id": "301145249",
+      "rank": 22,
+      "type": "User",
+      "login": "edison-land",
+      "repos": [
+        {
+          "id": 1381229689,
+          "fork": false,
+          "name": "paragravity",
+          "forks": 3,
+          "owner": "edison-land",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/301145249?v=4",
+          "topics": [],
+          "ownerId": "301145249",
+          "repoUrl": "https://github.com/edison-land/paragravity",
+          "archived": false,
+          "fullName": "edison-land/paragravity",
+          "language": "Python",
+          "ownerUrl": "https://github.com/edison-land",
+          "pushedAt": "2026-09-22T13:28:46+00:00",
+          "createdAt": "2026-09-22T09:51:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T21:25:39+00:00",
+          "description": "Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/edison-land",
+      "topRepo": {
+        "name": "paragravity",
+        "fullName": "edison-land/paragravity",
+        "stars": 28,
+        "url": "https://github.com/edison-land/paragravity"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/301145249?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "edison-land/paragravity"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "185824",
+      "rank": 23,
+      "type": "User",
+      "login": "hqman",
+      "repos": [
+        {
+          "id": 1381319800,
+          "fork": false,
+          "name": "jev-browser-skill",
+          "forks": 1,
+          "owner": "hqman",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/185824?v=4",
+          "topics": [],
+          "ownerId": "185824",
+          "repoUrl": "https://github.com/hqman/jev-browser-skill",
+          "archived": false,
+          "fullName": "hqman/jev-browser-skill",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/hqman",
+          "pushedAt": "2026-09-22T13:29:23+00:00",
+          "createdAt": "2026-09-22T10:56:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-22T20:16:56+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/hqman",
+      "topRepo": {
+        "name": "jev-browser-skill",
+        "fullName": "hqman/jev-browser-skill",
+        "stars": 28,
+        "url": "https://github.com/hqman/jev-browser-skill"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/185824?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "hqman/jev-browser-skill"
+      ],
+      "starScore": 28
+    },
+    {
       "id": "512240",
-      "rank": 20,
+      "rank": 24,
       "type": "User",
       "login": "mmastrac",
       "repos": [
@@ -912,7 +1083,7 @@
           "id": 1380653730,
           "fork": false,
           "name": "djev",
-          "forks": 3,
+          "forks": 4,
           "owner": "mmastrac",
           "stars": 28,
           "avatar": "https://avatars.githubusercontent.com/u/512240?v=4",
@@ -947,287 +1118,102 @@
       "starScore": 28
     },
     {
-      "id": "232107",
-      "rank": 21,
-      "type": "User",
-      "login": "peterfriese",
-      "repos": [
-        {
-          "id": 1380219642,
-          "fork": false,
-          "name": "jev-foundation-models",
-          "forks": 0,
-          "owner": "peterfriese",
-          "stars": 28,
-          "avatar": "https://avatars.githubusercontent.com/u/232107?v=4",
-          "topics": [],
-          "ownerId": "232107",
-          "repoUrl": "https://github.com/peterfriese/jev-foundation-models",
-          "archived": false,
-          "fullName": "peterfriese/jev-foundation-models",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/peterfriese",
-          "pushedAt": "2026-09-21T18:02:22+00:00",
-          "createdAt": "2026-09-21T17:25:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T14:58:45+00:00",
-          "description": "A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/peterfriese",
-      "topRepo": {
-        "name": "jev-foundation-models",
-        "fullName": "peterfriese/jev-foundation-models",
-        "stars": 28,
-        "url": "https://github.com/peterfriese/jev-foundation-models"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/232107?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "peterfriese/jev-foundation-models"
-      ],
-      "starScore": 28
-    },
-    {
-      "id": "219747476",
-      "rank": 22,
-      "type": "User",
-      "login": "tonyd2wild",
-      "repos": [
-        {
-          "id": 1380712325,
-          "fork": false,
-          "name": "MiMo-V2.6-Flash-DGX-Spark-Recipe",
-          "forks": 2,
-          "owner": "tonyd2wild",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/219747476?v=4",
-          "topics": [],
-          "ownerId": "219747476",
-          "repoUrl": "https://github.com/tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
-          "archived": false,
-          "fullName": "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
-          "language": "Python",
-          "ownerUrl": "https://github.com/tonyd2wild",
-          "pushedAt": "2026-09-22T14:40:13+00:00",
-          "createdAt": "2026-09-22T01:17:53+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T15:01:50+00:00",
-          "description": "MiMo-V2.6-Flash-RL on 2x NVIDIA DGX Spark (GB10): vLLM TP2 + DFlash + vision/audio, fp8 KV 300K, four fixes for the stock image, measured baselines",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/tonyd2wild",
-      "topRepo": {
-        "name": "MiMo-V2.6-Flash-DGX-Spark-Recipe",
-        "fullName": "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
-        "stars": 26,
-        "url": "https://github.com/tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/219747476?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe"
-      ],
-      "starScore": 26
-    },
-    {
-      "id": "324207732",
-      "rank": 23,
-      "type": "User",
-      "login": "dylapatel18",
-      "repos": [
-        {
-          "id": 1380203731,
-          "fork": false,
-          "name": "free-fire-menu-tool",
-          "forks": 0,
-          "owner": "dylapatel18",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/324207732?v=4",
-          "topics": [
-            "freefire",
-            "freefire-api",
-            "freefire-id-hack",
-            "freefire-tools",
-            "garena-ff"
-          ],
-          "ownerId": "324207732",
-          "repoUrl": "https://github.com/dylapatel18/free-fire-menu-tool",
-          "archived": false,
-          "fullName": "dylapatel18/free-fire-menu-tool",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/dylapatel18",
-          "pushedAt": "2026-09-21T17:16:49+00:00",
-          "createdAt": "2026-09-21T17:16:19+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-21T20:47:56+00:00",
-          "description": "FFTricksHub is a repository dedicated to Free Fire players, offering useful tips, tricks, sensitivity settings, and gameplay guides to help players enhance their skills and overall performance.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dylapatel18",
-      "topRepo": {
-        "name": "free-fire-menu-tool",
-        "fullName": "dylapatel18/free-fire-menu-tool",
-        "stars": 24,
-        "url": "https://github.com/dylapatel18/free-fire-menu-tool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/324207732?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dylapatel18/free-fire-menu-tool"
-      ],
-      "starScore": 24
-    },
-    {
-      "id": "67093",
-      "rank": 24,
-      "type": "User",
-      "login": "excid3",
-      "repos": [
-        {
-          "id": 1380193404,
-          "fork": false,
-          "name": "tenanting",
-          "forks": 0,
-          "owner": "excid3",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/67093?v=4",
-          "topics": [],
-          "ownerId": "67093",
-          "repoUrl": "https://github.com/excid3/tenanting",
-          "archived": false,
-          "fullName": "excid3/tenanting",
-          "language": "Ruby",
-          "ownerUrl": "https://github.com/excid3",
-          "pushedAt": "2026-09-22T11:13:01+00:00",
-          "createdAt": "2026-09-21T17:09:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T13:39:44+00:00",
-          "description": "Multitenancy for Rails",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/excid3",
-      "topRepo": {
-        "name": "tenanting",
-        "fullName": "excid3/tenanting",
-        "stars": 24,
-        "url": "https://github.com/excid3/tenanting"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/67093?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "excid3/tenanting"
-      ],
-      "starScore": 24
-    },
-    {
-      "id": "316117684",
+      "id": "332669084",
       "rank": 25,
       "type": "User",
-      "login": "limova-dev",
+      "login": "jmurphy6",
       "repos": [
         {
-          "id": 1380242659,
+          "id": 1382368866,
           "fork": false,
-          "name": "awesome-codex-web",
+          "name": "facebook-reporting-tool",
           "forks": 0,
-          "owner": "limova-dev",
-          "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/316117684?v=4",
+          "owner": "jmurphy6",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/332669084?v=4",
           "topics": [
-            "ai-coding",
-            "awesome",
-            "awesome-list",
-            "codex",
-            "codex-web",
-            "codex-web-github",
-            "openai-codex"
+            "autobot",
+            "ban-account",
+            "ban-facebook-bot",
+            "ban-facebook-tool",
+            "facebook-automation-tool",
+            "facebook-tool",
+            "fb-bot",
+            "report-facebook-accounts",
+            "report-facebook-bot",
+            "report-facebook-tool",
+            "reporter-facebook-bot"
           ],
-          "ownerId": "316117684",
-          "repoUrl": "https://github.com/limova-dev/awesome-codex-web",
+          "ownerId": "332669084",
+          "repoUrl": "https://github.com/jmurphy6/facebook-reporting-tool",
           "archived": false,
-          "fullName": "limova-dev/awesome-codex-web",
+          "fullName": "jmurphy6/facebook-reporting-tool",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/limova-dev",
-          "pushedAt": "2026-09-22T04:51:52+00:00",
-          "createdAt": "2026-09-21T17:39:59+00:00",
+          "ownerUrl": "https://github.com/jmurphy6",
+          "pushedAt": "2026-09-22T21:18:02+00:00",
+          "createdAt": "2026-09-22T21:17:19+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T04:51:55+00:00",
-          "description": "Awesome list for Codex web: official pages, plans, docs, tutorials and alternatives for the browser-hosted Codex agent.",
+          "updatedAt": "2026-09-22T21:29:42+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/limova-dev",
+      "htmlUrl": "https://github.com/jmurphy6",
       "topRepo": {
-        "name": "awesome-codex-web",
-        "fullName": "limova-dev/awesome-codex-web",
-        "stars": 23,
-        "url": "https://github.com/limova-dev/awesome-codex-web"
+        "name": "facebook-reporting-tool",
+        "fullName": "jmurphy6/facebook-reporting-tool",
+        "stars": 25,
+        "url": "https://github.com/jmurphy6/facebook-reporting-tool"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117684?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/332669084?v=4",
       "repoCount": 1,
       "repoNames": [
-        "limova-dev/awesome-codex-web"
+        "jmurphy6/facebook-reporting-tool"
       ],
-      "starScore": 23
+      "starScore": 25
     },
     {
-      "id": "312952013",
+      "id": "83042094",
       "rank": 26,
       "type": "User",
-      "login": "Portionsofinish",
+      "login": "MiaAI-Lab",
       "repos": [
         {
-          "id": 1380423534,
+          "id": 1381311478,
           "fork": false,
-          "name": "happy-wheels-overlay",
-          "forks": 8,
-          "owner": "Portionsofinish",
+          "name": "MiMo-V2.6-Flash-2x-DGX-Sparks",
+          "forks": 1,
+          "owner": "MiaAI-Lab",
           "stars": 23,
-          "avatar": "https://avatars.githubusercontent.com/u/312952013?v=4",
-          "topics": [
-            "game-mod",
-            "happy-wheels",
-            "physics-sandbox",
-            "platformer",
-            "ragdoll",
-            "sandbox"
-          ],
-          "ownerId": "312952013",
-          "repoUrl": "https://github.com/Portionsofinish/happy-wheels-overlay",
+          "avatar": "https://avatars.githubusercontent.com/u/83042094?v=4",
+          "topics": [],
+          "ownerId": "83042094",
+          "repoUrl": "https://github.com/MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
           "archived": false,
-          "fullName": "Portionsofinish/happy-wheels-overlay",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Portionsofinish",
-          "pushedAt": "2026-09-21T19:38:15+00:00",
-          "createdAt": "2026-09-21T19:36:57+00:00",
+          "fullName": "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
+          "language": "Python",
+          "ownerUrl": "https://github.com/MiaAI-Lab",
+          "pushedAt": "2026-09-22T11:03:39+00:00",
+          "createdAt": "2026-09-22T10:51:09+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-22T00:13:20+00:00",
-          "description": "34-module Cheat/Trainer for Happy Wheels — ragdoll immunity, vehicle tools, level editor unlocks, achievement completion and sandbox utilities.",
+          "updatedAt": "2026-09-22T21:08:42+00:00",
+          "description": "MiMo-V2.6-Flash for 2x DGX Sparks",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Portionsofinish",
+      "htmlUrl": "https://github.com/MiaAI-Lab",
       "topRepo": {
-        "name": "happy-wheels-overlay",
-        "fullName": "Portionsofinish/happy-wheels-overlay",
+        "name": "MiMo-V2.6-Flash-2x-DGX-Sparks",
+        "fullName": "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
         "stars": 23,
-        "url": "https://github.com/Portionsofinish/happy-wheels-overlay"
+        "url": "https://github.com/MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/312952013?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83042094?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Portionsofinish/happy-wheels-overlay"
+        "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks"
       ],
       "starScore": 23
     },
@@ -1276,191 +1262,8 @@
       "starScore": 22
     },
     {
-      "id": "185824",
-      "rank": 28,
-      "type": "User",
-      "login": "hqman",
-      "repos": [
-        {
-          "id": 1381319800,
-          "fork": false,
-          "name": "jev-browser-skill",
-          "forks": 1,
-          "owner": "hqman",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/185824?v=4",
-          "topics": [],
-          "ownerId": "185824",
-          "repoUrl": "https://github.com/hqman/jev-browser-skill",
-          "archived": false,
-          "fullName": "hqman/jev-browser-skill",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/hqman",
-          "pushedAt": "2026-09-22T13:29:23+00:00",
-          "createdAt": "2026-09-22T10:56:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T16:53:39+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hqman",
-      "topRepo": {
-        "name": "jev-browser-skill",
-        "fullName": "hqman/jev-browser-skill",
-        "stars": 22,
-        "url": "https://github.com/hqman/jev-browser-skill"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/185824?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hqman/jev-browser-skill"
-      ],
-      "starScore": 22
-    },
-    {
-      "id": "326591530",
-      "rank": 29,
-      "type": "Organization",
-      "login": "Music-Engine",
-      "repos": [
-        {
-          "id": 1380196932,
-          "fork": false,
-          "name": "wled-toy",
-          "forks": 1,
-          "owner": "Music-Engine",
-          "stars": 22,
-          "avatar": "https://avatars.githubusercontent.com/u/326591530?v=4",
-          "topics": [],
-          "ownerId": "326591530",
-          "repoUrl": "https://github.com/Music-Engine/wled-toy",
-          "archived": false,
-          "fullName": "Music-Engine/wled-toy",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Music-Engine",
-          "pushedAt": "2026-09-21T21:33:48+00:00",
-          "createdAt": "2026-09-21T17:12:05+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-09-22T14:51:20+00:00",
-          "description": "Live shader and node graph editor for WLED Strips",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Music-Engine",
-      "topRepo": {
-        "name": "wled-toy",
-        "fullName": "Music-Engine/wled-toy",
-        "stars": 22,
-        "url": "https://github.com/Music-Engine/wled-toy"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/326591530?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Music-Engine/wled-toy"
-      ],
-      "starScore": 22
-    },
-    {
-      "id": "316117388",
-      "rank": 30,
-      "type": "User",
-      "login": "chatbase-dev",
-      "repos": [
-        {
-          "id": 1380263496,
-          "fork": false,
-          "name": "awesome-sonnet-5",
-          "forks": 0,
-          "owner": "chatbase-dev",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/316117388?v=4",
-          "topics": [
-            "anthropic",
-            "awesome",
-            "awesome-list",
-            "claude",
-            "sonnet-5",
-            "sonnet-5-github"
-          ],
-          "ownerId": "316117388",
-          "repoUrl": "https://github.com/chatbase-dev/awesome-sonnet-5",
-          "archived": false,
-          "fullName": "chatbase-dev/awesome-sonnet-5",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/chatbase-dev",
-          "pushedAt": "2026-09-22T04:54:46+00:00",
-          "createdAt": "2026-09-21T17:52:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:54:49+00:00",
-          "description": "Awesome list for Claude Sonnet 5: announcement, pricing, API docs, migration from Sonnet 4.6 and reviews.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/chatbase-dev",
-      "topRepo": {
-        "name": "awesome-sonnet-5",
-        "fullName": "chatbase-dev/awesome-sonnet-5",
-        "stars": 20,
-        "url": "https://github.com/chatbase-dev/awesome-sonnet-5"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117388?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "chatbase-dev/awesome-sonnet-5"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "83042094",
-      "rank": 31,
-      "type": "User",
-      "login": "MiaAI-Lab",
-      "repos": [
-        {
-          "id": 1381311478,
-          "fork": false,
-          "name": "MiMo-V2.6-Flash-2x-DGX-Sparks",
-          "forks": 0,
-          "owner": "MiaAI-Lab",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/83042094?v=4",
-          "topics": [],
-          "ownerId": "83042094",
-          "repoUrl": "https://github.com/MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
-          "archived": false,
-          "fullName": "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
-          "language": "Python",
-          "ownerUrl": "https://github.com/MiaAI-Lab",
-          "pushedAt": "2026-09-22T11:03:39+00:00",
-          "createdAt": "2026-09-22T10:51:09+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T16:35:02+00:00",
-          "description": "MiMo-V2.6-Flash for 2x DGX Sparks",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MiaAI-Lab",
-      "topRepo": {
-        "name": "MiMo-V2.6-Flash-2x-DGX-Sparks",
-        "fullName": "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks",
-        "stars": 20,
-        "url": "https://github.com/MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/83042094?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MiaAI-Lab/MiMo-V2.6-Flash-2x-DGX-Sparks"
-      ],
-      "starScore": 20
-    },
-    {
       "id": "317022252",
-      "rank": 32,
+      "rank": 28,
       "type": "User",
       "login": "ZJL-Git7",
       "repos": [
@@ -1515,310 +1318,8 @@
       "starScore": 20
     },
     {
-      "id": "316117401",
-      "rank": 33,
-      "type": "User",
-      "login": "search-atlas-dev",
-      "repos": [
-        {
-          "id": 1380258032,
-          "fork": false,
-          "name": "awesome-instagram-username-checker",
-          "forks": 0,
-          "owner": "search-atlas-dev",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/316117401?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "instagram",
-            "instagram-username-checker",
-            "instagram-username-checker-github"
-          ],
-          "ownerId": "316117401",
-          "repoUrl": "https://github.com/search-atlas-dev/awesome-instagram-username-checker",
-          "archived": false,
-          "fullName": "search-atlas-dev/awesome-instagram-username-checker",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/search-atlas-dev",
-          "pushedAt": "2026-09-22T04:54:01+00:00",
-          "createdAt": "2026-09-21T17:49:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:54:04+00:00",
-          "description": "Curated instagram username checker list: availability tools, multi-network and domain checks, next steps.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/search-atlas-dev",
-      "topRepo": {
-        "name": "awesome-instagram-username-checker",
-        "fullName": "search-atlas-dev/awesome-instagram-username-checker",
-        "stars": 17,
-        "url": "https://github.com/search-atlas-dev/awesome-instagram-username-checker"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117401?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "search-atlas-dev/awesome-instagram-username-checker"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "312950725",
-      "rank": 34,
-      "type": "User",
-      "login": "SnatchStageRoof13",
-      "repos": [
-        {
-          "id": 1380409232,
-          "fork": false,
-          "name": "dressmaker-modkit",
-          "forks": 8,
-          "owner": "SnatchStageRoof13",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/312950725?v=4",
-          "topics": [
-            "cozy-game",
-            "dressmaker",
-            "steam",
-            "windows"
-          ],
-          "ownerId": "312950725",
-          "repoUrl": "https://github.com/SnatchStageRoof13/dressmaker-modkit",
-          "archived": false,
-          "fullName": "SnatchStageRoof13/dressmaker-modkit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/SnatchStageRoof13",
-          "pushedAt": "2026-09-21T19:29:55+00:00",
-          "createdAt": "2026-09-21T19:26:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T00:14:20+00:00",
-          "description": "37-module Trainer/Cheat for Dressmaker — coins and shop, instant sewing and pattern cutting, order fulfilment, sketchbook design and cozy atelier tools.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SnatchStageRoof13",
-      "topRepo": {
-        "name": "dressmaker-modkit",
-        "fullName": "SnatchStageRoof13/dressmaker-modkit",
-        "stars": 17,
-        "url": "https://github.com/SnatchStageRoof13/dressmaker-modkit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/312950725?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SnatchStageRoof13/dressmaker-modkit"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "316117495",
-      "rank": 35,
-      "type": "User",
-      "login": "claude-code-plugins",
-      "repos": [
-        {
-          "id": 1380276592,
-          "fork": false,
-          "name": "awesome-deepseek-code",
-          "forks": 0,
-          "owner": "claude-code-plugins",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/316117495?v=4",
-          "topics": [
-            "awesome",
-            "awesome-list",
-            "deepseek",
-            "deepseek-code",
-            "deepseek-code-github",
-            "llm"
-          ],
-          "ownerId": "316117495",
-          "repoUrl": "https://github.com/claude-code-plugins/awesome-deepseek-code",
-          "archived": false,
-          "fullName": "claude-code-plugins/awesome-deepseek-code",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/claude-code-plugins",
-          "pushedAt": "2026-09-22T04:56:41+00:00",
-          "createdAt": "2026-09-21T18:00:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:56:45+00:00",
-          "description": "Awesome list for deepseek code: Deep Code CLI docs, DeepSeek Coder on Ollama, API platform links and tools.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/claude-code-plugins",
-      "topRepo": {
-        "name": "awesome-deepseek-code",
-        "fullName": "claude-code-plugins/awesome-deepseek-code",
-        "stars": 16,
-        "url": "https://github.com/claude-code-plugins/awesome-deepseek-code"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117495?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "claude-code-plugins/awesome-deepseek-code"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "316117743",
-      "rank": 36,
-      "type": "User",
-      "login": "floot-dev",
-      "repos": [
-        {
-          "id": 1380266545,
-          "fork": false,
-          "name": "pangram-ai-detector-alternatives",
-          "forks": 0,
-          "owner": "floot-dev",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/316117743?v=4",
-          "topics": [
-            "ai-detection",
-            "ai-detector",
-            "alternatives",
-            "comparison",
-            "pangram-ai-detector",
-            "pangram-ai-detector-github"
-          ],
-          "ownerId": "316117743",
-          "repoUrl": "https://github.com/floot-dev/pangram-ai-detector-alternatives",
-          "archived": false,
-          "fullName": "floot-dev/pangram-ai-detector-alternatives",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/floot-dev",
-          "pushedAt": "2026-09-22T04:55:46+00:00",
-          "createdAt": "2026-09-21T17:54:38+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:55:50+00:00",
-          "description": "Pangram AI detector alternatives compared: Pangram's own modes, the no-detector approach, and a writing tool.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/floot-dev",
-      "topRepo": {
-        "name": "pangram-ai-detector-alternatives",
-        "fullName": "floot-dev/pangram-ai-detector-alternatives",
-        "stars": 16,
-        "url": "https://github.com/floot-dev/pangram-ai-detector-alternatives"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117743?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "floot-dev/pangram-ai-detector-alternatives"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "316117374",
-      "rank": 37,
-      "type": "User",
-      "login": "heygen-mcp",
-      "repos": [
-        {
-          "id": 1380240250,
-          "fork": false,
-          "name": "ponytail-alternatives",
-          "forks": 0,
-          "owner": "heygen-mcp",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/316117374?v=4",
-          "topics": [
-            "3d",
-            "alternatives",
-            "comparison",
-            "ponytail",
-            "ponytail-github"
-          ],
-          "ownerId": "316117374",
-          "repoUrl": "https://github.com/heygen-mcp/ponytail-alternatives",
-          "archived": false,
-          "fullName": "heygen-mcp/ponytail-alternatives",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/heygen-mcp",
-          "pushedAt": "2026-09-22T04:55:21+00:00",
-          "createdAt": "2026-09-21T17:38:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:55:25+00:00",
-          "description": "Ponytail GitHub alternatives: the plain instructions file, skill subsets, project context, and Supavoxel for 3D.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/heygen-mcp",
-      "topRepo": {
-        "name": "ponytail-alternatives",
-        "fullName": "heygen-mcp/ponytail-alternatives",
-        "stars": 16,
-        "url": "https://github.com/heygen-mcp/ponytail-alternatives"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316117374?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "heygen-mcp/ponytail-alternatives"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "316116979",
-      "rank": 38,
-      "type": "User",
-      "login": "minea-review",
-      "repos": [
-        {
-          "id": 1380252930,
-          "fork": false,
-          "name": "claude-terminal",
-          "forks": 0,
-          "owner": "minea-review",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/316116979?v=4",
-          "topics": [
-            "anthropic",
-            "claude",
-            "claude-code",
-            "claude-terminal",
-            "claude-terminal-github",
-            "guide"
-          ],
-          "ownerId": "316116979",
-          "repoUrl": "https://github.com/minea-review/claude-terminal",
-          "archived": false,
-          "fullName": "minea-review/claude-terminal",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/minea-review",
-          "pushedAt": "2026-09-22T04:53:18+00:00",
-          "createdAt": "2026-09-21T17:46:16+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:53:22+00:00",
-          "description": "Unofficial claude terminal guide: installing Claude Code, first session, quickstart steps, settings and gotchas.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/minea-review",
-      "topRepo": {
-        "name": "claude-terminal",
-        "fullName": "minea-review/claude-terminal",
-        "stars": 16,
-        "url": "https://github.com/minea-review/claude-terminal"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316116979?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "minea-review/claude-terminal"
-      ],
-      "starScore": 16
-    },
-    {
       "id": "324657700",
-      "rank": 39,
+      "rank": 29,
       "type": "User",
       "login": "Moduleplusnare",
       "repos": [
@@ -1862,107 +1363,6 @@
         "Moduleplusnare/Active-Matter-overlay"
       ],
       "starScore": 16
-    },
-    {
-      "id": "316116449",
-      "rank": 40,
-      "type": "User",
-      "login": "joycaption",
-      "repos": [
-        {
-          "id": 1380250204,
-          "fork": false,
-          "name": "lovable-pricing",
-          "forks": 0,
-          "owner": "joycaption",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/316116449?v=4",
-          "topics": [
-            "ai-app-builder",
-            "guide",
-            "lovable-pricing",
-            "lovable-pricing-github",
-            "vibe-coding"
-          ],
-          "ownerId": "316116449",
-          "repoUrl": "https://github.com/joycaption/lovable-pricing",
-          "archived": false,
-          "fullName": "joycaption/lovable-pricing",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/joycaption",
-          "pushedAt": "2026-09-22T04:52:54+00:00",
-          "createdAt": "2026-09-21T17:44:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:52:58+00:00",
-          "description": "Unofficial guide to Lovable pricing: how credits, daily grants, expiry and cancellation work, plus an alternative.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/joycaption",
-      "topRepo": {
-        "name": "lovable-pricing",
-        "fullName": "joycaption/lovable-pricing",
-        "stars": 15,
-        "url": "https://github.com/joycaption/lovable-pricing"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316116449?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "joycaption/lovable-pricing"
-      ],
-      "starScore": 15
-    },
-    {
-      "id": "316116289",
-      "rank": 41,
-      "type": "User",
-      "login": "vidu-dev",
-      "repos": [
-        {
-          "id": 1380238036,
-          "fork": false,
-          "name": "tripo-3d-alternatives",
-          "forks": 0,
-          "owner": "vidu-dev",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/316116289?v=4",
-          "topics": [
-            "3d-generation",
-            "alternatives",
-            "comparison",
-            "text-to-3d",
-            "tripo-3d",
-            "tripo-3d-github"
-          ],
-          "ownerId": "316116289",
-          "repoUrl": "https://github.com/vidu-dev/tripo-3d-alternatives",
-          "archived": false,
-          "fullName": "vidu-dev/tripo-3d-alternatives",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/vidu-dev",
-          "pushedAt": "2026-09-22T04:55:05+00:00",
-          "createdAt": "2026-09-21T17:37:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-22T04:55:09+00:00",
-          "description": "Tripo 3D alternatives compared: Tripo Studio, the Android app, 3D AI Studio hosting and Supavoxel for image to 3D.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/vidu-dev",
-      "topRepo": {
-        "name": "tripo-3d-alternatives",
-        "fullName": "vidu-dev/tripo-3d-alternatives",
-        "stars": 15,
-        "url": "https://github.com/vidu-dev/tripo-3d-alternatives"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316116289?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "vidu-dev/tripo-3d-alternatives"
-      ],
-      "starScore": 15
     }
   ]
 }
