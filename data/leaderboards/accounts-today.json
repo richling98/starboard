@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T22:28:20.317Z",
-  "total": 26,
-  "totalIndexedCount": 26,
-  "coverageLabel": "Showing 26 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-09-30T05:58:19.030Z",
+  "total": 50,
+  "totalIndexedCount": 50,
+  "coverageLabel": "Showing 50 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,8 +10,125 @@
   },
   "rows": [
     {
-      "id": "60330232",
+      "id": "331885419",
       "rank": 1,
+      "type": "User",
+      "login": "Outsideglutweezers",
+      "repos": [
+        {
+          "id": 1395259891,
+          "fork": false,
+          "name": "Discord-Nitro-Generator",
+          "forks": 33,
+          "owner": "Outsideglutweezers",
+          "stars": 342,
+          "avatar": "https://avatars.githubusercontent.com/u/331885419?v=4",
+          "topics": [
+            "best-nitro-generator",
+            "discord-checker",
+            "discord-joiner-tokens",
+            "discord-nitro",
+            "discord-nitro-generator-2026",
+            "discord-nitro-pc",
+            "discord-promotion-generator",
+            "discordnitrogenerator",
+            "free-nitro",
+            "free-nitro-discord",
+            "nitro-checker",
+            "nitro-checker-generator",
+            "nitro-generator-exe",
+            "nitro-generator-github",
+            "promo-checker"
+          ],
+          "ownerId": "331885419",
+          "repoUrl": "https://github.com/Outsideglutweezers/Discord-Nitro-Generator",
+          "archived": false,
+          "fullName": "Outsideglutweezers/Discord-Nitro-Generator",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Outsideglutweezers",
+          "pushedAt": "2026-09-29T12:45:56+00:00",
+          "createdAt": "2026-09-29T12:45:51+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:45:35+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Outsideglutweezers",
+      "topRepo": {
+        "name": "Discord-Nitro-Generator",
+        "fullName": "Outsideglutweezers/Discord-Nitro-Generator",
+        "stars": 342,
+        "url": "https://github.com/Outsideglutweezers/Discord-Nitro-Generator"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/331885419?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Outsideglutweezers/Discord-Nitro-Generator"
+      ],
+      "starScore": 342
+    },
+    {
+      "id": "85809106",
+      "rank": 2,
+      "type": "User",
+      "login": "feder-cr",
+      "repos": [
+        {
+          "id": 1396688303,
+          "fork": false,
+          "name": "dots",
+          "forks": 21,
+          "owner": "feder-cr",
+          "stars": 328,
+          "avatar": "https://avatars.githubusercontent.com/u/85809106?v=4",
+          "topics": [
+            "ai-agent",
+            "ai-browser",
+            "anti-detect-browser",
+            "browser-agent",
+            "browser-automation",
+            "dots",
+            "firefox",
+            "llm-agent",
+            "open-source-alternative",
+            "openai-dots",
+            "openrouter",
+            "web-agent"
+          ],
+          "ownerId": "85809106",
+          "repoUrl": "https://github.com/feder-cr/dots",
+          "archived": false,
+          "fullName": "feder-cr/dots",
+          "language": "Python",
+          "ownerUrl": "https://github.com/feder-cr",
+          "pushedAt": "2026-09-29T23:24:01+00:00",
+          "createdAt": "2026-09-29T23:06:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:46:49+00:00",
+          "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/feder-cr",
+      "topRepo": {
+        "name": "dots",
+        "fullName": "feder-cr/dots",
+        "stars": 328,
+        "url": "https://github.com/feder-cr/dots"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85809106?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "feder-cr/dots"
+      ],
+      "starScore": 328
+    },
+    {
+      "id": "60330232",
+      "rank": 3,
       "type": "Organization",
       "login": "PostHog",
       "repos": [
@@ -21,7 +138,7 @@
           "name": "jeeves",
           "forks": 11,
           "owner": "PostHog",
-          "stars": 261,
+          "stars": 301,
           "avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
           "topics": [],
           "ownerId": "60330232",
@@ -33,7 +150,7 @@
           "pushedAt": "2026-09-29T21:55:45+00:00",
           "createdAt": "2026-09-29T09:56:47+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-29T22:10:40+00:00",
+          "updatedAt": "2026-09-30T05:40:13+00:00",
           "description": "Jeeves – Reasoning improves Jev-like decision models",
           "defaultBranch": "master"
         }
@@ -42,7 +159,7 @@
       "topRepo": {
         "name": "jeeves",
         "fullName": "PostHog/jeeves",
-        "stars": 261,
+        "stars": 301,
         "url": "https://github.com/PostHog/jeeves"
       },
       "enriched": true,
@@ -51,55 +168,78 @@
       "repoNames": [
         "PostHog/jeeves"
       ],
-      "starScore": 261
+      "starScore": 301
     },
     {
-      "id": "14957082",
-      "rank": 2,
+      "id": "148330874",
+      "rank": 4,
       "type": "Organization",
-      "login": "openai",
+      "login": "deepseek-ai",
       "repos": [
         {
-          "id": 1394011672,
+          "id": 1395835665,
           "fork": false,
-          "name": "mcp-extensions",
-          "forks": 8,
-          "owner": "openai",
-          "stars": 176,
-          "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+          "name": "DeepGEMM-Ascend",
+          "forks": 5,
+          "owner": "deepseek-ai",
+          "stars": 158,
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
           "topics": [],
-          "ownerId": "14957082",
-          "repoUrl": "https://github.com/openai/mcp-extensions",
+          "ownerId": "148330874",
+          "repoUrl": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
           "archived": false,
-          "fullName": "openai/mcp-extensions",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/openai",
-          "pushedAt": "2026-09-29T19:30:39+00:00",
-          "createdAt": "2026-09-29T00:45:42+00:00",
+          "fullName": "deepseek-ai/DeepGEMM-Ascend",
+          "language": "C++",
+          "ownerUrl": "https://github.com/deepseek-ai",
+          "pushedAt": "2026-09-30T01:11:39+00:00",
+          "createdAt": "2026-09-29T15:49:55+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-09-29T22:23:52+00:00",
-          "description": "Build plugins that feel like native, first-class features of ChatGPT.",
+          "updatedAt": "2026-09-30T05:42:57+00:00",
+          "description": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1396765235,
+          "fork": false,
+          "name": "DeepEP-Ascend",
+          "forks": 5,
+          "owner": "deepseek-ai",
+          "stars": 101,
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+          "topics": [],
+          "ownerId": "148330874",
+          "repoUrl": "https://github.com/deepseek-ai/DeepEP-Ascend",
+          "archived": false,
+          "fullName": "deepseek-ai/DeepEP-Ascend",
+          "language": "C++",
+          "ownerUrl": "https://github.com/deepseek-ai",
+          "pushedAt": "2026-09-30T00:53:14+00:00",
+          "createdAt": "2026-09-30T00:44:59+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-30T05:45:05+00:00",
+          "description": "A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/openai",
+      "htmlUrl": "https://github.com/deepseek-ai",
       "topRepo": {
-        "name": "mcp-extensions",
-        "fullName": "openai/mcp-extensions",
-        "stars": 176,
-        "url": "https://github.com/openai/mcp-extensions"
+        "name": "DeepGEMM-Ascend",
+        "fullName": "deepseek-ai/DeepGEMM-Ascend",
+        "stars": 158,
+        "url": "https://github.com/deepseek-ai/DeepGEMM-Ascend"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148330874?v=4",
+      "repoCount": 2,
       "repoNames": [
-        "openai/mcp-extensions"
+        "deepseek-ai/DeepGEMM-Ascend",
+        "deepseek-ai/DeepEP-Ascend"
       ],
-      "starScore": 176
+      "starScore": 259
     },
     {
       "id": "55895356",
-      "rank": 3,
+      "rank": 5,
       "type": "User",
       "login": "Ghentlesteve",
       "repos": [
@@ -142,52 +282,8 @@
       "starScore": 145
     },
     {
-      "id": "335350208",
-      "rank": 4,
-      "type": "User",
-      "login": "fulldiagnose",
-      "repos": [
-        {
-          "id": 1394398089,
-          "fork": false,
-          "name": "antigravity-fixer",
-          "forks": 16,
-          "owner": "fulldiagnose",
-          "stars": 104,
-          "avatar": "https://avatars.githubusercontent.com/u/335350208?v=4",
-          "topics": [],
-          "ownerId": "335350208",
-          "repoUrl": "https://github.com/fulldiagnose/antigravity-fixer",
-          "archived": false,
-          "fullName": "fulldiagnose/antigravity-fixer",
-          "language": "Python",
-          "ownerUrl": "https://github.com/fulldiagnose",
-          "pushedAt": "2026-09-29T12:53:16+00:00",
-          "createdAt": "2026-09-29T05:22:13+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T22:19:48+00:00",
-          "description": "Fix Antigravity 'not eligible' error - diagnose, clean credentials, auto-fix",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/fulldiagnose",
-      "topRepo": {
-        "name": "antigravity-fixer",
-        "fullName": "fulldiagnose/antigravity-fixer",
-        "stars": 104,
-        "url": "https://github.com/fulldiagnose/antigravity-fixer"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/335350208?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "fulldiagnose/antigravity-fixer"
-      ],
-      "starScore": 104
-    },
-    {
       "id": "318072935",
-      "rank": 5,
+      "rank": 6,
       "type": "User",
       "login": "shapegasenchant",
       "repos": [
@@ -242,66 +338,6 @@
         "shapegasenchant/Delta-Executor-Roblox"
       ],
       "starScore": 101
-    },
-    {
-      "id": "331885419",
-      "rank": 6,
-      "type": "User",
-      "login": "Outsideglutweezers",
-      "repos": [
-        {
-          "id": 1395259891,
-          "fork": false,
-          "name": "Discord-Nitro-Generator",
-          "forks": 12,
-          "owner": "Outsideglutweezers",
-          "stars": 86,
-          "avatar": "https://avatars.githubusercontent.com/u/331885419?v=4",
-          "topics": [
-            "best-nitro-generator",
-            "discord-checker",
-            "discord-joiner-tokens",
-            "discord-nitro",
-            "discord-nitro-generator-2026",
-            "discord-nitro-pc",
-            "discord-promotion-generator",
-            "discordnitrogenerator",
-            "free-nitro",
-            "free-nitro-discord",
-            "nitro-checker",
-            "nitro-checker-generator",
-            "nitro-generator-exe",
-            "nitro-generator-github",
-            "promo-checker"
-          ],
-          "ownerId": "331885419",
-          "repoUrl": "https://github.com/Outsideglutweezers/Discord-Nitro-Generator",
-          "archived": false,
-          "fullName": "Outsideglutweezers/Discord-Nitro-Generator",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Outsideglutweezers",
-          "pushedAt": "2026-09-29T12:45:56+00:00",
-          "createdAt": "2026-09-29T12:45:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T22:23:34+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Outsideglutweezers",
-      "topRepo": {
-        "name": "Discord-Nitro-Generator",
-        "fullName": "Outsideglutweezers/Discord-Nitro-Generator",
-        "stars": 86,
-        "url": "https://github.com/Outsideglutweezers/Discord-Nitro-Generator"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/331885419?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Outsideglutweezers/Discord-Nitro-Generator"
-      ],
-      "starScore": 86
     },
     {
       "id": "223441727",
@@ -417,140 +453,8 @@
       "starScore": 82
     },
     {
-      "id": "83042094",
-      "rank": 8,
-      "type": "User",
-      "login": "MiaAI-Lab",
-      "repos": [
-        {
-          "id": 1394334356,
-          "fork": false,
-          "name": "Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold",
-          "forks": 3,
-          "owner": "MiaAI-Lab",
-          "stars": 77,
-          "avatar": "https://avatars.githubusercontent.com/u/83042094?v=4",
-          "topics": [],
-          "ownerId": "83042094",
-          "repoUrl": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold",
-          "archived": false,
-          "fullName": "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold",
-          "language": "Shell",
-          "ownerUrl": "https://github.com/MiaAI-Lab",
-          "pushedAt": "2026-09-29T18:13:17+00:00",
-          "createdAt": "2026-09-29T04:51:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T22:18:24+00:00",
-          "description": "Qwen3.8 Flash Next on one DGX Spark (TensorFold)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MiaAI-Lab",
-      "topRepo": {
-        "name": "Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold",
-        "fullName": "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold",
-        "stars": 77,
-        "url": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/83042094?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold"
-      ],
-      "starScore": 77
-    },
-    {
-      "id": "39734865",
-      "rank": 9,
-      "type": "User",
-      "login": "gentlefress",
-      "repos": [
-        {
-          "id": 1394628742,
-          "fork": false,
-          "name": "OMEGA-0",
-          "forks": 2,
-          "owner": "gentlefress",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/39734865?v=4",
-          "topics": [],
-          "ownerId": "39734865",
-          "repoUrl": "https://github.com/gentlefress/OMEGA-0",
-          "archived": false,
-          "fullName": "gentlefress/OMEGA-0",
-          "language": "Python",
-          "ownerUrl": "https://github.com/gentlefress",
-          "pushedAt": "2026-09-29T13:06:15+00:00",
-          "createdAt": "2026-09-29T07:31:02+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T20:00:52+00:00",
-          "description": "The offical code of ω-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/gentlefress",
-      "topRepo": {
-        "name": "OMEGA-0",
-        "fullName": "gentlefress/OMEGA-0",
-        "stars": 34,
-        "url": "https://github.com/gentlefress/OMEGA-0"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39734865?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "gentlefress/OMEGA-0"
-      ],
-      "starScore": 34
-    },
-    {
-      "id": "50749911",
-      "rank": 10,
-      "type": "User",
-      "login": "Kubas556",
-      "repos": [
-        {
-          "id": 1395378149,
-          "fork": false,
-          "name": "Dungeons2_linux_fix",
-          "forks": 9,
-          "owner": "Kubas556",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/50749911?v=4",
-          "topics": [],
-          "ownerId": "50749911",
-          "repoUrl": "https://github.com/Kubas556/Dungeons2_linux_fix",
-          "archived": false,
-          "fullName": "Kubas556/Dungeons2_linux_fix",
-          "language": "C",
-          "ownerUrl": "https://github.com/Kubas556",
-          "pushedAt": "2026-09-29T22:13:42+00:00",
-          "createdAt": "2026-09-29T13:22:09+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T22:15:40+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Kubas556",
-      "topRepo": {
-        "name": "Dungeons2_linux_fix",
-        "fullName": "Kubas556/Dungeons2_linux_fix",
-        "stars": 34,
-        "url": "https://github.com/Kubas556/Dungeons2_linux_fix"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50749911?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Kubas556/Dungeons2_linux_fix"
-      ],
-      "starScore": 34
-    },
-    {
       "id": "162569728",
-      "rank": 11,
+      "rank": 8,
       "type": "User",
       "login": "d4ncboz",
       "repos": [
@@ -558,9 +462,9 @@
           "id": 1396403260,
           "fork": false,
           "name": "museai",
-          "forks": 3,
+          "forks": 5,
           "owner": "d4ncboz",
-          "stars": 32,
+          "stars": 67,
           "avatar": "https://avatars.githubusercontent.com/u/162569728?v=4",
           "topics": [],
           "ownerId": "162569728",
@@ -572,7 +476,7 @@
           "pushedAt": "2026-09-29T19:12:14+00:00",
           "createdAt": "2026-09-29T18:59:57+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T22:23:08+00:00",
+          "updatedAt": "2026-09-30T05:43:24+00:00",
           "description": "High-performance OpenAI-compatible API gateway and bridge for muse.ai personal AI agents, ready for 9Router multi-model integration.",
           "defaultBranch": "main"
         }
@@ -581,7 +485,7 @@
       "topRepo": {
         "name": "museai",
         "fullName": "d4ncboz/museai",
-        "stars": 32,
+        "stars": 67,
         "url": "https://github.com/d4ncboz/museai"
       },
       "enriched": true,
@@ -590,55 +494,368 @@
       "repoNames": [
         "d4ncboz/museai"
       ],
+      "starScore": 67
+    },
+    {
+      "id": "60913038",
+      "rank": 9,
+      "type": "User",
+      "login": "spenmcke",
+      "repos": [
+        {
+          "id": 1396348192,
+          "fork": false,
+          "name": "compress",
+          "forks": 0,
+          "owner": "spenmcke",
+          "stars": 49,
+          "avatar": "https://avatars.githubusercontent.com/u/60913038?v=4",
+          "topics": [],
+          "ownerId": "60913038",
+          "repoUrl": "https://github.com/spenmcke/compress",
+          "archived": false,
+          "fullName": "spenmcke/compress",
+          "language": "Python",
+          "ownerUrl": "https://github.com/spenmcke",
+          "pushedAt": "2026-09-29T20:28:47+00:00",
+          "createdAt": "2026-09-29T18:36:31+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:35:22+00:00",
+          "description": "Free CLI from Everest that compresses Codex tool output.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/spenmcke",
+      "topRepo": {
+        "name": "compress",
+        "fullName": "spenmcke/compress",
+        "stars": 49,
+        "url": "https://github.com/spenmcke/compress"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60913038?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "spenmcke/compress"
+      ],
+      "starScore": 49
+    },
+    {
+      "id": "106173866",
+      "rank": 10,
+      "type": "Organization",
+      "login": "mlc-ai",
+      "repos": [
+        {
+          "id": 1395976322,
+          "fork": false,
+          "name": "TIRx-harness",
+          "forks": 10,
+          "owner": "mlc-ai",
+          "stars": 46,
+          "avatar": "https://avatars.githubusercontent.com/u/106173866?v=4",
+          "topics": [],
+          "ownerId": "106173866",
+          "repoUrl": "https://github.com/mlc-ai/TIRx-harness",
+          "archived": false,
+          "fullName": "mlc-ai/TIRx-harness",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/mlc-ai",
+          "pushedAt": "2026-09-29T19:13:39+00:00",
+          "createdAt": "2026-09-29T16:30:57+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-30T05:35:01+00:00",
+          "description": "An Open Compiler Harness for Agentic GPU Programming",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mlc-ai",
+      "topRepo": {
+        "name": "TIRx-harness",
+        "fullName": "mlc-ai/TIRx-harness",
+        "stars": 46,
+        "url": "https://github.com/mlc-ai/TIRx-harness"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106173866?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mlc-ai/TIRx-harness"
+      ],
+      "starScore": 46
+    },
+    {
+      "id": "50749911",
+      "rank": 11,
+      "type": "User",
+      "login": "Kubas556",
+      "repos": [
+        {
+          "id": 1395378149,
+          "fork": false,
+          "name": "Dungeons2_linux_fix",
+          "forks": 13,
+          "owner": "Kubas556",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/50749911?v=4",
+          "topics": [],
+          "ownerId": "50749911",
+          "repoUrl": "https://github.com/Kubas556/Dungeons2_linux_fix",
+          "archived": false,
+          "fullName": "Kubas556/Dungeons2_linux_fix",
+          "language": "C",
+          "ownerUrl": "https://github.com/Kubas556",
+          "pushedAt": "2026-09-29T23:06:44+00:00",
+          "createdAt": "2026-09-29T13:22:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T04:40:35+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Kubas556",
+      "topRepo": {
+        "name": "Dungeons2_linux_fix",
+        "fullName": "Kubas556/Dungeons2_linux_fix",
+        "stars": 40,
+        "url": "https://github.com/Kubas556/Dungeons2_linux_fix"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50749911?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Kubas556/Dungeons2_linux_fix"
+      ],
+      "starScore": 40
+    },
+    {
+      "id": "39734865",
+      "rank": 12,
+      "type": "User",
+      "login": "gentlefress",
+      "repos": [
+        {
+          "id": 1394628742,
+          "fork": false,
+          "name": "OMEGA-0",
+          "forks": 3,
+          "owner": "gentlefress",
+          "stars": 39,
+          "avatar": "https://avatars.githubusercontent.com/u/39734865?v=4",
+          "topics": [],
+          "ownerId": "39734865",
+          "repoUrl": "https://github.com/gentlefress/OMEGA-0",
+          "archived": false,
+          "fullName": "gentlefress/OMEGA-0",
+          "language": "Python",
+          "ownerUrl": "https://github.com/gentlefress",
+          "pushedAt": "2026-09-29T13:06:15+00:00",
+          "createdAt": "2026-09-29T07:31:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:20:44+00:00",
+          "description": "The offical code of ω-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/gentlefress",
+      "topRepo": {
+        "name": "OMEGA-0",
+        "fullName": "gentlefress/OMEGA-0",
+        "stars": 39,
+        "url": "https://github.com/gentlefress/OMEGA-0"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39734865?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "gentlefress/OMEGA-0"
+      ],
+      "starScore": 39
+    },
+    {
+      "id": "173838289",
+      "rank": 13,
+      "type": "User",
+      "login": "blendi-remade",
+      "repos": [
+        {
+          "id": 1396738941,
+          "fork": false,
+          "name": "dioramas",
+          "forks": 7,
+          "owner": "blendi-remade",
+          "stars": 36,
+          "avatar": "https://avatars.githubusercontent.com/u/173838289?v=4",
+          "topics": [
+            "3d",
+            "creative-coding",
+            "fal",
+            "generative-ai",
+            "landing-page",
+            "meshy",
+            "threejs",
+            "webgl"
+          ],
+          "ownerId": "173838289",
+          "repoUrl": "https://github.com/blendi-remade/dioramas",
+          "archived": false,
+          "fullName": "blendi-remade/dioramas",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/blendi-remade",
+          "pushedAt": "2026-09-30T00:10:22+00:00",
+          "createdAt": "2026-09-30T00:07:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:44:37+00:00",
+          "description": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/blendi-remade",
+      "topRepo": {
+        "name": "dioramas",
+        "fullName": "blendi-remade/dioramas",
+        "stars": 36,
+        "url": "https://github.com/blendi-remade/dioramas"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173838289?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "blendi-remade/dioramas"
+      ],
+      "starScore": 36
+    },
+    {
+      "id": "178476867",
+      "rank": 14,
+      "type": "User",
+      "login": "Kutuyyy",
+      "repos": [
+        {
+          "id": 1396720749,
+          "fork": false,
+          "name": "Antigravity-gsuite-to-9router",
+          "forks": 3,
+          "owner": "Kutuyyy",
+          "stars": 32,
+          "avatar": "https://avatars.githubusercontent.com/u/178476867?v=4",
+          "topics": [],
+          "ownerId": "178476867",
+          "repoUrl": "https://github.com/Kutuyyy/Antigravity-gsuite-to-9router",
+          "archived": false,
+          "fullName": "Kutuyyy/Antigravity-gsuite-to-9router",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/Kutuyyy",
+          "pushedAt": "2026-09-30T00:36:51+00:00",
+          "createdAt": "2026-09-29T23:41:20+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:34:03+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Kutuyyy",
+      "topRepo": {
+        "name": "Antigravity-gsuite-to-9router",
+        "fullName": "Kutuyyy/Antigravity-gsuite-to-9router",
+        "stars": 32,
+        "url": "https://github.com/Kutuyyy/Antigravity-gsuite-to-9router"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/178476867?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Kutuyyy/Antigravity-gsuite-to-9router"
+      ],
       "starScore": 32
     },
     {
-      "id": "112749893",
-      "rank": 12,
+      "id": "335378478",
+      "rank": 15,
       "type": "User",
-      "login": "apromisedland",
+      "login": "apimarta4gby",
       "repos": [
         {
-          "id": 1393920123,
+          "id": 1394578830,
           "fork": false,
-          "name": "Tame_3D",
+          "name": "qwen3.8-max-0902-api",
           "forks": 0,
-          "owner": "apromisedland",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/112749893?v=4",
-          "topics": [],
-          "ownerId": "112749893",
-          "repoUrl": "https://github.com/apromisedland/Tame_3D",
+          "owner": "apimarta4gby",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/335378478?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335378478",
+          "repoUrl": "https://github.com/apimarta4gby/qwen3.8-max-0902-api",
           "archived": false,
-          "fullName": "apromisedland/Tame_3D",
-          "language": "Python",
-          "ownerUrl": "https://github.com/apromisedland",
-          "pushedAt": "2026-09-28T22:48:25+00:00",
-          "createdAt": "2026-09-28T22:36:18+00:00",
+          "fullName": "apimarta4gby/qwen3.8-max-0902-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimarta4gby",
+          "pushedAt": "2026-09-29T07:05:48+00:00",
+          "createdAt": "2026-09-29T07:03:06+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T21:56:27+00:00",
-          "description": "Tame3D research framework: evidence-grounded multi-agent 3D reasoning with scene-level conformal uncertainty alignment",
-          "defaultBranch": "master"
+          "updatedAt": "2026-09-30T05:32:43+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1394587334,
+          "fork": false,
+          "name": "qwen3.8-max-0902-api-pricing",
+          "forks": 0,
+          "owner": "apimarta4gby",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335378478?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335378478",
+          "repoUrl": "https://github.com/apimarta4gby/qwen3.8-max-0902-api-pricing",
+          "archived": false,
+          "fullName": "apimarta4gby/qwen3.8-max-0902-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimarta4gby",
+          "pushedAt": "2026-09-29T07:11:34+00:00",
+          "createdAt": "2026-09-29T07:08:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:28:51+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/apromisedland",
+      "htmlUrl": "https://github.com/apimarta4gby",
       "topRepo": {
-        "name": "Tame_3D",
-        "fullName": "apromisedland/Tame_3D",
-        "stars": 31,
-        "url": "https://github.com/apromisedland/Tame_3D"
+        "name": "qwen3.8-max-0902-api",
+        "fullName": "apimarta4gby/qwen3.8-max-0902-api",
+        "stars": 15,
+        "url": "https://github.com/apimarta4gby/qwen3.8-max-0902-api"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/112749893?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335378478?v=4",
+      "repoCount": 2,
       "repoNames": [
-        "apromisedland/Tame_3D"
+        "apimarta4gby/qwen3.8-max-0902-api",
+        "apimarta4gby/qwen3.8-max-0902-api-pricing"
       ],
-      "starScore": 31
+      "starScore": 29
     },
     {
       "id": "173128136",
-      "rank": 13,
+      "rank": 16,
       "type": "User",
       "login": "omdesale777",
       "repos": [
@@ -681,96 +898,92 @@
       "starScore": 28
     },
     {
-      "id": "26764347",
-      "rank": 14,
+      "id": "335376150",
+      "rank": 17,
       "type": "User",
-      "login": "humaedihume",
+      "login": "apimartaph5zr90",
       "repos": [
         {
-          "id": 1394088570,
+          "id": 1394558531,
           "fork": false,
-          "name": "kantor-agent",
-          "forks": 5,
-          "owner": "humaedihume",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/26764347?v=4",
-          "topics": [],
-          "ownerId": "26764347",
-          "repoUrl": "https://github.com/humaedihume/kantor-agent",
+          "name": "o1-mini-api-pricing",
+          "forks": 0,
+          "owner": "apimartaph5zr90",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335376150?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335376150",
+          "repoUrl": "https://github.com/apimartaph5zr90/o1-mini-api-pricing",
           "archived": false,
-          "fullName": "humaedihume/kantor-agent",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/humaedihume",
-          "pushedAt": "2026-09-29T03:14:32+00:00",
-          "createdAt": "2026-09-29T02:17:31+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T20:47:19+00:00",
-          "description": "Kantor Agent: kantor 3D tanpa konfigurasi yang menampilkan Claude Code & subagent-nya bekerja (plugin Claude Code)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/humaedihume",
-      "topRepo": {
-        "name": "kantor-agent",
-        "fullName": "humaedihume/kantor-agent",
-        "stars": 26,
-        "url": "https://github.com/humaedihume/kantor-agent"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26764347?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "humaedihume/kantor-agent"
-      ],
-      "starScore": 26
-    },
-    {
-      "id": "63872706",
-      "rank": 15,
-      "type": "User",
-      "login": "Gutierre0x80",
-      "repos": [
-        {
-          "id": 1394034555,
-          "fork": false,
-          "name": "FlipperAmiiboCollection",
-          "forks": 3,
-          "owner": "Gutierre0x80",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/63872706?v=4",
-          "topics": [],
-          "ownerId": "63872706",
-          "repoUrl": "https://github.com/Gutierre0x80/FlipperAmiiboCollection",
-          "archived": false,
-          "fullName": "Gutierre0x80/FlipperAmiiboCollection",
+          "fullName": "apimartaph5zr90/o1-mini-api-pricing",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/Gutierre0x80",
-          "pushedAt": "2026-09-29T01:24:17+00:00",
-          "createdAt": "2026-09-29T01:16:19+00:00",
+          "ownerUrl": "https://github.com/apimartaph5zr90",
+          "pushedAt": "2026-09-29T06:51:39+00:00",
+          "createdAt": "2026-09-29T06:48:58+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T20:48:06+00:00",
-          "description": "900+ ready-to-use Amiibo NFC files for Flipper Zero, covering nearly the entire Nintendo Switch Amiibo catalog — cleaned, deduplicated, organized and NTAG215-fixed.",
+          "updatedAt": "2026-09-30T05:24:04+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1394545827,
+          "fork": false,
+          "name": "o1-mini-api",
+          "forks": 0,
+          "owner": "apimartaph5zr90",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/335376150?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335376150",
+          "repoUrl": "https://github.com/apimartaph5zr90/o1-mini-api",
+          "archived": false,
+          "fullName": "apimartaph5zr90/o1-mini-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartaph5zr90",
+          "pushedAt": "2026-09-29T06:46:46+00:00",
+          "createdAt": "2026-09-29T06:41:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:24:07+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Gutierre0x80",
+      "htmlUrl": "https://github.com/apimartaph5zr90",
       "topRepo": {
-        "name": "FlipperAmiiboCollection",
-        "fullName": "Gutierre0x80/FlipperAmiiboCollection",
-        "stars": 24,
-        "url": "https://github.com/Gutierre0x80/FlipperAmiiboCollection"
+        "name": "o1-mini-api-pricing",
+        "fullName": "apimartaph5zr90/o1-mini-api-pricing",
+        "stars": 14,
+        "url": "https://github.com/apimartaph5zr90/o1-mini-api-pricing"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/63872706?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335376150?v=4",
+      "repoCount": 2,
       "repoNames": [
-        "Gutierre0x80/FlipperAmiiboCollection"
+        "apimartaph5zr90/o1-mini-api-pricing",
+        "apimartaph5zr90/o1-mini-api"
       ],
-      "starScore": 24
+      "starScore": 27
     },
     {
       "id": "11783388",
-      "rank": 16,
+      "rank": 18,
       "type": "User",
       "login": "flaviocopes",
       "repos": [
@@ -780,7 +993,7 @@
           "name": "noterepo",
           "forks": 1,
           "owner": "flaviocopes",
-          "stars": 22,
+          "stars": 27,
           "avatar": "https://avatars.githubusercontent.com/u/11783388?v=4",
           "topics": [
             "alpinejs",
@@ -802,7 +1015,7 @@
           "pushedAt": "2026-09-29T20:42:53+00:00",
           "createdAt": "2026-09-29T11:54:07+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T20:46:44+00:00",
+          "updatedAt": "2026-09-30T05:45:18+00:00",
           "description": "A quiet, local-first daily notes app for macOS",
           "defaultBranch": "main"
         }
@@ -811,7 +1024,7 @@
       "topRepo": {
         "name": "noterepo",
         "fullName": "flaviocopes/noterepo",
-        "stars": 22,
+        "stars": 27,
         "url": "https://github.com/flaviocopes/noterepo"
       },
       "enriched": true,
@@ -820,11 +1033,288 @@
       "repoNames": [
         "flaviocopes/noterepo"
       ],
+      "starScore": 27
+    },
+    {
+      "id": "240733214",
+      "rank": 19,
+      "type": "User",
+      "login": "sunny-crypto444",
+      "repos": [
+        {
+          "id": 1396142010,
+          "fork": false,
+          "name": "ai-incident-response-agent",
+          "forks": 7,
+          "owner": "sunny-crypto444",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/240733214?v=4",
+          "topics": [],
+          "ownerId": "240733214",
+          "repoUrl": "https://github.com/sunny-crypto444/ai-incident-response-agent",
+          "archived": false,
+          "fullName": "sunny-crypto444/ai-incident-response-agent",
+          "language": "Python",
+          "ownerUrl": "https://github.com/sunny-crypto444",
+          "pushedAt": "2026-09-29T17:25:54+00:00",
+          "createdAt": "2026-09-29T17:22:17+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:37:44+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sunny-crypto444",
+      "topRepo": {
+        "name": "ai-incident-response-agent",
+        "fullName": "sunny-crypto444/ai-incident-response-agent",
+        "stars": 24,
+        "url": "https://github.com/sunny-crypto444/ai-incident-response-agent"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/240733214?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sunny-crypto444/ai-incident-response-agent"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "57501119",
+      "rank": 20,
+      "type": "User",
+      "login": "weak1337",
+      "repos": [
+        {
+          "id": 1395022149,
+          "fork": false,
+          "name": "FilterTap",
+          "forks": 6,
+          "owner": "weak1337",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/57501119?v=4",
+          "topics": [],
+          "ownerId": "57501119",
+          "repoUrl": "https://github.com/weak1337/FilterTap",
+          "archived": false,
+          "fullName": "weak1337/FilterTap",
+          "language": "C++",
+          "ownerUrl": "https://github.com/weak1337",
+          "pushedAt": "2026-09-29T11:20:42+00:00",
+          "createdAt": "2026-09-29T11:17:35+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:17:48+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/weak1337",
+      "topRepo": {
+        "name": "FilterTap",
+        "fullName": "weak1337/FilterTap",
+        "stars": 24,
+        "url": "https://github.com/weak1337/FilterTap"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57501119?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "weak1337/FilterTap"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "198351389",
+      "rank": 21,
+      "type": "User",
+      "login": "hirotomasato",
+      "repos": [
+        {
+          "id": 1395203963,
+          "fork": false,
+          "name": "duckapi",
+          "forks": 3,
+          "owner": "hirotomasato",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/198351389?v=4",
+          "topics": [
+            "anthropic-compatible",
+            "api-proxy",
+            "chat-completions",
+            "claude",
+            "duckai",
+            "fastapi",
+            "image-generation",
+            "llm",
+            "openai-compatible",
+            "playwright",
+            "reverse-proxy",
+            "self-hosted"
+          ],
+          "ownerId": "198351389",
+          "repoUrl": "https://github.com/hirotomasato/duckapi",
+          "archived": false,
+          "fullName": "hirotomasato/duckapi",
+          "language": "Python",
+          "ownerUrl": "https://github.com/hirotomasato",
+          "pushedAt": "2026-09-29T14:46:37+00:00",
+          "createdAt": "2026-09-29T12:24:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:07:33+00:00",
+          "description": "OpenAI- and Anthropic-compatible API for Duck.ai, driven by a real Chrome browser via Playwright. Streaming chat, image generation, session reuse, and a web dashboard.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/hirotomasato",
+      "topRepo": {
+        "name": "duckapi",
+        "fullName": "hirotomasato/duckapi",
+        "stars": 23,
+        "url": "https://github.com/hirotomasato/duckapi"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/198351389?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "hirotomasato/duckapi"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "5423352",
+      "rank": 22,
+      "type": "User",
+      "login": "zack-the-worker",
+      "repos": [
+        {
+          "id": 1394618103,
+          "fork": false,
+          "name": "fomo-cc",
+          "forks": 1,
+          "owner": "zack-the-worker",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/5423352?v=4",
+          "topics": [],
+          "ownerId": "5423352",
+          "repoUrl": "https://github.com/zack-the-worker/fomo-cc",
+          "archived": false,
+          "fullName": "zack-the-worker/fomo-cc",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/zack-the-worker",
+          "pushedAt": "2026-09-29T07:34:54+00:00",
+          "createdAt": "2026-09-29T07:24:43+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T04:36:13+00:00",
+          "description": "An Agent Skill that roasts AI-hype delusions - then shows the way out.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/zack-the-worker",
+      "topRepo": {
+        "name": "fomo-cc",
+        "fullName": "zack-the-worker/fomo-cc",
+        "stars": 23,
+        "url": "https://github.com/zack-the-worker/fomo-cc"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5423352?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "zack-the-worker/fomo-cc"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "1419214",
+      "rank": 23,
+      "type": "User",
+      "login": "bjarneo",
+      "repos": [
+        {
+          "id": 1395031079,
+          "fork": false,
+          "name": "pixeltop",
+          "forks": 0,
+          "owner": "bjarneo",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
+          "topics": [],
+          "ownerId": "1419214",
+          "repoUrl": "https://github.com/bjarneo/pixeltop",
+          "archived": false,
+          "fullName": "bjarneo/pixeltop",
+          "language": "Go",
+          "ownerUrl": "https://github.com/bjarneo",
+          "pushedAt": "2026-09-29T11:21:33+00:00",
+          "createdAt": "2026-09-29T11:21:14+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T03:59:53+00:00",
+          "description": "A live system monitor for Omarchy that puts your theme first. Inspired by btop.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/bjarneo",
+      "topRepo": {
+        "name": "pixeltop",
+        "fullName": "bjarneo/pixeltop",
+        "stars": 22,
+        "url": "https://github.com/bjarneo/pixeltop"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "bjarneo/pixeltop"
+      ],
+      "starScore": 22
+    },
+    {
+      "id": "56980003",
+      "rank": 24,
+      "type": "User",
+      "login": "sudiptacmd",
+      "repos": [
+        {
+          "id": 1396072736,
+          "fork": false,
+          "name": "homedroid",
+          "forks": 0,
+          "owner": "sudiptacmd",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/56980003?v=4",
+          "topics": [],
+          "ownerId": "56980003",
+          "repoUrl": "https://github.com/sudiptacmd/homedroid",
+          "archived": false,
+          "fullName": "sudiptacmd/homedroid",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/sudiptacmd",
+          "pushedAt": "2026-09-29T23:46:18+00:00",
+          "createdAt": "2026-09-29T16:59:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T04:30:26+00:00",
+          "description": "Turn an old Android phone into a home server: SSH, web hosting, Jellyfin with hardware transcoding, Immich, qBittorrent, Home Assistant and a web dashboard. No root.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sudiptacmd",
+      "topRepo": {
+        "name": "homedroid",
+        "fullName": "sudiptacmd/homedroid",
+        "stars": 22,
+        "url": "https://github.com/sudiptacmd/homedroid"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56980003?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sudiptacmd/homedroid"
+      ],
       "starScore": 22
     },
     {
       "id": "335658302",
-      "rank": 17,
+      "rank": 25,
       "type": "User",
       "login": "kerbastien5643",
       "repos": [
@@ -877,52 +1367,133 @@
       "starScore": 21
     },
     {
-      "id": "108962958",
-      "rank": 18,
+      "id": "307142636",
+      "rank": 26,
       "type": "User",
-      "login": "jrlucas1",
+      "login": "infinityhugo",
       "repos": [
         {
-          "id": 1393978507,
+          "id": 1395281040,
           "fork": false,
-          "name": "csgo-julia-plugin",
-          "forks": 1,
-          "owner": "jrlucas1",
+          "name": "Polymarket-Perpetual-Bot",
+          "forks": 6,
+          "owner": "infinityhugo",
           "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/108962958?v=4",
-          "topics": [],
-          "ownerId": "108962958",
-          "repoUrl": "https://github.com/jrlucas1/csgo-julia-plugin",
+          "avatar": "https://avatars.githubusercontent.com/u/307142636?v=4",
+          "topics": [
+            "15min",
+            "5min",
+            "ai-forecasting-polymarket",
+            "event-trading-bot-polymarket",
+            "forecaster",
+            "go-polymarket",
+            "machine-learning-polymarket",
+            "politycs",
+            "polymarket-go",
+            "polymarket-market-analytics",
+            "polymarket-quant",
+            "polymarket-rust",
+            "polymarket-trade-agent",
+            "prediction-agent-polymarket",
+            "prediction-engine-polymarket",
+            "prediction-market-trade-bot-polymarket",
+            "predictive-ai-polymarket",
+            "trade-agent-polymarket",
+            "trade-ai-polymarket",
+            "typescript-polymarket"
+          ],
+          "ownerId": "307142636",
+          "repoUrl": "https://github.com/infinityhugo/Polymarket-Perpetual-Bot",
           "archived": false,
-          "fullName": "jrlucas1/csgo-julia-plugin",
+          "fullName": "infinityhugo/Polymarket-Perpetual-Bot",
           "language": "Python",
-          "ownerUrl": "https://github.com/jrlucas1",
-          "pushedAt": "2026-09-29T00:14:11+00:00",
-          "createdAt": "2026-09-28T23:58:52+00:00",
+          "ownerUrl": "https://github.com/infinityhugo",
+          "pushedAt": "2026-09-30T05:41:09+00:00",
+          "createdAt": "2026-09-29T12:52:41+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T22:08:25+00:00",
-          "description": "",
+          "updatedAt": "2026-09-30T05:41:13+00:00",
+          "description": "Polymarket trading bot for prediction markets — browse CLOB markets, watch the order book in the terminal, run edge detection, liquidity provision and cross-market arbitrage strategies with paper trading and risk limits. Educational open-source toolkit — not financial advice. Unofficial community project, not affiliated with Polymarket.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/jrlucas1",
+      "htmlUrl": "https://github.com/infinityhugo",
       "topRepo": {
-        "name": "csgo-julia-plugin",
-        "fullName": "jrlucas1/csgo-julia-plugin",
+        "name": "Polymarket-Perpetual-Bot",
+        "fullName": "infinityhugo/Polymarket-Perpetual-Bot",
         "stars": 20,
-        "url": "https://github.com/jrlucas1/csgo-julia-plugin"
+        "url": "https://github.com/infinityhugo/Polymarket-Perpetual-Bot"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108962958?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/307142636?v=4",
       "repoCount": 1,
       "repoNames": [
-        "jrlucas1/csgo-julia-plugin"
+        "infinityhugo/Polymarket-Perpetual-Bot"
       ],
       "starScore": 20
     },
     {
+      "id": "318241976",
+      "rank": 27,
+      "type": "User",
+      "login": "chrysler-stone",
+      "repos": [
+        {
+          "id": 1395215215,
+          "fork": false,
+          "name": "awesome-tauri-apps",
+          "forks": 9,
+          "owner": "chrysler-stone",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/318241976?v=4",
+          "topics": [
+            "awesome",
+            "awesome-list",
+            "desktop",
+            "javascript",
+            "linux",
+            "macos",
+            "multiplatform",
+            "rust",
+            "svelte",
+            "tauri",
+            "typescript",
+            "vue",
+            "web",
+            "web-development",
+            "windows"
+          ],
+          "ownerId": "318241976",
+          "repoUrl": "https://github.com/chrysler-stone/awesome-tauri-apps",
+          "archived": false,
+          "fullName": "chrysler-stone/awesome-tauri-apps",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/chrysler-stone",
+          "pushedAt": "2026-09-30T03:48:23+00:00",
+          "createdAt": "2026-09-29T12:28:07+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T03:48:28+00:00",
+          "description": "Curated list of desktop and mobile apps built with Tauri.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/chrysler-stone",
+      "topRepo": {
+        "name": "awesome-tauri-apps",
+        "fullName": "chrysler-stone/awesome-tauri-apps",
+        "stars": 19,
+        "url": "https://github.com/chrysler-stone/awesome-tauri-apps"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/318241976?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "chrysler-stone/awesome-tauri-apps"
+      ],
+      "starScore": 19
+    },
+    {
       "id": "290955222",
-      "rank": 19,
+      "rank": 28,
       "type": "User",
       "login": "thanhsondev",
       "repos": [
@@ -965,184 +1536,52 @@
       "starScore": 19
     },
     {
-      "id": "57501119",
-      "rank": 20,
+      "id": "148991397",
+      "rank": 29,
       "type": "User",
-      "login": "weak1337",
+      "login": "EQSTLab",
       "repos": [
         {
-          "id": 1395022149,
+          "id": 1394670518,
           "fork": false,
-          "name": "FilterTap",
+          "name": "CVE-2026-94545",
           "forks": 5,
-          "owner": "weak1337",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/57501119?v=4",
-          "topics": [],
-          "ownerId": "57501119",
-          "repoUrl": "https://github.com/weak1337/FilterTap",
-          "archived": false,
-          "fullName": "weak1337/FilterTap",
-          "language": "C++",
-          "ownerUrl": "https://github.com/weak1337",
-          "pushedAt": "2026-09-29T11:20:42+00:00",
-          "createdAt": "2026-09-29T11:17:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T21:25:44+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/weak1337",
-      "topRepo": {
-        "name": "FilterTap",
-        "fullName": "weak1337/FilterTap",
-        "stars": 19,
-        "url": "https://github.com/weak1337/FilterTap"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/57501119?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "weak1337/FilterTap"
-      ],
-      "starScore": 19
-    },
-    {
-      "id": "27556825",
-      "rank": 21,
-      "type": "User",
-      "login": "yangcaoai",
-      "repos": [
-        {
-          "id": 1394094807,
-          "fork": false,
-          "name": "SpatialSpeak-VLM",
-          "forks": 0,
-          "owner": "yangcaoai",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/27556825?v=4",
-          "topics": [],
-          "ownerId": "27556825",
-          "repoUrl": "https://github.com/yangcaoai/SpatialSpeak-VLM",
-          "archived": false,
-          "fullName": "yangcaoai/SpatialSpeak-VLM",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/yangcaoai",
-          "pushedAt": "2026-09-29T07:58:58+00:00",
-          "createdAt": "2026-09-29T02:23:26+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T08:02:37+00:00",
-          "description": "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/yangcaoai",
-      "topRepo": {
-        "name": "SpatialSpeak-VLM",
-        "fullName": "yangcaoai/SpatialSpeak-VLM",
-        "stars": 19,
-        "url": "https://github.com/yangcaoai/SpatialSpeak-VLM"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/27556825?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "yangcaoai/SpatialSpeak-VLM"
-      ],
-      "starScore": 19
-    },
-    {
-      "id": "1419214",
-      "rank": 22,
-      "type": "User",
-      "login": "bjarneo",
-      "repos": [
-        {
-          "id": 1395031079,
-          "fork": false,
-          "name": "pixeltop",
-          "forks": 0,
-          "owner": "bjarneo",
+          "owner": "EQSTLab",
           "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/148991397?v=4",
           "topics": [],
-          "ownerId": "1419214",
-          "repoUrl": "https://github.com/bjarneo/pixeltop",
+          "ownerId": "148991397",
+          "repoUrl": "https://github.com/EQSTLab/CVE-2026-94545",
           "archived": false,
-          "fullName": "bjarneo/pixeltop",
-          "language": "Go",
-          "ownerUrl": "https://github.com/bjarneo",
-          "pushedAt": "2026-09-29T11:21:33+00:00",
-          "createdAt": "2026-09-29T11:21:14+00:00",
+          "fullName": "EQSTLab/CVE-2026-94545",
+          "language": "Python",
+          "ownerUrl": "https://github.com/EQSTLab",
+          "pushedAt": "2026-09-29T08:12:51+00:00",
+          "createdAt": "2026-09-29T07:57:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T21:32:42+00:00",
-          "description": "A live system monitor for Omarchy that puts your theme first. Inspired by btop.",
+          "updatedAt": "2026-09-30T05:10:51+00:00",
+          "description": "Next.js RCE",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/bjarneo",
+      "htmlUrl": "https://github.com/EQSTLab",
       "topRepo": {
-        "name": "pixeltop",
-        "fullName": "bjarneo/pixeltop",
+        "name": "CVE-2026-94545",
+        "fullName": "EQSTLab/CVE-2026-94545",
         "stars": 18,
-        "url": "https://github.com/bjarneo/pixeltop"
+        "url": "https://github.com/EQSTLab/CVE-2026-94545"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148991397?v=4",
       "repoCount": 1,
       "repoNames": [
-        "bjarneo/pixeltop"
-      ],
-      "starScore": 18
-    },
-    {
-      "id": "56980003",
-      "rank": 23,
-      "type": "User",
-      "login": "sudiptacmd",
-      "repos": [
-        {
-          "id": 1396072736,
-          "fork": false,
-          "name": "homedroid",
-          "forks": 0,
-          "owner": "sudiptacmd",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/56980003?v=4",
-          "topics": [],
-          "ownerId": "56980003",
-          "repoUrl": "https://github.com/sudiptacmd/homedroid",
-          "archived": false,
-          "fullName": "sudiptacmd/homedroid",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/sudiptacmd",
-          "pushedAt": "2026-09-29T21:16:45+00:00",
-          "createdAt": "2026-09-29T16:59:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-09-29T21:16:48+00:00",
-          "description": "Turn an old Android phone into a home server: SSH, web hosting, Jellyfin with hardware transcoding, Immich, qBittorrent, Home Assistant and a web dashboard. No root.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/sudiptacmd",
-      "topRepo": {
-        "name": "homedroid",
-        "fullName": "sudiptacmd/homedroid",
-        "stars": 18,
-        "url": "https://github.com/sudiptacmd/homedroid"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56980003?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "sudiptacmd/homedroid"
+        "EQSTLab/CVE-2026-94545"
       ],
       "starScore": 18
     },
     {
       "id": "2840504",
-      "rank": 24,
+      "rank": 30,
       "type": "User",
       "login": "Hendrixer",
       "repos": [
@@ -1150,9 +1589,9 @@
           "id": 1395189353,
           "fork": false,
           "name": "background-agents",
-          "forks": 20,
+          "forks": 21,
           "owner": "Hendrixer",
-          "stars": 17,
+          "stars": 18,
           "avatar": "https://avatars.githubusercontent.com/u/2840504?v=4",
           "topics": [],
           "ownerId": "2840504",
@@ -1164,7 +1603,7 @@
           "pushedAt": "2026-09-29T15:03:08+00:00",
           "createdAt": "2026-09-29T12:19:28+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T20:06:40+00:00",
+          "updatedAt": "2026-09-29T23:07:24+00:00",
           "description": "background agents",
           "defaultBranch": "main"
         }
@@ -1173,7 +1612,7 @@
       "topRepo": {
         "name": "background-agents",
         "fullName": "Hendrixer/background-agents",
-        "stars": 17,
+        "stars": 18,
         "url": "https://github.com/Hendrixer/background-agents"
       },
       "enriched": true,
@@ -1182,55 +1621,105 @@
       "repoNames": [
         "Hendrixer/background-agents"
       ],
-      "starScore": 17
+      "starScore": 18
     },
     {
-      "id": "5423352",
-      "rank": 25,
+      "id": "18405598",
+      "rank": 31,
       "type": "User",
-      "login": "zack-the-worker",
+      "login": "ZacharyZhang-NY",
       "repos": [
         {
-          "id": 1394618103,
+          "id": 1396948593,
           "fork": false,
-          "name": "fomo-cc",
-          "forks": 1,
-          "owner": "zack-the-worker",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/5423352?v=4",
-          "topics": [],
-          "ownerId": "5423352",
-          "repoUrl": "https://github.com/zack-the-worker/fomo-cc",
+          "name": "Ely-GPUI-Components",
+          "forks": 2,
+          "owner": "ZacharyZhang-NY",
+          "stars": 18,
+          "avatar": "https://avatars.githubusercontent.com/u/18405598?v=4",
+          "topics": [
+            "design-system",
+            "gpui",
+            "rust",
+            "ui-components",
+            "webassembly"
+          ],
+          "ownerId": "18405598",
+          "repoUrl": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
           "archived": false,
-          "fullName": "zack-the-worker/fomo-cc",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/zack-the-worker",
-          "pushedAt": "2026-09-29T07:34:54+00:00",
-          "createdAt": "2026-09-29T07:24:43+00:00",
+          "fullName": "ZacharyZhang-NY/Ely-GPUI-Components",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/ZacharyZhang-NY",
+          "pushedAt": "2026-09-30T04:29:08+00:00",
+          "createdAt": "2026-09-30T04:03:37+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-09-29T19:39:10+00:00",
-          "description": "An Agent Skill that roasts AI-hype delusions - then shows the way out.",
+          "updatedAt": "2026-09-30T05:43:18+00:00",
+          "description": "A component library for GPUI, in light and dark. Every component runs live in the browser.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/zack-the-worker",
+      "htmlUrl": "https://github.com/ZacharyZhang-NY",
       "topRepo": {
-        "name": "fomo-cc",
-        "fullName": "zack-the-worker/fomo-cc",
-        "stars": 17,
-        "url": "https://github.com/zack-the-worker/fomo-cc"
+        "name": "Ely-GPUI-Components",
+        "fullName": "ZacharyZhang-NY/Ely-GPUI-Components",
+        "stars": 18,
+        "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5423352?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18405598?v=4",
       "repoCount": 1,
       "repoNames": [
-        "zack-the-worker/fomo-cc"
+        "ZacharyZhang-NY/Ely-GPUI-Components"
+      ],
+      "starScore": 18
+    },
+    {
+      "id": "77558781",
+      "rank": 32,
+      "type": "User",
+      "login": "soniciso1",
+      "repos": [
+        {
+          "id": 1394665314,
+          "fork": false,
+          "name": "relapse",
+          "forks": 18,
+          "owner": "soniciso1",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/77558781?v=4",
+          "topics": [],
+          "ownerId": "77558781",
+          "repoUrl": "https://github.com/soniciso1/relapse",
+          "archived": false,
+          "fullName": "soniciso1/relapse",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/soniciso1",
+          "pushedAt": "2026-09-29T08:20:06+00:00",
+          "createdAt": "2026-09-29T07:54:05+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T02:48:02+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/soniciso1",
+      "topRepo": {
+        "name": "relapse",
+        "fullName": "soniciso1/relapse",
+        "stars": 17,
+        "url": "https://github.com/soniciso1/relapse"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77558781?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "soniciso1/relapse"
       ],
       "starScore": 17
     },
     {
       "id": "65850793",
-      "rank": 26,
+      "rank": 33,
       "type": "User",
       "login": "FiamaBrenda",
       "repos": [
@@ -1238,7 +1727,7 @@
           "id": 1395289519,
           "fork": false,
           "name": "Caca-bug",
-          "forks": 3,
+          "forks": 5,
           "owner": "FiamaBrenda",
           "stars": 16,
           "avatar": "https://avatars.githubusercontent.com/u/65850793?v=4",
@@ -1271,6 +1760,845 @@
         "FiamaBrenda/Caca-bug"
       ],
       "starScore": 16
+    },
+    {
+      "id": "102391413",
+      "rank": 34,
+      "type": "User",
+      "login": "mirvoxtm",
+      "repos": [
+        {
+          "id": 1394745311,
+          "fork": false,
+          "name": "milk",
+          "forks": 0,
+          "owner": "mirvoxtm",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/102391413?v=4",
+          "topics": [],
+          "ownerId": "102391413",
+          "repoUrl": "https://github.com/mirvoxtm/milk",
+          "archived": false,
+          "fullName": "mirvoxtm/milk",
+          "language": "Odin",
+          "ownerUrl": "https://github.com/mirvoxtm",
+          "pushedAt": "2026-09-29T20:55:31+00:00",
+          "createdAt": "2026-09-29T08:41:54+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:01:40+00:00",
+          "description": "A lightweight, beautiful, and beginner-friendly X11 desktop and window manager.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mirvoxtm",
+      "topRepo": {
+        "name": "milk",
+        "fullName": "mirvoxtm/milk",
+        "stars": 16,
+        "url": "https://github.com/mirvoxtm/milk"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102391413?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mirvoxtm/milk"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "335375627",
+      "rank": 35,
+      "type": "User",
+      "login": "apimarta3a5c",
+      "repos": [
+        {
+          "id": 1394558147,
+          "fork": false,
+          "name": "minimax-m2.7-api-pricing",
+          "forks": 0,
+          "owner": "apimarta3a5c",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335375627?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335375627",
+          "repoUrl": "https://github.com/apimarta3a5c/minimax-m2.7-api-pricing",
+          "archived": false,
+          "fullName": "apimarta3a5c/minimax-m2.7-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimarta3a5c",
+          "pushedAt": "2026-09-29T06:51:47+00:00",
+          "createdAt": "2026-09-29T06:48:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:25:17+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimarta3a5c",
+      "topRepo": {
+        "name": "minimax-m2.7-api-pricing",
+        "fullName": "apimarta3a5c/minimax-m2.7-api-pricing",
+        "stars": 14,
+        "url": "https://github.com/apimarta3a5c/minimax-m2.7-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335375627?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimarta3a5c/minimax-m2.7-api-pricing"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335380339",
+      "rank": 36,
+      "type": "User",
+      "login": "apimartae3ilj9",
+      "repos": [
+        {
+          "id": 1394609668,
+          "fork": false,
+          "name": "veo3.1-quality-official-api",
+          "forks": 0,
+          "owner": "apimartae3ilj9",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335380339?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335380339",
+          "repoUrl": "https://github.com/apimartae3ilj9/veo3.1-quality-official-api",
+          "archived": false,
+          "fullName": "apimartae3ilj9/veo3.1-quality-official-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartae3ilj9",
+          "pushedAt": "2026-09-29T07:24:25+00:00",
+          "createdAt": "2026-09-29T07:20:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:42:12+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartae3ilj9",
+      "topRepo": {
+        "name": "veo3.1-quality-official-api",
+        "fullName": "apimartae3ilj9/veo3.1-quality-official-api",
+        "stars": 14,
+        "url": "https://github.com/apimartae3ilj9/veo3.1-quality-official-api"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335380339?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartae3ilj9/veo3.1-quality-official-api"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335377642",
+      "rank": 37,
+      "type": "User",
+      "login": "apimartam2ygb",
+      "repos": [
+        {
+          "id": 1394565361,
+          "fork": false,
+          "name": "omni-moderation-2024-09-26-api",
+          "forks": 0,
+          "owner": "apimartam2ygb",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335377642?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335377642",
+          "repoUrl": "https://github.com/apimartam2ygb/omni-moderation-2024-09-26-api",
+          "archived": false,
+          "fullName": "apimartam2ygb/omni-moderation-2024-09-26-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartam2ygb",
+          "pushedAt": "2026-09-29T06:56:07+00:00",
+          "createdAt": "2026-09-29T06:53:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:31:49+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartam2ygb",
+      "topRepo": {
+        "name": "omni-moderation-2024-09-26-api",
+        "fullName": "apimartam2ygb/omni-moderation-2024-09-26-api",
+        "stars": 14,
+        "url": "https://github.com/apimartam2ygb/omni-moderation-2024-09-26-api"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335377642?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartam2ygb/omni-moderation-2024-09-26-api"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335383738",
+      "rank": 38,
+      "type": "User",
+      "login": "apimartb2c",
+      "repos": [
+        {
+          "id": 1394657770,
+          "fork": false,
+          "name": "gpt-5.4-mini-api-pricing",
+          "forks": 0,
+          "owner": "apimartb2c",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335383738?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335383738",
+          "repoUrl": "https://github.com/apimartb2c/gpt-5.4-mini-api-pricing",
+          "archived": false,
+          "fullName": "apimartb2c/gpt-5.4-mini-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartb2c",
+          "pushedAt": "2026-09-29T07:50:58+00:00",
+          "createdAt": "2026-09-29T07:49:37+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:26:52+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartb2c",
+      "topRepo": {
+        "name": "gpt-5.4-mini-api-pricing",
+        "fullName": "apimartb2c/gpt-5.4-mini-api-pricing",
+        "stars": 14,
+        "url": "https://github.com/apimartb2c/gpt-5.4-mini-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335383738?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartb2c/gpt-5.4-mini-api-pricing"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335379417",
+      "rank": 39,
+      "type": "User",
+      "login": "apimartb4eh62hd",
+      "repos": [
+        {
+          "id": 1394588366,
+          "fork": false,
+          "name": "seedance-2.5-api-pricing",
+          "forks": 0,
+          "owner": "apimartb4eh62hd",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335379417?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335379417",
+          "repoUrl": "https://github.com/apimartb4eh62hd/seedance-2.5-api-pricing",
+          "archived": false,
+          "fullName": "apimartb4eh62hd/seedance-2.5-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartb4eh62hd",
+          "pushedAt": "2026-09-29T07:22:58+00:00",
+          "createdAt": "2026-09-29T07:08:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:27:14+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartb4eh62hd",
+      "topRepo": {
+        "name": "seedance-2.5-api-pricing",
+        "fullName": "apimartb4eh62hd/seedance-2.5-api-pricing",
+        "stars": 14,
+        "url": "https://github.com/apimartb4eh62hd/seedance-2.5-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335379417?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartb4eh62hd/seedance-2.5-api-pricing"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335380085",
+      "rank": 40,
+      "type": "User",
+      "login": "apimartb6ppat8k",
+      "repos": [
+        {
+          "id": 1394603876,
+          "fork": false,
+          "name": "text-embedding-3-small-api-pricing",
+          "forks": 0,
+          "owner": "apimartb6ppat8k",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335380085?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335380085",
+          "repoUrl": "https://github.com/apimartb6ppat8k/text-embedding-3-small-api-pricing",
+          "archived": false,
+          "fullName": "apimartb6ppat8k/text-embedding-3-small-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartb6ppat8k",
+          "pushedAt": "2026-09-29T07:22:33+00:00",
+          "createdAt": "2026-09-29T07:17:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:46:37+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartb6ppat8k",
+      "topRepo": {
+        "name": "text-embedding-3-small-api-pricing",
+        "fullName": "apimartb6ppat8k/text-embedding-3-small-api-pricing",
+        "stars": 14,
+        "url": "https://github.com/apimartb6ppat8k/text-embedding-3-small-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335380085?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartb6ppat8k/text-embedding-3-small-api-pricing"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335386460",
+      "rank": 41,
+      "type": "User",
+      "login": "apimartbnlohl5i",
+      "repos": [
+        {
+          "id": 1394679311,
+          "fork": false,
+          "name": "mimo-v2.5-pro-api",
+          "forks": 0,
+          "owner": "apimartbnlohl5i",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/335386460?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335386460",
+          "repoUrl": "https://github.com/apimartbnlohl5i/mimo-v2.5-pro-api",
+          "archived": false,
+          "fullName": "apimartbnlohl5i/mimo-v2.5-pro-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartbnlohl5i",
+          "pushedAt": "2026-09-29T08:03:43+00:00",
+          "createdAt": "2026-09-29T08:02:27+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:36:49+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartbnlohl5i",
+      "topRepo": {
+        "name": "mimo-v2.5-pro-api",
+        "fullName": "apimartbnlohl5i/mimo-v2.5-pro-api",
+        "stars": 14,
+        "url": "https://github.com/apimartbnlohl5i/mimo-v2.5-pro-api"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335386460?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartbnlohl5i/mimo-v2.5-pro-api"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "179112287",
+      "rank": 42,
+      "type": "User",
+      "login": "GPTchatly",
+      "repos": [
+        {
+          "id": 1396352624,
+          "fork": false,
+          "name": "Forma",
+          "forks": 2,
+          "owner": "GPTchatly",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/179112287?v=4",
+          "topics": [],
+          "ownerId": "179112287",
+          "repoUrl": "https://github.com/GPTchatly/Forma",
+          "archived": false,
+          "fullName": "GPTchatly/Forma",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/GPTchatly",
+          "pushedAt": "2026-09-29T19:10:42+00:00",
+          "createdAt": "2026-09-29T18:38:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:18:09+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/GPTchatly",
+      "topRepo": {
+        "name": "Forma",
+        "fullName": "GPTchatly/Forma",
+        "stars": 14,
+        "url": "https://github.com/GPTchatly/Forma"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179112287?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "GPTchatly/Forma"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "97771852",
+      "rank": 43,
+      "type": "User",
+      "login": "sebasvcx",
+      "repos": [
+        {
+          "id": 1395902023,
+          "fork": false,
+          "name": "ViewportStencil",
+          "forks": 0,
+          "owner": "sebasvcx",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/97771852?v=4",
+          "topics": [
+            "luau",
+            "roblox",
+            "rojo",
+            "vfx",
+            "viewport",
+            "wally"
+          ],
+          "ownerId": "97771852",
+          "repoUrl": "https://github.com/sebasvcx/ViewportStencil",
+          "archived": false,
+          "fullName": "sebasvcx/ViewportStencil",
+          "language": "Lua",
+          "ownerUrl": "https://github.com/sebasvcx",
+          "pushedAt": "2026-09-30T03:38:03+00:00",
+          "createdAt": "2026-09-29T16:09:14+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:28:20+00:00",
+          "description": "Render models inside surfaces with ViewportFrames: ground cracks, holes and portals, without cutting anything.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/sebasvcx",
+      "topRepo": {
+        "name": "ViewportStencil",
+        "fullName": "sebasvcx/ViewportStencil",
+        "stars": 14,
+        "url": "https://github.com/sebasvcx/ViewportStencil"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97771852?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "sebasvcx/ViewportStencil"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "194572715",
+      "rank": 44,
+      "type": "Organization",
+      "login": "ziloai",
+      "repos": [
+        {
+          "id": 1395107859,
+          "fork": false,
+          "name": "OpenZilo",
+          "forks": 0,
+          "owner": "ziloai",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/194572715?v=4",
+          "topics": [],
+          "ownerId": "194572715",
+          "repoUrl": "https://github.com/ziloai/OpenZilo",
+          "archived": false,
+          "fullName": "ziloai/OpenZilo",
+          "language": "Python",
+          "ownerUrl": "https://github.com/ziloai",
+          "pushedAt": "2026-09-29T12:15:06+00:00",
+          "createdAt": "2026-09-29T11:50:19+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-09-30T03:02:31+00:00",
+          "description": "Build the future of Combodied AI",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ziloai",
+      "topRepo": {
+        "name": "OpenZilo",
+        "fullName": "ziloai/OpenZilo",
+        "stars": 14,
+        "url": "https://github.com/ziloai/OpenZilo"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/194572715?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ziloai/OpenZilo"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "335381633",
+      "rank": 45,
+      "type": "User",
+      "login": "apimarta6h2irox3",
+      "repos": [
+        {
+          "id": 1394641410,
+          "fork": false,
+          "name": "gpt-4o-mini-2024-07-18-api-pricing",
+          "forks": 0,
+          "owner": "apimarta6h2irox3",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/335381633?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335381633",
+          "repoUrl": "https://github.com/apimarta6h2irox3/gpt-4o-mini-2024-07-18-api-pricing",
+          "archived": false,
+          "fullName": "apimarta6h2irox3/gpt-4o-mini-2024-07-18-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimarta6h2irox3",
+          "pushedAt": "2026-09-29T07:40:50+00:00",
+          "createdAt": "2026-09-29T07:39:29+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:32:08+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimarta6h2irox3",
+      "topRepo": {
+        "name": "gpt-4o-mini-2024-07-18-api-pricing",
+        "fullName": "apimarta6h2irox3/gpt-4o-mini-2024-07-18-api-pricing",
+        "stars": 13,
+        "url": "https://github.com/apimarta6h2irox3/gpt-4o-mini-2024-07-18-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335381633?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimarta6h2irox3/gpt-4o-mini-2024-07-18-api-pricing"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "335377712",
+      "rank": 46,
+      "type": "User",
+      "login": "apimartac9uyt",
+      "repos": [
+        {
+          "id": 1394572255,
+          "fork": false,
+          "name": "omni-moderation-latest-api-pricing",
+          "forks": 0,
+          "owner": "apimartac9uyt",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/335377712?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335377712",
+          "repoUrl": "https://github.com/apimartac9uyt/omni-moderation-latest-api-pricing",
+          "archived": false,
+          "fullName": "apimartac9uyt/omni-moderation-latest-api-pricing",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartac9uyt",
+          "pushedAt": "2026-09-29T07:01:29+00:00",
+          "createdAt": "2026-09-29T06:58:24+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:14:34+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartac9uyt",
+      "topRepo": {
+        "name": "omni-moderation-latest-api-pricing",
+        "fullName": "apimartac9uyt/omni-moderation-latest-api-pricing",
+        "stars": 13,
+        "url": "https://github.com/apimartac9uyt/omni-moderation-latest-api-pricing"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335377712?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartac9uyt/omni-moderation-latest-api-pricing"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "335380914",
+      "rank": 47,
+      "type": "User",
+      "login": "apimartb2y6w3bu8",
+      "repos": [
+        {
+          "id": 1394611254,
+          "fork": false,
+          "name": "wan2.6-i2v-flash-api",
+          "forks": 0,
+          "owner": "apimartb2y6w3bu8",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/335380914?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "api",
+            "api-aggregator",
+            "api-pricing",
+            "apimart-en",
+            "llm-api-gateway",
+            "openai-compatible",
+            "pay-as-you-go"
+          ],
+          "ownerId": "335380914",
+          "repoUrl": "https://github.com/apimartb2y6w3bu8/wan2.6-i2v-flash-api",
+          "archived": false,
+          "fullName": "apimartb2y6w3bu8/wan2.6-i2v-flash-api",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/apimartb2y6w3bu8",
+          "pushedAt": "2026-09-29T07:24:46+00:00",
+          "createdAt": "2026-09-29T07:21:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T05:40:49+00:00",
+          "description": "AI API gateway / relay: 307 models behind one OpenAI-compatible key. image2.5 $0.0085/image, Seedance 2.0 Mini $0.01056/sec, LLM from $0.0228/M tokens. USD settlement, pay-as-you-go, $1 minimum top-up.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apimartb2y6w3bu8",
+      "topRepo": {
+        "name": "wan2.6-i2v-flash-api",
+        "fullName": "apimartb2y6w3bu8/wan2.6-i2v-flash-api",
+        "stars": 13,
+        "url": "https://github.com/apimartb2y6w3bu8/wan2.6-i2v-flash-api"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335380914?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apimartb2y6w3bu8/wan2.6-i2v-flash-api"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "172146456",
+      "rank": 48,
+      "type": "User",
+      "login": "ejuro",
+      "repos": [
+        {
+          "id": 1395777091,
+          "fork": false,
+          "name": "omarchy-starship-to-orbit-theme",
+          "forks": 2,
+          "owner": "ejuro",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/172146456?v=4",
+          "topics": [],
+          "ownerId": "172146456",
+          "repoUrl": "https://github.com/ejuro/omarchy-starship-to-orbit-theme",
+          "archived": false,
+          "fullName": "ejuro/omarchy-starship-to-orbit-theme",
+          "language": "Lua",
+          "ownerUrl": "https://github.com/ejuro",
+          "pushedAt": "2026-09-29T17:37:25+00:00",
+          "createdAt": "2026-09-29T15:33:32+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T03:21:41+00:00",
+          "description": "An Omarchy theme celebrating Starship's flight to orbit: white text on lightly frosted liquid glass over the launch, with the Raptor plume running through it all.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ejuro",
+      "topRepo": {
+        "name": "omarchy-starship-to-orbit-theme",
+        "fullName": "ejuro/omarchy-starship-to-orbit-theme",
+        "stars": 13,
+        "url": "https://github.com/ejuro/omarchy-starship-to-orbit-theme"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172146456?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ejuro/omarchy-starship-to-orbit-theme"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "106621718",
+      "rank": 49,
+      "type": "User",
+      "login": "Kerlooo",
+      "repos": [
+        {
+          "id": 1394852469,
+          "fork": false,
+          "name": "FreeOSINTUI",
+          "forks": 0,
+          "owner": "Kerlooo",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/106621718?v=4",
+          "topics": [],
+          "ownerId": "106621718",
+          "repoUrl": "https://github.com/Kerlooo/FreeOSINTUI",
+          "archived": false,
+          "fullName": "Kerlooo/FreeOSINTUI",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/Kerlooo",
+          "pushedAt": "2026-09-29T11:35:01+00:00",
+          "createdAt": "2026-09-29T09:46:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T03:42:14+00:00",
+          "description": "Free alternative to https://osint-ui.com",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Kerlooo",
+      "topRepo": {
+        "name": "FreeOSINTUI",
+        "fullName": "Kerlooo/FreeOSINTUI",
+        "stars": 13,
+        "url": "https://github.com/Kerlooo/FreeOSINTUI"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106621718?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Kerlooo/FreeOSINTUI"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "263961553",
+      "rank": 50,
+      "type": "User",
+      "login": "tholtman1-del",
+      "repos": [
+        {
+          "id": 1395169000,
+          "fork": false,
+          "name": "witcher3-crossover-fix",
+          "forks": 0,
+          "owner": "tholtman1-del",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/263961553?v=4",
+          "topics": [],
+          "ownerId": "263961553",
+          "repoUrl": "https://github.com/tholtman1-del/witcher3-crossover-fix",
+          "archived": false,
+          "fullName": "tholtman1-del/witcher3-crossover-fix",
+          "language": "C",
+          "ownerUrl": "https://github.com/tholtman1-del",
+          "pushedAt": "2026-09-29T20:10:07+00:00",
+          "createdAt": "2026-09-29T12:12:55+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-09-30T02:26:04+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/tholtman1-del",
+      "topRepo": {
+        "name": "witcher3-crossover-fix",
+        "fullName": "tholtman1-del/witcher3-crossover-fix",
+        "stars": 13,
+        "url": "https://github.com/tholtman1-del/witcher3-crossover-fix"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/263961553?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "tholtman1-del/witcher3-crossover-fix"
+      ],
+      "starScore": 13
     }
   ]
 }
