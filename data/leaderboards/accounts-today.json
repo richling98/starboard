@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-07T06:21:03.219Z",
-  "total": 64,
-  "totalIndexedCount": 64,
-  "coverageLabel": "Showing 64 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-10-07T13:47:05.041Z",
+  "total": 48,
+  "totalIndexedCount": 48,
+  "coverageLabel": "Showing 48 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -19,9 +19,9 @@
           "id": 1407950271,
           "fork": false,
           "name": "math",
-          "forks": 421,
+          "forks": 699,
           "owner": "openai",
-          "stars": 4663,
+          "stars": 7426,
           "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
           "topics": [],
           "ownerId": "14957082",
@@ -33,7 +33,7 @@
           "pushedAt": "2026-10-06T22:01:11+00:00",
           "createdAt": "2026-10-06T21:47:02+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-07T06:13:16+00:00",
+          "updatedAt": "2026-10-07T13:38:42+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -42,7 +42,7 @@
       "topRepo": {
         "name": "math",
         "fullName": "openai/math",
-        "stars": 4663,
+        "stars": 7426,
         "url": "https://github.com/openai/math"
       },
       "enriched": true,
@@ -51,143 +51,471 @@
       "repoNames": [
         "openai/math"
       ],
-      "starScore": 4663
+      "starScore": 7426
     },
     {
-      "id": "232940725",
+      "id": "76897702",
       "rank": 2,
-      "type": "User",
-      "login": "nanocle",
-      "repos": [
-        {
-          "id": 1406961551,
-          "fork": false,
-          "name": "Charakuru",
-          "forks": 11,
-          "owner": "nanocle",
-          "stars": 143,
-          "avatar": "https://avatars.githubusercontent.com/u/232940725?v=4",
-          "topics": [],
-          "ownerId": "232940725",
-          "repoUrl": "https://github.com/nanocle/Charakuru",
-          "archived": false,
-          "fullName": "nanocle/Charakuru",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/nanocle",
-          "pushedAt": "2026-10-06T08:28:48+00:00",
-          "createdAt": "2026-10-06T08:27:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T05:44:05+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/nanocle",
-      "topRepo": {
-        "name": "Charakuru",
-        "fullName": "nanocle/Charakuru",
-        "stars": 143,
-        "url": "https://github.com/nanocle/Charakuru"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/232940725?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "nanocle/Charakuru"
-      ],
-      "starScore": 143
-    },
-    {
-      "id": "338567542",
-      "rank": 3,
       "type": "Organization",
-      "login": "saidi-walid-architecte",
+      "login": "storytold",
       "repos": [
         {
-          "id": 1407139220,
+          "id": 1408489772,
           "fork": false,
-          "name": "saidi-walid-architecte.github.io",
-          "forks": 0,
-          "owner": "saidi-walid-architecte",
-          "stars": 100,
-          "avatar": "https://avatars.githubusercontent.com/u/338567542?v=4",
+          "name": "wordcraft",
+          "forks": 29,
+          "owner": "storytold",
+          "stars": 69,
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
           "topics": [],
-          "ownerId": "338567542",
-          "repoUrl": "https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io",
+          "ownerId": "76897702",
+          "repoUrl": "https://github.com/storytold/wordcraft",
           "archived": false,
-          "fullName": "saidi-walid-architecte/saidi-walid-architecte.github.io",
-          "language": "Python",
-          "ownerUrl": "https://github.com/saidi-walid-architecte",
-          "pushedAt": "2026-10-06T17:21:41+00:00",
-          "createdAt": "2026-10-06T10:59:32+00:00",
+          "fullName": "storytold/wordcraft",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/storytold",
+          "pushedAt": "2026-10-07T09:28:28+00:00",
+          "createdAt": "2026-10-07T08:34:24+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-06T17:21:45+00:00",
-          "description": "Site de Saidi Walid, architecte agréé et expert judiciaire à Batna",
+          "updatedAt": "2026-10-07T13:35:37+00:00",
+          "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408289866,
+          "fork": false,
+          "name": "cadcraft",
+          "forks": 37,
+          "owner": "storytold",
+          "stars": 60,
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "topics": [],
+          "ownerId": "76897702",
+          "repoUrl": "https://github.com/storytold/cadcraft",
+          "archived": false,
+          "fullName": "storytold/cadcraft",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/storytold",
+          "pushedAt": "2026-10-07T09:29:01+00:00",
+          "createdAt": "2026-10-07T05:22:31+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:33:36+00:00",
+          "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408285582,
+          "fork": false,
+          "name": "gridcraft",
+          "forks": 27,
+          "owner": "storytold",
+          "stars": 55,
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "topics": [],
+          "ownerId": "76897702",
+          "repoUrl": "https://github.com/storytold/gridcraft",
+          "archived": false,
+          "fullName": "storytold/gridcraft",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/storytold",
+          "pushedAt": "2026-10-07T09:28:21+00:00",
+          "createdAt": "2026-10-07T05:18:16+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:35:57+00:00",
+          "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408294296,
+          "fork": false,
+          "name": "deckcraft",
+          "forks": 31,
+          "owner": "storytold",
+          "stars": 51,
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "topics": [],
+          "ownerId": "76897702",
+          "repoUrl": "https://github.com/storytold/deckcraft",
+          "archived": false,
+          "fullName": "storytold/deckcraft",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/storytold",
+          "pushedAt": "2026-10-07T09:25:20+00:00",
+          "createdAt": "2026-10-07T05:27:21+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:31:13+00:00",
+          "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408486424,
+          "fork": false,
+          "name": "soundcraft",
+          "forks": 22,
+          "owner": "storytold",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "topics": [],
+          "ownerId": "76897702",
+          "repoUrl": "https://github.com/storytold/soundcraft",
+          "archived": false,
+          "fullName": "storytold/soundcraft",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/storytold",
+          "pushedAt": "2026-10-07T09:26:46+00:00",
+          "createdAt": "2026-10-07T08:31:31+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:36:05+00:00",
+          "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/saidi-walid-architecte",
+      "htmlUrl": "https://github.com/storytold",
       "topRepo": {
-        "name": "saidi-walid-architecte.github.io",
-        "fullName": "saidi-walid-architecte/saidi-walid-architecte.github.io",
-        "stars": 100,
-        "url": "https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io"
+        "name": "wordcraft",
+        "fullName": "storytold/wordcraft",
+        "stars": 69,
+        "url": "https://github.com/storytold/wordcraft"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/338567542?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76897702?v=4",
+      "repoCount": 5,
       "repoNames": [
-        "saidi-walid-architecte/saidi-walid-architecte.github.io"
+        "storytold/wordcraft",
+        "storytold/cadcraft",
+        "storytold/gridcraft",
+        "storytold/deckcraft",
+        "storytold/soundcraft"
       ],
-      "starScore": 100
+      "starScore": 278
     },
     {
-      "id": "338524314",
-      "rank": 4,
+      "id": "62165585",
+      "rank": 3,
       "type": "User",
-      "login": "zer0days-op",
+      "login": "alejandrobujan",
       "repos": [
         {
-          "id": 1407040521,
+          "id": 1408099862,
           "fork": false,
-          "name": "OpenGoldHEN",
-          "forks": 43,
-          "owner": "zer0days-op",
-          "stars": 89,
-          "avatar": "https://avatars.githubusercontent.com/u/338524314?v=4",
+          "name": "tendedero",
+          "forks": 19,
+          "owner": "alejandrobujan",
+          "stars": 267,
+          "avatar": "https://avatars.githubusercontent.com/u/62165585?v=4",
           "topics": [],
-          "ownerId": "338524314",
-          "repoUrl": "https://github.com/zer0days-op/OpenGoldHEN",
+          "ownerId": "62165585",
+          "repoUrl": "https://github.com/alejandrobujan/tendedero",
           "archived": false,
-          "fullName": "zer0days-op/OpenGoldHEN",
-          "language": "C",
-          "ownerUrl": "https://github.com/zer0days-op",
-          "pushedAt": "2026-10-06T10:21:02+00:00",
-          "createdAt": "2026-10-06T09:32:32+00:00",
+          "fullName": "alejandrobujan/tendedero",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/alejandrobujan",
+          "pushedAt": "2026-10-07T06:42:42+00:00",
+          "createdAt": "2026-10-07T01:29:54+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:06:10+00:00",
-          "description": "",
+          "updatedAt": "2026-10-07T13:37:20+00:00",
+          "description": "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/zer0days-op",
+      "htmlUrl": "https://github.com/alejandrobujan",
       "topRepo": {
-        "name": "OpenGoldHEN",
-        "fullName": "zer0days-op/OpenGoldHEN",
-        "stars": 89,
-        "url": "https://github.com/zer0days-op/OpenGoldHEN"
+        "name": "tendedero",
+        "fullName": "alejandrobujan/tendedero",
+        "stars": 267,
+        "url": "https://github.com/alejandrobujan/tendedero"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/338524314?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62165585?v=4",
       "repoCount": 1,
       "repoNames": [
-        "zer0days-op/OpenGoldHEN"
+        "alejandrobujan/tendedero"
       ],
-      "starScore": 89
+      "starScore": 267
+    },
+    {
+      "id": "339136476",
+      "rank": 4,
+      "type": "Organization",
+      "login": "Local-Settle",
+      "repos": [
+        {
+          "id": 1408749184,
+          "fork": false,
+          "name": "local-settle-backend",
+          "forks": 128,
+          "owner": "Local-Settle",
+          "stars": 131,
+          "avatar": "https://avatars.githubusercontent.com/u/339136476?v=4",
+          "topics": [
+            "fintech",
+            "nestjs",
+            "payments",
+            "peer-to-peer",
+            "soroban",
+            "stellar",
+            "trustless-work",
+            "typescript",
+            "usdc"
+          ],
+          "ownerId": "339136476",
+          "repoUrl": "https://github.com/Local-Settle/local-settle-backend",
+          "archived": false,
+          "fullName": "Local-Settle/local-settle-backend",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Local-Settle",
+          "pushedAt": "2026-10-07T12:51:07+00:00",
+          "createdAt": "2026-10-07T12:27:53+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:09:04+00:00",
+          "description": "Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet authentication, orders, and escrow coordination.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408745667,
+          "fork": false,
+          "name": "local-settle-frontend",
+          "forks": 129,
+          "owner": "Local-Settle",
+          "stars": 131,
+          "avatar": "https://avatars.githubusercontent.com/u/339136476?v=4",
+          "topics": [
+            "fintech",
+            "nextjs",
+            "payments",
+            "peer-to-peer",
+            "soroban",
+            "stellar",
+            "typescript",
+            "usdc"
+          ],
+          "ownerId": "339136476",
+          "repoUrl": "https://github.com/Local-Settle/local-settle-frontend",
+          "archived": false,
+          "fullName": "Local-Settle/local-settle-frontend",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/Local-Settle",
+          "pushedAt": "2026-10-07T12:51:04+00:00",
+          "createdAt": "2026-10-07T12:25:12+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:08:45+00:00",
+          "description": "Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, trade USDC, and coordinate local settlement.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Local-Settle",
+      "topRepo": {
+        "name": "local-settle-backend",
+        "fullName": "Local-Settle/local-settle-backend",
+        "stars": 131,
+        "url": "https://github.com/Local-Settle/local-settle-backend"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/339136476?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "Local-Settle/local-settle-backend",
+        "Local-Settle/local-settle-frontend"
+      ],
+      "starScore": 262
+    },
+    {
+      "id": "339157102",
+      "rank": 5,
+      "type": "Organization",
+      "login": "Stellar-tradehub",
+      "repos": [
+        {
+          "id": 1408819383,
+          "fork": false,
+          "name": "stellar-trade",
+          "forks": 87,
+          "owner": "Stellar-tradehub",
+          "stars": 131,
+          "avatar": "https://avatars.githubusercontent.com/u/339157102?v=4",
+          "topics": [
+            "open-source",
+            "prediction-market",
+            "soroban",
+            "stellar"
+          ],
+          "ownerId": "339157102",
+          "repoUrl": "https://github.com/Stellar-tradehub/stellar-trade",
+          "archived": false,
+          "fullName": "Stellar-tradehub/stellar-trade",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/Stellar-tradehub",
+          "pushedAt": "2026-10-07T13:36:07+00:00",
+          "createdAt": "2026-10-07T13:20:32+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:36:11+00:00",
+          "description": "Take a position on a clear YES-or-NO question, then inspect its pooled XLM settlement on Stellar.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408820721,
+          "fork": false,
+          "name": "stellar-trade-contracts",
+          "forks": 87,
+          "owner": "Stellar-tradehub",
+          "stars": 131,
+          "avatar": "https://avatars.githubusercontent.com/u/339157102?v=4",
+          "topics": [
+            "prediction-market",
+            "rust",
+            "smart-contracts",
+            "soroban",
+            "stellar"
+          ],
+          "ownerId": "339157102",
+          "repoUrl": "https://github.com/Stellar-tradehub/stellar-trade-contracts",
+          "archived": false,
+          "fullName": "Stellar-tradehub/stellar-trade-contracts",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/Stellar-tradehub",
+          "pushedAt": "2026-10-07T13:23:40+00:00",
+          "createdAt": "2026-10-07T13:21:25+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:30:09+00:00",
+          "description": "Soroban smart contracts for Stellar Trade: pooled XLM markets, settlement, referrals, leaderboard, and STRD rewards.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Stellar-tradehub",
+      "topRepo": {
+        "name": "stellar-trade",
+        "fullName": "Stellar-tradehub/stellar-trade",
+        "stars": 131,
+        "url": "https://github.com/Stellar-tradehub/stellar-trade"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/339157102?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "Stellar-tradehub/stellar-trade",
+        "Stellar-tradehub/stellar-trade-contracts"
+      ],
+      "starScore": 262
+    },
+    {
+      "id": "89191727",
+      "rank": 6,
+      "type": "Organization",
+      "login": "pingdotgg",
+      "repos": [
+        {
+          "id": 1408284340,
+          "fork": false,
+          "name": "ts-rust",
+          "forks": 9,
+          "owner": "pingdotgg",
+          "stars": 199,
+          "avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+          "topics": [
+            "compiler",
+            "rust",
+            "tsc",
+            "typescript"
+          ],
+          "ownerId": "89191727",
+          "repoUrl": "https://github.com/pingdotgg/ts-rust",
+          "archived": false,
+          "fullName": "pingdotgg/ts-rust",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/pingdotgg",
+          "pushedAt": "2026-10-07T13:32:51+00:00",
+          "createdAt": "2026-10-07T05:17:07+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:37:53+00:00",
+          "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/pingdotgg",
+      "topRepo": {
+        "name": "ts-rust",
+        "fullName": "pingdotgg/ts-rust",
+        "stars": 199,
+        "url": "https://github.com/pingdotgg/ts-rust"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89191727?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "pingdotgg/ts-rust"
+      ],
+      "starScore": 199
+    },
+    {
+      "id": "333880792",
+      "rank": 7,
+      "type": "User",
+      "login": "nullmoth",
+      "repos": [
+        {
+          "id": 1408465463,
+          "fork": false,
+          "name": "nvidia-macos-driver",
+          "forks": 25,
+          "owner": "nullmoth",
+          "stars": 144,
+          "avatar": "https://avatars.githubusercontent.com/u/333880792?v=4",
+          "topics": [],
+          "ownerId": "333880792",
+          "repoUrl": "https://github.com/nullmoth/nvidia-macos-driver",
+          "archived": false,
+          "fullName": "nullmoth/nvidia-macos-driver",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/nullmoth",
+          "pushedAt": "2026-10-07T11:42:02+00:00",
+          "createdAt": "2026-10-07T08:13:12+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:35:07+00:00",
+          "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1408465539,
+          "fork": false,
+          "name": "1401",
+          "forks": 5,
+          "owner": "nullmoth",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/333880792?v=4",
+          "topics": [],
+          "ownerId": "333880792",
+          "repoUrl": "https://github.com/nullmoth/1401",
+          "archived": false,
+          "fullName": "nullmoth/1401",
+          "language": "Python",
+          "ownerUrl": "https://github.com/nullmoth",
+          "pushedAt": "2026-10-07T13:18:38+00:00",
+          "createdAt": "2026-10-07T08:13:16+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:35:21+00:00",
+          "description": "1401: macOS on the PC you already own. Free, never for sale.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/nullmoth",
+      "topRepo": {
+        "name": "nvidia-macos-driver",
+        "fullName": "nullmoth/nvidia-macos-driver",
+        "stars": 144,
+        "url": "https://github.com/nullmoth/nvidia-macos-driver"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/333880792?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "nullmoth/nvidia-macos-driver",
+        "nullmoth/1401"
+      ],
+      "starScore": 168
     },
     {
       "id": "143043823",
-      "rank": 5,
+      "rank": 8,
       "type": "User",
       "login": "nickvasilescu",
       "repos": [
@@ -195,9 +523,9 @@
           "id": 1407464278,
           "fork": false,
           "name": "bops",
-          "forks": 26,
+          "forks": 35,
           "owner": "nickvasilescu",
-          "stars": 87,
+          "stars": 130,
           "avatar": "https://avatars.githubusercontent.com/u/143043823?v=4",
           "topics": [
             "ai-agents",
@@ -217,7 +545,7 @@
           "pushedAt": "2026-10-06T15:16:59+00:00",
           "createdAt": "2026-10-06T14:45:00+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T05:43:37+00:00",
+          "updatedAt": "2026-10-07T13:29:29+00:00",
           "description": "Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.bot",
           "defaultBranch": "main"
         }
@@ -226,7 +554,7 @@
       "topRepo": {
         "name": "bops",
         "fullName": "nickvasilescu/bops",
-        "stars": 87,
+        "stars": 130,
         "url": "https://github.com/nickvasilescu/bops"
       },
       "enriched": true,
@@ -235,11 +563,71 @@
       "repoNames": [
         "nickvasilescu/bops"
       ],
-      "starScore": 87
+      "starScore": 130
+    },
+    {
+      "id": "338831274",
+      "rank": 9,
+      "type": "Organization",
+      "login": "Stellar-Pathfinder",
+      "repos": [
+        {
+          "id": 1407882652,
+          "fork": false,
+          "name": "stellar-pathfinder",
+          "forks": 128,
+          "owner": "Stellar-Pathfinder",
+          "stars": 130,
+          "avatar": "https://avatars.githubusercontent.com/u/338831274?v=4",
+          "topics": [
+            "blockchain",
+            "corridor-monitoring",
+            "cryptocurrency",
+            "defi",
+            "fintech",
+            "horizon-api",
+            "pathfinding",
+            "price-oracle",
+            "remittance",
+            "sep-standards",
+            "smart-contracts",
+            "soroban",
+            "stellar",
+            "stellar-network",
+            "wallet-integration"
+          ],
+          "ownerId": "338831274",
+          "repoUrl": "https://github.com/Stellar-Pathfinder/stellar-pathfinder",
+          "archived": false,
+          "fullName": "Stellar-Pathfinder/stellar-pathfinder",
+          "language": "Go",
+          "ownerUrl": "https://github.com/Stellar-Pathfinder",
+          "pushedAt": "2026-10-07T12:51:28+00:00",
+          "createdAt": "2026-10-06T20:24:40+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T11:07:07+00:00",
+          "description": "A corridor-integrity monitor for the Stellar network. Prices stablecoin→fiat-token corridors, scores routes against independent reference rates, and refuses to recommend when all options are unusable. Features wallet integration (Freighter/Albedo) and on-chain attestations via Soroban smart contracts.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Stellar-Pathfinder",
+      "topRepo": {
+        "name": "stellar-pathfinder",
+        "fullName": "Stellar-Pathfinder/stellar-pathfinder",
+        "stars": 130,
+        "url": "https://github.com/Stellar-Pathfinder/stellar-pathfinder"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/338831274?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Stellar-Pathfinder/stellar-pathfinder"
+      ],
+      "starScore": 130
     },
     {
       "id": "89969328",
-      "rank": 6,
+      "rank": 10,
       "type": "User",
       "login": "Tejashmakwana",
       "repos": [
@@ -247,9 +635,9 @@
           "id": 1407754231,
           "fork": false,
           "name": "motionmaxxing",
-          "forks": 8,
+          "forks": 9,
           "owner": "Tejashmakwana",
-          "stars": 61,
+          "stars": 77,
           "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4",
           "topics": [
             "agent-skills",
@@ -270,7 +658,7 @@
           "pushedAt": "2026-10-06T18:20:43+00:00",
           "createdAt": "2026-10-06T18:18:49+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T05:37:18+00:00",
+          "updatedAt": "2026-10-07T12:01:20+00:00",
           "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
           "defaultBranch": "main"
         }
@@ -279,7 +667,7 @@
       "topRepo": {
         "name": "motionmaxxing",
         "fullName": "Tejashmakwana/motionmaxxing",
-        "stars": 61,
+        "stars": 77,
         "url": "https://github.com/Tejashmakwana/motionmaxxing"
       },
       "enriched": true,
@@ -288,182 +676,117 @@
       "repoNames": [
         "Tejashmakwana/motionmaxxing"
       ],
-      "starScore": 61
+      "starScore": 77
     },
     {
-      "id": "9269304",
-      "rank": 7,
+      "id": "41537900",
+      "rank": 11,
       "type": "User",
-      "login": "jinrunsen",
+      "login": "LoreanXavier",
       "repos": [
         {
-          "id": 1407000491,
+          "id": 1408557215,
           "fork": false,
-          "name": "claude-my-privacy",
-          "forks": 6,
-          "owner": "jinrunsen",
-          "stars": 53,
-          "avatar": "https://avatars.githubusercontent.com/u/9269304?v=4",
+          "name": "pt-pc",
+          "forks": 7,
+          "owner": "LoreanXavier",
+          "stars": 69,
+          "avatar": "https://avatars.githubusercontent.com/u/41537900?v=4",
           "topics": [],
-          "ownerId": "9269304",
-          "repoUrl": "https://github.com/jinrunsen/claude-my-privacy",
+          "ownerId": "41537900",
+          "repoUrl": "https://github.com/LoreanXavier/pt-pc",
           "archived": false,
-          "fullName": "jinrunsen/claude-my-privacy",
-          "language": "Python",
-          "ownerUrl": "https://github.com/jinrunsen",
-          "pushedAt": "2026-10-06T09:01:23+00:00",
-          "createdAt": "2026-10-06T09:00:47+00:00",
+          "fullName": "LoreanXavier/pt-pc",
+          "language": "C++",
+          "ownerUrl": "https://github.com/LoreanXavier",
+          "pushedAt": "2026-10-07T12:04:21+00:00",
+          "createdAt": "2026-10-07T09:33:31+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:04:39+00:00",
-          "description": "MyPrivacy: local name and company pseudonymization for Claude Code, with restoration for tools and assistant reply display.",
+          "updatedAt": "2026-10-07T13:38:51+00:00",
+          "description": "Native PC port of P.T. (runs from your own PS4 game files)",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/jinrunsen",
+      "htmlUrl": "https://github.com/LoreanXavier",
       "topRepo": {
-        "name": "claude-my-privacy",
-        "fullName": "jinrunsen/claude-my-privacy",
-        "stars": 53,
-        "url": "https://github.com/jinrunsen/claude-my-privacy"
+        "name": "pt-pc",
+        "fullName": "LoreanXavier/pt-pc",
+        "stars": 69,
+        "url": "https://github.com/LoreanXavier/pt-pc"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9269304?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41537900?v=4",
       "repoCount": 1,
       "repoNames": [
-        "jinrunsen/claude-my-privacy"
+        "LoreanXavier/pt-pc"
       ],
-      "starScore": 53
+      "starScore": 69
     },
     {
-      "id": "330636770",
-      "rank": 8,
+      "id": "181023006",
+      "rank": 12,
       "type": "User",
-      "login": "Galekrufluctuate",
+      "login": "accomplish999",
       "repos": [
         {
-          "id": 1407101977,
+          "id": 1408279304,
           "fork": false,
-          "name": "capcut-commerce-pro-download",
+          "name": "position-sizer",
           "forks": 0,
-          "owner": "Galekrufluctuate",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/330636770?v=4",
+          "owner": "accomplish999",
+          "stars": 63,
+          "avatar": "https://avatars.githubusercontent.com/u/181023006?v=4",
           "topics": [
-            "capcut",
-            "capcut-commerce-pro",
-            "capcut-commerce-pro-download",
-            "capcut-pro",
-            "commerce",
-            "content-creation",
-            "creative-tools",
-            "cross-platform",
-            "desktop-app",
-            "download",
-            "mobile-editing",
-            "multimedia",
-            "social-media",
-            "video-editing",
-            "video-editor"
+            "cli",
+            "crypto",
+            "cryptocurrency",
+            "defi",
+            "impermanent-loss",
+            "perpetual-futures",
+            "position-sizing",
+            "risk",
+            "risk-analysis",
+            "risk-analytics",
+            "risk-assessment",
+            "risk-management",
+            "risk-modeling",
+            "risk-prediction",
+            "risk-scoring",
+            "typescript",
+            "uniswap"
           ],
-          "ownerId": "330636770",
-          "repoUrl": "https://github.com/Galekrufluctuate/capcut-commerce-pro-download",
+          "ownerId": "181023006",
+          "repoUrl": "https://github.com/accomplish999/position-sizer",
           "archived": false,
-          "fullName": "Galekrufluctuate/capcut-commerce-pro-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Galekrufluctuate",
-          "pushedAt": "2026-10-06T11:06:22+00:00",
-          "createdAt": "2026-10-06T10:27:18+00:00",
+          "fullName": "accomplish999/position-sizer",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/accomplish999",
+          "pushedAt": "2026-10-07T08:58:46+00:00",
+          "createdAt": "2026-10-07T05:12:22+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-06T14:15:46+00:00",
-          "description": "CapCut Commerce Pro — Read reviews about and evaluate some popular CapCut Commerce Pro alternatives. Info page and download link. Third-party software; all rights belong to the original authors.",
+          "updatedAt": "2026-10-07T10:48:04+00:00",
+          "description": "Position size calculators for Perps and DeFi.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Galekrufluctuate",
+      "htmlUrl": "https://github.com/accomplish999",
       "topRepo": {
-        "name": "capcut-commerce-pro-download",
-        "fullName": "Galekrufluctuate/capcut-commerce-pro-download",
-        "stars": 50,
-        "url": "https://github.com/Galekrufluctuate/capcut-commerce-pro-download"
+        "name": "position-sizer",
+        "fullName": "accomplish999/position-sizer",
+        "stars": 63,
+        "url": "https://github.com/accomplish999/position-sizer"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330636770?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181023006?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Galekrufluctuate/capcut-commerce-pro-download"
+        "accomplish999/position-sizer"
       ],
-      "starScore": 50
-    },
-    {
-      "id": "1419214",
-      "rank": 9,
-      "type": "User",
-      "login": "bjarneo",
-      "repos": [
-        {
-          "id": 1407733593,
-          "fork": false,
-          "name": "ferroprint",
-          "forks": 6,
-          "owner": "bjarneo",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
-          "topics": [],
-          "ownerId": "1419214",
-          "repoUrl": "https://github.com/bjarneo/ferroprint",
-          "archived": false,
-          "fullName": "bjarneo/ferroprint",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/bjarneo",
-          "pushedAt": "2026-10-06T21:00:05+00:00",
-          "createdAt": "2026-10-06T18:00:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T04:47:19+00:00",
-          "description": "Blueprint-style sketchpad for system diagrams, flows, wireframes and floor plans. Saves to localStorage.",
-          "defaultBranch": "main"
-        },
-        {
-          "id": 1406997725,
-          "fork": false,
-          "name": "various-themes",
-          "forks": 1,
-          "owner": "bjarneo",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
-          "topics": [],
-          "ownerId": "1419214",
-          "repoUrl": "https://github.com/bjarneo/various-themes",
-          "archived": false,
-          "fullName": "bjarneo/various-themes",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/bjarneo",
-          "pushedAt": "2026-10-06T16:47:29+00:00",
-          "createdAt": "2026-10-06T08:58:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T05:54:41+00:00",
-          "description": "100 Omarchy themes, each with a night and a day variant, built with the rules of the themes that ship with Omarchy",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/bjarneo",
-      "topRepo": {
-        "name": "ferroprint",
-        "fullName": "bjarneo/ferroprint",
-        "stars": 24,
-        "url": "https://github.com/bjarneo/ferroprint"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=4",
-      "repoCount": 2,
-      "repoNames": [
-        "bjarneo/ferroprint",
-        "bjarneo/various-themes"
-      ],
-      "starScore": 48
+      "starScore": 63
     },
     {
       "id": "251170166",
-      "rank": 10,
+      "rank": 13,
       "type": "Organization",
       "login": "sisyphuslabs",
       "repos": [
@@ -471,9 +794,9 @@
           "id": 1408194108,
           "fork": false,
           "name": "omo-dori-mode-experimental",
-          "forks": 51,
+          "forks": 52,
           "owner": "sisyphuslabs",
-          "stars": 44,
+          "stars": 49,
           "avatar": "https://avatars.githubusercontent.com/u/251170166?v=4",
           "topics": [
             "agents",
@@ -496,7 +819,7 @@
           "pushedAt": "2026-10-07T06:02:24+00:00",
           "createdAt": "2026-10-07T03:32:07+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-07T06:09:02+00:00",
+          "updatedAt": "2026-10-07T10:42:26+00:00",
           "description": "Dori mode: an always-on messenger agent that launches, tracks and closes coding-agent sessions in herdr (skill + bun CLI). Experimental.",
           "defaultBranch": "main"
         }
@@ -505,7 +828,7 @@
       "topRepo": {
         "name": "omo-dori-mode-experimental",
         "fullName": "sisyphuslabs/omo-dori-mode-experimental",
-        "stars": 44,
+        "stars": 49,
         "url": "https://github.com/sisyphuslabs/omo-dori-mode-experimental"
       },
       "enriched": true,
@@ -514,337 +837,150 @@
       "repoNames": [
         "sisyphuslabs/omo-dori-mode-experimental"
       ],
-      "starScore": 44
+      "starScore": 49
     },
     {
-      "id": "279081182",
-      "rank": 11,
-      "type": "User",
-      "login": "jake-hallhq1994q8",
-      "repos": [
-        {
-          "id": 1407088658,
-          "fork": false,
-          "name": "Medusa-LoL-SkinHelper",
-          "forks": 0,
-          "owner": "jake-hallhq1994q8",
-          "stars": 41,
-          "avatar": "https://avatars.githubusercontent.com/u/279081182?v=4",
-          "topics": [
-            "cslol",
-            "league-of-legends-skin-hack-free",
-            "league-skin-changer-2026",
-            "leauge-of-legends",
-            "leauge-of-legends-esp",
-            "leauge-of-legends-hack",
-            "leauge-of-legends-lasthit",
-            "lol-champions",
-            "lol-skin",
-            "lol-skin-manager",
-            "lol-skin-managerlol-skins-free",
-            "lol-skin-mod",
-            "lol-skin-modlol-skin-modding",
-            "lol-skin-tool",
-            "lol-skin-utility",
-            "lol-skins",
-            "lol-skins-free",
-            "lol-skins-viewer",
-            "r3nzskin",
-            "r3nzskin-tool"
-          ],
-          "ownerId": "279081182",
-          "repoUrl": "https://github.com/jake-hallhq1994q8/Medusa-LoL-SkinHelper",
-          "archived": false,
-          "fullName": "jake-hallhq1994q8/Medusa-LoL-SkinHelper",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/jake-hallhq1994q8",
-          "pushedAt": "2026-10-06T10:24:14+00:00",
-          "createdAt": "2026-10-06T10:15:25+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:26:11+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/jake-hallhq1994q8",
-      "topRepo": {
-        "name": "Medusa-LoL-SkinHelper",
-        "fullName": "jake-hallhq1994q8/Medusa-LoL-SkinHelper",
-        "stars": 41,
-        "url": "https://github.com/jake-hallhq1994q8/Medusa-LoL-SkinHelper"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/279081182?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "jake-hallhq1994q8/Medusa-LoL-SkinHelper"
-      ],
-      "starScore": 41
-    },
-    {
-      "id": "76897702",
-      "rank": 12,
-      "type": "Organization",
-      "login": "storytold",
-      "repos": [
-        {
-          "id": 1407376813,
-          "fork": false,
-          "name": "craft-fonts",
-          "forks": 54,
-          "owner": "storytold",
-          "stars": 40,
-          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
-          "topics": [],
-          "ownerId": "76897702",
-          "repoUrl": "https://github.com/storytold/craft-fonts",
-          "archived": false,
-          "fullName": "storytold/craft-fonts",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/storytold",
-          "pushedAt": "2026-10-07T04:52:28+00:00",
-          "createdAt": "2026-10-06T13:44:10+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-07T06:10:39+00:00",
-          "description": "Fonts for the Crafting Apps",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/storytold",
-      "topRepo": {
-        "name": "craft-fonts",
-        "fullName": "storytold/craft-fonts",
-        "stars": 40,
-        "url": "https://github.com/storytold/craft-fonts"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76897702?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "storytold/craft-fonts"
-      ],
-      "starScore": 40
-    },
-    {
-      "id": "314910312",
-      "rank": 13,
-      "type": "User",
-      "login": "kenkorasu",
-      "repos": [
-        {
-          "id": 1407310609,
-          "fork": false,
-          "name": "seed-phrase-generator",
-          "forks": 8,
-          "owner": "kenkorasu",
-          "stars": 36,
-          "avatar": "https://avatars.githubusercontent.com/u/314910312?v=4",
-          "topics": [
-            "auto-withdraw",
-            "auto-withdraw-bot",
-            "auto-withdraw-script",
-            "browser-wallet-sdk",
-            "brute-force-tool",
-            "checker-crypto",
-            "crypto-checker-tool",
-            "crypto-tools-airdrop",
-            "earn-crypto",
-            "eth-balance",
-            "finder-bitcoin",
-            "finder-crypto",
-            "lost-bitcoin-wallet",
-            "multi-chain-wallet-api",
-            "recovery-phrase",
-            "seed-generator",
-            "seed-phrases-generate",
-            "wallet-checker-api",
-            "wallet-finder-crypto",
-            "wallet-tracking-bot"
-          ],
-          "ownerId": "314910312",
-          "repoUrl": "https://github.com/kenkorasu/seed-phrase-generator",
-          "archived": false,
-          "fullName": "kenkorasu/seed-phrase-generator",
-          "language": "C++",
-          "ownerUrl": "https://github.com/kenkorasu",
-          "pushedAt": "2026-10-06T13:10:37+00:00",
-          "createdAt": "2026-10-06T12:58:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T06:12:54+00:00",
-          "description": "WalletGen - Seed Phrase generator / checker / finder / bruteforce for Bitcoin (BTC) and ETH (Ethereum) wallets. Find or recovery your wallet via brute force and brain wallet generation",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kenkorasu",
-      "topRepo": {
-        "name": "seed-phrase-generator",
-        "fullName": "kenkorasu/seed-phrase-generator",
-        "stars": 36,
-        "url": "https://github.com/kenkorasu/seed-phrase-generator"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/314910312?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kenkorasu/seed-phrase-generator"
-      ],
-      "starScore": 36
-    },
-    {
-      "id": "278977097",
+      "id": "261643802",
       "rank": 14,
       "type": "User",
-      "login": "dmitry-n-x1995z4",
+      "login": "GrimClawBot",
       "repos": [
         {
-          "id": 1407069944,
+          "id": 1407959698,
           "fork": false,
-          "name": "Medusa-Forza-Horizon-6",
+          "name": "Pixel-Companion",
           "forks": 0,
-          "owner": "dmitry-n-x1995z4",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/278977097?v=4",
-          "topics": [
-            "fh6",
-            "fh6-hack",
-            "fh6-mod",
-            "fh6-spotify-radio",
-            "fh6-tool",
-            "fh6-trainer",
-            "fh6rpc",
-            "forza-horizon",
-            "forza-horizon-6",
-            "forza-horizon-6-cars",
-            "forza-horizon-6-cheat",
-            "forza-horizon-6-free",
-            "forza-horizon-6-mod",
-            "forza-horizon-6-optiscaler",
-            "forza-horizon-6-pc",
-            "forza-horizon-6-spotify-download",
-            "forza-horizon-6-trainer",
-            "forza-horizon-hack",
-            "forza-mods",
-            "forza6-hack"
-          ],
-          "ownerId": "278977097",
-          "repoUrl": "https://github.com/dmitry-n-x1995z4/Medusa-Forza-Horizon-6",
+          "owner": "GrimClawBot",
+          "stars": 46,
+          "avatar": "https://avatars.githubusercontent.com/u/261643802?v=4",
+          "topics": [],
+          "ownerId": "261643802",
+          "repoUrl": "https://github.com/GrimClawBot/Pixel-Companion",
           "archived": false,
-          "fullName": "dmitry-n-x1995z4/Medusa-Forza-Horizon-6",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/dmitry-n-x1995z4",
-          "pushedAt": "2026-10-06T10:03:22+00:00",
-          "createdAt": "2026-10-06T09:58:13+00:00",
+          "fullName": "GrimClawBot/Pixel-Companion",
+          "language": "Python",
+          "ownerUrl": "https://github.com/GrimClawBot",
+          "pushedAt": "2026-10-07T09:09:10+00:00",
+          "createdAt": "2026-10-06T22:00:03+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-06T10:37:28+00:00",
-          "description": "FH6 Medusa is a free comprehensive trainer and tool for Forza Horizon 6 on Windows 10/11. Packed with unlimited money, unlock all 812 cars, speed , teleport, no damage, instant race win, and XP multiplier - this is the most complete forza horizon 6 trainer available as a single binary",
+          "updatedAt": "2026-10-07T10:13:37+00:00",
+          "description": "Native macOS notch companion for agent runtimes, with an optional Pixel HQ/Paperclip connector.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/dmitry-n-x1995z4",
+      "htmlUrl": "https://github.com/GrimClawBot",
       "topRepo": {
-        "name": "Medusa-Forza-Horizon-6",
-        "fullName": "dmitry-n-x1995z4/Medusa-Forza-Horizon-6",
-        "stars": 34,
-        "url": "https://github.com/dmitry-n-x1995z4/Medusa-Forza-Horizon-6"
+        "name": "Pixel-Companion",
+        "fullName": "GrimClawBot/Pixel-Companion",
+        "stars": 46,
+        "url": "https://github.com/GrimClawBot/Pixel-Companion"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/278977097?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/261643802?v=4",
       "repoCount": 1,
       "repoNames": [
-        "dmitry-n-x1995z4/Medusa-Forza-Horizon-6"
+        "GrimClawBot/Pixel-Companion"
       ],
-      "starScore": 34
+      "starScore": 46
     },
     {
-      "id": "3531840",
+      "id": "15806582",
       "rank": 15,
       "type": "User",
-      "login": "lidor30",
+      "login": "quinnovator",
       "repos": [
         {
-          "id": 1406839840,
+          "id": 1407566412,
           "fork": false,
-          "name": "pokedaisy",
+          "name": "inhouse",
           "forks": 0,
-          "owner": "lidor30",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/3531840?v=4",
+          "owner": "quinnovator",
+          "stars": 45,
+          "avatar": "https://avatars.githubusercontent.com/u/15806582?v=4",
           "topics": [],
-          "ownerId": "3531840",
-          "repoUrl": "https://github.com/lidor30/pokedaisy",
+          "ownerId": "15806582",
+          "repoUrl": "https://github.com/quinnovator/inhouse",
           "archived": false,
-          "fullName": "lidor30/pokedaisy",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/lidor30",
-          "pushedAt": "2026-10-06T20:25:46+00:00",
-          "createdAt": "2026-10-06T06:51:25+00:00",
+          "fullName": "quinnovator/inhouse",
+          "language": "Go",
+          "ownerUrl": "https://github.com/quinnovator",
+          "pushedAt": "2026-10-06T20:03:50+00:00",
+          "createdAt": "2026-10-06T15:50:02+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T05:14:26+00:00",
-          "description": "",
+          "updatedAt": "2026-10-07T10:18:06+00:00",
+          "description": "Your own app platform on one box, with your tailnet as the front door",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/lidor30",
+      "htmlUrl": "https://github.com/quinnovator",
       "topRepo": {
-        "name": "pokedaisy",
-        "fullName": "lidor30/pokedaisy",
-        "stars": 34,
-        "url": "https://github.com/lidor30/pokedaisy"
+        "name": "inhouse",
+        "fullName": "quinnovator/inhouse",
+        "stars": 45,
+        "url": "https://github.com/quinnovator/inhouse"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3531840?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15806582?v=4",
       "repoCount": 1,
       "repoNames": [
-        "lidor30/pokedaisy"
+        "quinnovator/inhouse"
       ],
-      "starScore": 34
+      "starScore": 45
     },
     {
-      "id": "585833",
+      "id": "252071647",
       "rank": 16,
       "type": "User",
-      "login": "msurguy",
+      "login": "iamlukethedev",
       "repos": [
         {
-          "id": 1406807600,
+          "id": 1407893845,
           "fork": false,
-          "name": "watercolor-playground",
-          "forks": 2,
-          "owner": "msurguy",
-          "stars": 28,
-          "avatar": "https://avatars.githubusercontent.com/u/585833?v=4",
+          "name": "Herald-OS",
+          "forks": 3,
+          "owner": "iamlukethedev",
+          "stars": 44,
+          "avatar": "https://avatars.githubusercontent.com/u/252071647?v=4",
           "topics": [
-            "paint",
-            "watercolor"
+            "ai-agent",
+            "desktop-environment",
+            "fedora",
+            "hermes-agent",
+            "hyprland",
+            "linux",
+            "macos",
+            "niri",
+            "omarchy",
+            "operating-system"
           ],
-          "ownerId": "585833",
-          "repoUrl": "https://github.com/msurguy/watercolor-playground",
+          "ownerId": "252071647",
+          "repoUrl": "https://github.com/iamlukethedev/Herald-OS",
           "archived": false,
-          "fullName": "msurguy/watercolor-playground",
+          "fullName": "iamlukethedev/Herald-OS",
           "language": "TypeScript",
-          "ownerUrl": "https://github.com/msurguy",
-          "pushedAt": "2026-10-07T04:18:34+00:00",
-          "createdAt": "2026-10-06T06:25:17+00:00",
+          "ownerUrl": "https://github.com/iamlukethedev",
+          "pushedAt": "2026-10-07T13:38:56+00:00",
+          "createdAt": "2026-10-06T20:37:44+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:11:43+00:00",
-          "description": "Realistic watercolor drawings",
+          "updatedAt": "2026-10-07T13:38:23+00:00",
+          "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/msurguy",
+      "htmlUrl": "https://github.com/iamlukethedev",
       "topRepo": {
-        "name": "watercolor-playground",
-        "fullName": "msurguy/watercolor-playground",
-        "stars": 28,
-        "url": "https://github.com/msurguy/watercolor-playground"
+        "name": "Herald-OS",
+        "fullName": "iamlukethedev/Herald-OS",
+        "stars": 44,
+        "url": "https://github.com/iamlukethedev/Herald-OS"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585833?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/252071647?v=4",
       "repoCount": 1,
       "repoNames": [
-        "msurguy/watercolor-playground"
+        "iamlukethedev/Herald-OS"
       ],
-      "starScore": 28
+      "starScore": 44
     },
     {
       "id": "29990615",
@@ -856,9 +992,9 @@
           "id": 1407478463,
           "fork": false,
           "name": "MCP-Image-Generator-Uncensored",
-          "forks": 2,
+          "forks": 4,
           "owner": "hypersniper05",
-          "stars": 24,
+          "stars": 40,
           "avatar": "https://avatars.githubusercontent.com/u/29990615?v=4",
           "topics": [],
           "ownerId": "29990615",
@@ -870,7 +1006,7 @@
           "pushedAt": "2026-10-06T15:15:58+00:00",
           "createdAt": "2026-10-06T14:54:31+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:03:08+00:00",
+          "updatedAt": "2026-10-07T13:33:48+00:00",
           "description": "Self-hosted MCP server for image generation and editing with the uncensored Qwen-Image-2.1 model",
           "defaultBranch": "main"
         }
@@ -879,7 +1015,7 @@
       "topRepo": {
         "name": "MCP-Image-Generator-Uncensored",
         "fullName": "hypersniper05/MCP-Image-Generator-Uncensored",
-        "stars": 24,
+        "stars": 40,
         "url": "https://github.com/hypersniper05/MCP-Image-Generator-Uncensored"
       },
       "enriched": true,
@@ -888,55 +1024,246 @@
       "repoNames": [
         "hypersniper05/MCP-Image-Generator-Uncensored"
       ],
-      "starScore": 24
+      "starScore": 40
     },
     {
-      "id": "92244026",
+      "id": "35050222",
       "rank": 18,
       "type": "User",
-      "login": "StarKnightt",
+      "login": "Dicklesworthstone",
       "repos": [
         {
-          "id": 1406904857,
+          "id": 1408019360,
           "fork": false,
-          "name": "bay-ride",
-          "forks": 9,
-          "owner": "StarKnightt",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/92244026?v=4",
-          "topics": [],
-          "ownerId": "92244026",
-          "repoUrl": "https://github.com/StarKnightt/bay-ride",
+          "name": "frankensonos",
+          "forks": 1,
+          "owner": "Dicklesworthstone",
+          "stars": 39,
+          "avatar": "https://avatars.githubusercontent.com/u/35050222?v=4",
+          "topics": [
+            "async",
+            "dlna",
+            "home-automation",
+            "interoperability",
+            "mcp",
+            "model-context-protocol",
+            "rust",
+            "smart-home",
+            "soco",
+            "sonos",
+            "spotify",
+            "ssdp",
+            "tailscale",
+            "upnp"
+          ],
+          "ownerId": "35050222",
+          "repoUrl": "https://github.com/Dicklesworthstone/frankensonos",
           "archived": false,
-          "fullName": "StarKnightt/bay-ride",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/StarKnightt",
-          "pushedAt": "2026-10-06T17:43:55+00:00",
-          "createdAt": "2026-10-06T07:43:16+00:00",
+          "fullName": "Dicklesworthstone/frankensonos",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/Dicklesworthstone",
+          "pushedAt": "2026-10-07T10:09:16+00:00",
+          "createdAt": "2026-10-06T23:30:08+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:12:05+00:00",
-          "description": "A painted seaside bay in late summer, built in Three.js. Walk the pier and the beach, then take the motorboat out to the lighthouse island.",
-          "defaultBranch": "master"
+          "updatedAt": "2026-10-07T13:32:42+00:00",
+          "description": "Memory-safe Rust controller for your own Sonos speakers on your own LAN — reliable SSDP/UPnP-SOAP/GENA interoperability (S1 + S2), a Spotify-library classical DJ, and a CLI + HTTP API + MCP server so AI agents can run the house, including off-LAN over Tailscale.",
+          "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/StarKnightt",
+      "htmlUrl": "https://github.com/Dicklesworthstone",
       "topRepo": {
-        "name": "bay-ride",
-        "fullName": "StarKnightt/bay-ride",
-        "stars": 24,
-        "url": "https://github.com/StarKnightt/bay-ride"
+        "name": "frankensonos",
+        "fullName": "Dicklesworthstone/frankensonos",
+        "stars": 39,
+        "url": "https://github.com/Dicklesworthstone/frankensonos"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/92244026?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35050222?v=4",
       "repoCount": 1,
       "repoNames": [
-        "StarKnightt/bay-ride"
+        "Dicklesworthstone/frankensonos"
       ],
-      "starScore": 24
+      "starScore": 39
+    },
+    {
+      "id": "254284126",
+      "rank": 19,
+      "type": "User",
+      "login": "studioigor",
+      "repos": [
+        {
+          "id": 1407579319,
+          "fork": false,
+          "name": "ref2game",
+          "forks": 7,
+          "owner": "studioigor",
+          "stars": 38,
+          "avatar": "https://avatars.githubusercontent.com/u/254284126?v=4",
+          "topics": [],
+          "ownerId": "254284126",
+          "repoUrl": "https://github.com/studioigor/ref2game",
+          "archived": false,
+          "fullName": "studioigor/ref2game",
+          "language": "Python",
+          "ownerUrl": "https://github.com/studioigor",
+          "pushedAt": "2026-10-06T16:01:01+00:00",
+          "createdAt": "2026-10-06T15:59:40+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:28:06+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/studioigor",
+      "topRepo": {
+        "name": "ref2game",
+        "fullName": "studioigor/ref2game",
+        "stars": 38,
+        "url": "https://github.com/studioigor/ref2game"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/254284126?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "studioigor/ref2game"
+      ],
+      "starScore": 38
+    },
+    {
+      "id": "1419214",
+      "rank": 20,
+      "type": "User",
+      "login": "bjarneo",
+      "repos": [
+        {
+          "id": 1407733593,
+          "fork": false,
+          "name": "ferroprint",
+          "forks": 8,
+          "owner": "bjarneo",
+          "stars": 33,
+          "avatar": "https://avatars.githubusercontent.com/u/1419214?v=4",
+          "topics": [],
+          "ownerId": "1419214",
+          "repoUrl": "https://github.com/bjarneo/ferroprint",
+          "archived": false,
+          "fullName": "bjarneo/ferroprint",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/bjarneo",
+          "pushedAt": "2026-10-06T21:00:05+00:00",
+          "createdAt": "2026-10-06T18:00:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T11:32:49+00:00",
+          "description": "Blueprint-style sketchpad for system diagrams, flows, wireframes and floor plans. Saves to localStorage.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/bjarneo",
+      "topRepo": {
+        "name": "ferroprint",
+        "fullName": "bjarneo/ferroprint",
+        "stars": 33,
+        "url": "https://github.com/bjarneo/ferroprint"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "bjarneo/ferroprint"
+      ],
+      "starScore": 33
+    },
+    {
+      "id": "279566894",
+      "rank": 21,
+      "type": "Organization",
+      "login": "1TDSPH-26",
+      "repos": [
+        {
+          "id": 1408653485,
+          "fork": false,
+          "name": "front-2sem-aula-19",
+          "forks": 0,
+          "owner": "1TDSPH-26",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/279566894?v=4",
+          "topics": [],
+          "ownerId": "279566894",
+          "repoUrl": "https://github.com/1TDSPH-26/front-2sem-aula-19",
+          "archived": false,
+          "fullName": "1TDSPH-26/front-2sem-aula-19",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/1TDSPH-26",
+          "pushedAt": "2026-10-07T12:48:16+00:00",
+          "createdAt": "2026-10-07T11:03:32+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T11:31:46+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/1TDSPH-26",
+      "topRepo": {
+        "name": "front-2sem-aula-19",
+        "fullName": "1TDSPH-26/front-2sem-aula-19",
+        "stars": 25,
+        "url": "https://github.com/1TDSPH-26/front-2sem-aula-19"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/279566894?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "1TDSPH-26/front-2sem-aula-19"
+      ],
+      "starScore": 25
+    },
+    {
+      "id": "1034155",
+      "rank": 22,
+      "type": "User",
+      "login": "charlesvestal",
+      "repos": [
+        {
+          "id": 1407754501,
+          "fork": false,
+          "name": "fm1-fomni",
+          "forks": 0,
+          "owner": "charlesvestal",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/1034155?v=4",
+          "topics": [],
+          "ownerId": "1034155",
+          "repoUrl": "https://github.com/charlesvestal/fm1-fomni",
+          "archived": false,
+          "fullName": "charlesvestal/fm1-fomni",
+          "language": "C",
+          "ownerUrl": "https://github.com/charlesvestal",
+          "pushedAt": "2026-10-07T09:27:19+00:00",
+          "createdAt": "2026-10-06T18:19:04+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:00:28+00:00",
+          "description": "FoMni: a chord harp firmware for the M-VAVE FM-1, inspired by the Omnichord. Strum the white keys, pick chords on the black ones.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/charlesvestal",
+      "topRepo": {
+        "name": "fm1-fomni",
+        "fullName": "charlesvestal/fm1-fomni",
+        "stars": 25,
+        "url": "https://github.com/charlesvestal/fm1-fomni"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1034155?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "charlesvestal/fm1-fomni"
+      ],
+      "starScore": 25
     },
     {
       "id": "5002201",
-      "rank": 19,
+      "rank": 23,
       "type": "User",
       "login": "Mrdindon",
       "repos": [
@@ -989,8 +1316,52 @@
       "starScore": 23
     },
     {
+      "id": "52795608",
+      "rank": 24,
+      "type": "User",
+      "login": "TekRantGaming",
+      "repos": [
+        {
+          "id": 1408042090,
+          "fork": false,
+          "name": "earthworm-jim-hd-recompiled",
+          "forks": 2,
+          "owner": "TekRantGaming",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/52795608?v=4",
+          "topics": [],
+          "ownerId": "52795608",
+          "repoUrl": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled",
+          "archived": false,
+          "fullName": "TekRantGaming/earthworm-jim-hd-recompiled",
+          "language": "C++",
+          "ownerUrl": "https://github.com/TekRantGaming",
+          "pushedAt": "2026-10-07T03:28:18+00:00",
+          "createdAt": "2026-10-07T00:06:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:15:44+00:00",
+          "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/TekRantGaming",
+      "topRepo": {
+        "name": "earthworm-jim-hd-recompiled",
+        "fullName": "TekRantGaming/earthworm-jim-hd-recompiled",
+        "stars": 23,
+        "url": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52795608?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "TekRantGaming/earthworm-jim-hd-recompiled"
+      ],
+      "starScore": 23
+    },
+    {
       "id": "338886239",
-      "rank": 20,
+      "rank": 25,
       "type": "Organization",
       "login": "HestSI",
       "repos": [
@@ -1009,10 +1380,10 @@
           "fullName": "HestSI/docs",
           "language": "Unknown",
           "ownerUrl": "https://github.com/HestSI",
-          "pushedAt": "2026-10-07T04:15:07+00:00",
+          "pushedAt": "2026-10-07T10:27:48+00:00",
           "createdAt": "2026-10-07T01:38:46+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-07T04:15:11+00:00",
+          "updatedAt": "2026-10-07T10:27:52+00:00",
           "description": "Documentation for Hest, perpetuals with Super Intelligence. Published at docs.hest.si",
           "defaultBranch": "main"
         }
@@ -1033,52 +1404,145 @@
       "starScore": 22
     },
     {
-      "id": "1034155",
-      "rank": 21,
-      "type": "User",
-      "login": "charlesvestal",
+      "id": "146795414",
+      "rank": 26,
+      "type": "Organization",
+      "login": "datologyai",
       "repos": [
         {
-          "id": 1407754501,
+          "id": 1408120545,
           "fork": false,
-          "name": "fm1-fomni",
+          "name": "zephon",
           "forks": 0,
-          "owner": "charlesvestal",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/1034155?v=4",
-          "topics": [],
-          "ownerId": "1034155",
-          "repoUrl": "https://github.com/charlesvestal/fm1-fomni",
+          "owner": "datologyai",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/146795414?v=4",
+          "topics": [
+            "data-loader",
+            "deep-learning",
+            "distributed-training",
+            "pytorch"
+          ],
+          "ownerId": "146795414",
+          "repoUrl": "https://github.com/datologyai/zephon",
           "archived": false,
-          "fullName": "charlesvestal/fm1-fomni",
-          "language": "C",
-          "ownerUrl": "https://github.com/charlesvestal",
-          "pushedAt": "2026-10-07T06:09:08+00:00",
-          "createdAt": "2026-10-06T18:19:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T06:09:04+00:00",
-          "description": "FoMni: a chord harp firmware for the M-VAVE FM-1, inspired by the Omnichord. Strum the white keys, pick chords on the black ones.",
+          "fullName": "datologyai/zephon",
+          "language": "Python",
+          "ownerUrl": "https://github.com/datologyai",
+          "pushedAt": "2026-10-07T13:12:11+00:00",
+          "createdAt": "2026-10-07T01:59:41+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:12:13+00:00",
+          "description": "Fast, flexible, elastically deterministic data loading for foundation model training",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/charlesvestal",
+      "htmlUrl": "https://github.com/datologyai",
       "topRepo": {
-        "name": "fm1-fomni",
-        "fullName": "charlesvestal/fm1-fomni",
-        "stars": 19,
-        "url": "https://github.com/charlesvestal/fm1-fomni"
+        "name": "zephon",
+        "fullName": "datologyai/zephon",
+        "stars": 20,
+        "url": "https://github.com/datologyai/zephon"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1034155?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/146795414?v=4",
       "repoCount": 1,
       "repoNames": [
-        "charlesvestal/fm1-fomni"
+        "datologyai/zephon"
       ],
-      "starScore": 19
+      "starScore": 20
+    },
+    {
+      "id": "324243036",
+      "rank": 27,
+      "type": "User",
+      "login": "elforeign",
+      "repos": [
+        {
+          "id": 1408214391,
+          "fork": false,
+          "name": "nfs-most-wanted-mac",
+          "forks": 1,
+          "owner": "elforeign",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/324243036?v=4",
+          "topics": [],
+          "ownerId": "324243036",
+          "repoUrl": "https://github.com/elforeign/nfs-most-wanted-mac",
+          "archived": false,
+          "fullName": "elforeign/nfs-most-wanted-mac",
+          "language": "C++",
+          "ownerUrl": "https://github.com/elforeign",
+          "pushedAt": "2026-10-07T04:25:57+00:00",
+          "createdAt": "2026-10-07T03:57:18+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:37:14+00:00",
+          "description": "Need for Speed: Most Wanted (2005), native on Apple Silicon Macs by static recompilation. Bring your own PC game.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/elforeign",
+      "topRepo": {
+        "name": "nfs-most-wanted-mac",
+        "fullName": "elforeign/nfs-most-wanted-mac",
+        "stars": 20,
+        "url": "https://github.com/elforeign/nfs-most-wanted-mac"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/324243036?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "elforeign/nfs-most-wanted-mac"
+      ],
+      "starScore": 20
+    },
+    {
+      "id": "27239435",
+      "rank": 28,
+      "type": "User",
+      "login": "lavavex",
+      "repos": [
+        {
+          "id": 1408118832,
+          "fork": false,
+          "name": "rpcs3-PS5",
+          "forks": 3,
+          "owner": "lavavex",
+          "stars": 20,
+          "avatar": "https://avatars.githubusercontent.com/u/27239435?v=4",
+          "topics": [],
+          "ownerId": "27239435",
+          "repoUrl": "https://github.com/lavavex/rpcs3-PS5",
+          "archived": false,
+          "fullName": "lavavex/rpcs3-PS5",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/lavavex",
+          "pushedAt": "2026-10-07T03:08:38+00:00",
+          "createdAt": "2026-10-07T01:57:09+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:29:57+00:00",
+          "description": "EXPERIMENTAL: RPCS3 as a native PS5 title (RADV Vulkan, Big Picture Mode). Source only, personal use.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/lavavex",
+      "topRepo": {
+        "name": "rpcs3-PS5",
+        "fullName": "lavavex/rpcs3-PS5",
+        "stars": 20,
+        "url": "https://github.com/lavavex/rpcs3-PS5"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27239435?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "lavavex/rpcs3-PS5"
+      ],
+      "starScore": 20
     },
     {
       "id": "31189199",
-      "rank": 22,
+      "rank": 29,
       "type": "User",
       "login": "TheMaxMur",
       "repos": [
@@ -1086,9 +1550,9 @@
           "id": 1407770289,
           "fork": false,
           "name": "json2dir-bimbo",
-          "forks": 0,
+          "forks": 1,
           "owner": "TheMaxMur",
-          "stars": 19,
+          "stars": 20,
           "avatar": "https://avatars.githubusercontent.com/u/31189199?v=4",
           "topics": [],
           "ownerId": "31189199",
@@ -1097,10 +1561,10 @@
           "fullName": "TheMaxMur/json2dir-bimbo",
           "language": "Python",
           "ownerUrl": "https://github.com/TheMaxMur",
-          "pushedAt": "2026-10-06T19:38:42+00:00",
+          "pushedAt": "2026-10-07T09:25:14+00:00",
           "createdAt": "2026-10-06T18:33:30+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T02:38:27+00:00",
+          "updatedAt": "2026-10-07T09:25:19+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -1109,7 +1573,7 @@
       "topRepo": {
         "name": "json2dir-bimbo",
         "fullName": "TheMaxMur/json2dir-bimbo",
-        "stars": 19,
+        "stars": 20,
         "url": "https://github.com/TheMaxMur/json2dir-bimbo"
       },
       "enriched": true,
@@ -1118,207 +1582,200 @@
       "repoNames": [
         "TheMaxMur/json2dir-bimbo"
       ],
-      "starScore": 19
+      "starScore": 20
     },
     {
-      "id": "110870588",
-      "rank": 23,
+      "id": "48343225",
+      "rank": 30,
       "type": "User",
-      "login": "gabrielgreco1",
+      "login": "alan890104",
       "repos": [
         {
-          "id": 1407364052,
+          "id": 1407384537,
           "fork": false,
-          "name": "skills",
-          "forks": 0,
-          "owner": "gabrielgreco1",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/110870588?v=4",
-          "topics": [],
-          "ownerId": "110870588",
-          "repoUrl": "https://github.com/gabrielgreco1/skills",
+          "name": "claude-code-paste-preview",
+          "forks": 1,
+          "owner": "alan890104",
+          "stars": 19,
+          "avatar": "https://avatars.githubusercontent.com/u/48343225?v=4",
+          "topics": [
+            "annotation",
+            "claude-code",
+            "claude-code-plugin",
+            "linux",
+            "macos",
+            "screenshot",
+            "windows"
+          ],
+          "ownerId": "48343225",
+          "repoUrl": "https://github.com/alan890104/claude-code-paste-preview",
           "archived": false,
-          "fullName": "gabrielgreco1/skills",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/gabrielgreco1",
-          "pushedAt": "2026-10-06T19:08:19+00:00",
-          "createdAt": "2026-10-06T13:35:12+00:00",
+          "fullName": "alan890104/claude-code-paste-preview",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/alan890104",
+          "pushedAt": "2026-10-06T18:43:10+00:00",
+          "createdAt": "2026-10-06T13:49:19+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T02:55:38+00:00",
-          "description": "The set of skills that you dreamed of",
+          "updatedAt": "2026-10-07T13:21:21+00:00",
+          "description": "See and mark up the images you paste into Claude Code: thumbnails, and an editor that opens on paste. macOS, Linux and Windows.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/gabrielgreco1",
+      "htmlUrl": "https://github.com/alan890104",
       "topRepo": {
-        "name": "skills",
-        "fullName": "gabrielgreco1/skills",
-        "stars": 18,
-        "url": "https://github.com/gabrielgreco1/skills"
+        "name": "claude-code-paste-preview",
+        "fullName": "alan890104/claude-code-paste-preview",
+        "stars": 19,
+        "url": "https://github.com/alan890104/claude-code-paste-preview"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/110870588?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48343225?v=4",
       "repoCount": 1,
       "repoNames": [
-        "gabrielgreco1/skills"
+        "alan890104/claude-code-paste-preview"
       ],
-      "starScore": 18
+      "starScore": 19
     },
     {
-      "id": "328856308",
-      "rank": 24,
+      "id": "264083072",
+      "rank": 31,
       "type": "User",
-      "login": "s4ntrx",
+      "login": "hirun-hsdz",
       "repos": [
         {
-          "id": 1407032891,
+          "id": 1408195493,
           "fork": false,
-          "name": "Log-Analyzer",
+          "name": "DAY-04",
           "forks": 0,
-          "owner": "s4ntrx",
-          "stars": 18,
-          "avatar": "https://avatars.githubusercontent.com/u/328856308?v=4",
+          "owner": "hirun-hsdz",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/264083072?v=4",
           "topics": [],
-          "ownerId": "328856308",
-          "repoUrl": "https://github.com/s4ntrx/Log-Analyzer",
+          "ownerId": "264083072",
+          "repoUrl": "https://github.com/hirun-hsdz/DAY-04",
           "archived": false,
-          "fullName": "s4ntrx/Log-Analyzer",
+          "fullName": "hirun-hsdz/DAY-04",
           "language": "JavaScript",
-          "ownerUrl": "https://github.com/s4ntrx",
-          "pushedAt": "2026-10-06T09:36:39+00:00",
-          "createdAt": "2026-10-06T09:26:02+00:00",
+          "ownerUrl": "https://github.com/hirun-hsdz",
+          "pushedAt": "2026-10-07T09:20:07+00:00",
+          "createdAt": "2026-10-07T03:33:41+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-06T18:40:53+00:00",
+          "updatedAt": "2026-10-07T10:18:03+00:00",
           "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/s4ntrx",
+      "htmlUrl": "https://github.com/hirun-hsdz",
       "topRepo": {
-        "name": "Log-Analyzer",
-        "fullName": "s4ntrx/Log-Analyzer",
-        "stars": 18,
-        "url": "https://github.com/s4ntrx/Log-Analyzer"
+        "name": "DAY-04",
+        "fullName": "hirun-hsdz/DAY-04",
+        "stars": 17,
+        "url": "https://github.com/hirun-hsdz/DAY-04"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/328856308?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/264083072?v=4",
       "repoCount": 1,
       "repoNames": [
-        "s4ntrx/Log-Analyzer"
+        "hirun-hsdz/DAY-04"
       ],
-      "starScore": 18
+      "starScore": 17
     },
     {
-      "id": "219692780",
-      "rank": 25,
+      "id": "43538880",
+      "rank": 32,
       "type": "User",
-      "login": "0xgetz",
+      "login": "jungjin0003",
       "repos": [
         {
-          "id": 1406973852,
+          "id": 1408581099,
           "fork": false,
-          "name": "flatai-9router-bulk",
-          "forks": 3,
-          "owner": "0xgetz",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/219692780?v=4",
-          "topics": [
-            "9router",
-            "ai-router",
-            "automation",
-            "bulk-account-creator",
-            "firebase-auth",
-            "flatai",
-            "headless-automation",
-            "llm-gateway",
-            "nodejs",
-            "openai-api",
-            "openai-compatible",
-            "proxy",
-            "session-cookies",
-            "zero-dependencies"
-          ],
-          "ownerId": "219692780",
-          "repoUrl": "https://github.com/0xgetz/flatai-9router-bulk",
+          "name": "Claude-Mythos-5.1-System-Prompt",
+          "forks": 10,
+          "owner": "jungjin0003",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/43538880?v=4",
+          "topics": [],
+          "ownerId": "43538880",
+          "repoUrl": "https://github.com/jungjin0003/Claude-Mythos-5.1-System-Prompt",
           "archived": false,
-          "fullName": "0xgetz/flatai-9router-bulk",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/0xgetz",
-          "pushedAt": "2026-10-06T08:38:58+00:00",
-          "createdAt": "2026-10-06T08:38:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T02:14:38+00:00",
-          "description": "Bulk-create Flat AI accounts headlessly, auto-capture session cookies + Firebase tokens, and bridge the pool into 9Router as one OpenAI-compatible provider. Zero dependencies.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/0xgetz",
-      "topRepo": {
-        "name": "flatai-9router-bulk",
-        "fullName": "0xgetz/flatai-9router-bulk",
-        "stars": 16,
-        "url": "https://github.com/0xgetz/flatai-9router-bulk"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/219692780?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "0xgetz/flatai-9router-bulk"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "95678750",
-      "rank": 26,
-      "type": "User",
-      "login": "amelieloher",
-      "repos": [
-        {
-          "id": 1407379578,
-          "fork": false,
-          "name": "math-paper-skills",
-          "forks": 2,
-          "owner": "amelieloher",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/95678750?v=4",
-          "topics": [
-            "agent-skills",
-            "latex",
-            "lean4",
-            "mathematics"
-          ],
-          "ownerId": "95678750",
-          "repoUrl": "https://github.com/amelieloher/math-paper-skills",
-          "archived": false,
-          "fullName": "amelieloher/math-paper-skills",
+          "fullName": "jungjin0003/Claude-Mythos-5.1-System-Prompt",
           "language": "Unknown",
-          "ownerUrl": "https://github.com/amelieloher",
-          "pushedAt": "2026-10-06T18:04:09+00:00",
-          "createdAt": "2026-10-06T13:46:04+00:00",
+          "ownerUrl": "https://github.com/jungjin0003",
+          "pushedAt": "2026-10-07T12:28:45+00:00",
+          "createdAt": "2026-10-07T09:55:47+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T04:33:15+00:00",
-          "description": "Agent skills for writing research mathematics in LaTeX and building audited visual companion websites for papers.",
+          "updatedAt": "2026-10-07T13:38:13+00:00",
+          "description": "The Claude Mythos 5.1 System Prompt",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/jungjin0003",
+      "topRepo": {
+        "name": "Claude-Mythos-5.1-System-Prompt",
+        "fullName": "jungjin0003/Claude-Mythos-5.1-System-Prompt",
+        "stars": 17,
+        "url": "https://github.com/jungjin0003/Claude-Mythos-5.1-System-Prompt"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43538880?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "jungjin0003/Claude-Mythos-5.1-System-Prompt"
+      ],
+      "starScore": 17
+    },
+    {
+      "id": "28521152",
+      "rank": 33,
+      "type": "User",
+      "login": "Nongfsq",
+      "repos": [
+        {
+          "id": 1408023234,
+          "fork": false,
+          "name": "ftop",
+          "forks": 0,
+          "owner": "Nongfsq",
+          "stars": 17,
+          "avatar": "https://avatars.githubusercontent.com/u/28521152?v=4",
+          "topics": [
+            "apple-silicon",
+            "macos",
+            "swift",
+            "system-monitor"
+          ],
+          "ownerId": "28521152",
+          "repoUrl": "https://github.com/Nongfsq/ftop",
+          "archived": false,
+          "fullName": "Nongfsq/ftop",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/Nongfsq",
+          "pushedAt": "2026-10-07T07:03:04+00:00",
+          "createdAt": "2026-10-06T23:36:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-07T13:10:10+00:00",
+          "description": "A small, quiet system monitor for Apple Silicon Macs: one floating glass panel that works at any size.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/amelieloher",
+      "htmlUrl": "https://github.com/Nongfsq",
       "topRepo": {
-        "name": "math-paper-skills",
-        "fullName": "amelieloher/math-paper-skills",
-        "stars": 16,
-        "url": "https://github.com/amelieloher/math-paper-skills"
+        "name": "ftop",
+        "fullName": "Nongfsq/ftop",
+        "stars": 17,
+        "url": "https://github.com/Nongfsq/ftop"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/95678750?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28521152?v=4",
       "repoCount": 1,
       "repoNames": [
-        "amelieloher/math-paper-skills"
+        "Nongfsq/ftop"
       ],
-      "starScore": 16
+      "starScore": 17
     },
     {
       "id": "332491319",
-      "rank": 27,
+      "rank": 34,
       "type": "User",
       "login": "heartsalamanderfix",
       "repos": [
@@ -1366,280 +1823,204 @@
       "starScore": 16
     },
     {
-      "id": "51252792",
-      "rank": 28,
-      "type": "User",
-      "login": "leobumjin",
+      "id": "285155815",
+      "rank": 35,
+      "type": "Organization",
+      "login": "WaEnhancerX",
       "repos": [
         {
-          "id": 1407009895,
+          "id": 1408750624,
           "fork": false,
-          "name": "multiagent-darkweb-safety",
+          "name": "WaEnhancerX",
           "forks": 0,
-          "owner": "leobumjin",
+          "owner": "WaEnhancerX",
           "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/51252792?v=4",
-          "topics": [],
-          "ownerId": "51252792",
-          "repoUrl": "https://github.com/leobumjin/multiagent-darkweb-safety",
+          "avatar": "https://avatars.githubusercontent.com/u/285155815?v=4",
+          "topics": [
+            "android",
+            "lspose",
+            "lsposeed-module",
+            "mubashardev",
+            "wae",
+            "waenhancer",
+            "waenhancerx",
+            "waenhancerxpro",
+            "waex",
+            "whatsapp"
+          ],
+          "ownerId": "285155815",
+          "repoUrl": "https://github.com/WaEnhancerX/WaEnhancerX",
           "archived": false,
-          "fullName": "leobumjin/multiagent-darkweb-safety",
-          "language": "Python",
-          "ownerUrl": "https://github.com/leobumjin",
-          "pushedAt": "2026-10-06T10:04:33+00:00",
-          "createdAt": "2026-10-06T09:07:51+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T02:36:47+00:00",
-          "description": "",
+          "fullName": "WaEnhancerX/WaEnhancerX",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/WaEnhancerX",
+          "pushedAt": "2026-10-07T12:35:31+00:00",
+          "createdAt": "2026-10-07T12:29:05+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T13:31:03+00:00",
+          "description": "An advanced, open-source LSPosed module for WhatsApp. Features UI customization, aggressive Anti-Meta AI, privacy enhancements, and native settings integration. Written entirely from scratch.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/leobumjin",
+      "htmlUrl": "https://github.com/WaEnhancerX",
       "topRepo": {
-        "name": "multiagent-darkweb-safety",
-        "fullName": "leobumjin/multiagent-darkweb-safety",
+        "name": "WaEnhancerX",
+        "fullName": "WaEnhancerX/WaEnhancerX",
         "stars": 16,
-        "url": "https://github.com/leobumjin/multiagent-darkweb-safety"
+        "url": "https://github.com/WaEnhancerX/WaEnhancerX"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/51252792?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/285155815?v=4",
       "repoCount": 1,
       "repoNames": [
-        "leobumjin/multiagent-darkweb-safety"
+        "WaEnhancerX/WaEnhancerX"
       ],
       "starScore": 16
     },
     {
-      "id": "52795608",
-      "rank": 29,
+      "id": "40536177",
+      "rank": 36,
       "type": "User",
-      "login": "TekRantGaming",
+      "login": "dntpi",
       "repos": [
         {
-          "id": 1408042090,
+          "id": 1407389255,
           "fork": false,
-          "name": "earthworm-jim-hd-recompiled",
+          "name": "ComfyUI-H3-Video-Upsampler",
           "forks": 2,
-          "owner": "TekRantGaming",
-          "stars": 16,
-          "avatar": "https://avatars.githubusercontent.com/u/52795608?v=4",
-          "topics": [],
-          "ownerId": "52795608",
-          "repoUrl": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled",
-          "archived": false,
-          "fullName": "TekRantGaming/earthworm-jim-hd-recompiled",
-          "language": "C++",
-          "ownerUrl": "https://github.com/TekRantGaming",
-          "pushedAt": "2026-10-07T03:28:18+00:00",
-          "createdAt": "2026-10-07T00:06:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T05:50:56+00:00",
-          "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TekRantGaming",
-      "topRepo": {
-        "name": "earthworm-jim-hd-recompiled",
-        "fullName": "TekRantGaming/earthworm-jim-hd-recompiled",
-        "stars": 16,
-        "url": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52795608?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TekRantGaming/earthworm-jim-hd-recompiled"
-      ],
-      "starScore": 16
-    },
-    {
-      "id": "28209464",
-      "rank": 30,
-      "type": "User",
-      "login": "ji10me",
-      "repos": [
-        {
-          "id": 1407325258,
-          "fork": false,
-          "name": "ESP32_C5_Wifi_spectrum_analyzer",
-          "forks": 0,
-          "owner": "ji10me",
+          "owner": "dntpi",
           "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/28209464?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/40536177?v=4",
           "topics": [],
-          "ownerId": "28209464",
-          "repoUrl": "https://github.com/ji10me/ESP32_C5_Wifi_spectrum_analyzer",
+          "ownerId": "40536177",
+          "repoUrl": "https://github.com/dntpi/ComfyUI-H3-Video-Upsampler",
           "archived": false,
-          "fullName": "ji10me/ESP32_C5_Wifi_spectrum_analyzer",
+          "fullName": "dntpi/ComfyUI-H3-Video-Upsampler",
           "language": "Python",
-          "ownerUrl": "https://github.com/ji10me",
-          "pushedAt": "2026-10-06T13:34:37+00:00",
-          "createdAt": "2026-10-06T13:08:17+00:00",
+          "ownerUrl": "https://github.com/dntpi",
+          "pushedAt": "2026-10-06T13:52:24+00:00",
+          "createdAt": "2026-10-06T13:52:18+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T06:11:46+00:00",
-          "description": "ESP32-C5 Wi-Fi SDR spectrum analyzer (2.4/5 GHz) using ESPARGOS/esp-sdr firmware",
+          "updatedAt": "2026-10-07T12:12:16+00:00",
+          "description": "Upscale a finished MiniMax H3 clip in ComfyUI: H3 latent upscaler + one guided re-draw in tiles, with the h3upscale x2 LoRA (on Hugging Face).",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/ji10me",
+      "htmlUrl": "https://github.com/dntpi",
       "topRepo": {
-        "name": "ESP32_C5_Wifi_spectrum_analyzer",
-        "fullName": "ji10me/ESP32_C5_Wifi_spectrum_analyzer",
+        "name": "ComfyUI-H3-Video-Upsampler",
+        "fullName": "dntpi/ComfyUI-H3-Video-Upsampler",
         "stars": 15,
-        "url": "https://github.com/ji10me/ESP32_C5_Wifi_spectrum_analyzer"
+        "url": "https://github.com/dntpi/ComfyUI-H3-Video-Upsampler"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28209464?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40536177?v=4",
       "repoCount": 1,
       "repoNames": [
-        "ji10me/ESP32_C5_Wifi_spectrum_analyzer"
+        "dntpi/ComfyUI-H3-Video-Upsampler"
       ],
       "starScore": 15
     },
     {
-      "id": "3109144",
-      "rank": 31,
+      "id": "338998602",
+      "rank": 37,
       "type": "User",
-      "login": "unixzii",
+      "login": "Fciion4112",
       "repos": [
         {
-          "id": 1407258340,
+          "id": 1408362562,
           "fork": false,
-          "name": "synth-ui",
-          "forks": 2,
-          "owner": "unixzii",
-          "stars": 14,
-          "avatar": "https://avatars.githubusercontent.com/u/3109144?v=4",
-          "topics": [],
-          "ownerId": "3109144",
-          "repoUrl": "https://github.com/unixzii/synth-ui",
+          "name": "USDT-Flash",
+          "forks": 0,
+          "owner": "Fciion4112",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/338998602?v=4",
+          "topics": [
+            "bitcoin-transaction-tool",
+            "crpt",
+            "flash-free-demo",
+            "flash-memory",
+            "flashusftsendarbot",
+            "trc20",
+            "trx-flash",
+            "usdt-flash-service"
+          ],
+          "ownerId": "338998602",
+          "repoUrl": "https://github.com/Fciion4112/USDT-Flash",
           "archived": false,
-          "fullName": "unixzii/synth-ui",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/unixzii",
-          "pushedAt": "2026-10-06T13:09:16+00:00",
-          "createdAt": "2026-10-06T12:24:56+00:00",
+          "fullName": "Fciion4112/USDT-Flash",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Fciion4112",
+          "pushedAt": "2026-10-07T06:49:44+00:00",
+          "createdAt": "2026-10-07T06:40:04+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-07T05:27:33+00:00",
-          "description": "A TypeScript library for building pixel-art user interfaces.",
+          "updatedAt": "2026-10-07T12:10:49+00:00",
+          "description": "Flash USDT| BTC| ETH Sender is a next-generation simulation tool that allow user to emulate USDT(BTC) transfer across wallets and exchanges.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/unixzii",
+      "htmlUrl": "https://github.com/Fciion4112",
       "topRepo": {
-        "name": "synth-ui",
-        "fullName": "unixzii/synth-ui",
-        "stars": 14,
-        "url": "https://github.com/unixzii/synth-ui"
+        "name": "USDT-Flash",
+        "fullName": "Fciion4112/USDT-Flash",
+        "stars": 15,
+        "url": "https://github.com/Fciion4112/USDT-Flash"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3109144?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/338998602?v=4",
       "repoCount": 1,
       "repoNames": [
-        "unixzii/synth-ui"
+        "Fciion4112/USDT-Flash"
       ],
-      "starScore": 14
+      "starScore": 15
     },
     {
-      "id": "69639595",
-      "rank": 32,
-      "type": "User",
-      "login": "0xSero",
+      "id": "284200730",
+      "rank": 38,
+      "type": "Organization",
+      "login": "sybil-solutions",
       "repos": [
         {
           "id": 1407841717,
           "fork": false,
           "name": "qwen38-flash-next-b70-offload",
           "forks": 1,
-          "owner": "0xSero",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/69639595?v=4",
+          "owner": "sybil-solutions",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/284200730?v=4",
           "topics": [],
-          "ownerId": "69639595",
-          "repoUrl": "https://github.com/0xSero/qwen38-flash-next-b70-offload",
+          "ownerId": "284200730",
+          "repoUrl": "https://github.com/sybil-solutions/qwen38-flash-next-b70-offload",
           "archived": false,
-          "fullName": "0xSero/qwen38-flash-next-b70-offload",
+          "fullName": "sybil-solutions/qwen38-flash-next-b70-offload",
           "language": "Python",
-          "ownerUrl": "https://github.com/0xSero",
+          "ownerUrl": "https://github.com/sybil-solutions",
           "pushedAt": "2026-10-06T22:52:12+00:00",
           "createdAt": "2026-10-06T19:40:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T05:59:23+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-07T10:48:53+00:00",
           "description": "Qwen3.8-Flash-Next on one Intel Arc Pro B70 with experts on NVMe and 32 GB host RAM: SGLang + exl3xpu tier, staged NVMe prefill, SYCL sparse attention, measured results",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/0xSero",
+      "htmlUrl": "https://github.com/sybil-solutions",
       "topRepo": {
         "name": "qwen38-flash-next-b70-offload",
-        "fullName": "0xSero/qwen38-flash-next-b70-offload",
-        "stars": 13,
-        "url": "https://github.com/0xSero/qwen38-flash-next-b70-offload"
+        "fullName": "sybil-solutions/qwen38-flash-next-b70-offload",
+        "stars": 15,
+        "url": "https://github.com/sybil-solutions/qwen38-flash-next-b70-offload"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69639595?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/284200730?v=4",
       "repoCount": 1,
       "repoNames": [
-        "0xSero/qwen38-flash-next-b70-offload"
+        "sybil-solutions/qwen38-flash-next-b70-offload"
       ],
-      "starScore": 13
-    },
-    {
-      "id": "78985443",
-      "rank": 33,
-      "type": "User",
-      "login": "AkaAbdullah",
-      "repos": [
-        {
-          "id": 1407239144,
-          "fork": false,
-          "name": "Tallyo",
-          "forks": 0,
-          "owner": "AkaAbdullah",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/78985443?v=4",
-          "topics": [
-            "better-auth",
-            "freelancers",
-            "invoice",
-            "invoicing",
-            "mongodb",
-            "nextjs",
-            "open-source"
-          ],
-          "ownerId": "78985443",
-          "repoUrl": "https://github.com/AkaAbdullah/Tallyo",
-          "archived": false,
-          "fullName": "AkaAbdullah/Tallyo",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/AkaAbdullah",
-          "pushedAt": "2026-10-07T05:00:31+00:00",
-          "createdAt": "2026-10-06T12:10:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T05:00:36+00:00",
-          "description": "Open-source invoicing for freelancers and small businesses. Next.js 16, MongoDB, Better Auth, with optional AI (Groq).",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/AkaAbdullah",
-      "topRepo": {
-        "name": "Tallyo",
-        "fullName": "AkaAbdullah/Tallyo",
-        "stars": 13,
-        "url": "https://github.com/AkaAbdullah/Tallyo"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/78985443?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "AkaAbdullah/Tallyo"
-      ],
-      "starScore": 13
+      "starScore": 15
     },
     {
       "id": "66255889",
-      "rank": 34,
+      "rank": 39,
       "type": "User",
       "login": "Daniel-xsy",
       "repos": [
@@ -1680,272 +2061,6 @@
         "Daniel-xsy/safedrive-vla"
       ],
       "starScore": 13
-    },
-    {
-      "id": "35050222",
-      "rank": 35,
-      "type": "User",
-      "login": "Dicklesworthstone",
-      "repos": [
-        {
-          "id": 1408019360,
-          "fork": false,
-          "name": "frankensonos",
-          "forks": 0,
-          "owner": "Dicklesworthstone",
-          "stars": 13,
-          "avatar": "https://avatars.githubusercontent.com/u/35050222?v=4",
-          "topics": [
-            "async",
-            "dlna",
-            "home-automation",
-            "interoperability",
-            "mcp",
-            "model-context-protocol",
-            "rust",
-            "smart-home",
-            "soco",
-            "sonos",
-            "spotify",
-            "ssdp",
-            "tailscale",
-            "upnp"
-          ],
-          "ownerId": "35050222",
-          "repoUrl": "https://github.com/Dicklesworthstone/frankensonos",
-          "archived": false,
-          "fullName": "Dicklesworthstone/frankensonos",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/Dicklesworthstone",
-          "pushedAt": "2026-10-07T06:10:44+00:00",
-          "createdAt": "2026-10-06T23:30:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T06:10:49+00:00",
-          "description": "Memory-safe Rust controller for your own Sonos speakers on your own LAN — reliable SSDP/UPnP-SOAP/GENA interoperability (S1 + S2), a Spotify-library classical DJ, and a CLI + HTTP API + MCP server so AI agents can run the house, including off-LAN over Tailscale.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Dicklesworthstone",
-      "topRepo": {
-        "name": "frankensonos",
-        "fullName": "Dicklesworthstone/frankensonos",
-        "stars": 13,
-        "url": "https://github.com/Dicklesworthstone/frankensonos"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/35050222?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Dicklesworthstone/frankensonos"
-      ],
-      "starScore": 13
-    },
-    {
-      "id": "313732614",
-      "rank": 36,
-      "type": "Organization",
-      "login": "Appllama",
-      "repos": [
-        {
-          "id": 1407293875,
-          "fork": false,
-          "name": "zest-kcal-tracker",
-          "forks": 3,
-          "owner": "Appllama",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/313732614?v=4",
-          "topics": [
-            "animation",
-            "calorie-tracker",
-            "chat-ui",
-            "expo",
-            "expo-glass-effect",
-            "expo-router",
-            "food-diary",
-            "food-tracker",
-            "ios",
-            "liquid-glass",
-            "mobile-development",
-            "mobile-ui",
-            "nutrition-tracker",
-            "react-native",
-            "react-native-animation",
-            "react-native-reanimated",
-            "react-native-skia",
-            "stickers",
-            "typescript",
-            "ui-template"
-          ],
-          "ownerId": "313732614",
-          "repoUrl": "https://github.com/Appllama/zest-kcal-tracker",
-          "archived": false,
-          "fullName": "Appllama/zest-kcal-tracker",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Appllama",
-          "pushedAt": "2026-10-06T13:37:09+00:00",
-          "createdAt": "2026-10-06T12:48:16+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-07T04:28:22+00:00",
-          "description": "Light-themed Liquid Glass calorie tracker template for Expo and React Native, with animated stickers, a reactive lemon mascot, and a visual food diary.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Appllama",
-      "topRepo": {
-        "name": "zest-kcal-tracker",
-        "fullName": "Appllama/zest-kcal-tracker",
-        "stars": 12,
-        "url": "https://github.com/Appllama/zest-kcal-tracker"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/313732614?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Appllama/zest-kcal-tracker"
-      ],
-      "starScore": 12
-    },
-    {
-      "id": "161901407",
-      "rank": 37,
-      "type": "User",
-      "login": "boboabw",
-      "repos": [
-        {
-          "id": 1406900690,
-          "fork": false,
-          "name": "phone-agent",
-          "forks": 1,
-          "owner": "boboabw",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/161901407?v=4",
-          "topics": [
-            "ai-agent",
-            "esp32-s3",
-            "iphone",
-            "phone-automation",
-            "swiftui"
-          ],
-          "ownerId": "161901407",
-          "repoUrl": "https://github.com/boboabw/phone-agent",
-          "archived": false,
-          "fullName": "boboabw/phone-agent",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/boboabw",
-          "pushedAt": "2026-10-06T17:07:55+00:00",
-          "createdAt": "2026-10-06T07:39:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T17:42:13+00:00",
-          "description": "Phone Agent: iOS AI assistant with ESP32-S3 BLE mouse, keyboard and GPIO48 RGB firmware",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/boboabw",
-      "topRepo": {
-        "name": "phone-agent",
-        "fullName": "boboabw/phone-agent",
-        "stars": 12,
-        "url": "https://github.com/boboabw/phone-agent"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/161901407?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "boboabw/phone-agent"
-      ],
-      "starScore": 12
-    },
-    {
-      "id": "9099791",
-      "rank": 38,
-      "type": "User",
-      "login": "cmg5461",
-      "repos": [
-        {
-          "id": 1407292215,
-          "fork": false,
-          "name": "mk60e5-firmware",
-          "forks": 0,
-          "owner": "cmg5461",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/9099791?v=4",
-          "topics": [],
-          "ownerId": "9099791",
-          "repoUrl": "https://github.com/cmg5461/mk60e5-firmware",
-          "archived": false,
-          "fullName": "cmg5461/mk60e5-firmware",
-          "language": "Python",
-          "ownerUrl": "https://github.com/cmg5461",
-          "pushedAt": "2026-10-06T12:51:14+00:00",
-          "createdAt": "2026-10-06T12:47:20+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T06:00:25+00:00",
-          "description": "XDF & E46 Sensor Patch",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/cmg5461",
-      "topRepo": {
-        "name": "mk60e5-firmware",
-        "fullName": "cmg5461/mk60e5-firmware",
-        "stars": 12,
-        "url": "https://github.com/cmg5461/mk60e5-firmware"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9099791?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "cmg5461/mk60e5-firmware"
-      ],
-      "starScore": 12
-    },
-    {
-      "id": "121404750",
-      "rank": 39,
-      "type": "User",
-      "login": "Hamidooh",
-      "repos": [
-        {
-          "id": 1407072843,
-          "fork": false,
-          "name": "securify",
-          "forks": 2,
-          "owner": "Hamidooh",
-          "stars": 12,
-          "avatar": "https://avatars.githubusercontent.com/u/121404750?v=4",
-          "topics": [
-            "devsecops",
-            "react19",
-            "security"
-          ],
-          "ownerId": "121404750",
-          "repoUrl": "https://github.com/Hamidooh/securify",
-          "archived": false,
-          "fullName": "Hamidooh/securify",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/Hamidooh",
-          "pushedAt": "2026-10-06T12:37:18+00:00",
-          "createdAt": "2026-10-06T10:00:48+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T16:57:59+00:00",
-          "description": "High-speed web security auditor & DevSecOps dashboard for SSL, HTTP headers, DNS defenses, and port exposure.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Hamidooh",
-      "topRepo": {
-        "name": "securify",
-        "fullName": "Hamidooh/securify",
-        "stars": 12,
-        "url": "https://github.com/Hamidooh/securify"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/121404750?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Hamidooh/securify"
-      ],
-      "starScore": 12
     },
     {
       "id": "332489610",
@@ -2195,101 +2310,8 @@
       "starScore": 12
     },
     {
-      "id": "228899109",
-      "rank": 45,
-      "type": "User",
-      "login": "dr-3lo",
-      "repos": [
-        {
-          "id": 1407030572,
-          "fork": false,
-          "name": "sveltekit-team-invite",
-          "forks": 0,
-          "owner": "dr-3lo",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/228899109?v=4",
-          "topics": [],
-          "ownerId": "228899109",
-          "repoUrl": "https://github.com/dr-3lo/sveltekit-team-invite",
-          "archived": false,
-          "fullName": "dr-3lo/sveltekit-team-invite",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/dr-3lo",
-          "pushedAt": "2026-10-06T09:24:09+00:00",
-          "createdAt": "2026-10-06T09:24:05+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T13:38:23+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dr-3lo",
-      "topRepo": {
-        "name": "sveltekit-team-invite",
-        "fullName": "dr-3lo/sveltekit-team-invite",
-        "stars": 11,
-        "url": "https://github.com/dr-3lo/sveltekit-team-invite"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/228899109?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dr-3lo/sveltekit-team-invite"
-      ],
-      "starScore": 11
-    },
-    {
-      "id": "320067243",
-      "rank": 46,
-      "type": "User",
-      "login": "LookoutAmbassador",
-      "repos": [
-        {
-          "id": 1407089353,
-          "fork": false,
-          "name": "IDM-Full-Version-2026",
-          "forks": 0,
-          "owner": "LookoutAmbassador",
-          "stars": 11,
-          "avatar": "https://avatars.githubusercontent.com/u/320067243?v=4",
-          "topics": [
-            "free-internet-downloader",
-            "idm-manager",
-            "idm-scripts",
-            "idm-utilities"
-          ],
-          "ownerId": "320067243",
-          "repoUrl": "https://github.com/LookoutAmbassador/IDM-Full-Version-2026",
-          "archived": false,
-          "fullName": "LookoutAmbassador/IDM-Full-Version-2026",
-          "language": "C++",
-          "ownerUrl": "https://github.com/LookoutAmbassador",
-          "pushedAt": "2026-10-07T04:00:18+00:00",
-          "createdAt": "2026-10-06T10:16:06+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T04:00:23+00:00",
-          "description": "IDM 6.42 is the full build. The integration module hooks the browser, a patch and a preactivated setup cover one PC, and the activation script keeps the registration in place so a batch of files can finish overnight on that machine tonight",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/LookoutAmbassador",
-      "topRepo": {
-        "name": "IDM-Full-Version-2026",
-        "fullName": "LookoutAmbassador/IDM-Full-Version-2026",
-        "stars": 11,
-        "url": "https://github.com/LookoutAmbassador/IDM-Full-Version-2026"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/320067243?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "LookoutAmbassador/IDM-Full-Version-2026"
-      ],
-      "starScore": 11
-    },
-    {
       "id": "332489545",
-      "rank": 47,
+      "rank": 45,
       "type": "User",
       "login": "MaintenanceSouk",
       "repos": [
@@ -2336,52 +2358,8 @@
       "starScore": 11
     },
     {
-      "id": "123635203",
-      "rank": 48,
-      "type": "User",
-      "login": "beacampos",
-      "repos": [
-        {
-          "id": 1407372812,
-          "fork": false,
-          "name": "express-referral-introduction",
-          "forks": 0,
-          "owner": "beacampos",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/123635203?v=4",
-          "topics": [],
-          "ownerId": "123635203",
-          "repoUrl": "https://github.com/beacampos/express-referral-introduction",
-          "archived": false,
-          "fullName": "beacampos/express-referral-introduction",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/beacampos",
-          "pushedAt": "2026-10-06T13:41:32+00:00",
-          "createdAt": "2026-10-06T13:41:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T16:00:32+00:00",
-          "description": "Express + EJS app for sending consent-based referral introductions via Mailtrap",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/beacampos",
-      "topRepo": {
-        "name": "express-referral-introduction",
-        "fullName": "beacampos/express-referral-introduction",
-        "stars": 10,
-        "url": "https://github.com/beacampos/express-referral-introduction"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/123635203?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "beacampos/express-referral-introduction"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "332490319",
-      "rank": 49,
+      "rank": 46,
       "type": "User",
       "login": "CaptureHeadUpgrade",
       "repos": [
@@ -2431,103 +2409,8 @@
       "starScore": 10
     },
     {
-      "id": "330635794",
-      "rank": 50,
-      "type": "User",
-      "login": "CometSamurai",
-      "repos": [
-        {
-          "id": 1407110051,
-          "fork": false,
-          "name": "nexcess-digital-cloud-download",
-          "forks": 0,
-          "owner": "CometSamurai",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635794?v=4",
-          "topics": [
-            "download",
-            "nexcess-digital-cloud",
-            "nexcess-digital-cloud-download",
-            "softgit",
-            "software-download",
-            "utilities"
-          ],
-          "ownerId": "330635794",
-          "repoUrl": "https://github.com/CometSamurai/nexcess-digital-cloud-download",
-          "archived": false,
-          "fullName": "CometSamurai/nexcess-digital-cloud-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/CometSamurai",
-          "pushedAt": "2026-10-06T11:03:21+00:00",
-          "createdAt": "2026-10-06T10:34:23+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:21:08+00:00",
-          "description": "Nexcess Digital Cloud — Utilities SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/CometSamurai",
-      "topRepo": {
-        "name": "nexcess-digital-cloud-download",
-        "fullName": "CometSamurai/nexcess-digital-cloud-download",
-        "stars": 10,
-        "url": "https://github.com/CometSamurai/nexcess-digital-cloud-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635794?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "CometSamurai/nexcess-digital-cloud-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635980",
-      "rank": 51,
-      "type": "User",
-      "login": "LayerVeterinarian77",
-      "repos": [
-        {
-          "id": 1407335853,
-          "fork": false,
-          "name": "interfacing-integrated-management-system-ims-download",
-          "forks": 0,
-          "owner": "LayerVeterinarian77",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635980?v=4",
-          "topics": [],
-          "ownerId": "330635980",
-          "repoUrl": "https://github.com/LayerVeterinarian77/interfacing-integrated-management-system-ims-download",
-          "archived": false,
-          "fullName": "LayerVeterinarian77/interfacing-integrated-management-system-ims-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/LayerVeterinarian77",
-          "pushedAt": "2026-10-06T13:16:10+00:00",
-          "createdAt": "2026-10-06T13:15:31+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:27:12+00:00",
-          "description": "Interfacing Integrated Management System (IMS) — Security SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/LayerVeterinarian77",
-      "topRepo": {
-        "name": "interfacing-integrated-management-system-ims-download",
-        "fullName": "LayerVeterinarian77/interfacing-integrated-management-system-ims-download",
-        "stars": 10,
-        "url": "https://github.com/LayerVeterinarian77/interfacing-integrated-management-system-ims-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635980?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "LayerVeterinarian77/interfacing-integrated-management-system-ims-download"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "119688743",
-      "rank": 52,
+      "rank": 47,
       "type": "User",
       "login": "Mustafa-KhanDev",
       "repos": [
@@ -2579,212 +2462,8 @@
       "starScore": 10
     },
     {
-      "id": "330635748",
-      "rank": 53,
-      "type": "User",
-      "login": "PauseFighterTackle",
-      "repos": [
-        {
-          "id": 1407112676,
-          "fork": false,
-          "name": "intermedia-unite-download",
-          "forks": 0,
-          "owner": "PauseFighterTackle",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635748?v=4",
-          "topics": [
-            "download",
-            "intermedia-unite",
-            "intermedia-unite-download",
-            "multimedia",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330635748",
-          "repoUrl": "https://github.com/PauseFighterTackle/intermedia-unite-download",
-          "archived": false,
-          "fullName": "PauseFighterTackle/intermedia-unite-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/PauseFighterTackle",
-          "pushedAt": "2026-10-06T11:03:53+00:00",
-          "createdAt": "2026-10-06T10:36:48+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:22:16+00:00",
-          "description": "Intermedia Unite — Media SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/PauseFighterTackle",
-      "topRepo": {
-        "name": "intermedia-unite-download",
-        "fullName": "PauseFighterTackle/intermedia-unite-download",
-        "stars": 10,
-        "url": "https://github.com/PauseFighterTackle/intermedia-unite-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635748?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "PauseFighterTackle/intermedia-unite-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635557",
-      "rank": 54,
-      "type": "User",
-      "login": "pegasuscodeberth",
-      "repos": [
-        {
-          "id": 1407138658,
-          "fork": false,
-          "name": "couchbase-download",
-          "forks": 0,
-          "owner": "pegasuscodeberth",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635557?v=4",
-          "topics": [
-            "couchbase",
-            "couchbase-download",
-            "database",
-            "download",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330635557",
-          "repoUrl": "https://github.com/pegasuscodeberth/couchbase-download",
-          "archived": false,
-          "fullName": "pegasuscodeberth/couchbase-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/pegasuscodeberth",
-          "pushedAt": "2026-10-06T11:12:07+00:00",
-          "createdAt": "2026-10-06T10:59:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:25:37+00:00",
-          "description": "Couchbase — Database SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/pegasuscodeberth",
-      "topRepo": {
-        "name": "couchbase-download",
-        "fullName": "pegasuscodeberth/couchbase-download",
-        "stars": 10,
-        "url": "https://github.com/pegasuscodeberth/couchbase-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635557?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "pegasuscodeberth/couchbase-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635471",
-      "rank": 55,
-      "type": "User",
-      "login": "PharaohCrease57",
-      "repos": [
-        {
-          "id": 1407107124,
-          "fork": false,
-          "name": "servers-com-by-nexcess-download",
-          "forks": 0,
-          "owner": "PharaohCrease57",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635471?v=4",
-          "topics": [
-            "developer-tools",
-            "download",
-            "servers-com-by-nexcess",
-            "servers-com-by-nexcess-download",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330635471",
-          "repoUrl": "https://github.com/PharaohCrease57/servers-com-by-nexcess-download",
-          "archived": false,
-          "fullName": "PharaohCrease57/servers-com-by-nexcess-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/PharaohCrease57",
-          "pushedAt": "2026-10-06T11:02:48+00:00",
-          "createdAt": "2026-10-06T10:31:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:20:20+00:00",
-          "description": "Servers.com by Nexcess — Developer tools SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/PharaohCrease57",
-      "topRepo": {
-        "name": "servers-com-by-nexcess-download",
-        "fullName": "PharaohCrease57/servers-com-by-nexcess-download",
-        "stars": 10,
-        "url": "https://github.com/PharaohCrease57/servers-com-by-nexcess-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635471?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "PharaohCrease57/servers-com-by-nexcess-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635555",
-      "rank": 56,
-      "type": "User",
-      "login": "SenseiLizard",
-      "repos": [
-        {
-          "id": 1407119308,
-          "fork": false,
-          "name": "manageengine-endpoint-central-download",
-          "forks": 0,
-          "owner": "SenseiLizard",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635555?v=4",
-          "topics": [
-            "download",
-            "manageengine-endpoint-central",
-            "manageengine-endpoint-central-download",
-            "security",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330635555",
-          "repoUrl": "https://github.com/SenseiLizard/manageengine-endpoint-central-download",
-          "archived": false,
-          "fullName": "SenseiLizard/manageengine-endpoint-central-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/SenseiLizard",
-          "pushedAt": "2026-10-06T11:04:24+00:00",
-          "createdAt": "2026-10-06T10:42:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:23:05+00:00",
-          "description": "ManageEngine Endpoint Central — Security SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SenseiLizard",
-      "topRepo": {
-        "name": "manageengine-endpoint-central-download",
-        "fullName": "SenseiLizard/manageengine-endpoint-central-download",
-        "stars": 10,
-        "url": "https://github.com/SenseiLizard/manageengine-endpoint-central-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635555?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SenseiLizard/manageengine-endpoint-central-download"
-      ],
-      "starScore": 10
-    },
-    {
       "id": "336370945",
-      "rank": 57,
+      "rank": 48,
       "type": "User",
       "login": "Sirhalo23",
       "repos": [
@@ -2823,342 +2502,6 @@
       "repoCount": 1,
       "repoNames": [
         "Sirhalo23/RidgeRacer6-Recompilation"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330636176",
-      "rank": 58,
-      "type": "User",
-      "login": "SolderSlug50",
-      "repos": [
-        {
-          "id": 1407234701,
-          "fork": false,
-          "name": "nmi-payments-download",
-          "forks": 0,
-          "owner": "SolderSlug50",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330636176?v=4",
-          "topics": [
-            "business",
-            "download",
-            "nmi-payments",
-            "nmi-payments-download",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330636176",
-          "repoUrl": "https://github.com/SolderSlug50/nmi-payments-download",
-          "archived": false,
-          "fullName": "SolderSlug50/nmi-payments-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/SolderSlug50",
-          "pushedAt": "2026-10-06T12:09:48+00:00",
-          "createdAt": "2026-10-06T12:07:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:29:25+00:00",
-          "description": "NMI Payments — Business SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/SolderSlug50",
-      "topRepo": {
-        "name": "nmi-payments-download",
-        "fullName": "SolderSlug50/nmi-payments-download",
-        "stars": 10,
-        "url": "https://github.com/SolderSlug50/nmi-payments-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330636176?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "SolderSlug50/nmi-payments-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "112486729",
-      "rank": 59,
-      "type": "User",
-      "login": "solovey23",
-      "repos": [
-        {
-          "id": 1407294144,
-          "fork": false,
-          "name": "express-bug-report-desk",
-          "forks": 0,
-          "owner": "solovey23",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/112486729?v=4",
-          "topics": [],
-          "ownerId": "112486729",
-          "repoUrl": "https://github.com/solovey23/express-bug-report-desk",
-          "archived": false,
-          "fullName": "solovey23/express-bug-report-desk",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/solovey23",
-          "pushedAt": "2026-10-06T12:48:34+00:00",
-          "createdAt": "2026-10-06T12:48:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:32:27+00:00",
-          "description": "Small Express CRUD app for submitting bug reports and emailing reporters when they are resolved. Node 24 built-in SQLite, Zod validation, Mailtrap delivery.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/solovey23",
-      "topRepo": {
-        "name": "express-bug-report-desk",
-        "fullName": "solovey23/express-bug-report-desk",
-        "stars": 10,
-        "url": "https://github.com/solovey23/express-bug-report-desk"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/112486729?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "solovey23/express-bug-report-desk"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330636106",
-      "rank": 60,
-      "type": "User",
-      "login": "stuccoinspectorzen",
-      "repos": [
-        {
-          "id": 1407268797,
-          "fork": false,
-          "name": "officespace-software-download",
-          "forks": 0,
-          "owner": "stuccoinspectorzen",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330636106?v=4",
-          "topics": [
-            "communications",
-            "download",
-            "officespace-software",
-            "officespace-software-download",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330636106",
-          "repoUrl": "https://github.com/stuccoinspectorzen/officespace-software-download",
-          "archived": false,
-          "fullName": "stuccoinspectorzen/officespace-software-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/stuccoinspectorzen",
-          "pushedAt": "2026-10-06T12:37:15+00:00",
-          "createdAt": "2026-10-06T12:32:04+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:32:36+00:00",
-          "description": "OfficeSpace Software — Communications SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/stuccoinspectorzen",
-      "topRepo": {
-        "name": "officespace-software-download",
-        "fullName": "stuccoinspectorzen/officespace-software-download",
-        "stars": 10,
-        "url": "https://github.com/stuccoinspectorzen/officespace-software-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330636106?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "stuccoinspectorzen/officespace-software-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635506",
-      "rank": 61,
-      "type": "User",
-      "login": "toothattorneymanor",
-      "repos": [
-        {
-          "id": 1407072981,
-          "fork": false,
-          "name": "new-relic-download",
-          "forks": 0,
-          "owner": "toothattorneymanor",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635506?v=4",
-          "topics": [
-            "developer-tools",
-            "download",
-            "new-relic",
-            "new-relic-download",
-            "softgit",
-            "software-download"
-          ],
-          "ownerId": "330635506",
-          "repoUrl": "https://github.com/toothattorneymanor/new-relic-download",
-          "archived": false,
-          "fullName": "toothattorneymanor/new-relic-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/toothattorneymanor",
-          "pushedAt": "2026-10-06T10:59:50+00:00",
-          "createdAt": "2026-10-06T10:00:57+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:13:14+00:00",
-          "description": "New Relic — Developer tools SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/toothattorneymanor",
-      "topRepo": {
-        "name": "new-relic-download",
-        "fullName": "toothattorneymanor/new-relic-download",
-        "stars": 10,
-        "url": "https://github.com/toothattorneymanor/new-relic-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635506?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "toothattorneymanor/new-relic-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "46005108",
-      "rank": 62,
-      "type": "User",
-      "login": "ViktoriiaIvanenko",
-      "repos": [
-        {
-          "id": 1406985629,
-          "fork": false,
-          "name": "astro-portfolio-inquiry",
-          "forks": 0,
-          "owner": "ViktoriiaIvanenko",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/46005108?v=4",
-          "topics": [],
-          "ownerId": "46005108",
-          "repoUrl": "https://github.com/ViktoriiaIvanenko/astro-portfolio-inquiry",
-          "archived": false,
-          "fullName": "ViktoriiaIvanenko/astro-portfolio-inquiry",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/ViktoriiaIvanenko",
-          "pushedAt": "2026-10-06T08:50:07+00:00",
-          "createdAt": "2026-10-06T08:48:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T13:43:27+00:00",
-          "description": "Display a portfolio and accept an inquiry — server-rendered form handling with Astro.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ViktoriiaIvanenko",
-      "topRepo": {
-        "name": "astro-portfolio-inquiry",
-        "fullName": "ViktoriiaIvanenko/astro-portfolio-inquiry",
-        "stars": 10,
-        "url": "https://github.com/ViktoriiaIvanenko/astro-portfolio-inquiry"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46005108?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ViktoriiaIvanenko/astro-portfolio-inquiry"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "330635914",
-      "rank": 63,
-      "type": "User",
-      "login": "Wantshuspike",
-      "repos": [
-        {
-          "id": 1407133546,
-          "fork": false,
-          "name": "ziprecruiter-download",
-          "forks": 0,
-          "owner": "Wantshuspike",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/330635914?v=4",
-          "topics": [
-            "business",
-            "download",
-            "softgit",
-            "software-download",
-            "ziprecruiter",
-            "ziprecruiter-download"
-          ],
-          "ownerId": "330635914",
-          "repoUrl": "https://github.com/Wantshuspike/ziprecruiter-download",
-          "archived": false,
-          "fullName": "Wantshuspike/ziprecruiter-download",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Wantshuspike",
-          "pushedAt": "2026-10-06T11:05:52+00:00",
-          "createdAt": "2026-10-06T10:54:35+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-06T14:24:51+00:00",
-          "description": "ZipRecruiter — Business SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Wantshuspike",
-      "topRepo": {
-        "name": "ziprecruiter-download",
-        "fullName": "Wantshuspike/ziprecruiter-download",
-        "stars": 10,
-        "url": "https://github.com/Wantshuspike/ziprecruiter-download"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/330635914?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Wantshuspike/ziprecruiter-download"
-      ],
-      "starScore": 10
-    },
-    {
-      "id": "61629424",
-      "rank": 64,
-      "type": "User",
-      "login": "z3xox",
-      "repos": [
-        {
-          "id": 1406899769,
-          "fork": false,
-          "name": "Tenkaichi3Decomp",
-          "forks": 1,
-          "owner": "z3xox",
-          "stars": 10,
-          "avatar": "https://avatars.githubusercontent.com/u/61629424?v=4",
-          "topics": [],
-          "ownerId": "61629424",
-          "repoUrl": "https://github.com/z3xox/Tenkaichi3Decomp",
-          "archived": false,
-          "fullName": "z3xox/Tenkaichi3Decomp",
-          "language": "C",
-          "ownerUrl": "https://github.com/z3xox",
-          "pushedAt": "2026-10-06T16:48:46+00:00",
-          "createdAt": "2026-10-06T07:39:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-07T02:47:44+00:00",
-          "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/z3xox",
-      "topRepo": {
-        "name": "Tenkaichi3Decomp",
-        "fullName": "z3xox/Tenkaichi3Decomp",
-        "stars": 10,
-        "url": "https://github.com/z3xox/Tenkaichi3Decomp"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/61629424?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "z3xox/Tenkaichi3Decomp"
       ],
       "starScore": 10
     }
