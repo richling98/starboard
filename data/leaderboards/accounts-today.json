@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T21:25:41.262Z",
-  "total": 56,
-  "totalIndexedCount": 56,
-  "coverageLabel": "Showing 56 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-10-17T04:55:48.642Z",
+  "total": 77,
+  "totalIndexedCount": 77,
+  "coverageLabel": "Showing 77 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,123 +10,146 @@
   },
   "rows": [
     {
-      "id": "156300419",
+      "id": "343638566",
       "rank": 1,
       "type": "Organization",
-      "login": "OpenMOSS",
+      "login": "xscreensaver-official",
       "repos": [
         {
-          "id": 1421497958,
+          "id": 1422399929,
           "fork": false,
-          "name": "MOSS-Image",
-          "forks": 8,
-          "owner": "OpenMOSS",
-          "stars": 197,
-          "avatar": "https://avatars.githubusercontent.com/u/156300419?v=4",
-          "topics": [
-            "controllable-generation",
-            "foundation-models",
-            "image-generation",
-            "text-rendering",
-            "text-to-image"
-          ],
-          "ownerId": "156300419",
-          "repoUrl": "https://github.com/OpenMOSS/MOSS-Image",
+          "name": "xscreensaver",
+          "forks": 6,
+          "owner": "xscreensaver-official",
+          "stars": 317,
+          "avatar": "https://avatars.githubusercontent.com/u/343638566?v=4",
+          "topics": [],
+          "ownerId": "343638566",
+          "repoUrl": "https://github.com/xscreensaver-official/xscreensaver",
           "archived": false,
-          "fullName": "OpenMOSS/MOSS-Image",
-          "language": "Python",
-          "ownerUrl": "https://github.com/OpenMOSS",
-          "pushedAt": "2026-10-16T19:33:34+00:00",
-          "createdAt": "2026-10-16T01:18:13+00:00",
+          "fullName": "xscreensaver-official/xscreensaver",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/xscreensaver-official",
+          "pushedAt": "2026-10-16T16:29:21+00:00",
+          "createdAt": "2026-10-16T16:24:44+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-16T21:14:10+00:00",
-          "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+          "updatedAt": "2026-10-17T04:34:39+00:00",
+          "description": "There is no official XScreenSaver GitHub repository.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/OpenMOSS",
+      "htmlUrl": "https://github.com/xscreensaver-official",
       "topRepo": {
-        "name": "MOSS-Image",
-        "fullName": "OpenMOSS/MOSS-Image",
-        "stars": 197,
-        "url": "https://github.com/OpenMOSS/MOSS-Image"
+        "name": "xscreensaver",
+        "fullName": "xscreensaver-official/xscreensaver",
+        "stars": 317,
+        "url": "https://github.com/xscreensaver-official/xscreensaver"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/156300419?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343638566?v=4",
       "repoCount": 1,
       "repoNames": [
-        "OpenMOSS/MOSS-Image"
+        "xscreensaver-official/xscreensaver"
       ],
-      "starScore": 197
+      "starScore": 317
     },
     {
-      "id": "343139124",
+      "id": "259454516",
       "rank": 2,
-      "type": "User",
-      "login": "anujasid",
+      "type": "Organization",
+      "login": "reason-machines",
       "repos": [
         {
-          "id": 1421389432,
+          "id": 1422344223,
           "fork": false,
-          "name": "mcp-for-blender-pro",
-          "forks": 0,
-          "owner": "anujasid",
-          "stars": 190,
-          "avatar": "https://avatars.githubusercontent.com/u/343139124?v=4",
+          "name": "reason-network",
+          "forks": 8,
+          "owner": "reason-machines",
+          "stars": 92,
+          "avatar": "https://avatars.githubusercontent.com/u/259454516?v=4",
           "topics": [
-            "3d",
-            "3d-automation",
-            "3d-modeling",
-            "ai-agents",
-            "ai-assistant",
-            "blender",
-            "blender-addon",
-            "blender-ai",
-            "blender-automation",
-            "blender-extension",
-            "blender-mcp",
-            "blender-python",
-            "blender-scripting",
-            "blender3d",
-            "bpy",
-            "geometry-nodes",
+            "coding-agents",
+            "iroh",
             "mcp",
-            "mcp-for-blender",
-            "mcp-server",
-            "model-context-protocol"
+            "peer-to-peer",
+            "reason"
           ],
-          "ownerId": "343139124",
-          "repoUrl": "https://github.com/anujasid/mcp-for-blender-pro",
+          "ownerId": "259454516",
+          "repoUrl": "https://github.com/reason-machines/reason-network",
           "archived": false,
-          "fullName": "anujasid/mcp-for-blender-pro",
-          "language": "Python",
-          "ownerUrl": "https://github.com/anujasid",
-          "pushedAt": "2026-10-16T07:12:20+00:00",
-          "createdAt": "2026-10-15T22:30:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-16T21:21:29+00:00",
-          "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+          "fullName": "reason-machines/reason-network",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/reason-machines",
+          "pushedAt": "2026-10-16T17:18:46+00:00",
+          "createdAt": "2026-10-16T15:34:34+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-17T04:38:38+00:00",
+          "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/anujasid",
+      "htmlUrl": "https://github.com/reason-machines",
       "topRepo": {
-        "name": "mcp-for-blender-pro",
-        "fullName": "anujasid/mcp-for-blender-pro",
-        "stars": 190,
-        "url": "https://github.com/anujasid/mcp-for-blender-pro"
+        "name": "reason-network",
+        "fullName": "reason-machines/reason-network",
+        "stars": 92,
+        "url": "https://github.com/reason-machines/reason-network"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/343139124?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/259454516?v=4",
       "repoCount": 1,
       "repoNames": [
-        "anujasid/mcp-for-blender-pro"
+        "reason-machines/reason-network"
       ],
-      "starScore": 190
+      "starScore": 92
+    },
+    {
+      "id": "343430477",
+      "rank": 3,
+      "type": "User",
+      "login": "cranebeaker",
+      "repos": [
+        {
+          "id": 1422053844,
+          "fork": false,
+          "name": "coop-anything",
+          "forks": 9,
+          "owner": "cranebeaker",
+          "stars": 76,
+          "avatar": "https://avatars.githubusercontent.com/u/343430477?v=4",
+          "topics": [],
+          "ownerId": "343430477",
+          "repoUrl": "https://github.com/cranebeaker/coop-anything",
+          "archived": false,
+          "fullName": "cranebeaker/coop-anything",
+          "language": "Python",
+          "ownerUrl": "https://github.com/cranebeaker",
+          "pushedAt": "2026-10-16T20:57:10+00:00",
+          "createdAt": "2026-10-16T11:12:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:33:05+00:00",
+          "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cranebeaker",
+      "topRepo": {
+        "name": "coop-anything",
+        "fullName": "cranebeaker/coop-anything",
+        "stars": 76,
+        "url": "https://github.com/cranebeaker/coop-anything"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343430477?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cranebeaker/coop-anything"
+      ],
+      "starScore": 76
     },
     {
       "id": "340105936",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "Deathodward",
       "repos": [
@@ -186,8 +209,52 @@
       "starScore": 73
     },
     {
+      "id": "80125277",
+      "rank": 5,
+      "type": "User",
+      "login": "Noniv",
+      "repos": [
+        {
+          "id": 1422783076,
+          "fork": false,
+          "name": "web-ocean",
+          "forks": 20,
+          "owner": "Noniv",
+          "stars": 73,
+          "avatar": "https://avatars.githubusercontent.com/u/80125277?v=4",
+          "topics": [],
+          "ownerId": "80125277",
+          "repoUrl": "https://github.com/Noniv/web-ocean",
+          "archived": false,
+          "fullName": "Noniv/web-ocean",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/Noniv",
+          "pushedAt": "2026-10-17T00:39:56+00:00",
+          "createdAt": "2026-10-16T23:49:53+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:39:20+00:00",
+          "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Noniv",
+      "topRepo": {
+        "name": "web-ocean",
+        "fullName": "Noniv/web-ocean",
+        "stars": 73,
+        "url": "https://github.com/Noniv/web-ocean"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80125277?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Noniv/web-ocean"
+      ],
+      "starScore": 73
+    },
+    {
       "id": "319474729",
-      "rank": 4,
+      "rank": 6,
       "type": "User",
       "login": "BuffaloSolve",
       "repos": [
@@ -249,7 +316,7 @@
     },
     {
       "id": "319475768",
-      "rank": 5,
+      "rank": 7,
       "type": "User",
       "login": "ControllerBarn",
       "repos": [
@@ -307,7 +374,7 @@
     },
     {
       "id": "337902580",
-      "rank": 6,
+      "rank": 8,
       "type": "User",
       "login": "GraspGlazier",
       "repos": [
@@ -371,7 +438,7 @@
     },
     {
       "id": "340105083",
-      "rank": 7,
+      "rank": 9,
       "type": "User",
       "login": "Leviathanuvlord",
       "repos": [
@@ -436,7 +503,7 @@
     },
     {
       "id": "340104741",
-      "rank": 8,
+      "rank": 10,
       "type": "User",
       "login": "SatyrWithinLake",
       "repos": [
@@ -501,7 +568,7 @@
     },
     {
       "id": "319476135",
-      "rank": 9,
+      "rank": 11,
       "type": "User",
       "login": "soundstationexist",
       "repos": [
@@ -560,7 +627,7 @@
     },
     {
       "id": "337902579",
-      "rank": 10,
+      "rank": 12,
       "type": "User",
       "login": "StadiumExecutor",
       "repos": [
@@ -625,7 +692,7 @@
     },
     {
       "id": "319476019",
-      "rank": 11,
+      "rank": 13,
       "type": "User",
       "login": "TailorAwaken",
       "repos": [
@@ -690,7 +757,7 @@
     },
     {
       "id": "337903264",
-      "rank": 12,
+      "rank": 14,
       "type": "User",
       "login": "discordcrewmanlock",
       "repos": [
@@ -751,7 +818,7 @@
     },
     {
       "id": "337902092",
-      "rank": 13,
+      "rank": 15,
       "type": "User",
       "login": "HornSovereign",
       "repos": [
@@ -816,7 +883,7 @@
     },
     {
       "id": "337903299",
-      "rank": 14,
+      "rank": 16,
       "type": "User",
       "login": "MintHammerOscillate",
       "repos": [
@@ -881,7 +948,7 @@
     },
     {
       "id": "319475987",
-      "rank": 15,
+      "rank": 17,
       "type": "User",
       "login": "realwarlocksmelter",
       "repos": [
@@ -941,171 +1008,96 @@
       "starScore": 71
     },
     {
-      "id": "343638566",
-      "rank": 16,
-      "type": "Organization",
-      "login": "xscreensaver-official",
-      "repos": [
-        {
-          "id": 1422399929,
-          "fork": false,
-          "name": "xscreensaver",
-          "forks": 1,
-          "owner": "xscreensaver-official",
-          "stars": 71,
-          "avatar": "https://avatars.githubusercontent.com/u/343638566?v=4",
-          "topics": [],
-          "ownerId": "343638566",
-          "repoUrl": "https://github.com/xscreensaver-official/xscreensaver",
-          "archived": false,
-          "fullName": "xscreensaver-official/xscreensaver",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/xscreensaver-official",
-          "pushedAt": "2026-10-16T16:29:21+00:00",
-          "createdAt": "2026-10-16T16:24:44+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-16T21:21:51+00:00",
-          "description": "There is no official XScreenSaver GitHub repository.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/xscreensaver-official",
-      "topRepo": {
-        "name": "xscreensaver",
-        "fullName": "xscreensaver-official/xscreensaver",
-        "stars": 71,
-        "url": "https://github.com/xscreensaver-official/xscreensaver"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/343638566?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "xscreensaver-official/xscreensaver"
-      ],
-      "starScore": 71
-    },
-    {
-      "id": "232431629",
-      "rank": 17,
-      "type": "User",
-      "login": "christos-antono",
-      "repos": [
-        {
-          "id": 1421433459,
-          "fork": false,
-          "name": "NPCTalk",
-          "forks": 6,
-          "owner": "christos-antono",
-          "stars": 69,
-          "avatar": "https://avatars.githubusercontent.com/u/232431629?v=4",
-          "topics": [
-            "agent-skills",
-            "claude-code",
-            "fish-audio",
-            "game-modding",
-            "gta5",
-            "llm",
-            "npc",
-            "text-to-speech",
-            "voice-cloning"
-          ],
-          "ownerId": "232431629",
-          "repoUrl": "https://github.com/christos-antono/NPCTalk",
-          "archived": false,
-          "fullName": "christos-antono/NPCTalk",
-          "language": "Python",
-          "ownerUrl": "https://github.com/christos-antono",
-          "pushedAt": "2026-10-16T10:03:49+00:00",
-          "createdAt": "2026-10-15T23:37:25+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-16T21:14:14+00:00",
-          "description": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools for AI coding agents, with a full GTA V example.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/christos-antono",
-      "topRepo": {
-        "name": "NPCTalk",
-        "fullName": "christos-antono/NPCTalk",
-        "stars": 69,
-        "url": "https://github.com/christos-antono/NPCTalk"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/232431629?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "christos-antono/NPCTalk"
-      ],
-      "starScore": 69
-    },
-    {
-      "id": "125141320",
+      "id": "42788779",
       "rank": 18,
       "type": "User",
-      "login": "CluvexStudio",
+      "login": "V4bel",
       "repos": [
         {
-          "id": 1421631914,
+          "id": 1422346557,
           "fork": false,
-          "name": "Strata",
-          "forks": 0,
-          "owner": "CluvexStudio",
+          "name": "InfinityCore",
+          "forks": 17,
+          "owner": "V4bel",
           "stars": 68,
-          "avatar": "https://avatars.githubusercontent.com/u/125141320?v=4",
-          "topics": [
-            "7zip",
-            "android",
-            "android-file-manager",
-            "apk",
-            "apk-signer",
-            "dex",
-            "file-manager",
-            "ftp",
-            "hex-editor",
-            "jetpack-compose",
-            "kotlin",
-            "material3",
-            "root",
-            "rust",
-            "sftp",
-            "shizuku",
-            "smali",
-            "smb",
-            "termux",
-            "webdav"
-          ],
-          "ownerId": "125141320",
-          "repoUrl": "https://github.com/CluvexStudio/Strata",
+          "avatar": "https://avatars.githubusercontent.com/u/42788779?v=4",
+          "topics": [],
+          "ownerId": "42788779",
+          "repoUrl": "https://github.com/V4bel/InfinityCore",
           "archived": false,
-          "fullName": "CluvexStudio/Strata",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/CluvexStudio",
-          "pushedAt": "2026-10-16T10:57:56+00:00",
-          "createdAt": "2026-10-16T04:16:39+00:00",
+          "fullName": "V4bel/InfinityCore",
+          "language": "C",
+          "ownerUrl": "https://github.com/V4bel",
+          "pushedAt": "2026-10-16T15:48:00+00:00",
+          "createdAt": "2026-10-16T15:36:38+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-16T20:59:17+00:00",
-          "description": "An open-source file manager for Android: two panes, archives, APK and DEX editing, a code editor, network storages and an encrypted vault. No ads, no accounts, no tracking.",
+          "updatedAt": "2026-10-17T04:43:46+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/CluvexStudio",
+      "htmlUrl": "https://github.com/V4bel",
       "topRepo": {
-        "name": "Strata",
-        "fullName": "CluvexStudio/Strata",
+        "name": "InfinityCore",
+        "fullName": "V4bel/InfinityCore",
         "stars": 68,
-        "url": "https://github.com/CluvexStudio/Strata"
+        "url": "https://github.com/V4bel/InfinityCore"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125141320?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42788779?v=4",
       "repoCount": 1,
       "repoNames": [
-        "CluvexStudio/Strata"
+        "V4bel/InfinityCore"
       ],
       "starScore": 68
     },
     {
-      "id": "337903571",
+      "id": "102235607",
       "rank": 19,
+      "type": "User",
+      "login": "c22dev",
+      "repos": [
+        {
+          "id": 1422434082,
+          "fork": false,
+          "name": "mush8",
+          "forks": 15,
+          "owner": "c22dev",
+          "stars": 63,
+          "avatar": "https://avatars.githubusercontent.com/u/102235607?v=4",
+          "topics": [],
+          "ownerId": "102235607",
+          "repoUrl": "https://github.com/c22dev/mush8",
+          "archived": false,
+          "fullName": "c22dev/mush8",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/c22dev",
+          "pushedAt": "2026-10-16T17:01:11+00:00",
+          "createdAt": "2026-10-16T16:56:14+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:23:58+00:00",
+          "description": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/c22dev",
+      "topRepo": {
+        "name": "mush8",
+        "fullName": "c22dev/mush8",
+        "stars": 63,
+        "url": "https://github.com/c22dev/mush8"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102235607?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "c22dev/mush8"
+      ],
+      "starScore": 63
+    },
+    {
+      "id": "337903571",
+      "rank": 20,
       "type": "User",
       "login": "assassinpebbleglide",
       "repos": [
@@ -1170,7 +1162,7 @@
     },
     {
       "id": "337902231",
-      "rank": 20,
+      "rank": 21,
       "type": "User",
       "login": "kilooctopusraid",
       "repos": [
@@ -1232,7 +1224,7 @@
     },
     {
       "id": "337902423",
-      "rank": 21,
+      "rank": 22,
       "type": "User",
       "login": "meshmindtruss",
       "repos": [
@@ -1291,7 +1283,7 @@
     },
     {
       "id": "340104441",
-      "rank": 22,
+      "rank": 23,
       "type": "User",
       "login": "Xenoesclaw44704",
       "repos": [
@@ -1353,7 +1345,7 @@
     },
     {
       "id": "340104263",
-      "rank": 23,
+      "rank": 24,
       "type": "User",
       "login": "XOmiod40291",
       "repos": [
@@ -1418,7 +1410,7 @@
     },
     {
       "id": "340106031",
-      "rank": 24,
+      "rank": 25,
       "type": "User",
       "login": "BPaladin52914",
       "repos": [
@@ -1483,7 +1475,7 @@
     },
     {
       "id": "319476557",
-      "rank": 25,
+      "rank": 26,
       "type": "User",
       "login": "CardinalExalt",
       "repos": [
@@ -1543,7 +1535,7 @@
     },
     {
       "id": "337902169",
-      "rank": 26,
+      "rank": 27,
       "type": "User",
       "login": "cinderphysicianadapt",
       "repos": [
@@ -1599,7 +1591,7 @@
     },
     {
       "id": "337902225",
-      "rank": 27,
+      "rank": 28,
       "type": "User",
       "login": "classserfchisel",
       "repos": [
@@ -1650,7 +1642,7 @@
     },
     {
       "id": "337902226",
-      "rank": 28,
+      "rank": 29,
       "type": "User",
       "login": "CruelAlbatross46",
       "repos": [
@@ -1704,7 +1696,7 @@
     },
     {
       "id": "319474940",
-      "rank": 29,
+      "rank": 30,
       "type": "User",
       "login": "fencewidowdream",
       "repos": [
@@ -1769,7 +1761,7 @@
     },
     {
       "id": "337902291",
-      "rank": 30,
+      "rank": 31,
       "type": "User",
       "login": "FlyerPersist96",
       "repos": [
@@ -1825,7 +1817,7 @@
     },
     {
       "id": "319475967",
-      "rank": 31,
+      "rank": 32,
       "type": "User",
       "login": "HydromancerConsider",
       "repos": [
@@ -1890,7 +1882,7 @@
     },
     {
       "id": "340104314",
-      "rank": 32,
+      "rank": 33,
       "type": "User",
       "login": "Jackacwing97836",
       "repos": [
@@ -1952,7 +1944,7 @@
     },
     {
       "id": "340105181",
-      "rank": 33,
+      "rank": 34,
       "type": "User",
       "login": "JTitan72190",
       "repos": [
@@ -2016,7 +2008,7 @@
     },
     {
       "id": "337903449",
-      "rank": 34,
+      "rank": 35,
       "type": "User",
       "login": "LakeOrioleMagnify",
       "repos": [
@@ -2079,7 +2071,7 @@
     },
     {
       "id": "319474981",
-      "rank": 35,
+      "rank": 36,
       "type": "User",
       "login": "limitemuwhirl",
       "repos": [
@@ -2133,7 +2125,7 @@
     },
     {
       "id": "337902173",
-      "rank": 36,
+      "rank": 37,
       "type": "User",
       "login": "monsterelephantexist",
       "repos": [
@@ -2197,7 +2189,7 @@
     },
     {
       "id": "337902091",
-      "rank": 37,
+      "rank": 38,
       "type": "User",
       "login": "MotormanChill",
       "repos": [
@@ -2254,7 +2246,7 @@
     },
     {
       "id": "337902282",
-      "rank": 38,
+      "rank": 39,
       "type": "User",
       "login": "Outsidedelremedy",
       "repos": [
@@ -2317,7 +2309,7 @@
     },
     {
       "id": "319475593",
-      "rank": 39,
+      "rank": 40,
       "type": "User",
       "login": "pathadvisorrafter",
       "repos": [
@@ -2382,7 +2374,7 @@
     },
     {
       "id": "337903454",
-      "rank": 40,
+      "rank": 41,
       "type": "User",
       "login": "PercentHornetTalk75",
       "repos": [
@@ -2447,7 +2439,7 @@
     },
     {
       "id": "319476752",
-      "rank": 41,
+      "rank": 42,
       "type": "User",
       "login": "shalehostcatch",
       "repos": [
@@ -2512,7 +2504,7 @@
     },
     {
       "id": "337902997",
-      "rank": 42,
+      "rank": 43,
       "type": "User",
       "login": "SmokeMotorman",
       "repos": [
@@ -2577,7 +2569,7 @@
     },
     {
       "id": "337903570",
-      "rank": 43,
+      "rank": 44,
       "type": "User",
       "login": "StadiumProvider",
       "repos": [
@@ -2642,7 +2634,7 @@
     },
     {
       "id": "337902565",
-      "rank": 44,
+      "rank": 45,
       "type": "User",
       "login": "TeamBoatswain",
       "repos": [
@@ -2707,7 +2699,7 @@
     },
     {
       "id": "319475711",
-      "rank": 45,
+      "rank": 46,
       "type": "User",
       "login": "TermiteDeliver",
       "repos": [
@@ -2772,7 +2764,7 @@
     },
     {
       "id": "337903249",
-      "rank": 46,
+      "rank": 47,
       "type": "User",
       "login": "GradeBureaucrat",
       "repos": [
@@ -2837,7 +2829,7 @@
     },
     {
       "id": "340105249",
-      "rank": 47,
+      "rank": 48,
       "type": "User",
       "login": "Infernopeak",
       "repos": [
@@ -2898,7 +2890,7 @@
     },
     {
       "id": "337902224",
-      "rank": 48,
+      "rank": 49,
       "type": "User",
       "login": "Operativevaspigot",
       "repos": [
@@ -2963,7 +2955,7 @@
     },
     {
       "id": "104095833",
-      "rank": 49,
+      "rank": 50,
       "type": "User",
       "login": "rezadesky",
       "repos": [
@@ -3015,8 +3007,61 @@
       "starScore": 57
     },
     {
+      "id": "101631480",
+      "rank": 51,
+      "type": "User",
+      "login": "Thang1191",
+      "repos": [
+        {
+          "id": 1422081457,
+          "fork": false,
+          "name": "Miku-Dating-Sim-GRUB-Theme",
+          "forks": 0,
+          "owner": "Thang1191",
+          "stars": 55,
+          "avatar": "https://avatars.githubusercontent.com/u/101631480?v=4",
+          "topics": [
+            "bootloader",
+            "customization",
+            "grub-theme",
+            "grub-themes",
+            "grub2",
+            "grub2-theme",
+            "hatsune-miku",
+            "linux"
+          ],
+          "ownerId": "101631480",
+          "repoUrl": "https://github.com/Thang1191/Miku-Dating-Sim-GRUB-Theme",
+          "archived": false,
+          "fullName": "Thang1191/Miku-Dating-Sim-GRUB-Theme",
+          "language": "Shell",
+          "ownerUrl": "https://github.com/Thang1191",
+          "pushedAt": "2026-10-16T15:05:32+00:00",
+          "createdAt": "2026-10-16T11:39:00+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:30:36+00:00",
+          "description": "Hatsune Miku dating sim themed GRUB theme",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Thang1191",
+      "topRepo": {
+        "name": "Miku-Dating-Sim-GRUB-Theme",
+        "fullName": "Thang1191/Miku-Dating-Sim-GRUB-Theme",
+        "stars": 55,
+        "url": "https://github.com/Thang1191/Miku-Dating-Sim-GRUB-Theme"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101631480?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Thang1191/Miku-Dating-Sim-GRUB-Theme"
+      ],
+      "starScore": 55
+    },
+    {
       "id": "336767219",
-      "rank": 50,
+      "rank": 52,
       "type": "User",
       "login": "wuwa-ud",
       "repos": [
@@ -3077,296 +3122,1366 @@
       "starScore": 41
     },
     {
-      "id": "90147569",
-      "rank": 51,
-      "type": "User",
-      "login": "azrinaldi",
-      "repos": [
-        {
-          "id": 1421653226,
-          "fork": false,
-          "name": "gemini-stealth-bridge",
-          "forks": 4,
-          "owner": "azrinaldi",
-          "stars": 38,
-          "avatar": "https://avatars.githubusercontent.com/u/90147569?v=4",
-          "topics": [
-            "bridge",
-            "gemini",
-            "gemini-api",
-            "golang",
-            "http2",
-            "llm",
-            "openai-compatible",
-            "reverse-proxy",
-            "utls"
-          ],
-          "ownerId": "90147569",
-          "repoUrl": "https://github.com/azrinaldi/gemini-stealth-bridge",
-          "archived": false,
-          "fullName": "azrinaldi/gemini-stealth-bridge",
-          "language": "Go",
-          "ownerUrl": "https://github.com/azrinaldi",
-          "pushedAt": "2026-10-16T09:09:51+00:00",
-          "createdAt": "2026-10-16T04:42:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-16T19:17:18+00:00",
-          "description": "Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v1/responses)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/azrinaldi",
-      "topRepo": {
-        "name": "gemini-stealth-bridge",
-        "fullName": "azrinaldi/gemini-stealth-bridge",
-        "stars": 38,
-        "url": "https://github.com/azrinaldi/gemini-stealth-bridge"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/90147569?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "azrinaldi/gemini-stealth-bridge"
-      ],
-      "starScore": 38
-    },
-    {
-      "id": "101631480",
-      "rank": 52,
-      "type": "User",
-      "login": "Thang1191",
-      "repos": [
-        {
-          "id": 1422081457,
-          "fork": false,
-          "name": "Miku-Dating-Sim-GRUB-Theme",
-          "forks": 0,
-          "owner": "Thang1191",
-          "stars": 37,
-          "avatar": "https://avatars.githubusercontent.com/u/101631480?v=4",
-          "topics": [],
-          "ownerId": "101631480",
-          "repoUrl": "https://github.com/Thang1191/Miku-Dating-Sim-GRUB-Theme",
-          "archived": false,
-          "fullName": "Thang1191/Miku-Dating-Sim-GRUB-Theme",
-          "language": "Shell",
-          "ownerUrl": "https://github.com/Thang1191",
-          "pushedAt": "2026-10-16T15:05:32+00:00",
-          "createdAt": "2026-10-16T11:39:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-16T20:58:21+00:00",
-          "description": "Hatsune Miku dating sim themed GRUB theme",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Thang1191",
-      "topRepo": {
-        "name": "Miku-Dating-Sim-GRUB-Theme",
-        "fullName": "Thang1191/Miku-Dating-Sim-GRUB-Theme",
-        "stars": 37,
-        "url": "https://github.com/Thang1191/Miku-Dating-Sim-GRUB-Theme"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/101631480?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Thang1191/Miku-Dating-Sim-GRUB-Theme"
-      ],
-      "starScore": 37
-    },
-    {
-      "id": "239864753",
+      "id": "86834",
       "rank": 53,
       "type": "User",
-      "login": "ahmedbadr-dev",
+      "login": "joelhooks",
       "repos": [
         {
-          "id": 1421388129,
+          "id": 1422417807,
           "fork": false,
-          "name": "elaf-islamic-companion",
-          "forks": 1,
-          "owner": "ahmedbadr-dev",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/239864753?v=4",
-          "topics": [
-            "android",
-            "capacitor",
-            "firebase",
-            "gemini",
-            "islamic",
-            "mobile",
-            "nfc",
-            "react",
-            "typescript"
-          ],
-          "ownerId": "239864753",
-          "repoUrl": "https://github.com/ahmedbadr-dev/elaf-islamic-companion",
-          "archived": false,
-          "fullName": "ahmedbadr-dev/elaf-islamic-companion",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ahmedbadr-dev",
-          "pushedAt": "2026-10-16T19:32:55+00:00",
-          "createdAt": "2026-10-15T22:28:54+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-16T19:32:57+00:00",
-          "description": "Elaf — production-minded Islamic companion Android app (React, Capacitor, Firebase): prayer times, NFC mistaha PRO, Quran, live streams, Gemini AI.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ahmedbadr-dev",
-      "topRepo": {
-        "name": "elaf-islamic-companion",
-        "fullName": "ahmedbadr-dev/elaf-islamic-companion",
-        "stars": 31,
-        "url": "https://github.com/ahmedbadr-dev/elaf-islamic-companion"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/239864753?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ahmedbadr-dev/elaf-islamic-companion"
-      ],
-      "starScore": 31
-    },
-    {
-      "id": "48634881",
-      "rank": 54,
-      "type": "User",
-      "login": "mattsumi",
-      "repos": [
-        {
-          "id": 1421393619,
-          "fork": false,
-          "name": "blue-archive-fighting-game",
-          "forks": 3,
-          "owner": "mattsumi",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/48634881?v=4",
+          "name": "alchemy-celld",
+          "forks": 0,
+          "owner": "joelhooks",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/86834?v=4",
           "topics": [],
-          "ownerId": "48634881",
-          "repoUrl": "https://github.com/mattsumi/blue-archive-fighting-game",
+          "ownerId": "86834",
+          "repoUrl": "https://github.com/joelhooks/alchemy-celld",
           "archived": false,
-          "fullName": "mattsumi/blue-archive-fighting-game",
-          "language": "GDScript",
-          "ownerUrl": "https://github.com/mattsumi",
-          "pushedAt": "2026-10-16T18:53:46+00:00",
-          "createdAt": "2026-10-15T22:36:56+00:00",
+          "fullName": "joelhooks/alchemy-celld",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/joelhooks",
+          "pushedAt": "2026-10-16T17:27:37+00:00",
+          "createdAt": "2026-10-16T16:41:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-16T19:38:53+00:00",
-          "description": "",
+          "updatedAt": "2026-10-17T03:56:52+00:00",
+          "description": "Alchemy provider for self-hosted celld instances: systemd units, SeaweedFS object store, ten-port layout, restart gate. Topology is injected data.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/mattsumi",
+      "htmlUrl": "https://github.com/joelhooks",
       "topRepo": {
-        "name": "blue-archive-fighting-game",
-        "fullName": "mattsumi/blue-archive-fighting-game",
-        "stars": 31,
-        "url": "https://github.com/mattsumi/blue-archive-fighting-game"
+        "name": "alchemy-celld",
+        "fullName": "joelhooks/alchemy-celld",
+        "stars": 35,
+        "url": "https://github.com/joelhooks/alchemy-celld"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48634881?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86834?v=4",
       "repoCount": 1,
       "repoNames": [
-        "mattsumi/blue-archive-fighting-game"
+        "joelhooks/alchemy-celld"
       ],
-      "starScore": 31
+      "starScore": 35
     },
     {
-      "id": "89259981",
+      "id": "343140022",
+      "rank": 54,
+      "type": "Organization",
+      "login": "yapfast",
+      "repos": [
+        {
+          "id": 1422305791,
+          "fork": false,
+          "name": "yapfast",
+          "forks": 3,
+          "owner": "yapfast",
+          "stars": 35,
+          "avatar": "https://avatars.githubusercontent.com/u/343140022?v=4",
+          "topics": [
+            "chat",
+            "desktop-app",
+            "discord",
+            "discord-client",
+            "lightweight",
+            "linux",
+            "low-memory",
+            "matrix",
+            "matrix-client",
+            "native",
+            "open-source",
+            "rust",
+            "skia",
+            "slint",
+            "voice",
+            "voice-chat",
+            "webrtc",
+            "windows"
+          ],
+          "ownerId": "343140022",
+          "repoUrl": "https://github.com/yapfast/yapfast",
+          "archived": false,
+          "fullName": "yapfast/yapfast",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/yapfast",
+          "pushedAt": "2026-10-17T04:31:55+00:00",
+          "createdAt": "2026-10-16T14:59:44+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-17T04:31:59+00:00",
+          "description": "The chat app that doesn't eat your PC. A lightweight, native Discord client in Rust.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/yapfast",
+      "topRepo": {
+        "name": "yapfast",
+        "fullName": "yapfast/yapfast",
+        "stars": 35,
+        "url": "https://github.com/yapfast/yapfast"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343140022?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "yapfast/yapfast"
+      ],
+      "starScore": 35
+    },
+    {
+      "id": "343351324",
       "rank": 55,
       "type": "User",
-      "login": "MG1937",
+      "login": "a04qbov86mrd",
       "repos": [
         {
-          "id": 1421657964,
+          "id": 1421702716,
           "fork": false,
-          "name": "rust_ASC",
-          "forks": 2,
-          "owner": "MG1937",
-          "stars": 31,
-          "avatar": "https://avatars.githubusercontent.com/u/89259981?v=4",
+          "name": "wan-2-7-videoedit-api-ja",
+          "forks": 0,
+          "owner": "a04qbov86mrd",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/343351324?v=4",
           "topics": [
-            "ai-agent",
-            "android",
-            "decompilation",
-            "mobile",
-            "reverse",
-            "rust",
-            "rust-lang"
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "text-to-image",
+            "wan-2-7-videoedit",
+            "wan-2-7-videoedit-api"
           ],
-          "ownerId": "89259981",
-          "repoUrl": "https://github.com/MG1937/rust_ASC",
+          "ownerId": "343351324",
+          "repoUrl": "https://github.com/a04qbov86mrd/wan-2-7-videoedit-api-ja",
           "archived": false,
-          "fullName": "MG1937/rust_ASC",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/MG1937",
-          "pushedAt": "2026-10-16T09:17:03+00:00",
-          "createdAt": "2026-10-16T04:48:08+00:00",
+          "fullName": "a04qbov86mrd/wan-2-7-videoedit-api-ja",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a04qbov86mrd",
+          "pushedAt": "2026-10-16T07:04:55+00:00",
+          "createdAt": "2026-10-16T05:42:48+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-16T21:15:58+00:00",
-          "description": "Rust ASC is a super FAST and lightweight Android decompiler designed for Agents/Mobile Researchers.",
+          "updatedAt": "2026-10-17T03:27:00+00:00",
+          "description": "通義万相 — Wan 2.7 Video Edit API (`wan2.7-videoedit`): model id, pricing, parameters and copy-paste examples for the OpenAI-compatible APIMart endpoint.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1421704518,
+          "fork": false,
+          "name": "wan-2-7-videoedit-prompts-ja",
+          "forks": 0,
+          "owner": "a04qbov86mrd",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/343351324?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "image-prompts",
+            "prompt-gallery",
+            "text-to-image",
+            "wan-2-7-videoedit",
+            "wan-2-7-videoedit-prompts"
+          ],
+          "ownerId": "343351324",
+          "repoUrl": "https://github.com/a04qbov86mrd/wan-2-7-videoedit-prompts-ja",
+          "archived": false,
+          "fullName": "a04qbov86mrd/wan-2-7-videoedit-prompts-ja",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a04qbov86mrd",
+          "pushedAt": "2026-10-16T07:04:23+00:00",
+          "createdAt": "2026-10-16T05:44:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:55:46+00:00",
+          "description": "通義万相 — Wan 2.7 Video Edit prompts: tested image prompt recipes with example renders, aspect ratios, the model id (`wan2.7-videoedit`) and the cost per image.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/MG1937",
+      "htmlUrl": "https://github.com/a04qbov86mrd",
       "topRepo": {
-        "name": "rust_ASC",
-        "fullName": "MG1937/rust_ASC",
-        "stars": 31,
-        "url": "https://github.com/MG1937/rust_ASC"
+        "name": "wan-2-7-videoedit-api-ja",
+        "fullName": "a04qbov86mrd/wan-2-7-videoedit-api-ja",
+        "stars": 16,
+        "url": "https://github.com/a04qbov86mrd/wan-2-7-videoedit-api-ja"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/89259981?v=4",
-      "repoCount": 1,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343351324?v=4",
+      "repoCount": 2,
       "repoNames": [
-        "MG1937/rust_ASC"
+        "a04qbov86mrd/wan-2-7-videoedit-api-ja",
+        "a04qbov86mrd/wan-2-7-videoedit-prompts-ja"
       ],
       "starScore": 31
     },
     {
-      "id": "43522323",
+      "id": "342966184",
       "rank": 56,
       "type": "User",
-      "login": "MiladJoodi",
+      "login": "a1bvc",
       "repos": [
         {
-          "id": 1421434300,
+          "id": 1421702073,
           "fork": false,
-          "name": "FarsiUI-Icons",
-          "forks": 1,
-          "owner": "MiladJoodi",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/43522323?v=4",
-          "topics": [],
-          "ownerId": "43522323",
-          "repoUrl": "https://github.com/MiladJoodi/FarsiUI-Icons",
+          "name": "wan-2-7-videoedit-api-es",
+          "forks": 0,
+          "owner": "a1bvc",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/342966184?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "text-to-image",
+            "wan-2-7-videoedit",
+            "wan-2-7-videoedit-api"
+          ],
+          "ownerId": "342966184",
+          "repoUrl": "https://github.com/a1bvc/wan-2-7-videoedit-api-es",
           "archived": false,
-          "fullName": "MiladJoodi/FarsiUI-Icons",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/MiladJoodi",
-          "pushedAt": "2026-10-16T01:50:25+00:00",
-          "createdAt": "2026-10-15T23:38:44+00:00",
+          "fullName": "a1bvc/wan-2-7-videoedit-api-es",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a1bvc",
+          "pushedAt": "2026-10-16T07:06:05+00:00",
+          "createdAt": "2026-10-16T05:42:11+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-16T02:12:32+00:00",
+          "updatedAt": "2026-10-17T03:47:34+00:00",
+          "description": "Wan 2.7 Video Edit API (`wan2.7-videoedit`): model id, pricing, parameters and copy-paste examples for the OpenAI-compatible APIMart endpoint.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1421703835,
+          "fork": false,
+          "name": "wan-2-7-videoedit-prompts-es",
+          "forks": 0,
+          "owner": "a1bvc",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/342966184?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "image-prompts",
+            "prompt-gallery",
+            "text-to-image",
+            "wan-2-7-videoedit",
+            "wan-2-7-videoedit-prompts"
+          ],
+          "ownerId": "342966184",
+          "repoUrl": "https://github.com/a1bvc/wan-2-7-videoedit-prompts-es",
+          "archived": false,
+          "fullName": "a1bvc/wan-2-7-videoedit-prompts-es",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a1bvc",
+          "pushedAt": "2026-10-16T07:05:31+00:00",
+          "createdAt": "2026-10-16T05:43:57+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:01:11+00:00",
+          "description": "Wan 2.7 Video Edit prompts: tested image prompt recipes with example renders, aspect ratios, the model id (`wan2.7-videoedit`) and the cost per image.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/a1bvc",
+      "topRepo": {
+        "name": "wan-2-7-videoedit-api-es",
+        "fullName": "a1bvc/wan-2-7-videoedit-api-es",
+        "stars": 15,
+        "url": "https://github.com/a1bvc/wan-2-7-videoedit-api-es"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/342966184?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "a1bvc/wan-2-7-videoedit-api-es",
+        "a1bvc/wan-2-7-videoedit-prompts-es"
+      ],
+      "starScore": 30
+    },
+    {
+      "id": "343019834",
+      "rank": 57,
+      "type": "User",
+      "login": "a2hnks5fo-t",
+      "repos": [
+        {
+          "id": 1421681324,
+          "fork": false,
+          "name": "seedream-5-0-pro-api-cn",
+          "forks": 0,
+          "owner": "a2hnks5fo-t",
+          "stars": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/343019834?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "seedream-5-0-pro",
+            "seedream-5-0-pro-api",
+            "text-to-image"
+          ],
+          "ownerId": "343019834",
+          "repoUrl": "https://github.com/a2hnks5fo-t/seedream-5-0-pro-api-cn",
+          "archived": false,
+          "fullName": "a2hnks5fo-t/seedream-5-0-pro-api-cn",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a2hnks5fo-t",
+          "pushedAt": "2026-10-16T07:17:30+00:00",
+          "createdAt": "2026-10-16T05:18:17+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:42:31+00:00",
+          "description": "即梦图片 — Seedream 5.0 Pro API (`seedream-5-0-pro`): model id, pricing, parameters and copy-paste examples for the OpenAI-compatible APIMart endpoint.",
+          "defaultBranch": "main"
+        },
+        {
+          "id": 1421682402,
+          "fork": false,
+          "name": "seedream-5-0-pro-prompts-cn",
+          "forks": 0,
+          "owner": "a2hnks5fo-t",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/343019834?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "image-prompts",
+            "prompt-gallery",
+            "seedream-5-0-pro",
+            "seedream-5-0-pro-prompts",
+            "text-to-image"
+          ],
+          "ownerId": "343019834",
+          "repoUrl": "https://github.com/a2hnks5fo-t/seedream-5-0-pro-prompts-cn",
+          "archived": false,
+          "fullName": "a2hnks5fo-t/seedream-5-0-pro-prompts-cn",
+          "language": "Python",
+          "ownerUrl": "https://github.com/a2hnks5fo-t",
+          "pushedAt": "2026-10-16T07:16:45+00:00",
+          "createdAt": "2026-10-16T05:19:40+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:34:28+00:00",
+          "description": "即梦图片 — Seedream 5.0 Pro prompts: tested image prompt recipes with example renders, aspect ratios, the model id (`seedream-5-0-pro`) and the cost per image.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/a2hnks5fo-t",
+      "topRepo": {
+        "name": "seedream-5-0-pro-api-cn",
+        "fullName": "a2hnks5fo-t/seedream-5-0-pro-api-cn",
+        "stars": 15,
+        "url": "https://github.com/a2hnks5fo-t/seedream-5-0-pro-api-cn"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343019834?v=4",
+      "repoCount": 2,
+      "repoNames": [
+        "a2hnks5fo-t/seedream-5-0-pro-api-cn",
+        "a2hnks5fo-t/seedream-5-0-pro-prompts-cn"
+      ],
+      "starScore": 29
+    },
+    {
+      "id": "36981278",
+      "rank": 58,
+      "type": "User",
+      "login": "Enhed",
+      "repos": [
+        {
+          "id": 1422442060,
+          "fork": false,
+          "name": "clawd-usage-winwidget",
+          "forks": 1,
+          "owner": "Enhed",
+          "stars": 29,
+          "avatar": "https://avatars.githubusercontent.com/u/36981278?v=4",
+          "topics": [
+            "anthropic",
+            "claude",
+            "claude-code",
+            "powershell",
+            "tray-icon",
+            "widget",
+            "windows",
+            "wpf"
+          ],
+          "ownerId": "36981278",
+          "repoUrl": "https://github.com/Enhed/clawd-usage-winwidget",
+          "archived": false,
+          "fullName": "Enhed/clawd-usage-winwidget",
+          "language": "PowerShell",
+          "ownerUrl": "https://github.com/Enhed",
+          "pushedAt": "2026-10-17T02:22:25+00:00",
+          "createdAt": "2026-10-16T17:04:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:01:46+00:00",
+          "description": "Claude usage limits in a tiny Windows widget + tray icon — with pixel Clawd who reacts to your Claude Code sessions, looks after your PC and chats with you, from the widget or your phone. PowerShell, no dependencies.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Enhed",
+      "topRepo": {
+        "name": "clawd-usage-winwidget",
+        "fullName": "Enhed/clawd-usage-winwidget",
+        "stars": 29,
+        "url": "https://github.com/Enhed/clawd-usage-winwidget"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36981278?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Enhed/clawd-usage-winwidget"
+      ],
+      "starScore": 29
+    },
+    {
+      "id": "343598286",
+      "rank": 59,
+      "type": "User",
+      "login": "Shagg88",
+      "repos": [
+        {
+          "id": 1422517871,
+          "fork": false,
+          "name": "Athelas",
+          "forks": 0,
+          "owner": "Shagg88",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/343598286?v=4",
+          "topics": [],
+          "ownerId": "343598286",
+          "repoUrl": "https://github.com/Shagg88/Athelas",
+          "archived": false,
+          "fullName": "Shagg88/Athelas",
+          "language": "C",
+          "ownerUrl": "https://github.com/Shagg88",
+          "pushedAt": "2026-10-16T20:01:31+00:00",
+          "createdAt": "2026-10-16T18:15:13+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:48:00+00:00",
+          "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Shagg88",
+      "topRepo": {
+        "name": "Athelas",
+        "fullName": "Shagg88/Athelas",
+        "stars": 24,
+        "url": "https://github.com/Shagg88/Athelas"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343598286?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Shagg88/Athelas"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "342688438",
+      "rank": 60,
+      "type": "User",
+      "login": "lesca-191204",
+      "repos": [
+        {
+          "id": 1422341725,
+          "fork": false,
+          "name": "killzone-shadowfall-pc",
+          "forks": 0,
+          "owner": "lesca-191204",
+          "stars": 23,
+          "avatar": "https://avatars.githubusercontent.com/u/342688438?v=4",
+          "topics": [],
+          "ownerId": "342688438",
+          "repoUrl": "https://github.com/lesca-191204/killzone-shadowfall-pc",
+          "archived": false,
+          "fullName": "lesca-191204/killzone-shadowfall-pc",
+          "language": "C++",
+          "ownerUrl": "https://github.com/lesca-191204",
+          "pushedAt": "2026-10-16T16:04:45+00:00",
+          "createdAt": "2026-10-16T15:32:27+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:24:50+00:00",
           "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/lesca-191204",
+      "topRepo": {
+        "name": "killzone-shadowfall-pc",
+        "fullName": "lesca-191204/killzone-shadowfall-pc",
+        "stars": 23,
+        "url": "https://github.com/lesca-191204/killzone-shadowfall-pc"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/342688438?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "lesca-191204/killzone-shadowfall-pc"
+      ],
+      "starScore": 23
+    },
+    {
+      "id": "228110221",
+      "rank": 61,
+      "type": "User",
+      "login": "cyb3rl00m",
+      "repos": [
+        {
+          "id": 1421979542,
+          "fork": false,
+          "name": "safe-disk-cleaner",
+          "forks": 0,
+          "owner": "cyb3rl00m",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/228110221?v=4",
+          "topics": [],
+          "ownerId": "228110221",
+          "repoUrl": "https://github.com/cyb3rl00m/safe-disk-cleaner",
+          "archived": false,
+          "fullName": "cyb3rl00m/safe-disk-cleaner",
+          "language": "Python",
+          "ownerUrl": "https://github.com/cyb3rl00m",
+          "pushedAt": "2026-10-16T21:41:56+00:00",
+          "createdAt": "2026-10-16T09:59:59+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:20:32+00:00",
+          "description": "See where your disk space went — and understand what is safe to delete. GTK 4 app for Ubuntu and systemd distros.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cyb3rl00m",
+      "topRepo": {
+        "name": "safe-disk-cleaner",
+        "fullName": "cyb3rl00m/safe-disk-cleaner",
+        "stars": 22,
+        "url": "https://github.com/cyb3rl00m/safe-disk-cleaner"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228110221?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cyb3rl00m/safe-disk-cleaner"
+      ],
+      "starScore": 22
+    },
+    {
+      "id": "299844489",
+      "rank": 62,
+      "type": "User",
+      "login": "plotarmordev",
+      "repos": [
+        {
+          "id": 1421680026,
+          "fork": false,
+          "name": "drama-tensorfold",
+          "forks": 1,
+          "owner": "plotarmordev",
+          "stars": 22,
+          "avatar": "https://avatars.githubusercontent.com/u/299844489?v=4",
+          "topics": [],
+          "ownerId": "299844489",
+          "repoUrl": "https://github.com/plotarmordev/drama-tensorfold",
+          "archived": false,
+          "fullName": "plotarmordev/drama-tensorfold",
+          "language": "Python",
+          "ownerUrl": "https://github.com/plotarmordev",
+          "pushedAt": "2026-10-16T13:01:36+00:00",
+          "createdAt": "2026-10-16T05:16:38+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:15:52+00:00",
+          "description": "Fish Audio Drama 3 text-to-speech on the TensorFold native CUDA engine for DGX Spark (GB10): recipe, engine patches, benchmarks. Built with Fish Audio.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/plotarmordev",
+      "topRepo": {
+        "name": "drama-tensorfold",
+        "fullName": "plotarmordev/drama-tensorfold",
+        "stars": 22,
+        "url": "https://github.com/plotarmordev/drama-tensorfold"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/299844489?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "plotarmordev/drama-tensorfold"
+      ],
+      "starScore": 22
+    },
+    {
+      "id": "30950566",
+      "rank": 63,
+      "type": "User",
+      "login": "yuzushi-dev",
+      "repos": [
+        {
+          "id": 1422335531,
+          "fork": false,
+          "name": "hermes-seo",
+          "forks": 3,
+          "owner": "yuzushi-dev",
+          "stars": 21,
+          "avatar": "https://avatars.githubusercontent.com/u/30950566?v=4",
+          "topics": [],
+          "ownerId": "30950566",
+          "repoUrl": "https://github.com/yuzushi-dev/hermes-seo",
+          "archived": false,
+          "fullName": "yuzushi-dev/hermes-seo",
+          "language": "Python",
+          "ownerUrl": "https://github.com/yuzushi-dev",
+          "pushedAt": "2026-10-16T16:30:14+00:00",
+          "createdAt": "2026-10-16T15:26:45+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:38:26+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/yuzushi-dev",
+      "topRepo": {
+        "name": "hermes-seo",
+        "fullName": "yuzushi-dev/hermes-seo",
+        "stars": 21,
+        "url": "https://github.com/yuzushi-dev/hermes-seo"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30950566?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "yuzushi-dev/hermes-seo"
+      ],
+      "starScore": 21
+    },
+    {
+      "id": "321491504",
+      "rank": 64,
+      "type": "Organization",
+      "login": "apple-aiml-research",
+      "repos": [
+        {
+          "id": 1422336477,
+          "fork": false,
+          "name": "ml-rsi-inference-bench",
+          "forks": 3,
+          "owner": "apple-aiml-research",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/321491504?v=4",
+          "topics": [],
+          "ownerId": "321491504",
+          "repoUrl": "https://github.com/apple-aiml-research/ml-rsi-inference-bench",
+          "archived": false,
+          "fullName": "apple-aiml-research/ml-rsi-inference-bench",
+          "language": "Python",
+          "ownerUrl": "https://github.com/apple-aiml-research",
+          "pushedAt": "2026-10-16T17:23:30+00:00",
+          "createdAt": "2026-10-16T15:27:36+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-17T04:38:18+00:00",
+          "description": "A Long-Horizon Benchmark for Self-Improving Inference Systems",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/apple-aiml-research",
+      "topRepo": {
+        "name": "ml-rsi-inference-bench",
+        "fullName": "apple-aiml-research/ml-rsi-inference-bench",
+        "stars": 16,
+        "url": "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321491504?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "apple-aiml-research/ml-rsi-inference-bench"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "278731968",
+      "rank": 65,
+      "type": "User",
+      "login": "kerrdec97",
+      "repos": [
+        {
+          "id": 1422834411,
+          "fork": false,
+          "name": "PS5-Backport-GUI",
+          "forks": 4,
+          "owner": "kerrdec97",
+          "stars": 16,
+          "avatar": "https://avatars.githubusercontent.com/u/278731968?v=4",
+          "topics": [],
+          "ownerId": "278731968",
+          "repoUrl": "https://github.com/kerrdec97/PS5-Backport-GUI",
+          "archived": false,
+          "fullName": "kerrdec97/PS5-Backport-GUI",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/kerrdec97",
+          "pushedAt": "2026-10-17T01:28:54+00:00",
+          "createdAt": "2026-10-17T01:24:33+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:24:25+00:00",
+          "description": "PS5 Backport — closed-source early testing beta. Windows x64; Linux and macOS to follow after Windows testing.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kerrdec97",
+      "topRepo": {
+        "name": "PS5-Backport-GUI",
+        "fullName": "kerrdec97/PS5-Backport-GUI",
+        "stars": 16,
+        "url": "https://github.com/kerrdec97/PS5-Backport-GUI"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/278731968?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kerrdec97/PS5-Backport-GUI"
+      ],
+      "starScore": 16
+    },
+    {
+      "id": "314315590",
+      "rank": 66,
+      "type": "Organization",
+      "login": "Limatura",
+      "repos": [
+        {
+          "id": 1422138666,
+          "fork": false,
+          "name": "tessera",
+          "forks": 1,
+          "owner": "Limatura",
+          "stars": 14,
+          "avatar": "https://avatars.githubusercontent.com/u/314315590?v=4",
+          "topics": [
+            "docker",
+            "end-to-end-encryption",
+            "file-sharing",
+            "pastebin",
+            "rust",
+            "s3",
+            "self-hosted"
+          ],
+          "ownerId": "314315590",
+          "repoUrl": "https://github.com/Limatura/tessera",
+          "archived": false,
+          "fullName": "Limatura/tessera",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/Limatura",
+          "pushedAt": "2026-10-16T23:03:29+00:00",
+          "createdAt": "2026-10-16T12:34:01+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-17T04:11:59+00:00",
+          "description": "Self-hosted file and note sharing that cleans up after itself.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Limatura",
+      "topRepo": {
+        "name": "tessera",
+        "fullName": "Limatura/tessera",
+        "stars": 14,
+        "url": "https://github.com/Limatura/tessera"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/314315590?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Limatura/tessera"
+      ],
+      "starScore": 14
+    },
+    {
+      "id": "342976202",
+      "rank": 67,
+      "type": "User",
+      "login": "ffn-o3s",
+      "repos": [
+        {
+          "id": 1421699461,
+          "fork": false,
+          "name": "wan-2-7-r2v-prompts-de",
+          "forks": 0,
+          "owner": "ffn-o3s",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/342976202?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "image-prompts",
+            "prompt-gallery",
+            "text-to-image",
+            "wan-2-7-r2v",
+            "wan-2-7-r2v-prompts"
+          ],
+          "ownerId": "342976202",
+          "repoUrl": "https://github.com/ffn-o3s/wan-2-7-r2v-prompts-de",
+          "archived": false,
+          "fullName": "ffn-o3s/wan-2-7-r2v-prompts-de",
+          "language": "Python",
+          "ownerUrl": "https://github.com/ffn-o3s",
+          "pushedAt": "2026-10-16T07:06:52+00:00",
+          "createdAt": "2026-10-16T05:39:27+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:01:15+00:00",
+          "description": "Wan 2.7 R2V prompts: tested image prompt recipes with example renders, aspect ratios, the model id (`wan2.7-r2v`) and the cost per image.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ffn-o3s",
+      "topRepo": {
+        "name": "wan-2-7-r2v-prompts-de",
+        "fullName": "ffn-o3s/wan-2-7-r2v-prompts-de",
+        "stars": 13,
+        "url": "https://github.com/ffn-o3s/wan-2-7-r2v-prompts-de"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/342976202?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ffn-o3s/wan-2-7-r2v-prompts-de"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "78887987",
+      "rank": 68,
+      "type": "User",
+      "login": "GabrielPauloT",
+      "repos": [
+        {
+          "id": 1422374559,
+          "fork": false,
+          "name": "painel-claude",
+          "forks": 0,
+          "owner": "GabrielPauloT",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/78887987?v=4",
+          "topics": [],
+          "ownerId": "78887987",
+          "repoUrl": "https://github.com/GabrielPauloT/painel-claude",
+          "archived": false,
+          "fullName": "GabrielPauloT/painel-claude",
+          "language": "TypeScript",
+          "ownerUrl": "https://github.com/GabrielPauloT",
+          "pushedAt": "2026-10-16T20:42:07+00:00",
+          "createdAt": "2026-10-16T16:01:21+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T02:18:28+00:00",
+          "description": "Mod do Claude Code: barra lateral no estilo do OpenCode",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/GabrielPauloT",
+      "topRepo": {
+        "name": "painel-claude",
+        "fullName": "GabrielPauloT/painel-claude",
+        "stars": 13,
+        "url": "https://github.com/GabrielPauloT/painel-claude"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78887987?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "GabrielPauloT/painel-claude"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "340955471",
+      "rank": 69,
+      "type": "User",
+      "login": "hannahklein581308",
+      "repos": [
+        {
+          "id": 1422073129,
+          "fork": false,
+          "name": "baldur-s-gate-3-win-notes",
+          "forks": 2,
+          "owner": "hannahklein581308",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/340955471?v=4",
+          "topics": [
+            "baldurs-gate-3",
+            "bg3",
+            "crpg",
+            "directx-12",
+            "game-performance",
+            "gog",
+            "larian-studios",
+            "pc-gaming",
+            "rpg",
+            "save-games",
+            "single-player",
+            "steam",
+            "system-requirements",
+            "troubleshooting",
+            "turn-based-combat",
+            "vulkan",
+            "windows-10",
+            "windows-11"
+          ],
+          "ownerId": "340955471",
+          "repoUrl": "https://github.com/hannahklein581308/baldur-s-gate-3-win-notes",
+          "archived": false,
+          "fullName": "hannahklein581308/baldur-s-gate-3-win-notes",
+          "language": "PowerShell",
+          "ownerUrl": "https://github.com/hannahklein581308",
+          "pushedAt": "2026-10-16T11:32:46+00:00",
+          "createdAt": "2026-10-16T11:30:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:22:29+00:00",
+          "description": "Baldur's Gate 3 notes for Windows 10 and 11",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/hannahklein581308",
+      "topRepo": {
+        "name": "baldur-s-gate-3-win-notes",
+        "fullName": "hannahklein581308/baldur-s-gate-3-win-notes",
+        "stars": 13,
+        "url": "https://github.com/hannahklein581308/baldur-s-gate-3-win-notes"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/340955471?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "hannahklein581308/baldur-s-gate-3-win-notes"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "59771841",
+      "rank": 70,
+      "type": "User",
+      "login": "ondrejeder",
+      "repos": [
+        {
+          "id": 1422582111,
+          "fork": false,
+          "name": "Driveclub-pc-wrapper",
+          "forks": 0,
+          "owner": "ondrejeder",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/59771841?v=4",
+          "topics": [],
+          "ownerId": "59771841",
+          "repoUrl": "https://github.com/ondrejeder/Driveclub-pc-wrapper",
+          "archived": false,
+          "fullName": "ondrejeder/Driveclub-pc-wrapper",
+          "language": "C++",
+          "ownerUrl": "https://github.com/ondrejeder",
+          "pushedAt": "2026-10-16T22:14:45+00:00",
+          "createdAt": "2026-10-16T19:19:02+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:57:38+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/ondrejeder",
+      "topRepo": {
+        "name": "Driveclub-pc-wrapper",
+        "fullName": "ondrejeder/Driveclub-pc-wrapper",
+        "stars": 13,
+        "url": "https://github.com/ondrejeder/Driveclub-pc-wrapper"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59771841?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "ondrejeder/Driveclub-pc-wrapper"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "338085035",
+      "rank": 71,
+      "type": "User",
+      "login": "OverkillLabs3",
+      "repos": [
+        {
+          "id": 1422653739,
+          "fork": false,
+          "name": "driveclub-recomp",
+          "forks": 0,
+          "owner": "OverkillLabs3",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/338085035?v=4",
+          "topics": [],
+          "ownerId": "338085035",
+          "repoUrl": "https://github.com/OverkillLabs3/driveclub-recomp",
+          "archived": false,
+          "fullName": "OverkillLabs3/driveclub-recomp",
+          "language": "C++",
+          "ownerUrl": "https://github.com/OverkillLabs3",
+          "pushedAt": "2026-10-17T00:16:39+00:00",
+          "createdAt": "2026-10-16T20:43:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T04:35:34+00:00",
+          "description": "DriveClub (PS4, version 1.28) running natively on Windows",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/OverkillLabs3",
+      "topRepo": {
+        "name": "driveclub-recomp",
+        "fullName": "OverkillLabs3/driveclub-recomp",
+        "stars": 13,
+        "url": "https://github.com/OverkillLabs3/driveclub-recomp"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/338085035?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "OverkillLabs3/driveclub-recomp"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "343423069",
+      "rank": 72,
+      "type": "Organization",
+      "login": "Pick-Your-AI",
+      "repos": [
+        {
+          "id": 1421934086,
+          "fork": false,
+          "name": "pick-your-ai-research",
+          "forks": 3,
+          "owner": "Pick-Your-AI",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/343423069?v=4",
+          "topics": [
+            "ai",
+            "ai-infrastructure",
+            "ai-stack",
+            "compatibility",
+            "json-schema",
+            "llm",
+            "pcpartpicker",
+            "pick-your-ai",
+            "pricing",
+            "research"
+          ],
+          "ownerId": "343423069",
+          "repoUrl": "https://github.com/Pick-Your-AI/pick-your-ai-research",
+          "archived": false,
+          "fullName": "Pick-Your-AI/pick-your-ai-research",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Pick-Your-AI",
+          "pushedAt": "2026-10-17T03:27:11+00:00",
+          "createdAt": "2026-10-16T09:29:34+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-17T03:06:24+00:00",
+          "description": "Research and shared data contracts for Pick Your AI: component catalogs, compatibility rules, pricing, and evidence for AI stacks.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Pick-Your-AI",
+      "topRepo": {
+        "name": "pick-your-ai-research",
+        "fullName": "Pick-Your-AI/pick-your-ai-research",
+        "stars": 13,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343423069?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Pick-Your-AI/pick-your-ai-research"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "328064828",
+      "rank": 73,
+      "type": "User",
+      "login": "remnient",
+      "repos": [
+        {
+          "id": 1422453147,
+          "fork": false,
+          "name": "romulus",
+          "forks": 0,
+          "owner": "remnient",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/328064828?v=4",
+          "topics": [],
+          "ownerId": "328064828",
+          "repoUrl": "https://github.com/remnient/romulus",
+          "archived": false,
+          "fullName": "remnient/romulus",
+          "language": "Lean",
+          "ownerUrl": "https://github.com/remnient",
+          "pushedAt": "2026-10-16T17:15:27+00:00",
+          "createdAt": "2026-10-16T17:14:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T01:43:08+00:00",
+          "description": "Lean 4 hypervisor memory ownership model with machine-checked isolation proofs",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/remnient",
+      "topRepo": {
+        "name": "romulus",
+        "fullName": "remnient/romulus",
+        "stars": 13,
+        "url": "https://github.com/remnient/romulus"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/328064828?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "remnient/romulus"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "340640776",
+      "rank": 74,
+      "type": "User",
+      "login": "sailingexodus",
+      "repos": [
+        {
+          "id": 1421711751,
+          "fork": false,
+          "name": "exodus-radar",
+          "forks": 2,
+          "owner": "sailingexodus",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/340640776?v=4",
+          "topics": [
+            "ais",
+            "anchor-alarm",
+            "boating",
+            "chartplotter",
+            "marine",
+            "mayara",
+            "open-source",
+            "openplotter",
+            "radar",
+            "raspberry-pi",
+            "raymarine",
+            "raymarine-quantum",
+            "sailing",
+            "signalk"
+          ],
+          "ownerId": "340640776",
+          "repoUrl": "https://github.com/sailingexodus/exodus-radar",
+          "archived": false,
+          "fullName": "sailingexodus/exodus-radar",
+          "language": "Python",
+          "ownerUrl": "https://github.com/sailingexodus",
+          "pushedAt": "2026-10-16T05:52:40+00:00",
+          "createdAt": "2026-10-16T05:52:35+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-16T23:29:40+00:00",
+          "description": "Raspberry Pi radar display for the Raymarine Quantum: AIS, anchor watch, Signal K, OpenPlotter, mayara. Runs on the Pi screen or in any browser. Free for non-commercial use.",
           "defaultBranch": "master"
         }
       ],
-      "htmlUrl": "https://github.com/MiladJoodi",
+      "htmlUrl": "https://github.com/sailingexodus",
       "topRepo": {
-        "name": "FarsiUI-Icons",
-        "fullName": "MiladJoodi/FarsiUI-Icons",
-        "stars": 17,
-        "url": "https://github.com/MiladJoodi/FarsiUI-Icons"
+        "name": "exodus-radar",
+        "fullName": "sailingexodus/exodus-radar",
+        "stars": 13,
+        "url": "https://github.com/sailingexodus/exodus-radar"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43522323?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/340640776?v=4",
       "repoCount": 1,
       "repoNames": [
-        "MiladJoodi/FarsiUI-Icons"
+        "sailingexodus/exodus-radar"
       ],
-      "starScore": 17
+      "starScore": 13
+    },
+    {
+      "id": "209583127",
+      "rank": 75,
+      "type": "User",
+      "login": "speedydivid",
+      "repos": [
+        {
+          "id": 1422830397,
+          "fork": false,
+          "name": "TokenForge",
+          "forks": 0,
+          "owner": "speedydivid",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/209583127?v=4",
+          "topics": [
+            "ai",
+            "aiagent",
+            "aiagents",
+            "claude",
+            "claude-ai",
+            "claude-code",
+            "claude-code-plugin",
+            "claude-plugin",
+            "codex",
+            "token-based-authentication",
+            "token-efficiency",
+            "token-optimization",
+            "token-usage",
+            "tokenforge",
+            "tokenization",
+            "tokenomics"
+          ],
+          "ownerId": "209583127",
+          "repoUrl": "https://github.com/speedydivid/TokenForge",
+          "archived": false,
+          "fullName": "speedydivid/TokenForge",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/speedydivid",
+          "pushedAt": "2026-10-17T02:14:01+00:00",
+          "createdAt": "2026-10-17T01:16:47+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T02:14:05+00:00",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory via SQLite + FTS5, and enforces routing across 17 platforms through MCP + hooks. Works with Claude Code, Gemini CLI, VS Code Copilot, OpenCode, Codex CLI.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/speedydivid",
+      "topRepo": {
+        "name": "TokenForge",
+        "fullName": "speedydivid/TokenForge",
+        "stars": 13,
+        "url": "https://github.com/speedydivid/TokenForge"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/209583127?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "speedydivid/TokenForge"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "210454557",
+      "rank": 76,
+      "type": "User",
+      "login": "trustingcraw",
+      "repos": [
+        {
+          "id": 1422784226,
+          "fork": false,
+          "name": "Baldur-s-Gate-3-Mod-Menu",
+          "forks": 0,
+          "owner": "trustingcraw",
+          "stars": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/210454557?v=4",
+          "topics": [
+            "baldur-gate-3-download",
+            "baldur-gate-3-modmenu",
+            "baldur-gate-3-tool",
+            "baldurs-gate-3",
+            "baldurs-gate-3-multitool",
+            "baldurs-gate-hack"
+          ],
+          "ownerId": "210454557",
+          "repoUrl": "https://github.com/trustingcraw/Baldur-s-Gate-3-Mod-Menu",
+          "archived": false,
+          "fullName": "trustingcraw/Baldur-s-Gate-3-Mod-Menu",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/trustingcraw",
+          "pushedAt": "2026-10-17T00:24:56+00:00",
+          "createdAt": "2026-10-16T23:51:45+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T02:09:47+00:00",
+          "description": "Mod menu and QoL toolkit for Baldur's Gate 3 (Larian Studios) — god mode, gold, item spawner, teleport, level grants, auto-loot, save editor. Runs on BG3 Script Extender and Native Mod Loader. Single-player, offline, no injection, no admin rights, no network.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/trustingcraw",
+      "topRepo": {
+        "name": "Baldur-s-Gate-3-Mod-Menu",
+        "fullName": "trustingcraw/Baldur-s-Gate-3-Mod-Menu",
+        "stars": 13,
+        "url": "https://github.com/trustingcraw/Baldur-s-Gate-3-Mod-Menu"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210454557?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "trustingcraw/Baldur-s-Gate-3-Mod-Menu"
+      ],
+      "starScore": 13
+    },
+    {
+      "id": "343359586",
+      "rank": 77,
+      "type": "User",
+      "login": "e378pu80",
+      "repos": [
+        {
+          "id": 1421727607,
+          "fork": false,
+          "name": "z-image-api-de",
+          "forks": 0,
+          "owner": "e378pu80",
+          "stars": 12,
+          "avatar": "https://avatars.githubusercontent.com/u/343359586?v=4",
+          "topics": [
+            "ai-api-gateway",
+            "ai-image-api",
+            "apimart",
+            "image-api",
+            "image-editing",
+            "image-generation",
+            "text-to-image",
+            "z-image",
+            "z-image-api"
+          ],
+          "ownerId": "343359586",
+          "repoUrl": "https://github.com/e378pu80/z-image-api-de",
+          "archived": false,
+          "fullName": "e378pu80/z-image-api-de",
+          "language": "Python",
+          "ownerUrl": "https://github.com/e378pu80",
+          "pushedAt": "2026-10-16T06:55:00+00:00",
+          "createdAt": "2026-10-16T06:08:44+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-17T03:49:55+00:00",
+          "description": "Z Image Turbo API (`z-image-turbo`): model id, pricing, parameters and copy-paste examples for the OpenAI-compatible APIMart endpoint.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/e378pu80",
+      "topRepo": {
+        "name": "z-image-api-de",
+        "fullName": "e378pu80/z-image-api-de",
+        "stars": 12,
+        "url": "https://github.com/e378pu80/z-image-api-de"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343359586?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "e378pu80/z-image-api-de"
+      ],
+      "starScore": 12
     }
   ]
 }
