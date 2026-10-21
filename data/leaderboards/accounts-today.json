@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T17:26:38.471Z",
-  "total": 36,
-  "totalIndexedCount": 36,
-  "coverageLabel": "Showing 36 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-10-21T22:09:48.898Z",
+  "total": 29,
+  "totalIndexedCount": 29,
+  "coverageLabel": "Showing 29 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -19,9 +19,9 @@
           "id": 1428058681,
           "fork": false,
           "name": "php2shell-poc",
-          "forks": 257,
+          "forks": 305,
           "owner": "ikow",
-          "stars": 687,
+          "stars": 857,
           "avatar": "https://avatars.githubusercontent.com/u/5469411?v=4",
           "topics": [],
           "ownerId": "5469411",
@@ -30,10 +30,10 @@
           "fullName": "ikow/php2shell-poc",
           "language": "Python",
           "ownerUrl": "https://github.com/ikow",
-          "pushedAt": "2026-10-21T16:05:41+00:00",
+          "pushedAt": "2026-10-21T20:48:46+00:00",
           "createdAt": "2026-10-21T07:55:16+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T17:22:07+00:00",
+          "updatedAt": "2026-10-21T21:54:50+00:00",
           "description": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
           "defaultBranch": "main"
         }
@@ -42,7 +42,7 @@
       "topRepo": {
         "name": "php2shell-poc",
         "fullName": "ikow/php2shell-poc",
-        "stars": 687,
+        "stars": 857,
         "url": "https://github.com/ikow/php2shell-poc"
       },
       "enriched": true,
@@ -51,7 +51,7 @@
       "repoNames": [
         "ikow/php2shell-poc"
       ],
-      "starScore": 687
+      "starScore": 857
     },
     {
       "id": "2032225",
@@ -63,9 +63,9 @@
           "id": 1428098303,
           "fork": false,
           "name": "php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-          "forks": 74,
+          "forks": 94,
           "owner": "eness",
-          "stars": 377,
+          "stars": 528,
           "avatar": "https://avatars.githubusercontent.com/u/2032225?v=4",
           "topics": [],
           "ownerId": "2032225",
@@ -77,7 +77,7 @@
           "pushedAt": "2026-10-21T17:02:30+00:00",
           "createdAt": "2026-10-21T08:31:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T17:20:30+00:00",
+          "updatedAt": "2026-10-21T21:47:19+00:00",
           "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
           "defaultBranch": "main"
         }
@@ -86,7 +86,7 @@
       "topRepo": {
         "name": "php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
         "fullName": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-        "stars": 377,
+        "stars": 528,
         "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"
       },
       "enriched": true,
@@ -95,11 +95,55 @@
       "repoNames": [
         "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"
       ],
-      "starScore": 377
+      "starScore": 528
+    },
+    {
+      "id": "14957082",
+      "rank": 3,
+      "type": "Organization",
+      "login": "openai",
+      "repos": [
+        {
+          "id": 1427704805,
+          "fork": false,
+          "name": "php2shell-checker",
+          "forks": 22,
+          "owner": "openai",
+          "stars": 308,
+          "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+          "topics": [],
+          "ownerId": "14957082",
+          "repoUrl": "https://github.com/openai/php2shell-checker",
+          "archived": false,
+          "fullName": "openai/php2shell-checker",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/openai",
+          "pushedAt": "2026-10-21T18:05:56+00:00",
+          "createdAt": "2026-10-21T00:29:12+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-21T21:51:45+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/openai",
+      "topRepo": {
+        "name": "php2shell-checker",
+        "fullName": "openai/php2shell-checker",
+        "stars": 308,
+        "url": "https://github.com/openai/php2shell-checker"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "openai/php2shell-checker"
+      ],
+      "starScore": 308
     },
     {
       "id": "333087588",
-      "rank": 3,
+      "rank": 4,
       "type": "User",
       "login": "Alejandros17487",
       "repos": [
@@ -109,7 +153,7 @@
           "name": "ai-jailbreaks",
           "forks": 29,
           "owner": "Alejandros17487",
-          "stars": 204,
+          "stars": 205,
           "avatar": "https://avatars.githubusercontent.com/u/333087588?v=4",
           "topics": [
             "ai",
@@ -129,7 +173,7 @@
           "pushedAt": "2026-10-21T14:49:16+00:00",
           "createdAt": "2026-10-21T14:44:06+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T17:08:50+00:00",
+          "updatedAt": "2026-10-21T17:34:12+00:00",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
           "defaultBranch": "main"
         }
@@ -138,7 +182,7 @@
       "topRepo": {
         "name": "ai-jailbreaks",
         "fullName": "Alejandros17487/ai-jailbreaks",
-        "stars": 204,
+        "stars": 205,
         "url": "https://github.com/Alejandros17487/ai-jailbreaks"
       },
       "enriched": true,
@@ -147,11 +191,11 @@
       "repoNames": [
         "Alejandros17487/ai-jailbreaks"
       ],
-      "starScore": 204
+      "starScore": 205
     },
     {
       "id": "345549330",
-      "rank": 4,
+      "rank": 5,
       "type": "Organization",
       "login": "pmarket-14",
       "repos": [
@@ -208,52 +252,52 @@
       "starScore": 163
     },
     {
-      "id": "14957082",
-      "rank": 5,
+      "id": "16208471",
+      "rank": 6,
       "type": "Organization",
-      "login": "openai",
+      "login": "NCSC-NL",
       "repos": [
         {
-          "id": 1427704805,
+          "id": 1428216799,
           "fork": false,
-          "name": "php2shell-checker",
-          "forks": 7,
-          "owner": "openai",
+          "name": "php2shell",
+          "forks": 21,
+          "owner": "NCSC-NL",
           "stars": 96,
-          "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/16208471?v=4",
           "topics": [],
-          "ownerId": "14957082",
-          "repoUrl": "https://github.com/openai/php2shell-checker",
+          "ownerId": "16208471",
+          "repoUrl": "https://github.com/NCSC-NL/php2shell",
           "archived": false,
-          "fullName": "openai/php2shell-checker",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/openai",
-          "pushedAt": "2026-10-21T05:06:27+00:00",
-          "createdAt": "2026-10-21T00:29:12+00:00",
+          "fullName": "NCSC-NL/php2shell",
+          "language": "Python",
+          "ownerUrl": "https://github.com/NCSC-NL",
+          "pushedAt": "2026-10-21T21:40:41+00:00",
+          "createdAt": "2026-10-21T10:21:40+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-21T17:22:09+00:00",
-          "description": "",
+          "updatedAt": "2026-10-21T21:45:36+00:00",
+          "description": "Operational information regarding the 2026 php2shell vulnerabilities  ",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/openai",
+      "htmlUrl": "https://github.com/NCSC-NL",
       "topRepo": {
-        "name": "php2shell-checker",
-        "fullName": "openai/php2shell-checker",
+        "name": "php2shell",
+        "fullName": "NCSC-NL/php2shell",
         "stars": 96,
-        "url": "https://github.com/openai/php2shell-checker"
+        "url": "https://github.com/NCSC-NL/php2shell"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16208471?v=4",
       "repoCount": 1,
       "repoNames": [
-        "openai/php2shell-checker"
+        "NCSC-NL/php2shell"
       ],
       "starScore": 96
     },
     {
       "id": "345816035",
-      "rank": 6,
+      "rank": 7,
       "type": "Organization",
       "login": "lol-tools-new",
       "repos": [
@@ -308,8 +352,52 @@
       "starScore": 95
     },
     {
+      "id": "192012301",
+      "rank": 8,
+      "type": "Organization",
+      "login": "browser-use",
+      "repos": [
+        {
+          "id": 1427877411,
+          "fork": false,
+          "name": "rl-env-use",
+          "forks": 4,
+          "owner": "browser-use",
+          "stars": 90,
+          "avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+          "topics": [],
+          "ownerId": "192012301",
+          "repoUrl": "https://github.com/browser-use/rl-env-use",
+          "archived": false,
+          "fullName": "browser-use/rl-env-use",
+          "language": "HTML",
+          "ownerUrl": "https://github.com/browser-use",
+          "pushedAt": "2026-10-21T04:32:02+00:00",
+          "createdAt": "2026-10-21T04:31:55+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-21T21:52:53+00:00",
+          "description": "Build RL environments for any domain from real cases that Browser Use agents mine from the web",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/browser-use",
+      "topRepo": {
+        "name": "rl-env-use",
+        "fullName": "browser-use/rl-env-use",
+        "stars": 90,
+        "url": "https://github.com/browser-use/rl-env-use"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "browser-use/rl-env-use"
+      ],
+      "starScore": 90
+    },
+    {
       "id": "345576375",
-      "rank": 7,
+      "rank": 9,
       "type": "Organization",
       "login": "DLSS-5-Swapper-Download-2026",
       "repos": [
@@ -319,7 +407,7 @@
           "name": ".github",
           "forks": 50,
           "owner": "DLSS-5-Swapper-Download-2026",
-          "stars": 85,
+          "stars": 86,
           "avatar": "https://avatars.githubusercontent.com/u/345576375?v=4",
           "topics": [
             "dlss",
@@ -336,7 +424,7 @@
           "pushedAt": "2026-10-21T00:41:02+00:00",
           "createdAt": "2026-10-21T00:33:59+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-21T17:12:10+00:00",
+          "updatedAt": "2026-10-21T21:12:16+00:00",
           "description": "DLSS 5 Swapper brings DLSS 5 installation and configuration into one desktop application, so you don't have to manage every game modification by hand. It can detect games from supported libraries, work with manually added game folders, and provide different installation routes depending on the game and its rendering setup.",
           "defaultBranch": "main"
         }
@@ -345,7 +433,7 @@
       "topRepo": {
         "name": ".github",
         "fullName": "DLSS-5-Swapper-Download-2026/.github",
-        "stars": 85,
+        "stars": 86,
         "url": "https://github.com/DLSS-5-Swapper-Download-2026/.github"
       },
       "enriched": true,
@@ -354,11 +442,11 @@
       "repoNames": [
         "DLSS-5-Swapper-Download-2026/.github"
       ],
-      "starScore": 85
+      "starScore": 86
     },
     {
       "id": "295650993",
-      "rank": 8,
+      "rank": 10,
       "type": "User",
       "login": "shareshellrelease",
       "repos": [
@@ -413,7 +501,7 @@
     },
     {
       "id": "295650977",
-      "rank": 9,
+      "rank": 11,
       "type": "User",
       "login": "slaterockweb",
       "repos": [
@@ -468,7 +556,7 @@
     },
     {
       "id": "295650829",
-      "rank": 10,
+      "rank": 12,
       "type": "User",
       "login": "ThresholdSummoner",
       "repos": [
@@ -525,7 +613,7 @@
     },
     {
       "id": "295650926",
-      "rank": 11,
+      "rank": 13,
       "type": "User",
       "login": "Torrentthefoundry",
       "repos": [
@@ -585,301 +673,67 @@
       "starScore": 80
     },
     {
-      "id": "192012301",
-      "rank": 12,
-      "type": "Organization",
-      "login": "browser-use",
-      "repos": [
-        {
-          "id": 1427877411,
-          "fork": false,
-          "name": "rl-env-use",
-          "forks": 4,
-          "owner": "browser-use",
-          "stars": 71,
-          "avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
-          "topics": [],
-          "ownerId": "192012301",
-          "repoUrl": "https://github.com/browser-use/rl-env-use",
-          "archived": false,
-          "fullName": "browser-use/rl-env-use",
-          "language": "HTML",
-          "ownerUrl": "https://github.com/browser-use",
-          "pushedAt": "2026-10-21T04:32:02+00:00",
-          "createdAt": "2026-10-21T04:31:55+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-21T17:11:38+00:00",
-          "description": "Build RL environments for any domain from real cases that Browser Use agents mine from the web",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/browser-use",
-      "topRepo": {
-        "name": "rl-env-use",
-        "fullName": "browser-use/rl-env-use",
-        "stars": 71,
-        "url": "https://github.com/browser-use/rl-env-use"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/192012301?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "browser-use/rl-env-use"
-      ],
-      "starScore": 71
-    },
-    {
-      "id": "332790452",
-      "rank": 13,
-      "type": "User",
-      "login": "qianshuixia",
-      "repos": [
-        {
-          "id": 1427392527,
-          "fork": false,
-          "name": "shrimpreel",
-          "forks": 15,
-          "owner": "qianshuixia",
-          "stars": 71,
-          "avatar": "https://avatars.githubusercontent.com/u/332790452?v=4",
-          "topics": [
-            "ai-video",
-            "cloudflare-d1",
-            "cloudflare-r2",
-            "cloudflare-workers",
-            "fal-ai",
-            "hono",
-            "image-to-video",
-            "react",
-            "saas-boilerplate",
-            "saas-template",
-            "tanstack-start",
-            "typescript"
-          ],
-          "ownerId": "332790452",
-          "repoUrl": "https://github.com/qianshuixia/shrimpreel",
-          "archived": false,
-          "fullName": "qianshuixia/shrimpreel",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/qianshuixia",
-          "pushedAt": "2026-10-21T16:54:31+00:00",
-          "createdAt": "2026-10-20T18:08:00+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:00:53+00:00",
-          "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Dodo), fal.ai video generation, admin console.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/qianshuixia",
-      "topRepo": {
-        "name": "shrimpreel",
-        "fullName": "qianshuixia/shrimpreel",
-        "stars": 71,
-        "url": "https://github.com/qianshuixia/shrimpreel"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/332790452?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "qianshuixia/shrimpreel"
-      ],
-      "starScore": 71
-    },
-    {
-      "id": "195101006",
+      "id": "346015843",
       "rank": 14,
-      "type": "User",
-      "login": "migasrias2",
+      "type": "Organization",
+      "login": "DLSS-5-Swapper-Update-Download",
       "repos": [
         {
-          "id": 1427362051,
+          "id": 1428872290,
           "fork": false,
-          "name": "geckobox",
-          "forks": 7,
-          "owner": "migasrias2",
-          "stars": 64,
-          "avatar": "https://avatars.githubusercontent.com/u/195101006?v=4",
+          "name": ".github",
+          "forks": 0,
+          "owner": "DLSS-5-Swapper-Update-Download",
+          "stars": 76,
+          "avatar": "https://avatars.githubusercontent.com/u/346015843?v=4",
           "topics": [
-            "claude-code",
-            "codex",
-            "coding-agents",
-            "open-source",
-            "ssh"
+            "dlss",
+            "dlss-5",
+            "dlss-5-games",
+            "dlss-5-mod",
+            "dlss-5-nvidia",
+            "dlss-5-release",
+            "dlss-5-swapper",
+            "dlss-5-swapper-download",
+            "dlss-5-swapper-windows-download",
+            "dlss-swapper",
+            "dlss-swapper-software",
+            "dlss5",
+            "dlss5-swapper",
+            "dlss5-swapper-download"
           ],
-          "ownerId": "195101006",
-          "repoUrl": "https://github.com/migasrias2/geckobox",
+          "ownerId": "346015843",
+          "repoUrl": "https://github.com/DLSS-5-Swapper-Update-Download/.github",
           "archived": false,
-          "fullName": "migasrias2/geckobox",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/migasrias2",
-          "pushedAt": "2026-10-20T19:51:40+00:00",
-          "createdAt": "2026-10-20T17:39:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T15:56:46+00:00",
-          "description": "Run Claude Code, Codex or any coding agent on any of your computers, and jobs across all of them at once. Free, MIT, no relay, no limits.",
+          "fullName": "DLSS-5-Swapper-Update-Download/.github",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/DLSS-5-Swapper-Update-Download",
+          "pushedAt": "2026-10-21T20:08:11+00:00",
+          "createdAt": "2026-10-21T20:03:01+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-21T20:18:58+00:00",
+          "description": "DLSS 5 Swapper is a Windows utility designed to help users install and manage DLSS 5 neural-rendering components in compatible games and supported emulators.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/migasrias2",
+      "htmlUrl": "https://github.com/DLSS-5-Swapper-Update-Download",
       "topRepo": {
-        "name": "geckobox",
-        "fullName": "migasrias2/geckobox",
-        "stars": 64,
-        "url": "https://github.com/migasrias2/geckobox"
+        "name": ".github",
+        "fullName": "DLSS-5-Swapper-Update-Download/.github",
+        "stars": 76,
+        "url": "https://github.com/DLSS-5-Swapper-Update-Download/.github"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/195101006?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/346015843?v=4",
       "repoCount": 1,
       "repoNames": [
-        "migasrias2/geckobox"
+        "DLSS-5-Swapper-Update-Download/.github"
       ],
-      "starScore": 64
-    },
-    {
-      "id": "56734993",
-      "rank": 15,
-      "type": "User",
-      "login": "MauroProto",
-      "repos": [
-        {
-          "id": 1427887782,
-          "fork": false,
-          "name": "wii-tv",
-          "forks": 2,
-          "owner": "MauroProto",
-          "stars": 55,
-          "avatar": "https://avatars.githubusercontent.com/u/56734993?v=4",
-          "topics": [],
-          "ownerId": "56734993",
-          "repoUrl": "https://github.com/MauroProto/wii-tv",
-          "archived": false,
-          "fullName": "MauroProto/wii-tv",
-          "language": "Java",
-          "ownerUrl": "https://github.com/MauroProto",
-          "pushedAt": "2026-10-21T05:24:54+00:00",
-          "createdAt": "2026-10-21T04:46:26+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:19:11+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/MauroProto",
-      "topRepo": {
-        "name": "wii-tv",
-        "fullName": "MauroProto/wii-tv",
-        "stars": 55,
-        "url": "https://github.com/MauroProto/wii-tv"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56734993?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "MauroProto/wii-tv"
-      ],
-      "starScore": 55
-    },
-    {
-      "id": "48071823",
-      "rank": 16,
-      "type": "User",
-      "login": "JulioNectar",
-      "repos": [
-        {
-          "id": 1427725169,
-          "fork": false,
-          "name": "Hackintosh-XPS13Plus-IrisXe-Tahoe",
-          "forks": 4,
-          "owner": "JulioNectar",
-          "stars": 51,
-          "avatar": "https://avatars.githubusercontent.com/u/48071823?v=4",
-          "topics": [
-            "hackintosh",
-            "intel-gpu",
-            "iris-xe",
-            "macos-tahoe",
-            "metal",
-            "nootedgreen",
-            "opencore",
-            "raptor-lake",
-            "xps-13-plus"
-          ],
-          "ownerId": "48071823",
-          "repoUrl": "https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
-          "archived": false,
-          "fullName": "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
-          "language": "C++",
-          "ownerUrl": "https://github.com/JulioNectar",
-          "pushedAt": "2026-10-21T16:56:16+00:00",
-          "createdAt": "2026-10-21T01:00:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:00:35+00:00",
-          "description": "Intel Iris Xe (Raptor Lake) Metal acceleration on macOS Tahoe — Dell XPS 13 Plus 9320 OpenCore hackintosh. Work in progress.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/JulioNectar",
-      "topRepo": {
-        "name": "Hackintosh-XPS13Plus-IrisXe-Tahoe",
-        "fullName": "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
-        "stars": 51,
-        "url": "https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48071823?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe"
-      ],
-      "starScore": 51
-    },
-    {
-      "id": "28704143",
-      "rank": 17,
-      "type": "User",
-      "login": "Zer061",
-      "repos": [
-        {
-          "id": 1427813903,
-          "fork": false,
-          "name": "CVE-2026-109618",
-          "forks": 39,
-          "owner": "Zer061",
-          "stars": 51,
-          "avatar": "https://avatars.githubusercontent.com/u/28704143?v=4",
-          "topics": [],
-          "ownerId": "28704143",
-          "repoUrl": "https://github.com/Zer061/CVE-2026-109618",
-          "archived": false,
-          "fullName": "Zer061/CVE-2026-109618",
-          "language": "Python",
-          "ownerUrl": "https://github.com/Zer061",
-          "pushedAt": "2026-10-21T15:24:41+00:00",
-          "createdAt": "2026-10-21T03:06:03+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T16:22:47+00:00",
-          "description": "PoC CVE-2026-109618 / -109619 (PHP session.upload_progress heap UAF)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Zer061",
-      "topRepo": {
-        "name": "CVE-2026-109618",
-        "fullName": "Zer061/CVE-2026-109618",
-        "stars": 51,
-        "url": "https://github.com/Zer061/CVE-2026-109618"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28704143?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Zer061/CVE-2026-109618"
-      ],
-      "starScore": 51
+      "starScore": 76
     },
     {
       "id": "77525145",
-      "rank": 18,
+      "rank": 15,
       "type": "User",
       "login": "junaire",
       "repos": [
@@ -887,9 +741,9 @@
           "id": 1428313078,
           "fork": false,
           "name": "CVE-2026-109618-exploit",
-          "forks": 38,
+          "forks": 49,
           "owner": "junaire",
-          "stars": 50,
+          "stars": 74,
           "avatar": "https://avatars.githubusercontent.com/u/77525145?v=4",
           "topics": [],
           "ownerId": "77525145",
@@ -901,7 +755,7 @@
           "pushedAt": "2026-10-21T11:52:57+00:00",
           "createdAt": "2026-10-21T11:52:39+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T17:19:28+00:00",
+          "updatedAt": "2026-10-21T21:46:41+00:00",
           "description": "",
           "defaultBranch": "main"
         }
@@ -910,7 +764,7 @@
       "topRepo": {
         "name": "CVE-2026-109618-exploit",
         "fullName": "junaire/CVE-2026-109618-exploit",
-        "stars": 50,
+        "stars": 74,
         "url": "https://github.com/junaire/CVE-2026-109618-exploit"
       },
       "enriched": true,
@@ -919,99 +773,55 @@
       "repoNames": [
         "junaire/CVE-2026-109618-exploit"
       ],
-      "starScore": 50
+      "starScore": 74
     },
     {
-      "id": "345463088",
-      "rank": 19,
-      "type": "Organization",
-      "login": "Melty-Mashups",
+      "id": "56734993",
+      "rank": 16,
+      "type": "User",
+      "login": "MauroProto",
       "repos": [
         {
-          "id": 1427367471,
+          "id": 1427887782,
           "fork": false,
-          "name": ".github",
-          "forks": 0,
-          "owner": "Melty-Mashups",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/345463088?v=4",
+          "name": "wii-tv",
+          "forks": 4,
+          "owner": "MauroProto",
+          "stars": 69,
+          "avatar": "https://avatars.githubusercontent.com/u/56734993?v=4",
           "topics": [],
-          "ownerId": "345463088",
-          "repoUrl": "https://github.com/Melty-Mashups/.github",
+          "ownerId": "56734993",
+          "repoUrl": "https://github.com/MauroProto/wii-tv",
           "archived": false,
-          "fullName": "Melty-Mashups/.github",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Melty-Mashups",
-          "pushedAt": "2026-10-20T17:47:35+00:00",
-          "createdAt": "2026-10-20T17:44:34+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-20T18:45:17+00:00",
-          "description": "Melty is a Windows desktop application designed to make game mashups and mods easier to discover, install, and play. It brings together compatible game combinations in one interface, allowing players to launch supported mashups with a simple Play action.",
+          "fullName": "MauroProto/wii-tv",
+          "language": "Java",
+          "ownerUrl": "https://github.com/MauroProto",
+          "pushedAt": "2026-10-21T18:31:49+00:00",
+          "createdAt": "2026-10-21T04:46:26+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T21:52:25+00:00",
+          "description": "",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Melty-Mashups",
+      "htmlUrl": "https://github.com/MauroProto",
       "topRepo": {
-        "name": ".github",
-        "fullName": "Melty-Mashups/.github",
-        "stars": 50,
-        "url": "https://github.com/Melty-Mashups/.github"
+        "name": "wii-tv",
+        "fullName": "MauroProto/wii-tv",
+        "stars": 69,
+        "url": "https://github.com/MauroProto/wii-tv"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/345463088?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56734993?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Melty-Mashups/.github"
+        "MauroProto/wii-tv"
       ],
-      "starScore": 50
-    },
-    {
-      "id": "16208471",
-      "rank": 20,
-      "type": "Organization",
-      "login": "NCSC-NL",
-      "repos": [
-        {
-          "id": 1428216799,
-          "fork": false,
-          "name": "php2shell",
-          "forks": 11,
-          "owner": "NCSC-NL",
-          "stars": 50,
-          "avatar": "https://avatars.githubusercontent.com/u/16208471?v=4",
-          "topics": [],
-          "ownerId": "16208471",
-          "repoUrl": "https://github.com/NCSC-NL/php2shell",
-          "archived": false,
-          "fullName": "NCSC-NL/php2shell",
-          "language": "Python",
-          "ownerUrl": "https://github.com/NCSC-NL",
-          "pushedAt": "2026-10-21T17:03:18+00:00",
-          "createdAt": "2026-10-21T10:21:40+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-21T17:19:28+00:00",
-          "description": "Operational information regarding the 2026 php2shell vulnerabilities  ",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/NCSC-NL",
-      "topRepo": {
-        "name": "php2shell",
-        "fullName": "NCSC-NL/php2shell",
-        "stars": 50,
-        "url": "https://github.com/NCSC-NL/php2shell"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16208471?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "NCSC-NL/php2shell"
-      ],
-      "starScore": 50
+      "starScore": 69
     },
     {
       "id": "61054142",
-      "rank": 21,
+      "rank": 17,
       "type": "User",
       "login": "h9-tec",
       "repos": [
@@ -1019,9 +829,9 @@
           "id": 1428348059,
           "fork": false,
           "name": "ai-roadmap-2026",
-          "forks": 6,
+          "forks": 7,
           "owner": "h9-tec",
-          "stars": 48,
+          "stars": 68,
           "avatar": "https://avatars.githubusercontent.com/u/61054142?v=4",
           "topics": [
             "agents",
@@ -1042,7 +852,7 @@
           "pushedAt": "2026-10-21T12:56:31+00:00",
           "createdAt": "2026-10-21T12:23:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T17:22:19+00:00",
+          "updatedAt": "2026-10-21T21:23:01+00:00",
           "description": "AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, with verified free resources and a mini-project per layer",
           "defaultBranch": "main"
         }
@@ -1051,7 +861,7 @@
       "topRepo": {
         "name": "ai-roadmap-2026",
         "fullName": "h9-tec/ai-roadmap-2026",
-        "stars": 48,
+        "stars": 68,
         "url": "https://github.com/h9-tec/ai-roadmap-2026"
       },
       "enriched": true,
@@ -1060,11 +870,65 @@
       "repoNames": [
         "h9-tec/ai-roadmap-2026"
       ],
-      "starScore": 48
+      "starScore": 68
+    },
+    {
+      "id": "48071823",
+      "rank": 18,
+      "type": "User",
+      "login": "JulioNectar",
+      "repos": [
+        {
+          "id": 1427725169,
+          "fork": false,
+          "name": "Hackintosh-XPS13Plus-IrisXe-Tahoe",
+          "forks": 4,
+          "owner": "JulioNectar",
+          "stars": 61,
+          "avatar": "https://avatars.githubusercontent.com/u/48071823?v=4",
+          "topics": [
+            "hackintosh",
+            "intel-gpu",
+            "iris-xe",
+            "macos-tahoe",
+            "metal",
+            "nootedgreen",
+            "opencore",
+            "raptor-lake",
+            "xps-13-plus"
+          ],
+          "ownerId": "48071823",
+          "repoUrl": "https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
+          "archived": false,
+          "fullName": "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
+          "language": "C++",
+          "ownerUrl": "https://github.com/JulioNectar",
+          "pushedAt": "2026-10-21T21:53:33+00:00",
+          "createdAt": "2026-10-21T01:00:15+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T21:53:37+00:00",
+          "description": "Intel Iris Xe (Raptor Lake) Metal acceleration on macOS Tahoe — Dell XPS 13 Plus 9320 OpenCore hackintosh. Work in progress.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/JulioNectar",
+      "topRepo": {
+        "name": "Hackintosh-XPS13Plus-IrisXe-Tahoe",
+        "fullName": "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe",
+        "stars": 61,
+        "url": "https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48071823?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe"
+      ],
+      "starScore": 61
     },
     {
       "id": "7361944",
-      "rank": 22,
+      "rank": 19,
       "type": "Organization",
       "login": "syhunt",
       "repos": [
@@ -1074,7 +938,7 @@
           "name": "php2shell-protection",
           "forks": 6,
           "owner": "syhunt",
-          "stars": 46,
+          "stars": 60,
           "avatar": "https://avatars.githubusercontent.com/u/7361944?v=4",
           "topics": [
             "apache",
@@ -1093,10 +957,10 @@
           "fullName": "syhunt/php2shell-protection",
           "language": "PHP",
           "ownerUrl": "https://github.com/syhunt",
-          "pushedAt": "2026-10-21T14:38:15+00:00",
+          "pushedAt": "2026-10-21T17:23:01+00:00",
           "createdAt": "2026-10-21T04:01:24+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-21T15:56:26+00:00",
+          "updatedAt": "2026-10-21T21:52:09+00:00",
           "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
           "defaultBranch": "main"
         }
@@ -1105,7 +969,7 @@
       "topRepo": {
         "name": "php2shell-protection",
         "fullName": "syhunt/php2shell-protection",
-        "stars": 46,
+        "stars": 60,
         "url": "https://github.com/syhunt/php2shell-protection"
       },
       "enriched": true,
@@ -1114,11 +978,231 @@
       "repoNames": [
         "syhunt/php2shell-protection"
       ],
-      "starScore": 46
+      "starScore": 60
+    },
+    {
+      "id": "5538957",
+      "rank": 20,
+      "type": "Organization",
+      "login": "HOSTED-POWER",
+      "repos": [
+        {
+          "id": 1428129890,
+          "fork": false,
+          "name": "php_uploadprogress_guard",
+          "forks": 4,
+          "owner": "HOSTED-POWER",
+          "stars": 53,
+          "avatar": "https://avatars.githubusercontent.com/u/5538957?v=4",
+          "topics": [],
+          "ownerId": "5538957",
+          "repoUrl": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
+          "archived": false,
+          "fullName": "HOSTED-POWER/php_uploadprogress_guard",
+          "language": "C",
+          "ownerUrl": "https://github.com/HOSTED-POWER",
+          "pushedAt": "2026-10-21T21:42:22+00:00",
+          "createdAt": "2026-10-21T09:00:12+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-21T21:47:19+00:00",
+          "description": "Stopgap for php2shell (CVE-2026-109618 / CVE-2026-109619): tiny PHP extension that detaches the session upload-progress handler at startup. PHP 5.6-8.5, Debian/Sury, cPanel, DirectAdmin.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/HOSTED-POWER",
+      "topRepo": {
+        "name": "php_uploadprogress_guard",
+        "fullName": "HOSTED-POWER/php_uploadprogress_guard",
+        "stars": 53,
+        "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5538957?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "HOSTED-POWER/php_uploadprogress_guard"
+      ],
+      "starScore": 53
+    },
+    {
+      "id": "28704143",
+      "rank": 21,
+      "type": "User",
+      "login": "Zer061",
+      "repos": [
+        {
+          "id": 1427813903,
+          "fork": false,
+          "name": "CVE-2026-109618",
+          "forks": 39,
+          "owner": "Zer061",
+          "stars": 52,
+          "avatar": "https://avatars.githubusercontent.com/u/28704143?v=4",
+          "topics": [],
+          "ownerId": "28704143",
+          "repoUrl": "https://github.com/Zer061/CVE-2026-109618",
+          "archived": false,
+          "fullName": "Zer061/CVE-2026-109618",
+          "language": "Python",
+          "ownerUrl": "https://github.com/Zer061",
+          "pushedAt": "2026-10-21T18:36:21+00:00",
+          "createdAt": "2026-10-21T03:06:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T20:57:09+00:00",
+          "description": "PoC CVE-2026-109618 / -109619 (PHP session.upload_progress heap UAF)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Zer061",
+      "topRepo": {
+        "name": "CVE-2026-109618",
+        "fullName": "Zer061/CVE-2026-109618",
+        "stars": 52,
+        "url": "https://github.com/Zer061/CVE-2026-109618"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28704143?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Zer061/CVE-2026-109618"
+      ],
+      "starScore": 52
+    },
+    {
+      "id": "44614771",
+      "rank": 22,
+      "type": "User",
+      "login": "victaphu",
+      "repos": [
+        {
+          "id": 1428333770,
+          "fork": false,
+          "name": "glass-home-samsung-tv",
+          "forks": 4,
+          "owner": "victaphu",
+          "stars": 47,
+          "avatar": "https://avatars.githubusercontent.com/u/44614771?v=4",
+          "topics": [],
+          "ownerId": "44614771",
+          "repoUrl": "https://github.com/victaphu/glass-home-samsung-tv",
+          "archived": false,
+          "fullName": "victaphu/glass-home-samsung-tv",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/victaphu",
+          "pushedAt": "2026-10-21T12:13:06+00:00",
+          "createdAt": "2026-10-21T12:11:11+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T21:51:35+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/victaphu",
+      "topRepo": {
+        "name": "glass-home-samsung-tv",
+        "fullName": "victaphu/glass-home-samsung-tv",
+        "stars": 47,
+        "url": "https://github.com/victaphu/glass-home-samsung-tv"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44614771?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "victaphu/glass-home-samsung-tv"
+      ],
+      "starScore": 47
+    },
+    {
+      "id": "28628075",
+      "rank": 23,
+      "type": "User",
+      "login": "leontdi",
+      "repos": [
+        {
+          "id": 1428223364,
+          "fork": false,
+          "name": "marco-familiar-dashboard",
+          "forks": 4,
+          "owner": "leontdi",
+          "stars": 45,
+          "avatar": "https://avatars.githubusercontent.com/u/28628075?v=4",
+          "topics": [],
+          "ownerId": "28628075",
+          "repoUrl": "https://github.com/leontdi/marco-familiar-dashboard",
+          "archived": false,
+          "fullName": "leontdi/marco-familiar-dashboard",
+          "language": "Kotlin",
+          "ownerUrl": "https://github.com/leontdi",
+          "pushedAt": "2026-10-21T20:18:34+00:00",
+          "createdAt": "2026-10-21T10:28:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T21:47:16+00:00",
+          "description": "Marco de fotos convertido en panel familiar de pared: calendario iCal, turnos, tareas de los niños, compra, luz y Home Assistant. Basado en Planify-Dashboard de eusonlito.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/leontdi",
+      "topRepo": {
+        "name": "marco-familiar-dashboard",
+        "fullName": "leontdi/marco-familiar-dashboard",
+        "stars": 45,
+        "url": "https://github.com/leontdi/marco-familiar-dashboard"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28628075?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "leontdi/marco-familiar-dashboard"
+      ],
+      "starScore": 45
+    },
+    {
+      "id": "10039563",
+      "rank": 24,
+      "type": "User",
+      "login": "frxnnk",
+      "repos": [
+        {
+          "id": 1427806987,
+          "fork": false,
+          "name": "webos-liquid-glass-launcher",
+          "forks": 4,
+          "owner": "frxnnk",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/10039563?v=4",
+          "topics": [],
+          "ownerId": "10039563",
+          "repoUrl": "https://github.com/frxnnk/webos-liquid-glass-launcher",
+          "archived": false,
+          "fullName": "frxnnk/webos-liquid-glass-launcher",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/frxnnk",
+          "pushedAt": "2026-10-21T21:45:21+00:00",
+          "createdAt": "2026-10-21T02:56:44+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-21T21:44:08+00:00",
+          "description": "Launcher Liquid Glass para LG webOS 5 sin root: tutorial reproducible, app web por Developer Mode, clima, fotos diarias y limpieza segura.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/frxnnk",
+      "topRepo": {
+        "name": "webos-liquid-glass-launcher",
+        "fullName": "frxnnk/webos-liquid-glass-launcher",
+        "stars": 43,
+        "url": "https://github.com/frxnnk/webos-liquid-glass-launcher"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10039563?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "frxnnk/webos-liquid-glass-launcher"
+      ],
+      "starScore": 43
     },
     {
       "id": "113048228",
-      "rank": 23,
+      "rank": 25,
       "type": "User",
       "login": "jnh12",
       "repos": [
@@ -1126,7 +1210,7 @@
           "id": 1428308730,
           "fork": false,
           "name": "agent-microvm",
-          "forks": 7,
+          "forks": 8,
           "owner": "jnh12",
           "stars": 43,
           "avatar": "https://avatars.githubusercontent.com/u/113048228?v=4",
@@ -1140,7 +1224,7 @@
           "pushedAt": "2026-10-21T16:50:19+00:00",
           "createdAt": "2026-10-21T11:48:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T16:41:48+00:00",
+          "updatedAt": "2026-10-21T19:02:46+00:00",
           "description": "Python SDK, CLI, and MCP tools for AWS-backed microVM sandboxes. ",
           "defaultBranch": "main"
         }
@@ -1161,466 +1245,156 @@
       "starScore": 43
     },
     {
-      "id": "113244907",
-      "rank": 24,
+      "id": "34966120",
+      "rank": 26,
       "type": "User",
-      "login": "reveny",
+      "login": "JoasASantos",
       "repos": [
         {
-          "id": 1427387554,
+          "id": 1428583003,
           "fork": false,
-          "name": "Android-Compatibility-Layer",
-          "forks": 4,
-          "owner": "reveny",
+          "name": "php2shell-scanner",
+          "forks": 15,
+          "owner": "JoasASantos",
           "stars": 43,
-          "avatar": "https://avatars.githubusercontent.com/u/113244907?v=4",
-          "topics": [],
-          "ownerId": "113244907",
-          "repoUrl": "https://github.com/reveny/Android-Compatibility-Layer",
+          "avatar": "https://avatars.githubusercontent.com/u/34966120?v=4",
+          "topics": [
+            "crtsh",
+            "cve",
+            "cve-2026-109618",
+            "cve-2026-109619",
+            "php",
+            "php-security",
+            "rce",
+            "security",
+            "subfinder",
+            "vulnerability-scanner"
+          ],
+          "ownerId": "34966120",
+          "repoUrl": "https://github.com/JoasASantos/php2shell-scanner",
           "archived": false,
-          "fullName": "reveny/Android-Compatibility-Layer",
-          "language": "C++",
-          "ownerUrl": "https://github.com/reveny",
-          "pushedAt": "2026-10-20T20:01:46+00:00",
-          "createdAt": "2026-10-20T18:03:10+00:00",
+          "fullName": "JoasASantos/php2shell-scanner",
+          "language": "Python",
+          "ownerUrl": "https://github.com/JoasASantos",
+          "pushedAt": "2026-10-21T18:44:33+00:00",
+          "createdAt": "2026-10-21T15:35:43+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T15:33:54+00:00",
-          "description": "A translation layer for Android on Linux. Run Android Apps and Games on Linux",
+          "updatedAt": "2026-10-21T21:46:36+00:00",
+          "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/reveny",
+      "htmlUrl": "https://github.com/JoasASantos",
       "topRepo": {
-        "name": "Android-Compatibility-Layer",
-        "fullName": "reveny/Android-Compatibility-Layer",
+        "name": "php2shell-scanner",
+        "fullName": "JoasASantos/php2shell-scanner",
         "stars": 43,
-        "url": "https://github.com/reveny/Android-Compatibility-Layer"
+        "url": "https://github.com/JoasASantos/php2shell-scanner"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113244907?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34966120?v=4",
       "repoCount": 1,
       "repoNames": [
-        "reveny/Android-Compatibility-Layer"
+        "JoasASantos/php2shell-scanner"
       ],
       "starScore": 43
     },
     {
-      "id": "5538957",
-      "rank": 25,
-      "type": "Organization",
-      "login": "HOSTED-POWER",
-      "repos": [
-        {
-          "id": 1428129890,
-          "fork": false,
-          "name": "php_uploadprogress_guard",
-          "forks": 3,
-          "owner": "HOSTED-POWER",
-          "stars": 41,
-          "avatar": "https://avatars.githubusercontent.com/u/5538957?v=4",
-          "topics": [],
-          "ownerId": "5538957",
-          "repoUrl": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-          "archived": false,
-          "fullName": "HOSTED-POWER/php_uploadprogress_guard",
-          "language": "C",
-          "ownerUrl": "https://github.com/HOSTED-POWER",
-          "pushedAt": "2026-10-21T15:53:33+00:00",
-          "createdAt": "2026-10-21T09:00:12+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-21T16:46:48+00:00",
-          "description": "Stopgap for php2shell (CVE-2026-109618 / CVE-2026-109619): tiny PHP extension that detaches the session upload-progress handler at startup. PHP 5.6-8.5, Debian/Sury, cPanel, DirectAdmin.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/HOSTED-POWER",
-      "topRepo": {
-        "name": "php_uploadprogress_guard",
-        "fullName": "HOSTED-POWER/php_uploadprogress_guard",
-        "stars": 41,
-        "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5538957?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "HOSTED-POWER/php_uploadprogress_guard"
-      ],
-      "starScore": 41
-    },
-    {
-      "id": "3851678",
-      "rank": 26,
-      "type": "User",
-      "login": "dinosn",
-      "repos": [
-        {
-          "id": 1427463371,
-          "fork": false,
-          "name": "php-cve-2026-10961x-lab-poc",
-          "forks": 6,
-          "owner": "dinosn",
-          "stars": 38,
-          "avatar": "https://avatars.githubusercontent.com/u/3851678?v=4",
-          "topics": [
-            "cve-2026-109618",
-            "cve-2026-109619",
-            "exploit",
-            "memory-corruption",
-            "php",
-            "php2shell",
-            "rce",
-            "rfc1867",
-            "security-research",
-            "session-upload-progress"
-          ],
-          "ownerId": "3851678",
-          "repoUrl": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc",
-          "archived": false,
-          "fullName": "dinosn/php-cve-2026-10961x-lab-poc",
-          "language": "Python",
-          "ownerUrl": "https://github.com/dinosn",
-          "pushedAt": "2026-10-21T17:06:45+00:00",
-          "createdAt": "2026-10-20T19:16:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:17:05+00:00",
-          "description": "PHP CVE-2026-109618/109619 — self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie memory disclosure + UAF chain), full control ladders, fixed-version negative control on 8.5.12",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dinosn",
-      "topRepo": {
-        "name": "php-cve-2026-10961x-lab-poc",
-        "fullName": "dinosn/php-cve-2026-10961x-lab-poc",
-        "stars": 38,
-        "url": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3851678?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dinosn/php-cve-2026-10961x-lab-poc"
-      ],
-      "starScore": 38
-    },
-    {
-      "id": "126416405",
+      "id": "93810179",
       "rank": 27,
       "type": "User",
-      "login": "TonmoyNaimur",
+      "login": "xingjian-bai",
       "repos": [
         {
-          "id": 1427411023,
+          "id": 1428486097,
           "fork": false,
-          "name": "split-ticket-finder",
-          "forks": 12,
-          "owner": "TonmoyNaimur",
-          "stars": 38,
-          "avatar": "https://avatars.githubusercontent.com/u/126416405?v=4",
-          "topics": [],
-          "ownerId": "126416405",
-          "repoUrl": "https://github.com/TonmoyNaimur/split-ticket-finder",
-          "archived": false,
-          "fullName": "TonmoyNaimur/split-ticket-finder",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/TonmoyNaimur",
-          "pushedAt": "2026-10-20T18:26:40+00:00",
-          "createdAt": "2026-10-20T18:25:30+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:18:16+00:00",
-          "description": "This is a Chrome extension that scans all possible combinations of train stations to find available tickets. Simply enter your trip details, but please be sure to verify the auto-detected station list and manually add any missing stops before scanning.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TonmoyNaimur",
-      "topRepo": {
-        "name": "split-ticket-finder",
-        "fullName": "TonmoyNaimur/split-ticket-finder",
-        "stars": 38,
-        "url": "https://github.com/TonmoyNaimur/split-ticket-finder"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/126416405?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TonmoyNaimur/split-ticket-finder"
-      ],
-      "starScore": 38
-    },
-    {
-      "id": "10039563",
-      "rank": 28,
-      "type": "User",
-      "login": "frxnnk",
-      "repos": [
-        {
-          "id": 1427806987,
-          "fork": false,
-          "name": "webos-liquid-glass-launcher",
-          "forks": 4,
-          "owner": "frxnnk",
-          "stars": 36,
-          "avatar": "https://avatars.githubusercontent.com/u/10039563?v=4",
-          "topics": [],
-          "ownerId": "10039563",
-          "repoUrl": "https://github.com/frxnnk/webos-liquid-glass-launcher",
-          "archived": false,
-          "fullName": "frxnnk/webos-liquid-glass-launcher",
-          "language": "JavaScript",
-          "ownerUrl": "https://github.com/frxnnk",
-          "pushedAt": "2026-10-21T04:47:16+00:00",
-          "createdAt": "2026-10-21T02:56:44+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:22:26+00:00",
-          "description": "Launcher Liquid Glass para LG webOS 5 sin root: tutorial reproducible, app web por Developer Mode, clima, fotos diarias y limpieza segura.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/frxnnk",
-      "topRepo": {
-        "name": "webos-liquid-glass-launcher",
-        "fullName": "frxnnk/webos-liquid-glass-launcher",
-        "stars": 36,
-        "url": "https://github.com/frxnnk/webos-liquid-glass-launcher"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10039563?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "frxnnk/webos-liquid-glass-launcher"
-      ],
-      "starScore": 36
-    },
-    {
-      "id": "337555733",
-      "rank": 29,
-      "type": "User",
-      "login": "TanookiStudios",
-      "repos": [
-        {
-          "id": 1427524064,
-          "fork": false,
-          "name": "SuperMarioAllStarsRecomp",
-          "forks": 0,
-          "owner": "TanookiStudios",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/337555733?v=4",
-          "topics": [],
-          "ownerId": "337555733",
-          "repoUrl": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp",
-          "archived": false,
-          "fullName": "TanookiStudios/SuperMarioAllStarsRecomp",
-          "language": "Java",
-          "ownerUrl": "https://github.com/TanookiStudios",
-          "pushedAt": "2026-10-21T13:51:16+00:00",
-          "createdAt": "2026-10-20T20:20:45+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T14:34:10+00:00",
-          "description": "Super Mario All-Stars (SNES), native for Mac, Windows and Linux. Bring your own ROM.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TanookiStudios",
-      "topRepo": {
-        "name": "SuperMarioAllStarsRecomp",
-        "fullName": "TanookiStudios/SuperMarioAllStarsRecomp",
-        "stars": 34,
-        "url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/337555733?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TanookiStudios/SuperMarioAllStarsRecomp"
-      ],
-      "starScore": 34
-    },
-    {
-      "id": "28628075",
-      "rank": 30,
-      "type": "User",
-      "login": "leontdi",
-      "repos": [
-        {
-          "id": 1428223364,
-          "fork": false,
-          "name": "marco-familiar-dashboard",
-          "forks": 2,
-          "owner": "leontdi",
-          "stars": 33,
-          "avatar": "https://avatars.githubusercontent.com/u/28628075?v=4",
-          "topics": [],
-          "ownerId": "28628075",
-          "repoUrl": "https://github.com/leontdi/marco-familiar-dashboard",
-          "archived": false,
-          "fullName": "leontdi/marco-familiar-dashboard",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/leontdi",
-          "pushedAt": "2026-10-21T13:16:51+00:00",
-          "createdAt": "2026-10-21T10:28:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T16:49:07+00:00",
-          "description": "Marco de fotos convertido en panel familiar de pared: calendario iCal, turnos, tareas de los niños, compra, luz y Home Assistant. Basado en Planify-Dashboard de eusonlito.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/leontdi",
-      "topRepo": {
-        "name": "marco-familiar-dashboard",
-        "fullName": "leontdi/marco-familiar-dashboard",
-        "stars": 33,
-        "url": "https://github.com/leontdi/marco-familiar-dashboard"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28628075?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "leontdi/marco-familiar-dashboard"
-      ],
-      "starScore": 33
-    },
-    {
-      "id": "159762123",
-      "rank": 31,
-      "type": "User",
-      "login": "Jarvis322",
-      "repos": [
-        {
-          "id": 1427482875,
-          "fork": false,
-          "name": "matinee",
-          "forks": 2,
-          "owner": "Jarvis322",
-          "stars": 32,
-          "avatar": "https://avatars.githubusercontent.com/u/159762123?v=4",
-          "topics": [],
-          "ownerId": "159762123",
-          "repoUrl": "https://github.com/Jarvis322/matinee",
-          "archived": false,
-          "fullName": "Jarvis322/matinee",
-          "language": "Kotlin",
-          "ownerUrl": "https://github.com/Jarvis322",
-          "pushedAt": "2026-10-21T09:21:02+00:00",
-          "createdAt": "2026-10-20T19:36:52+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T17:17:42+00:00",
-          "description": "A calm, ad-free home screen for Google TV and Android TV",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Jarvis322",
-      "topRepo": {
-        "name": "matinee",
-        "fullName": "Jarvis322/matinee",
-        "stars": 32,
-        "url": "https://github.com/Jarvis322/matinee"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159762123?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Jarvis322/matinee"
-      ],
-      "starScore": 32
-    },
-    {
-      "id": "2657310",
-      "rank": 32,
-      "type": "User",
-      "login": "J7mbo",
-      "repos": [
-        {
-          "id": 1427412812,
-          "fork": false,
-          "name": "nasbridge-ps5",
-          "forks": 1,
-          "owner": "J7mbo",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/2657310?v=4",
-          "topics": [],
-          "ownerId": "2657310",
-          "repoUrl": "https://github.com/J7mbo/nasbridge-ps5",
-          "archived": false,
-          "fullName": "J7mbo/nasbridge-ps5",
-          "language": "C++",
-          "ownerUrl": "https://github.com/J7mbo",
-          "pushedAt": "2026-10-21T07:27:40+00:00",
-          "createdAt": "2026-10-20T18:27:17+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T11:01:24+00:00",
-          "description": "A native PS5 homebrew app to browse and install games from your NAS.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/J7mbo",
-      "topRepo": {
-        "name": "nasbridge-ps5",
-        "fullName": "J7mbo/nasbridge-ps5",
-        "stars": 24,
-        "url": "https://github.com/J7mbo/nasbridge-ps5"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2657310?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "J7mbo/nasbridge-ps5"
-      ],
-      "starScore": 24
-    },
-    {
-      "id": "169173219",
-      "rank": 33,
-      "type": "User",
-      "login": "Floppikrob",
-      "repos": [
-        {
-          "id": 1427522198,
-          "fork": false,
-          "name": "ios-galaxy-s8",
-          "forks": 6,
-          "owner": "Floppikrob",
-          "stars": 21,
-          "avatar": "https://avatars.githubusercontent.com/u/169173219?v=4",
+          "name": "opal",
+          "forks": 3,
+          "owner": "xingjian-bai",
+          "stars": 43,
+          "avatar": "https://avatars.githubusercontent.com/u/93810179?v=4",
           "topics": [
-            "exynos",
-            "galaxy-s8",
-            "ios",
-            "porting",
-            "samsung",
-            "xnu"
+            "deep-learning",
+            "llm-agents",
+            "optimizer",
+            "pytorch"
           ],
-          "ownerId": "169173219",
-          "repoUrl": "https://github.com/Floppikrob/ios-galaxy-s8",
+          "ownerId": "93810179",
+          "repoUrl": "https://github.com/xingjian-bai/opal",
           "archived": false,
-          "fullName": "Floppikrob/ios-galaxy-s8",
+          "fullName": "xingjian-bai/opal",
           "language": "Python",
-          "ownerUrl": "https://github.com/Floppikrob",
-          "pushedAt": "2026-10-21T08:59:27+00:00",
-          "createdAt": "2026-10-20T20:18:46+00:00",
+          "ownerUrl": "https://github.com/xingjian-bai",
+          "pushedAt": "2026-10-21T20:44:27+00:00",
+          "createdAt": "2026-10-21T14:17:50+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-21T09:43:50+00:00",
-          "description": "iOS 16.7 on the Samsung Galaxy S8 (SM-G950F, Exynos 8895): XNU port, boots to the iOS lock screen",
+          "updatedAt": "2026-10-21T21:50:15+00:00",
+          "description": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Floppikrob",
+      "htmlUrl": "https://github.com/xingjian-bai",
       "topRepo": {
-        "name": "ios-galaxy-s8",
-        "fullName": "Floppikrob/ios-galaxy-s8",
-        "stars": 21,
-        "url": "https://github.com/Floppikrob/ios-galaxy-s8"
+        "name": "opal",
+        "fullName": "xingjian-bai/opal",
+        "stars": 43,
+        "url": "https://github.com/xingjian-bai/opal"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/169173219?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93810179?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Floppikrob/ios-galaxy-s8"
+        "xingjian-bai/opal"
       ],
-      "starScore": 21
+      "starScore": 43
+    },
+    {
+      "id": "345865269",
+      "rank": 28,
+      "type": "Organization",
+      "login": "recursive-oss",
+      "repos": [
+        {
+          "id": 1428583237,
+          "fork": false,
+          "name": "rec",
+          "forks": 1,
+          "owner": "recursive-oss",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/345865269?v=4",
+          "topics": [],
+          "ownerId": "345865269",
+          "repoUrl": "https://github.com/recursive-oss/rec",
+          "archived": false,
+          "fullName": "recursive-oss/rec",
+          "language": "Python",
+          "ownerUrl": "https://github.com/recursive-oss",
+          "pushedAt": "2026-10-21T15:56:26+00:00",
+          "createdAt": "2026-10-21T15:35:55+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-21T21:41:36+00:00",
+          "description": "Our lightning-fast inference engine.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/recursive-oss",
+      "topRepo": {
+        "name": "rec",
+        "fullName": "recursive-oss/rec",
+        "stars": 40,
+        "url": "https://github.com/recursive-oss/rec"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/345865269?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "recursive-oss/rec"
+      ],
+      "starScore": 40
     },
     {
       "id": "15110976",
-      "rank": 34,
+      "rank": 29,
       "type": "User",
       "login": "alexpiar",
       "repos": [
@@ -1677,94 +1451,6 @@
         "alexpiar/be-ambitious-harness"
       ],
       "starScore": 20
-    },
-    {
-      "id": "275997661",
-      "rank": 35,
-      "type": "Organization",
-      "login": "mornyeapp",
-      "repos": [
-        {
-          "id": 1427550791,
-          "fork": false,
-          "name": "Mornye-Desktop",
-          "forks": 1,
-          "owner": "mornyeapp",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/275997661?v=4",
-          "topics": [],
-          "ownerId": "275997661",
-          "repoUrl": "https://github.com/mornyeapp/Mornye-Desktop",
-          "archived": false,
-          "fullName": "mornyeapp/Mornye-Desktop",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/mornyeapp",
-          "pushedAt": "2026-10-20T20:50:30+00:00",
-          "createdAt": "2026-10-20T20:50:25+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-21T10:49:57+00:00",
-          "description": "Mornye for macOS, Windows and Linux. Coming soon.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mornyeapp",
-      "topRepo": {
-        "name": "Mornye-Desktop",
-        "fullName": "mornyeapp/Mornye-Desktop",
-        "stars": 20,
-        "url": "https://github.com/mornyeapp/Mornye-Desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/275997661?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mornyeapp/Mornye-Desktop"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "343371126",
-      "rank": 36,
-      "type": "User",
-      "login": "TifisCode",
-      "repos": [
-        {
-          "id": 1427516026,
-          "fork": false,
-          "name": "content-team-agents",
-          "forks": 2,
-          "owner": "TifisCode",
-          "stars": 19,
-          "avatar": "https://avatars.githubusercontent.com/u/343371126?v=4",
-          "topics": [],
-          "ownerId": "343371126",
-          "repoUrl": "https://github.com/TifisCode/content-team-agents",
-          "archived": false,
-          "fullName": "TifisCode/content-team-agents",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/TifisCode",
-          "pushedAt": "2026-10-20T20:25:25+00:00",
-          "createdAt": "2026-10-20T20:11:56+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-21T10:43:29+00:00",
-          "description": "Claude Code agent team (PM, Scout, Engineer, QA, Growth) plus YouTube and Instagram skills for running a content channel with human approval.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/TifisCode",
-      "topRepo": {
-        "name": "content-team-agents",
-        "fullName": "TifisCode/content-team-agents",
-        "stars": 19,
-        "url": "https://github.com/TifisCode/content-team-agents"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/343371126?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "TifisCode/content-team-agents"
-      ],
-      "starScore": 19
     }
   ]
 }
