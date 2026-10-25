@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-24T21:02:31.706Z",
-  "total": 20,
-  "totalIndexedCount": 20,
-  "coverageLabel": "Showing 20 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-10-25T04:58:51.236Z",
+  "total": 11,
+  "totalIndexedCount": 11,
+  "coverageLabel": "Showing 11 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,8 +10,96 @@
   },
   "rows": [
     {
-      "id": "347402468",
+      "id": "12623816",
       "rank": 1,
+      "type": "User",
+      "login": "songjianyang",
+      "repos": [
+        {
+          "id": 1432115490,
+          "fork": false,
+          "name": "xss-audit",
+          "forks": 62,
+          "owner": "songjianyang",
+          "stars": 241,
+          "avatar": "https://avatars.githubusercontent.com/u/12623816?v=4",
+          "topics": [],
+          "ownerId": "12623816",
+          "repoUrl": "https://github.com/songjianyang/xss-audit",
+          "archived": false,
+          "fullName": "songjianyang/xss-audit",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/songjianyang",
+          "pushedAt": "2026-10-24T11:32:55+00:00",
+          "createdAt": "2026-10-24T11:32:36+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T04:46:22+00:00",
+          "description": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/songjianyang",
+      "topRepo": {
+        "name": "xss-audit",
+        "fullName": "songjianyang/xss-audit",
+        "stars": 241,
+        "url": "https://github.com/songjianyang/xss-audit"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12623816?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "songjianyang/xss-audit"
+      ],
+      "starScore": 241
+    },
+    {
+      "id": "9479903",
+      "rank": 2,
+      "type": "User",
+      "login": "mirkobrombin",
+      "repos": [
+        {
+          "id": 1432413816,
+          "fork": false,
+          "name": "raven",
+          "forks": 6,
+          "owner": "mirkobrombin",
+          "stars": 239,
+          "avatar": "https://avatars.githubusercontent.com/u/9479903?v=4",
+          "topics": [],
+          "ownerId": "9479903",
+          "repoUrl": "https://github.com/mirkobrombin/raven",
+          "archived": false,
+          "fullName": "mirkobrombin/raven",
+          "language": "Go",
+          "ownerUrl": "https://github.com/mirkobrombin",
+          "pushedAt": "2026-10-24T17:17:19+00:00",
+          "createdAt": "2026-10-24T17:13:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T04:48:02+00:00",
+          "description": "A Windows your apps recognize.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mirkobrombin",
+      "topRepo": {
+        "name": "raven",
+        "fullName": "mirkobrombin/raven",
+        "stars": 239,
+        "url": "https://github.com/mirkobrombin/raven"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9479903?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mirkobrombin/raven"
+      ],
+      "starScore": 239
+    },
+    {
+      "id": "347402468",
+      "rank": 3,
       "type": "Organization",
       "login": "routerhubSI",
       "repos": [
@@ -119,94 +207,6 @@
       "starScore": 232
     },
     {
-      "id": "183226",
-      "rank": 2,
-      "type": "User",
-      "login": "ivarvong",
-      "repos": [
-        {
-          "id": 1431597980,
-          "fork": false,
-          "name": "lantern",
-          "forks": 6,
-          "owner": "ivarvong",
-          "stars": 196,
-          "avatar": "https://avatars.githubusercontent.com/u/183226?v=4",
-          "topics": [],
-          "ownerId": "183226",
-          "repoUrl": "https://github.com/ivarvong/lantern",
-          "archived": false,
-          "fullName": "ivarvong/lantern",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/ivarvong",
-          "pushedAt": "2026-10-24T19:46:26+00:00",
-          "createdAt": "2026-10-23T22:12:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:51:45+00:00",
-          "description": "Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ivarvong",
-      "topRepo": {
-        "name": "lantern",
-        "fullName": "ivarvong/lantern",
-        "stars": 196,
-        "url": "https://github.com/ivarvong/lantern"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/183226?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ivarvong/lantern"
-      ],
-      "starScore": 196
-    },
-    {
-      "id": "12623816",
-      "rank": 3,
-      "type": "User",
-      "login": "songjianyang",
-      "repos": [
-        {
-          "id": 1432115490,
-          "fork": false,
-          "name": "xss-audit",
-          "forks": 50,
-          "owner": "songjianyang",
-          "stars": 181,
-          "avatar": "https://avatars.githubusercontent.com/u/12623816?v=4",
-          "topics": [],
-          "ownerId": "12623816",
-          "repoUrl": "https://github.com/songjianyang/xss-audit",
-          "archived": false,
-          "fullName": "songjianyang/xss-audit",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/songjianyang",
-          "pushedAt": "2026-10-24T11:32:55+00:00",
-          "createdAt": "2026-10-24T11:32:36+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:50:20+00:00",
-          "description": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/songjianyang",
-      "topRepo": {
-        "name": "xss-audit",
-        "fullName": "songjianyang/xss-audit",
-        "stars": 181,
-        "url": "https://github.com/songjianyang/xss-audit"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12623816?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "songjianyang/xss-audit"
-      ],
-      "starScore": 181
-    },
-    {
       "id": "108530688",
       "rank": 4,
       "type": "User",
@@ -251,148 +251,8 @@
       "starScore": 164
     },
     {
-      "id": "9479903",
-      "rank": 5,
-      "type": "User",
-      "login": "mirkobrombin",
-      "repos": [
-        {
-          "id": 1432413816,
-          "fork": false,
-          "name": "raven",
-          "forks": 3,
-          "owner": "mirkobrombin",
-          "stars": 127,
-          "avatar": "https://avatars.githubusercontent.com/u/9479903?v=4",
-          "topics": [],
-          "ownerId": "9479903",
-          "repoUrl": "https://github.com/mirkobrombin/raven",
-          "archived": false,
-          "fullName": "mirkobrombin/raven",
-          "language": "Go",
-          "ownerUrl": "https://github.com/mirkobrombin",
-          "pushedAt": "2026-10-24T17:17:19+00:00",
-          "createdAt": "2026-10-24T17:13:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:53:57+00:00",
-          "description": "A Windows your apps recognize.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mirkobrombin",
-      "topRepo": {
-        "name": "raven",
-        "fullName": "mirkobrombin/raven",
-        "stars": 127,
-        "url": "https://github.com/mirkobrombin/raven"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9479903?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mirkobrombin/raven"
-      ],
-      "starScore": 127
-    },
-    {
-      "id": "256620642",
-      "rank": 6,
-      "type": "User",
-      "login": "ryderclanky",
-      "repos": [
-        {
-          "id": 1431576025,
-          "fork": false,
-          "name": "BotW-Native",
-          "forks": 3,
-          "owner": "ryderclanky",
-          "stars": 87,
-          "avatar": "https://avatars.githubusercontent.com/u/256620642?v=4",
-          "topics": [
-            "breath-of-the-wild",
-            "game-preservation",
-            "recompilation",
-            "static-recompilation",
-            "vulkan",
-            "wii-u",
-            "windows"
-          ],
-          "ownerId": "256620642",
-          "repoUrl": "https://github.com/ryderclanky/BotW-Native",
-          "archived": false,
-          "fullName": "ryderclanky/BotW-Native",
-          "language": "C++",
-          "ownerUrl": "https://github.com/ryderclanky",
-          "pushedAt": "2026-10-24T15:48:03+00:00",
-          "createdAt": "2026-10-23T21:41:37+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:50:13+00:00",
-          "description": "Static recompilation of Wii U Breath of the Wild (v1.5.0) to a native Windows program with a Vulkan backend. No game assets included.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ryderclanky",
-      "topRepo": {
-        "name": "BotW-Native",
-        "fullName": "ryderclanky/BotW-Native",
-        "stars": 87,
-        "url": "https://github.com/ryderclanky/BotW-Native"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/256620642?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ryderclanky/BotW-Native"
-      ],
-      "starScore": 87
-    },
-    {
-      "id": "240602355",
-      "rank": 7,
-      "type": "User",
-      "login": "brainstormity",
-      "repos": [
-        {
-          "id": 1431554112,
-          "fork": false,
-          "name": "System-One-Computer-Use",
-          "forks": 9,
-          "owner": "brainstormity",
-          "stars": 68,
-          "avatar": "https://avatars.githubusercontent.com/u/240602355?v=4",
-          "topics": [],
-          "ownerId": "240602355",
-          "repoUrl": "https://github.com/brainstormity/System-One-Computer-Use",
-          "archived": false,
-          "fullName": "brainstormity/System-One-Computer-Use",
-          "language": "Python",
-          "ownerUrl": "https://github.com/brainstormity",
-          "pushedAt": "2026-10-23T21:12:30+00:00",
-          "createdAt": "2026-10-23T21:12:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:22:14+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/brainstormity",
-      "topRepo": {
-        "name": "System-One-Computer-Use",
-        "fullName": "brainstormity/System-One-Computer-Use",
-        "stars": 68,
-        "url": "https://github.com/brainstormity/System-One-Computer-Use"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/240602355?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "brainstormity/System-One-Computer-Use"
-      ],
-      "starScore": 68
-    },
-    {
       "id": "106488696",
-      "rank": 8,
+      "rank": 5,
       "type": "User",
       "login": "adhiprib",
       "repos": [
@@ -443,63 +303,8 @@
       "starScore": 60
     },
     {
-      "id": "76911950",
-      "rank": 9,
-      "type": "User",
-      "login": "lillyguisnet",
-      "repos": [
-        {
-          "id": 1431719963,
-          "fork": false,
-          "name": "sam3-segmentation",
-          "forks": 2,
-          "owner": "lillyguisnet",
-          "stars": 60,
-          "avatar": "https://avatars.githubusercontent.com/u/76911950?v=4",
-          "topics": [
-            "agent-skills",
-            "annotation",
-            "claude-code",
-            "claude-code-plugin",
-            "codex",
-            "computer-vision",
-            "image-segmentation",
-            "instance-segmentation",
-            "sam3",
-            "segment-anything"
-          ],
-          "ownerId": "76911950",
-          "repoUrl": "https://github.com/lillyguisnet/sam3-segmentation",
-          "archived": false,
-          "fullName": "lillyguisnet/sam3-segmentation",
-          "language": "Python",
-          "ownerUrl": "https://github.com/lillyguisnet",
-          "pushedAt": "2026-10-24T02:12:32+00:00",
-          "createdAt": "2026-10-24T01:49:15+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:36:42+00:00",
-          "description": "Agent skill: outline, mask and count objects in photos with Meta's SAM 3 on your own NVIDIA GPU, with review, exports and a viewer. Works with Claude Code, Codex, Cursor, Pi and other Agent Skills clients.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lillyguisnet",
-      "topRepo": {
-        "name": "sam3-segmentation",
-        "fullName": "lillyguisnet/sam3-segmentation",
-        "stars": 60,
-        "url": "https://github.com/lillyguisnet/sam3-segmentation"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76911950?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lillyguisnet/sam3-segmentation"
-      ],
-      "starScore": 60
-    },
-    {
       "id": "251827664",
-      "rank": 10,
+      "rank": 6,
       "type": "User",
       "login": "oscarlosu-lab",
       "repos": [
@@ -563,60 +368,8 @@
       "starScore": 60
     },
     {
-      "id": "308430",
-      "rank": 11,
-      "type": "User",
-      "login": "mokevnin",
-      "repos": [
-        {
-          "id": 1431620755,
-          "fork": false,
-          "name": "dev-guardrails",
-          "forks": 4,
-          "owner": "mokevnin",
-          "stars": 58,
-          "avatar": "https://avatars.githubusercontent.com/u/308430?v=4",
-          "topics": [
-            "ai-agents",
-            "code-quality",
-            "developer-tools",
-            "git-hooks",
-            "guardrails",
-            "linters",
-            "static-analysis"
-          ],
-          "ownerId": "308430",
-          "repoUrl": "https://github.com/mokevnin/dev-guardrails",
-          "archived": false,
-          "fullName": "mokevnin/dev-guardrails",
-          "language": "Python",
-          "ownerUrl": "https://github.com/mokevnin",
-          "pushedAt": "2026-10-24T17:49:56+00:00",
-          "createdAt": "2026-10-23T22:48:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:17:55+00:00",
-          "description": "An opinionated, curated list of tools for enforcing software development standards: one recommended tool per job, with limits.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mokevnin",
-      "topRepo": {
-        "name": "dev-guardrails",
-        "fullName": "mokevnin/dev-guardrails",
-        "stars": 58,
-        "url": "https://github.com/mokevnin/dev-guardrails"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/308430?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mokevnin/dev-guardrails"
-      ],
-      "starScore": 58
-    },
-    {
       "id": "293965160",
-      "rank": 12,
+      "rank": 7,
       "type": "User",
       "login": "outerdeckhandquilt",
       "repos": [
@@ -659,52 +412,8 @@
       "starScore": 57
     },
     {
-      "id": "26612066",
-      "rank": 13,
-      "type": "User",
-      "login": "mamcjr",
-      "repos": [
-        {
-          "id": 1431690119,
-          "fork": false,
-          "name": "BOTWRecompAndroid",
-          "forks": 1,
-          "owner": "mamcjr",
-          "stars": 53,
-          "avatar": "https://avatars.githubusercontent.com/u/26612066?v=4",
-          "topics": [],
-          "ownerId": "26612066",
-          "repoUrl": "https://github.com/mamcjr/BOTWRecompAndroid",
-          "archived": false,
-          "fullName": "mamcjr/BOTWRecompAndroid",
-          "language": "C",
-          "ownerUrl": "https://github.com/mamcjr",
-          "pushedAt": "2026-10-24T20:25:59+00:00",
-          "createdAt": "2026-10-24T00:53:21+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:53:25+00:00",
-          "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mamcjr",
-      "topRepo": {
-        "name": "BOTWRecompAndroid",
-        "fullName": "mamcjr/BOTWRecompAndroid",
-        "stars": 53,
-        "url": "https://github.com/mamcjr/BOTWRecompAndroid"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26612066?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mamcjr/BOTWRecompAndroid"
-      ],
-      "starScore": 53
-    },
-    {
       "id": "347546139",
-      "rank": 14,
+      "rank": 8,
       "type": "User",
       "login": "aideveloper-web",
       "repos": [
@@ -762,155 +471,8 @@
       "starScore": 51
     },
     {
-      "id": "327765535",
-      "rank": 15,
-      "type": "Organization",
-      "login": "yielded-dev",
-      "repos": [
-        {
-          "id": 1431823484,
-          "fork": false,
-          "name": "effect-tsrs",
-          "forks": 1,
-          "owner": "yielded-dev",
-          "stars": 48,
-          "avatar": "https://avatars.githubusercontent.com/u/327765535?v=4",
-          "topics": [],
-          "ownerId": "327765535",
-          "repoUrl": "https://github.com/yielded-dev/effect-tsrs",
-          "archived": false,
-          "fullName": "yielded-dev/effect-tsrs",
-          "language": "TypeScript",
-          "ownerUrl": "https://github.com/yielded-dev",
-          "pushedAt": "2026-10-24T20:10:07+00:00",
-          "createdAt": "2026-10-24T04:48:45+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-24T20:49:36+00:00",
-          "description": "Native Rust port of all 130 Effect diagnostics to tsrs",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/yielded-dev",
-      "topRepo": {
-        "name": "effect-tsrs",
-        "fullName": "yielded-dev/effect-tsrs",
-        "stars": 48,
-        "url": "https://github.com/yielded-dev/effect-tsrs"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/327765535?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "yielded-dev/effect-tsrs"
-      ],
-      "starScore": 48
-    },
-    {
-      "id": "99519634",
-      "rank": 16,
-      "type": "User",
-      "login": "dlt2000",
-      "repos": [
-        {
-          "id": 1431753258,
-          "fork": false,
-          "name": "xc-soundfont-synth",
-          "forks": 0,
-          "owner": "dlt2000",
-          "stars": 43,
-          "avatar": "https://avatars.githubusercontent.com/u/99519634?v=4",
-          "topics": [],
-          "ownerId": "99519634",
-          "repoUrl": "https://github.com/dlt2000/xc-soundfont-synth",
-          "archived": false,
-          "fullName": "dlt2000/xc-soundfont-synth",
-          "language": "C",
-          "ownerUrl": "https://github.com/dlt2000",
-          "pushedAt": "2026-10-24T02:49:39+00:00",
-          "createdAt": "2026-10-24T02:49:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-24T20:37:28+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/dlt2000",
-      "topRepo": {
-        "name": "xc-soundfont-synth",
-        "fullName": "dlt2000/xc-soundfont-synth",
-        "stars": 43,
-        "url": "https://github.com/dlt2000/xc-soundfont-synth"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/99519634?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "dlt2000/xc-soundfont-synth"
-      ],
-      "starScore": 43
-    },
-    {
-      "id": "293965134",
-      "rank": 17,
-      "type": "User",
-      "login": "QuickButlerPace65",
-      "repos": [
-        {
-          "id": 1431583397,
-          "fork": false,
-          "name": "AnythingLLM-Desktop",
-          "forks": 12,
-          "owner": "QuickButlerPace65",
-          "stars": 37,
-          "avatar": "https://avatars.githubusercontent.com/u/293965134?v=4",
-          "topics": [
-            "ai",
-            "ai-assistants",
-            "aws",
-            "chatbot",
-            "desktop-app",
-            "llm",
-            "llm-agents",
-            "llm-inference",
-            "llm-tools",
-            "local-llm",
-            "ollama",
-            "rag",
-            "vector-database",
-            "windows"
-          ],
-          "ownerId": "293965134",
-          "repoUrl": "https://github.com/QuickButlerPace65/AnythingLLM-Desktop",
-          "archived": false,
-          "fullName": "QuickButlerPace65/AnythingLLM-Desktop",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/QuickButlerPace65",
-          "pushedAt": "2026-10-23T22:03:15+00:00",
-          "createdAt": "2026-10-23T21:51:47+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-23T22:34:48+00:00",
-          "description": "AnythingLLM Desktop — The enhanced all-in-one AI desktop app.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/QuickButlerPace65",
-      "topRepo": {
-        "name": "AnythingLLM-Desktop",
-        "fullName": "QuickButlerPace65/AnythingLLM-Desktop",
-        "stars": 37,
-        "url": "https://github.com/QuickButlerPace65/AnythingLLM-Desktop"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293965134?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "QuickButlerPace65/AnythingLLM-Desktop"
-      ],
-      "starScore": 37
-    },
-    {
       "id": "183556939",
-      "rank": 18,
+      "rank": 9,
       "type": "User",
       "login": "lordon1a",
       "repos": [
@@ -962,7 +524,7 @@
     },
     {
       "id": "107882187",
-      "rank": 19,
+      "rank": 10,
       "type": "Organization",
       "login": "hyprwm",
       "repos": [
@@ -1006,7 +568,7 @@
     },
     {
       "id": "347459837",
-      "rank": 20,
+      "rank": 11,
       "type": "User",
       "login": "userforgitmaker",
       "repos": [
