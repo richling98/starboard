@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T11:50:23.307Z",
-  "total": 35,
-  "totalIndexedCount": 35,
-  "coverageLabel": "Showing 35 indexed accounts created in the last 24 hours.",
+  "generatedAt": "2026-10-25T16:37:37.827Z",
+  "total": 31,
+  "totalIndexedCount": 31,
+  "coverageLabel": "Showing 31 indexed accounts created in the last 24 hours.",
   "metadata": {
     "view": "accounts",
     "period": "today",
@@ -10,61 +10,215 @@
   },
   "rows": [
     {
-      "id": "347402468",
+      "id": "252857002",
       "rank": 1,
+      "type": "User",
+      "login": "mizorewww",
+      "repos": [
+        {
+          "id": 1432875224,
+          "fork": false,
+          "name": "gdirect",
+          "forks": 26,
+          "owner": "mizorewww",
+          "stars": 498,
+          "avatar": "https://avatars.githubusercontent.com/u/252857002?v=4",
+          "topics": [],
+          "ownerId": "252857002",
+          "repoUrl": "https://github.com/mizorewww/gdirect",
+          "archived": false,
+          "fullName": "mizorewww/gdirect",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/mizorewww",
+          "pushedAt": "2026-10-25T15:51:55+00:00",
+          "createdAt": "2026-10-25T05:52:22+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:32:56+00:00",
+          "description": "Rust Google Drive direct downloader using pinned libaria2",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mizorewww",
+      "topRepo": {
+        "name": "gdirect",
+        "fullName": "mizorewww/gdirect",
+        "stars": 498,
+        "url": "https://github.com/mizorewww/gdirect"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/252857002?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mizorewww/gdirect"
+      ],
+      "starScore": 498
+    },
+    {
+      "id": "2140110",
+      "rank": 2,
+      "type": "User",
+      "login": "DenisSergeevitch",
+      "repos": [
+        {
+          "id": 1433057196,
+          "fork": false,
+          "name": "ex-ussr-kinship-research",
+          "forks": 24,
+          "owner": "DenisSergeevitch",
+          "stars": 377,
+          "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
+          "topics": [
+            "agent-skills",
+            "archives",
+            "claude-code",
+            "codex",
+            "family-history",
+            "familysearch",
+            "genealogy",
+            "ussr"
+          ],
+          "ownerId": "2140110",
+          "repoUrl": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+          "archived": false,
+          "fullName": "DenisSergeevitch/ex-ussr-kinship-research",
+          "language": "Python",
+          "ownerUrl": "https://github.com/DenisSergeevitch",
+          "pushedAt": "2026-10-25T12:01:16+00:00",
+          "createdAt": "2026-10-25T10:05:56+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:33:44+00:00",
+          "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/DenisSergeevitch",
+      "topRepo": {
+        "name": "ex-ussr-kinship-research",
+        "fullName": "DenisSergeevitch/ex-ussr-kinship-research",
+        "stars": 377,
+        "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2140110?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "DenisSergeevitch/ex-ussr-kinship-research"
+      ],
+      "starScore": 377
+    },
+    {
+      "id": "347533350",
+      "rank": 3,
+      "type": "Organization",
+      "login": "Release-DLSS-5-Swapper",
+      "repos": [
+        {
+          "id": 1432523193,
+          "fork": false,
+          "name": ".github",
+          "forks": 0,
+          "owner": "Release-DLSS-5-Swapper",
+          "stars": 375,
+          "avatar": "https://avatars.githubusercontent.com/u/347533350?v=4",
+          "topics": [
+            "dlss",
+            "dlss-5",
+            "dlss-5-games",
+            "dlss-5-nvidia",
+            "dlss-5-swapper",
+            "dlss-5-swapper-download",
+            "dlss-5-swapper-windows-download",
+            "dlss5",
+            "dlss5-swapper",
+            "dlss5-swapper-download",
+            "dlss5-swapper-enhanced"
+          ],
+          "ownerId": "347533350",
+          "repoUrl": "https://github.com/Release-DLSS-5-Swapper/.github",
+          "archived": false,
+          "fullName": "Release-DLSS-5-Swapper/.github",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/Release-DLSS-5-Swapper",
+          "pushedAt": "2026-10-25T04:12:39+00:00",
+          "createdAt": "2026-10-24T19:26:52+00:00",
+          "ownerType": "Organization",
+          "updatedAt": "2026-10-25T15:09:34+00:00",
+          "description": "DLSS 5 Swapper is a graphics configuration utility intended to help PC gamers manage supported rendering components for compatible titles.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Release-DLSS-5-Swapper",
+      "topRepo": {
+        "name": ".github",
+        "fullName": "Release-DLSS-5-Swapper/.github",
+        "stars": 375,
+        "url": "https://github.com/Release-DLSS-5-Swapper/.github"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/347533350?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Release-DLSS-5-Swapper/.github"
+      ],
+      "starScore": 375
+    },
+    {
+      "id": "9479903",
+      "rank": 4,
+      "type": "User",
+      "login": "mirkobrombin",
+      "repos": [
+        {
+          "id": 1432413816,
+          "fork": false,
+          "name": "raven",
+          "forks": 7,
+          "owner": "mirkobrombin",
+          "stars": 351,
+          "avatar": "https://avatars.githubusercontent.com/u/9479903?v=4",
+          "topics": [],
+          "ownerId": "9479903",
+          "repoUrl": "https://github.com/mirkobrombin/raven",
+          "archived": false,
+          "fullName": "mirkobrombin/raven",
+          "language": "C++",
+          "ownerUrl": "https://github.com/mirkobrombin",
+          "pushedAt": "2026-10-25T14:47:45+00:00",
+          "createdAt": "2026-10-24T17:13:42+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:05:39+00:00",
+          "description": "A Windows your apps recognize.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/mirkobrombin",
+      "topRepo": {
+        "name": "raven",
+        "fullName": "mirkobrombin/raven",
+        "stars": 351,
+        "url": "https://github.com/mirkobrombin/raven"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9479903?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "mirkobrombin/raven"
+      ],
+      "starScore": 351
+    },
+    {
+      "id": "347402468",
+      "rank": 5,
       "type": "Organization",
       "login": "routerhubSI",
       "repos": [
-        {
-          "id": 1432231624,
-          "fork": false,
-          "name": "glm-5.3-abliterated",
-          "forks": 5,
-          "owner": "routerhubSI",
-          "stars": 304,
-          "avatar": "https://avatars.githubusercontent.com/u/347402468?v=4",
-          "topics": [
-            "abliterated",
-            "abliterated-models",
-            "ai-api",
-            "ai-jailbreaks",
-            "api-gateway",
-            "glm",
-            "glm-5-3",
-            "glm-5-3-abliterated",
-            "glm-5-3-jailbreak",
-            "glm-5-3-uncensored",
-            "jailbreak-prompts",
-            "llm-api",
-            "llm-jailbreak",
-            "model-evaluation",
-            "openai-compatible",
-            "pay-per-token",
-            "prompt-research",
-            "routerhub",
-            "uncensored-ai",
-            "uncensored-ai-model"
-          ],
-          "ownerId": "347402468",
-          "repoUrl": "https://github.com/routerhubSI/glm-5.3-abliterated",
-          "archived": false,
-          "fullName": "routerhubSI/glm-5.3-abliterated",
-          "language": "Python",
-          "ownerUrl": "https://github.com/routerhubSI",
-          "pushedAt": "2026-10-24T16:10:37+00:00",
-          "createdAt": "2026-10-24T13:51:36+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-25T11:35:44+00:00",
-          "description": "GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides.",
-          "defaultBranch": "main"
-        },
         {
           "id": 1432398049,
           "fork": false,
           "name": "uncensored-ai-api",
           "forks": 6,
           "owner": "routerhubSI",
-          "stars": 299,
+          "stars": 341,
           "avatar": "https://avatars.githubusercontent.com/u/347402468?v=4",
           "topics": [
             "abliterated-models",
@@ -97,118 +251,29 @@
           "pushedAt": "2026-10-24T17:09:17+00:00",
           "createdAt": "2026-10-24T16:55:17+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-25T11:36:04+00:00",
+          "updatedAt": "2026-10-25T16:19:07+00:00",
           "description": "Uncensored AI API and models — one key for Claude, GPT, Gemini, Grok, DeepSeek, GLM and Qwen, with uncensored and abliterated variants where available. OpenAI- and Anthropic-compatible. Pay per token.",
           "defaultBranch": "main"
         }
       ],
       "htmlUrl": "https://github.com/routerhubSI",
       "topRepo": {
-        "name": "glm-5.3-abliterated",
-        "fullName": "routerhubSI/glm-5.3-abliterated",
-        "stars": 304,
-        "url": "https://github.com/routerhubSI/glm-5.3-abliterated"
+        "name": "uncensored-ai-api",
+        "fullName": "routerhubSI/uncensored-ai-api",
+        "stars": 341,
+        "url": "https://github.com/routerhubSI/uncensored-ai-api"
       },
       "enriched": true,
       "avatarUrl": "https://avatars.githubusercontent.com/u/347402468?v=4",
-      "repoCount": 2,
+      "repoCount": 1,
       "repoNames": [
-        "routerhubSI/glm-5.3-abliterated",
         "routerhubSI/uncensored-ai-api"
       ],
-      "starScore": 603
-    },
-    {
-      "id": "252857002",
-      "rank": 2,
-      "type": "User",
-      "login": "mizorewww",
-      "repos": [
-        {
-          "id": 1432875224,
-          "fork": false,
-          "name": "gdirect",
-          "forks": 15,
-          "owner": "mizorewww",
-          "stars": 322,
-          "avatar": "https://avatars.githubusercontent.com/u/252857002?v=4",
-          "topics": [],
-          "ownerId": "252857002",
-          "repoUrl": "https://github.com/mizorewww/gdirect",
-          "archived": false,
-          "fullName": "mizorewww/gdirect",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/mizorewww",
-          "pushedAt": "2026-10-25T08:40:35+00:00",
-          "createdAt": "2026-10-25T05:52:22+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:44:08+00:00",
-          "description": "Rust Google Drive direct downloader using pinned libaria2",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mizorewww",
-      "topRepo": {
-        "name": "gdirect",
-        "fullName": "mizorewww/gdirect",
-        "stars": 322,
-        "url": "https://github.com/mizorewww/gdirect"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/252857002?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mizorewww/gdirect"
-      ],
-      "starScore": 322
-    },
-    {
-      "id": "9479903",
-      "rank": 3,
-      "type": "User",
-      "login": "mirkobrombin",
-      "repos": [
-        {
-          "id": 1432413816,
-          "fork": false,
-          "name": "raven",
-          "forks": 7,
-          "owner": "mirkobrombin",
-          "stars": 313,
-          "avatar": "https://avatars.githubusercontent.com/u/9479903?v=4",
-          "topics": [],
-          "ownerId": "9479903",
-          "repoUrl": "https://github.com/mirkobrombin/raven",
-          "archived": false,
-          "fullName": "mirkobrombin/raven",
-          "language": "C++",
-          "ownerUrl": "https://github.com/mirkobrombin",
-          "pushedAt": "2026-10-25T10:14:47+00:00",
-          "createdAt": "2026-10-24T17:13:42+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:42:43+00:00",
-          "description": "A Windows your apps recognize.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/mirkobrombin",
-      "topRepo": {
-        "name": "raven",
-        "fullName": "mirkobrombin/raven",
-        "stars": 313,
-        "url": "https://github.com/mirkobrombin/raven"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9479903?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "mirkobrombin/raven"
-      ],
-      "starScore": 313
+      "starScore": 341
     },
     {
       "id": "347546139",
-      "rank": 4,
+      "rank": 6,
       "type": "User",
       "login": "aideveloper-web",
       "repos": [
@@ -347,64 +412,96 @@
       "starScore": 208
     },
     {
-      "id": "347533350",
-      "rank": 5,
-      "type": "Organization",
-      "login": "Release-DLSS-5-Swapper",
+      "id": "275284869",
+      "rank": 7,
+      "type": "User",
+      "login": "misshexa66",
       "repos": [
         {
-          "id": 1432523193,
+          "id": 1433269248,
           "fork": false,
-          "name": ".github",
-          "forks": 0,
-          "owner": "Release-DLSS-5-Swapper",
-          "stars": 166,
-          "avatar": "https://avatars.githubusercontent.com/u/347533350?v=4",
-          "topics": [
-            "dlss",
-            "dlss-5",
-            "dlss-5-games",
-            "dlss-5-nvidia",
-            "dlss-5-swapper",
-            "dlss-5-swapper-download",
-            "dlss-5-swapper-windows-download",
-            "dlss5",
-            "dlss5-swapper",
-            "dlss5-swapper-download",
-            "dlss5-swapper-enhanced"
-          ],
-          "ownerId": "347533350",
-          "repoUrl": "https://github.com/Release-DLSS-5-Swapper/.github",
+          "name": "OunceCake",
+          "forks": 19,
+          "owner": "misshexa66",
+          "stars": 170,
+          "avatar": "https://avatars.githubusercontent.com/u/275284869?v=4",
+          "topics": [],
+          "ownerId": "275284869",
+          "repoUrl": "https://github.com/misshexa66/OunceCake",
           "archived": false,
-          "fullName": "Release-DLSS-5-Swapper/.github",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/Release-DLSS-5-Swapper",
-          "pushedAt": "2026-10-25T04:12:39+00:00",
-          "createdAt": "2026-10-24T19:26:52+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-25T06:12:33+00:00",
-          "description": "DLSS 5 Swapper is a graphics configuration utility intended to help PC gamers manage supported rendering components for compatible titles.",
+          "fullName": "misshexa66/OunceCake",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/misshexa66",
+          "pushedAt": "2026-10-25T16:00:00+00:00",
+          "createdAt": "2026-10-25T14:12:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:31:11+00:00",
+          "description": "Tool to dump unencrypted romFS and exeFS for Switch 2 games",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Release-DLSS-5-Swapper",
+      "htmlUrl": "https://github.com/misshexa66",
       "topRepo": {
-        "name": ".github",
-        "fullName": "Release-DLSS-5-Swapper/.github",
-        "stars": 166,
-        "url": "https://github.com/Release-DLSS-5-Swapper/.github"
+        "name": "OunceCake",
+        "fullName": "misshexa66/OunceCake",
+        "stars": 170,
+        "url": "https://github.com/misshexa66/OunceCake"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/347533350?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/275284869?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Release-DLSS-5-Swapper/.github"
+        "misshexa66/OunceCake"
       ],
-      "starScore": 166
+      "starScore": 170
+    },
+    {
+      "id": "59680068",
+      "rank": 8,
+      "type": "User",
+      "login": "KohakuBlueleaf",
+      "repos": [
+        {
+          "id": 1432731313,
+          "fork": false,
+          "name": "KohakUnlock",
+          "forks": 6,
+          "owner": "KohakuBlueleaf",
+          "stars": 118,
+          "avatar": "https://avatars.githubusercontent.com/u/59680068?v=4",
+          "topics": [],
+          "ownerId": "59680068",
+          "repoUrl": "https://github.com/KohakuBlueleaf/KohakUnlock",
+          "archived": false,
+          "fullName": "KohakuBlueleaf/KohakUnlock",
+          "language": "C",
+          "ownerUrl": "https://github.com/KohakuBlueleaf",
+          "pushedAt": "2026-10-25T01:24:59+00:00",
+          "createdAt": "2026-10-25T01:18:54+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:31:49+00:00",
+          "description": "Experimental NVIDIA tensor-compute unlock research: guarded TU102 initramfs port, offline tests, and Ampere reproduction notes",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/KohakuBlueleaf",
+      "topRepo": {
+        "name": "KohakUnlock",
+        "fullName": "KohakuBlueleaf/KohakUnlock",
+        "stars": 118,
+        "url": "https://github.com/KohakuBlueleaf/KohakUnlock"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59680068?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "KohakuBlueleaf/KohakUnlock"
+      ],
+      "starScore": 118
     },
     {
       "id": "270957191",
-      "rank": 6,
+      "rank": 9,
       "type": "User",
       "login": "breakbrawlerheart",
       "repos": [
@@ -451,101 +548,52 @@
       "starScore": 100
     },
     {
-      "id": "59680068",
-      "rank": 7,
+      "id": "18633264",
+      "rank": 10,
       "type": "User",
-      "login": "KohakuBlueleaf",
+      "login": "lalalune",
       "repos": [
         {
-          "id": 1432731313,
+          "id": 1432682504,
           "fork": false,
-          "name": "KohakUnlock",
-          "forks": 5,
-          "owner": "KohakuBlueleaf",
+          "name": "pumpfun-source",
+          "forks": 42,
+          "owner": "lalalune",
           "stars": 90,
-          "avatar": "https://avatars.githubusercontent.com/u/59680068?v=4",
+          "avatar": "https://avatars.githubusercontent.com/u/18633264?v=4",
           "topics": [],
-          "ownerId": "59680068",
-          "repoUrl": "https://github.com/KohakuBlueleaf/KohakUnlock",
+          "ownerId": "18633264",
+          "repoUrl": "https://github.com/lalalune/pumpfun-source",
           "archived": false,
-          "fullName": "KohakuBlueleaf/KohakUnlock",
-          "language": "C",
-          "ownerUrl": "https://github.com/KohakuBlueleaf",
-          "pushedAt": "2026-10-25T01:24:59+00:00",
-          "createdAt": "2026-10-25T01:18:54+00:00",
+          "fullName": "lalalune/pumpfun-source",
+          "language": "Assembly",
+          "ownerUrl": "https://github.com/lalalune",
+          "pushedAt": "2026-10-25T16:01:56+00:00",
+          "createdAt": "2026-10-24T23:37:50+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-25T11:45:42+00:00",
-          "description": "Experimental NVIDIA tensor-compute unlock research: guarded TU102 initramfs port, offline tests, and Ampere reproduction notes",
+          "updatedAt": "2026-10-25T16:28:24+00:00",
+          "description": "Pump.fun deployment evidence and byte-exact reconstruction research (incomplete)",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/KohakuBlueleaf",
+      "htmlUrl": "https://github.com/lalalune",
       "topRepo": {
-        "name": "KohakUnlock",
-        "fullName": "KohakuBlueleaf/KohakUnlock",
+        "name": "pumpfun-source",
+        "fullName": "lalalune/pumpfun-source",
         "stars": 90,
-        "url": "https://github.com/KohakuBlueleaf/KohakUnlock"
+        "url": "https://github.com/lalalune/pumpfun-source"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/59680068?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18633264?v=4",
       "repoCount": 1,
       "repoNames": [
-        "KohakuBlueleaf/KohakUnlock"
+        "lalalune/pumpfun-source"
       ],
       "starScore": 90
     },
     {
-      "id": "65003157",
-      "rank": 8,
-      "type": "Organization",
-      "login": "tractordev",
-      "repos": [
-        {
-          "id": 1432256203,
-          "fork": false,
-          "name": "webframe",
-          "forks": 1,
-          "owner": "tractordev",
-          "stars": 84,
-          "avatar": "https://avatars.githubusercontent.com/u/65003157?v=4",
-          "topics": [
-            "cross-platform",
-            "golang",
-            "headless-browser",
-            "purego"
-          ],
-          "ownerId": "65003157",
-          "repoUrl": "https://github.com/tractordev/webframe",
-          "archived": false,
-          "fullName": "tractordev/webframe",
-          "language": "Go",
-          "ownerUrl": "https://github.com/tractordev",
-          "pushedAt": "2026-10-25T00:31:43+00:00",
-          "createdAt": "2026-10-24T14:18:15+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-25T11:35:47+00:00",
-          "description": "Run a web page like a program",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/tractordev",
-      "topRepo": {
-        "name": "webframe",
-        "fullName": "tractordev/webframe",
-        "stars": 84,
-        "url": "https://github.com/tractordev/webframe"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/65003157?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "tractordev/webframe"
-      ],
-      "starScore": 84
-    },
-    {
       "id": "87426627",
-      "rank": 9,
+      "rank": 11,
       "type": "User",
       "login": "Rabbitbong",
       "repos": [
@@ -588,288 +636,8 @@
       "starScore": 81
     },
     {
-      "id": "183556939",
-      "rank": 10,
-      "type": "User",
-      "login": "lordon1a",
-      "repos": [
-        {
-          "id": 1432303546,
-          "fork": false,
-          "name": "agents.md",
-          "forks": 20,
-          "owner": "lordon1a",
-          "stars": 78,
-          "avatar": "https://avatars.githubusercontent.com/u/183556939?v=4",
-          "topics": [
-            "agents-md",
-            "ai-agents",
-            "claude-code",
-            "codex",
-            "opencode",
-            "prompt-engineering",
-            "system-prompt"
-          ],
-          "ownerId": "183556939",
-          "repoUrl": "https://github.com/lordon1a/agents.md",
-          "archived": false,
-          "fullName": "lordon1a/agents.md",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/lordon1a",
-          "pushedAt": "2026-10-24T16:35:32+00:00",
-          "createdAt": "2026-10-24T15:09:49+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T10:46:13+00:00",
-          "description": "A drop-in AGENTS.md system prompt for coding agents: full execution, no hedging, no moralizing, no fade-to-black.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lordon1a",
-      "topRepo": {
-        "name": "agents.md",
-        "fullName": "lordon1a/agents.md",
-        "stars": 78,
-        "url": "https://github.com/lordon1a/agents.md"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/183556939?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lordon1a/agents.md"
-      ],
-      "starScore": 78
-    },
-    {
-      "id": "53983704",
-      "rank": 11,
-      "type": "User",
-      "login": "thomasunise",
-      "repos": [
-        {
-          "id": 1432360122,
-          "fork": false,
-          "name": "argus",
-          "forks": 6,
-          "owner": "thomasunise",
-          "stars": 74,
-          "avatar": "https://avatars.githubusercontent.com/u/53983704?v=4",
-          "topics": [
-            "agentic-ai",
-            "agentic-security",
-            "agentic-workflow",
-            "cyber-security",
-            "cyber-threat-intelligence",
-            "cybersecurity",
-            "cybersecurity-tools"
-          ],
-          "ownerId": "53983704",
-          "repoUrl": "https://github.com/thomasunise/argus",
-          "archived": false,
-          "fullName": "thomasunise/argus",
-          "language": "Python",
-          "ownerUrl": "https://github.com/thomasunise",
-          "pushedAt": "2026-10-25T08:31:12+00:00",
-          "createdAt": "2026-10-24T16:12:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T10:47:23+00:00",
-          "description": "Open-source agentic security operations platform:",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/thomasunise",
-      "topRepo": {
-        "name": "argus",
-        "fullName": "thomasunise/argus",
-        "stars": 74,
-        "url": "https://github.com/thomasunise/argus"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53983704?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "thomasunise/argus"
-      ],
-      "starScore": 74
-    },
-    {
-      "id": "293965160",
-      "rank": 12,
-      "type": "User",
-      "login": "outerdeckhandquilt",
-      "repos": [
-        {
-          "id": 1432140111,
-          "fork": false,
-          "name": "Lossless-Scaling",
-          "forks": 12,
-          "owner": "outerdeckhandquilt",
-          "stars": 58,
-          "avatar": "https://avatars.githubusercontent.com/u/293965160?v=4",
-          "topics": [],
-          "ownerId": "293965160",
-          "repoUrl": "https://github.com/outerdeckhandquilt/Lossless-Scaling",
-          "archived": false,
-          "fullName": "outerdeckhandquilt/Lossless-Scaling",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/outerdeckhandquilt",
-          "pushedAt": "2026-10-24T12:17:11+00:00",
-          "createdAt": "2026-10-24T12:04:30+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T03:47:29+00:00",
-          "description": "Advanced Lossless Scaling fork: boost FPS, enable Frame Gen & upscale any game.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/outerdeckhandquilt",
-      "topRepo": {
-        "name": "Lossless-Scaling",
-        "fullName": "outerdeckhandquilt/Lossless-Scaling",
-        "stars": 58,
-        "url": "https://github.com/outerdeckhandquilt/Lossless-Scaling"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/293965160?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "outerdeckhandquilt/Lossless-Scaling"
-      ],
-      "starScore": 58
-    },
-    {
-      "id": "18633264",
-      "rank": 13,
-      "type": "User",
-      "login": "lalalune",
-      "repos": [
-        {
-          "id": 1432682504,
-          "fork": false,
-          "name": "pumpfun-source",
-          "forks": 25,
-          "owner": "lalalune",
-          "stars": 56,
-          "avatar": "https://avatars.githubusercontent.com/u/18633264?v=4",
-          "topics": [],
-          "ownerId": "18633264",
-          "repoUrl": "https://github.com/lalalune/pumpfun-source",
-          "archived": false,
-          "fullName": "lalalune/pumpfun-source",
-          "language": "Assembly",
-          "ownerUrl": "https://github.com/lalalune",
-          "pushedAt": "2026-10-25T11:42:39+00:00",
-          "createdAt": "2026-10-24T23:37:50+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:45:34+00:00",
-          "description": "Pump.fun deployment evidence and byte-exact reconstruction research (incomplete)",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/lalalune",
-      "topRepo": {
-        "name": "pumpfun-source",
-        "fullName": "lalalune/pumpfun-source",
-        "stars": 56,
-        "url": "https://github.com/lalalune/pumpfun-source"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18633264?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "lalalune/pumpfun-source"
-      ],
-      "starScore": 56
-    },
-    {
-      "id": "11763913",
-      "rank": 14,
-      "type": "User",
-      "login": "nlzy",
-      "repos": [
-        {
-          "id": 1432310881,
-          "fork": false,
-          "name": "turing-unlock",
-          "forks": 4,
-          "owner": "nlzy",
-          "stars": 52,
-          "avatar": "https://avatars.githubusercontent.com/u/11763913?v=4",
-          "topics": [],
-          "ownerId": "11763913",
-          "repoUrl": "https://github.com/nlzy/turing-unlock",
-          "archived": false,
-          "fullName": "nlzy/turing-unlock",
-          "language": "C",
-          "ownerUrl": "https://github.com/nlzy",
-          "pushedAt": "2026-10-24T15:19:30+00:00",
-          "createdAt": "2026-10-24T15:18:08+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:45:02+00:00",
-          "description": "Unlock full speed FP16 tensor core of NVIDIA Turing GPUs",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/nlzy",
-      "topRepo": {
-        "name": "turing-unlock",
-        "fullName": "nlzy/turing-unlock",
-        "stars": 52,
-        "url": "https://github.com/nlzy/turing-unlock"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11763913?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "nlzy/turing-unlock"
-      ],
-      "starScore": 52
-    },
-    {
-      "id": "107882187",
-      "rank": 15,
-      "type": "Organization",
-      "login": "hyprwm",
-      "repos": [
-        {
-          "id": 1432163857,
-          "fork": false,
-          "name": "hyprperks-dotfiles",
-          "forks": 2,
-          "owner": "hyprwm",
-          "stars": 46,
-          "avatar": "https://avatars.githubusercontent.com/u/107882187?v=4",
-          "topics": [],
-          "ownerId": "107882187",
-          "repoUrl": "https://github.com/hyprwm/hyprperks-dotfiles",
-          "archived": false,
-          "fullName": "hyprwm/hyprperks-dotfiles",
-          "language": "QML",
-          "ownerUrl": "https://github.com/hyprwm",
-          "pushedAt": "2026-10-24T12:46:08+00:00",
-          "createdAt": "2026-10-24T12:33:42+00:00",
-          "ownerType": "Organization",
-          "updatedAt": "2026-10-25T11:31:26+00:00",
-          "description": "The hyprperks dotfiles, snapshotted from the beginning of the Omacom Sponsorship",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hyprwm",
-      "topRepo": {
-        "name": "hyprperks-dotfiles",
-        "fullName": "hyprwm/hyprperks-dotfiles",
-        "stars": 46,
-        "url": "https://github.com/hyprwm/hyprperks-dotfiles"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107882187?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hyprwm/hyprperks-dotfiles"
-      ],
-      "starScore": 46
-    },
-    {
       "id": "316626863",
-      "rank": 16,
+      "rank": 12,
       "type": "User",
       "login": "hffgzktbcc-blip",
       "repos": [
@@ -877,9 +645,9 @@
           "id": 1432527622,
           "fork": false,
           "name": "ounce-core",
-          "forks": 6,
+          "forks": 7,
           "owner": "hffgzktbcc-blip",
-          "stars": 45,
+          "stars": 64,
           "avatar": "https://avatars.githubusercontent.com/u/316626863?v=4",
           "topics": [],
           "ownerId": "316626863",
@@ -888,10 +656,10 @@
           "fullName": "hffgzktbcc-blip/ounce-core",
           "language": "Rust",
           "ownerUrl": "https://github.com/hffgzktbcc-blip",
-          "pushedAt": "2026-10-24T21:06:13+00:00",
+          "pushedAt": "2026-10-25T14:31:40+00:00",
           "createdAt": "2026-10-24T19:32:45+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-25T11:33:17+00:00",
+          "updatedAt": "2026-10-25T16:12:49+00:00",
           "description": "Clean-room Nintendo Switch 2 (Tegra T239 / Horizon OS FW 23.0.1) Emulator Engine in Pure Rust",
           "defaultBranch": "main"
         }
@@ -900,7 +668,7 @@
       "topRepo": {
         "name": "ounce-core",
         "fullName": "hffgzktbcc-blip/ounce-core",
-        "stars": 45,
+        "stars": 64,
         "url": "https://github.com/hffgzktbcc-blip/ounce-core"
       },
       "enriched": true,
@@ -909,11 +677,11 @@
       "repoNames": [
         "hffgzktbcc-blip/ounce-core"
       ],
-      "starScore": 45
+      "starScore": 64
     },
     {
       "id": "291095724",
-      "rank": 17,
+      "rank": 13,
       "type": "User",
       "login": "jhontandazo008",
       "repos": [
@@ -921,9 +689,9 @@
           "id": 1432584143,
           "fork": false,
           "name": "CleanLauncher",
-          "forks": 8,
+          "forks": 11,
           "owner": "jhontandazo008",
-          "stars": 42,
+          "stars": 53,
           "avatar": "https://avatars.githubusercontent.com/u/291095724?v=4",
           "topics": [],
           "ownerId": "291095724",
@@ -932,10 +700,10 @@
           "fullName": "jhontandazo008/CleanLauncher",
           "language": "Java",
           "ownerUrl": "https://github.com/jhontandazo008",
-          "pushedAt": "2026-10-24T20:59:17+00:00",
+          "pushedAt": "2026-10-25T16:08:53+00:00",
           "createdAt": "2026-10-24T20:50:05+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-25T11:04:36+00:00",
+          "updatedAt": "2026-10-25T16:32:57+00:00",
           "description": "Launcher a medida para radio Android NWD (Allwinner T3)",
           "defaultBranch": "main"
         }
@@ -944,7 +712,7 @@
       "topRepo": {
         "name": "CleanLauncher",
         "fullName": "jhontandazo008/CleanLauncher",
-        "stars": 42,
+        "stars": 53,
         "url": "https://github.com/jhontandazo008/CleanLauncher"
       },
       "enriched": true,
@@ -953,7 +721,206 @@
       "repoNames": [
         "jhontandazo008/CleanLauncher"
       ],
-      "starScore": 42
+      "starScore": 53
+    },
+    {
+      "id": "85222283",
+      "rank": 14,
+      "type": "User",
+      "login": "Aaryan-Kapoor",
+      "repos": [
+        {
+          "id": 1432717576,
+          "fork": false,
+          "name": "english-rs",
+          "forks": 0,
+          "owner": "Aaryan-Kapoor",
+          "stars": 51,
+          "avatar": "https://avatars.githubusercontent.com/u/85222283?v=4",
+          "topics": [],
+          "ownerId": "85222283",
+          "repoUrl": "https://github.com/Aaryan-Kapoor/english-rs",
+          "archived": false,
+          "fullName": "Aaryan-Kapoor/english-rs",
+          "language": "Rust",
+          "ownerUrl": "https://github.com/Aaryan-Kapoor",
+          "pushedAt": "2026-10-25T00:50:37+00:00",
+          "createdAt": "2026-10-25T00:50:31+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:09:53+00:00",
+          "description": "English, rewritten in Rust: grammar as trait bounds, pronouns as borrows, and englishc, a compiler with rustc-style diagnostics for prose",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/Aaryan-Kapoor",
+      "topRepo": {
+        "name": "english-rs",
+        "fullName": "Aaryan-Kapoor/english-rs",
+        "stars": 51,
+        "url": "https://github.com/Aaryan-Kapoor/english-rs"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85222283?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "Aaryan-Kapoor/english-rs"
+      ],
+      "starScore": 51
+    },
+    {
+      "id": "61807135",
+      "rank": 15,
+      "type": "User",
+      "login": "kuscholar",
+      "repos": [
+        {
+          "id": 1432518325,
+          "fork": false,
+          "name": "iDeck",
+          "forks": 0,
+          "owner": "kuscholar",
+          "stars": 44,
+          "avatar": "https://avatars.githubusercontent.com/u/61807135?v=4",
+          "topics": [
+            "big-picture",
+            "experimental",
+            "fex",
+            "ios",
+            "ipados",
+            "madeira",
+            "metal",
+            "pc-gaming",
+            "steam",
+            "wine"
+          ],
+          "ownerId": "61807135",
+          "repoUrl": "https://github.com/kuscholar/iDeck",
+          "archived": false,
+          "fullName": "kuscholar/iDeck",
+          "language": "C",
+          "ownerUrl": "https://github.com/kuscholar",
+          "pushedAt": "2026-10-25T01:46:22+00:00",
+          "createdAt": "2026-10-24T19:20:34+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:33:25+00:00",
+          "description": "iDeck brings the SteamOS experience to iOS",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/kuscholar",
+      "topRepo": {
+        "name": "iDeck",
+        "fullName": "kuscholar/iDeck",
+        "stars": 44,
+        "url": "https://github.com/kuscholar/iDeck"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61807135?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "kuscholar/iDeck"
+      ],
+      "starScore": 44
+    },
+    {
+      "id": "295655599",
+      "rank": 16,
+      "type": "User",
+      "login": "daimyodragonpit",
+      "repos": [
+        {
+          "id": 1433236871,
+          "fork": false,
+          "name": "LossLess-Scaling",
+          "forks": 0,
+          "owner": "daimyodragonpit",
+          "stars": 40,
+          "avatar": "https://avatars.githubusercontent.com/u/295655599?v=4",
+          "topics": [
+            "auto-lossless-scaling",
+            "lossless-frame-generation",
+            "lossless-scaling-26",
+            "lossless-scaling-best-settings",
+            "lossless-scaling-download-free",
+            "lossless-scaling-exploit",
+            "lossless-scaling-for-free",
+            "lossless-scaling-free",
+            "lossless-scaling-patched",
+            "lossless-scaling-profile",
+            "lossless-scaling-tool"
+          ],
+          "ownerId": "295655599",
+          "repoUrl": "https://github.com/daimyodragonpit/LossLess-Scaling",
+          "archived": false,
+          "fullName": "daimyodragonpit/LossLess-Scaling",
+          "language": "Unknown",
+          "ownerUrl": "https://github.com/daimyodragonpit",
+          "pushedAt": "2026-10-25T13:38:30+00:00",
+          "createdAt": "2026-10-25T13:38:23+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T14:10:06+00:00",
+          "description": "Lossless Scaling 2026: Complete standalone setup with full feature activation, ready to run on your desktop.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/daimyodragonpit",
+      "topRepo": {
+        "name": "LossLess-Scaling",
+        "fullName": "daimyodragonpit/LossLess-Scaling",
+        "stars": 40,
+        "url": "https://github.com/daimyodragonpit/LossLess-Scaling"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/295655599?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "daimyodragonpit/LossLess-Scaling"
+      ],
+      "starScore": 40
+    },
+    {
+      "id": "5311137",
+      "rank": 17,
+      "type": "User",
+      "login": "aspasskiy",
+      "repos": [
+        {
+          "id": 1433091853,
+          "fork": false,
+          "name": "claudo",
+          "forks": 0,
+          "owner": "aspasskiy",
+          "stars": 37,
+          "avatar": "https://avatars.githubusercontent.com/u/5311137?v=4",
+          "topics": [],
+          "ownerId": "5311137",
+          "repoUrl": "https://github.com/aspasskiy/claudo",
+          "archived": false,
+          "fullName": "aspasskiy/claudo",
+          "language": "Swift",
+          "ownerUrl": "https://github.com/aspasskiy",
+          "pushedAt": "2026-10-25T11:08:12+00:00",
+          "createdAt": "2026-10-25T10:49:28+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T15:40:06+00:00",
+          "description": "",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/aspasskiy",
+      "topRepo": {
+        "name": "claudo",
+        "fullName": "aspasskiy/claudo",
+        "stars": 37,
+        "url": "https://github.com/aspasskiy/claudo"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5311137?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "aspasskiy/claudo"
+      ],
+      "starScore": 37
     },
     {
       "id": "347489089",
@@ -1000,244 +967,8 @@
       "starScore": 36
     },
     {
-      "id": "347459837",
-      "rank": 19,
-      "type": "User",
-      "login": "userforgitmaker",
-      "repos": [
-        {
-          "id": 1432335746,
-          "fork": false,
-          "name": "python",
-          "forks": 0,
-          "owner": "userforgitmaker",
-          "stars": 35,
-          "avatar": "https://avatars.githubusercontent.com/u/347459837?v=4",
-          "topics": [],
-          "ownerId": "347459837",
-          "repoUrl": "https://github.com/userforgitmaker/python",
-          "archived": false,
-          "fullName": "userforgitmaker/python",
-          "language": "Python",
-          "ownerUrl": "https://github.com/userforgitmaker",
-          "pushedAt": "2026-10-24T16:53:41+00:00",
-          "createdAt": "2026-10-24T15:45:43+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T03:26:42+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/userforgitmaker",
-      "topRepo": {
-        "name": "python",
-        "fullName": "userforgitmaker/python",
-        "stars": 35,
-        "url": "https://github.com/userforgitmaker/python"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/347459837?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "userforgitmaker/python"
-      ],
-      "starScore": 35
-    },
-    {
-      "id": "139259340",
-      "rank": 20,
-      "type": "User",
-      "login": "Pixelgamer4k",
-      "repos": [
-        {
-          "id": 1432365507,
-          "fork": false,
-          "name": "VidUltra",
-          "forks": 1,
-          "owner": "Pixelgamer4k",
-          "stars": 34,
-          "avatar": "https://avatars.githubusercontent.com/u/139259340?v=4",
-          "topics": [
-            "android",
-            "camera",
-            "camera2",
-            "log-profile",
-            "raw-video",
-            "stabilization",
-            "video-recording"
-          ],
-          "ownerId": "139259340",
-          "repoUrl": "https://github.com/Pixelgamer4k/VidUltra",
-          "archived": false,
-          "fullName": "Pixelgamer4k/VidUltra",
-          "language": "Java",
-          "ownerUrl": "https://github.com/Pixelgamer4k",
-          "pushedAt": "2026-10-25T05:55:03+00:00",
-          "createdAt": "2026-10-24T16:18:32+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:40:16+00:00",
-          "description": "RAW video camera for Android: GPU-developed RAW to 10-bit HEVC, gyro stabilization, film-like noise reduction, iPhone-style auto look and 14 log profiles. Beta.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Pixelgamer4k",
-      "topRepo": {
-        "name": "VidUltra",
-        "fullName": "Pixelgamer4k/VidUltra",
-        "stars": 34,
-        "url": "https://github.com/Pixelgamer4k/VidUltra"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/139259340?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Pixelgamer4k/VidUltra"
-      ],
-      "starScore": 34
-    },
-    {
-      "id": "291528229",
-      "rank": 21,
-      "type": "User",
-      "login": "Nebelung-cloud",
-      "repos": [
-        {
-          "id": 1432258558,
-          "fork": false,
-          "name": "glyph-rice",
-          "forks": 1,
-          "owner": "Nebelung-cloud",
-          "stars": 28,
-          "avatar": "https://avatars.githubusercontent.com/u/291528229?v=4",
-          "topics": [
-            "arch-linux",
-            "dotfiles",
-            "hyprland",
-            "nothing-os",
-            "quickshell",
-            "rice",
-            "unixporn"
-          ],
-          "ownerId": "291528229",
-          "repoUrl": "https://github.com/Nebelung-cloud/glyph-rice",
-          "archived": false,
-          "fullName": "Nebelung-cloud/glyph-rice",
-          "language": "QML",
-          "ownerUrl": "https://github.com/Nebelung-cloud",
-          "pushedAt": "2026-10-24T16:04:26+00:00",
-          "createdAt": "2026-10-24T14:20:55+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:31:08+00:00",
-          "description": "Glyph: a Nothing OS rice for Hyprland + Quickshell, black, white dots and one red",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/Nebelung-cloud",
-      "topRepo": {
-        "name": "glyph-rice",
-        "fullName": "Nebelung-cloud/glyph-rice",
-        "stars": 28,
-        "url": "https://github.com/Nebelung-cloud/glyph-rice"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291528229?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "Nebelung-cloud/glyph-rice"
-      ],
-      "starScore": 28
-    },
-    {
-      "id": "6276139",
-      "rank": 22,
-      "type": "User",
-      "login": "alula",
-      "repos": [
-        {
-          "id": 1432585842,
-          "fork": false,
-          "name": "beetool",
-          "forks": 1,
-          "owner": "alula",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/6276139?v=4",
-          "topics": [],
-          "ownerId": "6276139",
-          "repoUrl": "https://github.com/alula/beetool",
-          "archived": false,
-          "fullName": "alula/beetool",
-          "language": "C",
-          "ownerUrl": "https://github.com/alula",
-          "pushedAt": "2026-10-24T21:52:40+00:00",
-          "createdAt": "2026-10-24T20:52:27+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T09:42:36+00:00",
-          "description": "hactool with Nintendo Switch 2 (Ounce) support",
-          "defaultBranch": "master"
-        }
-      ],
-      "htmlUrl": "https://github.com/alula",
-      "topRepo": {
-        "name": "beetool",
-        "fullName": "alula/beetool",
-        "stars": 27,
-        "url": "https://github.com/alula/beetool"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6276139?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "alula/beetool"
-      ],
-      "starScore": 27
-    },
-    {
-      "id": "5311137",
-      "rank": 23,
-      "type": "User",
-      "login": "aspasskiy",
-      "repos": [
-        {
-          "id": 1433091853,
-          "fork": false,
-          "name": "claudo",
-          "forks": 0,
-          "owner": "aspasskiy",
-          "stars": 27,
-          "avatar": "https://avatars.githubusercontent.com/u/5311137?v=4",
-          "topics": [],
-          "ownerId": "5311137",
-          "repoUrl": "https://github.com/aspasskiy/claudo",
-          "archived": false,
-          "fullName": "aspasskiy/claudo",
-          "language": "Swift",
-          "ownerUrl": "https://github.com/aspasskiy",
-          "pushedAt": "2026-10-25T11:08:12+00:00",
-          "createdAt": "2026-10-25T10:49:28+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:10:57+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/aspasskiy",
-      "topRepo": {
-        "name": "claudo",
-        "fullName": "aspasskiy/claudo",
-        "stars": 27,
-        "url": "https://github.com/aspasskiy/claudo"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5311137?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "aspasskiy/claudo"
-      ],
-      "starScore": 27
-    },
-    {
       "id": "35264812",
-      "rank": 24,
+      "rank": 19,
       "type": "Organization",
       "login": "assetnote",
       "repos": [
@@ -1245,9 +976,9 @@
           "id": 1432825061,
           "fork": false,
           "name": "node2shell-scanner",
-          "forks": 4,
+          "forks": 6,
           "owner": "assetnote",
-          "stars": 26,
+          "stars": 35,
           "avatar": "https://avatars.githubusercontent.com/u/35264812?v=4",
           "topics": [],
           "ownerId": "35264812",
@@ -1259,7 +990,7 @@
           "pushedAt": "2026-10-25T04:24:27+00:00",
           "createdAt": "2026-10-25T04:23:54+00:00",
           "ownerType": "Organization",
-          "updatedAt": "2026-10-25T11:30:50+00:00",
+          "updatedAt": "2026-10-25T16:22:12+00:00",
           "description": "High fidelity detection mechanism for node2shell (CVE-2026-111497)",
           "defaultBranch": "master"
         }
@@ -1268,7 +999,7 @@
       "topRepo": {
         "name": "node2shell-scanner",
         "fullName": "assetnote/node2shell-scanner",
-        "stars": 26,
+        "stars": 35,
         "url": "https://github.com/assetnote/node2shell-scanner"
       },
       "enriched": true,
@@ -1277,148 +1008,367 @@
       "repoNames": [
         "assetnote/node2shell-scanner"
       ],
-      "starScore": 26
+      "starScore": 35
     },
     {
-      "id": "61807135",
-      "rank": 25,
+      "id": "6276139",
+      "rank": 20,
       "type": "User",
-      "login": "kuscholar",
+      "login": "alula",
       "repos": [
         {
-          "id": 1432518325,
+          "id": 1432585842,
           "fork": false,
-          "name": "iDeck",
-          "forks": 0,
-          "owner": "kuscholar",
-          "stars": 26,
-          "avatar": "https://avatars.githubusercontent.com/u/61807135?v=4",
-          "topics": [
-            "big-picture",
-            "experimental",
-            "fex",
-            "ios",
-            "ipados",
-            "madeira",
-            "metal",
-            "pc-gaming",
-            "steam",
-            "wine"
-          ],
-          "ownerId": "61807135",
-          "repoUrl": "https://github.com/kuscholar/iDeck",
-          "archived": false,
-          "fullName": "kuscholar/iDeck",
-          "language": "C",
-          "ownerUrl": "https://github.com/kuscholar",
-          "pushedAt": "2026-10-25T01:46:22+00:00",
-          "createdAt": "2026-10-24T19:20:34+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:41:54+00:00",
-          "description": "iDeck brings the SteamOS experience to iOS",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/kuscholar",
-      "topRepo": {
-        "name": "iDeck",
-        "fullName": "kuscholar/iDeck",
-        "stars": 26,
-        "url": "https://github.com/kuscholar/iDeck"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/61807135?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "kuscholar/iDeck"
-      ],
-      "starScore": 26
-    },
-    {
-      "id": "85222283",
-      "rank": 26,
-      "type": "User",
-      "login": "Aaryan-Kapoor",
-      "repos": [
-        {
-          "id": 1432717576,
-          "fork": false,
-          "name": "english-rs",
-          "forks": 0,
-          "owner": "Aaryan-Kapoor",
-          "stars": 25,
-          "avatar": "https://avatars.githubusercontent.com/u/85222283?v=4",
+          "name": "beetool",
+          "forks": 1,
+          "owner": "alula",
+          "stars": 34,
+          "avatar": "https://avatars.githubusercontent.com/u/6276139?v=4",
           "topics": [],
-          "ownerId": "85222283",
-          "repoUrl": "https://github.com/Aaryan-Kapoor/english-rs",
+          "ownerId": "6276139",
+          "repoUrl": "https://github.com/alula/beetool",
           "archived": false,
-          "fullName": "Aaryan-Kapoor/english-rs",
-          "language": "Rust",
-          "ownerUrl": "https://github.com/Aaryan-Kapoor",
-          "pushedAt": "2026-10-25T00:50:37+00:00",
-          "createdAt": "2026-10-25T00:50:31+00:00",
+          "fullName": "alula/beetool",
+          "language": "C",
+          "ownerUrl": "https://github.com/alula",
+          "pushedAt": "2026-10-24T21:52:40+00:00",
+          "createdAt": "2026-10-24T20:52:27+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-25T11:34:05+00:00",
-          "description": "English, rewritten in Rust: grammar as trait bounds, pronouns as borrows, and englishc, a compiler with rustc-style diagnostics for prose",
+          "updatedAt": "2026-10-25T15:51:16+00:00",
+          "description": "hactool with Nintendo Switch 2 (Ounce) support",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/alula",
+      "topRepo": {
+        "name": "beetool",
+        "fullName": "alula/beetool",
+        "stars": 34,
+        "url": "https://github.com/alula/beetool"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6276139?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "alula/beetool"
+      ],
+      "starScore": 34
+    },
+    {
+      "id": "69662271",
+      "rank": 21,
+      "type": "User",
+      "login": "ttom795",
+      "repos": [
+        {
+          "id": 1432846402,
+          "fork": false,
+          "name": "Skyrim_Android",
+          "forks": 0,
+          "owner": "ttom795",
+          "stars": 30,
+          "avatar": "https://avatars.githubusercontent.com/u/69662271?v=4",
+          "topics": [],
+          "ownerId": "69662271",
+          "repoUrl": "https://github.com/ttom795/Skyrim_Android",
+          "archived": false,
+          "fullName": "ttom795/Skyrim_Android",
+          "language": "C",
+          "ownerUrl": "https://github.com/ttom795",
+          "pushedAt": "2026-10-25T06:42:13+00:00",
+          "createdAt": "2026-10-25T05:03:01+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:28:36+00:00",
+          "description": "A static recompilation of Skyrim (2011) for Android devices.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/Aaryan-Kapoor",
+      "htmlUrl": "https://github.com/ttom795",
       "topRepo": {
-        "name": "english-rs",
-        "fullName": "Aaryan-Kapoor/english-rs",
-        "stars": 25,
-        "url": "https://github.com/Aaryan-Kapoor/english-rs"
+        "name": "Skyrim_Android",
+        "fullName": "ttom795/Skyrim_Android",
+        "stars": 30,
+        "url": "https://github.com/ttom795/Skyrim_Android"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/85222283?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69662271?v=4",
       "repoCount": 1,
       "repoNames": [
-        "Aaryan-Kapoor/english-rs"
+        "ttom795/Skyrim_Android"
+      ],
+      "starScore": 30
+    },
+    {
+      "id": "253899067",
+      "rank": 22,
+      "type": "User",
+      "login": "zeekk0",
+      "repos": [
+        {
+          "id": 1433066562,
+          "fork": false,
+          "name": "OpenSakura",
+          "forks": 5,
+          "owner": "zeekk0",
+          "stars": 28,
+          "avatar": "https://avatars.githubusercontent.com/u/253899067?v=4",
+          "topics": [
+            "ai-companion",
+            "gpt-sovits",
+            "mekahime",
+            "ollama",
+            "openrouter",
+            "speech-recognition",
+            "text-to-speech",
+            "threejs",
+            "vrm"
+          ],
+          "ownerId": "253899067",
+          "repoUrl": "https://github.com/zeekk0/OpenSakura",
+          "archived": false,
+          "fullName": "zeekk0/OpenSakura",
+          "language": "Python",
+          "ownerUrl": "https://github.com/zeekk0",
+          "pushedAt": "2026-10-25T13:37:54+00:00",
+          "createdAt": "2026-10-25T10:17:41+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:10:56+00:00",
+          "description": "OpenSakura: MekaHime's first AI companion, open source. 3D VRoid avatar, real-time voice, emotion state, OpenRouter or Ollama brain.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/zeekk0",
+      "topRepo": {
+        "name": "OpenSakura",
+        "fullName": "zeekk0/OpenSakura",
+        "stars": 28,
+        "url": "https://github.com/zeekk0/OpenSakura"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/253899067?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "zeekk0/OpenSakura"
+      ],
+      "starScore": 28
+    },
+    {
+      "id": "49567301",
+      "rank": 23,
+      "type": "User",
+      "login": "MaxDevv",
+      "repos": [
+        {
+          "id": 1432637837,
+          "fork": false,
+          "name": "lean-qwenflash",
+          "forks": 2,
+          "owner": "MaxDevv",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/49567301?v=4",
+          "topics": [],
+          "ownerId": "49567301",
+          "repoUrl": "https://github.com/MaxDevv/lean-qwenflash",
+          "archived": false,
+          "fullName": "MaxDevv/lean-qwenflash",
+          "language": "Python",
+          "ownerUrl": "https://github.com/MaxDevv",
+          "pushedAt": "2026-10-25T06:40:32+00:00",
+          "createdAt": "2026-10-24T22:14:37+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:00:47+00:00",
+          "description": "Qwen3.8-Flash-Next at full 262k context on 8 GB RAM and 16 GB VRAM—20 tok/s generation and 1,600 tok/s prefill.",
+          "defaultBranch": "master"
+        }
+      ],
+      "htmlUrl": "https://github.com/MaxDevv",
+      "topRepo": {
+        "name": "lean-qwenflash",
+        "fullName": "MaxDevv/lean-qwenflash",
+        "stars": 25,
+        "url": "https://github.com/MaxDevv/lean-qwenflash"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49567301?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "MaxDevv/lean-qwenflash"
       ],
       "starScore": 25
     },
     {
-      "id": "2741",
-      "rank": 27,
+      "id": "321940728",
+      "rank": 24,
       "type": "User",
-      "login": "dhh",
+      "login": "mochiiwuff",
       "repos": [
         {
-          "id": 1432330299,
+          "id": 1433010899,
           "fork": false,
-          "name": "omarchy-jade-horse-theme",
-          "forks": 2,
-          "owner": "dhh",
-          "stars": 24,
-          "avatar": "https://avatars.githubusercontent.com/u/2741?v=4",
+          "name": "capri-desktop",
+          "forks": 1,
+          "owner": "mochiiwuff",
+          "stars": 25,
+          "avatar": "https://avatars.githubusercontent.com/u/321940728?v=4",
           "topics": [],
-          "ownerId": "2741",
-          "repoUrl": "https://github.com/dhh/omarchy-jade-horse-theme",
+          "ownerId": "321940728",
+          "repoUrl": "https://github.com/mochiiwuff/capri-desktop",
           "archived": false,
-          "fullName": "dhh/omarchy-jade-horse-theme",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/dhh",
-          "pushedAt": "2026-10-25T10:28:33+00:00",
-          "createdAt": "2026-10-24T15:39:46+00:00",
+          "fullName": "mochiiwuff/capri-desktop",
+          "language": "JavaScript",
+          "ownerUrl": "https://github.com/mochiiwuff",
+          "pushedAt": "2026-10-25T09:24:48+00:00",
+          "createdAt": "2026-10-25T09:07:06+00:00",
           "ownerType": "User",
-          "updatedAt": "2026-10-25T10:28:37+00:00",
-          "description": "A jade green Year of the Horse theme for Omarchy, with three original wallpapers",
+          "updatedAt": "2026-10-25T16:26:14+00:00",
+          "description": "Capri, the Project Capricorn construct from Cyberpunk: Edgerunners 2, living on your desktop and narrating what Claude Code is doing.",
           "defaultBranch": "main"
         }
       ],
-      "htmlUrl": "https://github.com/dhh",
+      "htmlUrl": "https://github.com/mochiiwuff",
       "topRepo": {
-        "name": "omarchy-jade-horse-theme",
-        "fullName": "dhh/omarchy-jade-horse-theme",
-        "stars": 24,
-        "url": "https://github.com/dhh/omarchy-jade-horse-theme"
+        "name": "capri-desktop",
+        "fullName": "mochiiwuff/capri-desktop",
+        "stars": 25,
+        "url": "https://github.com/mochiiwuff/capri-desktop"
       },
       "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2741?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321940728?v=4",
       "repoCount": 1,
       "repoNames": [
-        "dhh/omarchy-jade-horse-theme"
+        "mochiiwuff/capri-desktop"
+      ],
+      "starScore": 25
+    },
+    {
+      "id": "113975506",
+      "rank": 25,
+      "type": "User",
+      "login": "cneuralnetwork",
+      "repos": [
+        {
+          "id": 1432609755,
+          "fork": false,
+          "name": "gopath",
+          "forks": 1,
+          "owner": "cneuralnetwork",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/113975506?v=4",
+          "topics": [],
+          "ownerId": "113975506",
+          "repoUrl": "https://github.com/cneuralnetwork/gopath",
+          "archived": false,
+          "fullName": "cneuralnetwork/gopath",
+          "language": "Go",
+          "ownerUrl": "https://github.com/cneuralnetwork",
+          "pushedAt": "2026-10-24T21:35:38+00:00",
+          "createdAt": "2026-10-24T21:29:03+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:28:55+00:00",
+          "description": "A local Go learning app with lessons, quizzes, and runnable practice.",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/cneuralnetwork",
+      "topRepo": {
+        "name": "gopath",
+        "fullName": "cneuralnetwork/gopath",
+        "stars": 24,
+        "url": "https://github.com/cneuralnetwork/gopath"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113975506?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "cneuralnetwork/gopath"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "339941312",
+      "rank": 26,
+      "type": "User",
+      "login": "josiahg2502-glitch",
+      "repos": [
+        {
+          "id": 1433109248,
+          "fork": false,
+          "name": "Smash4PC",
+          "forks": 1,
+          "owner": "josiahg2502-glitch",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/339941312?v=4",
+          "topics": [],
+          "ownerId": "339941312",
+          "repoUrl": "https://github.com/josiahg2502-glitch/Smash4PC",
+          "archived": false,
+          "fullName": "josiahg2502-glitch/Smash4PC",
+          "language": "C++",
+          "ownerUrl": "https://github.com/josiahg2502-glitch",
+          "pushedAt": "2026-10-25T11:11:28+00:00",
+          "createdAt": "2026-10-25T11:11:08+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:27:43+00:00",
+          "description": "Super Smash Bros. for Wii U, natively on Windows: a static recompilation (bring your own game)",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/josiahg2502-glitch",
+      "topRepo": {
+        "name": "Smash4PC",
+        "fullName": "josiahg2502-glitch/Smash4PC",
+        "stars": 24,
+        "url": "https://github.com/josiahg2502-glitch/Smash4PC"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/339941312?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "josiahg2502-glitch/Smash4PC"
+      ],
+      "starScore": 24
+    },
+    {
+      "id": "25338785",
+      "rank": 27,
+      "type": "User",
+      "login": "rajupp",
+      "repos": [
+        {
+          "id": 1432817919,
+          "fork": false,
+          "name": "talkies",
+          "forks": 2,
+          "owner": "rajupp",
+          "stars": 24,
+          "avatar": "https://avatars.githubusercontent.com/u/25338785?v=4",
+          "topics": [],
+          "ownerId": "25338785",
+          "repoUrl": "https://github.com/rajupp/talkies",
+          "archived": false,
+          "fullName": "rajupp/talkies",
+          "language": "Java",
+          "ownerUrl": "https://github.com/rajupp",
+          "pushedAt": "2026-10-25T04:20:37+00:00",
+          "createdAt": "2026-10-25T04:10:58+00:00",
+          "ownerType": "User",
+          "updatedAt": "2026-10-25T16:29:05+00:00",
+          "description": "A small, ad-free home screen for Android TV and Google TV",
+          "defaultBranch": "main"
+        }
+      ],
+      "htmlUrl": "https://github.com/rajupp",
+      "topRepo": {
+        "name": "talkies",
+        "fullName": "rajupp/talkies",
+        "stars": 24,
+        "url": "https://github.com/rajupp/talkies"
+      },
+      "enriched": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25338785?v=4",
+      "repoCount": 1,
+      "repoNames": [
+        "rajupp/talkies"
       ],
       "starScore": 24
     },
@@ -1511,140 +1461,8 @@
       "starScore": 20
     },
     {
-      "id": "69662271",
-      "rank": 30,
-      "type": "User",
-      "login": "ttom795",
-      "repos": [
-        {
-          "id": 1432846402,
-          "fork": false,
-          "name": "Skyrim_Android",
-          "forks": 0,
-          "owner": "ttom795",
-          "stars": 20,
-          "avatar": "https://avatars.githubusercontent.com/u/69662271?v=4",
-          "topics": [],
-          "ownerId": "69662271",
-          "repoUrl": "https://github.com/ttom795/Skyrim_Android",
-          "archived": false,
-          "fullName": "ttom795/Skyrim_Android",
-          "language": "C",
-          "ownerUrl": "https://github.com/ttom795",
-          "pushedAt": "2026-10-25T06:42:13+00:00",
-          "createdAt": "2026-10-25T05:03:01+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:28:12+00:00",
-          "description": "A static recompilation of Skyrim (2011) for Android devices.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/ttom795",
-      "topRepo": {
-        "name": "Skyrim_Android",
-        "fullName": "ttom795/Skyrim_Android",
-        "stars": 20,
-        "url": "https://github.com/ttom795/Skyrim_Android"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69662271?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "ttom795/Skyrim_Android"
-      ],
-      "starScore": 20
-    },
-    {
-      "id": "38493346",
-      "rank": 31,
-      "type": "User",
-      "login": "hyoban",
-      "repos": [
-        {
-          "id": 1432345429,
-          "fork": false,
-          "name": "peek",
-          "forks": 2,
-          "owner": "hyoban",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/38493346?v=4",
-          "topics": [],
-          "ownerId": "38493346",
-          "repoUrl": "https://github.com/hyoban/peek",
-          "archived": false,
-          "fullName": "hyoban/peek",
-          "language": "Go",
-          "ownerUrl": "https://github.com/hyoban",
-          "pushedAt": "2026-10-25T11:04:17+00:00",
-          "createdAt": "2026-10-24T15:56:10+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:04:20+00:00",
-          "description": "A native git diff viewer for macOS, with Codex-written commits and code reviews, built in Go with MyGo",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/hyoban",
-      "topRepo": {
-        "name": "peek",
-        "fullName": "hyoban/peek",
-        "stars": 17,
-        "url": "https://github.com/hyoban/peek"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/38493346?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "hyoban/peek"
-      ],
-      "starScore": 17
-    },
-    {
-      "id": "346247508",
-      "rank": 32,
-      "type": "User",
-      "login": "richiewillmott",
-      "repos": [
-        {
-          "id": 1432204640,
-          "fork": false,
-          "name": "Wirely",
-          "forks": 1,
-          "owner": "richiewillmott",
-          "stars": 17,
-          "avatar": "https://avatars.githubusercontent.com/u/346247508?v=4",
-          "topics": [],
-          "ownerId": "346247508",
-          "repoUrl": "https://github.com/richiewillmott/Wirely",
-          "archived": false,
-          "fullName": "richiewillmott/Wirely",
-          "language": "Python",
-          "ownerUrl": "https://github.com/richiewillmott",
-          "pushedAt": "2026-10-25T09:02:38+00:00",
-          "createdAt": "2026-10-24T13:21:24+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:12:50+00:00",
-          "description": "Free, open-source circuit design and simulation app. Draw a circuit, press play, watch it work: glowing LEDs, spinning motors, 555 timers, logic chips, op-amps and a live graph. For the workplace, the classroom and the workbench.",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/richiewillmott",
-      "topRepo": {
-        "name": "Wirely",
-        "fullName": "richiewillmott/Wirely",
-        "stars": 17,
-        "url": "https://github.com/richiewillmott/Wirely"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/346247508?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "richiewillmott/Wirely"
-      ],
-      "starScore": 17
-    },
-    {
       "id": "341265754",
-      "rank": 33,
+      "rank": 30,
       "type": "User",
       "login": "Chaservonescalator",
       "repos": [
@@ -1708,52 +1526,8 @@
       "starScore": 15
     },
     {
-      "id": "216028215",
-      "rank": 34,
-      "type": "User",
-      "login": "thelastant",
-      "repos": [
-        {
-          "id": 1432333977,
-          "fork": false,
-          "name": "kz2-port-devlog",
-          "forks": 0,
-          "owner": "thelastant",
-          "stars": 15,
-          "avatar": "https://avatars.githubusercontent.com/u/216028215?v=4",
-          "topics": [],
-          "ownerId": "216028215",
-          "repoUrl": "https://github.com/thelastant/kz2-port-devlog",
-          "archived": false,
-          "fullName": "thelastant/kz2-port-devlog",
-          "language": "Unknown",
-          "ownerUrl": "https://github.com/thelastant",
-          "pushedAt": "2026-10-25T11:45:34+00:00",
-          "createdAt": "2026-10-24T15:43:48+00:00",
-          "ownerType": "User",
-          "updatedAt": "2026-10-25T11:45:37+00:00",
-          "description": "",
-          "defaultBranch": "main"
-        }
-      ],
-      "htmlUrl": "https://github.com/thelastant",
-      "topRepo": {
-        "name": "kz2-port-devlog",
-        "fullName": "thelastant/kz2-port-devlog",
-        "stars": 15,
-        "url": "https://github.com/thelastant/kz2-port-devlog"
-      },
-      "enriched": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/216028215?v=4",
-      "repoCount": 1,
-      "repoNames": [
-        "thelastant/kz2-port-devlog"
-      ],
-      "starScore": 15
-    },
-    {
       "id": "341266581",
-      "rank": 35,
+      "rank": 31,
       "type": "User",
       "login": "vaultpuffinshine",
       "repos": [
